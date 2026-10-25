@@ -1,0 +1,33 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VecturaBook Help</title>
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function () {
+  var have = {{ site.data.titles.langs | jsonify }};
+  var langs = navigator.languages || [navigator.language || "en"];
+  for (var i = 0; i < langs.length; i++) {
+    var l = String(langs[i]).toLowerCase().split(/[-_]/)[0];
+    if (l === "iw") l = "he";
+    if (l === "nb" || l === "nn") l = "no";
+    if (have[l]) { location.replace("/" + l + "/"); return; }
+  }
+  location.replace("/en/");
+})();
+</script>
+</head>
+<body>
+<main>
+<h1>VecturaBook Help</h1>
+<ul class="toc">
+{%- for l in site.data.titles.langs %}<li><a href="/{{ l[0] }}/">{{ l[1].help }} ({{ l[0] }})</a></li>{% endfor %}
+</ul>
+</main>
+</body>
+</html>
