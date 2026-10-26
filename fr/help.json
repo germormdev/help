@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Cadre de la caméra",
      "text": "Visez le numéro dans le cadre. Resserrez le cadre autour du numéro en pinçant l'écran : il sera mieux lu. « Pivoter le cadre » sert aux numéros inscrits verticalement. Touchez en dehors du cadre pour prendre la photo.",
-     "image": ""
+     "image": "img/fr/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Numéro de conteneur",
      "text": "Un numéro de conteneur comporte 4 lettres et 7 chiffres. L'application vérifie le chiffre de contrôle ; s'il ne correspond pas, le numéro est enregistré avec la mention « Numéro non validé » — vérifiez-le à l'œil.",
-     "image": ""
+     "image": "img/fr/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Plomb",
      "text": "Le numéro de plomb est lu à partir du texte imprimé. Si le plomb comporte un code-barres qui ne correspond pas au numéro imprimé, l'application retient le numéro imprimé, car le code-barres provient parfois d'une autre série.",
-     "image": ""
+     "image": "img/fr/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Échange de conteneurs",
      "text": "Si, à un arrêt, vous remettez un conteneur à un autre chauffeur et reprenez le sien, enregistrez l'échange : conteneur déchargé, conteneur chargé, nom du chauffeur et immatriculation de son camion.",
-     "image": ""
+     "image": "img/fr/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Photos",
      "text": "Vous pouvez joindre au trajet des photos des documents au chargement et au déchargement via « Photo des documents ». « VOIR LES PHOTOS » les ouvre en plein écran.",
-     "image": ""
+     "image": "img/fr/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Faire une sauvegarde",
      "text": "Paramètres → Sauvegarde : « Exporter la base (sauvegarde) » enregistre le fichier, « Partager la sauvegarde » l'envoie directement (e-mail, messagerie, cloud). Vous pouvez faire une sauvegarde à tout moment sans interrompre votre travail.",
-     "image": ""
+     "image": "img/fr/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Restaurer",
      "text": "« Importer la base (restauration) » remplace toutes les données actuelles par le fichier de sauvegarde. L'application vérifie d'abord le fichier : un fichier étranger ou créé avec une version plus récente sera refusé. Sur un nouveau téléphone, vous pouvez restaurer dès la première étape du premier lancement.",
-     "image": ""
+     "image": "img/fr/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android et iPhone",
      "text": "Le format de sauvegarde est identique sur Android et iPhone : un fichier créé sur l'un se restaure sur l'autre.",
-     "image": ""
+     "image": "img/fr/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Minuteurs",
      "text": "L'attente, le plein et le déchargement continuent même lorsque l'application est réduite : le minuteur reste visible dans le tiroir de notifications. Appuyez sur la notification pour revenir dans l'application.",
-     "image": ""
+     "image": "img/fr/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Échéance des documents",
      "text": "Les notifications d'échéance des documents arrivent à l'avance ainsi que le jour de l'expiration.",
-     "image": ""
+     "image": "img/fr/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Autorisations",
      "text": "Si les notifications, la caméra ou la localisation sont refusées, l'application vous indiquera où les autoriser dans les paramètres du téléphone.",
-     "image": ""
+     "image": "img/fr/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Centre de service",
      "text": "Informations sur l'application et le téléphone, accès aux écrans de service et au canal de diagnostic, galerie des animations.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Base de données",
      "text": "État de la base de données et réinitialisation complète de l'application. La réinitialisation efface tout définitivement — faites d'abord une sauvegarde.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Journaux",
      "text": "Journaux d'activité de l'application pour analyser les pannes.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Reconnaissance",
      "text": "Diagnostic de la lecture des numéros par la caméra.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "Système",
      "text": "Informations sur le téléphone et les plantages.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Langue et accueil",
      "text": "Vérification des langues et relance du premier démarrage.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Images caméra",
      "text": "Prise d'images pour entraîner la reconnaissance — uniquement avec le consentement pour les photos.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Écran de démarrage",
      "text": "Réglage de l'écran d'accueil au lancement.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "Dans le parc",
      "text": "Choisissez la carrosserie « Plateau » et indiquez la longueur du plateau.",
-     "image": ""
+     "image": "img/fr/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "En trajet",
      "text": "Types de cargaison : marchandise générale (palettes, poids, description), hors gabarit (longueur, largeur, hauteur, poids), conteneur sur plateau. Pour le hors gabarit, l'étape « Détails du chargement » demande les dimensions.",
-     "image": ""
+     "image": "img/fr/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Déchargement",
      "text": "Les palettes se livrent à chaque arrêt en nombre ou en pourcentage.",
-     "image": ""
+     "image": "img/fr/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "Dans le parc",
      "text": "Carrosserie « Conteneur » ; taille de conteneur prévue pour la remorque.",
-     "image": ""
+     "image": "img/fr/container-setup.png"
     },
     {
      "id": "trip",
      "title": "En trajet",
      "text": "Série de questions : vide ou chargé, taille, combien de conteneurs, type (Standard, Reefer, Flat Rack, Open Top, Tank). Numéro de conteneur et de plomb par caméra. Plomb de ventilation et température pour un Reefer.",
-     "image": ""
+     "image": "img/fr/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Après le déchargement",
      "text": "L'application demande ce que devient le conteneur : reste chez le client, toujours sur le camion, va chez un autre client ou part en restitution au port ou au dépôt.",
-     "image": ""
+     "image": "img/fr/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "Dans le parc",
      "text": "La carrosserie « Side-lifter » n'est disponible que pour une semi-remorque.",
-     "image": ""
+     "image": "img/fr/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "En trajet",
      "text": "Le conteneur se renseigne comme pour un porte-conteneurs ; le travail avec grue se coche sur le récapitulatif.",
-     "image": ""
+     "image": "img/fr/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Échange",
      "text": "Le side-lifter échange souvent des conteneurs sur place : utilisez « Échange de conteneurs ».",
-     "image": ""
+     "image": "img/fr/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "Dans le parc",
      "text": "Carrosserie « Frigorifique » ; cochez le groupe électrogène s'il est installé, puis indiquez le réservoir du groupe et sa réserve critique.",
-     "image": ""
+     "image": "img/fr/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "En trajet",
      "text": "Température dirigée : dirigée ou ambiante ; température de la cargaison. Sur l'écran de conduite figure l'interrupteur « Groupe en marche ».",
-     "image": ""
+     "image": "img/fr/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Carburant du groupe",
      "text": "Le gazole du groupe se saisit dans un champ dédié lors du plein ; l'application calcule les heures du groupe et sa consommation en litres par heure, et affiche « ≈ N h avant la réserve ».",
-     "image": ""
+     "image": "img/fr/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "Dans le parc",
      "text": "Carrosserie « Bâché ».",
-     "image": ""
+     "image": "img/fr/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "En trajet",
      "text": "Marchandise générale : nombre de palettes, poids total, description.",
-     "image": ""
+     "image": "img/fr/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Déchargement",
      "text": "À chaque arrêt, indiquez le nombre de palettes déchargées ; l'application retient ce qu'il reste à bord.",
-     "image": ""
+     "image": "img/fr/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "Dans le parc",
      "text": "Carrosserie « Benne ».",
-     "image": ""
+     "image": "img/fr/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "En trajet",
      "text": "Vrac : volume en mètres cubes, poids net et poids brut, description.",
-     "image": ""
+     "image": "img/fr/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Déchargement",
      "text": "Le déchargement est horodaté ; le minuteur de manutention indique combien de temps il a duré.",
-     "image": ""
+     "image": "img/fr/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "Dans le parc",
      "text": "Carrosserie « Citerne » ; nombre de compartiments et volume de chacun en litres.",
-     "image": ""
+     "image": "img/fr/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "En trajet",
      "text": "Dans les détails de la cargaison, indiquez le volume de chaque compartiment.",
-     "image": ""
+     "image": "img/fr/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Déchargement",
-     "text": "À chaque arrêt, cochez les compartiments déchargés. S'il reste des compartiments non livrés à la fin du trajet, l'application demandera confirmation.",
-     "image": ""
+     "text": "À chaque arrêt, cochez les compartiments déchargés. Touchez le compartiment sur le dessin de la citerne ou sa carte ; un compartiment se décharge toujours en entier, et un compartiment déchargé apparaît vide sur le dessin. S'il reste des compartiments non livrés à la fin du trajet, l'application demandera confirmation.",
+     "image": "img/fr/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "Dans le parc",
      "text": "Carrosserie « Citerne » ; compartiments et volumes.",
-     "image": ""
+     "image": "img/fr/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "En trajet",
      "text": "Catégorie de liquide : produits chimiques, alimentaire, déchets ; sous température dirigée ; ADR avec numéros UN pour les matières dangereuses.",
-     "image": ""
+     "image": "img/fr/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Déchargement",
      "text": "Les compartiments se livrent arrêt par arrêt, comme pour la citerne à carburant.",
-     "image": ""
+     "image": "img/fr/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "Dans le parc",
      "text": "Carrosserie « Porte-voitures » ; nombre de places véhicules.",
-     "image": ""
+     "image": "img/fr/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "En trajet",
      "text": "Les véhicules sont saisis par code VIN (17 caractères, sans I, O, Q) ou par immatriculation ; le VIN peut être scanné avec la caméra. Le compteur indique combien de véhicules sont chargés.",
-     "image": ""
+     "image": "img/fr/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Déchargement",
      "text": "À chaque arrêt, cochez les véhicules livrés et ceux qui ont été chargés. S'il reste des véhicules à bord à la fin du trajet, l'application demandera confirmation.",
-     "image": ""
+     "image": "img/fr/car-transporter-unload.png"
     }
    ]
   }

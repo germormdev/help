@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Camerakader",
      "text": "Richt het kader op het nummer. Knijp het kader met twee vingers strak om het nummer — dan wordt het beter gelezen. Gebruik „Kader draaien” voor nummers die verticaal geschreven zijn. Tik buiten het kader om de foto te maken.",
-     "image": ""
+     "image": "img/nl/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Containernummer",
      "text": "Een containernummer bestaat uit 4 letters en 7 cijfers. De app controleert het controlecijfer; klopt het nummer niet, dan wordt het opgeslagen met de melding „Nummer niet gevalideerd” — controleer het dan zelf even.",
-     "image": ""
+     "image": "img/nl/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Zegel",
      "text": "Het zegelnummer wordt gelezen van het opschrift. Staat er een streepjescode op het zegel die afwijkt van het gedrukte nummer, dan gebruikt de app het gedrukte nummer: de streepjescode hoort soms bij een andere reeks.",
-     "image": ""
+     "image": "img/nl/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Containerwissel",
      "text": "Geeft u op een locatie een container over aan een andere chauffeur en neemt u zijn container mee, leg de wissel dan vast: welke container is gelost, welke is geladen, de naam van de chauffeur en het kenteken van zijn truck.",
-     "image": ""
+     "image": "img/nl/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Foto's",
      "text": "Bij het laden en lossen kunt u foto's van documenten aan de rit toevoegen via „Documentenfoto”. Met „Foto's bekijken” opent u ze op het volledige scherm.",
-     "image": ""
+     "image": "img/nl/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Back-up maken",
      "text": "Instellingen → Back-up: „Database exporteren (back-up)” slaat het bestand op, „Back-up delen” verstuurt het direct (via e-mail, berichten-app of cloud). U kunt op elk moment een back-up maken — uw werk wordt niet onderbroken.",
-     "image": ""
+     "image": "img/nl/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Herstellen",
      "text": "„Database importeren (herstellen)” vervangt alle huidige gegevens door het back-upbestand. De app controleert het bestand eerst: een vreemd bestand of een back-up uit een nieuwere versie wordt niet geaccepteerd. Op een nieuwe telefoon kunt u de back-up direct bij de eerste stap van de eerste start herstellen.",
-     "image": ""
+     "image": "img/nl/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android en iPhone",
      "text": "De back-up is hetzelfde op Android en iPhone: een bestand dat op het ene toestel is gemaakt, kunt u op het andere herstellen.",
-     "image": ""
+     "image": "img/nl/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Timers",
      "text": "Wachten, tanken en lossen lopen door wanneer de app op de achtergrond staat: de timer is zichtbaar in het meldingenpaneel. Tik op de melding om terug te gaan naar de app.",
-     "image": ""
+     "image": "img/nl/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Vervaldatum documenten",
      "text": "Meldingen over vervaldata van documenten komen van tevoren en op de vervaldag zelf.",
-     "image": ""
+     "image": "img/nl/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Toestemmingen",
      "text": "Zijn meldingen, camera of locatie uitgeschakeld, dan legt de app uit waar u deze kunt toestaan in de instellingen van uw telefoon.",
-     "image": ""
+     "image": "img/nl/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Servicecentrum",
      "text": "Informatie over de app en de telefoon, toegang tot de serviceschermen en het diagnosekanaal, en de animatiegalerij.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Database",
      "text": "Status van de database en het volledig wissen van de app. Wissen verwijdert alles definitief — maak eerst een back-up.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Logboeken",
      "text": "Logboeken van de app-activiteit voor het onderzoeken van storingen.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Herkenning",
      "text": "Diagnose van het lezen van nummers met de camera.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "Systeem",
      "text": "Informatie over de telefoon en over crashes.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Taal en eerste start",
      "text": "Controle van talen en het opnieuw doorlopen van de eerste start.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Camerabeelden",
      "text": "Opnemen van beelden om de nummerherkenning te trainen — alleen met toestemming voor foto's.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Opstartscherm",
      "text": "Instellen van het opstartscherm bij het openen van de app.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "In het wagenpark",
      "text": "Kies het carrosserietype „Platform” en voer de lengte van de oplegger in.",
-     "image": ""
+     "image": "img/nl/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "Tijdens de rit",
      "text": "Ladingtypes: stukgoed (pallets, gewicht, omschrijving), buitenmaats (lengte, breedte, hoogte, gewicht), container op een platform. Bij buitenmaatse lading vraagt de stap „Ladinggegevens” om de afmetingen.",
-     "image": ""
+     "image": "img/nl/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossen",
      "text": "Pallets worden per stop afgeleverd op aantal of op percentage.",
-     "image": ""
+     "image": "img/nl/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "In het wagenpark",
      "text": "Carrosserietype „Container”; kies het containerformaat waarvoor de aanhanger geschikt is.",
-     "image": ""
+     "image": "img/nl/container-setup.png"
     },
     {
      "id": "trip",
      "title": "Tijdens de rit",
      "text": "Reeks vragen: leeg of beladen, formaat, hoeveel containers, type (Standaard, Reefer, Flat Rack, Open Top, Tank). Containernummer en zegelnummer scant u met de camera. Voor een Reefer vult u ook het venta-zegelnummer en de temperatuur in.",
-     "image": ""
+     "image": "img/nl/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Na het lossen",
      "text": "De app vraagt wat er met de container gebeurt: blijft bij de klant, blijft op de truck, gaat naar een andere klant of wordt ingeleverd bij een haven of depot.",
-     "image": ""
+     "image": "img/nl/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "In het wagenpark",
      "text": "Het carrosserietype „Sidelifter” is alleen beschikbaar bij een oplegger.",
-     "image": ""
+     "image": "img/nl/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "Tijdens de rit",
      "text": "U voert de container op dezelfde manier in als bij een gewone containerwagen; werken met de kraan vinkt u aan op het ritoverzicht.",
-     "image": ""
+     "image": "img/nl/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Wissel",
      "text": "Een sidelifter wisselt op een adres vaak containers uit — gebruik hiervoor „Containerwissel”.",
-     "image": ""
+     "image": "img/nl/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "In het wagenpark",
      "text": "Carrosserietype „Koeltrailer”; vink de generator (genset) aan als die aanwezig is, en vul de tank van het aggregaat en de kritieke reserve in.",
-     "image": ""
+     "image": "img/nl/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "Tijdens de rit",
      "text": "Temperatuurgeregeld: geregeld of ongekoeld, en de temperatuur van de lading. Op het rijscherm staat de schakelaar „Aggregaat draait”.",
-     "image": ""
+     "image": "img/nl/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Brandstof van het aggregaat",
      "text": "De diesel voor het aggregaat vult u bij het tanken in een apart veld in; de app telt de draaiuren en berekent het verbruik in liter per uur, en toont „≈ N u tot reserve”.",
-     "image": ""
+     "image": "img/nl/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "In het wagenpark",
      "text": "Carrosserietype „Huifoplegger”.",
-     "image": ""
+     "image": "img/nl/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "Tijdens de rit",
      "text": "Stukgoed: aantal pallets, totaalgewicht en omschrijving.",
-     "image": ""
+     "image": "img/nl/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossen",
      "text": "Geef bij elke stop aan hoeveel pallets er zijn gelost; de app onthoudt wat er nog aan boord staat.",
-     "image": ""
+     "image": "img/nl/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "In het wagenpark",
      "text": "Carrosserietype „Kipper”.",
-     "image": ""
+     "image": "img/nl/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "Tijdens de rit",
      "text": "Stortgoed: volume in kubieke meter, nettogewicht en brutogewicht, omschrijving.",
-     "image": ""
+     "image": "img/nl/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossen",
      "text": "Het lossen wordt vastgelegd met de tijd; de timer voor laadwerkzaamheden laat zien hoe lang het heeft geduurd.",
-     "image": ""
+     "image": "img/nl/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "In het wagenpark",
      "text": "Carrosserietype „Tankwagen”; aantal secties en het volume van elke sectie in liters.",
-     "image": ""
+     "image": "img/nl/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Tijdens de rit",
      "text": "Bij de ladingdetails vult u het volume per sectie in.",
-     "image": ""
+     "image": "img/nl/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossen",
-     "text": "Vink bij een stop de geloste secties aan. Zijn er bij het beëindigen van de rit nog onafgeronde secties over, dan vraagt de app om bevestiging.",
-     "image": ""
+     "text": "Vink bij een stop de geloste secties aan. Tik op de sectie in de tekening van de tankwagen of op de kaart ervan; een sectie wordt altijd helemaal gelost en een geloste sectie is leeg in de tekening. Zijn er bij het beëindigen van de rit nog onafgeronde secties over, dan vraagt de app om bevestiging.",
+     "image": "img/nl/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "In het wagenpark",
      "text": "Carrosserietype „Tankwagen”; secties en volumes.",
-     "image": ""
+     "image": "img/nl/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Tijdens de rit",
      "text": "Vloeistofcategorie: chemicaliën, voedsel, afval; temperatuurgeregeld; ADR met UN-nummers voor gevaarlijke stoffen.",
-     "image": ""
+     "image": "img/nl/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossen",
      "text": "De secties worden per stop op dezelfde manier afgeleverd als bij een brandstoftankwagen.",
-     "image": ""
+     "image": "img/nl/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "In het wagenpark",
      "text": "Carrosserietype „Autotransporter”; aantal autoplaatsen.",
-     "image": ""
+     "image": "img/nl/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "Tijdens de rit",
      "text": "U voert voertuigen in op VIN (17 tekens, geen I, O, Q) of op kenteken; het VIN kunt u scannen met de camera. De teller laat zien hoeveel auto's er geladen zijn.",
-     "image": ""
+     "image": "img/nl/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossen",
      "text": "Geef bij elke stop aan welke voertuigen zijn gelost en welke zijn geladen. Staan er bij het beëindigen van de rit nog voertuigen aan boord, dan vraagt de app om bevestiging.",
-     "image": ""
+     "image": "img/nl/car-transporter-unload.png"
     }
    ]
   }

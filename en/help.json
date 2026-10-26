@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Camera frame",
      "text": "Aim the number into the frame. Pinch the frame tight around the number so it reads better. Use \"Turn the frame\" for numbers written vertically. Tap outside the frame to take the shot.",
-     "image": ""
+     "image": "img/en/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Container Number",
      "text": "A container number has 4 letters and 7 digits. The app checks the check digit; if it does not match, the number is saved with the note \"Number not validated\" — check it with your own eyes.",
-     "image": ""
+     "image": "img/en/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Seal",
      "text": "The seal number is read from the printed text. If the seal has a barcode that does not match the printed number, the app uses the printed number: barcodes sometimes come from a different series.",
-     "image": ""
+     "image": "img/en/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Container Exchange",
      "text": "If you hand over a container to another driver at a stop and pick up theirs, log the exchange: which container was unloaded, which was loaded, the driver's name, and their truck plate number.",
-     "image": ""
+     "image": "img/en/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Photos",
      "text": "You can attach photos of paperwork at loading and unloading using \"Document Photo\". \"VIEW PHOTOS\" opens them full-screen.",
-     "image": ""
+     "image": "img/en/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Create a backup",
      "text": "Settings → Backup: \"Export Database (Backup)\" saves the file, and \"Share Backup\" sends it right away (email, messenger, cloud). You can make a backup at any time without interrupting your work.",
-     "image": ""
+     "image": "img/en/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Restore",
      "text": "\"Import Database (Restore)\" replaces all current data with the backup file. The app checks the file first: an unrelated file or a backup made with a newer version of the app will not be accepted. On a new phone, you can restore right on the first step of the first launch.",
-     "image": ""
+     "image": "img/en/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android and iPhone",
      "text": "The backup format is the same on Android and iPhone: a file made on one can be restored on the other.",
-     "image": ""
+     "image": "img/en/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Timers",
      "text": "Waiting, refueling, and unloading timers keep running when the app is minimized: the timer is shown in the notification shade. Tap the notification to return to the app.",
-     "image": ""
+     "image": "img/en/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Document expiry",
      "text": "Document expiry notifications arrive in advance and on the day a document expires.",
-     "image": ""
+     "image": "img/en/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Permissions",
      "text": "If notifications, camera, or location permissions are turned off, the app will show you where to allow them in your phone's settings.",
-     "image": ""
+     "image": "img/en/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Service hub",
      "text": "Information about the app and phone, access to service screens and the diagnostic channel, and the animation gallery.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Database",
      "text": "Database status and full app reset. A reset permanently erases everything — make a backup first.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Logs",
      "text": "Application activity logs for troubleshooting.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "OCR",
      "text": "Diagnostics for camera number recognition.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "System",
      "text": "Information about the phone and crash reports.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Language and onboarding",
      "text": "Language checks and re-running the first-launch steps.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Camera frames",
      "text": "Capturing frames to train number recognition — only when photo consent is enabled.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Splash screen",
      "text": "Startup splash screen settings.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "In Garage",
      "text": "Select the \"Flatbed\" body type and enter the \"Flatbed length\".",
-     "image": ""
+     "image": "img/en/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "On a trip",
      "text": "Cargo types: \"General\" (pallets, weight, description), \"Oversized\" (length, width, height, weight), or \"Container\" on a flatbed. For oversized cargo, the \"Load details\" step asks for the dimensions.",
-     "image": ""
+     "image": "img/en/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Unloading",
      "text": "Pallets are unloaded at each stop by count or by percentage.",
-     "image": ""
+     "image": "img/en/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "In Garage",
      "text": "Body type \"Container\", plus the \"Container Size\" the trailer is built for.",
-     "image": ""
+     "image": "img/en/container-setup.png"
     },
     {
      "id": "trip",
      "title": "On a trip",
      "text": "Chain of questions: \"Empty or laden?\", \"Container size?\", \"How many containers?\", \"Container type?\" (\"Standard\", Reefer, Flat Rack, Open Top, Tank). Scan the container number and seal number with the camera. Venta seal number and temperature are available for Reefer.",
-     "image": ""
+     "image": "img/en/container-trip.png"
     },
     {
      "id": "fate",
      "title": "After unloading",
      "text": "The app asks what happened to the container: left with the client, still on the truck, going to another client, or returning to a port or depot.",
-     "image": ""
+     "image": "img/en/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "In Garage",
      "text": "The \"Sidelifter\" body type is only available for a semi-trailer.",
-     "image": ""
+     "image": "img/en/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "On a trip",
      "text": "Enter the container the same way as for a container chassis; mark \"Working with crane\" on the trip summary.",
-     "image": ""
+     "image": "img/en/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Exchange",
      "text": "A sidelifter often swaps containers at a stop — use \"Container Exchange\".",
-     "image": ""
+     "image": "img/en/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "In Garage",
      "text": "Body type \"Refrigerated\"; check \"Generator (genset) installed\" if it has one, and enter the \"Unit tank, l\" and \"Unit critical reserve, l\".",
-     "image": ""
+     "image": "img/en/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "On a trip",
      "text": "\"Temperature-controlled?\": \"Controlled\" or \"Ambient\", plus cargo temperature. On the driving screen, use the \"Trailer unit running\" switch.",
-     "image": ""
+     "image": "img/en/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Unit fuel",
      "text": "Enter trailer unit diesel in its own field when refueling; the app tracks unit hours and consumption in L/h and shows \"≈ N h to reserve\".",
-     "image": ""
+     "image": "img/en/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "In Garage",
      "text": "Body type \"Curtainsider\".",
-     "image": ""
+     "image": "img/en/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "On a trip",
      "text": "General cargo: \"Number of pallets\", \"Total weight (kg)\", and \"Cargo description\".",
-     "image": ""
+     "image": "img/en/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Unloading",
      "text": "At each stop, mark how many pallets were unloaded; the app remembers how many remain on board.",
-     "image": ""
+     "image": "img/en/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "In Garage",
      "text": "Body type \"Tipper\".",
-     "image": ""
+     "image": "img/en/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "On a trip",
      "text": "Bulk cargo: \"Volume (m³)\", \"Weight Netto (kg)\" and \"Weight Brutto (kg)\", and \"Cargo description\".",
-     "image": ""
+     "image": "img/en/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Unloading",
      "text": "Unloading is logged by time; the cargo handling timer shows how long it took.",
-     "image": ""
+     "image": "img/en/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "In Garage",
      "text": "Body type \"Fuel Tanker\"; \"Number of Sections\" and the volume of each section in liters.",
-     "image": ""
+     "image": "img/en/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "On a trip",
      "text": "In \"Cargo Details\", enter the volume for each section.",
-     "image": ""
+     "image": "img/en/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Unloading",
-     "text": "At each stop, select the unloaded sections. If any sections are still not delivered when you finish the trip, the app will ask you to confirm.",
-     "image": ""
+     "text": "At each stop, select the unloaded sections. Tap a section on the tanker drawing or its card; a section is always unloaded in full, and an unloaded section turns empty in the drawing. If any sections are still not delivered when you finish the trip, the app will ask you to confirm.",
+     "image": "img/en/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "In Garage",
      "text": "Body type \"Tanker\"; sections and their volumes.",
-     "image": ""
+     "image": "img/en/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "On a trip",
      "text": "\"Liquid category\": \"Chemicals\", \"Food-grade\", or \"Waste\"; \"Temperature controlled\"; ADR with UN numbers for dangerous goods.",
-     "image": ""
+     "image": "img/en/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Unloading",
      "text": "Sections are unloaded at each stop the same way as on a fuel tanker.",
-     "image": ""
+     "image": "img/en/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "In Garage",
      "text": "Body type \"Car Transporter\"; \"Number of car slots\".",
-     "image": ""
+     "image": "img/en/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "On a trip",
      "text": "Add vehicles by VIN (17 characters, no I, O, or Q) or by \"License plate\"; you can scan the VIN with the camera. A counter shows how many vehicles are loaded.",
-     "image": ""
+     "image": "img/en/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Unloading",
      "text": "At each stop, mark which vehicles were dropped and which were picked up. If vehicles are still on board when you finish the trip, the app will ask you to confirm.",
-     "image": ""
+     "image": "img/en/car-transporter-unload.png"
     }
    ]
   }

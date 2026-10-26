@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Kamerarahmen",
      "text": "Richten Sie die Nummer im Rahmen aus. Ziehen Sie den Rahmen mit zwei Fingern eng um die Nummer — so wird sie besser erkannt. „Rahmen drehen“ hilft bei senkrecht geschriebenen Nummern. Ein Tippen außerhalb des Rahmens löst die Aufnahme aus.",
-     "image": ""
+     "image": "img/de/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Containernummer",
      "text": "Eine Containernummer besteht aus 4 Buchstaben und 7 Ziffern. Die App prüft die Prüfziffer; stimmt sie nicht überein, wird die Nummer mit dem Hinweis „Nummer nicht validiert“ gespeichert — bitte prüfen Sie sie dann selbst.",
-     "image": ""
+     "image": "img/de/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Plombe",
      "text": "Die Plombennummer wird vom Aufdruck gelesen. Wenn auf der Plombe ein Barcode steht und dieser nicht mit der aufgedruckten Nummer übereinstimmt, übernimmt die App die gedruckte Nummer: Der Barcode stammt mitunter aus einer anderen Serie.",
-     "image": ""
+     "image": "img/de/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Container-Austausch",
      "text": "Wenn Sie an einem Stopp einen Container an einen anderen Fahrer übergeben und dessen Container übernehmen, erfassen Sie den Austausch: welcher Container entladen und welcher geladen wurde, dazu den Fahrernamen und das LKW-Kennzeichen des Kollegen.",
-     "image": ""
+     "image": "img/de/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Fotos",
      "text": "Sie können einer Fahrt Fotos der Frachtpapiere beim Be- und Entladen anhängen: „Dokumentenfoto“. Mit „FOTOS ANSEHEN“ öffnen Sie die Bilder im Vollbild.",
-     "image": ""
+     "image": "img/de/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Backup erstellen",
      "text": "„Einstellungen“ → „Sicherung“: „Datenbank exportieren (Backup)“ speichert die Datei auf dem Gerät, „Backup teilen“ versendet sie direkt (E-Mail, Messenger, Cloud). Sie können jederzeit ein Backup erstellen — die laufende Arbeit wird nicht unterbrochen.",
-     "image": ""
+     "image": "img/de/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Wiederherstellen",
      "text": "„Datenbank importieren (Restore)“ ersetzt alle aktuellen Daten durch die Backup-Datei. Die App prüft die Datei vorab: Eine fremde Datei oder ein Backup aus einer neueren App-Version wird nicht angenommen. Auf einem neuen Telefon können Sie das Backup direkt im ersten Schritt beim ersten Start wiederherstellen.",
-     "image": ""
+     "image": "img/de/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android und iPhone",
      "text": "Das Backup-Format ist auf Android und iPhone gleich: Eine Datei, die auf dem einen Gerät erstellt wurde, lässt sich auf dem anderen wiederherstellen.",
-     "image": ""
+     "image": "img/de/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Timer",
      "text": "Warten, Tanken und Entladen laufen auch weiter, wenn die App im Hintergrund ist: Der Timer bleibt in der Benachrichtigungsleiste sichtbar. Tippen Sie auf die Benachrichtigung, um zur App zurückzukehren.",
-     "image": ""
+     "image": "img/de/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Dokumentenfristen",
      "text": "Benachrichtigungen über ablaufende Dokumente kommen rechtzeitig im Voraus sowie am Tag des Ablaufs.",
-     "image": ""
+     "image": "img/de/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Berechtigungen",
      "text": "Wenn Benachrichtigungen, Kamera oder Standortzugriff gesperrt sind, zeigt die App Ihnen, wo Sie diese in den Telefoneinstellungen freigeben können.",
-     "image": ""
+     "image": "img/de/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Servicecenter",
      "text": "Informationen zu App und Telefon, Zugang zu den Servicebildschirmen und zum Diagnosekanal sowie die Animationsgalerie.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Datenbank",
      "text": "Zustand der Datenbank und vollständiges Zurücksetzen der App. Beim Zurücksetzen wird alles unwiderruflich gelöscht — erstellen Sie vorher ein Backup.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Protokolle",
      "text": "Protokolle der App-Aktivität zur Untersuchung von Fehlern.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Texterkennung",
      "text": "Diagnose für das Erkennen von Nummern mit der Kamera.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "System",
      "text": "Angaben zum Telefon und zu App-Abstürzen.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Sprache und Einrichtung",
      "text": "Prüfung der Sprachdateien und erneutes Durchlaufen des ersten Starts.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Kamerabilder",
      "text": "Aufnahme von Bildern zum Trainieren der Texterkennung — nur mit aktiver Einwilligung für Fotos.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Startbildschirm",
      "text": "Einstellungen für den Startbildschirm beim Öffnen der App.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "Im Fuhrpark",
      "text": "Wählen Sie die Aufbauart „Pritsche“ und geben Sie die „Pritschenlänge“ an.",
-     "image": ""
+     "image": "img/de/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "Auf der Fahrt",
      "text": "Ladungstypen: „Stückgut“ (Paletten, Gewicht, Beschreibung), „Sperrgut“ (Länge, Breite, Höhe, Gewicht) oder „Übermaß-Container“ auf der Pritsche. Bei Sperrgut fragt der Schritt „Ladungsdetails“ die Maße ab.",
-     "image": ""
+     "image": "img/de/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Entladung",
      "text": "Paletten werden an den Stopps nach Stückzahl oder in Prozent abgeladen.",
-     "image": ""
+     "image": "img/de/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "Im Fuhrpark",
      "text": "Aufbauart „Container“; dazu die Containergröße, für die der Anhänger ausgelegt ist.",
-     "image": ""
+     "image": "img/de/container-setup.png"
     },
     {
      "id": "trip",
      "title": "Auf der Fahrt",
      "text": "Fragenkette: „Leer“ oder „Beladen“, Größe, wie viele Container, Typ („Standard“, Reefer, Flat Rack, Open Top, Tank). Containernummer und Plombennummer scannen Sie mit der Kamera. Beim Reefer kommen Lüftungsplombe und Temperatur hinzu.",
-     "image": ""
+     "image": "img/de/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Nach dem Entladen",
      "text": "Die App fragt, was mit dem Container geschieht: bleibt beim Kunden, bleibt auf dem Fahrzeug, fährt weiter zu einem anderen Kunden oder geht zurück an Hafen oder Depot.",
-     "image": ""
+     "image": "img/de/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "Im Fuhrpark",
      "text": "Die Aufbauart „Seitenlader“ gibt es nur beim Sattelauflieger.",
-     "image": ""
+     "image": "img/de/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "Auf der Fahrt",
      "text": "Der Container wird genauso eingetragen wie beim Containerchassis; die Kranarbeiten markieren Sie auf der Fahrtzusammenfassung.",
-     "image": ""
+     "image": "img/de/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Austausch",
      "text": "Mit dem Seitenlader werden am Stopp häufig Container getauscht — nutzen Sie dafür „Container-Austausch“.",
-     "image": ""
+     "image": "img/de/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "Im Fuhrpark",
      "text": "Aufbauart „Kühlauflieger“; aktivieren Sie „Generator (Genset) verbaut“, falls vorhanden, und tragen Sie „Tank des Aggregats, l“ sowie „Kritische Reserve des Aggregats, l“ ein.",
-     "image": ""
+     "image": "img/de/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "Auf der Fahrt",
      "text": "Temperaturführung: „Gekühlt“ oder „Ungekühlt“ sowie die Temperatur der Ladung. Auf dem Fahrbildschirm schalten Sie „Aggregat läuft“ ein.",
-     "image": ""
+     "image": "img/de/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Kraftstoff des Aggregats",
      "text": "Den Diesel für das Aggregat tragen Sie beim Tanken in ein eigenes Feld ein; die App zählt die Betriebsstunden, berechnet den Verbrauch in Litern pro Stunde und zeigt „≈ N h bis zur Reserve“.",
-     "image": ""
+     "image": "img/de/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "Im Fuhrpark",
      "text": "Aufbauart „Planenauflieger“.",
-     "image": ""
+     "image": "img/de/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "Auf der Fahrt",
      "text": "Stückgut: „Anzahl Paletten“, „Gesamtgewicht (kg)“ und „Ladungsbeschreibung“.",
-     "image": ""
+     "image": "img/de/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Entladung",
      "text": "Geben Sie an jedem Stopp an, wie viele Paletten abgeladen wurden; die App merkt sich den verbleibenden Bestand an Bord.",
-     "image": ""
+     "image": "img/de/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "Im Fuhrpark",
      "text": "Aufbauart „Kipper“.",
-     "image": ""
+     "image": "img/de/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "Auf der Fahrt",
      "text": "Schüttgut: Volumen in Kubikmetern, Netto- und Bruttogewicht sowie Beschreibung.",
-     "image": ""
+     "image": "img/de/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Entladung",
      "text": "Die Entladung wird über die Zeit erfasst; der Timer für die Ladearbeiten zeigt die Dauer an.",
-     "image": ""
+     "image": "img/de/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "Im Fuhrpark",
      "text": "Aufbauart „Tankwagen“; dazu die Anzahl der Kammern und das Volumen jeder Kammer in Litern.",
-     "image": ""
+     "image": "img/de/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Auf der Fahrt",
      "text": "In den Ladungsdetails tragen Sie das Volumen für jede Kammer ein.",
-     "image": ""
+     "image": "img/de/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Entladung",
-     "text": "Markieren Sie am Stopp die entladenen Kammern. Wenn beim Beenden der Fahrt noch nicht entladene Kammern übrig sind, fragt die App zur Sicherheit nach.",
-     "image": ""
+     "text": "Markieren Sie am Stopp die entladenen Kammern. Tippen Sie die Kammer auf der Zeichnung des Tankwagens oder ihre Karte an; eine Kammer wird immer ganz entladen, eine entladene Kammer erscheint auf der Zeichnung leer. Wenn beim Beenden der Fahrt noch nicht entladene Kammern übrig sind, fragt die App zur Sicherheit nach.",
+     "image": "img/de/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "Im Fuhrpark",
      "text": "Aufbauart „Tankwagen“; dazu Kammern und Volumina.",
-     "image": ""
+     "image": "img/de/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Auf der Fahrt",
      "text": "Flüssigkeitskategorie: „Chemikalien“, „Lebensmittel“, „Abfall“; „Temperaturkontrolliert“; dazu ADR mit UN-Nummern für Gefahrgut.",
-     "image": ""
+     "image": "img/de/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Entladung",
      "text": "Die Kammern werden an den Stopps genauso abgeladen wie beim Kraftstoff-Tankwagen.",
-     "image": ""
+     "image": "img/de/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "Im Fuhrpark",
      "text": "Aufbauart „Autotransporter“; dazu die „Anzahl Autostellplätze“.",
-     "image": ""
+     "image": "img/de/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "Auf der Fahrt",
      "text": "Die Fahrzeuge tragen Sie per VIN (17 Zeichen, ohne I, O, Q) oder per Kennzeichen ein; die VIN lässt sich mit der Kamera scannen. Der Zähler zeigt an, wie viele Fahrzeuge geladen sind.",
-     "image": ""
+     "image": "img/de/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Entladung",
      "text": "Markieren Sie am Stopp, welche Fahrzeuge abgeladen und welche neu aufgeladen wurden. Sind beim Beenden der Fahrt noch Fahrzeuge an Bord, bittet die App um Bestätigung.",
-     "image": ""
+     "image": "img/de/car-transporter-unload.png"
     }
    ]
   }

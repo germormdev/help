@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Moldura da câmara",
      "text": "Aponte o número para dentro da moldura. Aperte a moldura com dois dedos bem junto ao número — assim lê-se melhor. «Rodar a moldura» serve para números escritos na vertical. Um toque fora da moldura tira a fotografia.",
-     "image": ""
+     "image": "img/pt/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Número do contentor",
      "text": "O número do contentor tem 4 letras e 7 dígitos. A aplicação verifica o dígito de controlo; se não bater certo, o número é guardado com o aviso «Número não validado» — confirme-o visualmente.",
-     "image": ""
+     "image": "img/pt/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Selo",
      "text": "O número do selo é lido a partir do texto impresso. Se o selo tiver código de barras e este não coincidir com o número impresso, a aplicação usa o número impresso, pois o código de barras pode pertencer a outra série.",
-     "image": ""
+     "image": "img/pt/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Troca de contentores",
      "text": "Se no local entregar um contentor a outro motorista e recolher o dele, registe a troca: qual o contentor descarregado, qual o contentor carregado, o nome do condutor e a matrícula do camião dele.",
-     "image": ""
+     "image": "img/pt/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Fotos",
      "text": "Pode anexar à viagem fotografias dos documentos na carga e na descarga: «Foto dos documentos». «Ver fotos» abre as imagens em ecrã inteiro.",
-     "image": ""
+     "image": "img/pt/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Fazer cópia de segurança",
      "text": "Definições → Cópia de segurança: «Exportar base de dados (cópia)» guarda o ficheiro e «Compartilhar backup» envia-o de imediato (e-mail, mensagens, nuvem). Pode fazer uma cópia de segurança a qualquer momento sem interromper o trabalho.",
-     "image": ""
+     "image": "img/pt/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Restaurar",
      "text": "«Importar base de dados (restaurar)» substitui todos os dados atuais pelo ficheiro de cópia. A aplicação verifica primeiro o ficheiro: um ficheiro estranho ou criado numa versão mais recente da aplicação não será aceite. Num telemóvel novo, pode restaurar logo no primeiro passo da primeira utilização.",
-     "image": ""
+     "image": "img/pt/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android e iPhone",
      "text": "A cópia de segurança é igual no Android e no iPhone: um ficheiro criado num pode ser restaurado no outro.",
-     "image": ""
+     "image": "img/pt/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Temporizadores",
      "text": "Espera, abastecimento e descarga continuam a contar mesmo com a aplicação minimizada: o temporizador fica visível na barra de notificações. Toque na notificação para voltar à aplicação.",
-     "image": ""
+     "image": "img/pt/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Validade dos documentos",
      "text": "As notificações sobre a validade dos documentos chegam com antecedência e no próprio dia em que expiram.",
-     "image": ""
+     "image": "img/pt/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Permissões",
      "text": "Se as notificações, a câmara ou a localização estiverem desativadas, a aplicação indica onde as pode permitir nas definições do telemóvel.",
-     "image": ""
+     "image": "img/pt/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Centro de serviço",
      "text": "Informações sobre a aplicação e o telemóvel, acesso aos ecrãs de serviço e ao canal de diagnóstico, e galeria de animações.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Base de dados",
      "text": "Estado da base de dados e reposição total da aplicação. A reposição apaga tudo de forma irreversível — faça primeiro uma cópia de segurança.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Registos",
      "text": "Registos de atividade da aplicação para análise de falhas.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Reconhecimento",
      "text": "Diagnóstico da leitura de números com a câmara.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "Sistema",
      "text": "Informações sobre o telemóvel e falhas da aplicação.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Idioma e configuração inicial",
      "text": "Verificação de idiomas e repetição da primeira utilização.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Fotogramas da câmara",
      "text": "Captura de imagens para treinar o reconhecimento — apenas com o consentimento para fotografias ativo.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Ecrã de arranque",
      "text": "Configuração do ecrã de abertura ao iniciar a aplicação.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "Na frota",
      "text": "Indique a carroçaria «Plataforma» e o comprimento da plataforma.",
-     "image": ""
+     "image": "img/pt/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "Na viagem",
      "text": "Tipos de carga: carga geral (paletes, peso, descrição), especial (comprimento, largura, altura, peso) e contentor em plataforma. Na carga especial, o passo «Detalhes da carga» pede as dimensões.",
-     "image": ""
+     "image": "img/pt/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Descarga",
      "text": "As paletes são entregues em cada paragem por quantidade ou por percentagem.",
-     "image": ""
+     "image": "img/pt/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "Na frota",
      "text": "Carroçaria «Contentor»; indique o tamanho do contentor para o qual o reboque está preparado.",
-     "image": ""
+     "image": "img/pt/container-setup.png"
     },
     {
      "id": "trip",
      "title": "Na viagem",
      "text": "Sequência de perguntas: vazio ou carregado, tamanho, quantos contentores, tipo (Padrão, Reefer, Flat Rack, Open Top, Tank). Número do contentor e do selo — com a câmara. Selo da ventilação e temperatura — para Reefer.",
-     "image": ""
+     "image": "img/pt/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Após a descarga",
      "text": "A aplicação pergunta o que aconteceu com o contentor: ficou no cliente, continua no camião, segue para outro cliente ou vai para devolução num porto ou depósito.",
-     "image": ""
+     "image": "img/pt/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "Na frota",
      "text": "A carroçaria «Sidelifter» só existe para semirreboques.",
-     "image": ""
+     "image": "img/pt/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "Na viagem",
      "text": "O contentor regista-se da mesma forma que no porta-contentores; o trabalho com grua marca-se no resumo da viagem.",
-     "image": ""
+     "image": "img/pt/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Troca",
      "text": "O Sidelifter troca frequentemente contentores no local — utilize «Troca de contentores».",
-     "image": ""
+     "image": "img/pt/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "Na frota",
      "text": "Carroçaria «Frigorífico»; marque se tem gerador instalado, indique a capacidade do depósito da unidade e a respetiva reserva crítica.",
-     "image": ""
+     "image": "img/pt/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "Na viagem",
      "text": "Temperatura controlada: controlada ou ambiente; temperatura da carga. No ecrã de condução encontra o interruptor «Unidade a funcionar».",
-     "image": ""
+     "image": "img/pt/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Combustível da unidade",
      "text": "O gasóleo da unidade introduz-se no abastecimento num campo próprio; a aplicação conta as horas da unidade e o consumo em litros por hora e mostra «≈ N h até à reserva».",
-     "image": ""
+     "image": "img/pt/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "Na frota",
      "text": "Carroçaria «Lona».",
-     "image": ""
+     "image": "img/pt/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "Na viagem",
      "text": "Carga geral: número de paletes, peso total e descrição.",
-     "image": ""
+     "image": "img/pt/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Descarga",
      "text": "Em cada paragem, indique quantas paletes foram descarregadas; a aplicação guarda o que resta a bordo.",
-     "image": ""
+     "image": "img/pt/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "Na frota",
      "text": "Carroçaria «Basculante».",
-     "image": ""
+     "image": "img/pt/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "Na viagem",
      "text": "Granel: volume em metros cúbicos, peso líquido e peso bruto, descrição.",
-     "image": ""
+     "image": "img/pt/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Descarga",
      "text": "A descarga é registada pela hora; o temporizador de manuseamento da carga mostra quanto tempo durou.",
-     "image": ""
+     "image": "img/pt/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "Na frota",
      "text": "Carroçaria «Cisterna»; número de compartimentos e volume de cada um em litros.",
-     "image": ""
+     "image": "img/pt/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Na viagem",
      "text": "Nos detalhes da carga indica-se o volume de cada compartimento.",
-     "image": ""
+     "image": "img/pt/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Descarga",
-     "text": "Na paragem, selecione os compartimentos descarregados. Se ao terminar a viagem ainda houver compartimentos por entregar, a aplicação pede confirmação.",
-     "image": ""
+     "text": "Na paragem, selecione os compartimentos descarregados. Toque no compartimento no desenho da cisterna ou no seu cartão; um compartimento é sempre descarregado por inteiro e o descarregado fica vazio no desenho. Se ao terminar a viagem ainda houver compartimentos por entregar, a aplicação pede confirmação.",
+     "image": "img/pt/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "Na frota",
      "text": "Carroçaria «Cisterna»; compartimentos e volumes.",
-     "image": ""
+     "image": "img/pt/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Na viagem",
      "text": "Categoria de líquido: produtos químicos, alimentar, resíduos; temperatura controlada; ADR com números UN para mercadorias perigosas.",
-     "image": ""
+     "image": "img/pt/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Descarga",
      "text": "Os compartimentos são entregues em cada paragem da mesma forma que na cisterna de combustível.",
-     "image": ""
+     "image": "img/pt/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "Na frota",
      "text": "Carroçaria «Porta-automóveis»; número de lugares para veículos.",
-     "image": ""
+     "image": "img/pt/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "Na viagem",
      "text": "Os veículos são registados por VIN (17 caracteres, sem I, O, Q) ou por matrícula; o VIN pode ser digitalizado com a câmara. O contador mostra quantos veículos estão carregados.",
-     "image": ""
+     "image": "img/pt/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Descarga",
      "text": "Na paragem, marque que veículos foram entregues e quais foram carregados. Se ao terminar a viagem ainda restarem veículos a bordo, a aplicação pede confirmação.",
-     "image": ""
+     "image": "img/pt/car-transporter-unload.png"
     }
    ]
   }

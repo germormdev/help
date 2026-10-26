@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Okvir kamere",
      "text": "Usmjerite broj u okvir. Stisnite okvir s dva prsta uz sam broj — tako se bolje čita. Gumb „Okreni okvir” služi za brojeve ispisane okomito. Dodir izvan okvira snima sliku.",
-     "image": ""
+     "image": "img/hr/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Broj kontejnera",
      "text": "Broj kontejnera ima 4 slova i 7 znamenki. Aplikacija provjerava kontrolnu znamenku; ako se broj ne slaže, sprema se s oznakom „Broj nije provjeren” — provjerite ga sami.",
-     "image": ""
+     "image": "img/hr/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Plomba",
      "text": "Broj plombe čita se s natpisa. Ako plomba ima crtični kod koji se ne podudara s otisnutim brojem, aplikacija uzima otisnuti broj jer crtični kod ponekad pripada drugoj seriji.",
-     "image": ""
+     "image": "img/hr/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Zamjena kontejnera",
      "text": "Ako na točki predajete kontejner drugom vozaču i preuzimate njegov, zabilježite zamjenu: koji je kontejner istovaren, koji utovaren, ime vozača i registraciju njegova tegljača.",
-     "image": ""
+     "image": "img/hr/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Fotografije",
      "text": "Vožnji možete priložiti fotografije dokumenata pri utovaru i istovaru pomoću gumba „Foto dokumenata”. Gumb „Prikaži fotografije” otvara ih preko cijelog zaslona.",
-     "image": ""
+     "image": "img/hr/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Izrada sigurnosne kopije",
      "text": "Postavke → Sigurnosna kopija: „Izvezi bazu (sigurnosna kopija)” sprema datoteku, a „Podijeli sigurnosnu kopiju” odmah je šalje (e-pošta, poruke, oblak). Sigurnosnu kopiju možete napraviti u svakom trenutku — rad se ne prekida.",
-     "image": ""
+     "image": "img/hr/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Vraćanje",
      "text": "Opcija „Uvezi bazu (vraćanje)” zamjenjuje sve trenutne podatke datotekom sigurnosne kopije. Aplikacija će najprije provjeriti datoteku: tuđa datoteka ili kopija iz novije verzije aplikacije neće biti prihvaćena. Na novom telefonu podatke možete vratiti odmah na prvom koraku pri prvom pokretanju.",
-     "image": ""
+     "image": "img/hr/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android i iPhone",
      "text": "Sigurnosna kopija jednaka je na Androidu i iPhoneu: datoteka spremljena na jednom uređaju vraća se na drugom.",
-     "image": ""
+     "image": "img/hr/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Mjerači vremena",
      "text": "Čekanje, točenje goriva i istovar rade i kada je aplikacija u pozadini: mjerač vremena vidljiv je u traci obavijesti. Dodirnite obavijest za povratak u aplikaciju.",
-     "image": ""
+     "image": "img/hr/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Rokovi dokumenata",
      "text": "Obavijesti o rokovima valjanosti dokumenata stižu unaprijed i na sam dan isteka.",
-     "image": ""
+     "image": "img/hr/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Dopuštenja",
      "text": "Ako su obavijesti, kamera ili lokacija odbijene, aplikacija će pokazati gdje ih možete dopustiti u postavkama telefona.",
-     "image": ""
+     "image": "img/hr/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Servisni centar",
      "text": "Podaci o aplikaciji i telefonu, ulaz u servisne zaslone i dijagnostički kanal te galerija animacija.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Baza podataka",
      "text": "Stanje baze podataka i potpuno brisanje aplikacije. Resetiranje nepovratno briše sve — najprije napravite sigurnosnu kopiju.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Zapisi rada",
      "text": "Zapisi o radu aplikacije za potrebe rješavanja kvarova.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Prepoznavanje",
      "text": "Dijagnostika čitanja brojeva kamerom.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "Sustav",
      "text": "Podaci o telefonu i rušenjima aplikacije.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Jezik i uvodni koraci",
      "text": "Provjera prijevoda i ponovno pokretanje prvog postavljanja.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Snimke kamere",
      "text": "Snimanje kadrova za učenje prepoznavanja — samo uz privolu za snimke.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Početni zaslon",
      "text": "Postavljanje početnog zaslona pri pokretanju.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "U voznom parku",
      "text": "Odaberite nadogradnju „Platforma” i unesite duljinu platforme.",
-     "image": ""
+     "image": "img/hr/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "U vožnji",
      "text": "Vrste tereta: opći teret (palete, težina, opis), izvangabaritni teret (duljina, širina, visina, težina), kontejner na platformi. Kod izvangabaritnog tereta korak „Detalji tereta” traži dimenzije.",
-     "image": ""
+     "image": "img/hr/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Istovar",
      "text": "Palete se predaju po točkama kao broj ili postotak.",
-     "image": ""
+     "image": "img/hr/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "U voznom parku",
      "text": "Nadogradnja „Kontejner”; veličina kontejnera za koju je poluprikolica namijenjena.",
-     "image": ""
+     "image": "img/hr/container-setup.png"
     },
     {
      "id": "trip",
      "title": "U vožnji",
      "text": "Niz pitanja: prazan ili natovaren, veličina, koliko kontejnera, tip (standardni, Reefer, Flat Rack, Open Top, Tank). Broj kontejnera i plombe skeniraju se kamerom. Plomba ventilacije i temperatura unose se za Reefer.",
-     "image": ""
+     "image": "img/hr/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Nakon istovara",
      "text": "Aplikacija pita što je s kontejnerom: ostao kod klijenta, ostao na vozilu, ide drugom klijentu ili na povrat u luku ili depo.",
-     "image": ""
+     "image": "img/hr/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "U voznom parku",
      "text": "Nadogradnja „Sidelifter” dostupna je samo za poluprikolicu.",
-     "image": ""
+     "image": "img/hr/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "U vožnji",
      "text": "Kontejner se unosi jednako kao kod kontejnerskog vozila, a rad s dizalicom označava se na sažetku vožnje.",
-     "image": ""
+     "image": "img/hr/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Zamjena",
      "text": "Sidelifter često mijenja kontejnere na odredištu — koristite opciju „Zamjena kontejnera”.",
-     "image": ""
+     "image": "img/hr/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "U voznom parku",
      "text": "Nadogradnja „Hladnjača”; označite ugrađen generator ako postoji te unesite spremnik agregata i kritičnu zalihu.",
-     "image": ""
+     "image": "img/hr/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "U vožnji",
      "text": "Kontrolirana temperatura: s kontrolom ili bez kontrole; temperatura tereta. Na zaslonu vožnje nalazi se prekidač „Agregat radi”.",
-     "image": ""
+     "image": "img/hr/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Gorivo agregata",
      "text": "Dizel agregata upisuje se pri točenju u zasebno polje; aplikacija računa radne sate i potrošnju u litrama po satu te prikazuje „≈ N h do rezerve”.",
-     "image": ""
+     "image": "img/hr/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "U voznom parku",
      "text": "Nadogradnja „Cerada”.",
-     "image": ""
+     "image": "img/hr/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "U vožnji",
      "text": "Opći teret: broj paleta, ukupna težina i opis.",
-     "image": ""
+     "image": "img/hr/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Istovar",
      "text": "Na svakom stajalištu označite koliko je paleta istovareno; aplikacija pamti koliko je preostalo na vozilu.",
-     "image": ""
+     "image": "img/hr/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "U voznom parku",
      "text": "Nadogradnja „Kiper”.",
-     "image": ""
+     "image": "img/hr/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "U vožnji",
      "text": "Rasuti teret: obujam u kubičnim metrima, težina neto i bruto te opis.",
-     "image": ""
+     "image": "img/hr/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Istovar",
      "text": "Istovar se bilježi vremenom, a mjerač vremena rukovanja teretom pokazuje koliko je trajao.",
-     "image": ""
+     "image": "img/hr/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "U voznom parku",
      "text": "Nadogradnja „Cisterna”; broj komora i obujam svake komore u litrama.",
-     "image": ""
+     "image": "img/hr/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "U vožnji",
      "text": "U detaljima tereta unosi se obujam za svaku komoru.",
-     "image": ""
+     "image": "img/hr/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Istovar",
-     "text": "Na stajalištu označite istovarene komore. Ako pri završetku vožnje ostanu neistovarene komore, aplikacija će zatražiti potvrdu.",
-     "image": ""
+     "text": "Na stajalištu označite istovarene komore. Dodirnite komoru na crtežu cisterne ili njezinu karticu; komora se uvijek istovaruje cijela, a istovarena je komora na crtežu prazna. Ako pri završetku vožnje ostanu neistovarene komore, aplikacija će zatražiti potvrdu.",
+     "image": "img/hr/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "U voznom parku",
      "text": "Nadogradnja „Cisterna”; komore i obujmi.",
-     "image": ""
+     "image": "img/hr/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "U vožnji",
      "text": "Kategorija tekućine: kemikalije, prehrambeno, otpad; kontrolirana temperatura; ADR s UN brojevima za opasni teret.",
-     "image": ""
+     "image": "img/hr/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Istovar",
      "text": "Komore se predaju po točkama jednako kao kod cisterne za gorivo.",
-     "image": ""
+     "image": "img/hr/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "U voznom parku",
      "text": "Nadogradnja „Autotransporter”; broj mjesta za vozila.",
-     "image": ""
+     "image": "img/hr/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "U vožnji",
      "text": "Vozila se unose po VIN-u (17 znakova, bez I, O, Q) ili po registraciji; VIN možete skenirati kamerom. Brojač pokazuje koliko je vozila utovareno.",
-     "image": ""
+     "image": "img/hr/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Istovar",
      "text": "Na stajalištu označite koja su vozila istovarena, a koja utovarena. Ako pri završetku vožnje na vozilu još ima automobila, aplikacija će zatražiti potvrdu.",
-     "image": ""
+     "image": "img/hr/car-transporter-unload.png"
     }
    ]
   }

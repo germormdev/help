@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Ramka kamery",
      "text": "Nakieruj ramkę na numer. Ściśnij ramkę dwoma palcami ciasno wokół numeru — wtedy odczyta się lepiej. „Obróć ramkę” służy do numerów zapisanych pionowo. Dotknięcie poza ramką robi zdjęcie.",
-     "image": ""
+     "image": "img/pl/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Numer kontenera",
      "text": "Numer kontenera to 4 litery i 7 cyfr. Aplikacja sprawdza cyfrę kontrolną; jeśli numer się nie zgadza, zostaje zapisany z oznaczeniem „Numer niezweryfikowany” — sprawdź go wzrokowo.",
-     "image": ""
+     "image": "img/pl/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Plomba",
      "text": "Numer plomby odczytywany jest z napisu. Jeśli na plombie jest kod kreskowy i różni się on od wydrukowanego numeru, aplikacja bierze numer wydrukowany: kod kreskowy bywa z innej serii.",
-     "image": ""
+     "image": "img/pl/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Wymiana kontenerów",
      "text": "Jeśli w punkcie oddajesz kontener innemu kierowcy i zabierasz jego kontener, zapisz wymianę: który kontener rozładowano, który załadowano, imię kierowcy i numer rejestracyjny jego ciężarówki.",
-     "image": ""
+     "image": "img/pl/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Zdjęcia",
      "text": "Do trasy można dołączyć zdjęcia dokumentów przy załadunku i rozładunku: „Zdjęcie dokumentów”. „ZOBACZ ZDJĘCIA” otwiera je na pełnym ekranie.",
-     "image": ""
+     "image": "img/pl/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Utwórz kopię zapasową",
      "text": "Ustawienia → Kopia zapasowa: „Eksportuj bazę danych (kopia)” zapisuje plik, a „Udostępnij kopię zapasową” od razu go wysyła (poczta, komunikator, chmura). Kopię można zrobić w dowolnej chwili — nie przerywa to pracy.",
-     "image": ""
+     "image": "img/pl/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Przywróć",
      "text": "„Importuj bazę danych (przywróć)” zastępuje wszystkie aktualne dane plikiem kopii zapasowej. Aplikacja najpierw sprawdzi plik: obcy plik lub kopia z nowszej wersji aplikacji nie zostaną przyjęte. Na nowym telefonie dane można przywrócić już w pierwszym kroku pierwszego uruchomienia.",
-     "image": ""
+     "image": "img/pl/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android i iPhone",
      "text": "Kopia zapasowa jest taka sama na Androidzie i iPhonie: plik utworzony na jednym systemie można przywrócić na drugim.",
-     "image": ""
+     "image": "img/pl/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Timery",
      "text": "Oczekiwanie, tankowanie i rozładunek działają również wtedy, gdy aplikacja jest zminimalizowana: timer widać na pasku powiadomień. Dotknij powiadomienia, aby wrócić do aplikacji.",
-     "image": ""
+     "image": "img/pl/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Terminy dokumentów",
      "text": "Powiadomienia o terminach ważności dokumentów przychodzą z wyprzedzeniem oraz w dniu wygaśnięcia.",
-     "image": ""
+     "image": "img/pl/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Uprawnienia",
      "text": "Jeśli powiadomienia, kamera lub lokalizacja są zablokowane, aplikacja podpowie, gdzie włączyć je w ustawieniach telefonu.",
-     "image": ""
+     "image": "img/pl/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Centrum serwisowe",
      "text": "Informacje o aplikacji i telefonie, wejście do ekranów serwisowych i kanału diagnostycznego, galeria animacji.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Baza danych",
      "text": "Stan bazy danych i pełny reset aplikacji. Reset bezpowrotnie usuwa wszystko — najpierw zrób kopię zapasową.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Dzienniki",
      "text": "Dzienniki działania aplikacji do badania awarii.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Rozpoznawanie",
      "text": "Diagnostyka odczytywania numerów kamerą.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "System",
      "text": "Informacje o telefonie i awariach aplikacji.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Język i pierwsze uruchomienie",
      "text": "Sprawdzanie języków i ponowne pierwsze uruchomienie.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Klatki kamery",
      "text": "Zapisywanie klatek do nauki rozpoznawania — tylko po wyrażeniu zgody na zdjęcia.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Ekran startowy",
      "text": "Ustawienia ekranu powitalnego przy uruchamianiu.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "W parku",
      "text": "Wybierz nadwozie „Platforma” i podaj długość platformy.",
-     "image": ""
+     "image": "img/pl/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "W trasie",
      "text": "Typy ładunku: towar ogólny (palety, waga, opis), ponadgabarytowy (długość, szerokość, wysokość, waga), kontener na platformie. Przy ładunku ponadgabarytowym krok „Szczegóły ładunku” pyta o wymiary.",
-     "image": ""
+     "image": "img/pl/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Rozładunek",
      "text": "Palety oddaje się w punktach według liczby sztuk lub procentowo.",
-     "image": ""
+     "image": "img/pl/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "W parku",
      "text": "Nadwozie „Kontener”; rozmiar kontenera, do którego przystosowana jest naczepa.",
-     "image": ""
+     "image": "img/pl/container-setup.png"
     },
     {
      "id": "trip",
      "title": "W trasie",
      "text": "Seria pytań: pusty czy załadowany, rozmiar, ile kontenerów, typ (standardowy, Reefer, Flat Rack, Open Top, Tank). Numer kontenera i plomby — kamerą. Plomba wentylacji i temperatura — dla Reefer.",
-     "image": ""
+     "image": "img/pl/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Po rozładunku",
      "text": "Aplikacja pyta, co dzieje się z kontenerem: został u klienta, został na aucie, jedzie do innego klienta czy wraca do portu lub depotu.",
-     "image": ""
+     "image": "img/pl/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "W parku",
      "text": "Nadwozie „Sidelifter” jest dostępne tylko dla naczepy.",
-     "image": ""
+     "image": "img/pl/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "W trasie",
      "text": "Kontener wpisuje się tak samo jak przy podwoziu kontenerowym; pracę z dźwigiem zaznacza się w podsumowaniu.",
-     "image": ""
+     "image": "img/pl/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Wymiana",
      "text": "Sidelifter często wymienia kontenery na miejscu — użyj opcji „Wymiana kontenerów”.",
-     "image": ""
+     "image": "img/pl/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "W parku",
      "text": "Nadwozie „Chłodnia”; zaznacz agregat prądotwórczy (genset), jeśli jest zamontowany, oraz podaj zbiornik agregatu i rezerwę krytyczną.",
-     "image": ""
+     "image": "img/pl/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "W trasie",
      "text": "Kontrola temperatury: z kontrolą lub bez; temperatura ładunku. Na ekranie jazdy — przełącznik „Agregat pracuje”.",
-     "image": ""
+     "image": "img/pl/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Paliwo agregatu",
      "text": "Paliwo agregatu wpisuje się podczas tankowania w osobnym polu; aplikacja liczy motogodziny oraz zużycie w litrach na godzinę i pokazuje „≈ N h do rezerwy”.",
-     "image": ""
+     "image": "img/pl/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "W parku",
      "text": "Nadwozie „Plandeka”.",
-     "image": ""
+     "image": "img/pl/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "W trasie",
      "text": "Towar ogólny: liczba palet, łączna waga, opis.",
-     "image": ""
+     "image": "img/pl/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Rozładunek",
      "text": "W każdym punkcie zaznacz, ile palet oddano; aplikacja pamięta, ile zostało na pokładzie.",
-     "image": ""
+     "image": "img/pl/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "W parku",
      "text": "Nadwozie „Wywrotka”.",
-     "image": ""
+     "image": "img/pl/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "W trasie",
      "text": "Luz: pojemność w metrach sześciennych, waga netto i brutto, opis.",
-     "image": ""
+     "image": "img/pl/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Rozładunek",
      "text": "Rozładunek rejestrowany jest czasem; timer prac ładunkowych pokazuje, jak długo trwał.",
-     "image": ""
+     "image": "img/pl/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "W parku",
      "text": "Nadwozie „Cysterna”; liczba komór i pojemność każdej w litrach.",
-     "image": ""
+     "image": "img/pl/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "W trasie",
      "text": "W szczegółach ładunku — objętość w każdej komorze.",
-     "image": ""
+     "image": "img/pl/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Rozładunek",
-     "text": "W punkcie zaznacz rozładowane komory. Jeśli przy kończeniu trasy zostaną nierozładowane komory, aplikacja poprosi o potwierdzenie.",
-     "image": ""
+     "text": "W punkcie zaznacz rozładowane komory. Dotknij komory na rysunku cysterny albo jej karty; komora rozładowuje się zawsze w całości, a rozładowana jest na rysunku pusta. Jeśli przy kończeniu trasy zostaną nierozładowane komory, aplikacja poprosi o potwierdzenie.",
+     "image": "img/pl/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "W parku",
      "text": "Nadwozie „Cysterna”; komory i pojemności.",
-     "image": ""
+     "image": "img/pl/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "W trasie",
      "text": "Kategoria cieczy: chemikalia, spożywcze, odpady; kontrola temperatury; ADR z numerami UN dla ładunków niebezpiecznych.",
-     "image": ""
+     "image": "img/pl/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Rozładunek",
      "text": "Komory oddaje się w poszczególnych punktach tak samo jak w cysternie paliwowej.",
-     "image": ""
+     "image": "img/pl/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "W parku",
      "text": "Nadwozie „Autoholownik”; liczba miejsc dla pojazdów.",
-     "image": ""
+     "image": "img/pl/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "W trasie",
      "text": "Pojazdy wpisuje się po kodzie VIN (17 znaków, bez I, O, Q) lub po numerze rejestracyjnym; VIN można zeskanować kamerą. Licznik pokazuje, ile aut załadowano.",
-     "image": ""
+     "image": "img/pl/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Rozładunek",
      "text": "W punkcie zaznacz, które pojazdy rozładowano, a które załadowano. Jeśli przy kończeniu trasy jakieś pojazdy zostaną na pokładzie, aplikacja poprosi o potwierdzenie.",
-     "image": ""
+     "image": "img/pl/car-transporter-unload.png"
     }
    ]
   }

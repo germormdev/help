@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Cornice della fotocamera",
      "text": "Inquadra il numero nella cornice. Stringi la cornice con due dita vicino al numero: così si legge meglio. «Ruota la cornice» serve per i numeri scritti in verticale. Tocca fuori dalla cornice per scattare la foto.",
-     "image": ""
+     "image": "img/it/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Numero container",
      "text": "Il numero del container ha 4 lettere e 7 cifre. L'app controlla la cifra di controllo; se il calcolo non torna, il numero viene salvato con l'avviso «Numero non convalidato»: controllalo a vista.",
-     "image": ""
+     "image": "img/it/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Sigillo",
      "text": "Il numero del sigillo viene letto dalla scritta. Se sul sigillo c'è un codice a barre e non coincide con il numero stampato, l'app prende il numero stampato: il codice a barre a volte appartiene a un'altra serie.",
-     "image": ""
+     "image": "img/it/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Scambio container",
      "text": "Se sul posto consegni un container a un altro autista e prendi il suo, registra lo scambio: quale container è stato scaricato, quale caricato, il nome dell'autista e la targa del suo camion.",
-     "image": ""
+     "image": "img/it/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Foto",
      "text": "Al viaggio puoi allegare le foto dei documenti al carico e allo scarico con «Foto documenti». «Vedi foto» le apre a tutto schermo.",
-     "image": ""
+     "image": "img/it/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Fare un backup",
      "text": "«Impostazioni» → «Backup»: «Esporta database (backup)» salva il file, «Condividi backup» lo invia subito (email, messaggistica, cloud). Puoi fare il backup in qualsiasi momento senza interrompere il lavoro.",
-     "image": ""
+     "image": "img/it/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Ripristinare",
      "text": "«Importa database (ripristino)» sostituisce tutti i dati attuali con il file di backup. L'app controlla prima il file: un file estraneo o un backup creato con una versione più recente non verrà accettato. Su un telefono nuovo puoi ripristinare direttamente al primo passaggio del primo avvio.",
-     "image": ""
+     "image": "img/it/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android e iPhone",
      "text": "Il backup è identico su Android e iPhone: un file salvato su uno si ripristina sull'altro.",
-     "image": ""
+     "image": "img/it/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Timer",
      "text": "Attesa, rifornimento e scarico continuano a scorrere anche con l'app ridotta a icona: il timer è visibile nell'area notifiche. Tocca la notifica per tornare all'app.",
-     "image": ""
+     "image": "img/it/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Scadenza dei documenti",
      "text": "Le notifiche sulle scadenze dei documenti arrivano in anticipo e il giorno stesso della scadenza.",
-     "image": ""
+     "image": "img/it/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Permessi",
      "text": "Se notifiche, fotocamera o posizione sono disattivate, l'app ti indicherà dove attivarle nelle impostazioni del telefono.",
-     "image": ""
+     "image": "img/it/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Centro di servizio",
      "text": "Informazioni sull'app e sul telefono, accesso alle schermate di servizio e al canale di diagnostica, galleria delle animazioni.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Database",
      "text": "Stato del database e ripristino completo dell'app. Il ripristino cancella tutto in modo definitivo: fai prima un backup.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Registri",
      "text": "Registri di attività dell'app per analizzare eventuali errori.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Riconoscimento",
      "text": "Diagnostica della lettura dei numeri tramite fotocamera.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "Sistema",
      "text": "Informazioni sul telefono e sugli arresti anomali.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Lingua e avvio iniziale",
      "text": "Controllo delle lingue e ripetizione della configurazione iniziale.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Acquisizione foto",
      "text": "Scatto di immagini per addestrare il riconoscimento — solo se hai dato il consenso per le foto.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Schermata di avvio",
      "text": "Configurazione della schermata iniziale di avvio.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "Nel parco mezzi",
      "text": "Indica la carrozzeria «Pianale» e la «Lunghezza del pianale».",
-     "image": ""
+     "image": "img/it/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "In viaggio",
      "text": "Tipi di carico: «Merce generica» (pallet, peso, descrizione), «Fuori sagoma» (lunghezza, larghezza, altezza, peso), «Container» su pianale. Per il fuori sagoma il passaggio «Dettagli del carico» richiede le misure.",
-     "image": ""
+     "image": "img/it/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Scarico",
      "text": "I pallet si scaricano nei vari punti per quantità o in percentuale.",
-     "image": ""
+     "image": "img/it/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "Nel parco mezzi",
      "text": "Carrozzeria «Container»; indica la «Dimensione container» per cui è predisposto il rimorchio.",
-     "image": ""
+     "image": "img/it/container-setup.png"
     },
     {
      "id": "trip",
      "title": "In viaggio",
      "text": "Serie di domande: «Vuoto o carico?», «Dimensione del container?», «Quanti container?», «Tipo di container?» («Standard», Reefer, Flat Rack, Open Top, Tank). Numero del container e del sigillo con la fotocamera. «Numero sigillo Venta (facoltativo)» e temperatura per il Reefer.",
-     "image": ""
+     "image": "img/it/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Dopo lo scarico",
      "text": "L'app chiede cosa succede al container: resta dal cliente, resta sul camion, va da un altro cliente o viene restituito al porto o al deposito.",
-     "image": ""
+     "image": "img/it/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "Nel parco mezzi",
      "text": "La carrozzeria «Sidelifter» è disponibile solo per il «Semirimorchio».",
-     "image": ""
+     "image": "img/it/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "In viaggio",
      "text": "Il container si inserisce esattamente come per il portacontainer; il «Lavoro con gru» si seleziona nel riepilogo.",
-     "image": ""
+     "image": "img/it/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Scambio",
      "text": "Il sidelifter scambia spesso i container sul posto: usa «Scambio container».",
-     "image": ""
+     "image": "img/it/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "Nel parco mezzi",
      "text": "Carrozzeria «Frigorifero»; attiva «Generatore installato» se è presente un genset, e indica «Serbatoio del gruppo, l» e «Riserva critica del gruppo, l».",
-     "image": ""
+     "image": "img/it/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "In viaggio",
      "text": "«Temperatura controllata?»: «Controllata» o «Ambiente»; temperatura del carico. Nella schermata di guida c'è l'interruttore «Gruppo in funzione».",
-     "image": ""
+     "image": "img/it/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Carburante del gruppo",
      "text": "Il gasolio del gruppo si inserisce nel rifornimento in un campo dedicato; l'app calcola le ore motore e il consumo in litri all'ora e mostra «≈ N h alla riserva».",
-     "image": ""
+     "image": "img/it/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "Nel parco mezzi",
      "text": "Carrozzeria «Centinato».",
-     "image": ""
+     "image": "img/it/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "In viaggio",
      "text": "«Merce generica»: «Numero di pallet», «Peso totale (kg)», «Descrizione del carico».",
-     "image": ""
+     "image": "img/it/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Scarico",
      "text": "Ad ogni fermata segna quanti pallet sono stati scaricati; l'app ricorda quanti ne restano a bordo.",
-     "image": ""
+     "image": "img/it/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "Nel parco mezzi",
      "text": "Carrozzeria «Ribaltabile».",
-     "image": ""
+     "image": "img/it/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "In viaggio",
      "text": "«Sfuso»: «Volume (m³)», «Peso netto (kg)» e «Peso lordo (kg)», «Descrizione del carico».",
-     "image": ""
+     "image": "img/it/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Scarico",
      "text": "Lo scarico viene registrato con l'orario; il timer delle operazioni mostra quanto è durato.",
-     "image": ""
+     "image": "img/it/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "Nel parco mezzi",
      "text": "Carrozzeria «Cisterna»; «Numero di scomparti» e volume di ciascuno in litri.",
-     "image": ""
+     "image": "img/it/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "In viaggio",
      "text": "In «Dettagli del carico» inserisci il volume per ogni scomparto.",
-     "image": ""
+     "image": "img/it/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Scarico",
-     "text": "Al punto di consegna segna gli scomparti scaricati. Se a fine viaggio restano «Scomparti non completati», l'app chiederà conferma.",
-     "image": ""
+     "text": "Al punto di consegna segna gli scomparti scaricati. Tocca lo scomparto nel disegno della cisterna o la sua scheda; uno scomparto si scarica sempre per intero e quello scaricato appare vuoto nel disegno. Se a fine viaggio restano «Scomparti non completati», l'app chiederà conferma.",
+     "image": "img/it/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "Nel parco mezzi",
      "text": "Carrozzeria «Cisterna»; scomparti e volumi.",
-     "image": ""
+     "image": "img/it/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "In viaggio",
      "text": "«Categoria di liquido»: «Prodotti chimici», «Alimentare», «Rifiuti»; «Temperatura controllata»; ADR con codici UN per le merci pericolose.",
-     "image": ""
+     "image": "img/it/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Scarico",
      "text": "Gli scomparti si scaricano nei vari punti proprio come per la cisterna carburante.",
-     "image": ""
+     "image": "img/it/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "Nel parco mezzi",
      "text": "Carrozzeria «Bisarca»; «Numero di posti auto».",
-     "image": ""
+     "image": "img/it/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "In viaggio",
      "text": "I veicoli si inseriscono per «VIN» (17 caratteri, senza I, O, Q) o per «Targa»; il VIN si può scansionare con la fotocamera. Il contatore mostra quanti veicoli sono stati caricati.",
-     "image": ""
+     "image": "img/it/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Scarico",
      "text": "Alla fermata segna quali veicoli sono stati scaricati e quali caricati. Se a fine viaggio ci sono «Veicoli ancora a bordo», l'app chiederà conferma.",
-     "image": ""
+     "image": "img/it/car-transporter-unload.png"
     }
    ]
   }

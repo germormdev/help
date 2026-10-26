@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Kameraramme",
      "text": "Ret nummeret mod rammen. Knib rammen tæt sammen om nummeret med to fingre — så læses det bedre. \"Drej rammen\" bruges til numre, der står lodret. Et tryk uden for rammen tager billedet.",
-     "image": ""
+     "image": "img/da/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Containernummer",
      "text": "Et containernummer består af 4 bogstaver og 7 cifre. Appen kontrollerer kontrolcifret; hvis nummeret ikke stemmer, gemmes det med bemærkningen \"Nummeret er ikke valideret\" — tjek det selv med øjnene.",
-     "image": ""
+     "image": "img/da/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Plombe",
      "text": "Plombenummeret aflæses fra teksten. Hvis der er en stregkode på plomben, og den ikke stemmer overens med det trykte nummer, vælger appen det trykte nummer: stregkoden kan stamme fra en anden serie.",
-     "image": ""
+     "image": "img/da/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Containerudveksling",
      "text": "Hvis du ved et stop overdrager en container til en anden chauffør og overtager hans container, kan du registrere udvekslingen: hvilken container der er aflæsset, hvilken der er læsset, chaufførens navn og hans lastbils nummerplade.",
-     "image": ""
+     "image": "img/da/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Fotos",
      "text": "Du kan vedhæfte fotos af dokumenter til turen ved læsning og aflæsning med \"Foto af dokumenter\". \"SE FOTOS\" åbner dem i fuld skærm.",
-     "image": ""
+     "image": "img/da/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Lav en backup",
      "text": "Indstillinger → Sikkerhedskopi: \"Eksportér database (backup)\" gemmer filen, og \"Del backup\" sender den med det samme (e-mail, beskedapp, skyen). Du kan lave en backup når som helst — arbejdet afbrydes ikke.",
-     "image": ""
+     "image": "img/da/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Gendan",
      "text": "\"Importér database (gendan)\" erstatter alle aktuelle data med backupfilen. Appen kontrollerer først filen: en fremmed fil eller en backup fra en nyere version afvises. På en ny telefon kan du gendanne direkte på første trin ved første opstart.",
-     "image": ""
+     "image": "img/da/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android og iPhone",
      "text": "Backuppen er ens på Android og iPhone: en fil oprettet på den ene kan gendannes på den anden.",
-     "image": ""
+     "image": "img/da/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Timere",
      "text": "Ventetid, tankning og aflæsning kører videre, selvom appen er minimeret: timeren er synlig i notifikationsbjælken. Tryk på notifikationen for at vende tilbage til appen.",
-     "image": ""
+     "image": "img/da/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Dokumenters udløb",
      "text": "Notifikationer om dokumenters udløb kommer i god tid før samt på selve udløbsdagen.",
-     "image": ""
+     "image": "img/da/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Tilladelser",
      "text": "Hvis notifikationer, kamera eller placering er slået fra, viser appen, hvor du kan tillade dem i telefonens indstillinger.",
-     "image": ""
+     "image": "img/da/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Servicecenter",
      "text": "Oplysninger om appen og telefonen, adgang til serviceskærmene og diagnosekanalen samt galleri med animationer.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Database",
      "text": "Databasens tilstand og fuld nulstilling af appen. En nulstilling sletter alt permanent — lav en backup først.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Logfiler",
      "text": "Appens aktivitetslog til fejlsøgning.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Genkendelse",
      "text": "Fejlsøgning af kameraets aflæsning af numre.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "System",
      "text": "Oplysninger om telefonen og nedbrud.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Sprog og opstart",
      "text": "Kontrol af sprog og ny gennemgang af første opstart.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Kamerabilleder",
      "text": "Optagelse af billeder til træning af genkendelse — kun med samtykke til billeder.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Opstartsskærm",
      "text": "Indstilling af skærmbilledet ved opstart.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Vælg opbygningen \"Lad\" og angiv ladlængden.",
-     "image": ""
+     "image": "img/da/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "Lasttyper: stykgods (paller, vægt, beskrivelse), overdimensioneret (længde, bredde, højde, vægt) og container på lad. Ved overdimensioneret last spørger trinnet \"Lastdetaljer\" om målene.",
-     "image": ""
+     "image": "img/da/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Aflæsning",
      "text": "Paller afleveres ved hvert stop som antal eller procent.",
-     "image": ""
+     "image": "img/da/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Opbygningen \"Container\" samt den containerstørrelse, anhængeren er beregnet til.",
-     "image": ""
+     "image": "img/da/container-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "En række spørgsmål: tom eller lastet, størrelse, hvor mange containere, type (Standard, Reefer, Flat Rack, Open Top, Tank). Containernummer og plomber skannes med kameraet. Venta-plombenummer og temperatur angives for Reefer.",
-     "image": ""
+     "image": "img/da/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Efter aflæsning",
      "text": "Appen spørger, hvad der skete med containeren: blev hos kunden, stadig på bilen, kører til en anden kunde eller returneres til havn eller depot.",
-     "image": ""
+     "image": "img/da/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Opbygningen \"Sidelæsser\" findes kun til sættevogn.",
-     "image": ""
+     "image": "img/da/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "Containeren indtastes på samme måde som ved en containertrailer; arbejde med kran markeres på turoversigten.",
-     "image": ""
+     "image": "img/da/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Udveksling",
      "text": "En sidelæsser bytter ofte containere ved et stop — brug \"Containerudveksling\".",
-     "image": ""
+     "image": "img/da/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Opbygningen \"Køl\"; markér \"Generator monteret\", hvis der er en, og angiv aggregatets tank og kritiske reserve.",
-     "image": ""
+     "image": "img/da/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "Temperaturstyret: styret eller ustyret samt lastens temperatur. På køreskærmen findes kontakten \"Aggregatet kører\".",
-     "image": ""
+     "image": "img/da/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Brændstof til aggregat",
      "text": "Diesel til aggregatet indtastes i et særskilt felt ved tankning; appen tæller driftstimer og forbrug i liter i timen og viser \"≈ N t til reserve\".",
-     "image": ""
+     "image": "img/da/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Opbygningen \"Gardintrailer\".",
-     "image": ""
+     "image": "img/da/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "Stykgods: antal paller, samlet vægt og beskrivelse.",
-     "image": ""
+     "image": "img/da/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Aflæsning",
      "text": "Ved hvert stop markerer du, hvor mange paller der er aflæsset; appen husker, hvad der er tilbage om bord.",
-     "image": ""
+     "image": "img/da/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Opbygningen \"Tipvogn\".",
-     "image": ""
+     "image": "img/da/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "Bulk: volumen i kubikmeter, nettovægt og bruttovægt samt beskrivelse.",
-     "image": ""
+     "image": "img/da/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Aflæsning",
      "text": "Aflæsningen registreres med tid; timeren for lastearbejde viser, hvor længe den varede.",
-     "image": ""
+     "image": "img/da/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Opbygningen \"Tankbil\"; antal sektioner og volumen for hver sektion i liter.",
-     "image": ""
+     "image": "img/da/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "Under lastdetaljer angives volumen for hver sektion.",
-     "image": ""
+     "image": "img/da/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Aflæsning",
-     "text": "Ved stoppet markerer du de aflæssede sektioner. Hvis der stadig er ufærdige sektioner, når du afslutter turen, beder appen om bekræftelse.",
-     "image": ""
+     "text": "Ved stoppet markerer du de aflæssede sektioner. Tryk på sektionen på tegningen af tankbilen eller på dens kort; en sektion aflæsses altid helt, og en aflæsset sektion bliver tom på tegningen. Hvis der stadig er ufærdige sektioner, når du afslutter turen, beder appen om bekræftelse.",
+     "image": "img/da/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Opbygningen \"Tankbil\"; sektioner og volumener.",
-     "image": ""
+     "image": "img/da/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "Væskekategori: kemikalier, fødevarer, affald; temperaturstyret; ADR med UN-numre for farligt gods.",
-     "image": ""
+     "image": "img/da/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Aflæsning",
      "text": "Sektionerne afleveres ved hvert stop på samme måde som for en brændstoftankbil.",
-     "image": ""
+     "image": "img/da/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Opbygningen \"Biltransporter\"; antal køretøjspladser.",
-     "image": ""
+     "image": "img/da/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "Køretøjerne indtastes med VIN (17 tegn, uden I, O, Q) eller nummerplade; VIN kan skannes med kameraet. Tælleren viser, hvor mange der er læsset.",
-     "image": ""
+     "image": "img/da/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Aflæsning",
      "text": "Ved stoppet markerer du, hvilke køretøjer der er losset, og hvilke der er lastet. Hvis der stadig er køretøjer om bord, når du afslutter turen, beder appen om bekræftelse.",
-     "image": ""
+     "image": "img/da/car-transporter-unload.png"
     }
    ]
   }

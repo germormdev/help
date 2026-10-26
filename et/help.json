@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Kaamera raam",
      "text": "Suunake number raami sisse. Suruge raam kahe sõrmega tihedalt numbri ümber — nii loetakse seda paremini. „Pööra raami“ on mõeldud püstiselt kirjutatud numbrite jaoks. Puudutus väljaspool raami teeb pildi.",
-     "image": ""
+     "image": "img/et/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Konteineri number",
      "text": "Konteineri number koosneb 4 tähest ja 7 numbrist. Rakendus kontrollib kontrollnumbrit; kui see ei klapi, salvestatakse number märkega „Number pole valideeritud“ — kontrollige see silmaga üle.",
-     "image": ""
+     "image": "img/et/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Plomm",
      "text": "Plommi number loetakse tekstilt. Kui plommil on vöötkood ja see ei lange kokku trükitud numbriga, võtab rakendus trükitud numbri: vöötkood võib olla teisest seeriast.",
-     "image": ""
+     "image": "img/et/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Konteinerite vahetus",
      "text": "Kui annate sihtkohas konteineri teisele juhile ja võtate vastu tema konteineri, pange vahetus kirja: milline konteiner laaditi maha, milline laaditi peale, juhi nimi ja tema veoki numbrimärk.",
-     "image": ""
+     "image": "img/et/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Fotod",
      "text": "Reisi juurde saab lisada peale- ja mahalaadimise dokumentide fotosid: „Dokumentide foto“. „VAATA FOTOSID“ avab need täisekraanil.",
-     "image": ""
+     "image": "img/et/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Varukoopia tegemine",
      "text": "Seaded → Varukoopia: „Ekspordi andmebaas (varukoopia)“ salvestab faili, „Jaga varukoopiat“ saadab selle kohe edasi (e-post, sõnumirakendus, pilv). Varukoopiat saab teha igal ajal — töö ei katke.",
-     "image": ""
+     "image": "img/et/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Taastamine",
      "text": "„Impordi andmebaas (taaste)“ asendab kõik praegused andmed varukoopia failiga. Rakendus kontrollib esmalt faili: võõrast faili või uuema versiooni varukoopiat vastu ei võeta. Uues telefonis saab andmed taastada kohe esimese käivituse esimesel sammul.",
-     "image": ""
+     "image": "img/et/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android ja iPhone",
      "text": "Varukoopia on Androidis ja iPhone'is ühesugune: ühes tehtud faili saab teises taastada.",
-     "image": ""
+     "image": "img/et/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Taimerid",
      "text": "Ootamine, tankimine ja mahalaadimine käivad edasi ka siis, kui rakendus on taustal: taimer on näha teavitusribal. Puudutage teavitust, et naasta rakendusse.",
-     "image": ""
+     "image": "img/et/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Dokumentide tähtajad",
      "text": "Teavitused dokumentide tähtaegade kohta saabuvad aegsasti ette ja kehtivusaja lõppemise päeval.",
-     "image": ""
+     "image": "img/et/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Load",
      "text": "Kui teavitused, kaamera või asukoht on keelatud, juhendab rakendus, kus need telefoni seadetes lubada.",
-     "image": ""
+     "image": "img/et/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Hoolduskeskus",
      "text": "Andmed rakenduse ja telefoni kohta, pääs hooldusekraanidele ja diagnostikakanalisse ning animatsioonide galerii.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Andmebaas",
      "text": "Andmebaasi olek ja rakenduse täielik lähtestamine. Lähtestamine kustutab kõik jäädavalt — tehke enne varukoopia.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Logid",
      "text": "Rakenduse tegevuse logid tõrgete uurimiseks.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Tuvastamine",
      "text": "Kaameraga numbrite lugemise diagnostika.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "Süsteem",
      "text": "Andmed telefoni ja kokkujooksmiste kohta.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Keel ja esmakäivitus",
      "text": "Keelte kontroll ja esimese käivituse kordamine.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Kaamera kaadrid",
      "text": "Kaadrite pildistamine tuvastuse õpetamiseks — ainult siis, kui piltide saatmiseks on antud nõusolek.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Avaleht",
      "text": "Käivituskuva seadistamine.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "Garaažis",
      "text": "Määrake keretüübiks „Madelveok“ ja sisestage madeli pikkus.",
-     "image": ""
+     "image": "img/et/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisil",
      "text": "Lasti tüübid: tükikaup (alused, kaal, kirjeldus), gabariidiväline (pikkus, laius, kõrgus, kaal), konteiner platvormil. Gabariidivälise veose korral küsib samm „Lasti andmed“ mõõtmeid.",
-     "image": ""
+     "image": "img/et/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Mahalaadimine",
      "text": "Alused antakse peatustes üle arvu või protsendi järgi.",
-     "image": ""
+     "image": "img/et/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "Garaažis",
      "text": "Keretüüp „Konteiner“; konteineri suurus, mille jaoks haagis on mõeldud.",
-     "image": ""
+     "image": "img/et/container-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisil",
      "text": "Küsimuste ahel: tühi või laaditud, suurus, mitu konteinerit, tüüp (standardne, Reefer, Flat Rack, Open Top, Tank). Konteineri ja plommi number — kaameraga. Ventilatsiooni plomm ja temperatuur — Reeferi jaoks.",
-     "image": ""
+     "image": "img/et/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Pärast mahalaadimist",
      "text": "Rakendus küsib, mis konteineriga sai: jäi kliendi juurde, jäi autole, läheb teise kliendi juurde või tagastatakse sadamasse või depoosse.",
-     "image": ""
+     "image": "img/et/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "Garaažis",
      "text": "Keretüüp „Külglaadur“ on olemas ainult poolhaagisel.",
-     "image": ""
+     "image": "img/et/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisil",
      "text": "Konteiner sisestatakse samamoodi nagu konteineriveokil; töö kraanaga märgitakse reisi kokkuvõttes.",
-     "image": ""
+     "image": "img/et/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Vahetus",
      "text": "Külglaadur vahetab sageli sihtkohas konteinereid — kasutage valikut „Konteinerite vahetus“.",
-     "image": ""
+     "image": "img/et/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "Garaažis",
      "text": "Keretüüp „Külmik“; märkige generaator, kui see on paigaldatud, ning sisestage agregaadi paak ja kriitiline varu.",
-     "image": ""
+     "image": "img/et/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisil",
      "text": "Temperatuurirežiim: kontrollitud või kontrollimata; kauba temperatuur. Sõiduekraanil on lüliti „Agregaat töötab“.",
-     "image": ""
+     "image": "img/et/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Agregaadi kütus",
      "text": "Agregaadi diisel sisestatakse tankimisel eraldi väljale; rakendus arvestab mootoritunde ja kulu liitrites tunni kohta ning näitab „≈ N h varuni“.",
-     "image": ""
+     "image": "img/et/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "Garaažis",
      "text": "Keretüüp „Tentveok“.",
-     "image": ""
+     "image": "img/et/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisil",
      "text": "Tükikaup: aluste arv, kogukaal, kirjeldus.",
-     "image": ""
+     "image": "img/et/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Mahalaadimine",
      "text": "Igas peatuses märkige, mitu alust maha laaditi; rakendus peab meeles, kui palju on veel koormas.",
-     "image": ""
+     "image": "img/et/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "Garaažis",
      "text": "Keretüüp „Kallur“.",
-     "image": ""
+     "image": "img/et/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisil",
      "text": "Puistlast: maht kuupmeetrites, neto- ja brutokaal, kirjeldus.",
-     "image": ""
+     "image": "img/et/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Mahalaadimine",
      "text": "Mahalaadimine märgitakse kellaajaga; laadimistööde taimer näitab, kui kaua see kestis.",
-     "image": ""
+     "image": "img/et/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "Garaažis",
      "text": "Keretüüp „Paakauto“; sektsioonide arv ja iga sektsiooni maht liitrites.",
-     "image": ""
+     "image": "img/et/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisil",
      "text": "Lasti andmetes märgitakse maht iga sektsiooni kaupa.",
-     "image": ""
+     "image": "img/et/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Mahalaadimine",
-     "text": "Märkige peatuses tühjendatud sektsioonid. Kui reisi lõpetamisel on mõni sektsioon veel tühjendamata, küsib rakendus kinnitust.",
-     "image": ""
+     "text": "Märkige peatuses tühjendatud sektsioonid. Puudutage sektsiooni paakauto joonisel või selle kaarti; sektsioon tühjendatakse alati täielikult ja tühjendatud sektsioon on joonisel tühi. Kui reisi lõpetamisel on mõni sektsioon veel tühjendamata, küsib rakendus kinnitust.",
+     "image": "img/et/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "Garaažis",
      "text": "Keretüüp „Paakauto“; sektsioonid ja mahud.",
-     "image": ""
+     "image": "img/et/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisil",
      "text": "Vedeliku kategooria: kemikaalid, toidukõlblik, jäätmed; temperatuuriga juhitud; ohtlike veoste puhul ADR koos UN-numbritega.",
-     "image": ""
+     "image": "img/et/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Mahalaadimine",
      "text": "Sektsioonid antakse peatustes üle samamoodi nagu kütuseveokil.",
-     "image": ""
+     "image": "img/et/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "Garaažis",
      "text": "Keretüüp „Autovedu“; autokohtade arv.",
-     "image": ""
+     "image": "img/et/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisil",
      "text": "Sõidukid sisestatakse VIN-koodi (17 märki, ilma tähtedeta I, O, Q) või numbrimärgi järgi; VIN-koodi saab skannida kaameraga. Loendur näitab, mitu sõidukit on peale laaditud.",
-     "image": ""
+     "image": "img/et/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Mahalaadimine",
      "text": "Märkige peatuses, millised sõidukid laaditi maha ja millised võeti peale. Kui reisi lõpetamisel on sõidukeid veel pardal, küsib rakendus kinnitust.",
-     "image": ""
+     "image": "img/et/car-transporter-unload.png"
     }
    ]
   }

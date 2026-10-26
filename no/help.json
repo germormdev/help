@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Kameraramme",
      "text": "Rett nummeret mot rammen. Knip rammen tett rundt nummeret med to fingre — da leses det bedre. «Snu rammen» brukes for numre som står loddrett. Trykk utenfor rammen for å ta bildet.",
-     "image": ""
+     "image": "img/no/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Containernummer",
      "text": "Et containernummer består av 4 bokstaver og 7 sifre. Appen sjekker kontrollsifferet; hvis nummeret ikke stemmer, lagres det med merknaden «Nummeret er ikke validert» — sjekk det selv med øynene.",
-     "image": ""
+     "image": "img/no/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Plombe",
      "text": "Plombenummeret leses fra teksten. Hvis plomben har en strekkode og den ikke stemmer overens med det trykte nummeret, velger appen det trykte nummeret: strekkoden kan tilhøre en annen serie.",
-     "image": ""
+     "image": "img/no/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Containerbytte",
      "text": "Hvis du på et stopp gir fra deg en container til en annen sjåfør og tar med deg hans container, registrerer du byttet: hvilken container som ble losset («Container losset»), hvilken som ble lastet («Container lastet»), «Sjåførnavn» og «Lastebilens registreringsnummer».",
-     "image": ""
+     "image": "img/no/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Bilder",
      "text": "Du kan legge ved bilder av dokumenter på turen ved lasting og lossing: «Dokumentbilde». «SE BILDER» åpner dem i fullskjerm.",
-     "image": ""
+     "image": "img/no/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Ta sikkerhetskopi",
      "text": "«Innstillinger» → «Sikkerhetskopi»: «Eksporter database (sikkerhetskopi)» lagrer filen, mens «Del sikkerhetskopi» sender den med det samme (e-post, meldingstjeneste, sky). Du kan ta sikkerhetskopi når som helst — arbeidet avbrytes ikke.",
-     "image": ""
+     "image": "img/no/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Gjenopprett",
      "text": "«Importer database (gjenopprett)» erstatter alle gjeldende data med sikkerhetskopifilen. Appen sjekker filen først: en fremmed fil eller en sikkerhetskopi fra en nyere versjon av appen blir ikke godtatt. På en ny telefon kan du gjenopprette rett på første trinn ved første oppstart.",
-     "image": ""
+     "image": "img/no/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android og iPhone",
      "text": "Sikkerhetskopien er lik på Android og iPhone: en fil som er tatt på den ene, kan gjenopprettes på den andre.",
-     "image": ""
+     "image": "img/no/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Tidtakere",
      "text": "Venting, tanking og lossing fortsetter å gå selv når appen er minimert: tidtakeren vises i varslingsfeltet. Trykk på varselet for å gå tilbake til appen.",
-     "image": ""
+     "image": "img/no/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Dokumentfrister",
      "text": "Varsler om utløpsdatoer for dokumenter kommer i god tid på forhånd og på selve utløpsdagen.",
-     "image": ""
+     "image": "img/no/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Tillatelser",
      "text": "Hvis varsler, kamera eller posisjon er avslått, viser appen hvor du kan tillate dem i telefonens innstillinger («Åpne innstillinger»).",
-     "image": ""
+     "image": "img/no/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Servicesenter",
      "text": "Informasjon om appen og telefonen, inngang til serviceskjermene og «Diagnosekanal», samt animasjonsgalleri.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Database",
      "text": "Status for databasen og full tilbakestilling av appen. Tilbakestilling sletter alt permanent — ta en sikkerhetskopi først.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Logger",
      "text": "Appens aktivitetslogger for feilsøking.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Gjenkjenning",
      "text": "Diagnostikk for kamerabasert avlesning av numre.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "System",
      "text": "Informasjon om telefonen og eventuelle krasj.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Språk og oppstart",
      "text": "Sjekk av språk og ny gjennomgang av første oppstart.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Kamerabilder",
      "text": "Opptak av bilder for å trene nummergjenkjenningen — kun med samtykke til bilder.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Oppstartsbilde",
      "text": "Innstillinger for oppstartsbildet når appen starter.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Velg påbygget «Plan» og oppgi «Planlengde».",
-     "image": ""
+     "image": "img/no/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "Lasttyper: «Stykkgods» (paller, vekt, beskrivelse), «Overdimensjonert» (lengde, bredde, høyde, vekt), «Container» på plan. Ved overdimensjonert last ber trinnet «Lastdetaljer» om målene.",
-     "image": ""
+     "image": "img/no/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossing",
      "text": "Paller leveres på hvert stopp som antall eller prosent.",
-     "image": ""
+     "image": "img/no/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Påbygg «Container»; oppgi «Containerstørrelse» som tilhengeren er bygget for.",
-     "image": ""
+     "image": "img/no/container-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "En rekke spørsmål: «Tom eller lastet?», «Containerstørrelse?», «Hvor mange containere?», «Containertype?» («Standard», Reefer, Flat Rack, Open Top, Tank). «Containernummer» og «Plombenummer» skannes med kameraet. «Venta-plombenummer (valgfritt)» og «Temperatur (°C, valgfritt)» gjelder for Reefer.",
-     "image": ""
+     "image": "img/no/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Etter lossing",
      "text": "Appen spør hva som skjedde med containeren: ble hos kunden («Ble her»), «Fortsatt på bilen», går «Til en kunde» eller i «Retur» til havn eller depot.",
-     "image": ""
+     "image": "img/no/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Påbygget «Sidelaster» finnes kun for «Semitrailer».",
-     "image": ""
+     "image": "img/no/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "Containeren legges inn på samme måte som for containerbil; «Arbeid med kran» krysses av på oppsummeringen.",
-     "image": ""
+     "image": "img/no/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Bytte",
      "text": "En sidelaster bytter ofte containere på stedet — bruk «Containerbytte».",
-     "image": ""
+     "image": "img/no/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Påbygg «Kjøl»; kryss av for «Generator montert» hvis den har det, og oppgi «Aggregatets tank, l» og «Aggregatets kritiske reserve, l».",
-     "image": ""
+     "image": "img/no/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "«Temperaturstyrt?»: «Styrt» eller «Ustyrt»; lastens temperatur. På kjøreskjermen finnes bryteren «Aggregatet går».",
-     "image": ""
+     "image": "img/no/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Drivstoff til aggregatet",
      "text": "Diesel til aggregatet føres inn i et eget felt ved tanking; appen teller driftstimer og forbruk i liter per time, og viser «≈ N t til reserve».",
-     "image": ""
+     "image": "img/no/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Påbygg «Presenning».",
-     "image": ""
+     "image": "img/no/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "«Stykkgods»: «Antall paller», «Total vekt (kg)», «Beskrivelse av lasten».",
-     "image": ""
+     "image": "img/no/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossing",
      "text": "På hvert stopp markerer du hvor mange paller som ble losset; appen husker hva som gjenstår om bord.",
-     "image": ""
+     "image": "img/no/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Påbygg «Tippbil».",
-     "image": ""
+     "image": "img/no/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "«Bulk»: «Volum (m³)», «Nettovekt (kg)» og «Bruttovekt (kg)», «Beskrivelse av lasten».",
-     "image": ""
+     "image": "img/no/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossing",
      "text": "Lossingen registreres med tid; tidtakeren for lastearbeid viser hvor lenge den varte.",
-     "image": ""
+     "image": "img/no/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Påbygg «Tankbil»; «Antall seksjoner» og volumet for hver seksjon i liter.",
-     "image": ""
+     "image": "img/no/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "I «Lastdetaljer» oppgis volumet for hver enkelt seksjon.",
-     "image": ""
+     "image": "img/no/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossing",
-     "text": "På stoppet markerer du hvilke seksjoner som er losset. Hvis det fortsatt er uferdige seksjoner når du avslutter turen, ber appen om bekreftelse.",
-     "image": ""
+     "text": "På stoppet markerer du hvilke seksjoner som er losset. Trykk på seksjonen på tegningen av tankbilen eller på kortet; en seksjon losses alltid helt, og en losset seksjon blir tom på tegningen. Hvis det fortsatt er uferdige seksjoner når du avslutter turen, ber appen om bekreftelse.",
+     "image": "img/no/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Påbygg «Tankbil»; seksjoner og volumer.",
-     "image": ""
+     "image": "img/no/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "«Væskekategori»: «Kjemikalier», «Næringsmidler», «Avfall»; «Temperaturstyrt»; ADR med UN-numre for farlig gods.",
-     "image": ""
+     "image": "img/no/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossing",
      "text": "Seksjonene leveres punkt for punkt på samme måte som for drivstofftankbil.",
-     "image": ""
+     "image": "img/no/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Påbygg «Biltransport»; «Antall kjøretøyplasser».",
-     "image": ""
+     "image": "img/no/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "Kjøretøy legges inn med VIN (17 tegn, uten I, O, Q) eller «Registreringsnummer»; VIN kan skannes med kameraet («Skann VIN med kamera»). Telleren viser hvor mange som er lastet.",
-     "image": ""
+     "image": "img/no/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossing",
      "text": "På stoppet markerer du hvilke kjøretøy som er levert og hvilke som er lastet på. Hvis det fortsatt er kjøretøy om bord når du avslutter turen, ber appen om bekreftelse.",
-     "image": ""
+     "image": "img/no/car-transporter-unload.png"
     }
    ]
   }

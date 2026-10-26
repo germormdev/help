@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Kameros rėmelis",
      "text": "Nukreipkite numerį į rėmelį. Dviem pirštais suspauskite rėmelį prie pat numerio — taip jis nuskaitomas geriau. „Pasukti rėmelį“ — stulpeliu užrašytiems numeriams. Bakstelėjimas už rėmelio ribų padaro nuotrauką.",
-     "image": ""
+     "image": "img/lt/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Konteinerio numeris",
      "text": "Konteinerio numeris — 4 raidės ir 7 skaitmenys. Programa tikrina kontrolinį skaitmenį; jei numeris nesutampa, jis išsaugomas su žyma „Numeris nepatvirtintas“ — patikrinkite jį akimis.",
-     "image": ""
+     "image": "img/lt/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Plomba",
      "text": "Plombos numeris nuskaitomas nuo užrašo. Jei ant plombos yra brūkšninis kodas ir jis nesutampa su atspausdintu numeriu, programa ima atspausdintą numerį: brūkšninis kodas būna kitos serijos.",
-     "image": ""
+     "image": "img/lt/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Konteinerių keitimas",
      "text": "Jei vietoje atiduodate konteinerį kitam vairuotojui ir paimate jo konteinerį, įrašykite keitimą: kuris konteineris iškrautas, kuris pakrautas, vairuotojo vardas ir jo vilkiko valst. numeris.",
-     "image": ""
+     "image": "img/lt/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Nuotraukos",
      "text": "Prie reiso galima pridėti dokumentų nuotraukas pakrovimo ir iškrovimo metu: „Dokumentų nuotrauka“. „Peržiūrėti nuotraukas“ atidaro jas per visą ekraną.",
-     "image": ""
+     "image": "img/lt/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Sukurti atsarginę kopiją",
      "text": "Nustatymai → Atsarginė kopija: „Eksportuoti duomenų bazę (kopija)“ išsaugo failą, „Bendrinti atsarginę kopiją“ iškart jį išsiunčia (paštu, susirašinėjimo programa, į debesį). Atsarginę kopiją galima daryti bet kada — darbas nenutrūksta.",
-     "image": ""
+     "image": "img/lt/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Atkurti",
      "text": "„Importuoti duomenų bazę (atkurti)“ pakeičia visus dabartinius duomenis kopijos failu. Programa pirmiausia patikrins failą: svetimas failas arba naujesnės versijos kopija nebus priimti. Naujame telefone atkurti duomenis galima tiesiai pirmame pirmo paleidimo žingsnyje.",
-     "image": ""
+     "image": "img/lt/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android ir iPhone",
      "text": "Atsarginė kopija vienoda Android ir iPhone telefonuose: viename sukurtas failas atkuriamas kitame.",
-     "image": ""
+     "image": "img/lt/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Laikmačiai",
      "text": "Laukimas, degalų pildymas, iškrovimas veikia ir nuleidus programą: laikmatis matomas pranešimų juostoje. Palieskite pranešimą, kad grįžtumėte į programą.",
-     "image": ""
+     "image": "img/lt/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Dokumentų galiojimas",
      "text": "Pranešimai apie dokumentų terminus ateina iš anksto ir galiojimo pabaigos dieną.",
-     "image": ""
+     "image": "img/lt/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Leidimai",
      "text": "Jei pranešimai, kamera ar vieta uždrausti, programa parodys, kur juos leisti telefono nustatymuose.",
-     "image": ""
+     "image": "img/lt/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Aptarnavimo centras",
      "text": "Duomenys apie programą ir telefoną, įėjimas į aptarnavimo ekranus ir diagnostikos kanalą, animacijų galerija.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Duomenų bazė",
      "text": "Duomenų bazės būsena ir pilnas programos atstatymas. Atstatymas negrįžtamai ištrina viską — pirmiausia pasidarykite atsarginę kopiją.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Žurnalai",
      "text": "Programos veikimo žurnalai gedimams nagrinėti.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Atpažinimas",
      "text": "Numerių nuskaitymo kamera diagnostika.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "Sistema",
      "text": "Duomenys apie telefoną ir strigimus.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Kalba ir pirmas paleidimas",
      "text": "Kalbų patikra ir pakartotinis pirmas paleidimas.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Kameros kadrai",
      "text": "Kadrų fotografavimas atpažinimui apmokyti — tik davus sutikimą dėl nuotraukų.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Pradinis ekranas",
      "text": "Paleidimo ekrano nustatymas.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "Garaže",
      "text": "Nurodykite kėbulą „Platforma“ ir platformos ilgį.",
-     "image": ""
+     "image": "img/lt/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "Reise",
      "text": "Krovinio tipai: vienetinis krovinys (padėklai, svoris, aprašymas), negabaritinis (ilgis, plotis, aukštis, svoris), konteineris ant platformos. Pasirinkus negabaritinį, žingsnis „Krovinio duomenys“ paprašo įvesti matmenis.",
-     "image": ""
+     "image": "img/lt/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Iškrovimas",
      "text": "Padėklai iškraunami taškuose skaičiumi arba procentais.",
-     "image": ""
+     "image": "img/lt/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "Garaže",
      "text": "Kėbulas „Konteineris“; konteinerio dydis, kuriam pritaikyta priekaba.",
-     "image": ""
+     "image": "img/lt/container-setup.png"
     },
     {
      "id": "trip",
      "title": "Reise",
      "text": "Klausimų grandinė: tuščias ar pakrautas, dydis, kiek konteinerių, tipas (standartinis, Reefer, Flat Rack, Open Top, Tank). Konteinerio ir plombos numeris — kamera. Ventiliacijos plomba ir temperatūra — Reefer tipui.",
-     "image": ""
+     "image": "img/lt/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Po iškrovimo",
      "text": "Programa klausia, kas nutiko konteineriui: liko pas klientą, ant vilkiko, važiuoja pas kitą klientą arba grąžinamas į uostą ar depą.",
-     "image": ""
+     "image": "img/lt/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "Garaže",
      "text": "Kėbulą „Šoninis krautuvas“ turi tik puspriekabė.",
-     "image": ""
+     "image": "img/lt/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "Reise",
      "text": "Konteineris įvedamas taip pat, kaip konteinervežiui; darbas su kranu pažymimas suvestinėje.",
-     "image": ""
+     "image": "img/lt/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Keitimas",
      "text": "Šoninis krautuvas dažnai keičia konteinerius taške — naudokite „Konteinerių keitimas“.",
-     "image": ""
+     "image": "img/lt/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "Garaže",
      "text": "Kėbulas „Refrižeratorius“; pažymėkite generatorių, jei jis įrengtas, nurodykite agregato baką ir kritinį likutį.",
-     "image": ""
+     "image": "img/lt/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "Reise",
      "text": "Temperatūros kontrolė: kontroliuojama arba be kontrolės; krovinio temperatūra. Vairavimo ekrane — jungiklis „Agregatas veikia“.",
-     "image": ""
+     "image": "img/lt/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Agregato degalai",
      "text": "Agregato dyzelinas pildymo metu įrašomas atskirame lauke; programa skaičiuoja motovalandas bei sąnaudas litrais per valandą ir rodo „≈ N h iki rezervo“.",
-     "image": ""
+     "image": "img/lt/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "Garaže",
      "text": "Kėbulas „Tentas“.",
-     "image": ""
+     "image": "img/lt/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "Reise",
      "text": "Vienetinis krovinys: padėklų skaičius, bendras svoris, aprašymas.",
-     "image": ""
+     "image": "img/lt/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Iškrovimas",
      "text": "Kiekviename taške pažymėkite, kiek padėklų iškrauta; programa atsimena likutį mašinoje.",
-     "image": ""
+     "image": "img/lt/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "Garaže",
      "text": "Kėbulas „Savivartis“.",
-     "image": ""
+     "image": "img/lt/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "Reise",
      "text": "Birus krovinys: tūris kubiniais metrais, neto ir bruto svoris, aprašymas.",
-     "image": ""
+     "image": "img/lt/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Iškrovimas",
      "text": "Iškrovimas pažymimas laiku; krovos darbų laikmatis rodo, kiek jis truko.",
-     "image": ""
+     "image": "img/lt/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "Garaže",
      "text": "Kėbulas „Cisterna“; sekcijų skaičius ir kiekvienos tūris litrais.",
-     "image": ""
+     "image": "img/lt/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Reise",
      "text": "Krovinio duomenyse — kiekvienos sekcijos tūris.",
-     "image": ""
+     "image": "img/lt/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Iškrovimas",
-     "text": "Taške pažymėkite iškrautas sekcijas. Jei baigiant reisą liko neiškrautų sekcijų, programa paprašys patvirtinti.",
-     "image": ""
+     "text": "Taške pažymėkite iškrautas sekcijas. Bakstelėkite sekciją cisternos piešinyje arba jos kortelę; sekcija visada iškraunama visa, o iškrauta sekcija piešinyje tampa tuščia. Jei baigiant reisą liko neiškrautų sekcijų, programa paprašys patvirtinti.",
+     "image": "img/lt/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "Garaže",
      "text": "Kėbulas „Cisterna“; sekcijos ir tūriai.",
-     "image": ""
+     "image": "img/lt/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Reise",
      "text": "Skysčio kategorija: chemikalai, maistiniai, atliekos; su temperatūros kontrole; ADR su UN numeriais pavojingiems kroviniams.",
-     "image": ""
+     "image": "img/lt/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Iškrovimas",
      "text": "Sekcijos taškuose iškraunamos taip pat, kaip ir degalų cisternos.",
-     "image": ""
+     "image": "img/lt/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "Garaže",
      "text": "Kėbulas „Autovežis“; automobilių vietų skaičius.",
-     "image": ""
+     "image": "img/lt/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "Reise",
      "text": "Automobiliai įvedami pagal VIN (17 simbolių, be I, O, Q) arba pagal valst. numerį; VIN galima nuskaityti kamera. Skaitiklis rodo, kiek pakrauta.",
-     "image": ""
+     "image": "img/lt/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Iškrovimas",
      "text": "Taške pažymėkite, kurie automobiliai iškrauti ir kurie pakrauti. Jei baigiant reisą automobilių liko mašinoje, programa paprašys patvirtinti.",
-     "image": ""
+     "image": "img/lt/car-transporter-unload.png"
     }
    ]
   }

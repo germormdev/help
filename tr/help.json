@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Kamera çerçevesi",
      "text": "Numarayı çerçeveye hizalayın. Çerçeveyi iki parmakla numaranın etrafına sıkıştırın — böylece daha iyi okunur. “Çerçeveyi döndür” dikey yazılmış numaralar içindir. Çerçevenin dışına dokunmak fotoğraf çeker.",
-     "image": ""
+     "image": "img/tr/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Konteyner Numarası",
      "text": "Konteyner numarası 4 harf ve 7 rakamdan oluşur. Uygulama kontrol basamağını denetler; numara tutmazsa “Numara doğrulanmadı” notuyla kaydedilir — gözünüzle kontrol edin.",
-     "image": ""
+     "image": "img/tr/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Mühür",
      "text": "Mühür numarası yazıdan okunur. Mühürde barkod varsa ve basılı numarayla uyuşmuyorsa uygulama basılı numarayı alır: barkod başka bir seriye ait olabilir.",
-     "image": ""
+     "image": "img/tr/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Konteyner Değişimi",
      "text": "Noktada konteyneri başka bir sürücüye verip onun konteynerini alıyorsanız değişimi kaydedin: hangi konteyner boşaltıldı, hangisi yüklendi, sürücü adı ve çekici plaka numarası.",
-     "image": ""
+     "image": "img/tr/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Fotoğraflar",
      "text": "Sefere yükleme ve boşaltmadaki belgelerin fotoğraflarını ekleyebilirsiniz: “Belge Fotoğrafı”. “ FOTOĞRAFLARI GÖR” bunları tam ekranda açar.",
-     "image": ""
+     "image": "img/tr/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Yedek alma",
      "text": "Ayarlar → Yedekleme: “Veritabanını Dışa Aktar (Yedek)” dosyayı kaydeder, “Yedeği paylaş” hemen gönderir (e-posta, mesajlaşma uygulaması, bulut). İstediğiniz zaman yedek alabilirsiniz — çalışma kesintiye uğramaz.",
-     "image": ""
+     "image": "img/tr/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Geri yükleme",
      "text": "“Veritabanını İçe Aktar (Geri Yükle)” mevcut tüm verileri yedek dosyasıyla değiştirir. Uygulama önce dosyayı kontrol eder: yabancı bir dosya veya daha yeni bir sürümden alınan yedek kabul edilmez. Yeni telefonda ilk çalıştırmanın hemen ilk adımında geri yükleme yapılabilir.",
-     "image": ""
+     "image": "img/tr/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android ve iPhone",
      "text": "Yedek Android ve iPhone’da aynıdır: birinde alınan dosya diğerinde geri yüklenir.",
-     "image": ""
+     "image": "img/tr/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Zamanlayıcılar",
      "text": "Bekleme, yakıt alma ve boşaltma uygulama küçültüldüğünde de çalışır: zamanlayıcı bildirim panelinde görünür. Uygulamaya dönmek için bildirime dokunun.",
-     "image": ""
+     "image": "img/tr/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Belge süreleri",
      "text": "Belge geçerlilik süresi bildirimleri önceden ve sürenin dolduğu gün gelir.",
-     "image": ""
+     "image": "img/tr/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "İzinler",
      "text": "Bildirimler, kamera veya konum engellenmişse uygulama telefon ayarlarında bunlara nereden izin vereceğinizi gösterir.",
-     "image": ""
+     "image": "img/tr/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Servis merkezi",
      "text": "Uygulama ve telefon bilgileri, servis ekranlarına ve tanılama kanalına giriş, animasyon galerisi.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Veritabanı",
      "text": "Veritabanı durumu ve uygulamanın tam sıfırlanması. Sıfırlama her şeyi geri dönüşsüz siler — önce yedek alın.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Günlükler",
      "text": "Arızaları incelemek için uygulama etkinlik günlükleri.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Tanıma",
      "text": "Kamerayla numara okuma tanılaması.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "Sistem",
      "text": "Telefon ve çökmeler hakkında bilgiler.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Dil ve ilk kurulum",
      "text": "Dillerin kontrolü ve ilk çalıştırmayı tekrarlama.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Kamera kareleri",
      "text": "Tanıma eğitimi için kare çekimi — yalnızca fotoğraf onayıyla.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Açılış ekranı",
      "text": "Başlangıçtaki açılış ekranı ayarı.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "Filoda",
      "text": "Kasa tipini “Platform” olarak ve platform uzunluğunu belirtin.",
-     "image": ""
+     "image": "img/tr/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "Seferde",
      "text": "Yük tipleri: parça yük (palet, ağırlık, açıklama), gabari dışı (uzunluk, genişlik, yükseklik, ağırlık), platform üzerinde konteyner. Gabari dışı yükte “Yük detayları” adımı boyutları sorar.",
-     "image": ""
+     "image": "img/tr/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Boşaltma",
      "text": "Paletler noktalarda adet veya yüzde olarak teslim edilir.",
-     "image": ""
+     "image": "img/tr/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "Filoda",
      "text": "Kasa tipi “Konteyner”; römorkun uygun olduğu konteyner boyutu.",
-     "image": ""
+     "image": "img/tr/container-setup.png"
     },
     {
      "id": "trip",
      "title": "Seferde",
      "text": "Sorular zinciri: boş mu dolu mu, boyut, kaç konteyner, tip (standart, Reefer, Flat Rack, Open Top, Tank). Konteyner ve mühür numarası — kamerayla. Venta mührü ve sıcaklık — Reefer için.",
-     "image": ""
+     "image": "img/tr/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Boşaltmadan sonra",
      "text": "Uygulama konteynere ne olduğunu sorar: müşteride kaldı, araçta kaldı, başka bir müşteriye gidiyor veya limana ya da depoya iade ediliyor.",
-     "image": ""
+     "image": "img/tr/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "Filoda",
      "text": "“Yandan yükleyici” kasa tipi yalnızca yarı römorkta bulunur.",
-     "image": ""
+     "image": "img/tr/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "Seferde",
      "text": "Konteyner, konteyner taşıyıcıdaki gibi girilir; vinçle çalışma özette işaretlenir.",
-     "image": ""
+     "image": "img/tr/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Değişim",
      "text": "Yandan yükleyici noktada sık sık konteyner değiştirir — “Konteyner Değişimi” özelliğini kullanın.",
-     "image": ""
+     "image": "img/tr/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "Filoda",
      "text": "Kasa tipi “Frigorifik”; takılıysa jeneratörü işaretleyin, ünite deposunu ve kritik yedeğini belirtin.",
-     "image": ""
+     "image": "img/tr/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "Seferde",
      "text": "Sıcaklık kontrolü: kontrollü veya kontrolsüz; yük sıcaklığı. Sürüş ekranında — “Ünite çalışıyor” anahtarı.",
-     "image": ""
+     "image": "img/tr/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Ünite yakıtı",
      "text": "Ünite motorini yakıt alımında ayrı bir alana yazılır; uygulama çalışma saatini ve saatte litre cinsinden tüketimi hesaplar ve “≈ yedeğe N sa” bilgisini gösterir.",
-     "image": ""
+     "image": "img/tr/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "Filoda",
      "text": "Kasa tipi “Tenteli”.",
-     "image": ""
+     "image": "img/tr/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "Seferde",
      "text": "Parça yük: palet sayısı, toplam ağırlık, açıklama.",
-     "image": ""
+     "image": "img/tr/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Boşaltma",
      "text": "Her noktada kaç palet bırakıldığını işaretleyin; uygulama araçta kalanı hatırlar.",
-     "image": ""
+     "image": "img/tr/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "Filoda",
      "text": "Kasa tipi “Damperli”.",
-     "image": ""
+     "image": "img/tr/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "Seferde",
      "text": "Dökme yük: metreküp cinsinden hacim, net ve brüt ağırlık, açıklama.",
-     "image": ""
+     "image": "img/tr/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Boşaltma",
      "text": "Boşaltma saatle kaydedilir; yük işlemleri zamanlayıcısı ne kadar sürdüğünü gösterir.",
-     "image": ""
+     "image": "img/tr/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "Filoda",
      "text": "Kasa tipi “Akaryakıt tankeri”; bölme sayısı ve her birinin litre cinsinden hacmi.",
-     "image": ""
+     "image": "img/tr/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Seferde",
      "text": "Yük detaylarında her bölmenin hacmi girilir.",
-     "image": ""
+     "image": "img/tr/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Boşaltma",
-     "text": "Noktada boşaltılan bölmeleri işaretleyin. Sefer bitirilirken boşaltılmamış bölmeler kaldıysa uygulama onay sorar.",
-     "image": ""
+     "text": "Noktada boşaltılan bölmeleri işaretleyin. Tanker çizimindeki bölmeye ya da kartına dokunun; bölme her zaman tamamen boşaltılır ve boşaltılan bölme çizimde boş görünür. Sefer bitirilirken boşaltılmamış bölmeler kaldıysa uygulama onay sorar.",
+     "image": "img/tr/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "Filoda",
      "text": "Kasa tipi “Tanker”; bölmeler ve hacimleri.",
-     "image": ""
+     "image": "img/tr/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Seferde",
      "text": "Sıvı kategorisi: kimyasallar, gıda, atık; sıcaklık kontrollü; tehlikeli yükler için UN numaralı ADR.",
-     "image": ""
+     "image": "img/tr/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Boşaltma",
      "text": "Bölmeler noktalarda akaryakıt tankerindeki gibi teslim edilir.",
-     "image": ""
+     "image": "img/tr/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "Filoda",
      "text": "Kasa tipi “Oto taşıyıcı”; araç yeri sayısı.",
-     "image": ""
+     "image": "img/tr/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "Seferde",
      "text": "Araçlar VIN (17 karakter, I, O, Q yok) veya plakaya göre girilir; VIN kamerayla taranabilir. Sayaç kaç araç yüklendiğini gösterir.",
-     "image": ""
+     "image": "img/tr/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Boşaltma",
      "text": "Noktada hangi araçların bırakıldığını ve hangilerinin alındığını işaretleyin. Sefer bitirilirken araçta hâlâ araç kaldıysa uygulama onay sorar.",
-     "image": ""
+     "image": "img/tr/car-transporter-unload.png"
     }
    ]
   }

@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Kamerakeret",
      "text": "Irányítsa a számot a keretbe. Két ujjal húzza szorosan a keretet a szám köré — így jobban olvasható. A „Keret elforgatása” az oszlopban írt számokhoz való. A kereten kívüli koppintás elkészíti a felvételt.",
-     "image": ""
+     "image": "img/hu/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Konténerszám",
      "text": "A konténerszám 4 betűből és 7 számjegyből áll. A program ellenőrzi az ellenőrző számjegyet; ha a szám nem egyezik, „A szám nincs ellenőrizve” megjelöléssel menti el — ellenőrizze szabad szemmel.",
-     "image": ""
+     "image": "img/hu/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Plomba",
      "text": "A zárszámot a feliratról olvassa le. Ha a plombán van vonalkód, és az nem egyezik a nyomtatott számmal, a program a nyomtatott számot veszi: a vonalkód néha más sorozatból származik.",
-     "image": ""
+     "image": "img/hu/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Konténercsere",
      "text": "Ha a megállóban átad egy konténert egy másik sofőrnek, és átveszi az övét, rögzítse a cserét: melyik konténert rakták le, melyiket rakták fel, a sofőr nevét és a járműve rendszámát.",
-     "image": ""
+     "image": "img/hu/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Fotók",
      "text": "A fuvarhoz csatolhat fotókat a fel- és lerakodási dokumentumokról: „Dokumentumok fotó”. A „FOTÓK MEGTEKINTÉSE” teljes képernyőn nyitja meg őket.",
-     "image": ""
+     "image": "img/hu/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Biztonsági mentés készítése",
      "text": "Beállítások → Biztonsági mentés: az „Adatbázis exportálása (mentés)” elmenti a fájlt, a „Biztonsági mentés megosztása” pedig azonnal elküldi (e-mail, üzenetküldő, felhő). Biztonsági mentés bármikor készíthető — a munka nem szakad meg.",
-     "image": ""
+     "image": "img/hu/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Visszaállítás",
      "text": "Az „Adatbázis importálása (visszaállítás)” minden jelenlegi adatot lecserél a mentési fájlra. A program először ellenőrzi a fájlt: idegen fájlt vagy újabb verzióból származó mentést nem fogad el. Új telefonon a visszaállítás közvetlenül az első indítás első lépésénél is elvégezhető.",
-     "image": ""
+     "image": "img/hu/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android és iPhone",
      "text": "A biztonsági mentés megegyezik Androidon és iPhone-on: az egyiken készített fájl visszaállítható a másikon.",
-     "image": ""
+     "image": "img/hu/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Időzítők",
      "text": "A várakozás, a tankolás és a kirakodás akkor is fut, amikor a program a háttérben van: az időzítő látható az értesítési sávban. Koppintson az értesítésre, hogy visszatérjen a programba.",
-     "image": ""
+     "image": "img/hu/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Dokumentumok lejárata",
      "text": "A dokumentumok lejáratáról szóló értesítések előre és a lejárat napján érkeznek.",
-     "image": ""
+     "image": "img/hu/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Engedélyek",
      "text": "Ha az értesítések, a kamera vagy a helymeghatározás le van tiltva, a program megmutatja, hol engedélyezheti őket a telefon beállításaiban.",
-     "image": ""
+     "image": "img/hu/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Szervizközpont",
      "text": "Adatok a programról és a telefonról, belépés a szervizképernyőkre és a diagnosztikai csatornába, animációs galéria.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Adatbázis",
      "text": "Az adatbázis állapota és a program teljes visszaállítása. A visszaállítás mindent véglegesen töröl — előtte készítsen biztonsági mentést.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Naplók",
      "text": "A program működési naplói a hibák kivizsgálásához.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Felismerés",
      "text": "A kamerás számbeolvasás diagnosztikája.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "Rendszer",
      "text": "Adatok a telefonról és az összeomlásokról.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Nyelv és első indítás",
      "text": "A nyelvek ellenőrzése és az első indítás újbóli megnyitása.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Kameraképek",
      "text": "Képkockák rögzítése a felismerés tanításához — kizárólag a képekre adott hozzájárulással.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Nyitóképernyő",
      "text": "Az indítási nyitóképernyő beállítása.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "A parkban",
      "text": "Adja meg a „Plató” felépítményt és a platóhosszt.",
-     "image": ""
+     "image": "img/hu/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "Fuvar közben",
      "text": "Rakománytípusok: darabáru (raklapok, súly, leírás), túlméretes (hossz, szélesség, magasság, súly), konténer platón. Túlméretes árunál a „Rakomány adatai” lépés bekéri a méreteket.",
-     "image": ""
+     "image": "img/hu/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Kirakodás",
      "text": "A raklapok megállónként darabszámmal vagy százalékban adhatók le.",
-     "image": ""
+     "image": "img/hu/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "A parkban",
      "text": "„Konténer” felépítmény; a konténer mérete, amelyre a pótkocsit tervezték.",
-     "image": ""
+     "image": "img/hu/container-setup.png"
     },
     {
      "id": "trip",
      "title": "Fuvar közben",
      "text": "Kérdéssor: üres vagy rakott, méret, hány konténer, típus (Standard, Reefer, Flat Rack, Open Top, Tank). Konténerszám és zárszám — kamerával. Szellőzőplomba és hőmérséklet — Reefer esetén.",
-     "image": ""
+     "image": "img/hu/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Kirakodás után",
      "text": "A program megkérdezi, mi lett a konténerrel: az ügyfélnél maradt, a járművön maradt, másik ügyfélhez megy, vagy visszakerül a kikötőbe, illetve depóba.",
-     "image": ""
+     "image": "img/hu/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "A parkban",
      "text": "Az „Oldalsó rakodó” felépítmény csak félpótkocsinál érhető el.",
-     "image": ""
+     "image": "img/hu/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "Fuvar közben",
      "text": "A konténert ugyanúgy kell megadni, mint a konténerszállítónál; a daruzást az összegzésen lehet bejelölni.",
-     "image": ""
+     "image": "img/hu/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Csere",
      "text": "Az oldalsó rakodó gyakran cserél konténert a megállóban — használja a „Konténercsere” funkciót.",
-     "image": ""
+     "image": "img/hu/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "A parkban",
      "text": "„Hűtős” felépítmény; jelölje be a generátort (aggregátot), ha fel van szerelve, és adja meg az aggregát tankját és kritikus tartalékát.",
-     "image": ""
+     "image": "img/hu/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "Fuvar közben",
      "text": "Hűtött szállítás: hűtött vagy nem hűtött; a rakomány hőmérséklete. A vezetési képernyőn — „Az aggregát jár” kapcsoló.",
-     "image": ""
+     "image": "img/hu/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Az aggregát üzemanyaga",
      "text": "Az aggregát gázolaja a tankolásnál külön mezőbe írható be; a program számolja az üzemórákat és a liter/óra fogyasztást, és megjeleníti a „≈ N ó a tartalékig” jelzést.",
-     "image": ""
+     "image": "img/hu/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "A parkban",
      "text": "„Ponyvás” felépítmény.",
-     "image": ""
+     "image": "img/hu/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "Fuvar közben",
      "text": "Darabáru: raklapok száma, összsúly, leírás.",
-     "image": ""
+     "image": "img/hu/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Kirakodás",
      "text": "Minden megállóban jelölje be, hány raklapot adott le; a program megjegyzi a fedélzeten maradt mennyiséget.",
-     "image": ""
+     "image": "img/hu/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "A parkban",
      "text": "„Billenős” felépítmény.",
-     "image": ""
+     "image": "img/hu/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "Fuvar közben",
      "text": "Ömlesztett rakomány: térfogat köbméterben, nettó és bruttó súly, leírás.",
-     "image": ""
+     "image": "img/hu/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Kirakodás",
      "text": "A kirakodást az időpont rögzíti; a rakodási munkák időzítője mutatja, mennyi ideig tartott.",
-     "image": ""
+     "image": "img/hu/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "A parkban",
      "text": "„Tartálykocsi” felépítmény; a rekeszek száma és egyenkénti térfogata literben.",
-     "image": ""
+     "image": "img/hu/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Fuvar közben",
      "text": "A rakomány adataiban — az egyes rekeszek térfogata.",
-     "image": ""
+     "image": "img/hu/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Kirakodás",
-     "text": "A megállóban jelölje be a lefejtett rekeszeket. Ha a fuvar befejezésekor maradtak ki nem rakott rekeszek, a program megerősítést kér.",
-     "image": ""
+     "text": "A megállóban jelölje be a lefejtett rekeszeket. Koppintson a rekeszre a tartálykocsi rajzán vagy a kártyájára; a rekesz mindig egészében ürül, a lefejtett rekesz a rajzon üres. Ha a fuvar befejezésekor maradtak ki nem rakott rekeszek, a program megerősítést kér.",
+     "image": "img/hu/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "A parkban",
      "text": "„Tartálykocsi” felépítmény; rekeszek és térfogatok.",
-     "image": ""
+     "image": "img/hu/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Fuvar közben",
      "text": "Folyadékkategória: vegyszerek, élelmiszer, hulladék; hőmérséklet-szabályozott; ADR veszélyes árukhoz UN-számokkal.",
-     "image": ""
+     "image": "img/hu/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Kirakodás",
      "text": "A rekeszek megállónkénti leadása ugyanúgy történik, mint az üzemanyagszállító tartálykocsinál.",
-     "image": ""
+     "image": "img/hu/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "A parkban",
      "text": "„Autószállító” felépítmény; az autóhelyek száma.",
-     "image": ""
+     "image": "img/hu/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "Fuvar közben",
      "text": "A járműveket VIN (17 karakter, I, O, Q nélkül) vagy rendszám alapján lehet felvenni; a VIN kamerával is beolvasható. A számláló mutatja, hány jármű van felrakva.",
-     "image": ""
+     "image": "img/hu/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Kirakodás",
      "text": "A megállóban jelölje be, mely járműveket adta le és melyeket vette fel. Ha a fuvar befejezésekor maradtak járművek a fedélzeten, a program megerősítést kér.",
-     "image": ""
+     "image": "img/hu/car-transporter-unload.png"
     }
    ]
   }

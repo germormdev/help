@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "מסגרת המצלמה",
      "text": "כוונו את המספר אל תוך המסגרת. צבטו את המסגרת צמוד למספר — כך הוא נקרא טוב יותר. \"סובב את המסגרת\" מיועד למספרים שכתובים בטור אנכי. הקשה מחוץ למסגרת מצלמת.",
-     "image": ""
+     "image": "img/he/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "מספר קונטיינר",
      "text": "מספר קונטיינר מורכב מ-4 אותיות ו-7 ספרות. האפליקציה בודקת את ספרת הביקורת; אם המספר לא התאים, הוא נשמר עם הסימון \"המספר לא אומת\" — בדקו אותו בעין.",
-     "image": ""
+     "image": "img/he/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "סגר",
      "text": "מספר הסגר נקרא מהכיתוב. אם על הסגר יש ברקוד והוא אינו תואם למספר המודפס, האפליקציה לוקחת את המספר המודפס: הברקוד עלול להיות מסדרה אחרת.",
-     "image": ""
+     "image": "img/he/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "החלפת מכולות",
      "text": "אם בנקודה אתם מוסרים מכולה לנהג אחר ולוקחים את המכולה שלו, רשמו את ההחלפה: איזו מכולה פורקה, איזו מכולה נטענה, שם הנהג ומספר הרכב שלו.",
-     "image": ""
+     "image": "img/he/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "תמונות",
      "text": "אפשר לצרף לנסיעה תמונות של מסמכים בטעינה ובפריקה: \"צילום מסמכים\". \"צפה בתמונות\" פותח אותן במסך מלא.",
-     "image": ""
+     "image": "img/he/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "יצירת גיבוי",
      "text": "הגדרות ← גיבוי: \"ייצוא מסד נתונים (גיבוי)\" שומר קובץ, ו\"שיתוף גיבוי\" שולח אותו מיד (דוא\"ל, אפליקציית הודעות, ענן). אפשר לעשות גיבוי בכל רגע — העבודה לא נפסקת.",
-     "image": ""
+     "image": "img/he/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "שחזור",
      "text": "\"יבוא מסד נתונים (שחזור)\" מחליף את כל הנתונים הנוכחיים בקובץ הגיבוי. האפליקציה תבדוק תחילה את הקובץ: קובץ זר או גיבוי מגרסה חדשה יותר לא יתקבלו. בטלפון חדש אפשר לשחזר כבר בשלב הראשון של ההפעלה הראשונה.",
-     "image": ""
+     "image": "img/he/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android ו-iPhone",
      "text": "הגיבוי זהה ב-Android וב-iPhone: קובץ שנוצר באחד משוחזר בשני.",
-     "image": ""
+     "image": "img/he/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "טיימרים",
      "text": "המתנה, תדלוק ופריקה ממשיכים לרוץ גם כשהאפליקציה ממוזערת: הטיימר מוצג במגירת ההתראות. הקישו על ההתראה כדי לחזור לאפליקציה.",
-     "image": ""
+     "image": "img/he/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "תוקף המסמכים",
      "text": "התראות על תוקף מסמכים מגיעות מראש וביום פקיעת התוקף.",
-     "image": ""
+     "image": "img/he/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "הרשאות",
      "text": "אם התראות, מצלמה או מיקום חסומים, האפליקציה תסביר איפה לאפשר אותם בהגדרות הטלפון.",
-     "image": ""
+     "image": "img/he/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "מרכז השירות",
      "text": "פרטים על האפליקציה והטלפון, כניסה למסכי השירות ולערוץ האבחון, וגלריית אנימציות.",
-     "image": ""
+     "image": "img/he/service-hub.png"
     },
     {
      "id": "database",
      "title": "מסד נתונים",
      "text": "מצב מסד הנתונים ואיפוס מלא של האפליקציה. האיפוס מוחק הכול ללא אפשרות שחזור — בצעו גיבוי תחילה.",
-     "image": ""
+     "image": "img/he/service-database.png"
     },
     {
      "id": "logs",
      "title": "יומנים",
      "text": "יומני פעולת האפליקציה לבירור תקלות.",
-     "image": ""
+     "image": "img/he/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "זיהוי",
      "text": "אבחון קריאת מספרים במצלמה.",
-     "image": ""
+     "image": "img/he/service-ocr.png"
     },
     {
      "id": "system",
      "title": "מערכת",
      "text": "פרטים על הטלפון ועל קריסות.",
-     "image": ""
+     "image": "img/he/service-system.png"
     },
     {
      "id": "locale",
      "title": "שפה והפעלה ראשונה",
      "text": "בדיקת שפות והפעלה מחדש של ההגדרות הראשוניות.",
-     "image": ""
+     "image": "img/he/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "צילומי מצלמה",
      "text": "צילום תמונות לאימון הזיהוי — רק בהסכמה לשליחת צילומים.",
-     "image": ""
+     "image": "img/he/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "מסך פתיחה",
      "text": "הגדרת מסך הפתיחה בעת ההפעלה.",
-     "image": ""
+     "image": "img/he/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "במגרש הרכבים",
      "text": "בחרו סוג תא \"פלטה\" והזינו את אורך הפלטה.",
-     "image": ""
+     "image": "img/he/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "בנסיעה",
      "text": "סוגי משא: כללי (משטחים, משקל, תיאור), גדול מידה (אורך, רוחב, גובה, משקל), מכולה על פלטה. במטען גדול מידה השלב \"פרטי מטען\" מבקש מידות.",
-     "image": ""
+     "image": "img/he/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "פריקה",
      "text": "משטחים נמסרים בנקודות לפי מספר או אחוז.",
-     "image": ""
+     "image": "img/he/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "במגרש הרכבים",
      "text": "סוג תא \"סקילט\"; גודל הקונטיינר שעבורו מיועד הנגרר.",
-     "image": ""
+     "image": "img/he/container-setup.png"
     },
     {
      "id": "trip",
      "title": "בנסיעה",
      "text": "רצף שאלות: ריקה או טעונה, גודל, כמה מכולות, סוג (רגילה, Reefer, Flat Rack, Open Top, Tank). מספר קונטיינר ומספר סגר — במצלמה. מספר פתח אוורור וטמפרטורה — עבור Reefer.",
-     "image": ""
+     "image": "img/he/container-trip.png"
     },
     {
      "id": "fate",
      "title": "אחרי הפריקה",
      "text": "האפליקציה שואלת מה קרה למכולה: נשארה אצל הלקוח, נשארה על המשאית, נוסעת אל לקוח אחר או להחזרה לנמל או למסוף.",
-     "image": ""
+     "image": "img/he/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "במגרש הרכבים",
      "text": "סוג התא \"מכולנועה\" קיים רק בנגרר סמי.",
-     "image": ""
+     "image": "img/he/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "בנסיעה",
      "text": "המכולה מוזנת באותו אופן כמו בסקילט; עבודה עם מנוף מסומנת בסיכום הנסיעה.",
-     "image": ""
+     "image": "img/he/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "החלפה",
      "text": "מכולנועה מחליפה לעיתים קרובות מכולות בנקודה — השתמשו ב\"החלפת מכולות\".",
-     "image": ""
+     "image": "img/he/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "במגרש הרכבים",
      "text": "סוג תא \"קרור\"; סמנו אם מותקן גנרטור, והזינו את מכל היחידה ואת השארית הקריטית.",
-     "image": ""
+     "image": "img/he/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "בנסיעה",
      "text": "בקרת טמפרטורה: עם בקרה או ללא בקרה; טמפרטורת המטען. במסך הנסיעה — המתג \"יחידת הנגרר פועלת\".",
-     "image": ""
+     "image": "img/he/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "דלק היחידה",
      "text": "סולר ליחידה מוזן בתדלוק בשדה נפרד; האפליקציה מחשבת שעות פעולה וצריכה בליטרים לשעה ומציגה \"≈ N ש׳ עד הרזרבה\".",
-     "image": ""
+     "image": "img/he/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "במגרש הרכבים",
      "text": "סוג תא \"וילון\".",
-     "image": ""
+     "image": "img/he/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "בנסיעה",
      "text": "משא כללי: מספר משטחים, משקל כולל, תיאור.",
-     "image": ""
+     "image": "img/he/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "פריקה",
      "text": "בכל נקודה סמנו כמה משטחים נפרקו; האפליקציה זוכרת את היתרה על הרכב.",
-     "image": ""
+     "image": "img/he/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "במגרש הרכבים",
      "text": "סוג תא \"הייבר/אמבטיה\".",
-     "image": ""
+     "image": "img/he/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "בנסיעה",
      "text": "עפר/חצץ: נפח במ\"ק, משקל נטו ומשקל ברוטו, תיאור.",
-     "image": ""
+     "image": "img/he/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "פריקה",
      "text": "הפריקה נרשמת לפי זמן; טיימר עבודות המטען מציג כמה זמן היא נמשכה.",
-     "image": ""
+     "image": "img/he/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "במגרש הרכבים",
      "text": "סוג תא \"דלק\"; מספר תאים ונפח כל תא בליטרים.",
-     "image": ""
+     "image": "img/he/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "בנסיעה",
      "text": "בפרטי המשא — נפח לכל תא.",
-     "image": ""
+     "image": "img/he/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "פריקה",
-     "text": "בנקודה סמנו את התאים שנפרקו. אם בסיום הנסיעה נותרו תאים שלא נפרקו, האפליקציה תבקש אישור.",
-     "image": ""
+     "text": "בנקודה סמנו את התאים שנפרקו. הקישו על התא בציור המכלית או על הכרטיס שלו; תא נפרק תמיד במלואו, ותא שנפרק מופיע ריק בציור. אם בסיום הנסיעה נותרו תאים שלא נפרקו, האפליקציה תבקש אישור.",
+     "image": "img/he/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "במגרש הרכבים",
      "text": "סוג תא \"מכלית\"; תאים ונפחים.",
-     "image": ""
+     "image": "img/he/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "בנסיעה",
      "text": "קטגוריית נוזל: כימיקלים, מזון, פסולת; טמפרטורה מבוקרת; ADR עם מספרי UN למטענים מסוכנים.",
-     "image": ""
+     "image": "img/he/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "פריקה",
      "text": "התאים נמסרים בנקודות באותו אופן כמו במכלית דלק.",
-     "image": ""
+     "image": "img/he/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "במגרש הרכבים",
      "text": "סוג תא \"מוביל רכבים\"; מספר מקומות לרכבים.",
-     "image": ""
+     "image": "img/he/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "בנסיעה",
      "text": "הרכבים מוזנים לפי VIN (17 תווים, ללא I, O, Q) או לפי לוחית רישוי; את ה-VIN אפשר לסרוק במצלמה. המונה מציג כמה רכבים נטענו.",
-     "image": ""
+     "image": "img/he/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "פריקה",
      "text": "בנקודה סמנו אילו רכבים נמסרו ואילו נאספו. אם בסיום הנסיעה נותרו רכבים שלא נפרקו על הרכב, האפליקציה תבקש אישור.",
-     "image": ""
+     "image": "img/he/car-transporter-unload.png"
     }
    ]
   }

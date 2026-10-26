@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Kameran kehys",
      "text": "Suuntaa numero kehykseen. Nipistä kehys tiukasti numeron ympärille — silloin se luetaan paremmin. ”Käännä kehys” on pystysuoraan kirjoitetuille numeroille. Napautus kehyksen ulkopuolella ottaa kuvan.",
-     "image": ""
+     "image": "img/fi/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Kontin numero",
      "text": "Kontin numero on 4 kirjainta ja 7 numeroa. Sovellus tarkistaa tarkistusnumeron; jos numero ei täsmää, se tallennetaan merkinnällä ”Numeroa ei ole vahvistettu” — tarkista se silmämääräisesti.",
-     "image": ""
+     "image": "img/fi/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Sinetti",
      "text": "Sinetin numero luetaan tekstistä. Jos sinetissä on viivakoodi eikä se täsmää painetun numeron kanssa, sovellus käyttää painettua numeroa: viivakoodi voi olla toisesta sarjasta.",
-     "image": ""
+     "image": "img/fi/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Konttien vaihto",
      "text": "Jos luovutat kohteessa kontin toiselle kuljettajalle ja otat hänen konttinsa, kirjaa vaihto: mikä kontti purettiin, mikä kontti lastattiin, kuljettajan nimi ja hänen rekkansa rekisterinumero.",
-     "image": ""
+     "image": "img/fi/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Kuvat",
      "text": "Reissuun voi liittää kuvia asiakirjoista lastauksessa ja purussa: ”Asiakirjakuva”. ”Katso kuvat” avaa ne koko näytölle.",
-     "image": ""
+     "image": "img/fi/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Tee varmuuskopio",
      "text": "Asetukset → Varmuuskopio: ”Vie tietokanta (varmuuskopio)” tallentaa tiedoston, ”Jaa varmuuskopio” lähettää sen heti (sähköposti, viestisovellus, pilvi). Varmuuskopion voi tehdä milloin tahansa — työ ei keskeydy.",
-     "image": ""
+     "image": "img/fi/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Palauta",
      "text": "”Tuo tietokanta (palautus)” korvaa kaikki nykyiset tiedot varmuuskopiotiedostolla. Sovellus tarkistaa tiedoston ensin: vierasta tiedostoa tai uudemman sovellusversion varmuuskopiota ei hyväksytä. Uudessa puhelimessa palautuksen voi tehdä suoraan ensimmäisen käynnistyksen ensimmäisessä vaiheessa.",
-     "image": ""
+     "image": "img/fi/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android ja iPhone",
      "text": "Varmuuskopio on samanlainen Androidissa ja iPhonessa: toisessa tehty tiedosto voidaan palauttaa toiseen.",
-     "image": ""
+     "image": "img/fi/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Ajastimet",
      "text": "Odotus, tankkaus ja purku pyörivät myös silloin, kun sovellus on pienennetty: ajastin näkyy ilmoitusalueella. Napauta ilmoitusta palataksesi sovellukseen.",
-     "image": ""
+     "image": "img/fi/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Asiakirjojen voimassaolo",
      "text": "Ilmoitukset asiakirjojen vanhenemisesta tulevat etukäteen ja päättymispäivänä.",
-     "image": ""
+     "image": "img/fi/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Käyttöoikeudet",
      "text": "Jos ilmoitukset, kamera tai sijainti on estetty, sovellus neuvoo, mistä ne voi sallia puhelimen asetuksissa.",
-     "image": ""
+     "image": "img/fi/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Huoltokeskus",
      "text": "Tiedot sovelluksesta ja puhelimesta, pääsy huoltonäyttöihin ja diagnostiikkakanavaan sekä animaatiogalleria.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Tietokanta",
      "text": "Tietokannan tila ja sovelluksen täysi nollaus. Nollaus poistaa kaiken pysyvästi — tee ensin varmuuskopio.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Lokit",
      "text": "Sovelluksen toimintalokit vikojen selvittämiseen.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Tunnistus",
      "text": "Kameran numerontunnistuksen diagnostiikka.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "Järjestelmä",
      "text": "Tiedot puhelimesta ja kaatumisista.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Kieli ja käyttöönotto",
      "text": "Kielten tarkistus ja ensimmäisen käynnistyksen toisto.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Kameran kuvat",
      "text": "Kuvien ottaminen tunnistuksen opettamiseen — vain kun kuville on annettu suostumus.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Aloitusnäyttö",
      "text": "Käynnistyksen aloitusnäytön säätö.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "Hallissa",
      "text": "Valitse korityypiksi ”Avolava” ja anna lavan pituus.",
-     "image": ""
+     "image": "img/fi/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "Reissulla",
      "text": "Lastityypit: kappaletavara (lavat, paino, kuvaus), ylimittainen (pituus, leveys, korkeus, paino) ja kontti avolavalla. Ylimittaisessa lastissa vaihe ”Lastin tiedot” kysyy mitat.",
-     "image": ""
+     "image": "img/fi/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Purku",
      "text": "Lavat puretaan pysäkeittäin kappalemääränä tai prosentteina.",
-     "image": ""
+     "image": "img/fi/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "Hallissa",
      "text": "Korityyppi ”Kontti”; kontin koko, jolle perävaunu on tarkoitettu.",
-     "image": ""
+     "image": "img/fi/container-setup.png"
     },
     {
      "id": "trip",
      "title": "Reissulla",
      "text": "Kysymysketju: tyhjä vai lastattu, koko, montako konttia, tyyppi (Vakio, Reefer, Flat Rack, Open Top, Tank). Kontin ja sinetin numero kameralla. Venta-sinetin numero ja lämpötila Reefer-konteille.",
-     "image": ""
+     "image": "img/fi/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Purun jälkeen",
      "text": "Sovellus kysyy, mitä kontille tapahtui: jäi asiakkaalle, jäi autoon, menee toiselle asiakkaalle tai palautetaan satamaan tai varikolle.",
-     "image": ""
+     "image": "img/fi/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "Hallissa",
      "text": "Korityyppi ”Sivulastaaja” on saatavilla vain puoliperävaunulle.",
-     "image": ""
+     "image": "img/fi/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "Reissulla",
      "text": "Kontti kirjataan samalla tavalla kuin konttiperävaunussa; nostotyö merkitään yhteenvedossa.",
-     "image": ""
+     "image": "img/fi/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Vaihto",
      "text": "Sivulastaaja vaihtaa usein kontteja kohteessa — käytä toimintoa ”Konttien vaihto”.",
-     "image": ""
+     "image": "img/fi/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "Hallissa",
      "text": "Korityyppi ”Kylmäkuljetus”; merkitse generaattori, jos sellainen on asennettu, ja anna koneikon tankki sekä kriittinen vara.",
-     "image": ""
+     "image": "img/fi/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "Reissulla",
      "text": "Lämpötilasäädelty: säädelty tai ei säätelyä; lastin lämpötila. Ajonäkymässä on kytkin ”Koneikko käy”.",
-     "image": ""
+     "image": "img/fi/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Koneikon polttoaine",
      "text": "Koneikon diesel syötetään tankkauksessa omaan kenttäänsä; sovellus laskee käyttötunnit ja kulutuksen litroina tunnissa sekä näyttää ”≈ N h varaan”.",
-     "image": ""
+     "image": "img/fi/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "Hallissa",
      "text": "Korityyppi ”Kapelli”.",
-     "image": ""
+     "image": "img/fi/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "Reissulla",
      "text": "Kappaletavara: lavojen määrä, kokonaispaino, kuvaus.",
-     "image": ""
+     "image": "img/fi/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Purku",
      "text": "Merkitse jokaisella pysäkillä, montako lavaa purettiin; sovellus muistaa kyydissä olevan jäännöksen.",
-     "image": ""
+     "image": "img/fi/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "Hallissa",
      "text": "Korityyppi ”Kippiauto”.",
-     "image": ""
+     "image": "img/fi/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "Reissulla",
      "text": "Irtotavara: tilavuus kuutiometreinä, netto- ja bruttopaino, kuvaus.",
-     "image": ""
+     "image": "img/fi/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Purku",
      "text": "Purku merkitään ajalla; lastaustöiden ajastin näyttää, kauanko se kesti.",
-     "image": ""
+     "image": "img/fi/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "Hallissa",
      "text": "Korityyppi ”Säiliöauto”; lohkojen määrä ja kunkin tilavuus litroina.",
-     "image": ""
+     "image": "img/fi/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Reissulla",
      "text": "Lastin tiedoissa annetaan tilavuus kullekin lohkolle.",
-     "image": ""
+     "image": "img/fi/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Purku",
-     "text": "Merkitse kohteessa puretut lohkot. Jos reissua lopetettaessa osa lohkoista on vielä purkamatta, sovellus pyytää vahvistuksen.",
-     "image": ""
+     "text": "Merkitse kohteessa puretut lohkot. Napauta lohkoa säiliöauton kuvassa tai sen korttia; lohko puretaan aina kokonaan, ja purettu lohko näkyy kuvassa tyhjänä. Jos reissua lopetettaessa osa lohkoista on vielä purkamatta, sovellus pyytää vahvistuksen.",
+     "image": "img/fi/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "Hallissa",
      "text": "Korityyppi ”Säiliöauto”; lohkot ja tilavuudet.",
-     "image": ""
+     "image": "img/fi/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Reissulla",
      "text": "Nesteen kategoria: kemikaalit, elintarvike, jäte; lämpötilasäädelty; ADR ja UN-numerot vaarallisille aineille.",
-     "image": ""
+     "image": "img/fi/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Purku",
      "text": "Lohkot puretaan pysäkeittäin samalla tavalla kuin polttoainesäiliöautossa.",
-     "image": ""
+     "image": "img/fi/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "Hallissa",
      "text": "Korityyppi ”Autonkuljetin”; autopaikkojen määrä.",
-     "image": ""
+     "image": "img/fi/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "Reissulla",
      "text": "Ajoneuvot kirjataan VIN-koodilla (17 merkkiä, ei I, O, Q) tai rekisterinumerolla; VIN-koodin voi skannata kameralla. Laskuri näyttää, montako autoa on lastattu.",
-     "image": ""
+     "image": "img/fi/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Purku",
      "text": "Merkitse kohteessa, mitkä ajoneuvot purettiin ja mitkä otettiin kyytiin. Jos reissua lopetettaessa ajoneuvoja on vielä kyydissä, sovellus pyytää vahvistuksen.",
-     "image": ""
+     "image": "img/fi/car-transporter-unload.png"
     }
    ]
   }

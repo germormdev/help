@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Rámček kamery",
      "text": "Namierte číslo do rámčeka. Stiahnite rámček dvoma prstami tesne k číslu — lepšie sa prečíta. Tlačidlo „Otočiť rámček“ slúži pre čísla napísané zvislo. Ťuknutie mimo rámčeka urobí snímku.",
-     "image": ""
+     "image": "img/sk/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Číslo kontajnera",
      "text": "Číslo kontajnera má 4 písmená a 7 číslic. Aplikácia kontroluje kontrolnú číslicu; ak číslo nesedí, uloží sa s poznámkou „Číslo nie je overené“ — skontrolujte ho očami.",
-     "image": ""
+     "image": "img/sk/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Plomba",
      "text": "Číslo plomby sa číta z nápisu. Ak je na plombe čiarový kód a nezhoduje sa s vytlačeným číslom, aplikácia vezme vytlačené číslo: čiarový kód býva z inej série.",
-     "image": ""
+     "image": "img/sk/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Výmena kontajnerov",
      "text": "Ak na mieste odovzdávate kontajner inému vodičovi a beriete jeho kontajner, zapíšte výmenu: ktorý kontajner bol vyložený, ktorý naložený, meno vodiča a ŠPZ jeho ťahača.",
-     "image": ""
+     "image": "img/sk/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Fotografie",
      "text": "K jazde môžete priložiť fotky dokumentov pri nakládke a vykládke: „Foto dokumentov“. Tlačidlo „ZOBRAZIŤ FOTKY“ ich otvorí na celú obrazovku.",
-     "image": ""
+     "image": "img/sk/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Vytvoriť zálohu",
      "text": "Nastavenia → Záloha: „Exportovať databázu (záloha)“ uloží súbor, „Zdieľať zálohu“ ho rovno odošle (e-mail, čet, cloud). Zálohu môžete urobiť kedykoľvek — práca sa nepreruší.",
-     "image": ""
+     "image": "img/sk/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Obnoviť",
      "text": "„Importovať databázu (obnova)“ nahradí všetky aktuálne dáta súborom zálohy. Aplikácia súbor najprv skontroluje: cudzí súbor alebo zálohu z novšej verzie neprijme. Na novom telefóne môžete údaje obnoviť priamo v prvom kroku pri prvom spustení.",
-     "image": ""
+     "image": "img/sk/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android a iPhone",
      "text": "Záloha je rovnaká na Androide aj iPhone: súbor vytvorený na jednom zariadení obnovíte na druhom.",
-     "image": ""
+     "image": "img/sk/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Časovače",
      "text": "Čakanie, tankovanie a vykládka bežia aj pri minimalizovanej aplikácii: časovač vidno v lište oznámení. Klepnutím na oznámenie sa vrátite do aplikácie.",
-     "image": ""
+     "image": "img/sk/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Platnosť dokladov",
      "text": "Oznámenia o platnosti dokladov prichádzajú vopred a v deň skončenia platnosti.",
-     "image": ""
+     "image": "img/sk/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Povolenia",
      "text": "Ak sú oznámenia, kamera alebo poloha zakázané, aplikácia poradí, kde ich povoliť v nastaveniach telefónu.",
-     "image": ""
+     "image": "img/sk/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Servisné centrum",
      "text": "Informácie o aplikácii a telefóne, vstup do servisných obrazoviek a diagnostického kanála, galéria animácií.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Databáza",
      "text": "Stav databázy a úplné vynulovanie aplikácie. Vynulovanie vymaže všetko bez možnosti vrátenia — najprv si urobte zálohu.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Záznamy",
      "text": "Záznamy o chode aplikácie na riešenie porúch.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Rozpoznávanie",
      "text": "Diagnostika čítania čísel kamerou.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "Systém",
      "text": "Informácie o telefóne a pádoch aplikácie.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Jazyk a úvodné nastavenie",
      "text": "Kontrola jazykov a opätovné spustenie úvodného sprievodcu.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Snímky kamery",
      "text": "Zhotovovanie snímok na trénovanie rozpoznávania — iba so súhlasom na odosielanie snímok.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Úvodná obrazovka",
      "text": "Nastavenie úvodnej obrazovky pri spustení.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "V parku",
      "text": "Nastavte nadstavbu „Plošina“ a dĺžku plošiny.",
-     "image": ""
+     "image": "img/sk/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "Počas jazdy",
      "text": "Typy nákladu: všeobecný náklad (palety, hmotnosť, popis), nadrozmerný (dĺžka, šírka, výška, hmotnosť), kontajner na plošine. Pri nadrozmernom náklade si krok „Detaily nákladu“ vypýta rozmery.",
-     "image": ""
+     "image": "img/sk/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Vykládka",
      "text": "Palety sa odovzdávajú po bodoch počtom alebo percentom.",
-     "image": ""
+     "image": "img/sk/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "V parku",
      "text": "Nadstavba „Kontajner“; veľkosť kontajnera, pre ktorú je náves určený.",
-     "image": ""
+     "image": "img/sk/container-setup.png"
     },
     {
      "id": "trip",
      "title": "Počas jazdy",
      "text": "Postupnosť otázok: prázdny alebo naložený, veľkosť, koľko kontajnerov, typ (Štandardný, Reefer, Flat Rack, Open Top, Tank). Číslo kontajnera a plomby — kamerou. Plomba ventilácie a teplota — pre Reefer.",
-     "image": ""
+     "image": "img/sk/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Po vykládke",
      "text": "Aplikácia sa opýta, čo je s kontajnerom: zostal u klienta, zostal na aute, ide k inému klientovi alebo na vrátenie do prístavu či depa.",
-     "image": ""
+     "image": "img/sk/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "V parku",
      "text": "Nadstavbu „Sidelifter“ má iba náves.",
-     "image": ""
+     "image": "img/sk/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "Počas jazdy",
      "text": "Kontajner sa zadáva rovnako ako pri kontajnerovom návese; práca s žeriavom sa označuje na súhrne.",
-     "image": ""
+     "image": "img/sk/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Výmena",
      "text": "Sidelifter často mení kontajnery na mieste — použite „Výmena kontajnerov“.",
-     "image": ""
+     "image": "img/sk/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "V parku",
      "text": "Nadstavba „Chladiareň“; označte generátor, ak je osadený, a zadajte nádrž agregátu a kritickú rezervu.",
-     "image": ""
+     "image": "img/sk/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "Počas jazdy",
      "text": "Riadená teplota: riadená alebo bez riadenia; teplota nákladu. Na obrazovke jazdy je prepínač „Agregát beží“.",
-     "image": ""
+     "image": "img/sk/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Palivo agregátu",
      "text": "Nafta agregátu sa pri tankovaní zadáva do samostatného poľa; aplikácia počíta motohodiny a spotrebu v litroch za hodinu a zobrazuje „≈ N h do rezervy“.",
-     "image": ""
+     "image": "img/sk/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "V parku",
      "text": "Nadstavba „Plachta“.",
-     "image": ""
+     "image": "img/sk/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "Počas jazdy",
      "text": "Všeobecný náklad: počet paliet, celková hmotnosť, popis.",
-     "image": ""
+     "image": "img/sk/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Vykládka",
      "text": "V každom bode označte, koľko paliet bolo vyložených; aplikácia si pamätá zostatok na palube.",
-     "image": ""
+     "image": "img/sk/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "V parku",
      "text": "Nadstavba „Sklápač“.",
-     "image": ""
+     "image": "img/sk/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "Počas jazdy",
      "text": "Sypký náklad: objem v kubických metroch, hmotnosť netto a brutto, popis.",
-     "image": ""
+     "image": "img/sk/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Vykládka",
      "text": "Vykládka sa zaznamenáva časom; časovač manipulácie s nákladom ukazuje, ako dlho trvala.",
-     "image": ""
+     "image": "img/sk/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "V parku",
      "text": "Nadstavba „Cisterna“; počet komôr a objem každej v litroch.",
-     "image": ""
+     "image": "img/sk/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Počas jazdy",
      "text": "V detailoch nákladu sa zadáva objem pre každú komoru.",
-     "image": ""
+     "image": "img/sk/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Vykládka",
-     "text": "V cieli označte vyložené komory. Ak pri ukončení jazdy zostali nevyložené komory, aplikácia si vypýta potvrdenie.",
-     "image": ""
+     "text": "V cieli označte vyložené komory. Ťuknite na komoru na obrázku cisterny alebo na jej kartu; komora sa vykladá vždy celá a vyložená komora je na obrázku prázdna. Ak pri ukončení jazdy zostali nevyložené komory, aplikácia si vypýta potvrdenie.",
+     "image": "img/sk/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "V parku",
      "text": "Nadstavba „Cisterna“; komory a objemy.",
-     "image": ""
+     "image": "img/sk/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Počas jazdy",
      "text": "Kategória kvapaliny: chemikálie, potravinárske, odpad; riadená teplota; ADR s číslami UN pre nebezpečný náklad.",
-     "image": ""
+     "image": "img/sk/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Vykládka",
      "text": "Komory sa odovzdávajú po bodoch rovnako ako pri palivovej cisterne.",
-     "image": ""
+     "image": "img/sk/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "V parku",
      "text": "Nadstavba „Autotransportér“; počet miest pre vozidlá.",
-     "image": ""
+     "image": "img/sk/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "Počas jazdy",
      "text": "Vozidlá sa zadávajú podľa VIN (17 znakov, bez I, O, Q) alebo podľa ŠPZ; VIN môžete naskenovať kamerou. Počítadlo ukazuje, koľko vozidiel je naložených.",
-     "image": ""
+     "image": "img/sk/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Vykládka",
      "text": "V cieli označte, ktoré vozidlá boli vyložené a ktoré naložené. Ak pri ukončení jazdy zostali vozidlá na palube, aplikácia si vypýta potvrdenie.",
-     "image": ""
+     "image": "img/sk/car-transporter-unload.png"
     }
    ]
   }

@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Cadrul camerei",
      "text": "Încadrați numărul în chenar. Strângeți cadrul cu două degete aproape de număr — așa se citește mai bine. „Rotește cadrul” este util pentru numerele scrise pe verticală. Atingerea în afara cadrului face poza.",
-     "image": ""
+     "image": "img/ro/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Număr container",
      "text": "Numărul containerului are 4 litere și 7 cifre. Aplicația verifică cifra de control; dacă numărul nu corespunde, este salvat cu mențiunea „Număr nevalidat” — verificați-l vizual.",
-     "image": ""
+     "image": "img/ro/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Sigiliu",
      "text": "Numărul sigiliului se citește din inscripție. Dacă pe sigiliu există un cod de bare care nu corespunde cu numărul tipărit, aplicația ia numărul tipărit: codul de bare poate aparține altei serii.",
-     "image": ""
+     "image": "img/ro/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Schimb de containere",
      "text": "Dacă la un punct predați containerul altui șofer și preluați containerul lui, înregistrați schimbul: ce container a fost descărcat, ce container a fost încărcat, numele șoferului și numărul de înmatriculare al camionului său.",
-     "image": ""
+     "image": "img/ro/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Fotografii",
      "text": "La cursă puteți atașa fotografii ale documentelor la încărcare și la descărcare: „Foto documente”. „Vezi pozele” le deschide pe tot ecranul.",
-     "image": ""
+     "image": "img/ro/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Crearea copiei de siguranță",
      "text": "„Setări” → „Copie de rezervă”: „Exportă baza de date (backup)” salvează fișierul, iar „Distribuie copia de siguranță” îl trimite imediat (e-mail, aplicație de mesagerie, cloud). Puteți face o copie de siguranță în orice moment — lucrul nu se întrerupe.",
-     "image": ""
+     "image": "img/ro/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Restaurare",
      "text": "„Importă baza de date (restaurare)” înlocuiește toate datele actuale cu fișierul de backup. Aplicația verifică mai întâi fișierul: un fișier străin sau un backup făcut cu o versiune mai nouă a aplicației nu va fi acceptat. Pe un telefon nou, puteți restaura datele chiar la primul pas de la prima pornire.",
-     "image": ""
+     "image": "img/ro/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android și iPhone",
      "text": "Copia de siguranță are același format pe Android și pe iPhone: un fișier salvat pe unul se restaurează pe celălalt.",
-     "image": ""
+     "image": "img/ro/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Cronometre",
      "text": "Așteptarea, alimentarea și descărcarea continuă să meargă și când aplicația este minimizată: cronometrul se vede în bara de notificări. Apăsați pe notificare pentru a reveni în aplicație.",
-     "image": ""
+     "image": "img/ro/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Expirarea documentelor",
      "text": "Notificările privind expirarea documentelor sosesc din timp și în ziua expirării.",
-     "image": ""
+     "image": "img/ro/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Permisiuni",
      "text": "Dacă notificările, camera sau locația sunt oprite, aplicația vă arată unde le puteți permite în setările telefonului.",
-     "image": ""
+     "image": "img/ro/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Centrul de service",
      "text": "Informații despre aplicație și telefon, acces la ecranele de service și la canalul de diagnosticare, galeria de animații.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Baza de date",
      "text": "Starea bazei de date și resetarea completă a aplicației. Resetarea șterge totul definitiv — faceți mai întâi o copie de siguranță.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Jurnale",
      "text": "Jurnalele de funcționare ale aplicației pentru analizarea erorilor.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Recunoaștere",
      "text": "Diagnosticarea citirii numerelor cu camera.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "Sistem",
      "text": "Informații despre telefon și despre blocările aplicației.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Limbă și configurare inițială",
      "text": "Verificarea limbilor și reluarea pașilor de la prima pornire.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Cadre cameră",
      "text": "Capturarea cadrelor pentru antrenarea recunoașterii — doar cu consimțământul pentru fotografii.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Ecran de pornire",
      "text": "Reglarea ecranului de pornire al aplicației.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "În parc",
      "text": "Alegeți caroseria „Platformă” și introduceți lungimea platformei.",
-     "image": ""
+     "image": "img/ro/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "În cursă",
      "text": "Tipuri de marfă: marfă generală (paleți, greutate, descriere), agabaritic (lungime, lățime, înălțime, greutate), container pe platformă. La marfa agabaritică, pasul „Detalii încărcare” cere dimensiunile.",
-     "image": ""
+     "image": "img/ro/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Descărcare",
      "text": "Paleții se predau pe puncte, ca număr sau ca procent.",
-     "image": ""
+     "image": "img/ro/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "În parc",
      "text": "Caroseria „Container”; dimensiunea containerului pentru care este construită remorca.",
-     "image": ""
+     "image": "img/ro/container-setup.png"
     },
     {
      "id": "trip",
      "title": "În cursă",
      "text": "Șirul de întrebări: gol sau încărcat, dimensiunea, câte containere, tipul (Standard, Reefer, Flat Rack, Open Top, Tank). Numărul containerului și al sigiliului — cu camera. Sigiliul de ventilație și temperatura — pentru Reefer.",
-     "image": ""
+     "image": "img/ro/container-trip.png"
     },
     {
      "id": "fate",
      "title": "După descărcare",
      "text": "Aplicația întreabă ce s-a întâmplat cu containerul: a rămas la client, a rămas pe camion, merge la alt client sau se returnează în port ori la depozit.",
-     "image": ""
+     "image": "img/ro/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "În parc",
      "text": "Caroseria „Sidelifter” este disponibilă doar la semiremorcă.",
-     "image": ""
+     "image": "img/ro/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "În cursă",
      "text": "Containerul se introduce la fel ca la șasiul de container; lucrul cu macaraua se bifează în rezumatul cursei.",
-     "image": ""
+     "image": "img/ro/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Schimb",
      "text": "Sidelifter-ul schimbă des containere la punctul de lucru — folosiți „Schimb de containere”.",
-     "image": ""
+     "image": "img/ro/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "În parc",
      "text": "Caroseria „Frigorific”; bifați „Generator montat” dacă există și completați rezervorul agregatului și rezerva critică.",
-     "image": ""
+     "image": "img/ro/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "În cursă",
      "text": "Temperatură controlată: „Controlată” sau „Ambientală”; temperatura mărfii. Pe ecranul de condus se află comutatorul „Agregatul funcționează”.",
-     "image": ""
+     "image": "img/ro/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Combustibilul agregatului",
      "text": "Motorina agregatului se introduce la alimentare într-un câmp separat; aplicația calculează orele de funcționare și consumul în litri pe oră și afișează „≈ N h până la rezervă”.",
-     "image": ""
+     "image": "img/ro/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "În parc",
      "text": "Caroseria „Prelată”.",
-     "image": ""
+     "image": "img/ro/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "În cursă",
      "text": "Marfă generală: numărul de paleți, greutatea totală, descrierea.",
-     "image": ""
+     "image": "img/ro/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Descărcare",
      "text": "La fiecare oprire notați câți paleți ați descărcat; aplicația ține minte cât a rămas la bord.",
-     "image": ""
+     "image": "img/ro/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "În parc",
      "text": "Caroseria „Basculantă”.",
-     "image": ""
+     "image": "img/ro/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "În cursă",
      "text": "Vrac: volumul în metri cubi, greutatea netă și brută, descrierea.",
-     "image": ""
+     "image": "img/ro/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Descărcare",
      "text": "Descărcarea se înregistrează prin timp; cronometrul operațiunilor de manipulare arată cât a durat.",
-     "image": ""
+     "image": "img/ro/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "În parc",
      "text": "Caroseria „Cisternă”; numărul de compartimente și volumul fiecăruia în litri.",
-     "image": ""
+     "image": "img/ro/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "În cursă",
      "text": "La detaliile mărfii — volumul pentru fiecare compartiment.",
-     "image": ""
+     "image": "img/ro/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Descărcare",
-     "text": "La destinație, bifați compartimentele descărcate. Dacă la încheierea cursei au rămas compartimente nedescărcate, aplicația vă va cere confirmarea.",
-     "image": ""
+     "text": "La destinație, bifați compartimentele descărcate. Atingeți compartimentul pe desenul cisternei sau cardul lui; un compartiment se descarcă mereu complet, iar cel descărcat apare gol pe desen. Dacă la încheierea cursei au rămas compartimente nedescărcate, aplicația vă va cere confirmarea.",
+     "image": "img/ro/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "În parc",
      "text": "Caroseria „Cisternă”; compartimentele și volumele lor.",
-     "image": ""
+     "image": "img/ro/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "În cursă",
      "text": "Categoria de lichid: „Substanțe chimice”, „Alimentar”, „Deșeuri”; „Temperatură controlată”; ADR cu numere UN pentru mărfuri periculoase.",
-     "image": ""
+     "image": "img/ro/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Descărcare",
      "text": "Compartimentele se predau pe puncte, la fel ca la cisterna de combustibil.",
-     "image": ""
+     "image": "img/ro/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "În parc",
      "text": "Caroseria „Transportor auto”; numărul de locuri auto.",
-     "image": ""
+     "image": "img/ro/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "În cursă",
      "text": "Mașinile se introduc după VIN (17 caractere, fără I, O, Q) sau după numărul de înmatriculare; VIN-ul poate fi scanat cu camera. Contorul arată câte mașini sunt încărcate.",
-     "image": ""
+     "image": "img/ro/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Descărcare",
      "text": "La oprire, bifați ce mașini au fost livrate și ce mașini au fost încărcate. Dacă la încheierea cursei mai rămân mașini la bord, aplicația vă va cere confirmarea.",
-     "image": ""
+     "image": "img/ro/car-transporter-unload.png"
     }
    ]
   }

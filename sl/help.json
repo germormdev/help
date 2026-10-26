@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Okvir kamere",
      "text": "Usmerite številko v okvir. Z dvema prstoma stisnite okvir tesno ob številko — tako se bolje prebere. »Zavrti okvir« je namenjen številkam, zapisanim navpično. Dotik zunaj okvira naredi posnetek.",
-     "image": ""
+     "image": "img/sl/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Številka kontejnerja",
      "text": "Številka kontejnerja je sestavljena iz 4 črk in 7 številk. Aplikacija preveri kontrolno številko; če se ne ujema, se številka shrani z oznako »Številka ni preverjena« — preverite jo sami.",
-     "image": ""
+     "image": "img/sl/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Plomba",
      "text": "Številka plombe se prebere z napisa. Če je na plombi črtna koda in se ne ujema z natisnjeno številko, aplikacija vzame natisnjeno številko: črtna koda je včasih iz druge serije.",
-     "image": ""
+     "image": "img/sl/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Menjava kontejnerjev",
      "text": "Če na točki predate kontejner drugemu vozniku in prevzamete njegovega, zabeležite menjavo: kateri kontejner je raztovorjen, kateri natovorjen, ime voznika in registrsko njegovega vozila.",
-     "image": ""
+     "image": "img/sl/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Fotografije",
      "text": "Vožnji lahko priložite fotografije dokumentov ob nakladanju in razkladanju: »Foto dokumentov«. »Prikaži fotografije« jih odpre čez cel zaslon.",
-     "image": ""
+     "image": "img/sl/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Ustvari varnostno kopijo",
      "text": "Nastavitve → Varnostna kopija: »Izvozi bazo« shrani datoteko, »Deli varnostno kopijo« pa jo takoj pošlje (e-pošta, sporočila, oblak). Varnostno kopijo lahko naredite kadar koli — delo se ne prekine.",
-     "image": ""
+     "image": "img/sl/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Obnovitev",
      "text": "»Uvozi bazo« zamenja vse trenutne podatke z datoteko varnostne kopije. Aplikacija datoteko najprej preveri: tuje datoteke ali varnostne kopije iz novejše različice ne bo sprejela. Na novem telefonu lahko podatke obnovite kar na prvem koraku ob prvem zagonu.",
-     "image": ""
+     "image": "img/sl/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android in iPhone",
      "text": "Varnostna kopija je enaka v sistemih Android in iPhone: datoteko, narejeno v enem, lahko obnovite v drugem.",
-     "image": ""
+     "image": "img/sl/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Časovniki",
      "text": "Čakanje, točenje goriva in razkladanje tečejo tudi, ko je aplikacija pomanjšana: časovnik je viden v vrstici z obvestili. Tapnite obvestilo, da se vrnete v aplikacijo.",
-     "image": ""
+     "image": "img/sl/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Veljavnost dokumentov",
      "text": "Obvestila o poteku dokumentov pridejo vnaprej in na dan poteka veljavnosti.",
-     "image": ""
+     "image": "img/sl/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Dovoljenja",
      "text": "Če so obvestila, kamera ali lokacija onemogočeni, vam bo aplikacija pokazala, kje jih lahko dovolite v nastavitvah telefona.",
-     "image": ""
+     "image": "img/sl/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Servisno središče",
      "text": "Podatki o aplikaciji in telefonu, vstop v servisne zaslone in diagnostični kanal ter galerija animacij.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Podatkovna baza",
      "text": "Stanje podatkovne baze in popolna ponastavitev aplikacije. Ponastavitev nepovratno izbriše vse — najprej naredite varnostno kopijo.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Dnevniki",
      "text": "Dnevniki delovanja aplikacije za preiskovanje napak.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Prepoznavanje",
      "text": "Diagnostika branja številk s kamero.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "Sistem",
      "text": "Podatki o telefonu in sesutjih.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Jezik in uvodni koraki",
      "text": "Preverjanje jezikov in ponovni prvi zagon.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Posnetki kamere",
      "text": "Zajemanje posnetkov za učenje prepoznavanja — samo s privolitvijo za posnetke.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Pozdravni zaslon",
      "text": "Nastavitev pozdravnega zaslona ob zagonu.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "V voznem parku",
      "text": "Izberite nadgradnjo »Ploščad« in vpišite dolžino ploščadi.",
-     "image": ""
+     "image": "img/sl/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "Med vožnjo",
      "text": "Vrste tovora: splošni tovor (palete, teža, opis), izredni tovor (dolžina, širina, višina, teža), kontejner na ploščadi. Pri izrednem tovoru korak »Podrobnosti tovora« zahteva mere.",
-     "image": ""
+     "image": "img/sl/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Raztovor",
      "text": "Palete se oddajajo po točkah s številom ali odstotkom.",
-     "image": ""
+     "image": "img/sl/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "V voznem parku",
      "text": "Nadgradnja »Kontejner«; velikost kontejnerja, za katero je namenjen polpriklopnik.",
-     "image": ""
+     "image": "img/sl/container-setup.png"
     },
     {
      "id": "trip",
      "title": "Med vožnjo",
      "text": "Zaporedje vprašanj: prazen ali naložen, velikost, koliko kontejnerjev, vrsta (standardni, Reefer, Flat Rack, Open Top, Tank). Številka kontejnerja in plombe — s kamero. Plomba zračnika in temperatura — za Reefer.",
-     "image": ""
+     "image": "img/sl/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Po razkladanju",
      "text": "Aplikacija vpraša, kaj je s kontejnerjem: je ostal pri stranki, ostal na vozilu, gre k drugi stranki ali na vračilo v pristanišče oziroma depo.",
-     "image": ""
+     "image": "img/sl/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "V voznem parku",
      "text": "Nadgradnja »Sidelifter« je na voljo le pri polpriklopniku.",
-     "image": ""
+     "image": "img/sl/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "Med vožnjo",
      "text": "Kontejner se vnese enako kot pri običajnem kontejnerskem vozilu; delo z dvigalom se označi na povzetku.",
-     "image": ""
+     "image": "img/sl/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Menjava",
      "text": "Sidelifter na točki pogosto menja kontejnerje — uporabite »Menjava kontejnerjev«.",
-     "image": ""
+     "image": "img/sl/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "V voznem parku",
      "text": "Nadgradnja »Hladilnik«; označite generator, če je vgrajen, ter vpišite rezervoar agregata in kritično rezervo.",
-     "image": ""
+     "image": "img/sl/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "Med vožnjo",
      "text": "Nadzorovana temperatura: z nadzorom ali brez; temperatura tovora. Na zaslonu vožnje je stikalo »Agregat deluje«.",
-     "image": ""
+     "image": "img/sl/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Gorivo agregata",
      "text": "Dizel agregata se pri točenju vpiše v ločeno polje; aplikacija šteje obratovalne ure in porabo v litrih na uro ter prikazuje »≈ N h do rezerve«.",
-     "image": ""
+     "image": "img/sl/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "V voznem parku",
      "text": "Nadgradnja »Ponjava«.",
-     "image": ""
+     "image": "img/sl/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "Med vožnjo",
      "text": "Splošni tovor: število palet, skupna teža, opis.",
-     "image": ""
+     "image": "img/sl/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Raztovor",
      "text": "Na vsaki točki označite, koliko palet ste oddali; aplikacija si zapomni preostanek na vozilu.",
-     "image": ""
+     "image": "img/sl/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "V voznem parku",
      "text": "Nadgradnja »Prekucnik«.",
-     "image": ""
+     "image": "img/sl/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "Med vožnjo",
      "text": "Razsuti tovor: prostornina v kubičnih metrih, teža neto in bruto, opis.",
-     "image": ""
+     "image": "img/sl/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Raztovor",
      "text": "Raztovor se zabeleži s časom; časovnik rokovanja s tovorom kaže, koliko časa je trajal.",
-     "image": ""
+     "image": "img/sl/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "V voznem parku",
      "text": "Nadgradnja »Cisterna«; število prekatov in prostornina vsakega v litrih.",
-     "image": ""
+     "image": "img/sl/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Med vožnjo",
      "text": "V podrobnostih tovora vpišete prostornino za vsak prekat.",
-     "image": ""
+     "image": "img/sl/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Raztovor",
-     "text": "Na točki označite izpraznjene prekate. Če ob zaključku vožnje ostanejo neizpraznjeni prekati, bo aplikacija prosila za potrditev.",
-     "image": ""
+     "text": "Na točki označite izpraznjene prekate. Tapnite prekat na risbi cisterne ali njegovo kartico; prekat se vedno izprazni v celoti, izpraznjeni prekat je na risbi prazen. Če ob zaključku vožnje ostanejo neizpraznjeni prekati, bo aplikacija prosila za potrditev.",
+     "image": "img/sl/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "V voznem parku",
      "text": "Nadgradnja »Cisterna«; prekati in prostornine.",
-     "image": ""
+     "image": "img/sl/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Med vožnjo",
      "text": "Kategorija tekočine: kemikalije, živila, odpadki; nadzorovana temperatura; ADR s številkami UN za nevaren tovor.",
-     "image": ""
+     "image": "img/sl/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Raztovor",
      "text": "Prekati se oddajajo po točkah enako kot pri cisterni za gorivo.",
-     "image": ""
+     "image": "img/sl/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "V voznem parku",
      "text": "Nadgradnja »Avtoprevoznik«; število mest za vozila.",
-     "image": ""
+     "image": "img/sl/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "Med vožnjo",
      "text": "Vozila se vnašajo po kodi VIN (17 znakov, brez I, O, Q) ali po registrski; VIN lahko posnamete s kamero. Števec kaže, koliko vozil je natovorjenih.",
-     "image": ""
+     "image": "img/sl/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Raztovor",
      "text": "Na točki označite, katera vozila ste oddali in katera prevzeli. Če ob zaključku vožnje na vozilu še ostanejo avtomobili, bo aplikacija prosila za potrditev.",
-     "image": ""
+     "image": "img/sl/car-transporter-unload.png"
     }
    ]
   }

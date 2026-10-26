@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Kameraram",
      "text": "Rikta numret mot ramen. Nyp ihop ramen tätt runt numret — då läses det bättre. ”Vrid ramen” används för nummer som står lodrätt. Tryck utanför ramen för att ta bilden.",
-     "image": ""
+     "image": "img/sv/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Containernummer",
      "text": "Ett containernummer består av 4 bokstäver och 7 siffror. Appen kontrollerar kontrollsiffran; om numret inte stämmer sparas det med markeringen ”Numret är inte validerat” — kontrollera det själv.",
-     "image": ""
+     "image": "img/sv/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Plomb",
      "text": "Plombnumret läses från texten på plomben. Om det finns en streckkod på plomben som inte stämmer överens med det tryckta numret väljer appen det tryckta numret, eftersom streckkoden kan tillhöra en annan serie.",
-     "image": ""
+     "image": "img/sv/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Containerbyte",
      "text": "Om du lämnar en container till en annan förare på platsen och tar hans container, registrera bytet: vilken container som lossades, vilken som lastades, förarens namn och lastbilens registreringsnummer.",
-     "image": ""
+     "image": "img/sv/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Foton",
      "text": "Du kan bifoga foton på dokument vid lastning och lossning: ”Dokumentbild”. ”VISA FOTON” öppnar dem i helskärm.",
-     "image": ""
+     "image": "img/sv/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Skapa säkerhetskopia",
      "text": "Inställningar → Säkerhetskopia: ”Exportera databas (säkerhetskopia)” sparar filen, ”Dela säkerhetskopia” skickar den direkt (e-post, meddelandeapp, molnet). Du kan göra en säkerhetskopia när som helst — arbetet avbryts inte.",
-     "image": ""
+     "image": "img/sv/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Återställ",
      "text": "”Importera databas (återställ)” ersätter alla aktuella data med säkerhetskopian. Appen kontrollerar filen först: en felaktig fil eller en säkerhetskopia från en nyare version godtas inte. På en ny telefon kan du återställa direkt i första steget vid första starten.",
-     "image": ""
+     "image": "img/sv/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android och iPhone",
      "text": "Säkerhetskopian fungerar likadant på Android och iPhone: en fil som skapats på den ena kan återställas på den andra.",
-     "image": ""
+     "image": "img/sv/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Timers",
      "text": "Väntan, tankning och lossning fortsätter att räkna även när appen är minimerad: timern syns i aviseringsfältet. Tryck på aviseringen för att komma tillbaka till appen.",
-     "image": ""
+     "image": "img/sv/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Dokumentens giltighet",
      "text": "Aviseringar om dokumentens utgångsdatum kommer i förväg och på sista giltighetsdagen.",
-     "image": ""
+     "image": "img/sv/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Behörigheter",
      "text": "Om aviseringar, kamera eller plats är nekade visar appen var du kan tillåta dem i telefonens inställningar.",
-     "image": ""
+     "image": "img/sv/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Servicecenter",
      "text": "Information om appen och telefonen, ingång till serviceskärmarna och diagnostikkanalen samt ett galleri med animationer.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Databas",
      "text": "Databasens status och fullständig återställning av appen. Återställningen raderar allt permanent — gör en säkerhetskopia först.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Loggar",
      "text": "Appens aktivitetsloggar för felsökning.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Avläsning",
      "text": "Diagnostik för avläsning av nummer med kameran.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "System",
      "text": "Information om telefonen och krascher.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Språk och introduktion",
      "text": "Kontroll av språk och omstart av första starten.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Kamerabilder",
      "text": "Insamling av bilder för att träna avläsningen — endast med samtycke för bilder.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Startbild",
      "text": "Inställning av startbilden vid uppstart.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "I fordonsparken",
      "text": "Välj karosstypen ”Flak” och ange flaklängden.",
-     "image": ""
+     "image": "img/sv/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "Under resan",
      "text": "Lasttyper: styckegods (pallar, vikt, beskrivning), skrymmande (längd, bredd, höjd, vikt), container på flak. Vid skrymmande last frågar steget ”Lastdetaljer” efter måtten.",
-     "image": ""
+     "image": "img/sv/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossning",
      "text": "Pallar lossas vid varje stopp som antal eller procent.",
-     "image": ""
+     "image": "img/sv/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "I fordonsparken",
      "text": "Karosstypen ”Container” och den containerstorlek som släpet är avsett för.",
-     "image": ""
+     "image": "img/sv/container-setup.png"
     },
     {
      "id": "trip",
      "title": "Under resan",
      "text": "Kedja av frågor: tom eller lastad, storlek, hur många containrar, typ (Standard, Reefer, Flat Rack, Open Top, Tank). Containernummer och plomber skannas med kameran. Venta-plombnummer och temperatur anges för Reefer.",
-     "image": ""
+     "image": "img/sv/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Efter lossning",
      "text": "Appen frågar vad som hände med containern: stannade hos kunden, kvar på bilen, vidare till en annan kund eller retur till hamn eller depå.",
-     "image": ""
+     "image": "img/sv/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "I fordonsparken",
      "text": "Karosstypen ”Sidolastare” finns endast för trailer.",
-     "image": ""
+     "image": "img/sv/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "Under resan",
      "text": "Containern läggs in på samma sätt som för containerchassi; arbete med kran markeras på sammanfattningen.",
-     "image": ""
+     "image": "img/sv/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Byte",
      "text": "En sidolastare byter ofta containrar på plats — använd ”Containerbyte”.",
-     "image": ""
+     "image": "img/sv/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "I fordonsparken",
      "text": "Karosstypen ”Kyl”; markera generator om en sådan är monterad, och ange aggregatets tank och kritiska reserv.",
-     "image": ""
+     "image": "img/sv/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "Under resan",
      "text": "Temperaturstyrt: styrt eller ostyrt samt lastens temperatur. På körskärmen finns brytaren ”Aggregatet går”.",
-     "image": ""
+     "image": "img/sv/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Aggregatets bränsle",
      "text": "Diesel till aggregatet fylls i i ett eget fält vid tankning; appen räknar drifttimmar och förbrukning i liter per timme och visar ”≈ N h till reserv”.",
-     "image": ""
+     "image": "img/sv/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "I fordonsparken",
      "text": "Karosstypen ”Kapell”.",
-     "image": ""
+     "image": "img/sv/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "Under resan",
      "text": "Styckegods: antal pallar, total vikt och beskrivning.",
-     "image": ""
+     "image": "img/sv/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossning",
      "text": "Vid varje stopp anger du hur många pallar som lossats; appen håller reda på vad som finns kvar ombord.",
-     "image": ""
+     "image": "img/sv/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "I fordonsparken",
      "text": "Karosstypen ”Tippbil”.",
-     "image": ""
+     "image": "img/sv/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "Under resan",
      "text": "Bulk: volym i kubikmeter, nettovikt och bruttovikt samt beskrivning.",
-     "image": ""
+     "image": "img/sv/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossning",
      "text": "Lossningen registreras med tid; timern för lastarbete visar hur lång tid den tog.",
-     "image": ""
+     "image": "img/sv/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "I fordonsparken",
      "text": "Karosstypen ”Tankbil”; antal sektioner och volym i liter för varje sektion.",
-     "image": ""
+     "image": "img/sv/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Under resan",
      "text": "I lastdetaljerna anges volymen för varje sektion.",
-     "image": ""
+     "image": "img/sv/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossning",
-     "text": "Vid stoppet markerar du de sektioner som lossats. Om det finns sektioner kvar som inte har lossats när du avslutar resan ber appen dig bekräfta.",
-     "image": ""
+     "text": "Vid stoppet markerar du de sektioner som lossats. Tryck på sektionen på bilden av tankbilen eller på dess kort; en sektion lossas alltid helt, och en lossad sektion blir tom på bilden. Om det finns sektioner kvar som inte har lossats när du avslutar resan ber appen dig bekräfta.",
+     "image": "img/sv/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "I fordonsparken",
      "text": "Karosstypen ”Tankbil”; sektioner och volymer.",
-     "image": ""
+     "image": "img/sv/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Under resan",
      "text": "Vätskekategori: kemikalier, livsmedel, avfall; temperaturkontrollerad; ADR med UN-nummer för farligt gods.",
-     "image": ""
+     "image": "img/sv/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossning",
      "text": "Sektionerna lossas vid varje stopp på samma sätt som för en bränsletankbil.",
-     "image": ""
+     "image": "img/sv/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "I fordonsparken",
      "text": "Karosstypen ”Biltransport” och antal fordonsplatser.",
-     "image": ""
+     "image": "img/sv/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "Under resan",
      "text": "Fordonen läggs in med VIN (17 tecken, inga I, O, Q) eller registreringsnummer; VIN kan skannas med kameran. Räknaren visar hur många som är lastade.",
-     "image": ""
+     "image": "img/sv/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Lossning",
      "text": "Vid stoppet markerar du vilka fordon som lossats och vilka som lastats. Om det finns fordon kvar ombord när du avslutar resan ber appen dig bekräfta.",
-     "image": ""
+     "image": "img/sv/car-transporter-unload.png"
     }
    ]
   }

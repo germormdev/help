@@ -228,31 +228,31 @@
      "id": "scan",
      "title": "Kameras rāmis",
      "text": "Iekadrējiet numuru rāmī. Ar diviem pirkstiem savelciet rāmi cieši ap numuru — tā to nolasa labāk. «Pagriezt rāmi» ir numuriem, kas uzrakstīti stabiņā. Pieskāriens ārpus rāmja uzņem attēlu.",
-     "image": ""
+     "image": "img/lv/camera-scan.png"
     },
     {
      "id": "container-number",
      "title": "Konteinera numurs",
      "text": "Konteinera numurs ir 4 burti un 7 cipari. Lietotne pārbauda kontrolciparu; ja numurs nesakrīt, tas tiek saglabāts ar atzīmi «Numurs nav validēts» — pārbaudiet to ar aci.",
-     "image": ""
+     "image": "img/lv/camera-container-number.png"
     },
     {
      "id": "seal",
      "title": "Plomba",
      "text": "Plombas numuru nolasa no uzraksta. Ja uz plombas ir svītrkods un tas nesakrīt ar uzdrukāto numuru, lietotne ņem uzdrukāto numuru: svītrkods mēdz būt no citas sērijas.",
-     "image": ""
+     "image": "img/lv/camera-seal.png"
     },
     {
      "id": "container-exchange",
      "title": "Konteineru maiņa",
      "text": "Ja punktā jūs nododat konteineru citam vadītājam un paņemat viņa konteineru, ierakstiet maiņu: kurš konteiners izkrauts, kurš iekrauts, vadītāja vārds un viņa mašīnas numura zīme.",
-     "image": ""
+     "image": "img/lv/camera-container-exchange.png"
     },
     {
      "id": "photos",
      "title": "Fotoattēli",
      "text": "Reisam var pievienot dokumentu fotoattēlus iekraušanā un izkraušanā: «Dokumentu foto». «SKATĪT FOTO» atver tos pilnekrāna režīmā.",
-     "image": ""
+     "image": "img/lv/camera-photos.png"
     }
    ]
   },
@@ -457,19 +457,19 @@
      "id": "backup",
      "title": "Izveidot dublējumkopiju",
      "text": "Iestatījumi → Rezerves kopija: «Eksportēt datubāzi (dublējums)» saglabā failu, «Kopīgot dublējumkopiju» uzreiz to nosūta (e-pasts, saziņas lietotne, mākonis). Dublējumkopiju var veidot jebkurā brīdī — darbs netiek pārtraukts.",
-     "image": ""
+     "image": "img/lv/backup-backup.png"
     },
     {
      "id": "restore",
      "title": "Atjaunot",
      "text": "«Importēt datubāzi (atjaunot)» aizstāj visus pašreizējos datus ar dublējumkopijas failu. Lietotne vispirms pārbaudīs failu: svešs fails vai dublējumkopija no jaunākas versijas netiks pieņemta. Jaunā tālrunī datus var atjaunot tieši pirmās palaišanas pirmajā solī.",
-     "image": ""
+     "image": "img/lv/backup-restore.png"
     },
     {
      "id": "cross",
      "title": "Android un iPhone",
      "text": "Dublējumkopija ir vienāda Android un iPhone ierīcēs: vienā izveidots fails ir atjaunojams otrā.",
-     "image": ""
+     "image": "img/lv/backup-cross.png"
     }
    ]
   },
@@ -568,19 +568,19 @@
      "id": "timers",
      "title": "Taimeri",
      "text": "Gaidīšana, uzpilde un izkraušana turpinās arī tad, ja lietotne ir minimizēta: taimeris ir redzams paziņojumu joslā. Pieskarieties paziņojumam, lai atgrieztos lietotnē.",
-     "image": ""
+     "image": "img/lv/notifications-timers.png"
     },
     {
      "id": "expiry",
      "title": "Dokumentu termiņi",
      "text": "Paziņojumi par dokumentu termiņiem pienāk savlaicīgi un termiņa beigu dienā.",
-     "image": ""
+     "image": "img/lv/notifications-expiry.png"
     },
     {
      "id": "permissions",
      "title": "Atļaujas",
      "text": "Ja paziņojumi, kamera vai atrašanās vieta ir liegta, lietotne parādīs, kur tos atļaut tālruņa iestatījumos.",
-     "image": ""
+     "image": "img/lv/notifications-permissions.png"
     }
    ]
   },
@@ -630,49 +630,49 @@
      "id": "hub",
      "title": "Servisa centrs",
      "text": "Ziņas par lietotni un tālruni, ieeja servisa ekrānos un diagnostikas kanālā, animāciju galerija.",
-     "image": ""
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "Datubāze",
      "text": "Datubāzes stāvoklis un pilnīga lietotnes atiestatīšana. Atiestatīšana neatgriezeniski izdzēš visu — vispirms izveidojiet dublējumkopiju.",
-     "image": ""
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Žurnāli",
      "text": "Lietotnes darbības žurnāli kļūmju izmeklēšanai.",
-     "image": ""
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Atpazīšana",
      "text": "Numuru nolasīšanas ar kameru diagnostika.",
-     "image": ""
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "Sistēma",
      "text": "Ziņas par tālruni un avārijām.",
-     "image": ""
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Valoda un sākuma iestatīšana",
      "text": "Valodu pārbaude un atkārtota pirmā palaišana.",
-     "image": ""
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Kameras kadri",
      "text": "Kadru uzņemšana atpazīšanas apmācībai — tikai ar piekrišanu attēlu sūtīšanai.",
-     "image": ""
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Sākuma ekrāns",
      "text": "Palaišanas ekrāna pielāgošana.",
-     "image": ""
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },
@@ -685,19 +685,19 @@
      "id": "setup",
      "title": "Garāžā",
      "text": "Norādiet virsbūvi «Platforma» un platformas garumu.",
-     "image": ""
+     "image": "img/lv/flatbed-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisā",
      "text": "Kravas tipi: gabala krava (paletes, svars, apraksts), negabarīts (garums, platums, augstums, svars), konteiners uz platformas. Negabarītam solis «Kravas dati» prasa izmērus.",
-     "image": ""
+     "image": "img/lv/flatbed-trip.png"
     },
     {
      "id": "unload",
      "title": "Izkraušana",
      "text": "Paletes punktos nodod pēc skaita vai procentos.",
-     "image": ""
+     "image": "img/lv/flatbed-unload.png"
     }
    ]
   },
@@ -710,19 +710,19 @@
      "id": "setup",
      "title": "Garāžā",
      "text": "Virsbūve «Konteiners»; konteinera izmērs, kādam paredzēta piekabe.",
-     "image": ""
+     "image": "img/lv/container-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisā",
      "text": "Jautājumu ķēde: tukšs vai piekrauts, izmērs, cik konteineru, tips (standarta, Reefer, Flat Rack, Open Top, Tank). Konteinera un plombas numurs — ar kameru. Venta plombas numurs un temperatūra — Reefer konteineram.",
-     "image": ""
+     "image": "img/lv/container-trip.png"
     },
     {
      "id": "fate",
      "title": "Pēc izkraušanas",
      "text": "Lietotne jautā, kas notika ar konteineru: palika pie klienta, uz auto, brauc pie cita klienta vai tiek atgriezts ostā vai depo.",
-     "image": ""
+     "image": "img/lv/container-fate.png"
     }
    ]
   },
@@ -735,19 +735,19 @@
      "id": "setup",
      "title": "Garāžā",
      "text": "Virsbūve «Sānu pacēlājs» ir tikai puspiekabei.",
-     "image": ""
+     "image": "img/lv/sidelifter-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisā",
      "text": "Konteineru ievada tāpat kā konteinervedējam; darbu ar celtni atzīmē kopsavilkumā.",
-     "image": ""
+     "image": "img/lv/sidelifter-trip.png"
     },
     {
      "id": "exchange",
      "title": "Maiņa",
      "text": "Sānu pacēlājs bieži maina konteinerus punktā — izmantojiet «Konteineru maiņa».",
-     "image": ""
+     "image": "img/lv/sidelifter-exchange.png"
     }
    ]
   },
@@ -760,19 +760,19 @@
      "id": "setup",
      "title": "Garāžā",
      "text": "Virsbūve «Refrižerators»; atzīmējiet ģeneratoru, ja tas ir uzstādīts, norādiet agregāta tvertni un kritisko atlikumu.",
-     "image": ""
+     "image": "img/lv/refrigerated-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisā",
      "text": "Temperatūras kontrole: kontrolēta vai bez kontroles; kravas temperatūra. Braukšanas ekrānā — slēdzis «Agregāts darbojas».",
-     "image": ""
+     "image": "img/lv/refrigerated-trip.png"
     },
     {
      "id": "fuel",
      "title": "Agregāta degviela",
      "text": "Agregāta dīzeli uzpildē ieraksta atsevišķā laukā; lietotne skaita motorstundas un patēriņu litros stundā un rāda «≈ N h līdz rezervei».",
-     "image": ""
+     "image": "img/lv/refrigerated-fuel.png"
     }
    ]
   },
@@ -785,19 +785,19 @@
      "id": "setup",
      "title": "Garāžā",
      "text": "Virsbūve «Tents».",
-     "image": ""
+     "image": "img/lv/curtainsider-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisā",
      "text": "Gabala krava: palešu skaits, kopējais svars, apraksts.",
-     "image": ""
+     "image": "img/lv/curtainsider-trip.png"
     },
     {
      "id": "unload",
      "title": "Izkraušana",
      "text": "Katrā punktā atzīmējiet, cik palešu ir izkrauts; lietotne atceras atlikumu mašīnā.",
-     "image": ""
+     "image": "img/lv/curtainsider-unload.png"
     }
    ]
   },
@@ -810,19 +810,19 @@
      "id": "setup",
      "title": "Garāžā",
      "text": "Virsbūve «Pašizgāzējs».",
-     "image": ""
+     "image": "img/lv/tipper-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisā",
      "text": "Beramkrava: tilpums kubikmetros, neto un bruto svars, apraksts.",
-     "image": ""
+     "image": "img/lv/tipper-trip.png"
     },
     {
      "id": "unload",
      "title": "Izkraušana",
      "text": "Izkraušanu atzīmē ar laiku; kravas darbu taimeris rāda, cik ilgi tā ilga.",
-     "image": ""
+     "image": "img/lv/tipper-unload.png"
     }
    ]
   },
@@ -835,19 +835,19 @@
      "id": "setup",
      "title": "Garāžā",
      "text": "Virsbūve «Cisterna»; sekciju skaits un katras tilpums litros.",
-     "image": ""
+     "image": "img/lv/fuel-tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisā",
      "text": "Kravas datos — katras sekcijas tilpums.",
-     "image": ""
+     "image": "img/lv/fuel-tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Izkraušana",
-     "text": "Punktā atzīmējiet izkrautās sekcijas. Ja, beidzot reisu, ir palikušas neizkrautas sekcijas, lietotne lūgs apstiprinājumu.",
-     "image": ""
+     "text": "Punktā atzīmējiet izkrautās sekcijas. Pieskarieties sekcijai cisternas zīmējumā vai tās kartītei; sekcija vienmēr tiek izkrauta pilnībā, un izkrautā sekcija zīmējumā ir tukša. Ja, beidzot reisu, ir palikušas neizkrautas sekcijas, lietotne lūgs apstiprinājumu.",
+     "image": "img/lv/fuel-tanker-unload.png"
     }
    ]
   },
@@ -860,19 +860,19 @@
      "id": "setup",
      "title": "Garāžā",
      "text": "Virsbūve «Cisterna»; sekcijas un tilpumi.",
-     "image": ""
+     "image": "img/lv/tanker-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisā",
      "text": "Šķidruma kategorija: ķīmiskās vielas, pārtikas, atkritumi; ar temperatūras kontroli; ADR ar UN numuriem bīstamām kravām.",
-     "image": ""
+     "image": "img/lv/tanker-trip.png"
     },
     {
      "id": "unload",
      "title": "Izkraušana",
      "text": "Sekcijas punktos nodod tāpat kā degvielas cisternai.",
-     "image": ""
+     "image": "img/lv/tanker-unload.png"
     }
    ]
   },
@@ -885,19 +885,19 @@
      "id": "setup",
      "title": "Garāžā",
      "text": "Virsbūve «Autovedējs»; auto vietu skaits.",
-     "image": ""
+     "image": "img/lv/car-transporter-setup.png"
     },
     {
      "id": "trip",
      "title": "Reisā",
      "text": "Mašīnas ievada pēc VIN (17 zīmes, bez I, O, Q) vai pēc numura zīmes; VIN var noskenēt ar kameru. Skaitītājs rāda, cik ir iekrauts.",
-     "image": ""
+     "image": "img/lv/car-transporter-trip.png"
     },
     {
      "id": "unload",
      "title": "Izkraušana",
      "text": "Punktā atzīmējiet, kuras mašīnas ir izkrautas un kuras iekrautas. Ja, beidzot reisu, mašīnas vēl ir uz klāja, lietotne lūgs apstiprinājumu.",
-     "image": ""
+     "image": "img/lv/car-transporter-unload.png"
     }
    ]
   }
