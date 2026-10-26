@@ -1,0 +1,978 @@
+{
+ "format": 1,
+ "language": "pl",
+ "revision": "2026-10-26",
+ "sections": [
+  {
+   "slug": "getting-started",
+   "title": "Pierwsze kroki",
+   "intro": "VecturaBook to dziennik pokładowy kierowcy: zmiany, kursy, tankowania, postoje, dokumenty i pojazdy w jednym telefonie. Wszystko jest zapisane w telefonie i działa bez internetu.",
+   "steps": [
+    {
+     "id": "welcome",
+     "title": "Pierwsze uruchomienie",
+     "text": "Przy pierwszym uruchomieniu aplikacja zadaje kilka pytań — to cztery krótkie kroki. Zajmie to minutę, a wszystko można później zmienić w ustawieniach i w parku pojazdów.\n\nJeśli masz już kopię zapasową VecturaBook (np. z poprzedniego telefonu), dotknij „Przywróć z kopii zapasowej” w pierwszym kroku: dziennik wróci w całości i pytania nie będą potrzebne.",
+     "image": "img/pl/getting-started-welcome.png"
+    },
+    {
+     "id": "onboarding",
+     "title": "Imię, ciężarówka, naczepa, uprawnienia",
+     "text": "Krok 1 — imię. Drukuje się w raportach. Możesz zostawić puste i wpisać później.\n\nKrok 2 — ciągnik siodłowy lub solówka: numer rejestracyjny, typ i nadwozie. Typ i nadwozie wybierasz na obrazkach w serii pytań: po każdej odpowiedzi aplikacja pokazuje kolejne pytanie.\n\nKrok 3 — naczepa. Możesz ją pominąć przyciskiem „Pomiń naczepę” i dodać później w parku.\n\nKrok 4 — uprawnienia: kamera (numery kontenerów, plomby, licznik), lokalizacja (miasto na początku zmiany, tylko gdy o to poprosisz) i powiadomienia (timery oczekiwania, tankowania i rozładunku). Każdego możesz odmówić — aplikacja będzie działać, po prostu bez tej funkcji.",
+     "image": "img/pl/getting-started-onboarding.png"
+    },
+    {
+     "id": "main-screen",
+     "title": "Ekran główny",
+     "text": "Ekran główny pokazuje, na jakim etapie pracy jesteś: dzień nierozpoczęty, zmiana trwa, trasa w trakcie, jesteś w miejscu rozładunku i tak dalej. Przyciski zawsze prowadzą do następnego kroku, więc niczego nie pominiesz.\n\nNa górze jest pasek z przyciskiem menu po lewej i przyciskiem „?” po prawej. Przycisk „?” jest na każdym ekranie: krótko wyjaśnia dany ekran, a po dotknięciu „Więcej” otwiera odpowiedni rozdział tego podręcznika.",
+     "image": "img/pl/getting-started-main-screen.png"
+    },
+    {
+     "id": "menu",
+     "title": "Menu",
+     "text": "Przycisk z trzema kreskami otwiera kafelki menu: Mój park, Historia tras, Raport, Dziennik tankowań, Konserwacja, Dokumenty pojazdu, Książka adresowa, Pomoc. Na dole — Ustawienia.\n\nNa każdym innym ekranie w miejscu przycisku menu jest strzałka „wstecz”.",
+     "image": "img/pl/getting-started-menu.png"
+    },
+    {
+     "id": "help-offline",
+     "title": "Pomoc bez internetu",
+     "text": "Teksty tego podręcznika aplikacja pobiera w swoim języku i trzyma w telefonie, dlatego „?” oraz „Pomoc” działają w trasie bez zasięgu. Raz na dobę, gdy jest internet, aplikacja po cichu sprawdza, czy nie ma nowszej wersji.\n\nJeśli pomoc nie była jeszcze nigdy pobrana, aplikacja poprosi o połączenie z internetem.",
+     "image": "img/pl/getting-started-help-offline.png"
+    }
+   ]
+  },
+  {
+   "slug": "shift",
+   "title": "Zmiana",
+   "intro": "Zmiana to dzień pracy od początku do końca. W ramach zmiany zapisywane są kursy, tankowania i postoje; podsumowanie zmiany trafia do historii i raportów.",
+   "steps": [
+    {
+     "id": "shift-welcome",
+     "title": "Rozpocznij dzień",
+     "text": "Dotknij „Rozpocznij dzień”. Aplikacja przywita Cię i pokaże, gdzie jesteś: miasto jest wykrywane przez lokalizację, jeśli na nią zezwoliłeś; w przeciwnym razie dotknij wiersza z pinezką i wpisz miejsce ręcznie.\n\nJeśli nie masz jeszcze trasy, dotknij „Oczekiwanie na trasę” — ruszy timer oczekiwania. „Zatrzymaj” go zatrzymuje. Oczekiwanie przed trasą trafia do historii i raportu.\n\nGdy masz już trasę — „Rozpocznij trasę”.",
+     "image": "img/pl/shift-shift-welcome.png"
+    },
+    {
+     "id": "shift-status",
+     "title": "Stan zmiany",
+     "text": "Ekran „Zmiana” pokazuje, czy zmiana jest otwarta, od kiedy i ile ma kursów. „Kontynuuj zmianę” przywraca do pracy.\n\nNie można zamknąć zmiany, dopóki trasa nie jest zakończona: najpierw zakończ trasę.",
+     "image": "img/pl/shift-shift-status.png"
+    },
+    {
+     "id": "end-shift",
+     "title": "Zakończ dzień",
+     "text": "Czerwony przycisk „Zakończ dzień” to jedyny czerwony przycisk w aplikacji. Aplikacja zapyta o potwierdzenie i poprosi o licznik końcowy. Liczba jest sprawdzana: jeśli jest mniejsza od poprzedniej lub dużo większa niż oczekiwana, aplikacja pokaże ostatni znany stan i poprosi o potwierdzenie lub poprawkę.",
+     "image": ""
+    },
+    {
+     "id": "forgotten-shift",
+     "title": "Niezamknięta zmiana",
+     "text": "Jeśli zmiana jest otwarta ponad dobę, aplikacja zaproponuje zamknięcie jej czasem ostatniego zdarzenia — dzięki temu czas pracy w raporcie nie zostanie sztucznie zawyżony. Możesz się zgodzić lub kontynuować zmianę.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "trip",
+   "title": "Kurs: od załadunku do rozładunku",
+   "intro": "Trasa zapisywana jest krok po kroku: skąd i dokąd, co przewozisz, szczegóły ładunku, podsumowanie — i „W trasę”. Na miejscu — przyjazd, rozładunek lub załadunek, podsumowanie. Dopóki nie dotkniesz „W trasę”, w dzienniku nic nie jest zapisane: na każdym kroku możesz wrócić przyciskiem „Wstecz”, a wpisane dane nie zginą.",
+   "steps": [
+    {
+     "id": "origin",
+     "title": "Klient i trasa",
+     "text": "Wybierz klienta: zacznij wpisywać nazwę, a aplikacja podpowie z książki adresowej. Nowego klienta wystarczy wpisać: sam trafi do książki.\n\nKlient może mieć kilka adresów — wybierz właściwy lub dodaj nowy. Ikona GPS wstawia adres według bieżącego miejsca. Notatki kierowcy o kliencie są widoczne od razu tutaj.",
+     "image": "img/pl/trip-origin.png"
+    },
+    {
+     "id": "cargo-type",
+     "title": "Co przewozisz",
+     "text": "Typ ładunku wybierasz kafelkami: kontener, towar ogólny, ponadgabarytowy, chłodnia, paliwo, luz, pojazdy, puste. Lista zależy od nadwozia ciężarówki i naczepy.\n\nJeśli zmienisz typ ładunku po wpisaniu szczegółów, aplikacja ostrzeże, że wpisane dane zostaną usunięte, i poprosi o potwierdzenie.",
+     "image": "img/pl/trip-cargo-type.png"
+    },
+    {
+     "id": "cargo-details",
+     "title": "Szczegóły ładunku",
+     "text": "Szczegóły zależą od typu ładunku. Dla kontenera — pusty czy załadowany, rozmiar, ile kontenerów, typ, numer kontenera i plomby. Numery można zeskanować kamerą. Dla cysterny — komory i pojemności, dla autoholownika — pojazdy po kodzie VIN lub tablicy, dla towaru ogólnego — palety i waga.\n\nJeśli trasa nie wymaga szczegółów (np. puste), po prostu dotknij „Dalej”.\n\nPrzełącznik ADR otwiera pola numerów UN dla towaru niebezpiecznego.",
+     "image": "img/pl/trip-cargo-details.png"
+    },
+    {
+     "id": "load-details",
+     "title": "Szczegóły ładunku (wymiary)",
+     "text": "Dla ładunku ponadgabarytowego i kontenerów na platformie — długość, szerokość, wysokość, waga i opis. Wymiary są w jednostkach wybranych w ustawieniach.",
+     "image": "img/pl/trip-load-details.png"
+    },
+    {
+     "id": "trip-times",
+     "title": "Czasy i punkty trasy",
+     "text": "Ten ekran pojawia się tylko podczas edycji zapisanej już trasy z historii. Zmienisz tu godzinę wyjazdu, przyjazdu, rozpoczęcia i zakończenia prac ładunkowych, adresy oraz liczniki punktów.\n\nCzas, którego w trasie nie było, jest oznaczony kreską i nie podlega edycji: edycja nie dopisuje do trasy zdarzeń, których nie było.",
+     "image": ""
+    },
+    {
+     "id": "confirm",
+     "title": "Podsumowanie trasy",
+     "text": "Podsumowanie pokazuje całą trasę na jednym ekranie. Tutaj zaznaczysz też: spanie w kabinie, misję wojskową, strefę niebezpieczną, kontrolę temperatury, pracę z dźwigiem (jeśli ciężarówka ma dźwig).\n\n„Zmień” wraca do poprzednich kroków. Zielony przycisk „W trasę” zapisuje trasę i ją rozpoczyna. Jeśli w telefonie masz nawigację, aplikacja zaproponuje otwarcie w niej adresu.",
+     "image": "img/pl/trip-confirm.png"
+    },
+    {
+     "id": "arrival",
+     "title": "Przyjazd",
+     "text": "Na miejscu dotknij „Dojechałem”. Aplikacja zapamięta czas i podpowie stan licznika.\n\n„Rozpocznij rozładunek/załadunek” uruchamia timer prac ładunkowych, a „Zatrzymaj rozładunek/załadunek” go zatrzymuje. Jeśli coś się nie zapisało (np. telefon się zawiesił), aplikacja o tym poinformuje i poprosi o ponowne dotknięcie — nic nie trafi do dziennika połowicznie.",
+     "image": "img/pl/trip-arrival.png"
+    },
+    {
+     "id": "unload",
+     "title": "Rozładunek w tym punkcie",
+     "text": "Jeśli ładunek oddajesz częściami, zaznacz, co oddano w tym punkcie: komory cysterny, procent kontenera, palety, konkretne pojazdy z autoholownika. Aplikacja pamięta, ile zostało na pokładzie, i nie pozwoli oddać więcej, niż jest.",
+     "image": ""
+    },
+    {
+     "id": "cargo-fate",
+     "title": "Co z kontenerem",
+     "text": "Po rozładunku aplikacja pyta, co dalej z kontenerem: został tutaj, został na aucie, jedzie do innego klienta, wraca do miejsca (port, depot) lub pod inny adres. Odpowiedź prowadzi do kolejnego kroku trasy.",
+     "image": "img/pl/trip-cargo-fate.png"
+    },
+    {
+     "id": "summary",
+     "title": "Podsumowanie trasy",
+     "text": "Po zakończeniu punktu — „Kontynuuj trasę” (następny przystanek tej samej trasy), „Zakończ trasę” lub „Nowa trasa”.\n\n„Wypełnij następny kurs” pozwala z wyprzedzeniem, już podczas rozładunku, wpisać kolejny kurs — klienta, ładunek, numery. Potem „Zakończ i jedź” uruchamia go od razu.",
+     "image": "img/pl/trip-summary.png"
+    }
+   ]
+  },
+  {
+   "slug": "driving",
+   "title": "Ekran jazdy",
+   "intro": "Gdy trasa trwa, ekran główny to „W trakcie”: pojazd w trasie, numery ciężarówki i naczepy, czas w trasie oraz przyciski kolejnych działań.",
+   "steps": [
+    {
+     "id": "driving",
+     "title": "W trakcie",
+     "text": "Przyciski ekranu: „Dojechałem” (jesteś na miejscu), „Tankowanie”, „Parking / Postój”. Nad przyciskami — rysunek Twojego zestawu z numerami rejestracyjnymi; rysunek składa się z danych zapisanych w parku: typ, nadwozie, osie, kolory.\n\nJeśli w parku podano pojemność zbiornika i własną rezerwę krytyczną, pod pojazdem widać, ile mniej więcej zostało do rezerwy: „≈ N km do rezerwy” dla oleju napędowego ciężarówki oraz „≈ N h do rezerwy” dla agregatu naczepy (chłodnia, genset). Wyliczenie opiera się na Twoich tankowaniach i przebiegu, więc tuż po pierwszym tankowaniu może jeszcze nie być widoczne.",
+     "image": "img/pl/driving-driving.png"
+    },
+    {
+     "id": "swap-trailer",
+     "title": "Zmień naczepę",
+     "text": "Aby zmienić naczepę w trasie, dotknij „Zmień naczepę”. W oknie widoczne są naczepy z parku: rysunek naczepy i numer pod nim. Wybierz nową — zmiana zapisze się w trasie. Naczepy niezgodne z ciężarówką nie są pokazywane na liście.",
+     "image": "img/pl/driving-swap-trailer.png"
+    },
+    {
+     "id": "odometer",
+     "title": "Licznik",
+     "text": "Aplikacja podpowiada oczekiwany stan licznika: z pojazdu, z załadunku, z poprzedniego rozładunku lub z tankowania. Sprawdź go i w razie potrzeby popraw. Licznik można zeskanować kamerą.\n\nJeśli liczba jest mniejsza od poprzedniej, dużo większa od oczekiwanej albo jej nie zmieniłeś, aplikacja pokaże ostatni znany stan i zapyta, czy wszystko się zgadza. Edycja licznika w dawnej trasie pokazuje, na jakie inne wpisy wpłynie ta zmiana.",
+     "image": "img/pl/driving-odometer.png"
+    }
+   ]
+  },
+  {
+   "slug": "refuel",
+   "title": "Tankowanie, AdBlue, agregat",
+   "intro": "Tankowania są potrzebne do liczenia spalania, raportów i podpowiedzi „do rezerwy”.",
+   "steps": [
+    {
+     "id": "refuel-timer",
+     "title": "Timer tankowania",
+     "text": "„Tankowanie” na ekranie jazdy uruchamia timer — czas tankowania trafia do dziennika. „Zakończ tankowanie” zatrzymuje go i otwiera wpisywanie litrów. Timer działa też na pasku powiadomień, gdy aplikacja działa w tle.",
+     "image": "img/pl/refuel-refuel-timer.png"
+    },
+    {
+     "id": "refuel-data",
+     "title": "Litry i licznik",
+     "text": "Wpisz olej napędowy w litrach, a w razie potrzeby AdBlue i paliwo agregatu naczepy (chłodnia, genset). Licznik jest podpowiedziany; można go zeskanować kamerą. „Zapisz tankowanie” zapisuje wszystko jako jeden wpis.",
+     "image": "img/pl/refuel-refuel-data.png"
+    },
+    {
+     "id": "unit",
+     "title": "Agregat naczepy",
+     "text": "Jeśli naczepa ma agregat prądotwórczy, zaznacz to w ustawieniach naczepy. Wtedy na ekranie jazdy pojawi się przełącznik „Agregat pracuje”, aplikacja będzie liczyć motogodziny agregatu i jego zużycie w litrach na godzinę, a przy tankowaniu pojawi się pole paliwa agregatu.",
+     "image": ""
+    },
+    {
+     "id": "refuel-history",
+     "title": "Dziennik tankowań",
+     "text": "Dziennik pokazuje wszystkie tankowania z tygodnia, miesiąca, całego okresu lub wybranego przedziału: łącznie paliwa, liczbę tankowań i średnie spalanie. Udział AdBlue względem oleju napędowego i zużycie agregatu liczone są osobno.\n\n„Wygeneruj raport PDF” tworzy raport z tankowań, który można udostępnić. Tankowanie można usunąć.",
+     "image": "img/pl/refuel-refuel-history.png"
+    }
+   ]
+  },
+  {
+   "slug": "parking",
+   "title": "Postój i odpoczynek",
+   "intro": "Postój to zatrzymanie w trasie: odpoczynek, nocleg, oczekiwanie. Zapisuje się w trasie z własnym adresem i czasem.",
+   "steps": [
+    {
+     "id": "parking-stop",
+     "title": "Parking / Postój",
+     "text": "Na ekranie jazdy dotknij „Parking / Postój”. Adres możesz wpisać ręcznie, wybrać z zapisanych miejsc lub dotknąć ikony GPS. Jeśli adres nie zostanie rozpoznany, aplikacja wstawi współrzędne — można je poprawić.\n\nNoce w kabinie są zliczane w historii i w raporcie.",
+     "image": "img/pl/parking-parking-stop.png"
+    },
+    {
+     "id": "places",
+     "title": "Miejsca",
+     "text": "Miejsca to Twoje własne punkty nieprzypisane do klientów: parkingi, porty, depoty, stacje paliw. Listę można przeszukiwać po nazwie. Miejsca wybiera się przy postoju i przy zwrocie kontenera.",
+     "image": ""
+    },
+    {
+     "id": "place-form",
+     "title": "Miejsce",
+     "text": "Nazwa, notatka i współrzędne. Współrzędne można zapisać z bieżącego miejsca, nadpisać lub usunąć. Przyciski „Otwórz w nawigacji” i „Wyślij” przekazują punkt do nawigacji lub wiadomości.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "camera",
+   "title": "Kamera: kontenery i plomby",
+   "intro": "Kamera odczytuje numery kontenerów, plomb, kody VIN i wskazania licznika, aby nie trzeba było wpisywać ich ręcznie.",
+   "steps": [
+    {
+     "id": "scan",
+     "title": "Ramka kamery",
+     "text": "Nakieruj ramkę na numer. Ściśnij ramkę dwoma palcami ciasno wokół numeru — wtedy odczyta się lepiej. „Obróć ramkę” służy do numerów zapisanych pionowo. Dotknięcie poza ramką robi zdjęcie.",
+     "image": ""
+    },
+    {
+     "id": "container-number",
+     "title": "Numer kontenera",
+     "text": "Numer kontenera to 4 litery i 7 cyfr. Aplikacja sprawdza cyfrę kontrolną; jeśli numer się nie zgadza, zostaje zapisany z oznaczeniem „Numer niezweryfikowany” — sprawdź go wzrokowo.",
+     "image": ""
+    },
+    {
+     "id": "seal",
+     "title": "Plomba",
+     "text": "Numer plomby odczytywany jest z napisu. Jeśli na plombie jest kod kreskowy i różni się on od wydrukowanego numeru, aplikacja bierze numer wydrukowany: kod kreskowy bywa z innej serii.",
+     "image": ""
+    },
+    {
+     "id": "container-exchange",
+     "title": "Wymiana kontenerów",
+     "text": "Jeśli w punkcie oddajesz kontener innemu kierowcy i zabierasz jego kontener, zapisz wymianę: który kontener rozładowano, który załadowano, imię kierowcy i numer rejestracyjny jego ciężarówki.",
+     "image": ""
+    },
+    {
+     "id": "photos",
+     "title": "Zdjęcia",
+     "text": "Do trasy można dołączyć zdjęcia dokumentów przy załadunku i rozładunku: „Zdjęcie dokumentów”. „ZOBACZ ZDJĘCIA” otwiera je na pełnym ekranie.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "history",
+   "title": "Historia kursów i edycja",
+   "intro": "Historia zawiera wszystkie zmiany i trasy. Tutaj można je przeglądać, wyszukiwać, edytować i usuwać.",
+   "steps": [
+    {
+     "id": "history",
+     "title": "Historia",
+     "text": "Trasy są pogrupowane według zmian: początek i koniec dnia, czas, przebieg, liczba tras. Dotknij trasy, aby otworzyć szczegóły: klient, ładunek, punkty, liczniki, oczekiwanie, zdjęcia. Wyszukiwanie działa po kliencie, kontenerze i trasie. „Wszystkie kursy” pokazuje je na jednej liście.",
+     "image": "img/pl/history-history.png"
+    },
+    {
+     "id": "edit",
+     "title": "Edycja trasy",
+     "text": "„Edytuj” otwiera te same kroki co przy tworzeniu, a dodatkowo ekran czasów i punktów. Zmiany są zbierane i zapisywane dopiero w podsumowaniu.\n\nJeśli zmiana licznika wpłynie na inne wpisy (następny kurs, stan pojazdu, kilometry zmiany), aplikacja pokaże je przed zastosowaniem.",
+     "image": ""
+    },
+    {
+     "id": "delete",
+     "title": "Usuwanie",
+     "text": "Pojedynczą trasę usuwasz ikoną kosza, a kilka — w trybie wyboru. Aktywnej trasy nie można usunąć — najpierw ją zakończ. Jeśli telefon jest połączony z programem online, usunięcie zostanie zsynchronizowane również z innymi urządzeniami.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "report",
+   "title": "Raport i PDF",
+   "intro": "Raport podlicza pracę za wybrany okres: trasy, odległość, czas pracy, oczekiwanie, paliwo i spalanie.",
+   "steps": [
+    {
+     "id": "report",
+     "title": "Raport okresowy",
+     "text": "Wybierz okres: dziś, tydzień, miesiąc lub własne daty. Karty pokażą podsumowanie. „Eksportuj raport” tworzy plik PDF ze zmianami, trasami, punktami i tankowaniami; można go wysłać lub wydrukować.",
+     "image": "img/pl/report-report.png"
+    },
+    {
+     "id": "pdf",
+     "title": "Co jest w PDF",
+     "text": "W pliku PDF dla każdej zmiany znajdziesz otwarcie i zamknięcie dnia, ciężarówkę i naczepę, trasy z klientami, ładunkiem, czasami rozładunku i oczekiwania, licznikami oraz tankowania. Na końcu — podsumowanie okresu: dni, trasy, tankowania, łączna odległość, łączny czas, łącznie paliwa, średnia odległość dziennie i średnie spalanie.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "garage",
+   "title": "Flota: ciągniki i naczepy",
+   "intro": "Mój park przechowuje Twoje pojazdy. Stąd brane są rysunki pojazdów, numery rejestracyjne, zgodność naczep, przebiegi i wszystkie ustawienia pojazdu.",
+   "steps": [
+    {
+     "id": "garage",
+     "title": "Mój park",
+     "text": "Dwie zakładki: Ciężarówki i Naczepy. Aktywny pojazd jest podświetlony. „+ Dodaj ciężarówkę” i „+ Dodaj naczepę” dodają nowy pojazd. Dotknięcie pojazdu otwiera zarządzanie nim.\n\nGdy trasa jest w trakcie, nie można zmieniać pojazdu — najpierw zakończ trasę (naczepę w trasie zmienia się funkcją „Zmień naczepę”).",
+     "image": "img/pl/garage-garage.png"
+    },
+    {
+     "id": "truck-form",
+     "title": "Ciężarówka",
+     "text": "Numer rejestracyjny, typ (ciągnik siodłowy lub solówka) i nadwozie — wybierane w serii pytań z obrazkami; informacja, czy pojazd ma dźwig lub manipulator. W parku nie mogą istnieć dwa pojazdy o tym samym numerze.",
+     "image": ""
+    },
+    {
+     "id": "trailer-form",
+     "title": "Naczepa",
+     "text": "Numer rejestracyjny, typ sprzęgu (naczepa lub przyczepa) i nadwozie. Dla cysterny paliwowej i zwykłej — liczba komór i pojemność każdej z nich, dla autoholownika — liczba miejsc dla pojazdów, dla chłodni — czy zamontowany jest agregat prądotwórczy.",
+     "image": ""
+    },
+    {
+     "id": "vehicle-hub",
+     "title": "Zarządzanie pojazdem",
+     "text": "Ekran pojazdu zbiera wszystko na jego temat: rejestracja, dokumenty, konserwacja, przegląd, osie i opony, tablica rejestracyjna, lakier. „Ustaw jako aktywny” wybiera pojazd do pracy.",
+     "image": "img/pl/garage-vehicle-hub.png"
+    },
+    {
+     "id": "vehicle-settings",
+     "title": "Ustawienia pojazdu",
+     "text": "Aktualny przebieg, częstotliwość przeglądów (kilometry, miesiące, progi ostrzeżenia), punkt startowy odliczania do serwisu, osie, pojemność zbiornika i własna rezerwa krytyczna (do podpowiedzi „do rezerwy”). W naczepie z agregatem — zbiornik agregatu i jego rezerwa.",
+     "image": "img/pl/garage-vehicle-settings.png"
+    },
+    {
+     "id": "plate-colors",
+     "title": "Tablica rejestracyjna",
+     "text": "Kolor tła tablicy i kolor numeru — tak jak na Twoim pojeździe. Jeśli połączenie kolorów jest słabo czytelne, numer wyświetli się na czarno lub biało.",
+     "image": "img/pl/garage-plate-colors.png"
+    },
+    {
+     "id": "rig-paint",
+     "title": "Lakier",
+     "text": "Kolor kabiny, żurawia i zabudowy na rysunku pojazdu. „Jak na rysunku” przywraca oryginalny kolor.",
+     "image": "img/pl/garage-rig-paint.png"
+    },
+    {
+     "id": "tyres",
+     "title": "Osie i opony",
+     "text": "Schemat osi rysuje się sam na podstawie liczby osi; każdą oś można ustawić jako pojedynczą lub bliźniaczą. Dotknij opony: wymiana, przebicie, rotacja lub coś innego — wpis trafi do historii. Statystyka pokazuje średni przebieg między wymianami i najczęstsze miejsce. Naczepa ma własny przebieg — można go wpisać.",
+     "image": "img/pl/garage-tyres.png"
+    }
+   ]
+  },
+  {
+   "slug": "documents",
+   "title": "Dokumenty i terminy",
+   "intro": "Dokumenty pojazdu i kierowcy ze zdjęciami stron i terminami ważności. Aplikacja z wyprzedzeniem przypomina o kończących się terminach.",
+   "steps": [
+    {
+     "id": "overview",
+     "title": "Wszystkie dokumenty",
+     "text": "Przegląd pokazuje dokumenty wszystkich pojazdów i kierowcy na jednej liście z terminami: ile dni pozostało lub „wygasł”.",
+     "image": "img/pl/documents-overview.png"
+    },
+    {
+     "id": "list",
+     "title": "Dokumenty pojazdu",
+     "text": "Każdy pojazd ma własną listę: dowód rejestracyjny, ubezpieczenie, przegląd i własne dokumenty. Przycisk „+” dodaje dokument.",
+     "image": "img/pl/documents-list.png"
+    },
+    {
+     "id": "form",
+     "title": "Dokument",
+     "text": "Wybierz typ lub „Dokument niestandardowy…” i wpisz nazwę (np. zezwolenie ADR). „Ważny do” to termin ważności, według którego działają przypomnienia. Przegląd ma też datę wykonania.",
+     "image": ""
+    },
+    {
+     "id": "pages",
+     "title": "Strony",
+     "text": "Zrób aparatem zdjęcia stron dokumentu. Strony otwierają się na pełnym ekranie, można je przewijać i pojedynczo usuwać.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Przypomnienia o terminach",
+     "text": "Przed upływem terminu aplikacja wysyła powiadomienie i pokazuje okno „Terminy dokumentów” przy uruchomieniu. „Rozumiem” zamyka okno do kolejnego progu przypomnienia. Dokumenty kierowcy (prawo jazdy, paszport, certyfikat ADR) znajdują się w ustawieniach profilu.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "maintenance",
+   "title": "Serwis i opony",
+   "intro": "Konserwacja: wpisy serwisowe, interwały i przypomnienie, gdy nadejdzie pora przeglądu.",
+   "steps": [
+    {
+     "id": "maintenance",
+     "title": "Konserwacja",
+     "text": "Na górze widać, ile zostało do przeglądu w kilometrach lub dniach albo o ile jest on przeterminowany. Niżej znajdują się wpisy serwisowe. Interwały i punkt startowy ustawia się w ustawieniach pojazdu.",
+     "image": "img/pl/maintenance-maintenance.png"
+    },
+    {
+     "id": "new-record",
+     "title": "Wpis przeglądu",
+     "text": "„Zarejestruj przegląd” otwiera nowy wpis: przebieg, data, co zrobiono, zdjęcia. Przebieg przy serwisie nie może być większy niż aktualny.",
+     "image": ""
+    },
+    {
+     "id": "tyres",
+     "title": "Opony",
+     "text": "Opony obsługuje się na schemacie osi — rozdział „Flota: ciągniki i naczepy”, krok „Osie i opony”.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "address-book",
+   "title": "Książka adresowa i klienci",
+   "intro": "Klienci i ich adresy oraz własne miejsca. Książka uzupełnia się sama, gdy wpisujesz nowego klienta do trasy.",
+   "steps": [
+    {
+     "id": "book",
+     "title": "Książka adresowa",
+     "text": "Zakładka „Klienci” to klienci z adresami; zakładka miejsc to Twoje własne punkty. Ukryci klienci nie są podpowiadani przy wyborze; „Pokaż ukryte” przywraca ich na listę.",
+     "image": "img/pl/address-book-book.png"
+    },
+    {
+     "id": "clients",
+     "title": "Klienci",
+     "text": "„Nowy klient” dodaje klienta. Klienta, który ma przypisane kursy, nie można usunąć — można go usunąć z wyboru. Dawne kursy zachowują swoją nazwę klienta.",
+     "image": ""
+    },
+    {
+     "id": "client",
+     "title": "Klient",
+     "text": "Nazwa, notatka kierowcy i adresy. Zmiana nazwy sprawdza, czy taka nazwa już nie istnieje. Usunięcie można od razu cofnąć przyciskiem „Cofnij”.",
+     "image": "img/pl/address-book-client.png"
+    },
+    {
+     "id": "add-address",
+     "title": "Adres",
+     "text": "Adres, etykieta i współrzędne. Współrzędne można zapisać z bieżącego miejsca. „Otwórz w nawigacji” i „Wyślij” przekazują punkt dalej. Czerwony znacznik wyróżnia adres, o którym warto pamiętać (trudny wjazd, szczególne zasady).",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "backup",
+   "title": "Kopia zapasowa i przywracanie",
+   "intro": "Kopia zapasowa to jeden plik z całym dziennikiem: trasy, zmiany, tankowania, pojazdy, dokumenty ze zdjęciami.",
+   "steps": [
+    {
+     "id": "backup",
+     "title": "Utwórz kopię zapasową",
+     "text": "Ustawienia → Kopia zapasowa: „Eksportuj bazę danych (kopia)” zapisuje plik, a „Udostępnij kopię zapasową” od razu go wysyła (poczta, komunikator, chmura). Kopię można zrobić w dowolnej chwili — nie przerywa to pracy.",
+     "image": ""
+    },
+    {
+     "id": "restore",
+     "title": "Przywróć",
+     "text": "„Importuj bazę danych (przywróć)” zastępuje wszystkie aktualne dane plikiem kopii zapasowej. Aplikacja najpierw sprawdzi plik: obcy plik lub kopia z nowszej wersji aplikacji nie zostaną przyjęte. Na nowym telefonie dane można przywrócić już w pierwszym kroku pierwszego uruchomienia.",
+     "image": ""
+    },
+    {
+     "id": "cross",
+     "title": "Android i iPhone",
+     "text": "Kopia zapasowa jest taka sama na Androidzie i iPhonie: plik utworzony na jednym systemie można przywrócić na drugim.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "online",
+   "title": "Program online",
+   "intro": "Program online — my.vecturabook.com: ten sam dziennik w przeglądarce i na innych Twoich urządzeniach.",
+   "steps": [
+    {
+     "id": "device-link",
+     "title": "Połącz telefon",
+     "text": "Ustawienia → „Połącz z VecturaBook”. Zeskanuj kod QR z panelu na stronie internetowej, otwórz panel w przeglądarce i potwierdź na telefonie albo wpisz kod widoczny na ekranie. „Odłącz ten telefon” rozłącza urządzenie.",
+     "image": "img/pl/online-device-link.png"
+    },
+    {
+     "id": "sync",
+     "title": "Synchronizacja",
+     "text": "Połączony telefon sam wysyła nowe wpisy i odbiera poprawki z innych urządzeń. Pasek stanu pokazuje „Wszystko zsynchronizowane” albo liczbę wpisów oczekujących na wysłanie. Bez zasięgu wpisy czekają w telefonie.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "settings",
+   "title": "Ustawienia",
+   "intro": "Ustawienia są podzielone na grupy: profil kierowcy, telefon i połączenie, dokumenty (PDF), kopia zapasowa, ustawienia ogólne.",
+   "steps": [
+    {
+     "id": "settings",
+     "title": "Ustawienia",
+     "text": "Znajdziesz tu język i region, jednostki, motyw, animacje, pliki PDF tankowań i historii tras, kopię zapasową oraz połączenie z programem online.",
+     "image": "img/pl/settings-settings.png"
+    },
+    {
+     "id": "profile",
+     "title": "Profil kierowcy",
+     "text": "Imię do raportów i dokumenty kierowcy: prawo jazdy, paszport, certyfikat ADR — z terminami ważności i zdjęciami stron.",
+     "image": "img/pl/settings-profile.png"
+    },
+    {
+     "id": "language",
+     "title": "Język i region",
+     "text": "Język aplikacji, język adresów GPS (automatycznie — zgodnie z krajem) i format daty.",
+     "image": "img/pl/settings-language.png"
+    },
+    {
+     "id": "units",
+     "title": "Jednostki",
+     "text": "Odległość, waga, pojemność, długość, temperatura i zużycie paliwa. Ustawienia wstępne: system metryczny, imperialny, mieszany — albo ustawienia ręczne.",
+     "image": ""
+    },
+    {
+     "id": "theme",
+     "title": "Motyw",
+     "text": "Jasny, ciemny lub automatyczny (według godziny początku dnia i nocy). Ustawienia wstępne: Kraft, Ciemny kraft, Manila, Prawie biały, Ciemny. Możesz też stworzyć własny.",
+     "image": "img/pl/settings-theme.png"
+    },
+    {
+     "id": "theme-custom",
+     "title": "Własny motyw",
+     "text": "Kolor tła, tekstu, górnego paska, kart, ramek, podpisów, przycisków oraz ikon tankowania i postoju. Motyw można zapisać, zmienić jego nazwę i przypisać do trybu jasnego lub ciemnego.",
+     "image": ""
+    },
+    {
+     "id": "animations",
+     "title": "Animacje",
+     "text": "Ruchome sceny rozładunku i tankowania. Można je wyłączyć.",
+     "image": ""
+    },
+    {
+     "id": "about",
+     "title": "O aplikacji",
+     "text": "Wersja, strona internetowa, Telegram, Facebook i możliwość wsparcia projektu. Wcześniej aplikacja nazywała się CargoLog — zmieniła się tylko nazwa.",
+     "image": ""
+    },
+    {
+     "id": "feedback",
+     "title": "Opinia",
+     "text": "Zgłoś błąd, zaproponuj pomysł lub napisz w innej sprawie. Możesz dołączyć zrzut ekranu lub zdjęcie. W menu dostępne są także: „Sprawdź aktualizacje” i „Oceń aplikację”.",
+     "image": ""
+    },
+    {
+     "id": "help",
+     "title": "Pomoc",
+     "text": "„Pomoc” to spis treści tego podręcznika: rozdziały ogólne oraz rozdziały według typu pojazdu. Każdy otwiera się na miejscu, krok po kroku.",
+     "image": "img/pl/settings-help.png"
+    }
+   ]
+  },
+  {
+   "slug": "notifications",
+   "title": "Powiadomienia i przypomnienia",
+   "intro": "Aplikacja informuje o tym, co aktualnie trwa, oraz o zbliżających się terminach.",
+   "steps": [
+    {
+     "id": "timers",
+     "title": "Timery",
+     "text": "Oczekiwanie, tankowanie i rozładunek działają również wtedy, gdy aplikacja jest zminimalizowana: timer widać na pasku powiadomień. Dotknij powiadomienia, aby wrócić do aplikacji.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Terminy dokumentów",
+     "text": "Powiadomienia o terminach ważności dokumentów przychodzą z wyprzedzeniem oraz w dniu wygaśnięcia.",
+     "image": ""
+    },
+    {
+     "id": "permissions",
+     "title": "Uprawnienia",
+     "text": "Jeśli powiadomienia, kamera lub lokalizacja są zablokowane, aplikacja podpowie, gdzie włączyć je w ustawieniach telefonu.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics",
+   "title": "Kanał diagnostyczny",
+   "intro": "Kanał diagnostyczny wysyła deweloperowi dane z telefonu, aby badać awarie na prawdziwych danych. Jest wyłączony, dopóki sam go nie włączysz.",
+   "steps": [
+    {
+     "id": "enroll",
+     "title": "Rejestracja telefonu",
+     "text": "Przeczytaj zgodę i, jeśli się zgadzasz, dotknij „Zgadzam się, zarejestruj ten telefon”. „Cofnij ten telefon” wyłącza kanał i usuwa certyfikat.",
+     "image": "img/pl/diagnostics-enroll.png"
+    },
+    {
+     "id": "channel-settings",
+     "title": "Co wysyłać",
+     "text": "Trzy przełączniki: dzienniki działania aplikacji, baza kursów, zdjęcia numerów kontenerów. Każdy jest wyłączony, dopóki go nie włączysz; wyłączyć można w dowolnej chwili. Dopóki wszystkie trzy są wyłączone, nic nie jest wysyłane. Aplikacja nie czyta galerii.",
+     "image": ""
+    },
+    {
+     "id": "warning",
+     "title": "Ostrzeżenie",
+     "text": "Wejście do ekranów serwisowych zaczyna się od ostrzeżenia. Możesz stamtąd wyjść przyciskiem „Zabierzcie mnie stąd”.",
+     "image": ""
+    },
+    {
+     "id": "server",
+     "title": "Serwer kanału",
+     "text": "Stan połączenia: na łączności, milczy, brak sieci, serwer nie przyjmuje. Wszystko, co gotowe do wysłania, czeka w telefonie — nic nie trzeba robić.",
+     "image": ""
+    },
+    {
+     "id": "import",
+     "title": "Pakiet kanału",
+     "text": "Na telefonach służbowych pakiet kanału można zainstalować plikiem .p12 z hasłem. Hasło jest używane jeden raz i nie jest zapisywane.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "service",
+   "title": "Ekrany serwisowe",
+   "intro": "Ekrany serwisowe służą do badania awarii. Wejście — siedem dotknięć ekranu „O aplikacji”. W zwykłej pracy nie są potrzebne.",
+   "steps": [
+    {
+     "id": "hub",
+     "title": "Centrum serwisowe",
+     "text": "Informacje o aplikacji i telefonie, wejście do ekranów serwisowych i kanału diagnostycznego, galeria animacji.",
+     "image": ""
+    },
+    {
+     "id": "database",
+     "title": "Baza danych",
+     "text": "Stan bazy danych i pełny reset aplikacji. Reset bezpowrotnie usuwa wszystko — najpierw zrób kopię zapasową.",
+     "image": ""
+    },
+    {
+     "id": "logs",
+     "title": "Dzienniki",
+     "text": "Dzienniki działania aplikacji do badania awarii.",
+     "image": ""
+    },
+    {
+     "id": "ocr",
+     "title": "Rozpoznawanie",
+     "text": "Diagnostyka odczytywania numerów kamerą.",
+     "image": ""
+    },
+    {
+     "id": "system",
+     "title": "System",
+     "text": "Informacje o telefonie i awariach aplikacji.",
+     "image": ""
+    },
+    {
+     "id": "locale",
+     "title": "Język i pierwsze uruchomienie",
+     "text": "Sprawdzanie języków i ponowne pierwsze uruchomienie.",
+     "image": ""
+    },
+    {
+     "id": "dataset",
+     "title": "Klatki kamery",
+     "text": "Zapisywanie klatek do nauki rozpoznawania — tylko po wyrażeniu zgody na zdjęcia.",
+     "image": ""
+    },
+    {
+     "id": "splash-tuner",
+     "title": "Ekran startowy",
+     "text": "Ustawienia ekranu powitalnego przy uruchamianiu.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "flatbed",
+   "title": "Platforma",
+   "intro": "Platforma przewozi towar ogólny i ładunki ponadgabarytowe.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "W parku",
+     "text": "Wybierz nadwozie „Platforma” i podaj długość platformy.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "W trasie",
+     "text": "Typy ładunku: towar ogólny (palety, waga, opis), ponadgabarytowy (długość, szerokość, wysokość, waga), kontener na platformie. Przy ładunku ponadgabarytowym krok „Szczegóły ładunku” pyta o wymiary.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Rozładunek",
+     "text": "Palety oddaje się w punktach według liczby sztuk lub procentowo.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "container",
+   "title": "Kontener",
+   "intro": "Podwozie kontenerowe przewozi kontenery 20-, 40- i 45-stopowe, jeden lub dwa.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "W parku",
+     "text": "Nadwozie „Kontener”; rozmiar kontenera, do którego przystosowana jest naczepa.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "W trasie",
+     "text": "Seria pytań: pusty czy załadowany, rozmiar, ile kontenerów, typ (standardowy, Reefer, Flat Rack, Open Top, Tank). Numer kontenera i plomby — kamerą. Plomba wentylacji i temperatura — dla Reefer.",
+     "image": ""
+    },
+    {
+     "id": "fate",
+     "title": "Po rozładunku",
+     "text": "Aplikacja pyta, co dzieje się z kontenerem: został u klienta, został na aucie, jedzie do innego klienta czy wraca do portu lub depotu.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "sidelifter",
+   "title": "Sidelifter",
+   "intro": "Sidelifter sam zdejmuje i stawia kontener.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "W parku",
+     "text": "Nadwozie „Sidelifter” jest dostępne tylko dla naczepy.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "W trasie",
+     "text": "Kontener wpisuje się tak samo jak przy podwoziu kontenerowym; pracę z dźwigiem zaznacza się w podsumowaniu.",
+     "image": ""
+    },
+    {
+     "id": "exchange",
+     "title": "Wymiana",
+     "text": "Sidelifter często wymienia kontenery na miejscu — użyj opcji „Wymiana kontenerów”.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "refrigerated",
+   "title": "Chłodnia",
+   "intro": "Chłodnia przewozi ładunek pod kontrolą temperatury.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "W parku",
+     "text": "Nadwozie „Chłodnia”; zaznacz agregat prądotwórczy (genset), jeśli jest zamontowany, oraz podaj zbiornik agregatu i rezerwę krytyczną.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "W trasie",
+     "text": "Kontrola temperatury: z kontrolą lub bez; temperatura ładunku. Na ekranie jazdy — przełącznik „Agregat pracuje”.",
+     "image": ""
+    },
+    {
+     "id": "fuel",
+     "title": "Paliwo agregatu",
+     "text": "Paliwo agregatu wpisuje się podczas tankowania w osobnym polu; aplikacja liczy motogodziny oraz zużycie w litrach na godzinę i pokazuje „≈ N h do rezerwy”.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "curtainsider",
+   "title": "Plandeka",
+   "intro": "Naczepa plandeka przewozi towar ogólny na paletach.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "W parku",
+     "text": "Nadwozie „Plandeka”.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "W trasie",
+     "text": "Towar ogólny: liczba palet, łączna waga, opis.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Rozładunek",
+     "text": "W każdym punkcie zaznacz, ile palet oddano; aplikacja pamięta, ile zostało na pokładzie.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tipper",
+   "title": "Wywrotka",
+   "intro": "Wywrotka przewozi ładunki sypkie (luz).",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "W parku",
+     "text": "Nadwozie „Wywrotka”.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "W trasie",
+     "text": "Luz: pojemność w metrach sześciennych, waga netto i brutto, opis.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Rozładunek",
+     "text": "Rozładunek rejestrowany jest czasem; timer prac ładunkowych pokazuje, jak długo trwał.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fuel-tanker",
+   "title": "Cysterna paliwowa",
+   "intro": "Cysterna paliwowa przewozi paliwo w komorach.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "W parku",
+     "text": "Nadwozie „Cysterna”; liczba komór i pojemność każdej w litrach.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "W trasie",
+     "text": "W szczegółach ładunku — objętość w każdej komorze.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Rozładunek",
+     "text": "W punkcie zaznacz rozładowane komory. Jeśli przy kończeniu trasy zostaną nierozładowane komory, aplikacja poprosi o potwierdzenie.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tanker",
+   "title": "Cysterna",
+   "intro": "Cysterna przewozi ładunki płynne.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "W parku",
+     "text": "Nadwozie „Cysterna”; komory i pojemności.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "W trasie",
+     "text": "Kategoria cieczy: chemikalia, spożywcze, odpady; kontrola temperatury; ADR z numerami UN dla ładunków niebezpiecznych.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Rozładunek",
+     "text": "Komory oddaje się w poszczególnych punktach tak samo jak w cysternie paliwowej.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "car-transporter",
+   "title": "Autoholownik",
+   "intro": "Autoholownik przewozi samochody osobowe.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "W parku",
+     "text": "Nadwozie „Autoholownik”; liczba miejsc dla pojazdów.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "W trasie",
+     "text": "Pojazdy wpisuje się po kodzie VIN (17 znaków, bez I, O, Q) lub po numerze rejestracyjnym; VIN można zeskanować kamerą. Licznik pokazuje, ile aut załadowano.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Rozładunek",
+     "text": "W punkcie zaznacz, które pojazdy rozładowano, a które załadowano. Jeśli przy kończeniu trasy jakieś pojazdy zostaną na pokładzie, aplikacja poprosi o potwierdzenie.",
+     "image": ""
+    }
+   ]
+  }
+ ],
+ "screens": {
+  "getting-started.welcome": "Pierwsze uruchomienie: imię, ciężarówka, naczepa i uprawnienia. Masz kopię zapasową — możesz przywrócić cały dziennik.",
+  "getting-started.onboarding": "Odpowiedz na pytania o sobie i pojeździe. Wszystko można później zmienić w ustawieniach i w parku.",
+  "getting-started.main-screen": "Ekran główny pokazuje, na jakim etapie pracy jesteś, i prowadzi do następnego kroku: zmiana, trasa, rozładunek.",
+  "getting-started.menu": "Menu aplikacji: mój park, historia, raporty, tankowania, konserwacja, dokumenty, adresy, pomoc i ustawienia.",
+  "shift.shift-welcome": "Początek zmiany: miejsce, oczekiwanie na trasę i przycisk „Rozpocznij trasę”.",
+  "shift.shift-status": "Czy zmiana jest otwarta, od której godziny i ile ma kursów.",
+  "trip.origin": "Klient i adres, skąd lub dokąd jedziesz. Nowy klient sam trafi do książki adresowej.",
+  "trip.cargo-type": "Co przewozisz. Lista zależy od nadwozia ciężarówki i naczepy.",
+  "trip.cargo-details": "Szczegóły ładunku: numery kontenerów i plomb, komory, pojazdy, palety. Numery można zeskanować kamerą.",
+  "trip.load-details": "Wymiary, waga i opis ładunku.",
+  "trip.trip-times": "Edycja czasów, adresów i liczników zapisanej już trasy.",
+  "trip.confirm": "Podsumowanie trasy. Sprawdź i dotknij „W trasę” — dopiero wtedy trasa zostanie zapisana.",
+  "trip.arrival": "Jesteś na miejscu: przyjazd, początek i koniec rozładunku lub załadunku.",
+  "trip.unload": "Co oddano w tym punkcie: komory, procent, palety lub pojazdy.",
+  "trip.cargo-fate": "Co dalej z kontenerem po rozładunku.",
+  "trip.summary": "Podsumowanie trasy: następny przystanek, zakończenie lub nowa trasa.",
+  "driving.driving": "Trasa w trakcie: przyjazd, tankowanie, postój. Pod pojazdem — przybliżony dystans lub czas do rezerwy paliwa.",
+  "driving.odometer": "Stan licznika. Aplikacja podpowie oczekiwaną wartość i sprawdzi liczbę; można zeskanować kamerą.",
+  "driving.swap-trailer": "Zmiana naczepy w trasie: wybierz naczepę z parku.",
+  "refuel.refuel-timer": "Trwa tankowanie: timer. Po zakończeniu — wpisywanie litrów.",
+  "refuel.refuel-data": "Litry oleju napędowego, AdBlue i paliwa agregatu naczepy oraz licznik. Zapisywane jako jeden wpis.",
+  "refuel.refuel-history": "Wszystkie tankowania z okresu, średnie spalanie i raport PDF.",
+  "parking.parking-stop": "Adres postoju: ręcznie, z zapisanych miejsc lub przez GPS.",
+  "parking.places": "Własne miejsca: parkingi, porty, depoty. Wybierane przy postoju i zwrocie kontenera.",
+  "parking.place-form": "Nazwa, notatka i współrzędne miejsca; otwórz w nawigacji.",
+  "camera.scan": "Nakieruj ramkę na numer. Ściśnij ramkę dwoma palcami wokół numeru; dotknięcie poza ramką — zdjęcie.",
+  "camera.container-exchange": "Wymiana kontenerów z innym kierowcą: co oddano, co zabrano.",
+  "camera.photos": "Zdjęcia dokumentów trasy na pełnym ekranie.",
+  "history.history": "Wszystkie zmiany i trasy: wyszukiwanie, szczegóły, edycja i usuwanie.",
+  "report.report": "Podsumowanie za okres i raport PDF.",
+  "garage.garage": "Twoje ciężarówki i naczepy. Dotknij pojazdu, aby otworzyć zarządzanie nim.",
+  "garage.truck-form": "Numer rejestracyjny, typ i nadwozie ciężarówki; dźwig lub manipulator.",
+  "garage.trailer-form": "Numer rejestracyjny, sprzęg i nadwozie naczepy; komory, miejsca dla pojazdów, agregat.",
+  "garage.vehicle-hub": "Wszystko o pojeździe: dokumenty, konserwacja, przegląd, osie i opony, tablica, lakier.",
+  "garage.vehicle-settings": "Przebieg, interwały przeglądów, osie, zbiornik i rezerwa krytyczna.",
+  "garage.plate-colors": "Kolory tablicy rejestracyjnej, tak jak na pojeździe.",
+  "garage.rig-paint": "Kolory kabiny, żurawia i zabudowy na rysunku pojazdu.",
+  "garage.tyres": "Schemat osi i historia opon: wymiany, przebicia, rotacje.",
+  "documents.overview": "Wszystkie dokumenty pojazdów i kierowcy z terminami ważności.",
+  "documents.list": "Dokumenty tego pojazdu. „+” — dodaj.",
+  "documents.form": "Typ, nazwa i termin ważności dokumentu.",
+  "documents.pages": "Zdjęcia stron dokumentu.",
+  "maintenance.maintenance": "Ile zostało do przeglądu oraz wpisy serwisowe.",
+  "maintenance.new-record": "Nowy wpis przeglądu: przebieg, data, wykonane prace, zdjęcia.",
+  "address-book.book": "Klienci i własne miejsca.",
+  "address-book.clients": "Lista klientów: dodaj, ukryj, usuń.",
+  "address-book.client": "Nazwa, notatka i adresy klienta.",
+  "address-book.add-address": "Adres, współrzędne, nawigacja i czerwony znacznik.",
+  "backup.backup": "Plik z całym dziennikiem: zapisz, wyślij lub przywróć.",
+  "online.device-link": "Łączenie telefonu z programem online: kod QR lub kod z ekranu.",
+  "settings.settings": "Wszystkie ustawienia pogrupowane tematycznie.",
+  "settings.profile": "Imię kierowcy i jego dokumenty.",
+  "settings.language": "Język aplikacji, język adresów GPS, format daty.",
+  "settings.theme": "Jasny, ciemny lub automatyczny; motywy gotowe i własne.",
+  "settings.theme-custom": "Kolory własnego motywu.",
+  "settings.about": "Wersja aplikacji i kontakt z deweloperem.",
+  "settings.feedback": "Zgłoś błąd lub zaproponuj pomysł.",
+  "settings.help": "Podręcznik aplikacji podzielony na rozdziały.",
+  "diagnostics.enroll": "Zgoda i rejestracja telefonu w kanale diagnostycznym.",
+  "diagnostics.warning": "Wejście do części serwisowej aplikacji.",
+  "diagnostics.channel-settings": "Co telefon wysyła deweloperowi: trzy osobne zgody.",
+  "diagnostics.server": "Stan połączenia kanału diagnostycznego.",
+  "diagnostics.import": "Instalacja pakietu kanału plikiem .p12.",
+  "service.hub": "Centrum serwisowe: informacje i ekrany serwisowe.",
+  "service.database": "Stan bazy danych i pełny reset aplikacji.",
+  "service.logs": "Dzienniki działania aplikacji.",
+  "service.ocr": "Diagnostyka rozpoznawania numerów.",
+  "service.system": "Informacje o telefonie i awariach.",
+  "service.locale": "Sprawdzanie języków i ponowne pierwsze uruchomienie.",
+  "service.dataset": "Zapisywanie klatek do rozpoznawania.",
+  "service.splash-tuner": "Ustawienia ekranu startowego."
+ }
+}

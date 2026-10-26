@@ -1,0 +1,978 @@
+{
+ "format": 1,
+ "language": "lt",
+ "revision": "2026-10-26",
+ "sections": [
+  {
+   "slug": "getting-started",
+   "title": "Pirmieji žingsniai",
+   "intro": "VecturaBook — vairuotojo kelionės žurnalas: pamainos, reisai, degalų pildymai, stovėjimai, dokumentai ir technika viename telefone. Viskas saugoma telefone ir veikia be interneto.",
+   "steps": [
+    {
+     "id": "welcome",
+     "title": "Pirmas paleidimas",
+     "text": "Pirmą kartą paleidus, programa užduoda kelis klausimus — keturi trumpi žingsniai. Juos galima pereiti per minutę, o viską, ką įvedėte, vėliau galima pakeisti nustatymuose ir garaže.\n\nJei jau turite VecturaBook atsarginę kopiją (pavyzdžiui, iš seno telefono), pirmame žingsnyje paspauskite „Atkurti iš atsarginės kopijos“: bus atkurtas visas žurnalas ir į klausimus atsakinėti nereikės.",
+     "image": "img/lt/getting-started-welcome.png"
+    },
+    {
+     "id": "onboarding",
+     "title": "Vardas, vilkikas, priekaba, leidimai",
+     "text": "1 žingsnis — vardas. Jis spausdinamas ataskaitose. Galite palikti tuščią ir įrašyti vėliau.\n\n2 žingsnis — vilkikas arba sunkvežimis: valst. numeris, tipas ir kėbulas. Tipas ir kėbulas pasirenkami pagal paveikslėlius klausimų grandine: po kiekvieno atsakymo programa rodo kitą klausimą.\n\n3 žingsnis — priekaba. Ją galima praleisti mygtuku „Praleisti priekabą“ ir pridėti vėliau garaže.\n\n4 žingsnis — leidimai: kamera (konteinerių numeriai, plombos, odometras), vieta (miestas pamainos pradžioje, tik kai patys paprašote) ir pranešimai (laukimo, degalų pildymo ir iškrovimo laikmačiai). Bet kurio leidimo galite atsisakyti — programa veiks, tik be tos funkcijos.",
+     "image": "img/lt/getting-started-onboarding.png"
+    },
+    {
+     "id": "main-screen",
+     "title": "Pagrindinis ekranas",
+     "text": "Pagrindinis ekranas rodo dabartinę darbo eigą: pamaina nepradėta, pamaina vyksta, reisas kelyje, esate iškrovimo vietoje ir pan. Mygtukai jame visada veda į kitą žingsnį, todėl nieko nepraleisite.\n\nViršuje — juosta su meniu mygtuku kairėje ir mygtuku „?“ dešinėje. „?“ yra kiekviename ekrane: jis trumpai paaiškina ekraną, o paspaudus „Daugiau“ atidaro reikiamą šio vadovo skyrių.",
+     "image": "img/lt/getting-started-main-screen.png"
+    },
+    {
+     "id": "menu",
+     "title": "Meniu",
+     "text": "Mygtukas su trimis brūkšneliais atidaro meniu plyteles: Garažas, Reisų istorija, Ataskaita, Pildymų žurnalas, Priežiūra, Transporto priemonės dokumentai, Adresų knyga, Pagalba. Apačioje — Nustatymai.\n\nBet kuriame kitame ekrane vietoje meniu mygtuko yra rodyklė „Atgal“.",
+     "image": "img/lt/getting-started-menu.png"
+    },
+    {
+     "id": "help-offline",
+     "title": "Pagalba be interneto",
+     "text": "Šio vadovo tekstus programa atsisiunčia savo kalba ir saugo telefone, todėl „?“ ir „Pagalba“ kelyje veikia be ryšio. Kartą per parą, kai yra internetas, programa tyliai patikrina, ar neatsirado atnaujinimų.\n\nJei pagalba dar nė karto nebuvo atsisiųsta, programa paprašys prisijungti prie interneto.",
+     "image": "img/lt/getting-started-help-offline.png"
+    }
+   ]
+  },
+  {
+   "slug": "shift",
+   "title": "Pamaina",
+   "intro": "Pamaina — darbo diena nuo pradžios iki pabaigos. Pamainos metu vyksta reisai, degalų pildymai ir stovėjimai; pamainos suvestinė patenka į istoriją ir ataskaitas.",
+   "steps": [
+    {
+     "id": "shift-welcome",
+     "title": "Pradėti pamainą",
+     "text": "Paspauskite „Pradėti pamainą“. Programa pasisveikins ir parodys, kur esate: miestas nustatomas pagal vietą, jei davėte leidimą, kitaip paspauskite eilutę su smeigtuku ir įrašykite vietą patys.\n\nJei reiso dar nėra, paspauskite „Laukiu reiso“ — pradės veikti laukimo laikmatis. „Baigti laukimą“ jį sustabdo. Laukimas prieš reisą patenka į istoriją ir ataskaitą.\n\nKai reisas yra — „Pradėti reisą“.",
+     "image": "img/lt/shift-shift-welcome.png"
+    },
+    {
+     "id": "shift-status",
+     "title": "Pamainos būsena",
+     "text": "Ekranas „Pamaina“ rodo, ar pamaina atidaryta, kada ji pradėta ir kiek joje reisų. „Tęsti pamainą“ grąžina į darbą.\n\nUždaryti pamainos, kol reisas nebaigtas, negalima: pirmiausia užbaikite reisą.",
+     "image": "img/lt/shift-shift-status.png"
+    },
+    {
+     "id": "end-shift",
+     "title": "Baigti pamainą",
+     "text": "Raudonas mygtukas „Baigti pamainą“ — vienintelis raudonas mygtukas programoje. Programa perklaus ir paprašys įvesti galutinį odometrą. Skaičius tikrinamas: jei jis mažesnis už ankstesnį arba daug didesnis nei tikėtasi, programa parodys paskutinį žinomą rodmenį ir paprašys patvirtinti arba pataisyti.",
+     "image": ""
+    },
+    {
+     "id": "forgotten-shift",
+     "title": "Pamiršta pamaina",
+     "text": "Jei pamaina atidaryta ilgiau nei parą, programa pasiūlys uždaryti ją paskutinio įvykio laiku — taip darbo laikas ataskaitoje neišsipūs. Galite sutikti arba tęsti pamainą.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "trip",
+   "title": "Reisas: nuo pakrovimo iki iškrovimo",
+   "intro": "Reisas pildomas pažingsniui: iš kur ir į kur, ką vežate, krovinio duomenys, suvestinė — ir „Į kelią“. Paskirties vietoje — atvykimas, iškrovimas arba krovimas, suvestinė. Kol nepaspausite „Į kelią“, į žurnalą niekas neįrašoma: bet kuriame žingsnyje galite grįžti mygtuku „Atgal“, įvesti duomenys nedings.",
+   "steps": [
+    {
+     "id": "origin",
+     "title": "Klientas ir maršrutas",
+     "text": "Pasirinkite klientą: pradėkite vesti pavadinimą — programa pasiūlys iš adresų knygos. Naują klientą pakanka įrašyti: jis pats pateks į knygą.\n\nKlientas gali turėti kelis adresus — pasirinkite reikiamą arba pridėkite naują. GPS piktograma įrašo adresą pagal dabartinę vietą. Vairuotojo pastabos apie klientą matomos tiesiai čia.",
+     "image": "img/lt/trip-origin.png"
+    },
+    {
+     "id": "cargo-type",
+     "title": "Ką vežiesi",
+     "text": "Krovinio tipas pasirenkamas plytelėmis: konteineris, vienetinis krovinys, negabaritinis, refrižeratorius, degalai, birus krovinys, automobiliai, tuščia. Sąrašas priklauso nuo vilkiko ir priekabos kėbulo.\n\nJei pakeisite krovinio tipą jau įvedę duomenis, programa įspės, kad įvesti duomenys bus ištrinti, ir paprašys patvirtinti.",
+     "image": "img/lt/trip-cargo-type.png"
+    },
+    {
+     "id": "cargo-details",
+     "title": "Krovinio duomenys",
+     "text": "Duomenys priklauso nuo krovinio tipo. Konteineriui — tuščias ar pakrautas, dydis, kiek konteinerių, tipas, konteinerio ir plombos numeris. Numerius galima nuskaityti kamera. Cisternoms — sekcijos ir tūriai, autovežiui — automobiliai pagal VIN arba valst. numerį, vienetiniam kroviniui — padėklai ir svoris.\n\nJei šiam reisui krovinio duomenų nereikia (pavyzdžiui, važiuojate tuščias), tiesiog paspauskite „Toliau“.\n\nADR jungiklis atidaro pavojingo krovinio UN numerių laukus.",
+     "image": "img/lt/trip-cargo-details.png"
+    },
+    {
+     "id": "load-details",
+     "title": "Krovinio duomenys",
+     "text": "Negabaritiniam kroviniui ir konteineriams ant platformos — ilgis, plotis, aukštis, svoris ir aprašymas. Matmenys nurodomi nustatymuose pasirinktais vienetais.",
+     "image": "img/lt/trip-load-details.png"
+    },
+    {
+     "id": "trip-times",
+     "title": "Reiso laikai ir taškai",
+     "text": "Šis ekranas atsiranda tik taisant jau įrašytą reisą iš istorijos. Čia keičiamas pradžios, atvykimo, krovos darbų pradžios ir pabaigos laikas, taškų adresai ir odometrai.\n\nLaikas, kurio reise nebuvo, rodomas brūkšniu ir neredaguojamas: taisymas neprideda reisui to, ko nebuvo.",
+     "image": ""
+    },
+    {
+     "id": "confirm",
+     "title": "Reiso suvestinė",
+     "text": "Suvestinė rodo visą reisą viename ekrane. Čia pat yra žymos: miegas kabinoje, karinis reisas, pavojinga zona, su temperatūros kontrole, darbas su kranu (jei vilkikas turi kraną).\n\n„Keisti“ grąžina į žingsnius. Žalias mygtukas „Į kelią“ įrašo reisą ir jį pradeda. Jei telefone yra navigacija, programa pasiūlys atidaryti adresą joje.",
+     "image": "img/lt/trip-confirm.png"
+    },
+    {
+     "id": "arrival",
+     "title": "Atvykimas",
+     "text": "Vietoje paspauskite „Atvykau“. Programa įsimins laiką ir pasiūlys odometro rodmenį.\n\n„Pradėti iškrovimą/krovimą“ paleidžia krovos darbų laikmatį, „Stabdyti iškrovimą/krovimą“ jį sustabdo. Jei kas nors neįsirašė (pavyzdžiui, telefonas pakibo), programa apie tai praneš ir paprašys paspausti dar kartą — į žurnalą niekas nepateks pusiau.",
+     "image": "img/lt/trip-arrival.png"
+    },
+    {
+     "id": "unload",
+     "title": "Iškrovimas šioje stotelėje",
+     "text": "Jei krovinys atiduodamas dalimis, pažymėkite, kas iškrauta šioje vietoje: cisternos sekcijos, konteinerio procentas, padėklai, konkretūs autovežio automobiliai. Programa atsimena, kiek liko mašinoje, ir neleis iškrauti daugiau, nei yra.",
+     "image": ""
+    },
+    {
+     "id": "cargo-fate",
+     "title": "Kas nutiko konteineriui",
+     "text": "Po iškrovimo programa klausia, kas toliau su konteineriu: liko čia, liko ant vilkiko, važiuoja pas kitą klientą, grąžinamas į vietą (uostą, depą) arba kitu adresu. Atsakymas nukreipia į kitą reiso žingsnį.",
+     "image": "img/lt/trip-cargo-fate.png"
+    },
+    {
+     "id": "summary",
+     "title": "Reiso suvestinė",
+     "text": "Po stotelės — „Tęsti reisą“ (kita to paties reiso stotelė), „Baigti reisą“ arba „Naujas reisas“.\n\n„Užpildyti kitą reisą“ leidžia iš anksto, kol vyksta iškrovimas, suvesti kitą reisą — klientą, krovinį, numerius. Vėliau „Baigti ir važiuoti“ jį iš karto paleidžia.",
+     "image": "img/lt/trip-summary.png"
+    }
+   ]
+  },
+  {
+   "slug": "driving",
+   "title": "Vairavimo ekranas",
+   "intro": "Kol reisas vyksta, pagrindinis ekranas yra „Vyksta“: reiso mašina, vilkiko ir priekabos numeriai, laikas kelyje ir tolimesnių veiksmų mygtukai.",
+   "steps": [
+    {
+     "id": "driving",
+     "title": "Vyksta",
+     "text": "Ekrano mygtukai: „Atvykau“ (esate taške), „Pildymas“, „Stovėjimas / stotelė“. Virš mygtukų — jūsų mašinos piešinys su jos numeriais; piešinys sudarytas iš to, kas nurodyta garaže: tipas, kėbulas, ašys, spalvos.\n\nJei garaže nurodyta bako talpa ir jūsų kritinis likutis, po mašina matyti, kiek maždaug liko iki rezervo: „≈ N km iki rezervo“ pagal vilkiko dyzeliną ir „≈ N h iki rezervo“ pagal priekabos agregatą (refrižeratorių, generatorių). Skaičiuojama pagal jūsų pildymus ir ridą, todėl iškart po pirmo pildymo šio rodmens gali nebūti.",
+     "image": "img/lt/driving-driving.png"
+    },
+    {
+     "id": "swap-trailer",
+     "title": "Pakeisti priekabą",
+     "text": "Norėdami pakeisti priekabą kelyje, spauskite „Pakeisti priekabą“. Lange matomos garažo priekabos: priekabos piešinys ir numeris po juo. Pasirinkite naują — keitimas bus įrašytas į reisą. Su vilkiku nesuderinamos priekabos sąraše nesiūlomos.",
+     "image": "img/lt/driving-swap-trailer.png"
+    },
+    {
+     "id": "odometer",
+     "title": "Odometras",
+     "text": "Programa įrašo tikėtiną rodmenį: iš mašinos, pakrovimo, ankstesnio iškrovimo arba degalinės. Patikrinkite ir, jei reikia, pataisykite. Odometrą galima nufotografuoti kamera.\n\nJei skaičius mažesnis už ankstesnį, daug didesnis nei tikėtasi arba jo nepakeitėte, programa parodys paskutinį žinomą rodmenį ir paklaus, ar viskas teisingai. Taisant odometrą ankstesniame reise parodoma, kokius dar įrašus šis pakeitimas palies.",
+     "image": "img/lt/driving-odometer.png"
+    }
+   ]
+  },
+  {
+   "slug": "refuel",
+   "title": "Kuro pylimas, AdBlue, agregatas",
+   "intro": "Degalų pildymo įrašai reikalingi sąnaudoms skaičiuoti, ataskaitoms ir užuominai „iki rezervo“.",
+   "steps": [
+    {
+     "id": "refuel-timer",
+     "title": "Pildymo laikmatis",
+     "text": "„Pildymas“ vairavimo ekrane paleidžia laikmatį — pildymo laikas patenka į žurnalą. „Baigti pildymą“ jį sustabdo ir atidaro litrų įvedimą. Laikmatis veikia ir pranešimų juostoje, jei programa nuleista.",
+     "image": "img/lt/refuel-refuel-timer.png"
+    },
+    {
+     "id": "refuel-data",
+     "title": "Litrai ir odometras",
+     "text": "Įrašykite dyzeliną litrais, jei reikia — AdBlue ir priekabos agregato (refrižeratoriaus, generatoriaus) dyzeliną. Odometras įrašomas automatiškai; jį galima nuskaityti kamera. „Išsaugoti pildymą“ įrašo viską vienu įrašu.",
+     "image": "img/lt/refuel-refuel-data.png"
+    },
+    {
+     "id": "unit",
+     "title": "Priekabos agregatas",
+     "text": "Jei priekaboje įrengtas generatorius, pažymėkite tai priekabos nustatymuose. Tuomet vairavimo ekrane atsiras jungiklis „Agregatas veikia“, programa skaičiuos agregato motovalandas ir jo sąnaudas litrais per valandą, o pildymo ekrane atsiras agregato dyzelino laukas.",
+     "image": ""
+    },
+    {
+     "id": "refuel-history",
+     "title": "Pildymų žurnalas",
+     "text": "Žurnalas rodo visus pildymus per savaitę, mėnesį, visą laiką arba pasirinktą laikotarpį: iš viso degalų, pildymų skaičių ir vidutines sąnaudas. AdBlue dalis nuo dyzelino ir agregato sąnaudos skaičiuojamos atskirai.\n\n„Sukurti PDF ataskaitą“ sukuria pildymų ataskaitą, kurią galima išsiųsti. Pildymo įrašą galima ištrinti.",
+     "image": "img/lt/refuel-refuel-history.png"
+    }
+   ]
+  },
+  {
+   "slug": "parking",
+   "title": "Stovėjimas ir poilsis",
+   "intro": "Stovėjimas — sustojimas kelyje: poilsis, nakvynė, laukimas. Jis įrašomas į reisą su savo adresu ir laiku.",
+   "steps": [
+    {
+     "id": "parking-stop",
+     "title": "Stovėjimas / stotelė",
+     "text": "Vairavimo ekrane paspauskite „Stovėjimas / stotelė“. Adresą galite įvesti ranka, pasirinkti iš išsaugotų vietų arba paliesti GPS piktogramą. Jei adreso nustatyti nepavyko, programa įrašys koordinates — jas galite pataisyti.\n\nNakvynės kabinoje skaičiuojamos istorijoje ir ataskaitoje.",
+     "image": "img/lt/parking-parking-stop.png"
+    },
+    {
+     "id": "places",
+     "title": "Vietos",
+     "text": "Vietos — jūsų taškai, nesusieti su klientais: aikštelės, uostai, depai, degalinės. Sąraše galima ieškoti pagal pavadinimą. Vietos pasirenkamos sustojus stovėti ir grąžinant konteinerį.",
+     "image": ""
+    },
+    {
+     "id": "place-form",
+     "title": "Vieta",
+     "text": "Pavadinimas, pastaba ir koordinatė. Koordinatę galima įrašyti pagal dabartinę vietą, perrašyti arba ištrinti. Mygtukai „Atidaryti navigacijoje“ ir „Siųsti“ perduoda tašką į navigaciją arba žinutę.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "camera",
+   "title": "Kamera: konteineriai ir plombos",
+   "intro": "Kamera nuskaito konteinerių, plombų, VIN numerius ir odometro rodmenis, kad nereikėtų jų vesti ranka.",
+   "steps": [
+    {
+     "id": "scan",
+     "title": "Kameros rėmelis",
+     "text": "Nukreipkite numerį į rėmelį. Dviem pirštais suspauskite rėmelį prie pat numerio — taip jis nuskaitomas geriau. „Pasukti rėmelį“ — stulpeliu užrašytiems numeriams. Bakstelėjimas už rėmelio ribų padaro nuotrauką.",
+     "image": ""
+    },
+    {
+     "id": "container-number",
+     "title": "Konteinerio numeris",
+     "text": "Konteinerio numeris — 4 raidės ir 7 skaitmenys. Programa tikrina kontrolinį skaitmenį; jei numeris nesutampa, jis išsaugomas su žyma „Numeris nepatvirtintas“ — patikrinkite jį akimis.",
+     "image": ""
+    },
+    {
+     "id": "seal",
+     "title": "Plomba",
+     "text": "Plombos numeris nuskaitomas nuo užrašo. Jei ant plombos yra brūkšninis kodas ir jis nesutampa su atspausdintu numeriu, programa ima atspausdintą numerį: brūkšninis kodas būna kitos serijos.",
+     "image": ""
+    },
+    {
+     "id": "container-exchange",
+     "title": "Konteinerių keitimas",
+     "text": "Jei vietoje atiduodate konteinerį kitam vairuotojui ir paimate jo konteinerį, įrašykite keitimą: kuris konteineris iškrautas, kuris pakrautas, vairuotojo vardas ir jo vilkiko valst. numeris.",
+     "image": ""
+    },
+    {
+     "id": "photos",
+     "title": "Nuotraukos",
+     "text": "Prie reiso galima pridėti dokumentų nuotraukas pakrovimo ir iškrovimo metu: „Dokumentų nuotrauka“. „Peržiūrėti nuotraukas“ atidaro jas per visą ekraną.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "history",
+   "title": "Reisų istorija ir taisymas",
+   "intro": "Istorija — visos pamainos ir reisai. Čia juos galima peržiūrėti, ieškoti, taisyti ir ištrinti.",
+   "steps": [
+    {
+     "id": "history",
+     "title": "Istorija",
+     "text": "Reisai sugrupuoti pagal pamainas: pamainos pradžia ir pabaiga, laikas, rida, reisų skaičius. Paspauskite ant reiso — atsidarys išsami informacija: klientas, krovinys, taškai, odometrai, laukimas, nuotraukos. Paieška — pagal klientą, konteinerį, maršrutą. „Visos kelionės“ rodo juos vienu sąrašu.",
+     "image": "img/lt/history-history.png"
+    },
+    {
+     "id": "edit",
+     "title": "Redaguoti reisą",
+     "text": "„Redaguoti“ atidaro tuos pačius žingsnius kaip ir kuriant reisą, plius laikų ir taškų ekraną. Pataisymai surenkami ir įrašomi tik suvestinėje.\n\nJei odometro taisymas palies kitus įrašus (kitą reisą, vilkiko rodmenį, pamainos kilometrus), programa juos parodys prieš pritaikant.",
+     "image": ""
+    },
+    {
+     "id": "delete",
+     "title": "Ištrynimas",
+     "text": "Reisas ištrinamas šiukšliadėžės mygtuku; keli reisai — pasirinkimo režimu. Aktyvaus reiso ištrinti negalima — pirmiausia jį užbaikite. Jei telefonas prijungtas prie programos internete, ištrynimas pasieks ir kitus įrenginius.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "report",
+   "title": "Ataskaita ir PDF",
+   "intro": "Ataskaita suskaičiuoja darbą per laikotarpį: reisus, ridą, darbo laiką, laukimą, degalus ir sąnaudas.",
+   "steps": [
+    {
+     "id": "report",
+     "title": "Laikotarpio ataskaita",
+     "text": "Pasirinkite laikotarpį: šiandien, savaitė, mėnuo arba pasirinktinės datos. Kortelės parodys sumas. „Eksportuoti ataskaitą“ sukuria PDF su pamainomis, reisais, taškais ir pildymais; jį galima išsiųsti arba atspausdinti.",
+     "image": "img/lt/report-report.png"
+    },
+    {
+     "id": "pdf",
+     "title": "Kas yra PDF faile",
+     "text": "PDF faile prie kiekvienos pamainos nurodoma pradžia ir pabaiga, vilkikas ir priekaba, reisai su klientais, kroviniu, iškrovimo ir laukimo laikais, odometrais, pildymai. Pabaigoje — laikotarpio sumos: pamainos, reisai, pildymai, bendra rida, bendra trukmė, iš viso degalų, vid. rida per pamainą ir vid. sąnaudos.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "garage",
+   "title": "Parkas: vilkikai ir priekabos",
+   "intro": "Garaže saugoma jūsų technika. Iš jo imami mašinų piešiniai, numeriai, priekabų suderinamumas, rida ir visi mašinos nustatymai.",
+   "steps": [
+    {
+     "id": "garage",
+     "title": "Garažas",
+     "text": "Du skirtukai: Vilkikai ir Priekabos. Aktyvi mašina paryškinta. „+ Pridėti vilkiką“ ir „+ Pridėti priekabą“ prideda naują. Paspaudus ant mašinos atsidaro jos valdymas.\n\nKol reisas vyksta, technikos keisti negalima — pirmiausia užbaikite reisą (priekaba kelyje keičiama mygtuku „Pakeisti priekabą“).",
+     "image": "img/lt/garage-garage.png"
+    },
+    {
+     "id": "truck-form",
+     "title": "Vilkikas",
+     "text": "Valst. numeris, tipas (vilkikas arba sunkvežimis) ir kėbulas — klausimų su paveikslėliais grandine; ar yra kranas / manipuliatorius. Dviejų vienodų numerių garaže būti negali.",
+     "image": ""
+    },
+    {
+     "id": "trailer-form",
+     "title": "Priekaba",
+     "text": "Valst. numeris, sukabinimo tipas (puspriekabė arba sunkvežimio priekaba) ir kėbulas. Cisternai — sekcijų skaičius ir kiekvienos tūris, autovežiui — automobilių vietų skaičius, refrižeratoriui — ar įrengtas generatorius.",
+     "image": ""
+    },
+    {
+     "id": "vehicle-hub",
+     "title": "Mašinos valdymas",
+     "text": "Mašinos ekrane surinkta viskas apie ją: registracija, dokumentai, priežiūra, techninė apžiūra, ašys ir padangos, valstybinio numerio ženklas, dažymas. „Nustatyti kaip aktyvų“ parenka ją darbui.",
+     "image": "img/lt/garage-vehicle-hub.png"
+    },
+    {
+     "id": "vehicle-settings",
+     "title": "Mašinos nustatymai",
+     "text": "Dabartinis odometro rodmuo, aptarnavimo intervalas (kilometrai, mėnesiai, įspėjimo ribos), aptarnavimo pradžios taškas, ašys, bako talpa ir jūsų kritinis likutis (užuominai „iki rezervo“). Priekabai su agregatu — agregato bakas ir jo likutis.",
+     "image": "img/lt/garage-vehicle-settings.png"
+    },
+    {
+     "id": "plate-colors",
+     "title": "Valstybinio numerio ženklas",
+     "text": "Ženklo fono spalva ir numerio spalva — kaip ant jūsų mašinos. Jei derinys sunkiai įskaitomas, numeris bus rodomas juodai arba baltai.",
+     "image": "img/lt/garage-plate-colors.png"
+    },
+    {
+     "id": "rig-paint",
+     "title": "Dažymas",
+     "text": "Kabinos, krano ir kėbulo spalva mašinos piešinyje. „Kaip piešinyje“ grąžina pradinę spalvą.",
+     "image": "img/lt/garage-rig-paint.png"
+    },
+    {
+     "id": "tyres",
+     "title": "Ašys ir padangos",
+     "text": "Ašių schema nusipiešia pati pagal ašių skaičių; bet kurią ašį galima padaryti viengubę arba dvigubą. Palieskite padangą: keitimas, pradūrimas, perkėlimas ar kažkas kita — įrašas pateks į istoriją. Statistika rodo vidutinę ridą tarp keitimų ir dažniausią vietą. Priekaba turi savo ridą — ją galima įrašyti.",
+     "image": "img/lt/garage-tyres.png"
+    }
+   ]
+  },
+  {
+   "slug": "documents",
+   "title": "Dokumentai ir terminai",
+   "intro": "Mašinos ir vairuotojo dokumentai su puslapių nuotraukomis ir galiojimo terminais. Programa iš anksto primena apie terminus.",
+   "steps": [
+    {
+     "id": "overview",
+     "title": "Visi dokumentai",
+     "text": "Apžvalga rodo visų mašinų ir vairuotojo dokumentus vienu sąrašu su terminais: kiek dienų liko arba „pasibaigęs“.",
+     "image": "img/lt/documents-overview.png"
+    },
+    {
+     "id": "list",
+     "title": "Transporto priemonės dokumentai",
+     "text": "Kiekviena mašina turi savo sąrašą: registracijos liudijimas, draudimas, techninė apžiūra ir pasirinktiniai dokumentai. „+“ prideda dokumentą.",
+     "image": "img/lt/documents-list.png"
+    },
+    {
+     "id": "form",
+     "title": "Dokumentas",
+     "text": "Pasirinkite tipą arba „Pasirinktinis dokumentas…“ ir įrašykite pavadinimą (pavyzdžiui, ADR leidimas). „Galioja iki“ — terminas, pagal kurį siunčiami priminimai. Techninė apžiūra turi patikros datą.",
+     "image": ""
+    },
+    {
+     "id": "pages",
+     "title": "Puslapiai",
+     "text": "Nufotografuokite dokumento puslapius kamera. Puslapiai atsidaro per visą ekraną, yra vartomi ir ištrinami po vieną.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Priminimai apie terminus",
+     "text": "Prieš pasibaigiant terminui programa atsiunčia pranešimą ir paleidimo metu parodo langą „Dokumentų galiojimas“. „Supratau“ paslepia langą iki kitos ribos. Vairuotojo dokumentai (vairuotojo pažymėjimas, pasas, ADR) yra profilio nustatymuose.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "maintenance",
+   "title": "Priežiūra ir padangos",
+   "intro": "Techninė priežiūra: įrašai, intervalai ir priminimas, kada atėjo laikas.",
+   "steps": [
+    {
+     "id": "maintenance",
+     "title": "Priežiūra",
+     "text": "Viršuje — kiek liko iki aptarnavimo kilometrais ar dienomis arba kiek jis vėluoja. Žemiau — aptarnavimo įrašai. Intervalai ir pradžios taškas nustatomi mašinos nustatymuose.",
+     "image": "img/lt/maintenance-maintenance.png"
+    },
+    {
+     "id": "new-record",
+     "title": "Aptarnavimo įrašas",
+     "text": "„Registruoti aptarnavimą“ atidaro įrašą: odometras, data, kas buvo atlikta, nuotraukos. Ridos rodmuo per techninę priežiūrą negali būti didesnis už dabartinį.",
+     "image": ""
+    },
+    {
+     "id": "tyres",
+     "title": "Padangos",
+     "text": "Padangos tvarkomos ašių schemoje — skyrius „Garažas“, žingsnis „Ašys ir padangos“.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "address-book",
+   "title": "Adresų knyga ir klientai",
+   "intro": "Klientai ir jų adresai, jūsų vietos. Knyga pildosi pati, kai į reisą įrašote naują klientą.",
+   "steps": [
+    {
+     "id": "book",
+     "title": "Adresų knyga",
+     "text": "Skirtukas „Klientai“ — klientai su adresais; vietų skirtukas — jūsų taškai. Paslėpti klientai nesiūlomi renkantis; „Rodyti paslėptus“ grąžina juos į sąrašą.",
+     "image": "img/lt/address-book-book.png"
+    },
+    {
+     "id": "clients",
+     "title": "Klientai",
+     "text": "„Naujas klientas“ prideda klientą. Ištrinti kliento, kuris turi reisų, negalima — jį galima pašalinti iš pasirinkimo. Ankstesni reisai išlaiko savo kliento pavadinimą.",
+     "image": ""
+    },
+    {
+     "id": "client",
+     "title": "Klientas",
+     "text": "Pavadinimas, vairuotojo pastaba ir adresai. Pervadinant tikrinama, ar tokio pavadinimo jau nėra. Ištrynimą galima iškart atšaukti mygtuku „Atšaukti“.",
+     "image": "img/lt/address-book-client.png"
+    },
+    {
+     "id": "add-address",
+     "title": "Adresas",
+     "text": "Adresas, žymė ir koordinatė. Koordinatę galima įrašyti pagal dabartinę vietą. „Atidaryti navigacijoje“ ir „Siųsti“ perduoda tašką. Raudona žymė išskiria adresą, kurį reikia atsiminti (sudėtingas įvažiavimas, ypatingos taisyklės).",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "backup",
+   "title": "Atsarginė kopija ir atkūrimas",
+   "intro": "Atsarginė kopija — vienas failas su visu žurnalu: reisais, pamainomis, pildymais, technika, dokumentais su nuotraukomis.",
+   "steps": [
+    {
+     "id": "backup",
+     "title": "Sukurti atsarginę kopiją",
+     "text": "Nustatymai → Atsarginė kopija: „Eksportuoti duomenų bazę (kopija)“ išsaugo failą, „Bendrinti atsarginę kopiją“ iškart jį išsiunčia (paštu, susirašinėjimo programa, į debesį). Atsarginę kopiją galima daryti bet kada — darbas nenutrūksta.",
+     "image": ""
+    },
+    {
+     "id": "restore",
+     "title": "Atkurti",
+     "text": "„Importuoti duomenų bazę (atkurti)“ pakeičia visus dabartinius duomenis kopijos failu. Programa pirmiausia patikrins failą: svetimas failas arba naujesnės versijos kopija nebus priimti. Naujame telefone atkurti duomenis galima tiesiai pirmame pirmo paleidimo žingsnyje.",
+     "image": ""
+    },
+    {
+     "id": "cross",
+     "title": "Android ir iPhone",
+     "text": "Atsarginė kopija vienoda Android ir iPhone telefonuose: viename sukurtas failas atkuriamas kitame.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "online",
+   "title": "Programa internete",
+   "intro": "Programa internete — my.vecturabook.com: tas pats žurnalas naršyklėje ir kituose jūsų įrenginiuose.",
+   "steps": [
+    {
+     "id": "device-link",
+     "title": "Prijungti telefoną",
+     "text": "Nustatymai → „Prisijungti prie VecturaBook“. Nuskaitykite QR kodą iš paskyros svetainėje, atidarykite paskyrą naršyklėje ir patvirtinkite telefone arba įveskite ekrane rodomą kodą. „Atjungti šį telefoną“ jį atjungia.",
+     "image": "img/lt/online-device-link.png"
+    },
+    {
+     "id": "sync",
+     "title": "Sinchronizavimas",
+     "text": "Prijungtas telefonas pats siunčia naujus įrašus ir gauna pataisymus iš kitų įrenginių. Būsenos eilutė rodo „Viskas sinchronizuota“ arba kiek įrašų laukia išsiuntimo. Be ryšio įrašai laukia telefone.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "settings",
+   "title": "Nustatymai",
+   "intro": "Nustatymai suskirstyti grupėmis: vairuotojo profilis, telefonas ir ryšys, dokumentai (PDF), atsarginė kopija, bendrieji nustatymai.",
+   "steps": [
+    {
+     "id": "settings",
+     "title": "Nustatymai",
+     "text": "Čia yra kalba ir regionas, vienetai, tema, animacijos, degalų PDF ir kelionių istorijos PDF, atsarginė kopija, prisijungimas prie programos internete.",
+     "image": "img/lt/settings-settings.png"
+    },
+    {
+     "id": "profile",
+     "title": "Vairuotojo profilis",
+     "text": "Vardas ataskaitoms ir vairuotojo dokumentai: vairuotojo pažymėjimas, pasas, ADR sertifikatas — su terminais ir puslapių nuotraukomis.",
+     "image": "img/lt/settings-profile.png"
+    },
+    {
+     "id": "language",
+     "title": "Kalba ir regionas",
+     "text": "Programos kalba, GPS adresų kalba (automatiškai — pagal esamą šalį) ir datos formatas.",
+     "image": "img/lt/settings-language.png"
+    },
+    {
+     "id": "units",
+     "title": "Vienetai",
+     "text": "Atstumas, svoris, tūris, ilgis, temperatūra ir degalų sąnaudos. Šablonai: metrinė, imperinė, mišri — arba pasirinktinis.",
+     "image": ""
+    },
+    {
+     "id": "theme",
+     "title": "Tema",
+     "text": "Šviesi, tamsi arba automatinis (pagal dienos ir nakties pradžios laiką). Šablonai: Kraftas, Tamsus kraftas, Manila, Beveik balta, Tamsi. Galima susikurti savo.",
+     "image": "img/lt/settings-theme.png"
+    },
+    {
+     "id": "theme-custom",
+     "title": "Pasirinktinė tema",
+     "text": "Fono, teksto, viršutinės juostos, kortelių, lauko rėmelių, antraščių, mygtukų bei degalų ir stovėjimo piktogramų spalva. Temą galima išsaugoti, pervadinti ir priskirti šviesiai arba tamsiai temai.",
+     "image": ""
+    },
+    {
+     "id": "animations",
+     "title": "Animacijos",
+     "text": "Judančios iškrovimo ir pylimo scenos. Jas galima išjungti.",
+     "image": ""
+    },
+    {
+     "id": "about",
+     "title": "Apie",
+     "text": "Versija, svetainė, Telegram, Facebook ir galimybė paremti projektą. Anksčiau programa vadinosi CargoLog — pasikeitė tik pavadinimas.",
+     "image": ""
+    },
+    {
+     "id": "feedback",
+     "title": "Atsiliepimas / klaidos pranešimas",
+     "text": "Praneškite apie klaidą, pasiūlykite idėją ar parašykite ką nors kita. Galima pridėti ekrano nuotrauką arba nuotrauką. Taip pat meniu: „Tikrinti atnaujinimus“ ir „Įvertink programą“.",
+     "image": ""
+    },
+    {
+     "id": "help",
+     "title": "Pagalba",
+     "text": "„Pagalba“ — šio vadovo turinys: bendri skyriai ir skyriai pagal transporto tipą. Kiekvienas atsidaro čia pat, pažingsniui.",
+     "image": "img/lt/settings-help.png"
+    }
+   ]
+  },
+  {
+   "slug": "notifications",
+   "title": "Pranešimai ir priminimai",
+   "intro": "Programa praneša apie tai, kas vyksta dabar, ir apie tai, kas artėja.",
+   "steps": [
+    {
+     "id": "timers",
+     "title": "Laikmačiai",
+     "text": "Laukimas, degalų pildymas, iškrovimas veikia ir nuleidus programą: laikmatis matomas pranešimų juostoje. Palieskite pranešimą, kad grįžtumėte į programą.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Dokumentų galiojimas",
+     "text": "Pranešimai apie dokumentų terminus ateina iš anksto ir galiojimo pabaigos dieną.",
+     "image": ""
+    },
+    {
+     "id": "permissions",
+     "title": "Leidimai",
+     "text": "Jei pranešimai, kamera ar vieta uždrausti, programa parodys, kur juos leisti telefono nustatymuose.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics",
+   "title": "Diagnostikos kanalas",
+   "intro": "Diagnostikos kanalas siunčia kūrėjui duomenis iš telefono, kad gedimai būtų nagrinėjami su tikrais duomenimis. Jis išjungtas, kol patys jo neįjungsite.",
+   "steps": [
+    {
+     "id": "enroll",
+     "title": "Telefono registracija",
+     "text": "Perskaitykite sutikimą ir, jei sutinkate, paspauskite „Sutinku, registruoti šį telefoną“. „Atšaukti šį telefoną“ išjungia kanalą ir ištrina sertifikatą.",
+     "image": "img/lt/diagnostics-enroll.png"
+    },
+    {
+     "id": "channel-settings",
+     "title": "Ką siųsti",
+     "text": "Trys jungikliai: programos veikimo žurnalai, reisų duomenų bazė, konteinerių numerių nuotraukos. Kiekvienas yra išjungtas, kol jo neįjungsite; išjungti galima bet kurią akimirką. Kol visi trys išjungti, nesiunčiama nieko. Galerijos programa neskaito.",
+     "image": ""
+    },
+    {
+     "id": "warning",
+     "title": "Įspėjimas",
+     "text": "Įėjimas į aptarnavimo ekranus prasideda įspėjimu. Išeiti galite mygtuku „Ištraukite mane iš čia“.",
+     "image": ""
+    },
+    {
+     "id": "server",
+     "title": "Kanalo serveris",
+     "text": "Ryšio būsena: ryšyje, tyli, nėra tinklo, serveris nepriima. Viskas, kas paruošta siųsti, laukia telefone — nieko daryti nereikia.",
+     "image": ""
+    },
+    {
+     "id": "import",
+     "title": "Kanalo ryšulys",
+     "text": "Tarnybiniams telefonams kanalo ryšulį galima įdiegti .p12 failu su slaptažodžiu. Slaptažodis naudojamas vieną kartą ir nesaugomas.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "service",
+   "title": "Aptarnavimo ekranai",
+   "intro": "Aptarnavimo ekranai skirti gedimams nagrinėti. Įėjimas — septyni palietimai ekrane „Apie“. Įprastame darbe jų nereikia.",
+   "steps": [
+    {
+     "id": "hub",
+     "title": "Aptarnavimo centras",
+     "text": "Duomenys apie programą ir telefoną, įėjimas į aptarnavimo ekranus ir diagnostikos kanalą, animacijų galerija.",
+     "image": ""
+    },
+    {
+     "id": "database",
+     "title": "Duomenų bazė",
+     "text": "Duomenų bazės būsena ir pilnas programos atstatymas. Atstatymas negrįžtamai ištrina viską — pirmiausia pasidarykite atsarginę kopiją.",
+     "image": ""
+    },
+    {
+     "id": "logs",
+     "title": "Žurnalai",
+     "text": "Programos veikimo žurnalai gedimams nagrinėti.",
+     "image": ""
+    },
+    {
+     "id": "ocr",
+     "title": "Atpažinimas",
+     "text": "Numerių nuskaitymo kamera diagnostika.",
+     "image": ""
+    },
+    {
+     "id": "system",
+     "title": "Sistema",
+     "text": "Duomenys apie telefoną ir strigimus.",
+     "image": ""
+    },
+    {
+     "id": "locale",
+     "title": "Kalba ir pirmas paleidimas",
+     "text": "Kalbų patikra ir pakartotinis pirmas paleidimas.",
+     "image": ""
+    },
+    {
+     "id": "dataset",
+     "title": "Kameros kadrai",
+     "text": "Kadrų fotografavimas atpažinimui apmokyti — tik davus sutikimą dėl nuotraukų.",
+     "image": ""
+    },
+    {
+     "id": "splash-tuner",
+     "title": "Pradinis ekranas",
+     "text": "Paleidimo ekrano nustatymas.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "flatbed",
+   "title": "Platforma",
+   "intro": "Platforma veža vienetinį ir negabaritinį krovinį.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaže",
+     "text": "Nurodykite kėbulą „Platforma“ ir platformos ilgį.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reise",
+     "text": "Krovinio tipai: vienetinis krovinys (padėklai, svoris, aprašymas), negabaritinis (ilgis, plotis, aukštis, svoris), konteineris ant platformos. Pasirinkus negabaritinį, žingsnis „Krovinio duomenys“ paprašo įvesti matmenis.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Iškrovimas",
+     "text": "Padėklai iškraunami taškuose skaičiumi arba procentais.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "container",
+   "title": "Konteineris",
+   "intro": "Konteinervežis veža 20, 40 ir 45 pėdų konteinerius, vieną arba du.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaže",
+     "text": "Kėbulas „Konteineris“; konteinerio dydis, kuriam pritaikyta priekaba.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reise",
+     "text": "Klausimų grandinė: tuščias ar pakrautas, dydis, kiek konteinerių, tipas (standartinis, Reefer, Flat Rack, Open Top, Tank). Konteinerio ir plombos numeris — kamera. Ventiliacijos plomba ir temperatūra — Reefer tipui.",
+     "image": ""
+    },
+    {
+     "id": "fate",
+     "title": "Po iškrovimo",
+     "text": "Programa klausia, kas nutiko konteineriui: liko pas klientą, ant vilkiko, važiuoja pas kitą klientą arba grąžinamas į uostą ar depą.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "sidelifter",
+   "title": "Šoninis krautuvas",
+   "intro": "Šoninis krautuvas pats nukelia ir užkelia konteinerį.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaže",
+     "text": "Kėbulą „Šoninis krautuvas“ turi tik puspriekabė.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reise",
+     "text": "Konteineris įvedamas taip pat, kaip konteinervežiui; darbas su kranu pažymimas suvestinėje.",
+     "image": ""
+    },
+    {
+     "id": "exchange",
+     "title": "Keitimas",
+     "text": "Šoninis krautuvas dažnai keičia konteinerius taške — naudokite „Konteinerių keitimas“.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "refrigerated",
+   "title": "Refrižeratorius",
+   "intro": "Refrižeratorius veža krovinį su temperatūros kontrole.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaže",
+     "text": "Kėbulas „Refrižeratorius“; pažymėkite generatorių, jei jis įrengtas, nurodykite agregato baką ir kritinį likutį.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reise",
+     "text": "Temperatūros kontrolė: kontroliuojama arba be kontrolės; krovinio temperatūra. Vairavimo ekrane — jungiklis „Agregatas veikia“.",
+     "image": ""
+    },
+    {
+     "id": "fuel",
+     "title": "Agregato degalai",
+     "text": "Agregato dyzelinas pildymo metu įrašomas atskirame lauke; programa skaičiuoja motovalandas bei sąnaudas litrais per valandą ir rodo „≈ N h iki rezervo“.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "curtainsider",
+   "title": "Tentas",
+   "intro": "Tentinė priekaba veža vienetinį krovinį ant padėklų.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaže",
+     "text": "Kėbulas „Tentas“.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reise",
+     "text": "Vienetinis krovinys: padėklų skaičius, bendras svoris, aprašymas.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Iškrovimas",
+     "text": "Kiekviename taške pažymėkite, kiek padėklų iškrauta; programa atsimena likutį mašinoje.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tipper",
+   "title": "Savivartis",
+   "intro": "Savivartis veža birų krovinį.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaže",
+     "text": "Kėbulas „Savivartis“.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reise",
+     "text": "Birus krovinys: tūris kubiniais metrais, neto ir bruto svoris, aprašymas.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Iškrovimas",
+     "text": "Iškrovimas pažymimas laiku; krovos darbų laikmatis rodo, kiek jis truko.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fuel-tanker",
+   "title": "Cisterna",
+   "intro": "Degalų cisterna veža degalus sekcijomis.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaže",
+     "text": "Kėbulas „Cisterna“; sekcijų skaičius ir kiekvienos tūris litrais.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reise",
+     "text": "Krovinio duomenyse — kiekvienos sekcijos tūris.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Iškrovimas",
+     "text": "Taške pažymėkite iškrautas sekcijas. Jei baigiant reisą liko neiškrautų sekcijų, programa paprašys patvirtinti.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tanker",
+   "title": "Cisterna",
+   "intro": "Cisterna veža skystus krovinius.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaže",
+     "text": "Kėbulas „Cisterna“; sekcijos ir tūriai.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reise",
+     "text": "Skysčio kategorija: chemikalai, maistiniai, atliekos; su temperatūros kontrole; ADR su UN numeriais pavojingiems kroviniams.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Iškrovimas",
+     "text": "Sekcijos taškuose iškraunamos taip pat, kaip ir degalų cisternos.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "car-transporter",
+   "title": "Autovežis",
+   "intro": "Autovežis veža lengvuosius automobilius.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaže",
+     "text": "Kėbulas „Autovežis“; automobilių vietų skaičius.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reise",
+     "text": "Automobiliai įvedami pagal VIN (17 simbolių, be I, O, Q) arba pagal valst. numerį; VIN galima nuskaityti kamera. Skaitiklis rodo, kiek pakrauta.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Iškrovimas",
+     "text": "Taške pažymėkite, kurie automobiliai iškrauti ir kurie pakrauti. Jei baigiant reisą automobilių liko mašinoje, programa paprašys patvirtinti.",
+     "image": ""
+    }
+   ]
+  }
+ ],
+ "screens": {
+  "getting-started.welcome": "Pirmas paleidimas: vardas, vilkikas, priekaba ir leidimai. Jei turite atsarginę kopiją — galite atkurti visą žurnalą.",
+  "getting-started.onboarding": "Atsakykite į klausimus apie save ir mašiną. Viską vėliau galima pakeisti nustatymuose ir garaže.",
+  "getting-started.main-screen": "Pagrindinis ekranas rodo dabartinę darbo eigą ir veda į kitą žingsnį: pamaina, reisas, iškrovimas.",
+  "getting-started.menu": "Programos meniu: garažas, istorija, ataskaitos, pildymai, priežiūra, dokumentai, adresai, pagalba ir nustatymai.",
+  "shift.shift-welcome": "Pamainos pradžia: vieta, reiso laukimas ir mygtukas „Pradėti reisą“.",
+  "shift.shift-status": "Ar pamaina atidaryta, nuo kurio laiko ir kiek joje reisų.",
+  "trip.origin": "Klientas ir adresas, iš kur arba į kur važiuojate. Naujas klientas pats pateks į adresų knygą.",
+  "trip.cargo-type": "Ką vežate. Sąrašas priklauso nuo vilkiko ir priekabos kėbulo.",
+  "trip.cargo-details": "Krovinio duomenys: konteinerių ir plombų numeriai, sekcijos, automobiliai, padėklai. Numerius galima nuskaityti kamera.",
+  "trip.load-details": "Krovinio matmenys, svoris ir aprašymas.",
+  "trip.trip-times": "Jau įrašyto reiso laikų, adresų ir odometrų taisymas.",
+  "trip.confirm": "Reiso suvestinė. Patikrinkite ir paspauskite „Į kelią“ — tik tada reisas bus įrašytas.",
+  "trip.arrival": "Esate vietoje: atvykimas, iškrovimo arba krovimo pradžia ir pabaiga.",
+  "trip.unload": "Kas iškrauta šiame taške: sekcijos, procentas, padėklai ar automobiliai.",
+  "trip.cargo-fate": "Kas toliau su konteineriu po iškrovimo.",
+  "trip.summary": "Reiso suvestinė: kita stotelė, užbaigimas arba naujas reisas.",
+  "driving.driving": "Reisas vyksta: atvykimas, pildymas, stovėjimas. Po mašina — apytikslis likutis iki degalų rezervo.",
+  "driving.odometer": "Odometro rodmuo. Programa įrašys tikėtiną ir patikrins skaičių; galima nuskaityti kamera.",
+  "driving.swap-trailer": "Priekabos keitimas kelyje: pasirinkite priekabą iš garažo.",
+  "refuel.refuel-timer": "Vyksta degalų pylimas: laikmatis. Baigus — litrų įvedimas.",
+  "refuel.refuel-data": "Dyzelino, AdBlue ir priekabos agregato litrai, odometras. Išsaugoma vienu įrašu.",
+  "refuel.refuel-history": "Visi pildymai per laikotarpį, vidutinės sąnaudos ir PDF ataskaita.",
+  "parking.parking-stop": "Stovėjimo adresas: ranka, iš išsaugotų vietų arba pagal GPS.",
+  "parking.places": "Jūsų vietos: aikštelės, uostai, depai. Pasirenkamos sustojus stovėti ir grąžinant konteinerį.",
+  "parking.place-form": "Vietos pavadinimas, pastaba ir koordinatė; atidarymas navigacijoje.",
+  "camera.scan": "Nukreipkite numerį į rėmelį. Dviem pirštais suspauskite rėmelį prie numerio; bakstelėjimas už rėmelio — nuotrauka.",
+  "camera.container-exchange": "Konteinerių keitimas su kitu vairuotoju: ką atidavėte, ką paėmėte.",
+  "camera.photos": "Reiso dokumentų nuotraukos per visą ekraną.",
+  "history.history": "Visos pamainos ir reisai: paieška, išsami informacija, taisymas ir ištrynimas.",
+  "report.report": "Laikotarpio sumos ir PDF ataskaita.",
+  "garage.garage": "Jūsų vilkikai ir priekabos. Paspauskite ant mašinos, kad atidarytumėte jos valdymą.",
+  "garage.truck-form": "Vilkiko valst. numeris, tipas ir kėbulas; kranas arba manipuliatorius.",
+  "garage.trailer-form": "Priekabos valst. numeris, sukabinimas ir kėbulas; sekcijos, vietos automobiliams, generatorius.",
+  "garage.vehicle-hub": "Viskas apie mašiną: dokumentai, priežiūra, techninė apžiūra, ašys ir padangos, ženklas, dažymas.",
+  "garage.vehicle-settings": "Odometras, aptarnavimo intervalai, ašys, bakas ir kritinis likutis.",
+  "garage.plate-colors": "Valstybinio numerio ženklo spalvos, kaip ant mašinos.",
+  "garage.rig-paint": "Kabinos, krano ir kėbulo spalvos mašinos piešinyje.",
+  "garage.tyres": "Ašių schema ir padangų istorija: keitimai, pradūrimai, perkėlimai.",
+  "documents.overview": "Visi mašinų ir vairuotojo dokumentai su terminais.",
+  "documents.list": "Šios mašinos dokumentai. „+“ — pridėti.",
+  "documents.form": "Dokumento tipas, pavadinimas ir galiojimo terminas.",
+  "documents.pages": "Dokumento puslapių nuotraukos.",
+  "maintenance.maintenance": "Kiek liko iki aptarnavimo ir priežiūros įrašai.",
+  "maintenance.new-record": "Naujas aptarnavimo įrašas: odometras, data, darbai, nuotraukos.",
+  "address-book.book": "Klientai ir jūsų vietos.",
+  "address-book.clients": "Klientų sąrašas: pridėti, paslėpti, ištrinti.",
+  "address-book.client": "Kliento pavadinimas, pastaba ir adresai.",
+  "address-book.add-address": "Adresas, koordinatė, navigacija ir raudona žymė.",
+  "backup.backup": "Failas su visu žurnalu: išsaugoti, išsiųsti arba atkurti.",
+  "online.device-link": "Telefono prijungimas prie programos internete: QR kodas arba kodas iš ekrano.",
+  "settings.settings": "Visi nustatymai pagal grupes.",
+  "settings.profile": "Vairuotojo vardas ir jo dokumentai.",
+  "settings.language": "Programos kalba, GPS adresų kalba, datos formatas.",
+  "settings.theme": "Šviesi, tamsi arba automatinis; šablonai ir pasirinktinės temos.",
+  "settings.theme-custom": "Pasirinktinės temos spalvos.",
+  "settings.about": "Programos versija ir ryšys su kūrėju.",
+  "settings.feedback": "Pranešti apie klaidą arba pasiūlyti idėją.",
+  "settings.help": "Programos vadovas pagal skyrius.",
+  "diagnostics.enroll": "Sutikimas ir telefono registracija diagnostikos kanale.",
+  "diagnostics.warning": "Įėjimas į aptarnavimo dalį.",
+  "diagnostics.channel-settings": "Ką telefonas siunčia kūrėjui: trys atskiri sutikimai.",
+  "diagnostics.server": "Diagnostikos kanalo ryšio būsena.",
+  "diagnostics.import": "Kanalo ryšulio įdiegimas .p12 failu.",
+  "service.hub": "Aptarnavimo centras: duomenys ir aptarnavimo ekranai.",
+  "service.database": "Duomenų bazės būsena ir pilnas programos atstatymas.",
+  "service.logs": "Programos veikimo žurnalai.",
+  "service.ocr": "Numerių atpažinimo diagnostika.",
+  "service.system": "Duomenys apie telefoną ir strigimus.",
+  "service.locale": "Kalbų patikra ir pakartotinis pirmas paleidimas.",
+  "service.dataset": "Kadrų fotografavimas atpažinimui.",
+  "service.splash-tuner": "Pradinio ekrano nustatymas."
+ }
+}

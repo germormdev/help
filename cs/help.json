@@ -1,0 +1,978 @@
+{
+ "format": 1,
+ "language": "cs",
+ "revision": "2026-10-26",
+ "sections": [
+  {
+   "slug": "getting-started",
+   "title": "První kroky",
+   "intro": "VecturaBook je kniha jízd řidiče: směny, jízdy, tankování, parkování, doklady a vozidla v jednom telefonu. Vše je uloženo v telefonu a funguje i bez internetu.",
+   "steps": [
+    {
+     "id": "welcome",
+     "title": "První spuštění",
+     "text": "Při prvním spuštění vám aplikace položí několik otázek ve čtyřech krátkých krocích. Zvládnete je za minutu a vše pak můžete kdykoli upravit v nastavení a v garáži.\n\nPokud už máte zálohu VecturaBook (například z předchozího telefonu), klepněte v prvním kroku na „Obnovit ze zálohy“: deník se obnoví celý a otázky nebudou potřeba.",
+     "image": "img/cs/getting-started-welcome.png"
+    },
+    {
+     "id": "onboarding",
+     "title": "Jméno, tahač, návěs, oprávnění",
+     "text": "Krok 1 — jméno. Tiskne se ve výkazech. Můžete ho nechat prázdné a doplnit později.\n\nKrok 2 — tahač nebo nákladní auto: SPZ, typ a nástavba. Typ a nástavba se vybírají pomocí obrázků v řadě otázek: po každé odpovědi aplikace ukáže další otázku.\n\nKrok 3 — návěs. Můžete ho přeskočit tlačítkem „Přeskočit návěs“ a přidat později v garáži.\n\nKrok 4 — oprávnění: kamera (čísla kontejnerů, plomby, tachometr), poloha (město na začátku směny, jen když o ni požádáte) a oznámení (časovače čekání, tankování a vykládky). Kterékoli můžete odmítnout — aplikace bude fungovat dál, jen bez této funkce.",
+     "image": "img/cs/getting-started-onboarding.png"
+    },
+    {
+     "id": "main-screen",
+     "title": "Hlavní obrazovka",
+     "text": "Hlavní obrazovka ukazuje, kde se právě v práci nacházíte: směna nezačala, směna běží, jízda probíhá, jste na místě vykládky a podobně. Tlačítka na ní vždy vedou k dalšímu kroku, takže nemůžete nic vynechat.\n\nNahoře je lišta s tlačítkem nabídky vlevo a tlačítkem „?“ vpravo. Tlačítko „?“ je na každé obrazovce: krátce obrazovku vysvětlí a po klepnutí na „Více“ otevře příslušnou část této příručky.",
+     "image": "img/cs/getting-started-main-screen.png"
+    },
+    {
+     "id": "menu",
+     "title": "Nabídka",
+     "text": "Tlačítko se třemi čárkami otevře dlaždicovou nabídku: Můj park, Historie jízd, Report, Deník tankování, Údržba, Dokumenty vozidla, Adresář, Nápověda. Dole je Nastavení.\n\nNa jakékoli jiné obrazovce je na místě tlačítka nabídky šipka zpět.",
+     "image": "img/cs/getting-started-menu.png"
+    },
+    {
+     "id": "help-offline",
+     "title": "Nápověda bez internetu",
+     "text": "Texty této příručky si aplikace stahuje ve svém jazyce a ukládá u sebe, takže „?“ a „Nápověda“ fungují na cestách i bez signálu. Jednou denně, když je k dispozici internet, aplikace na pozadí zkontroluje, zda nevyšla aktualizace.\n\nPokud se nápověda ještě nikdy nestáhla, aplikace vás požádá o připojení k internetu.",
+     "image": "img/cs/getting-started-help-offline.png"
+    }
+   ]
+  },
+  {
+   "slug": "shift",
+   "title": "Směna",
+   "intro": "Směna je pracovní den od začátku do konce. Během směny probíhají jízdy, tankování a parkování; souhrny směny se ukládají do historie a výkazů.",
+   "steps": [
+    {
+     "id": "shift-welcome",
+     "title": "Začít směnu",
+     "text": "Klepněte na „Začít směnu“. Aplikace vás pozdraví a ukáže, kde jste: město se zjistí podle polohy, pokud jste ji povolili, jinak klepněte na řádek se špendlíkem a zadejte místo ručně.\n\nPokud ještě nemáte jízdu, klepněte na „Čekání na jízdu“ — spustí se časovač čekání. Tlačítko „Zastavit čekání“ ho zastaví. Čekání před jízdou se zapíše do historie a výkazu.\n\nKdyž máte jízdu, klepněte na „Začít jízdu“.",
+     "image": "img/cs/shift-shift-welcome.png"
+    },
+    {
+     "id": "shift-status",
+     "title": "Stav směny",
+     "text": "Obrazovka „Směna“ ukazuje, zda je směna otevřená, kdy začala a kolik je v ní jízd. Tlačítko „Pokračovat ve směně“ vás vrátí k práci.\n\nSměnu nelze uzavřít, dokud není ukončena jízda: nejprve ukončete jízdu.",
+     "image": "img/cs/shift-shift-status.png"
+    },
+    {
+     "id": "end-shift",
+     "title": "Ukončit směnu",
+     "text": "Červené tlačítko „Ukončit směnu“ je jediné červené tlačítko v aplikaci. Aplikace se pro jistotu zeptá a vyžádá si konečný stav tachometru. Číslo se kontroluje: pokud je nižší než předchozí nebo výrazně vyšší, než se očekává, aplikace ukáže poslední známý stav a požádá vás o potvrzení nebo opravu.",
+     "image": ""
+    },
+    {
+     "id": "forgotten-shift",
+     "title": "Zapomenutá směna",
+     "text": "Pokud je směna otevřená déle než den, aplikace nabídne její uzavření časem poslední události — pracovní čas ve výkazu tak zbytečně nenaroste. Můžete souhlasit, nebo ve směně pokračovat.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "trip",
+   "title": "Jízda: od nakládky po vykládku",
+   "intro": "Jízda se zapisuje po krocích: odkud a kam, co vezete, detaily nákladu, souhrn — a „Na cestu“. V cíli pak příjezd, vykládka nebo nakládka a souhrn. Dokud neklepnete na „Na cestu“, v deníku není nic zapsáno: v kterémkoli kroku se můžete vrátit tlačítkem „Zpět“ a zadané údaje se neztratí.",
+   "steps": [
+    {
+     "id": "origin",
+     "title": "Klient a trasa",
+     "text": "Vyberte klienta: začněte psát jméno a aplikace vám napoví z adresáře. Nového klienta stačí napsat: sám se uloží do adresáře.\n\nKlient může mít více adres — vyberte potřebnou nebo přidejte novou. Ikona GPS doplní adresu podle aktuální polohy. Poznámky řidiče ke klientovi vidíte přímo zde.",
+     "image": "img/cs/trip-origin.png"
+    },
+    {
+     "id": "cargo-type",
+     "title": "Co vezete",
+     "text": "Typ nákladu se vybírá pomocí dlaždic: kontejner, obecný náklad, nadrozměrný, chladírna, palivo, sypký, vozidla, prázdný. Nabídka závisí na nástavbě tahače a návěsu.\n\nPokud změníte typ nákladu poté, co jste už zadali detaily, aplikace vás upozorní, že zadané údaje budou smazány, a požádá o potvrzení.",
+     "image": "img/cs/trip-cargo-type.png"
+    },
+    {
+     "id": "cargo-details",
+     "title": "Detaily nákladu",
+     "text": "Detaily závisejí na typu nákladu. U kontejneru: prázdný nebo naložený, velikost, kolik kontejnerů, typ, číslo kontejneru a plomby. Čísla můžete vyfotit kamerou. U cisteren: komory a objemy, u autotransportéru: vozidla podle VIN nebo SPZ, u obecného nákladu: palety a hmotnost.\n\nPokud pro jízdu nejsou detaily potřeba (například jedete prázdný), jednoduše klepněte na „Další“.\n\nPřepínač ADR otevře pole pro čísla UN u nebezpečného nákladu.",
+     "image": "img/cs/trip-cargo-details.png"
+    },
+    {
+     "id": "load-details",
+     "title": "Parametry nákladu",
+     "text": "U nadrozměrného nákladu a kontejnerů na plošině: délka, šířka, výška, hmotnost a popis. Rozměry se uvádějí v jednotkách zvolených v nastavení.",
+     "image": "img/cs/trip-load-details.png"
+    },
+    {
+     "id": "trip-times",
+     "title": "Časy a body jízdy",
+     "text": "Tato obrazovka se zobrazí pouze při úpravě již zapsané jízdy z historie. Zde můžete upravit čas odjezdu, příjezdu, zahájení a ukončení manipulace s nákladem, adresy a stavy tachometru v jednotlivých bodech.\n\nČas, který v jízdě nebyl, je zobrazen pomlčkou a nelze ho upravit: úprava do jízdy nepřidává události, které se nestaly.",
+     "image": ""
+    },
+    {
+     "id": "confirm",
+     "title": "Souhrn jízdy",
+     "text": "Souhrn ukazuje celou jízdu na jedné obrazovce. Zde jsou také příznaky: spánek v kabině, vojenská mise, nebezpečná zóna, řízená teplota, práce s jeřábem (pokud má tahač jeřáb).\n\nTlačítko „Upravit“ vás vrátí k jednotlivým krokům. Zelené tlačítko „Na cestu“ jízdu uloží a spustí. Pokud máte v telefonu navigaci, aplikace nabídne otevření adresy v ní.",
+     "image": "img/cs/trip-confirm.png"
+    },
+    {
+     "id": "arrival",
+     "title": "Příjezd",
+     "text": "Na místě klepněte na „Dorazil jsem“. Aplikace si zapamatuje čas a nabídne stav tachometru.\n\n„Začít vykládku/nakládku“ spustí časovač manipulace s nákladem, „Zastavit vykládku/nakládku“ ho zastaví. Pokud se něco neuložilo (například telefon zamrzl), aplikace vám to oznámí a požádá o повторné klepnutí — do deníku se nic nezapíše jen napůl.",
+     "image": "img/cs/trip-arrival.png"
+    },
+    {
+     "id": "unload",
+     "title": "Vykládka v tomto bodě",
+     "text": "Pokud náklad odevzdáváte po částech, označte, co bylo vyloženo v tomto bodě: komory cisterny, procento kontejneru, palety nebo konkrétní vozidla z autotransportéru. Aplikace si pamatuje, kolik na palubě zbývá, a nedovolí vyložit více, než vezete.",
+     "image": ""
+    },
+    {
+     "id": "cargo-fate",
+     "title": "Co se stalo s kontejnerem",
+     "text": "Po vykládce se aplikace zeptá, co bude dál s kontejnerem: zůstal tady, zůstal na autě, jede k jinému klientovi, vrací se na místo (přístav, depo) nebo na jinou adresu. Odpověď určí další krok jízdy.",
+     "image": "img/cs/trip-cargo-fate.png"
+    },
+    {
+     "id": "summary",
+     "title": "Souhrn jízdy",
+     "text": "Po dokončení bodu: „Pokračovat v jízdě“ (další zastávka téže jízdy), „Ukončit jízdu“ nebo „Nová jízda“.\n\n„Vyplnit další jízdu“ umožňuje předem, už během vykládky, zadat následující jízdu — klienta, náklad, čísla. Tlačítko „Ukončit a jet“ ji pak rovnou spustí.",
+     "image": "img/cs/trip-summary.png"
+    }
+   ]
+  },
+  {
+   "slug": "driving",
+   "title": "Obrazovka jízdy",
+   "intro": "Dokud jízda probíhá, hlavní obrazovkou je „Probíhá“: vozidlo jízdy, SPZ tahače a návěsu, doba jízdy a tlačítka dalších akcí.",
+   "steps": [
+    {
+     "id": "driving",
+     "title": "Probíhá",
+     "text": "Tlačítka na obrazovce: „Dorazil jsem“ (jste v cíli), „Tankování“, „Parkování / Zastávka“. Nad tlačítky je obrázek vaší soupravy s jejími SPZ; obrázek je složen z toho, co máte nastaveno v garáži: typ, nástavba, nápravy, barvy.\n\nPokud je v garáži zadán objem nádrže a vaše kritická rezerva, pod vozidlem vidíte, kolik přibližně zbývá do rezervy: „≈ N km do rezervy“ pro naftu tahače a „≈ N h do rezervy“ pro agregát návěsu (chladírna, genset). Výpočet vychází z vašich tankování a nájezdu, takže hned po prvním tankování se ještě nemusí zobrazit.",
+     "image": "img/cs/driving-driving.png"
+    },
+    {
+     "id": "swap-trailer",
+     "title": "Výměna návěsu",
+     "text": "Pro výměnu návěsu během jízdy klepněte na „Vyměnit návěs“. V okně uvidíte návěsy z garáže: obrázek návěsu a pod ním SPZ. Vyberte nový — výměna se zapíše do jízdy. Návěsy nekompatibilní s tahačem se v seznamu nenabízejí.",
+     "image": "img/cs/driving-swap-trailer.png"
+    },
+    {
+     "id": "odometer",
+     "title": "Tachometr",
+     "text": "Aplikace předvyplní očekávaný stav: z vozidla, z nakládky, z minulé vykládky nebo z tankování. Zkontrolujte ho a v případě potřeby opravte. Tachometr můžete vyfotit kamerou.\n\nPokud je číslo nižší než předchozí, výrazně vyšší než očekávané, nebo jste ho nezměnili, aplikace ukáže poslední známý stav a zeptá se, zda je vše správně. Úprava tachometru v minulé jízdě ukáže, které další záznamy tím budou ovlivněny.",
+     "image": "img/cs/driving-odometer.png"
+    }
+   ]
+  },
+  {
+   "slug": "refuel",
+   "title": "Tankování, AdBlue, agregát",
+   "intro": "Záznamy o tankování slouží k výpočtu spotřeby paliva, pro výkazy a pro odhad „do rezervy“.",
+   "steps": [
+    {
+     "id": "refuel-timer",
+     "title": "Časovač tankování",
+     "text": "Tlačítko „Tankování“ na obrazovce jízdy spustí časovač — doba tankování se zapíše do deníku. „Ukončit tankování“ časovač zastaví a otevře zadávání litrů. Časovač běží i v liště oznámení, pokud je aplikace minimalizovaná.",
+     "image": "img/cs/refuel-refuel-timer.png"
+    },
+    {
+     "id": "refuel-data",
+     "title": "Litry a tachometr",
+     "text": "Zadejte naftu v litrech, případně AdBlue a naftu do agregátu návěsu (chladírna, genset). Stav tachometru je předvyplněn; můžete ho vyfotit kamerou. „Uložit tankování“ vše uloží jako jeden záznam.",
+     "image": "img/cs/refuel-refuel-data.png"
+    },
+    {
+     "id": "unit",
+     "title": "Agregát návěsu",
+     "text": "Pokud je na návěsu generátor, zaškrtněte to v nastavení návěsu. Na obrazovce jízdy pak přibude přepínač „Agregát běží“, aplikace bude počítat motohodiny agregátu a jeho spotřebu v litrech za hodinu a při tankování se zobrazí pole pro naftu agregátu.",
+     "image": ""
+    },
+    {
+     "id": "refuel-history",
+     "title": "Deník tankování",
+     "text": "Deník ukazuje všechna tankování za týden, měsíc, celou dobu nebo vybrané období: celkové palivo, počet tankování a průměrnou spotřebu. Podíl AdBlue vůči naftě a spotřeba agregátu se počítají zvlášť.\n\n„Vygenerovat report PDF“ vytvoří výkaz tankování, který můžete odeslat. Tankování lze také smazat.",
+     "image": "img/cs/refuel-refuel-history.png"
+    }
+   ]
+  },
+  {
+   "slug": "parking",
+   "title": "Parkování a odpočinek",
+   "intro": "Parkování je zastávka na cestě: odpočinek, nocleh, čekání. Zapisuje se do jízdy s vlastní adresou a časem.",
+   "steps": [
+    {
+     "id": "parking-stop",
+     "title": "Parkování / Zastávka",
+     "text": "Na obrazovce jízdy klepněte na „Parkování / Zastávka“. Adresu můžete zadat ručně, vybrat z uložených míst nebo klepnout na ikonu GPS. Pokud se adresu nepodaří určit, aplikace doplní souřadnice — můžete je upravit.\n\nNoci v kabině se započítávají v historii i ve výkazu.",
+     "image": "img/cs/parking-parking-stop.png"
+    },
+    {
+     "id": "places",
+     "title": "Místa",
+     "text": "Místa jsou vaše vlastní body, které nejsou vázané na klienty: parkoviště, přístavy, depa, čerpací stanice. V seznamu lze vyhledávat podle názvu. Místa se vybírají při parkování a při vracení kontejneru.",
+     "image": ""
+    },
+    {
+     "id": "place-form",
+     "title": "Místo",
+     "text": "Název, poznámka a souřadnice. Souřadnici můžete uložit podle aktuální polohy, přepsat nebo smazat. Tlačítka „Otevřít v navigaci“ a „Odeslat“ předají bod do navigace nebo do zprávy.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "camera",
+   "title": "Kamera: kontejnery a plomby",
+   "intro": "Kamera čte čísla kontejnerů, plomb, VIN a stav tachometru, abyste je nemuseli vypisovat ručně.",
+   "steps": [
+    {
+     "id": "scan",
+     "title": "Rámeček kamery",
+     "text": "Zaměřte číslo do rámečku. Stáhněte rámeček dvěma prsty těsně k číslu — lépe se pak přečte. „Otočit rámeček“ slouží pro čísla napsaná svisle. Klepnutím mimo rámeček pořídíte snímek.",
+     "image": ""
+    },
+    {
+     "id": "container-number",
+     "title": "Číslo kontejneru",
+     "text": "Číslo kontejneru má 4 písmena a 7 číslic. Aplikace kontroluje kontrolní číslici; pokud číslo nesedí, uloží se s poznámkou „Číslo není ověřeno“ — zkontrolujte ho očima.",
+     "image": ""
+    },
+    {
+     "id": "seal",
+     "title": "Plomba",
+     "text": "Číslo plomby se čte z nápisu. Pokud je na plombě čárový kód a neshoduje se s vytištěným číslem, aplikace použije vytištěné číslo: čárový kód bývá z jiné řady.",
+     "image": ""
+    },
+    {
+     "id": "container-exchange",
+     "title": "Výměna kontejnerů",
+     "text": "Pokud v cíli předáváte kontejner jinému řidiči a přebíráte jeho kontejner, zapište výměnu: který kontejner byl vyložen, který naložen, jméno řidiče a SPZ jeho tahače.",
+     "image": ""
+    },
+    {
+     "id": "photos",
+     "title": "Fotografie",
+     "text": "K jízdě můžete přiložit fotky dokumentů při nakládce a vykládce pomocí „Foto dokumentů“. Tlačítko „ZOBRAZIT FOTA“ je otevře na celou obrazovku.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "history",
+   "title": "Historie jízd a úpravy",
+   "intro": "V historii najdete všechny směny a jízdy. Zde si je můžete prohlížet, vyhledávat, upravovat a mazat.",
+   "steps": [
+    {
+     "id": "history",
+     "title": "Historie",
+     "text": "Jízdy jsou seskupené podle směn: začátek a konec směny, čas, vzdálenost, počet jízd. Klepněte na jízdu a otevřou se podrobnosti: klient, náklad, body, stavy tachometru, čekání, fotky. Vyhledávat lze podle klienta, kontejneru nebo trasy. „Všechny jízdy“ je zobrazí v jednom společném seznamu.",
+     "image": "img/cs/history-history.png"
+    },
+    {
+     "id": "edit",
+     "title": "Úprava jízdy",
+     "text": "Tlačítko „Upravit“ otevře stejné kroky jako při vytváření jízdy a navíc obrazovku časů a bodů. Úpravy se shromáždí a uloží až na obrazovce souhrnu.\n\nPokud úprava tachometru ovlivní další záznamy (následující jízdu, stav vozidla, kilometry směny), aplikace vám je před uložením ukáže.",
+     "image": ""
+    },
+    {
+     "id": "delete",
+     "title": "Mazání",
+     "text": "Jednu jízdu smažete tlačítkem koše; více jízd pomocí režimu výběru. Aktivní jízdu smazat nelze — nejprve ji dokončete. Pokud je telefon připojen k programu online, smazání se projeví i na ostatních zařízeních.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "report",
+   "title": "Výkaz a PDF",
+   "intro": "Výkaz spočítá práci za zvolené období: jízdy, vzdálenost, pracovní čas, čekání, palivo a spotřebu.",
+   "steps": [
+    {
+     "id": "report",
+     "title": "Report za období",
+     "text": "Vyberte období: dnes, týden, měsíc nebo vlastní data. Karty ukážou souhrnné výsledky. „Exportovat report“ vytvoří PDF se směnami, jízdami, body a tankováním, které můžete odeslat nebo vytisknout.",
+     "image": "img/cs/report-report.png"
+    },
+    {
+     "id": "pdf",
+     "title": "Co je v PDF",
+     "text": "V PDF je u každé směny začátek a konec, tahač a návěs, jízdy s klienty, nákladem, časy vykládky a čekání, stavy tachometru a tankování. Na konci je souhrn za období: směny, jízdy, tankování, celková vzdálenost, celkový čas, celkové palivo, průměrná vzdálenost na směnu a průměrná spotřeba.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "garage",
+   "title": "Garáž: tahače a návěsy",
+   "intro": "V garáži máte uložená svá vozidla. Berou se z ní obrázky vozidel, SPZ, kompatibilita návěsů, stavy tachometru a všechna nastavení vozidla.",
+   "steps": [
+    {
+     "id": "garage",
+     "title": "Můj park",
+     "text": "Dvě záložky: Tahače a Návěsy. Aktivní vozidlo je zvýrazněné. Tlačítka „+ Přidat tahač“ a „+ Přidat návěs“ založí nové vozidlo. Klepnutím na vozidlo otevřete jeho správu.\n\nDokud probíhá jízda, vozidlo měnit nelze — nejprve jízdu ukončete (návěs lze během jízdy vyměnit pomocí „Vyměnit návěs“).",
+     "image": "img/cs/garage-garage.png"
+    },
+    {
+     "id": "truck-form",
+     "title": "Tahač",
+     "text": "SPZ, typ (tahač nebo sólo) a nástavba — vybírá se řadou otázek s obrázky; dále zda má jeřáb nebo manipulátor. Dvě stejné SPZ v garáži být nemohou.",
+     "image": ""
+    },
+    {
+     "id": "trailer-form",
+     "title": "Návěs",
+     "text": "SPZ, zapojení (návěs nebo přívěs) a nástavba. U cisterny počet komor a objem každé z nich, u autotransportéru počet míst pro vozidla, u chladírny zda je osazen generátor.",
+     "image": ""
+    },
+    {
+     "id": "vehicle-hub",
+     "title": "Správa vozidla",
+     "text": "Obrazovka vozidla soustřeďuje vše na jednom místě: registrace, dokumenty, údržba, technická kontrola, nápravy a pneumatiky, registrační značka, barva. Tlačítko „Nastavit jako aktivní“ vybere vozidlo pro práci.",
+     "image": "img/cs/garage-vehicle-hub.png"
+    },
+    {
+     "id": "vehicle-settings",
+     "title": "Nastavení vozidla",
+     "text": "Aktuální stav tachometru, interval servisu (kilometry, měsíce, prahy upozornění), výchozí bod pro výpočet servisu, nápravy, objem nádrže a vlastní kritická rezerva (pro odhad „do rezervy“). U návěsu s agregátem také nádrž agregátu a její kritická rezerva.",
+     "image": "img/cs/garage-vehicle-settings.png"
+    },
+    {
+     "id": "plate-colors",
+     "title": "Registrační značka",
+     "text": "Barva pozadí značky a barva čísla — přesně jako na vašem autě. Pokud je kombinace špatně čitelná, číslo se zobrazí černě nebo bíle.",
+     "image": "img/cs/garage-plate-colors.png"
+    },
+    {
+     "id": "rig-paint",
+     "title": "Barva",
+     "text": "Barva kabiny, jeřábu a nástavby na obrázku vozidla. Tlačítko „Jako na obrázku“ vrátí původní barvu.",
+     "image": "img/cs/garage-rig-paint.png"
+    },
+    {
+     "id": "tyres",
+     "title": "Nápravy a pneumatiky",
+     "text": "Schéma náprav se vykreslí samo podle počtu náprav; každou nápravu lze přepnout na jednoduchou nebo dvojmontáž. Klepněte na pneumatiku: výměna, defekt, přehození nebo něco jiného — záznam se uloží do historie. Statistika ukazuje průměrný nájezd mezi výměnami a nejčastější místo. Návěs má vlastní nájezd, který můžete zadat.",
+     "image": "img/cs/garage-tyres.png"
+    }
+   ]
+  },
+  {
+   "slug": "documents",
+   "title": "Doklady a lhůty",
+   "intro": "Dokumenty vozidla a řidiče s fotografiemi stran a daty platnosti. Aplikace vás na blížící se konec platnosti včas upozorní.",
+   "steps": [
+    {
+     "id": "overview",
+     "title": "Všechny dokumenty",
+     "text": "Přehled ukazuje dokumenty všech vozidel i řidiče v jednom seznamu s platností: kolik dní zbývá nebo že dokument „vypršel“.",
+     "image": "img/cs/documents-overview.png"
+    },
+    {
+     "id": "list",
+     "title": "Dokumenty vozidla",
+     "text": "Každé vozidlo má svůj seznam: technický průkaz, pojištění, technická kontrola a vlastní dokumenty. Tlačítkem „+“ přidáte dokument.",
+     "image": "img/cs/documents-list.png"
+    },
+    {
+     "id": "form",
+     "title": "Dokument",
+     "text": "Vyberte typ nebo „Vlastní dokument…“ a zadejte název (například povolení ADR). „Platné do“ je datum, podle kterého chodí připomínky. U technické kontroly je i datum absolvování.",
+     "image": ""
+    },
+    {
+     "id": "pages",
+     "title": "Strany",
+     "text": "Vyfoťte strany dokumentu kamerou. Strany lze otevřít na celou obrazovku, listovat jimi a jednotlivě je mazat.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Připomínky platnosti",
+     "text": "Před koncem platnosti aplikace pošle oznámení a při spuštění ukáže okno „Platnost dokladů“. Tlačítko „Rozumím“ okno skryje do dalšího prahu upozornění. Doklady řidiče (řidičský průkaz, cestovní pas, certifikát ADR) najdete v nastavení profilu.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "maintenance",
+   "title": "Servis a pneumatiky",
+   "intro": "Údržba: servisní záznamy, intervaly a připomínky, když nastane čas servisu.",
+   "steps": [
+    {
+     "id": "maintenance",
+     "title": "Údržba",
+     "text": "Nahoře vidíte, kolik zbývá do dalšího servisu v kilometrech nebo dnech, případně o kolik je servis zpožděn. Níže jsou servisní záznamy. Intervaly a výchozí bod se nastavují v nastavení vozidla.",
+     "image": "img/cs/maintenance-maintenance.png"
+    },
+    {
+     "id": "new-record",
+     "title": "Servisní záznam",
+     "text": "Tlačítko „Zaznamenat servis“ otevře nový záznam: stav tachometru, datum, co bylo provedeno a fotografie. Stav tachometru při servisu nesmí být vyšší než aktuální.",
+     "image": ""
+    },
+    {
+     "id": "tyres",
+     "title": "Pneumatiky",
+     "text": "Pneumatiky se vedou na schématu náprav — v části „Garáž: tahače a návěsy“, krok „Nápravy a pneumatiky“.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "address-book",
+   "title": "Adresář a zákazníci",
+   "intro": "Klienti, jejich adresy a vaše vlastní místa. Adresář se doplňuje sám, když do jízdy zapíšete nového klienta.",
+   "steps": [
+    {
+     "id": "book",
+     "title": "Adresář",
+     "text": "Záložka „Klienti“ obsahuje klienty s adresami; záložka míst vaše vlastní body. Skrytí klienti se při výběru nenabízejí; „Zobrazit skryté“ je vrátí do seznamu.",
+     "image": "img/cs/address-book-book.png"
+    },
+    {
+     "id": "clients",
+     "title": "Klienti",
+     "text": "Tlačítko „Nový klient“ přidá klienta. Klienta, který už má jízdy, smazat nelze — můžete ho ale odebrat z výběru. Minulé jízdy si jméno klienta zachovají.",
+     "image": ""
+    },
+    {
+     "id": "client",
+     "title": "Klient",
+     "text": "Jméno, poznámka řidiče a adresy. Při přejmenování se kontroluje, zda takové jméno v adresáři už není. Smazání můžete ihned vrátit tlačítkem „Zpět“.",
+     "image": "img/cs/address-book-client.png"
+    },
+    {
+     "id": "add-address",
+     "title": "Adresa",
+     "text": "Adresa, popisek a souřadnice. Souřadnici lze uložit podle aktuální polohy. Tlačítka „Otevřít v navigaci“ a „Odeslat“ bod předají dál. Červená značka zvýrazní adresu, na kterou je dobré pamatovat (složitý vjezd, zvláštní pravidla).",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "backup",
+   "title": "Záloha a obnova",
+   "intro": "Záloha je jeden soubor s celým deníkem: jízdy, směny, tankování, vozidla i dokumenty s fotografiemi.",
+   "steps": [
+    {
+     "id": "backup",
+     "title": "Vytvořit zálohu",
+     "text": "Nastavení → Záloha: „Exportovat databázi (záloha)“ uloží soubor, „Sdílet zálohu“ ho rovnou odešle (e-mail, komunikátor, cloud). Zálohu můžete udělat kdykoli — práce se tím nepřeruší.",
+     "image": ""
+    },
+    {
+     "id": "restore",
+     "title": "Obnovit",
+     "text": "„Importovat databázi (obnova)“ nahradí všechna aktuální data souborem zálohy. Aplikace soubor nejprve zkontroluje: cizí soubor nebo zálohu z novější verze nepřijme. Na novém telefonu můžete data obnovit hned v prvním kroku při prvním spuštění.",
+     "image": ""
+    },
+    {
+     "id": "cross",
+     "title": "Android a iPhone",
+     "text": "Záloha je stejná na Androidu i iPhonu: soubor pořízený na jednom telefonu lze obnovit na druhém.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "online",
+   "title": "Program online",
+   "intro": "Program online — my.vecturabook.com: tentýž deník v prohlížeči a na dalších vašich zařízeních.",
+   "steps": [
+    {
+     "id": "device-link",
+     "title": "Připojit telefon",
+     "text": "Nastavení → „Připojit k VecturaBook“. Naskenujte QR kód z účtu na webu, nebo otevřete účet v prohlížeči a potvrďte na telefonu, případně zadejte kód z obrazovky. Tlačítko „Odpojit tento telefon“ zařízení odpojí.",
+     "image": "img/cs/online-device-link.png"
+    },
+    {
+     "id": "sync",
+     "title": "Synchronizace",
+     "text": "Připojený telefon sám odesílá nové záznamy a přijímá úpravy z ostatních zařízení. Stavový řádek ukazuje „Vše synchronizováno“, nebo kolik záznamů čeká na odeslání. Bez sítě záznamy počkají v telefonu.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "settings",
+   "title": "Nastavení",
+   "intro": "Nastavení jsou rozdělena do skupin: profil řidiče, telefon a připojení, dokumenty (PDF), záloha a obecná nastavení.",
+   "steps": [
+    {
+     "id": "settings",
+     "title": "Nastavení",
+     "text": "Zde najdete jazyk a region, jednotky, motiv, animace, PDF tankování a historie jízd, zálohu a připojení k programu online.",
+     "image": "img/cs/settings-settings.png"
+    },
+    {
+     "id": "profile",
+     "title": "Profil řidiče",
+     "text": "Jméno pro výkazy a doklady řidiče: řidičský průkaz, cestovní pas, certifikát ADR — s daty platnosti a fotkami stran.",
+     "image": "img/cs/settings-profile.png"
+    },
+    {
+     "id": "language",
+     "title": "Jazyk a region",
+     "text": "Jazyk aplikace, jazyk GPS adres (automaticky podle země) a formát data.",
+     "image": "img/cs/settings-language.png"
+    },
+    {
+     "id": "units",
+     "title": "Jednotky",
+     "text": "Vzdálenost, hmotnost, objem, délka, teplota a spotřeba paliva. Předvolby: metrický, imperiální, smíšený — nebo vlastní nastavení.",
+     "image": ""
+    },
+    {
+     "id": "theme",
+     "title": "Motiv",
+     "text": "Světlý, tmavý nebo automatický (podle času začátku dne a noci). Předvolby: Kraft, Tmavý kraft, Manila, Téměř bílá, Tmavý. Můžete si vytvořit i vlastní.",
+     "image": "img/cs/settings-theme.png"
+    },
+    {
+     "id": "theme-custom",
+     "title": "Vlastní motiv",
+     "text": "Barva pozadí, textu, horní lišty, karet, rámečků polí, popisků, tlačítek a ikon tankování a parkování. Motiv lze uložit, přejmenovat a přiřadit světlému nebo tmavému režimu.",
+     "image": ""
+    },
+    {
+     "id": "animations",
+     "title": "Animace",
+     "text": "Pohyblivé scény vykládky a tankování. Můžete je vypnout.",
+     "image": ""
+    },
+    {
+     "id": "about",
+     "title": "O aplikaci",
+     "text": "Verze, web, Telegram, Facebook a možnost podpořit projekt. Dříve se aplikace jmenovala CargoLog — změnil se jen název.",
+     "image": ""
+    },
+    {
+     "id": "feedback",
+     "title": "Zpětná vazba",
+     "text": "Nahlásit chybu, poslat návrh nebo napsat cokoli jiného. Můžete přiložit snímek obrazovky nebo fotku. V nabídce najdete také „Zkontrolovat aktualizace“ a „Ohodnotit aplikaci“.",
+     "image": ""
+    },
+    {
+     "id": "help",
+     "title": "Nápověda",
+     "text": "„Nápověda“ je obsah této příručky: obecné části a části podle typu vozidla. Každá se otevírá přímo zde, krok za krokem.",
+     "image": "img/cs/settings-help.png"
+    }
+   ]
+  },
+  {
+   "slug": "notifications",
+   "title": "Oznámení a připomínky",
+   "intro": "Aplikace vás informuje o tom, co právě běží, i o tom, co se blíží.",
+   "steps": [
+    {
+     "id": "timers",
+     "title": "Časovače",
+     "text": "Čekání, tankování a vykládka běží i při minimalizované aplikaci: časovač je vidět v liště oznámení. Klepnutím na oznámení se vrátíte do aplikace.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Platnost dokladů",
+     "text": "Oznámení o platnosti dokladů přicházejí s předstihem a v den vypršení.",
+     "image": ""
+    },
+    {
+     "id": "permissions",
+     "title": "Oprávnění",
+     "text": "Pokud jsou oznámení, kamera nebo poloha zakázané, aplikace vám poradí, kde je v nastavení telefonu povolit.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics",
+   "title": "Diagnostický kanál",
+   "intro": "Diagnostický kanál odesílá vývojáři data z telefonu, aby bylo možné řešit poruchy na skutečných datech. Je vypnutý, dokud ho sami nezapnete.",
+   "steps": [
+    {
+     "id": "enroll",
+     "title": "Registrace telefonu",
+     "text": "Přečtěte si souhlas a pokud souhlasíte, klepněte na „Souhlasím, zaregistrovat tento telefon“. Tlačítko „Odvolat tento telefon“ kanál vypne a smaže certifikát.",
+     "image": "img/cs/diagnostics-enroll.png"
+    },
+    {
+     "id": "channel-settings",
+     "title": "Co odesílat",
+     "text": "Tři přepínače: protokoly o běhu aplikace, databáze jízd, snímky čísel kontejnerů. Každý je vypnutý, dokud ho nezapnete, a kdykoli ho můžete vypnout. Dokud jsou vypnuté všechny tři, neodesílá se nic. Vaši galerii aplikace nečte.",
+     "image": ""
+    },
+    {
+     "id": "warning",
+     "title": "Upozornění",
+     "text": "Vstup do servisních obrazovek začíná upozorněním. Odejít můžete tlačítkem „Dostaňte mě odsud“.",
+     "image": ""
+    },
+    {
+     "id": "server",
+     "title": "Server kanálu",
+     "text": "Stav spojení: ve spojení, mlčí, není síť, server nepřijímá. Vše připravené k odeslání čeká v telefonu — nemusíte nic dělat.",
+     "image": ""
+    },
+    {
+     "id": "import",
+     "title": "Svazek kanálu",
+     "text": "U služebních telefonů lze svazek kanálu nainstalovat ze souboru .p12 chráněného heslem. Heslo se použije jen jednou a neukládá se.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "service",
+   "title": "Servisní obrazovky",
+   "intro": "Servisní obrazovky slouží k řešení poruch. Otevřete je sedmi klepnutími na obrazovce „O aplikaci“. Při běžné práci nejsou potřeba.",
+   "steps": [
+    {
+     "id": "hub",
+     "title": "Servisní centrum",
+     "text": "Informace o aplikaci a telefonu, vstup do servisních obrazovek a diagnostického kanálu, galerie animací.",
+     "image": ""
+    },
+    {
+     "id": "database",
+     "title": "Databáze",
+     "text": "Stav databáze a úplný reset aplikace. Reset vymaže vše bez možnosti návratu — nejprve si udělejte zálohu.",
+     "image": ""
+    },
+    {
+     "id": "logs",
+     "title": "Protokoly",
+     "text": "Protokoly o běhu aplikace pro řešení poruch.",
+     "image": ""
+    },
+    {
+     "id": "ocr",
+     "title": "Rozpoznávání",
+     "text": "Diagnostika čtení čísel kamerou.",
+     "image": ""
+    },
+    {
+     "id": "system",
+     "title": "Systém",
+     "text": "Informace o telefonu a pádech aplikace.",
+     "image": ""
+    },
+    {
+     "id": "locale",
+     "title": "Jazyk a úvodní nastavení",
+     "text": "Kontrola jazyků a opakované první spuštění.",
+     "image": ""
+    },
+    {
+     "id": "dataset",
+     "title": "Snímky kamery",
+     "text": "Pořizování snímků pro trénování rozpoznávání — pouze se souhlasem s odesíláním snímků.",
+     "image": ""
+    },
+    {
+     "id": "splash-tuner",
+     "title": "Úvodní obrazovka",
+     "text": "Nastavení úvodní obrazovky při spuštění.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "flatbed",
+   "title": "Plošina",
+   "intro": "Plošina vozí obecný a nadrozměrný náklad.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "V garáži",
+     "text": "Zvolte nástavbu „Plošina“ a zadejte délku plošiny.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "V jízdě",
+     "text": "Typy nákladu: obecný náklad (palety, hmotnost, popis), nadrozměrný (délka, šířka, výška, hmotnost), kontejner na plošině. U nadrozměrného nákladu si krok „Detaily nákladu“ vyžádá rozměry.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Vykládka",
+     "text": "Palety se v jednotlivých bodech odevzdávají počtem nebo procentem.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "container",
+   "title": "Kontejner",
+   "intro": "Kontejnerový návěs vozí 20-, 40- a 45stopé kontejnery, jeden nebo dva.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "V garáži",
+     "text": "Nástavba „Kontejner“; velikost kontejneru, pro kterou je návěs určen.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "V jízdě",
+     "text": "Řada otázek: prázdný nebo naložený, velikost, kolik kontejnerů, typ (standardní, Reefer, Flat Rack, Open Top, Tank). Číslo kontejneru a plomby vyfotíte kamerou. Plomba ventilace a teplota pro Reefer.",
+     "image": ""
+    },
+    {
+     "id": "fate",
+     "title": "Po vykládce",
+     "text": "Aplikace se zeptá, co se stalo s kontejnerem: zůstal u klienta, na autě, jede k jinému klientovi nebo se vrací do přístavu či depa.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "sidelifter",
+   "title": "Sidelifter",
+   "intro": "Sidelifter sám skládá a nakládá kontejner.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "V garáži",
+     "text": "Nástavba „Sidelifter“ je dostupná pouze u návěsu.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "V jízdě",
+     "text": "Kontejner se zadává stejně jako u kontejnerového návěsu; práce s jeřábem se označuje na souhrnu jízdy.",
+     "image": ""
+    },
+    {
+     "id": "exchange",
+     "title": "Výměna",
+     "text": "Sidelifter často mění kontejnery na místě — použijte „Výměna kontejnerů“.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "refrigerated",
+   "title": "Chladírna",
+   "intro": "Chladírna vozí náklad s řízenou teplotou.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "V garáži",
+     "text": "Nástavba „Chladírna“; zaškrtněte generátor (genset), pokud je osazen, a zadejte nádrž agregátu a kritickou rezervu.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "V jízdě",
+     "text": "Řízená teplota: řízená nebo bez řízení; teplota nákladu. Na obrazovce jízdy je přepínač „Agregát běží“.",
+     "image": ""
+    },
+    {
+     "id": "fuel",
+     "title": "Palivo agregátu",
+     "text": "Nafta agregátu se při tankování zadává do samostatného pole; aplikace počítá motohodiny a spotřebu v litrech za hodinu a zobrazuje „≈ N h do rezervy“.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "curtainsider",
+   "title": "Plachta",
+   "intro": "Plachtový návěs vozí obecný náklad na paletách.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "V garáži",
+     "text": "Nástavba „Plachta“.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "V jízdě",
+     "text": "Obecný náklad: počet palet, celková hmotnost, popis.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Vykládka",
+     "text": "V každém bodě označte, kolik palet bylo vyloženo; aplikace si pamatuje zbytek na palubě.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tipper",
+   "title": "Sklápěč",
+   "intro": "Sklápěč vozí sypký náklad.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "V garáži",
+     "text": "Nástavba „Sklápěč“.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "V jízdě",
+     "text": "Sypký náklad: objem v metrech krychlových, hmotnost netto a brutto, popis.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Vykládka",
+     "text": "Vykládka se zaznamenává časem; časovač manipulace s nákladem ukazuje, jak dlouho trvala.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fuel-tanker",
+   "title": "Cisterna",
+   "intro": "Cisterna na palivo vozí pohonné hmoty v jednotlivých komorách.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "V garáži",
+     "text": "Nástavba „Cisterna“; počet komor a objem každé z nich v litrech.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "V jízdě",
+     "text": "V detailech nákladu zadejte objem pro každou komoru.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Vykládka",
+     "text": "V cíli označte vyložené komory. Pokud při ukončení jízdy zůstanou některé komory nevyložené, aplikace požádá o potvrzení.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tanker",
+   "title": "Cisterna",
+   "intro": "Cisterna vozí kapalné náklady.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "V garáži",
+     "text": "Nástavba „Cisterna“; komory a objemy.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "V jízdě",
+     "text": "Kategorie kapaliny: chemikálie, potravinářské, odpad; řízená teplota; ADR s čísly UN pro nebezpečné náklady.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Vykládka",
+     "text": "Komory se v jednotlivých bodech odevzdávají stejně jako u cisterny na palivo.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "car-transporter",
+   "title": "Autotransportér",
+   "intro": "Autotransportér vozí osobní automobily.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "V garáži",
+     "text": "Nástavba „Autotransportér“; počet míst pro vozidla.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "V jízdě",
+     "text": "Vozidla se zadávají podle VIN (17 znaků, bez I, O, Q) nebo podle SPZ; VIN lze naskenovat kamerou. Počítadlo ukazuje, kolik vozidel je naloženo.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Vykládka",
+     "text": "V cíli označte, která vozidla byla vyložena a která naložena. Pokud při ukončení jízdy zůstanou na palubě vozidla, aplikace požádá o potvrzení.",
+     "image": ""
+    }
+   ]
+  }
+ ],
+ "screens": {
+  "getting-started.welcome": "První spuštění: jméno, tahač, návěs a oprávnění. Máte-li zálohu, můžete obnovit celý deník.",
+  "getting-started.onboarding": "Odpovězte na otázky o sobě a o vozidle. Vše lze později upravit v nastavení a v garáži.",
+  "getting-started.main-screen": "Hlavní obrazovka ukazuje, kde se právě v práci nacházíte, a vede k dalšímu kroku: směna, jízda, vykládka.",
+  "getting-started.menu": "Nabídka aplikace: garáž, historie, výkazy, tankování, údržba, dokumenty, adresy, nápověda a nastavení.",
+  "shift.shift-welcome": "Začátek směny: poloha, čekání na jízdu a tlačítko „Začít jízdu“.",
+  "shift.shift-status": "Zda je směna otevřená, od kdy a kolik je v ní jízd.",
+  "trip.origin": "Klient a adresa, odkud nebo kam jedete. Nový klient se sám uloží do adresáře.",
+  "trip.cargo-type": "Co vezete. Seznam závisí na nástavbě tahače a návěsu.",
+  "trip.cargo-details": "Detaily nákladu: čísla kontejnerů a plomb, komory, vozidla, palety. Čísla lze vyfotit kamerou.",
+  "trip.load-details": "Rozměry, hmotnost a popis nákladu.",
+  "trip.trip-times": "Úprava časů, adres a stavů tachometru u již zapsané jízdy.",
+  "trip.confirm": "Souhrn jízdy. Zkontrolujte údaje a klepněte na „Na cestu“ — teprve tehdy se jízda zapíše.",
+  "trip.arrival": "Jste v cíli: příjezd, začátek a konec vykládky nebo nakládky.",
+  "trip.unload": "Co bylo v tomto bodě vyloženo: komory, procento, palety nebo vozidla.",
+  "trip.cargo-fate": "Co bude dál s kontejnerem po vykládce.",
+  "trip.summary": "Souhrn jízdy: další zastávka, ukončení nebo nová jízda.",
+  "driving.driving": "Jízda probíhá: příjezd, tankování, parkování. Pod vozidlem je přibližný odhad paliva do rezervy.",
+  "driving.odometer": "Stav tachometru. Aplikace doplní očekávanou hodnotu a číslo zkontroluje; lze vyfotit kamerou.",
+  "driving.swap-trailer": "Výměna návěsu během jízdy: vyberte návěs z garáže.",
+  "refuel.refuel-timer": "Probíhá tankování: časovač. Po skončení zadáte litry.",
+  "refuel.refuel-data": "Litry nafty, AdBlue a agregátu návěsu, stav tachometru. Uloží se jako jeden záznam.",
+  "refuel.refuel-history": "Všechna tankování za období, průměrná spotřeba a výkaz PDF.",
+  "parking.parking-stop": "Adresa parkoviště: ručně, z uložených míst nebo podle GPS.",
+  "parking.places": "Vlastní místa: parkoviště, přístavy, depa. Vybírají se při parkování a vracení kontejneru.",
+  "parking.place-form": "Název, poznámka a souřadnice místa; otevření v navigaci.",
+  "camera.scan": "Zaměřte číslo do rámečku. Stáhněte rámeček dvěma prsty k číslu; klepnutí mimo rámeček pořídí snímek.",
+  "camera.container-exchange": "Výměna kontejnerů s jiným řidičem: co jste předali a co převzali.",
+  "camera.photos": "Fotky dokumentů jízdy na celou obrazovku.",
+  "history.history": "Všechny směny a jízdy: vyhledávání, podrobnosti, úpravy a mazání.",
+  "report.report": "Souhrn za období a výkaz PDF.",
+  "garage.garage": "Vaše tahače a návěsy. Klepnutím na vozidlo otevřete jeho správu.",
+  "garage.truck-form": "SPZ, typ a nástavba tahače; jeřáb nebo manipulátor.",
+  "garage.trailer-form": "SPZ, zapojení a nástavba návěsu; komory, místa pro vozidla, generátor.",
+  "garage.vehicle-hub": "Vše o vozidle: dokumenty, údržba, technická kontrola, nápravy a pneumatiky, značka, barva.",
+  "garage.vehicle-settings": "Tachometr, intervaly servisu, nápravy, nádrž a kritická rezerva.",
+  "garage.plate-colors": "Barvy registrační značky, přesně jako na vozidle.",
+  "garage.rig-paint": "Barvy kabiny, jeřábu a nástavby na obrázku vozidla.",
+  "garage.tyres": "Schéma náprav a historie pneumatik: výměny, defekty, přehození.",
+  "documents.overview": "Všechny dokumenty vozidel a řidiče s daty platnosti.",
+  "documents.list": "Dokumenty tohoto vozidla. Tlačítkem „+“ přidáte další.",
+  "documents.form": "Typ, název a doba platnosti dokumentu.",
+  "documents.pages": "Fotografie stran dokumentu.",
+  "maintenance.maintenance": "Kolik zbývá do servisu a záznamy o údržbě.",
+  "maintenance.new-record": "Nový servisní záznam: tachometr, datum, provedené práce, fotky.",
+  "address-book.book": "Klienti a vlastní místa.",
+  "address-book.clients": "Seznam klientů: přidat, skrýt, smazat.",
+  "address-book.client": "Jméno, poznámka a adresy klienta.",
+  "address-book.add-address": "Adresa, souřadnice, navigace a červená značka.",
+  "backup.backup": "Soubor s celým deníkem: uložit, odeslat nebo obnovit.",
+  "online.device-link": "Připojení telefonu k programu online: QR kód nebo kód z obrazovky.",
+  "settings.settings": "Všechna nastavení přehledně po skupinách.",
+  "settings.profile": "Jméno řidiče a jeho doklady.",
+  "settings.language": "Jazyk aplikace, jazyk GPS adres, formát data.",
+  "settings.theme": "Světlý, tmavý nebo automatický; předvolby a vlastní motivy.",
+  "settings.theme-custom": "Barvy vlastního motivu.",
+  "settings.about": "Verze aplikace a kontakt na vývojáře.",
+  "settings.feedback": "Nahlásit chybu nebo poslat návrh.",
+  "settings.help": "Příručka k aplikaci podle jednotlivých částí.",
+  "diagnostics.enroll": "Souhlas a registrace telefonu v diagnostickém kanálu.",
+  "diagnostics.warning": "Vstup do servisní části aplikace.",
+  "diagnostics.channel-settings": "Co telefon odesílá vývojáři: tři samostatné souhlasy.",
+  "diagnostics.server": "Stav spojení diagnostického kanálu.",
+  "diagnostics.import": "Instalace svazku kanálu ze souboru .p12.",
+  "service.hub": "Servisní centrum: informace a servisní obrazovky.",
+  "service.database": "Stav databáze a úplný reset aplikace.",
+  "service.logs": "Protokoly o běhu aplikace.",
+  "service.ocr": "Diagnostika rozpoznávání čísel.",
+  "service.system": "Informace o telefonu a pádech.",
+  "service.locale": "Kontrola jazyků a opakované první spuštění.",
+  "service.dataset": "Pořizování snímků pro rozpoznávání.",
+  "service.splash-tuner": "Nastavení úvodní obrazovky."
+ }
+}

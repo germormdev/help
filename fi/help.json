@@ -1,0 +1,978 @@
+{
+ "format": 1,
+ "language": "fi",
+ "revision": "2026-10-26",
+ "sections": [
+  {
+   "slug": "getting-started",
+   "title": "Alkuun pääseminen",
+   "intro": "VecturaBook on kuljettajan ajopäiväkirja: vuorot, reissut, tankkaukset, pysäköinnit, asiakirjat ja kalusto yhdessä puhelimessa. Kaikki tallentuu puhelimeen ja toimii ilman internetiä.",
+   "steps": [
+    {
+     "id": "welcome",
+     "title": "Ensimmäinen käynnistys",
+     "text": "Ensimmäisellä käynnistyksellä sovellus kysyy muutaman kysymyksen neljässä lyhyessä vaiheessa. Ne vievät minuutin, ja kaikkea voi muuttaa myöhemmin asetuksissa ja hallissa.\n\nJos sinulla on jo VecturaBook-varmuuskopio (esimerkiksi vanhasta puhelimesta), napauta ensimmäisessä vaiheessa ”Palauta varmuuskopiosta”: koko ajopäiväkirja palautuu eikä kysymyksiin tarvitse vastata.",
+     "image": "img/fi/getting-started-welcome.png"
+    },
+    {
+     "id": "onboarding",
+     "title": "Nimi, vetoauto, perävaunu, käyttöoikeudet",
+     "text": "Vaihe 1 — nimi. Se tulostuu raportteihin. Voit jättää sen tyhjäksi ja lisätä myöhemmin.\n\nVaihe 2 — vetoauto tai kuorma-auto: rekisterinumero, tyyppi ja korityyppi. Tyyppi ja korityyppi valitaan kuvista kysymys kerrallaan: jokaisen vastauksen jälkeen sovellus näyttää seuraavan kysymyksen.\n\nVaihe 3 — perävaunu. Voit ohittaa sen painikkeella ”Ohita perävaunu” ja lisätä sen myöhemmin hallissa.\n\nVaihe 4 — käyttöoikeudet: kamera (konttinumerot, sinetit, matkamittari), sijainti (kaupunki vuoron alussa, vain kun pyydät sitä) ja ilmoitukset (odotuksen, tankkauksen ja purun ajastimet). Voit kieltää minkä tahansa — sovellus toimii silti, vain ilman kyseistä ominaisuutta.",
+     "image": "img/fi/getting-started-onboarding.png"
+    },
+    {
+     "id": "main-screen",
+     "title": "Päänäyttö",
+     "text": "Päänäyttö näyttää, missä työvaiheessa olet nyt: vuoroa ei ole aloitettu, vuoro on käynnissä, reissu on matkalla, olet purkupaikalla ja niin edelleen. Näytön painikkeet vievät aina seuraavaan vaiheeseen, joten mitään ei voi jäädä väliin.\n\nYlhäällä on palkki, jossa on vasemmalla valikkopainike ja oikealla painike ”?”. ”?” on jokaisella näytöllä: se selittää näytön lyhyesti ja avaa painikkeesta ”Lisää” tämän ohjeen oikean kohdan.",
+     "image": "img/fi/getting-started-main-screen.png"
+    },
+    {
+     "id": "menu",
+     "title": "Valikko",
+     "text": "Kolmen viivan painike avaa ruutuvalikon: Halli, Reissuhistoria, Raportti, Tankkauspäiväkirja, Huolto, Ajoneuvon asiakirjat, Osoitekirja, Ohje. Alhaalla on Asetukset.\n\nKaikilla muilla näytöillä valikkopainikkeen paikalla on paluunuoli.",
+     "image": "img/fi/getting-started-menu.png"
+    },
+    {
+     "id": "help-offline",
+     "title": "Ohje ilman internetiä",
+     "text": "Sovellus lataa tämän ohjeen tekstit omalla kielellään ja tallentaa ne puhelimeen, joten ”?” ja ”Ohje” toimivat tien päällä ilman verkkoa. Kerran vuorokaudessa verkon ollessa saatavilla sovellus tarkistaa huomaamattomasti, onko ohjeeseen tullut päivityksiä.\n\nJos ohjetta ei ole vielä kertaakaan ladattu, sovellus pyytää yhdistämään internetiin.",
+     "image": "img/fi/getting-started-help-offline.png"
+    }
+   ]
+  },
+  {
+   "slug": "shift",
+   "title": "Vuoro",
+   "intro": "Vuoro on työpäivä alusta loppuun. Vuoron sisällä kulkevat reissut, tankkaukset ja pysäköinnit; vuoron tiedot tallentuvat historiaan ja raportteihin.",
+   "steps": [
+    {
+     "id": "shift-welcome",
+     "title": "Aloita vuoro",
+     "text": "Napauta ”Aloita vuoro”. Sovellus tervehtii ja näyttää sijaintisi: kaupunki tunnistetaan sijainnin avulla, jos annoit luvan, muuten napauta nastariviä ja kirjoita paikka itse.\n\nJos reissua ei vielä ole, napauta ”Odotan reissua” — odotusajastin käynnistyy. ”Lopeta odotus” pysäyttää sen. Odotus ennen reissua tallentuu historiaan ja raporttiin.\n\nKun reissu on valmiina — napauta ”Aloita reissu”.",
+     "image": "img/fi/shift-shift-welcome.png"
+    },
+    {
+     "id": "shift-status",
+     "title": "Vuoron tila",
+     "text": "Näyttö ”Vuoro” näyttää, onko vuoro auki, milloin se on avattu ja montako reissua siinä on. ”Jatka vuoroa” palauttaa työhön.\n\nVuoroa ei voi sulkea, kun reissu on kesken: lopeta ensin reissu.",
+     "image": "img/fi/shift-shift-status.png"
+    },
+    {
+     "id": "end-shift",
+     "title": "Lopeta vuoro",
+     "text": "Punainen painike ”Lopeta vuoro” on sovelluksen ainoa punainen painike. Sovellus varmistaa asian ja pyytää loppumatkamittarin lukeman. Lukema tarkistetaan: jos se on pienempi kuin edellinen tai paljon odotettua suurempi, sovellus näyttää viimeisimmän tunnetun lukeman ja pyytää vahvistamaan tai korjaamaan sen.",
+     "image": ""
+    },
+    {
+     "id": "forgotten-shift",
+     "title": "Unohtunut vuoro",
+     "text": "Jos vuoro on ollut auki yli vuorokauden, sovellus ehdottaa sen sulkemista viimeisen tapahtuman ajalla — näin työaika ei paisu raportissa. Voit hyväksyä tai jatkaa vuoroa.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "trip",
+   "title": "Ajo: lastauksesta purkuun",
+   "intro": "Reissu kirjataan vaiheittain: mistä ja minne, mitä kuljetat, lastin tiedot, yhteenveto — ja ”Matkaan”. Kohteessa: saapuminen, purku tai lastaus sekä yhteenveto. Ennen kuin painat ”Matkaan”, ajopäiväkirjaan ei tallennu mitään: missä tahansa vaiheessa voit palata painikkeella ”Takaisin”, eivätkä syötetyt tiedot katoa.",
+   "steps": [
+    {
+     "id": "origin",
+     "title": "Asiakas ja reitti",
+     "text": "Valitse asiakas: ala kirjoittaa nimeä, niin sovellus ehdottaa sitä osoitekirjasta. Uusi asiakas riittää vain kirjoittaa: se tallentuu kirjaan automaattisesti.\n\nAsiakkaalla voi olla useita osoitteita — valitse oikea tai lisää uusi. GPS-kuvake hakee osoitteen nykyisen sijainnin mukaan. Kuljettajan muistiinpanot asiakkaasta näkyvät suoraan tässä.",
+     "image": "img/fi/trip-origin.png"
+    },
+    {
+     "id": "cargo-type",
+     "title": "Mitä kuljetat",
+     "text": "Lastityyppi valitaan ruuduista: kontti, kappaletavara, ylimittainen, kylmäkuljetus, polttoaine, irtotavara, ajoneuvot, tyhjä. Valikoima riippuu vetoauton ja perävaunun korityypistä.\n\nJos vaihdat lastityyppiä sen jälkeen, kun tiedot on jo syötetty, sovellus varoittaa, että syötetyt tiedot poistetaan, ja pyytää vahvistuksen.",
+     "image": "img/fi/trip-cargo-type.png"
+    },
+    {
+     "id": "cargo-details",
+     "title": "Lastin tiedot",
+     "text": "Tiedot riippuvat lastityypistä. Kontille: tyhjä vai lastattu, koko, montako konttia, tyyppi, kontin ja sinetin numero. Numerot voi skannata kameralla. Säiliöautolle: lohkot ja tilavuudet, autonkuljettimelle: ajoneuvot VIN-koodilla tai rekisterinumerolla, kappaletavaralle: lavat ja paino.\n\nJos reissu ei tarvitse lastin tietoja (esimerkiksi tyhjä ajo), napauta vain ”Seuraava”.\n\nADR-kytkin avaa UN-numeroiden kentät vaaralliselle lastille.",
+     "image": "img/fi/trip-cargo-details.png"
+    },
+    {
+     "id": "load-details",
+     "title": "Lastin tiedot",
+     "text": "Ylimittaiselle lastille ja avolavan konteille: pituus, leveys, korkeus, paino ja kuvaus. Mitat näytetään asetuksissa valituissa yksiköissä.",
+     "image": "img/fi/trip-load-details.png"
+    },
+    {
+     "id": "trip-times",
+     "title": "Reissun ajat ja pisteet",
+     "text": "Tämä näyttö näkyy vain, kun muokkaat jo tallennettua reissua historiasta. Täällä muokataan lähtöaikaa, saapumisaikaa, lastaustöiden aloitus- ja lopetusaikaa sekä pisteiden osoitteita ja matkamittareita.\n\nAika, jota reissulla ei ollut, näkyy viivana eikä sitä voi muokata: muokkaus ei lisää reissuun sellaista, mitä ei tapahtunut.",
+     "image": ""
+    },
+    {
+     "id": "confirm",
+     "title": "Reissun yhteenveto",
+     "text": "Yhteenveto näyttää koko reissun yhdellä näytöllä. Samassa paikassa ovat merkinnät: yöpyminen hytissä, armeijareissu, vaarallinen alue, lämpötilasäädelty, nostotyö (jos vetoautossa on nosturi).\n\n”Muokkaa” vie takaisin vaiheisiin. Vihreä painike ”Matkaan” tallentaa reissun ja käynnistää sen. Jos puhelimessa on navigaattori, sovellus ehdottaa osoitteen avaamista siinä.",
+     "image": "img/fi/trip-confirm.png"
+    },
+    {
+     "id": "arrival",
+     "title": "Saapuminen",
+     "text": "Perillä napauta ”Perillä”. Sovellus tallentaa ajan ja ehdottaa matkamittarin lukemaa.\n\n”Aloita purku/lastaus” käynnistää lastaustöiden ajastimen ja ”Lopeta purku/lastaus” pysäyttää sen. Jos jokin ei tallentunut (esimerkiksi puhelin jumiutui), sovellus kertoo siitä ja pyytää napauttamaan uudelleen — mitään ei jää ajopäiväkirjaan puolitiehen.",
+     "image": "img/fi/trip-arrival.png"
+    },
+    {
+     "id": "unload",
+     "title": "Purku tällä pysäkillä",
+     "text": "Jos lasti puretaan osissa, merkitse mitä tällä pysäkillä jätettiin: säiliöauton lohkot, kontin prosenttiosuus, lavat tai autonkuljettimen tietyt ajoneuvot. Sovellus muistaa, paljonko kyydissä on jäljellä, eikä anna purkaa enempää kuin kyydissä on.",
+     "image": ""
+    },
+    {
+     "id": "cargo-fate",
+     "title": "Mitä kontille tapahtui",
+     "text": "Purun jälkeen sovellus kysyy, mitä kontille tapahtuu seuraavaksi: jäi tänne, jäi autoon, menee toiselle asiakkaalle, palautetaan paikkaan (satama, varikko) tai toiseen osoitteeseen. Vastaus ohjaa reissun seuraavaan vaiheeseen.",
+     "image": "img/fi/trip-cargo-fate.png"
+    },
+    {
+     "id": "summary",
+     "title": "Reissun yhteenveto",
+     "text": "Kohteen jälkeen: ”Jatka reissua” (saman reissun seuraava pysäkki), ”Lopeta reissu” tai ”Uusi reissu”.\n\n”Täytä seuraava reissu” antaa kirjata seuraavan reissun tiedot — asiakkaan, lastin, numerot — jo valmiiksi purun aikana. Sen jälkeen ”Lopeta ja aja” käynnistää sen heti.",
+     "image": "img/fi/trip-summary.png"
+    }
+   ]
+  },
+  {
+   "slug": "driving",
+   "title": "Ajonäkymä",
+   "intro": "Kun reissu on matkalla, päänäyttö on ”Käynnissä”: reissun yhdistelmä, vetoauton ja perävaunun rekisterinumerot, ajoaika ja seuraavien toimintojen painikkeet.",
+   "steps": [
+    {
+     "id": "driving",
+     "title": "Käynnissä",
+     "text": "Näytön painikkeet: ”Perillä” (olet kohteessa), ”Tankkaus”, ”Pysäköinti / tauko”. Painikkeiden yläpuolella on kuva autostasi rekisterinumeroineen; kuva muodostuu halliin tallennetuista tiedoista: tyyppi, korityyppi, akselit, värit.\n\nJos hallissa on annettu tankin tilavuus ja oma kriittinen vara, auton alla näkyy arvio varatankille pääsystä: ”≈ N km varaan” vetoauton dieselille ja ”≈ N h varaan” perävaunun koneikolle (kylmäkone, generaattori). Laskelma perustuu tankkauksiisi ja ajomatkaan, joten heti ensimmäisen tankkauksen jälkeen sitä ei vielä näy.",
+     "image": "img/fi/driving-driving.png"
+    },
+    {
+     "id": "swap-trailer",
+     "title": "Vaihda perävaunu",
+     "text": "Perävaunun vaihto matkalla: ”Vaihda perävaunu”. Ikkunassa näkyvät hallin perävaunut: perävaunun kuva ja rekisterinumero sen alla. Valitse uusi — vaihto tallentuu reissuun. Vetoautoon sopimattomia perävaunuja ei tarjota listalla.",
+     "image": "img/fi/driving-swap-trailer.png"
+    },
+    {
+     "id": "odometer",
+     "title": "Matkamittari",
+     "text": "Sovellus täyttää odotetun lukeman valmiiksi: autosta, lastauksesta, edellisestä purusta tai tankkauksesta. Tarkista se ja korjaa tarvittaessa. Matkamittarin voi lukea kameralla.\n\nJos luku on pienempi kuin edellinen, paljon odotettua suurempi tai et muuttanut sitä, sovellus näyttää viimeisimmän tunnetun lukeman ja kysyy, pitääkö se paikkansa. Matkamittarin muokkaus aiemmassa reissussa näyttää, mihin muihin merkintöihin muutos vaikuttaa.",
+     "image": "img/fi/driving-odometer.png"
+    }
+   ]
+  },
+  {
+   "slug": "refuel",
+   "title": "Tankkaus, AdBlue, koneikko",
+   "intro": "Tankkauksia tarvitaan polttoaineenkulutukseen, raportteihin ja ”varaan”-arvioon.",
+   "steps": [
+    {
+     "id": "refuel-timer",
+     "title": "Tankkausajastin",
+     "text": "”Tankkaus” ajonäkymässä käynnistää ajastimen — tankkausaika tallentuu ajopäiväkirjaan. ”Lopeta tankkaus” pysäyttää sen ja avaa litrojen syötön. Ajastin näkyy myös ilmoitusalueella, jos sovellus on pienennetty.",
+     "image": "img/fi/refuel-refuel-timer.png"
+    },
+    {
+     "id": "refuel-data",
+     "title": "Litrat ja matkamittari",
+     "text": "Syötä diesel litroina ja tarvittaessa AdBlue sekä perävaunun koneikon diesel (kylmäkone, generaattori). Matkamittarin lukema on täytetty valmiiksi; sen voi myös skannata kameralla. ”Tallenna tankkaus” tallentaa kaiken yhdeksi merkinnäksi.",
+     "image": "img/fi/refuel-refuel-data.png"
+    },
+    {
+     "id": "unit",
+     "title": "Perävaunun koneikko",
+     "text": "Jos perävaunussa on generaattori, merkitse se perävaunun asetuksissa. Silloin ajonäkymässä on kytkin ”Koneikko käy”, sovellus laskee koneikon käyttötunnit ja kulutuksen litroina tunnissa, ja tankkaukseen tulee kenttä koneikon dieselille.",
+     "image": ""
+    },
+    {
+     "id": "refuel-history",
+     "title": "Tankkauspäiväkirja",
+     "text": "Päiväkirja näyttää kaikki tankkaukset viikolta, kuukaudelta, koko ajalta tai valitulta jaksolta: polttoaine yhteensä, tankkaukset ja keskikulutus. AdBluen osuus dieselistä ja koneikon kulutus lasketaan erikseen.\n\n”Luo PDF-raportti” tekee tankkauksista raportin, jonka voi jakaa. Tankkauksen voi myös poistaa.",
+     "image": "img/fi/refuel-refuel-history.png"
+    }
+   ]
+  },
+  {
+   "slug": "parking",
+   "title": "Pysäköinti ja lepo",
+   "intro": "Pysäköinti on tauko matkalla: lepo, yö tai odotus. Se tallentuu reissuun omalla osoitteellaan ja ajallaan.",
+   "steps": [
+    {
+     "id": "parking-stop",
+     "title": "Pysäköinti / tauko",
+     "text": "Napauta ajonäkymässä ”Pysäköinti / tauko”. Voit kirjoittaa osoitteen itse, valita sen tallennetuista paikoista tai napauttaa GPS-kuvaketta. Jos osoitetta ei löytynyt, sovellus täyttää koordinaatit — voit muokata niitä.\n\nYöt ohjaamossa lasketaan historiassa ja raportissa.",
+     "image": "img/fi/parking-parking-stop.png"
+    },
+    {
+     "id": "places",
+     "title": "Paikat",
+     "text": "Paikat ovat omia kohteita, jotka eivät liity asiakkaisiin: taukopaikat, satamat, varikot, huoltoasemat. Listalta voi hakea nimellä. Paikkoja valitaan pysäköinnissä ja kontin palautuksessa.",
+     "image": ""
+    },
+    {
+     "id": "place-form",
+     "title": "Paikka",
+     "text": "Nimi, muistiinpano ja koordinaatti. Koordinaatin voi tallentaa nykyisestä sijainnista, korvata tai poistaa. Painikkeet ”Avaa navigaattorissa” ja ”Lähetä” välittävät pisteen navigaattoriin tai viestiin.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "camera",
+   "title": "Kamera: kontit ja sinetit",
+   "intro": "Kamera lukee konttien, sinettien ja VIN-koodien numerot sekä matkamittarin lukemat, jotta niitä ei tarvitse näppäillä käsin.",
+   "steps": [
+    {
+     "id": "scan",
+     "title": "Kameran kehys",
+     "text": "Suuntaa numero kehykseen. Nipistä kehys tiukasti numeron ympärille — silloin se luetaan paremmin. ”Käännä kehys” on pystysuoraan kirjoitetuille numeroille. Napautus kehyksen ulkopuolella ottaa kuvan.",
+     "image": ""
+    },
+    {
+     "id": "container-number",
+     "title": "Kontin numero",
+     "text": "Kontin numero on 4 kirjainta ja 7 numeroa. Sovellus tarkistaa tarkistusnumeron; jos numero ei täsmää, se tallennetaan merkinnällä ”Numeroa ei ole vahvistettu” — tarkista se silmämääräisesti.",
+     "image": ""
+    },
+    {
+     "id": "seal",
+     "title": "Sinetti",
+     "text": "Sinetin numero luetaan tekstistä. Jos sinetissä on viivakoodi eikä se täsmää painetun numeron kanssa, sovellus käyttää painettua numeroa: viivakoodi voi olla toisesta sarjasta.",
+     "image": ""
+    },
+    {
+     "id": "container-exchange",
+     "title": "Konttien vaihto",
+     "text": "Jos luovutat kohteessa kontin toiselle kuljettajalle ja otat hänen konttinsa, kirjaa vaihto: mikä kontti purettiin, mikä kontti lastattiin, kuljettajan nimi ja hänen rekkansa rekisterinumero.",
+     "image": ""
+    },
+    {
+     "id": "photos",
+     "title": "Kuvat",
+     "text": "Reissuun voi liittää kuvia asiakirjoista lastauksessa ja purussa: ”Asiakirjakuva”. ”Katso kuvat” avaa ne koko näytölle.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "history",
+   "title": "Ajohistoria ja muokkaus",
+   "intro": "Historiassa ovat kaikki vuorot ja reissut. Täällä niitä voi selata, hakea, muokata ja poistaa.",
+   "steps": [
+    {
+     "id": "history",
+     "title": "Historia",
+     "text": "Reissut on ryhmitelty vuoroittain: vuoron alku ja loppu, aika, matka, reissujen määrä. Napauta reissua, niin näet tarkemmat tiedot: asiakas, lasti, pisteet, matkamittarit, odotus, kuvat. Haku toimii asiakkaan, kontin ja reitin mukaan. ”Kaikki ajot” näyttää ne yhtenä listana.",
+     "image": "img/fi/history-history.png"
+    },
+    {
+     "id": "edit",
+     "title": "Reissun muokkaus",
+     "text": "”Muokkaa” avaa samat vaiheet kuin reissua luotaessa sekä aikojen ja pisteiden näytön. Muutokset kootaan ja tallennetaan vasta yhteenvedossa.\n\nJos matkamittarin muutos vaikuttaa muihin merkintöihin (seuraava reissu, auton lukema, vuoron kilometrit), sovellus näyttää ne ennen tallennusta.",
+     "image": ""
+    },
+    {
+     "id": "delete",
+     "title": "Poistaminen",
+     "text": "Reissu poistetaan roskakoripainikkeella; useampi reissu valintatilassa. Aktiivista reissua ei voi poistaa — päätä se ensin. Jos puhelin on yhdistetty verkkoon, poisto päivittyy myös muille laitteille.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "report",
+   "title": "Raportti ja PDF",
+   "intro": "Raportti laskee valitun jakson työt: reissut, matkan, työajan, odotuksen, polttoaineen ja kulutuksen.",
+   "steps": [
+    {
+     "id": "report",
+     "title": "Jaksoraportti",
+     "text": "Valitse jakso: tänään, viikko, kuukausi tai omat päivämäärät. Kortit näyttävät yhteenvedon. ”Vie raportti” luo PDF-tiedoston, jossa ovat vuorot, reissut, pisteet ja tankkaukset; sen voi jakaa tai tulostaa.",
+     "image": "img/fi/report-report.png"
+    },
+    {
+     "id": "pdf",
+     "title": "Mitä PDF sisältää",
+     "text": "PDF näyttää jokaisesta vuorosta alun ja lopun, vetoauton ja perävaunun, reissut asiakkaineen, lastin, purku- ja odotusajat, matkamittarit sekä tankkaukset. Lopussa ovat jakson summat: vuorot, reissut, tankkaukset, kokonaismatka, kokonaisaika, polttoaine yhteensä, keskimatka per vuoro ja keskikulutus.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "garage",
+   "title": "Kalusto: vetoautot ja perävaunut",
+   "intro": "Halli säilyttää kalustosi tiedot. Sieltä tulevat autojen kuvat, rekisterinumerot, perävaunujen yhteensopivuus, mittarilukemat ja kaikki ajoneuvon asetukset.",
+   "steps": [
+    {
+     "id": "garage",
+     "title": "Halli",
+     "text": "Kaksi välilehteä: Rekat ja Perävaunut. Aktiivinen ajoneuvo on korostettu. ”+ Lisää rekka” ja ”+ Lisää perävaunu” luovat uuden. Ajoneuvon napauttaminen avaa sen hallinnan.\n\nKun reissu on käynnissä, ajoneuvoa ei voi vaihtaa — lopeta ensin reissu (perävaunu vaihdetaan matkalla toiminnolla ”Vaihda perävaunu”).",
+     "image": "img/fi/garage-garage.png"
+    },
+    {
+     "id": "truck-form",
+     "title": "Vetoauto",
+     "text": "Rekisterinumero, tyyppi (vetoauto tai kuorma-auto) ja korityyppi kuvallisilla kysymyksillä; onko autossa nosturi tai manipulaattori. Hallissa ei voi olla kahta samaa rekisterinumeroa.",
+     "image": ""
+    },
+    {
+     "id": "trailer-form",
+     "title": "Perävaunu",
+     "text": "Rekisterinumero, kytkentä (puoliperävaunu tai kuorma-auton perävaunu) ja korityyppi. Säiliöautolle: lohkojen määrä ja kunkin tilavuus, autonkuljettimelle: autopaikkojen määrä, kylmäkuljetukselle: onko generaattori asennettu.",
+     "image": ""
+    },
+    {
+     "id": "vehicle-hub",
+     "title": "Ajoneuvon hallinta",
+     "text": "Ajoneuvon näyttö kokoaa kaiken yhteen: rekisteröinti, asiakirjat, huolto, katsastus, akselit ja renkaat, rekisterikilpi ja väri. ”Aseta aktiiviseksi” valitsee sen ajoon.",
+     "image": "img/fi/garage-vehicle-hub.png"
+    },
+    {
+     "id": "vehicle-settings",
+     "title": "Ajoneuvon asetukset",
+     "text": "Nykyinen matkamittarin lukema, huoltoväli (kilometrit, kuukaudet, varoitusrajat), huollon lähtöpiste, akselit, tankin tilavuus ja oma kriittinen vara (”varaan”-arviota varten). Koneikollisessa perävaunussa myös koneikon tankki ja sen kriittinen vara.",
+     "image": "img/fi/garage-vehicle-settings.png"
+    },
+    {
+     "id": "plate-colors",
+     "title": "Rekisterikilpi",
+     "text": "Kilven taustaväri ja numeron väri — kuten omassa autossasi. Jos väriyhdistelmää on vaikea lukea, numero näytetään mustana tai valkoisena.",
+     "image": "img/fi/garage-plate-colors.png"
+    },
+    {
+     "id": "rig-paint",
+     "title": "Väri",
+     "text": "Ohjaamon, nosturin ja korin väri auton kuvassa. ”Kuten piirretty” palauttaa alkuperäisen värin.",
+     "image": "img/fi/garage-rig-paint.png"
+    },
+    {
+     "id": "tyres",
+     "title": "Akselit ja renkaat",
+     "text": "Akselikaavio piirtyy automaattisesti akselien määrän mukaan; minkä tahansa akselin voi vaihtaa yksittäis- tai paripyöräksi. Napauta rengasta: vaihto, puhkeaminen, siirto tai jotain muuta — merkintä tallentuu historiaan. Tilastot näyttävät keskimääräisen ajomatkan vaihtojen välillä ja yleisimmän paikan. Perävaunulla on oma ajomatkansa, jonka voi syöttää.",
+     "image": "img/fi/garage-tyres.png"
+    }
+   ]
+  },
+  {
+   "slug": "documents",
+   "title": "Asiakirjat ja voimassaolo",
+   "intro": "Ajoneuvon ja kuljettajan asiakirjat sivukuvineen ja voimassaoloaikoineen. Sovellus muistuttaa vanhenemisesta ajoissa.",
+   "steps": [
+    {
+     "id": "overview",
+     "title": "Kaikki asiakirjat",
+     "text": "Yleisnäkymä näyttää kaikkien ajoneuvojen ja kuljettajan asiakirjat yhtenä listana voimassaoloaikoineen: montako päivää on jäljellä tai ”vanhentunut”.",
+     "image": "img/fi/documents-overview.png"
+    },
+    {
+     "id": "list",
+     "title": "Ajoneuvon asiakirjat",
+     "text": "Jokaisella ajoneuvolla on oma listansa: rekisteriote, vakuutus, katsastus ja omat asiakirjat. ”+” lisää asiakirjan.",
+     "image": "img/fi/documents-list.png"
+    },
+    {
+     "id": "form",
+     "title": "Asiakirja",
+     "text": "Valitse tyyppi tai ”Oma asiakirja…” ja kirjoita nimi (esimerkiksi ADR-lupa). ”Voimassa” on päättymispäivä, jonka perusteella muistutukset tulevat. Katsastuksella on hyväksymispäivä.",
+     "image": ""
+    },
+    {
+     "id": "pages",
+     "title": "Sivut",
+     "text": "Ota asiakirjan sivuista kuvat kameralla. Sivut avautuvat koko näytölle, niitä voi selata ja poistaa yksitellen.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Muistutukset voimassaolosta",
+     "text": "Ennen voimassaolon päättymistä sovellus lähettää ilmoituksen ja näyttää käynnistyessä ikkunan ”Asiakirjojen voimassaolo”. ”Selvä” sulkee ikkunan seuraavaan varoitusrajaan asti. Kuljettajan asiakirjat (ajokortti, passi, ADR) ovat profiiliasetuksissa.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "maintenance",
+   "title": "Huolto ja renkaat",
+   "intro": "Huolto: merkinnät, huoltovälit ja muistutus, kun huolto on ajankohtainen.",
+   "steps": [
+    {
+     "id": "maintenance",
+     "title": "Huolto",
+     "text": "Ylhäällä näkyy, paljonko seuraavaan huoltoon on matkaa kilometreinä tai päivinä, tai paljonko se on myöhässä. Alla ovat huoltomerkinnät. Huoltovälit ja lähtöpiste asetetaan ajoneuvon asetuksissa.",
+     "image": "img/fi/maintenance-maintenance.png"
+    },
+    {
+     "id": "new-record",
+     "title": "Huoltomerkintä",
+     "text": "”Kirjaa huolto” avaa merkinnän: matkamittari, päivämäärä, mitä tehtiin, kuvat. Huollon mittarilukema ei voi olla suurempi kuin nykyinen.",
+     "image": ""
+    },
+    {
+     "id": "tyres",
+     "title": "Renkaat",
+     "text": "Renkaita pidetään yllä akselikaaviossa — osio ”Halli”, kohta ”Akselit ja renkaat”.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "address-book",
+   "title": "Osoitekirja ja asiakkaat",
+   "intro": "Asiakkaat ja heidän osoitteensa sekä omat paikat. Kirja täydentyy automaattisesti, kun kirjoitat uuden asiakkaan reissuun.",
+   "steps": [
+    {
+     "id": "book",
+     "title": "Osoitekirja",
+     "text": "Välilehti ”Asiakkaat” sisältää asiakkaat osoitteineen; paikkojen välilehti sisältää omat pisteet. Piilotettuja asiakkaita ei ehdoteta valinnassa; ”Näytä piilotetut” tuo ne takaisin listalle.",
+     "image": "img/fi/address-book-book.png"
+    },
+    {
+     "id": "clients",
+     "title": "Asiakkaat",
+     "text": "”Uusi asiakas” lisää asiakkaan. Asiakasta, jolla on ajoja, ei voi poistaa — hänet voi poistaa valinnasta. Aiemmat ajot säilyttävät asiakkaan nimen.",
+     "image": ""
+    },
+    {
+     "id": "client",
+     "title": "Asiakas",
+     "text": "Nimi, kuljettajan muistiinpano ja osoitteet. Nimen muutos tarkistaa, onko sama nimi jo olemassa. Poiston voi perua heti painikkeella ”Kumoa”.",
+     "image": "img/fi/address-book-client.png"
+    },
+    {
+     "id": "add-address",
+     "title": "Osoite",
+     "text": "Osoite, merkintä ja koordinaatti. Koordinaatin voi tallentaa nykyisestä sijainnista. ”Avaa navigaattorissa” ja ”Lähetä” välittävät pisteen eteenpäin. Punainen merkki korostaa osoitteen, joka pitää muistaa (hankala sisäänajo, erityissäännöt).",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "backup",
+   "title": "Varmuuskopio ja palautus",
+   "intro": "Varmuuskopio on yksi tiedosto, jossa on koko ajopäiväkirja: reissut, vuorot, tankkaukset, kalusto sekä asiakirjat valokuvineen.",
+   "steps": [
+    {
+     "id": "backup",
+     "title": "Tee varmuuskopio",
+     "text": "Asetukset → Varmuuskopio: ”Vie tietokanta (varmuuskopio)” tallentaa tiedoston, ”Jaa varmuuskopio” lähettää sen heti (sähköposti, viestisovellus, pilvi). Varmuuskopion voi tehdä milloin tahansa — työ ei keskeydy.",
+     "image": ""
+    },
+    {
+     "id": "restore",
+     "title": "Palauta",
+     "text": "”Tuo tietokanta (palautus)” korvaa kaikki nykyiset tiedot varmuuskopiotiedostolla. Sovellus tarkistaa tiedoston ensin: vierasta tiedostoa tai uudemman sovellusversion varmuuskopiota ei hyväksytä. Uudessa puhelimessa palautuksen voi tehdä suoraan ensimmäisen käynnistyksen ensimmäisessä vaiheessa.",
+     "image": ""
+    },
+    {
+     "id": "cross",
+     "title": "Android ja iPhone",
+     "text": "Varmuuskopio on samanlainen Androidissa ja iPhonessa: toisessa tehty tiedosto voidaan palauttaa toiseen.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "online",
+   "title": "Ohjelma verkossa",
+   "intro": "Ohjelma verkossa — my.vecturabook.com: sama ajopäiväkirja selaimessa ja muilla laitteillasi.",
+   "steps": [
+    {
+     "id": "device-link",
+     "title": "Yhdistä puhelin",
+     "text": "Asetukset → ”Yhdistä VecturaBookiin”. Skannaa QR-koodi verkkotililtäsi, avaa tili selaimessa ja vahvista puhelimessa tai syötä näytöllä näkyvä koodi. ”Katkaise tämän puhelimen yhteys” irrottaa puhelimen.",
+     "image": "img/fi/online-device-link.png"
+    },
+    {
+     "id": "sync",
+     "title": "Synkronointi",
+     "text": "Yhdistetty puhelin lähettää uudet merkinnät automaattisesti ja vastaanottaa muokkaukset muilta laitteilta. Tilapalkki näyttää ”Kaikki synkronoitu” tai montako merkintää odottaa lähetystä. Ilman verkkoa merkinnät odottavat puhelimessa.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "settings",
+   "title": "Asetukset",
+   "intro": "Asetukset on jaettu ryhmiin: kuljettajan profiili, puhelin ja yhteys, asiakirjat (PDF), varmuuskopio ja yleiset asetukset.",
+   "steps": [
+    {
+     "id": "settings",
+     "title": "Asetukset",
+     "text": "Täällä ovat kieli ja alue, yksiköt, teema, animaatiot, tankkausten ja matkahistorian PDF, varmuuskopio sekä yhdistäminen verkkopalveluun.",
+     "image": "img/fi/settings-settings.png"
+    },
+    {
+     "id": "profile",
+     "title": "Kuljettajan profiili",
+     "text": "Nimi raportteihin ja kuljettajan asiakirjat: ajokortti, passi, ADR-todistus — voimassaoloaikoineen ja sivukuvineen.",
+     "image": "img/fi/settings-profile.png"
+    },
+    {
+     "id": "language",
+     "title": "Kieli ja alue",
+     "text": "Sovelluksen kieli, GPS-osoitteiden kieli (automaattinen — nykyisen maan mukaan) ja päivämäärämuoto.",
+     "image": "img/fi/settings-language.png"
+    },
+    {
+     "id": "units",
+     "title": "Yksiköt",
+     "text": "Etäisyys, paino, tilavuus, pituus, lämpötila ja polttoaineenkulutus. Esiasetukset: metrinen, brittiläinen, sekoitettu — tai mukautettu.",
+     "image": ""
+    },
+    {
+     "id": "theme",
+     "title": "Teema",
+     "text": "Vaalea, tumma tai automaattinen (päivän ja yön alkamisajan mukaan). Esiasetukset: Kraft, Tumma kraft, Manila, Lähes valkoinen, Tumma. Voit myös tehdä oman teeman.",
+     "image": "img/fi/settings-theme.png"
+    },
+    {
+     "id": "theme-custom",
+     "title": "Oma teema",
+     "text": "Taustan, tekstin, yläpalkin, korttien, kentän reunuksen, selitteiden, painikkeiden sekä tankkaus- ja pysäköintikuvakkeiden värit. Teeman voi tallentaa, nimetä uudelleen ja määrittää vaaleaksi tai tummaksi.",
+     "image": ""
+    },
+    {
+     "id": "animations",
+     "title": "Animaatiot",
+     "text": "Liikkuvat kohtaukset purussa ja tankkauksessa. Ne voi kytkeä pois päältä.",
+     "image": ""
+    },
+    {
+     "id": "about",
+     "title": "Tietoja",
+     "text": "Versio, verkkosivu, Telegram, Facebook ja mahdollisuus tukea projektia. Aiemmin sovelluksen nimi oli CargoLog — vain nimi muuttui.",
+     "image": ""
+    },
+    {
+     "id": "feedback",
+     "title": "Palaute / virheilmoitus",
+     "text": "Ilmoita virheestä, ehdota ideaa tai kirjoita muuta palautetta. Mukaan voi liittää kuvakaappauksen tai valokuvan. Valikossa ovat myös ”Tarkista päivitykset” ja ”Arvioi sovellus”.",
+     "image": ""
+    },
+    {
+     "id": "help",
+     "title": "Ohje",
+     "text": "”Ohje” on tämän käyttöohjeen sisällysluettelo: yleiset osiot ja osiot ajoneuvotyypin mukaan. Jokainen avautuu suoraan tästä vaiheittain.",
+     "image": "img/fi/settings-help.png"
+    }
+   ]
+  },
+  {
+   "slug": "notifications",
+   "title": "Ilmoitukset ja muistutukset",
+   "intro": "Sovellus kertoo, mikä on käynnissä ja mikä on tulossa pian.",
+   "steps": [
+    {
+     "id": "timers",
+     "title": "Ajastimet",
+     "text": "Odotus, tankkaus ja purku pyörivät myös silloin, kun sovellus on pienennetty: ajastin näkyy ilmoitusalueella. Napauta ilmoitusta palataksesi sovellukseen.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Asiakirjojen voimassaolo",
+     "text": "Ilmoitukset asiakirjojen vanhenemisesta tulevat etukäteen ja päättymispäivänä.",
+     "image": ""
+    },
+    {
+     "id": "permissions",
+     "title": "Käyttöoikeudet",
+     "text": "Jos ilmoitukset, kamera tai sijainti on estetty, sovellus neuvoo, mistä ne voi sallia puhelimen asetuksissa.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics",
+   "title": "Diagnostiikkakanava",
+   "intro": "Diagnostiikkakanava lähettää puhelimesta tietoja kehittäjälle, jotta viat voidaan selvittää oikealla datalla. Se on pois päältä, kunnes kytket sen itse päälle.",
+   "steps": [
+    {
+     "id": "enroll",
+     "title": "Puhelimen rekisteröinti",
+     "text": "Lue suostumus ja jos hyväksyt sen, napauta ”Suostun, rekisteröi tämä puhelin”. ”Peru tämän puhelimen rekisteröinti” sulkee kanavan ja poistaa varmenteen.",
+     "image": "img/fi/diagnostics-enroll.png"
+    },
+    {
+     "id": "channel-settings",
+     "title": "Mitä lähetetään",
+     "text": "Kolme kytkintä: sovelluksen toimintalokit, matkatietokanta ja kuvat konttinumeroista. Jokainen on pois päältä, kunnes kytket sen päälle; jokaisen voi kytkeä pois milloin tahansa. Niin kauan kuin kaikki kolme ovat pois, mitään ei lähetetä. Sovellus ei lue puhelimen galleriaa.",
+     "image": ""
+    },
+    {
+     "id": "warning",
+     "title": "Varoitus",
+     "text": "Huoltonäyttöihin siirtyminen alkaa varoituksella. Voit poistua painikkeella ”Viekää minut pois täältä”.",
+     "image": ""
+    },
+    {
+     "id": "server",
+     "title": "Kanavan palvelin",
+     "text": "Yhteyden tila: linjoilla, vaiti, ei verkkoa, palvelin ei ota vastaan. Kaikki lähetysvalmis odottaa puhelimessa — sinun ei tarvitse tehdä mitään.",
+     "image": ""
+    },
+    {
+     "id": "import",
+     "title": "Kanavanippu",
+     "text": "Työpuhelimiin kanavanipun voi asentaa salasanalla suojatusta .p12-tiedostosta. Salasanaa käytetään vain kerran eikä sitä tallenneta.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "service",
+   "title": "Huoltonäytöt",
+   "intro": "Huoltonäyttöjä tarvitaan vikojen selvittämiseen. Niihin pääsee napauttamalla seitsemän kertaa ”Tietoja”-näyttöä. Normaalissa työssä niitä ei tarvita.",
+   "steps": [
+    {
+     "id": "hub",
+     "title": "Huoltokeskus",
+     "text": "Tiedot sovelluksesta ja puhelimesta, pääsy huoltonäyttöihin ja diagnostiikkakanavaan sekä animaatiogalleria.",
+     "image": ""
+    },
+    {
+     "id": "database",
+     "title": "Tietokanta",
+     "text": "Tietokannan tila ja sovelluksen täysi nollaus. Nollaus poistaa kaiken pysyvästi — tee ensin varmuuskopio.",
+     "image": ""
+    },
+    {
+     "id": "logs",
+     "title": "Lokit",
+     "text": "Sovelluksen toimintalokit vikojen selvittämiseen.",
+     "image": ""
+    },
+    {
+     "id": "ocr",
+     "title": "Tunnistus",
+     "text": "Kameran numerontunnistuksen diagnostiikka.",
+     "image": ""
+    },
+    {
+     "id": "system",
+     "title": "Järjestelmä",
+     "text": "Tiedot puhelimesta ja kaatumisista.",
+     "image": ""
+    },
+    {
+     "id": "locale",
+     "title": "Kieli ja käyttöönotto",
+     "text": "Kielten tarkistus ja ensimmäisen käynnistyksen toisto.",
+     "image": ""
+    },
+    {
+     "id": "dataset",
+     "title": "Kameran kuvat",
+     "text": "Kuvien ottaminen tunnistuksen opettamiseen — vain kun kuville on annettu suostumus.",
+     "image": ""
+    },
+    {
+     "id": "splash-tuner",
+     "title": "Aloitusnäyttö",
+     "text": "Käynnistyksen aloitusnäytön säätö.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "flatbed",
+   "title": "Avolava",
+   "intro": "Avolava kuljettaa kappaletavaraa ja ylimittaista lastia.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Hallissa",
+     "text": "Valitse korityypiksi ”Avolava” ja anna lavan pituus.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reissulla",
+     "text": "Lastityypit: kappaletavara (lavat, paino, kuvaus), ylimittainen (pituus, leveys, korkeus, paino) ja kontti avolavalla. Ylimittaisessa lastissa vaihe ”Lastin tiedot” kysyy mitat.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Purku",
+     "text": "Lavat puretaan pysäkeittäin kappalemääränä tai prosentteina.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "container",
+   "title": "Kontti",
+   "intro": "Konttiperävaunu kuljettaa yhtä tai kahta 20, 40 tai 45 jalan konttia.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Hallissa",
+     "text": "Korityyppi ”Kontti”; kontin koko, jolle perävaunu on tarkoitettu.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reissulla",
+     "text": "Kysymysketju: tyhjä vai lastattu, koko, montako konttia, tyyppi (Vakio, Reefer, Flat Rack, Open Top, Tank). Kontin ja sinetin numero kameralla. Venta-sinetin numero ja lämpötila Reefer-konteille.",
+     "image": ""
+    },
+    {
+     "id": "fate",
+     "title": "Purun jälkeen",
+     "text": "Sovellus kysyy, mitä kontille tapahtui: jäi asiakkaalle, jäi autoon, menee toiselle asiakkaalle tai palautetaan satamaan tai varikolle.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "sidelifter",
+   "title": "Sivulastaaja",
+   "intro": "Sivulastaaja nostaa kontin kyytiin ja laskee sen maahan itse.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Hallissa",
+     "text": "Korityyppi ”Sivulastaaja” on saatavilla vain puoliperävaunulle.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reissulla",
+     "text": "Kontti kirjataan samalla tavalla kuin konttiperävaunussa; nostotyö merkitään yhteenvedossa.",
+     "image": ""
+    },
+    {
+     "id": "exchange",
+     "title": "Vaihto",
+     "text": "Sivulastaaja vaihtaa usein kontteja kohteessa — käytä toimintoa ”Konttien vaihto”.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "refrigerated",
+   "title": "Kylmäkuljetus",
+   "intro": "Kylmäkuljetus kuljettaa lämpötilasäädeltyä lastia.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Hallissa",
+     "text": "Korityyppi ”Kylmäkuljetus”; merkitse generaattori, jos sellainen on asennettu, ja anna koneikon tankki sekä kriittinen vara.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reissulla",
+     "text": "Lämpötilasäädelty: säädelty tai ei säätelyä; lastin lämpötila. Ajonäkymässä on kytkin ”Koneikko käy”.",
+     "image": ""
+    },
+    {
+     "id": "fuel",
+     "title": "Koneikon polttoaine",
+     "text": "Koneikon diesel syötetään tankkauksessa omaan kenttäänsä; sovellus laskee käyttötunnit ja kulutuksen litroina tunnissa sekä näyttää ”≈ N h varaan”.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "curtainsider",
+   "title": "Kapelli",
+   "intro": "Kapelliperävaunu kuljettaa kappaletavaraa lavoilla.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Hallissa",
+     "text": "Korityyppi ”Kapelli”.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reissulla",
+     "text": "Kappaletavara: lavojen määrä, kokonaispaino, kuvaus.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Purku",
+     "text": "Merkitse jokaisella pysäkillä, montako lavaa purettiin; sovellus muistaa kyydissä olevan jäännöksen.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tipper",
+   "title": "Kippiauto",
+   "intro": "Kippiauto kuljettaa irtotavaraa.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Hallissa",
+     "text": "Korityyppi ”Kippiauto”.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reissulla",
+     "text": "Irtotavara: tilavuus kuutiometreinä, netto- ja bruttopaino, kuvaus.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Purku",
+     "text": "Purku merkitään ajalla; lastaustöiden ajastin näyttää, kauanko se kesti.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fuel-tanker",
+   "title": "Säiliöauto",
+   "intro": "Säiliöauto kuljettaa polttoainetta lohkoissa.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Hallissa",
+     "text": "Korityyppi ”Säiliöauto”; lohkojen määrä ja kunkin tilavuus litroina.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reissulla",
+     "text": "Lastin tiedoissa annetaan tilavuus kullekin lohkolle.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Purku",
+     "text": "Merkitse kohteessa puretut lohkot. Jos reissua lopetettaessa osa lohkoista on vielä purkamatta, sovellus pyytää vahvistuksen.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tanker",
+   "title": "Säiliöauto",
+   "intro": "Säiliöperävaunu kuljettaa nestemäisiä lasteja.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Hallissa",
+     "text": "Korityyppi ”Säiliöauto”; lohkot ja tilavuudet.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reissulla",
+     "text": "Nesteen kategoria: kemikaalit, elintarvike, jäte; lämpötilasäädelty; ADR ja UN-numerot vaarallisille aineille.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Purku",
+     "text": "Lohkot puretaan pysäkeittäin samalla tavalla kuin polttoainesäiliöautossa.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "car-transporter",
+   "title": "Autonkuljetin",
+   "intro": "Autonkuljetin kuljettaa henkilöautoja.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Hallissa",
+     "text": "Korityyppi ”Autonkuljetin”; autopaikkojen määrä.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reissulla",
+     "text": "Ajoneuvot kirjataan VIN-koodilla (17 merkkiä, ei I, O, Q) tai rekisterinumerolla; VIN-koodin voi skannata kameralla. Laskuri näyttää, montako autoa on lastattu.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Purku",
+     "text": "Merkitse kohteessa, mitkä ajoneuvot purettiin ja mitkä otettiin kyytiin. Jos reissua lopetettaessa ajoneuvoja on vielä kyydissä, sovellus pyytää vahvistuksen.",
+     "image": ""
+    }
+   ]
+  }
+ ],
+ "screens": {
+  "getting-started.welcome": "Ensimmäinen käynnistys: nimi, vetoauto, perävaunu ja käyttöoikeudet. Jos sinulla on varmuuskopio, voit palauttaa koko ajopäiväkirjan.",
+  "getting-started.onboarding": "Vastaa kysymyksiin itsestäsi ja autostasi. Kaikkea voi muuttaa myöhemmin asetuksissa ja hallissa.",
+  "getting-started.main-screen": "Päänäyttö näyttää, missä työvaiheessa olet nyt, ja vie seuraavaan vaiheeseen: vuoro, reissu, purku.",
+  "getting-started.menu": "Sovelluksen valikko: halli, historia, raportit, tankkaukset, huolto, asiakirjat, osoitteet, ohje ja asetukset.",
+  "shift.shift-welcome": "Vuoron aloitus: sijainti, reissun odotus ja painike ”Aloita reissu”.",
+  "shift.shift-status": "Onko vuoro auki, mistä ajasta lähtien ja montako reissua siinä on.",
+  "trip.origin": "Asiakas ja osoite, mistä tai minne ajat. Uusi asiakas tallentuu osoitekirjaan automaattisesti.",
+  "trip.cargo-type": "Mitä kuljetat. Valikoima riippuu vetoauton ja perävaunun korityypistä.",
+  "trip.cargo-details": "Lastin tiedot: konttien ja sinettien numerot, lohkot, ajoneuvot, lavat. Numerot voi skannata kameralla.",
+  "trip.load-details": "Lastin mitat, paino ja kuvaus.",
+  "trip.trip-times": "Jo tallennetun reissun aikojen, osoitteiden ja matkamittarien muokkaus.",
+  "trip.confirm": "Reissun yhteenveto. Tarkista tiedot ja napauta ”Matkaan” — vasta silloin reissu tallentuu.",
+  "trip.arrival": "Olet kohteessa: saapuminen sekä purun tai lastauksen aloitus ja lopetus.",
+  "trip.unload": "Mitä tällä pysäkillä jätettiin: lohkot, prosenttiosuus, lavat tai ajoneuvot.",
+  "trip.cargo-fate": "Mitä kontille tapahtuu purun jälkeen.",
+  "trip.summary": "Reissun yhteenveto: seuraava pysäkki, lopetus tai uusi reissu.",
+  "driving.driving": "Reissu käynnissä: saapuminen, tankkaus, pysäköinti. Auton alla näkyy arvioitu matka varatankille.",
+  "driving.odometer": "Matkamittarin lukema. Sovellus ehdottaa odotettua lukemaa ja tarkistaa sen; voi myös skannata kameralla.",
+  "driving.swap-trailer": "Perävaunun vaihto matkalla: valitse perävaunu hallista.",
+  "refuel.refuel-timer": "Tankkaus käynnissä: ajastin. Lopuksi syötetään litrat.",
+  "refuel.refuel-data": "Dieselin, AdBluen ja perävaunun koneikon litrat sekä matkamittari. Tallentuu yhtenä merkintänä.",
+  "refuel.refuel-history": "Kaikki jakson tankkaukset, keskikulutus ja PDF-raportti.",
+  "parking.parking-stop": "Pysäköintiosoite: käsin, tallennetuista paikoista tai GPS:llä.",
+  "parking.places": "Omat paikat: taukopaikat, satamat, varikot. Valitaan pysäköinnissä ja kontin palautuksessa.",
+  "parking.place-form": "Paikan nimi, muistiinpano ja koordinaatti; avaa navigaattorissa.",
+  "camera.scan": "Suuntaa numero kehykseen. Nipistä kehys tiukasti numeron ympärille; napautus ulkopuolella ottaa kuvan.",
+  "camera.container-exchange": "Konttien vaihto toisen kuljettajan kanssa: mitä luovutettiin, mitä otettiin kyytiin.",
+  "camera.photos": "Reissun asiakirjakuvat koko näytöllä.",
+  "history.history": "Kaikki vuorot ja reissut: haku, tiedot, muokkaus ja poisto.",
+  "report.report": "Jakson summat ja PDF-raportti.",
+  "garage.garage": "Vetoautosi ja perävaunusi. Napauta ajoneuvoa avataksesi sen hallinnan.",
+  "garage.truck-form": "Vetoauton rekisterinumero, tyyppi ja korityyppi; nosturi tai manipulaattori.",
+  "garage.trailer-form": "Perävaunun rekisterinumero, kytkentä ja korityyppi; lohkot, autopaikat, generaattori.",
+  "garage.vehicle-hub": "Kaikki ajoneuvosta: asiakirjat, huolto, katsastus, akselit ja renkaat, kilpi, väri.",
+  "garage.vehicle-settings": "Matkamittari, huoltovälit, akselit, tankki ja kriittinen vara.",
+  "garage.plate-colors": "Rekisterikilven värit, kuten autossasi.",
+  "garage.rig-paint": "Ohjaamon, nosturin ja korin värit auton kuvassa.",
+  "garage.tyres": "Akselikaavio ja renkaiden historia: vaihdot, puhkeamiset, siirrot.",
+  "documents.overview": "Kaikki ajoneuvojen ja kuljettajan asiakirjat voimassaoloaikoineen.",
+  "documents.list": "Tämän ajoneuvon asiakirjat. ”+” lisää uuden.",
+  "documents.form": "Asiakirjan tyyppi, nimi ja voimassaoloaika.",
+  "documents.pages": "Kuvat asiakirjan sivuista.",
+  "maintenance.maintenance": "Matka seuraavaan huoltoon ja huoltomerkinnät.",
+  "maintenance.new-record": "Uusi huoltomerkintä: matkamittari, päivämäärä, tehdyt työt, kuvat.",
+  "address-book.book": "Asiakkaat ja omat paikat.",
+  "address-book.clients": "Asiakaslista: lisää, piilota, poista.",
+  "address-book.client": "Asiakkaan nimi, muistiinpano ja osoitteet.",
+  "address-book.add-address": "Osoite, koordinaatti, navigaattori ja punainen merkki.",
+  "backup.backup": "Koko ajopäiväkirjan tiedosto: tallenna, jaa tai palauta.",
+  "online.device-link": "Puhelimen yhdistäminen verkkopalveluun: QR-koodi tai näytöllä näkyvä koodi.",
+  "settings.settings": "Kaikki asetukset ryhmittäin.",
+  "settings.profile": "Kuljettajan nimi ja hänen asiakirjansa.",
+  "settings.language": "Sovelluksen kieli, GPS-osoitteiden kieli, päivämäärämuoto.",
+  "settings.theme": "Vaalea, tumma tai automaattinen; esiasetetut ja omat teemat.",
+  "settings.theme-custom": "Oman teeman värit.",
+  "settings.about": "Sovelluksen versio ja yhteys kehittäjään.",
+  "settings.feedback": "Ilmoita virheestä tai ehdota ideaa.",
+  "settings.help": "Sovelluksen käyttöohje osioittain.",
+  "diagnostics.enroll": "Suostumus ja puhelimen rekisteröinti diagnostiikkakanavaan.",
+  "diagnostics.warning": "Pääsy sovelluksen huolto-osaan.",
+  "diagnostics.channel-settings": "Mitä puhelin lähettää kehittäjälle: kolme erillistä suostumusta.",
+  "diagnostics.server": "Diagnostiikkakanavan yhteyden tila.",
+  "diagnostics.import": "Kanavanipun asennus .p12-tiedostosta.",
+  "service.hub": "Huoltokeskus: tiedot ja huoltonäytöt.",
+  "service.database": "Tietokannan tila ja sovelluksen täysi nollaus.",
+  "service.logs": "Sovelluksen toimintalokit.",
+  "service.ocr": "Numerontunnistuksen diagnostiikka.",
+  "service.system": "Tiedot puhelimesta ja kaatumisista.",
+  "service.locale": "Kielten tarkistus ja ensimmäisen käynnistyksen toisto.",
+  "service.dataset": "Kuvien ottaminen tunnistusta varten.",
+  "service.splash-tuner": "Aloitusnäytön säätö."
+ }
+}

@@ -1,0 +1,978 @@
+{
+ "format": 1,
+ "language": "it",
+ "revision": "2026-10-26",
+ "sections": [
+  {
+   "slug": "getting-started",
+   "title": "Primi passi",
+   "intro": "VecturaBook è il diario di bordo dell'autista: turni, viaggi, rifornimenti, soste, documenti e mezzi in un solo telefono. Tutto è salvato sul telefono e funziona senza internet.",
+   "steps": [
+    {
+     "id": "welcome",
+     "title": "Primo avvio",
+     "text": "Al primo avvio l'app fa alcune domande in quattro brevi passaggi. Ci vuole un minuto, e tutto quello che inserisci si può modificare dopo in «Impostazioni» e in «Parco mezzi».\n\nSe hai già un backup di VecturaBook (ad esempio dal vecchio telefono), tocca «Ripristina da backup» al primo passaggio: il registro tornerà per intero e non servirà rispondere alle domande.",
+     "image": "img/it/getting-started-welcome.png"
+    },
+    {
+     "id": "onboarding",
+     "title": "Nome, camion, rimorchio, permessi",
+     "text": "Passaggio 1 — il nome. Viene stampato nei report. Puoi lasciarlo vuoto e scriverlo più tardi.\n\nPassaggio 2 — trattore o motrice: targa, tipo e carrozzeria. Tipo e carrozzeria si scelgono con le immagini tramite una serie di domande: a ogni risposta l'app mostra la domanda successiva.\n\nPassaggio 3 — rimorchio. Puoi saltarlo con il pulsante «Salta rimorchio» e aggiungerlo dopo in «Parco mezzi».\n\nPassaggio 4 — permessi: «Fotocamera» (numeri di container, sigilli, contachilometri), «Posizione» (città a inizio turno, solo quando lo chiedi tu) e «Notifiche» (timer di attesa, rifornimento e scarico). Puoi rifiutarne uno qualsiasi: l'app funzionerà comunque, solo senza quella funzione.",
+     "image": "img/it/getting-started-onboarding.png"
+    },
+    {
+     "id": "main-screen",
+     "title": "Schermata principale",
+     "text": "La «Schermata principale» mostra a che punto sei del lavoro: turno non iniziato, turno aperto, viaggio in corso, sei al punto di scarico e così via. I pulsanti portano sempre al passaggio successivo, così non puoi dimenticare nulla.\n\nIn alto c'è la barra con il pulsante del menu a sinistra e il pulsante «?» a destra. Il pulsante «?» c'è in ogni schermata: spiega in breve la schermata e con il pulsante «Altro» apre la sezione giusta di questa guida.",
+     "image": "img/it/getting-started-main-screen.png"
+    },
+    {
+     "id": "menu",
+     "title": "Menu",
+     "text": "Il pulsante con le tre righe apre il menu a riquadri: «Parco mezzi», «Storico viaggi», «Report», «Registro rifornimenti», «Manutenzione», «Documenti del veicolo», «Rubrica», «Aiuto». In basso c'è «Impostazioni».\n\nIn qualsiasi altra schermata, al posto del pulsante del menu c'è la freccia «Indietro».",
+     "image": "img/it/getting-started-menu.png"
+    },
+    {
+     "id": "help-offline",
+     "title": "Guida senza internet",
+     "text": "L'app scarica i testi di questa guida nella propria lingua e li conserva sul telefono, così «?» e «Aiuto» funzionano per strada anche senza rete. Una volta al giorno, se c'è internet, l'app controlla in silenzio se ci sono aggiornamenti.\n\nSe la guida non è mai stata scaricata, l'app chiederà di connettersi a internet.",
+     "image": "img/it/getting-started-help-offline.png"
+    }
+   ]
+  },
+  {
+   "slug": "shift",
+   "title": "Turno",
+   "intro": "Il turno è la giornata di lavoro dall'inizio alla fine. Dentro il turno ci sono viaggi, rifornimenti e soste; i totali del turno finiscono nello storico e nei report.",
+   "steps": [
+    {
+     "id": "shift-welcome",
+     "title": "Inizia turno",
+     "text": "Tocca «Inizia turno». L'app ti saluta e mostra dove ti trovi: la città viene rilevata dalla posizione, se l'hai consentita, altrimenti tocca la riga con la puntina e scrivi tu il luogo.\n\nSe non hai ancora un viaggio, tocca «In attesa di viaggio»: partirà il timer di attesa. «Ferma attesa» lo arresta. L'attesa prima del viaggio finisce nello storico e nel report.\n\nQuando hai il viaggio, tocca «Inizia viaggio».",
+     "image": "img/it/shift-shift-welcome.png"
+    },
+    {
+     "id": "shift-status",
+     "title": "Stato del turno",
+     "text": "La schermata «Turno» mostra se il turno è aperto, da quando è aperto e quanti viaggi contiene. «Riprendi turno» ti riporta al lavoro.\n\nNon si può chiudere il turno finché il viaggio non è concluso: prima termina il viaggio.",
+     "image": "img/it/shift-shift-status.png"
+    },
+    {
+     "id": "end-shift",
+     "title": "Termina turno",
+     "text": "Il pulsante rosso «Termina turno» è l'unico pulsante rosso dell'app. L'app chiederà conferma e il «Contachilometri finale». Il numero viene controllato: se è inferiore al precedente o molto più alto del previsto, l'app mostrerà l'ultima lettura nota e chiederà di confermare o correggere.",
+     "image": ""
+    },
+    {
+     "id": "forgotten-shift",
+     "title": "Turno dimenticato aperto",
+     "text": "Se il turno resta aperto per più di un giorno, l'app proporrà di chiuderlo con l'ora dell'ultimo evento, così le ore di lavoro nel report non si gonfiano. Puoi accettare o continuare il turno.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "trip",
+   "title": "Viaggio: dal carico allo scarico",
+   "intro": "Il viaggio si registra passo dopo passo: da dove e dove vai, cosa trasporti, dettagli del carico, riepilogo e «In marcia». A destinazione: arrivo, scarico o carico, riepilogo. Finché non tocchi «In marcia», nel registro non viene scritto nulla: in qualsiasi passaggio puoi tornare indietro con «Indietro» senza perdere quello che hai inserito.",
+   "steps": [
+    {
+     "id": "origin",
+     "title": "Cliente e percorso",
+     "text": "Scegli il cliente: inizia a scrivere il nome e l'app ti darà i suggerimenti dalla rubrica. Se il cliente è nuovo, basta scriverlo: entrerà da solo in rubrica.\n\nUn cliente può avere più indirizzi: scegli quello giusto o aggiungine uno nuovo. L'icona GPS compila l'indirizzo con la posizione attuale. Le note del conducente sul cliente sono visibili proprio qui.",
+     "image": "img/it/trip-origin.png"
+    },
+    {
+     "id": "cargo-type",
+     "title": "Cosa trasporti",
+     "text": "Il tipo di carico si sceglie dai riquadri: «Container», «Merce generica», «Fuori sagoma», «Frigorifero», «Cisterna», «Sfuso», «Bisarca», «Vuoto». L'elenco dipende dalla carrozzeria del camion e del rimorchio.\n\nSe cambi il tipo di carico dopo aver già inserito i dettagli, l'app ti avviserà che i dati inseriti verranno cancellati e chiederà conferma.",
+     "image": "img/it/trip-cargo-type.png"
+    },
+    {
+     "id": "cargo-details",
+     "title": "Dettagli del carico",
+     "text": "I dettagli dipendono dal tipo di carico. Per il container: vuoto o carico, dimensione, quanti container, tipo, numero del container e del sigillo. I numeri si possono leggere con la fotocamera. Per le cisterne: scomparti e volumi; per la bisarca: veicoli per VIN o targa; per la merce generica: pallet e peso.\n\nSe per il viaggio non servono dettagli (ad esempio a vuoto), tocca semplicemente «Avanti».\n\nL'interruttore ADR apre i campi dei numeri UN per la merce pericolosa.",
+     "image": "img/it/trip-cargo-details.png"
+    },
+    {
+     "id": "load-details",
+     "title": "Dettagli del carico",
+     "text": "Per i carichi fuori sagoma e i container su pianale: lunghezza, larghezza, altezza, peso e descrizione. Le misure sono nelle unità scelte nelle impostazioni.",
+     "image": "img/it/trip-load-details.png"
+    },
+    {
+     "id": "trip-times",
+     "title": "Orari e punti del viaggio",
+     "text": "Questa schermata appare solo quando modifichi dallo storico un viaggio già registrato. Qui si correggono ora di partenza, arrivo, inizio e fine delle operazioni di carico/scarico, indirizzi e contachilometri dei punti.\n\nUn orario che non c'era nel viaggio è indicato con un trattino e non è modificabile: la modifica non aggiunge al viaggio eventi che non ci sono stati.",
+     "image": ""
+    },
+    {
+     "id": "confirm",
+     "title": "Riepilogo viaggio",
+     "text": "Il riepilogo mostra tutto il viaggio in un'unica schermata. Qui ci sono anche le opzioni: «Pernotto in cabina», «Missione militare», «Zona pericolosa», «Temperatura controllata», «Lavoro con gru» (se il camion ha la gru).\n\n«Modifica» riporta ai passaggi precedenti. Il pulsante verde «In marcia» salva il viaggio e lo avvia. Se sul telefono c'è un navigatore, l'app proporrà di aprirvi l'indirizzo.",
+     "image": "img/it/trip-confirm.png"
+    },
+    {
+     "id": "arrival",
+     "title": "Arrivo",
+     "text": "Una volta sul posto, tocca «Arrivato». L'app segnerà l'ora e proporrà il contachilometri.\n\n«Inizia scarico/carico» avvia il timer delle operazioni di movimentazione, «Ferma scarico/carico» lo arresta. Se qualcosa non si è salvato (ad esempio il telefono si è bloccato), l'app te lo dirà e ti chiederà di toccare di nuovo: nulla finisce nel registro a metà.",
+     "image": "img/it/trip-arrival.png"
+    },
+    {
+     "id": "unload",
+     "title": "Scarico in questo punto",
+     "text": "Se il carico viene consegnato in più tappe, segna cosa hai scaricato in questo punto: scomparti della cisterna, percentuale del container, pallet, singoli veicoli della bisarca. L'app ricorda quanto resta a bordo e non lascia scaricare più di quello che c'è.",
+     "image": ""
+    },
+    {
+     "id": "cargo-fate",
+     "title": "Cosa è successo al container",
+     "text": "Dopo lo scarico l'app chiede cosa succede al container: «Resta qui», «Resta sul camion», va «Da un cliente», va in «Restituzione» («In un luogo» come porto o deposito, oppure «Altro indirizzo»). La risposta guida il passaggio successivo del viaggio.",
+     "image": "img/it/trip-cargo-fate.png"
+    },
+    {
+     "id": "summary",
+     "title": "Riepilogo viaggio",
+     "text": "Dopo la fermata puoi scegliere «Continua viaggio» (prossima tappa dello stesso viaggio), «Termina viaggio» o «Nuovo viaggio».\n\n«Compila il prossimo viaggio» permette di inserire in anticipo, durante lo scarico, il viaggio successivo: cliente, carico, numeri. Poi «Termina e parti» lo avvia subito.",
+     "image": "img/it/trip-summary.png"
+    }
+   ]
+  },
+  {
+   "slug": "driving",
+   "title": "Schermata di guida",
+   "intro": "Mentre il viaggio è in marcia, la schermata principale è «In corso»: il mezzo del viaggio, le targhe del camion e del rimorchio, il tempo di guida e i pulsanti per le azioni successive.",
+   "steps": [
+    {
+     "id": "driving",
+     "title": "In corso",
+     "text": "I pulsanti della schermata sono: «Arrivato» (sei sul posto), «Rifornimento», «Parcheggio / Sosta». Sopra i pulsanti c'è il disegno del tuo mezzo con le sue targhe; il disegno è composto in base a quanto salvato in «Parco mezzi»: tipo, carrozzeria, assi, colori.\n\nSe in «Parco mezzi» hai indicato la capacità del serbatoio e la tua riserva critica, sotto il mezzo vedi quanto manca circa alla riserva: «≈ N km alla riserva» per il gasolio del camion e «≈ N h alla riserva» per il gruppo del rimorchio (frigorifero, genset). Il calcolo si basa sui tuoi rifornimenti e sulla percorrenza, quindi subito dopo il primo rifornimento potrebbe non apparire.",
+     "image": "img/it/driving-driving.png"
+    },
+    {
+     "id": "swap-trailer",
+     "title": "Cambia rimorchio",
+     "text": "Per cambiare rimorchio durante il viaggio tocca «Cambia rimorchio». Nella finestra compaiono i rimorchi del parco mezzi: il disegno del rimorchio e la targa sotto. Scegli quello nuovo e il cambio verrà registrato nel viaggio. I rimorchi incompatibili con il camion non vengono proposti nell'elenco.",
+     "image": "img/it/driving-swap-trailer.png"
+    },
+    {
+     "id": "odometer",
+     "title": "Contachilometri",
+     "text": "L'app precompila il valore previsto: dal mezzo, dal carico, dall'ultimo scarico o dal rifornimento. Controllalo e correggilo se serve. Il contachilometri si può leggere con la fotocamera.\n\nSe il numero è inferiore al precedente, molto più alto del previsto o se non lo hai toccato, l'app mostrerà l'ultima lettura nota e chiederà se è tutto corretto. La modifica del contachilometri in un viaggio passato mostra quali altre voci verranno aggiornate.",
+     "image": "img/it/driving-odometer.png"
+    }
+   ]
+  },
+  {
+   "slug": "refuel",
+   "title": "Rifornimento, AdBlue, gruppo",
+   "intro": "I rifornimenti servono per calcolare il consumo di carburante, per i report e per la stima «alla riserva».",
+   "steps": [
+    {
+     "id": "refuel-timer",
+     "title": "Timer di rifornimento",
+     "text": "«Rifornimento» nella schermata di guida avvia il timer: la durata del rifornimento finisce nel registro. «Termina rifornimento» lo ferma e apre l'inserimento dei litri. Il timer continua a scorrere anche nell'area notifiche se riduci l'app a icona.",
+     "image": "img/it/refuel-refuel-timer.png"
+    },
+    {
+     "id": "refuel-data",
+     "title": "Litri e contachilometri",
+     "text": "Inserisci il gasolio in litri e, se serve, AdBlue e il gasolio del gruppo del rimorchio (frigorifero, genset). Il contachilometri è già compilato; puoi leggerlo con la fotocamera. «Salva rifornimento» registra tutto in un'unica voce.",
+     "image": "img/it/refuel-refuel-data.png"
+    },
+    {
+     "id": "unit",
+     "title": "Gruppo del rimorchio",
+     "text": "Se sul rimorchio è montato un generatore, spunta «Generatore installato» nelle impostazioni del rimorchio. Così nella schermata di guida apparirà l'interruttore «Gruppo in funzione», l'app conterà le ore motore del gruppo e il suo consumo in litri all'ora, e nel rifornimento comparirà il campo per il gasolio del gruppo.",
+     "image": ""
+    },
+    {
+     "id": "refuel-history",
+     "title": "Registro rifornimenti",
+     "text": "Il registro mostra tutti i rifornimenti per «Settimana», «Mese», «Sempre» o un periodo «Personalizzato»: «Carburante totale», numero di «Soste» e «Consumo medio». La percentuale di AdBlue rispetto al gasolio e il consumo del gruppo sono calcolati a parte.\n\n«Genera report PDF» crea il report dei rifornimenti, pronto da inviare. Un rifornimento si può eliminare.",
+     "image": "img/it/refuel-refuel-history.png"
+    }
+   ]
+  },
+  {
+   "slug": "parking",
+   "title": "Sosta e riposo",
+   "intro": "La sosta è una fermata lungo il percorso: riposo, notte, attesa. Viene registrata nel viaggio con il suo indirizzo e l'orario.",
+   "steps": [
+    {
+     "id": "parking-stop",
+     "title": "Parcheggio / Sosta",
+     "text": "Nella schermata di guida tocca «Parcheggio / Sosta». Puoi inserire l'indirizzo a mano, sceglierlo da «Dai luoghi salvati» o toccare l'icona GPS. Se l'indirizzo non viene trovato, l'app inserisce le coordinate, che puoi modificare.\n\nI pernottamenti in cabina vengono contati nello storico e nel report.",
+     "image": "img/it/parking-parking-stop.png"
+    },
+    {
+     "id": "places",
+     "title": "Luoghi",
+     "text": "I «Luoghi» sono i tuoi punti salvati, non legati ai clienti: aree di sosta, porti, depositi, distributori. L'elenco si cerca per nome. I luoghi si scelgono durante una sosta e alla restituzione del container.",
+     "image": ""
+    },
+    {
+     "id": "place-form",
+     "title": "Luogo",
+     "text": "Nome, nota e coordinata. La coordinata si può registrare con la posizione attuale, sostituire o cancellare. I pulsanti «Apri nel navigatore» e «Invia» passano il punto al navigatore o in un messaggio.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "camera",
+   "title": "Fotocamera: container e sigilli",
+   "intro": "La fotocamera legge i numeri di container, sigilli, VIN e contachilometri, per non doverli scrivere a mano.",
+   "steps": [
+    {
+     "id": "scan",
+     "title": "Cornice della fotocamera",
+     "text": "Inquadra il numero nella cornice. Stringi la cornice con due dita vicino al numero: così si legge meglio. «Ruota la cornice» serve per i numeri scritti in verticale. Tocca fuori dalla cornice per scattare la foto.",
+     "image": ""
+    },
+    {
+     "id": "container-number",
+     "title": "Numero container",
+     "text": "Il numero del container ha 4 lettere e 7 cifre. L'app controlla la cifra di controllo; se il calcolo non torna, il numero viene salvato con l'avviso «Numero non convalidato»: controllalo a vista.",
+     "image": ""
+    },
+    {
+     "id": "seal",
+     "title": "Sigillo",
+     "text": "Il numero del sigillo viene letto dalla scritta. Se sul sigillo c'è un codice a barre e non coincide con il numero stampato, l'app prende il numero stampato: il codice a barre a volte appartiene a un'altra serie.",
+     "image": ""
+    },
+    {
+     "id": "container-exchange",
+     "title": "Scambio container",
+     "text": "Se sul posto consegni un container a un altro autista e prendi il suo, registra lo scambio: quale container è stato scaricato, quale caricato, il nome dell'autista e la targa del suo camion.",
+     "image": ""
+    },
+    {
+     "id": "photos",
+     "title": "Foto",
+     "text": "Al viaggio puoi allegare le foto dei documenti al carico e allo scarico con «Foto documenti». «Vedi foto» le apre a tutto schermo.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "history",
+   "title": "Storico viaggi e modifica",
+   "intro": "Lo storico raccoglie tutti i turni e i viaggi. Qui puoi consultarli, cercarli, modificarli ed eliminarli.",
+   "steps": [
+    {
+     "id": "history",
+     "title": "Storico",
+     "text": "I viaggi sono raggruppati per turno: inizio e fine turno, durata, distanza, numero di viaggi. Tocca un viaggio per aprirne i dettagli: cliente, carico, punti, contachilometri, attesa, foto. La ricerca funziona per cliente, container o rotta. «Tutti i viaggi» li mostra in un unico elenco.",
+     "image": "img/it/history-history.png"
+    },
+    {
+     "id": "edit",
+     "title": "Modifica viaggio",
+     "text": "«Modifica» apre gli stessi passaggi della creazione, più la schermata degli orari e dei punti. Le modifiche vengono raccolte e salvate solo nella schermata di riepilogo.\n\nSe la modifica del contachilometri tocca altre registrazioni (viaggio successivo, contachilometri del camion, chilometri del turno), l'app le mostrerà prima di applicare le modifiche.",
+     "image": ""
+    },
+    {
+     "id": "delete",
+     "title": "Eliminazione",
+     "text": "Un viaggio si elimina con il pulsante del cestino; per eliminarne più d'uno usa la modalità di selezione. Un viaggio attivo non si può eliminare: prima terminalo. Se il telefono è collegato al programma online, l'eliminazione arriverà anche sugli altri dispositivi.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "report",
+   "title": "Rapporto e PDF",
+   "intro": "Il report calcola il lavoro svolto in un periodo: viaggi, distanza, tempo di lavoro, attesa, carburante e consumo.",
+   "steps": [
+    {
+     "id": "report",
+     "title": "Report del periodo",
+     "text": "Scegli il periodo: «Oggi», «Settimana», «Mese» o date a scelta («Libero»). Le schede mostreranno i totali. «Esporta report» crea un PDF con turni, viaggi, punti e rifornimenti; puoi inviarlo o stamparlo.",
+     "image": "img/it/report-report.png"
+    },
+    {
+     "id": "pdf",
+     "title": "Cosa c'è nel PDF",
+     "text": "Nel PDF, per ogni turno ci sono apertura e chiusura, camion e rimorchio, viaggi con clienti, carico, tempi di scarico e di attesa, contachilometri e rifornimenti. Alla fine ci sono i «Totali del periodo»: turni, viaggi, rifornimenti, distanza totale, durata totale, carburante totale, distanza media per turno e consumo medio.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "garage",
+   "title": "Flotta: trattori e rimorchi",
+   "intro": "Il «Parco mezzi» conserva i tuoi veicoli. Da qui vengono presi i disegni dei mezzi, le targhe, la compatibilità dei rimorchi, le percorrenze e tutte le impostazioni del veicolo.",
+   "steps": [
+    {
+     "id": "garage",
+     "title": "Parco mezzi",
+     "text": "Due schede: «Camion» e «Rimorchi». Il mezzo attivo è evidenziato. «+ Aggiungi camion» e «+ Aggiungi rimorchio» creano un nuovo mezzo. Toccando un mezzo si apre la sua gestione.\n\nFinché c'è un viaggio in corso non è possibile cambiare mezzo: prima termina il viaggio (il rimorchio in viaggio si cambia con «Cambia rimorchio»).",
+     "image": "img/it/garage-garage.png"
+    },
+    {
+     "id": "truck-form",
+     "title": "Camion",
+     "text": "Targa, tipo («Trattore» o «Motrice») e carrozzeria tramite una serie di domande illustrate; presenza di gru o manipolatore. Nel parco mezzi non possono esserci due targhe uguali.",
+     "image": ""
+    },
+    {
+     "id": "trailer-form",
+     "title": "Rimorchio",
+     "text": "Targa, aggancio («Semirimorchio», «Timone» o «Autotreno») e carrozzeria. Per cisterna carburante e cisterna liquidi: numero di scomparti e volume di ciascuno; per la bisarca: numero di posti auto; per il frigorifero: presenza del generatore.",
+     "image": ""
+    },
+    {
+     "id": "vehicle-hub",
+     "title": "Gestione del mezzo",
+     "text": "La schermata del mezzo raccoglie tutto ciò che lo riguarda: «Immatricolazione», «Documenti», «Manutenzione», «Revisione», «Assi e gomme», «Targa», «Verniciatura». «Attiva» lo seleziona per il lavoro.",
+     "image": "img/it/garage-vehicle-hub.png"
+    },
+    {
+     "id": "vehicle-settings",
+     "title": "Impostazioni del mezzo",
+     "text": "«Chilometraggio attuale», «Intervallo di manutenzione» (chilometri, mesi, soglie di avviso), «Punto di partenza» per il calcolo della manutenzione, «Assi», «Capacità del serbatoio, l» e «La mia riserva critica, l» (per l'indicazione «alla riserva»). Per il rimorchio con gruppo: serbatoio del gruppo e relativa riserva.",
+     "image": "img/it/garage-vehicle-settings.png"
+    },
+    {
+     "id": "plate-colors",
+     "title": "Targa",
+     "text": "Colore dello sfondo della targa e colore dei caratteri, proprio come sul tuo mezzo. Se la combinazione si legge male, il numero verrà mostrato in nero o in bianco.",
+     "image": "img/it/garage-plate-colors.png"
+    },
+    {
+     "id": "rig-paint",
+     "title": "Verniciatura",
+     "text": "Colore di «Cabina», «Gru» e «Carrozzeria» nel disegno del mezzo. «Come nel disegno» ripristina il colore originale.",
+     "image": "img/it/garage-rig-paint.png"
+    },
+    {
+     "id": "tyres",
+     "title": "Assi e gomme",
+     "text": "Lo schema degli assi si disegna da solo in base al loro numero; ogni asse può essere impostato come «Singola» o «Gemellata». Tocca una gomma: «Cambio», «Foratura», «Rotazione» o «Altro» — la voce finirà nella «Cronologia». Le «Statistiche» mostrano la percorrenza media tra i cambi e la posizione più frequente. Il rimorchio ha la propria percorrenza, che puoi inserire a mano.",
+     "image": "img/it/garage-tyres.png"
+    }
+   ]
+  },
+  {
+   "slug": "documents",
+   "title": "Documenti e scadenze",
+   "intro": "Documenti del mezzo e dell'autista con le foto delle pagine e le date di scadenza. L'app avvisa per tempo prima delle scadenze.",
+   "steps": [
+    {
+     "id": "overview",
+     "title": "Tutti i documenti",
+     "text": "La panoramica mostra i documenti di tutti i mezzi e dell'autista in un unico elenco con le scadenze: quanti giorni mancano oppure «scaduto».",
+     "image": "img/it/documents-overview.png"
+    },
+    {
+     "id": "list",
+     "title": "Documenti del veicolo",
+     "text": "Ogni mezzo ha il proprio elenco: «Libretto di circolazione», «Assicurazione», «Revisione» e documenti personalizzati. Il pulsante «+» aggiunge un documento.",
+     "image": "img/it/documents-list.png"
+    },
+    {
+     "id": "form",
+     "title": "Documento",
+     "text": "Scegli il tipo oppure «Documento personalizzato…» e scrivi il nome (ad esempio, permesso ADR). «Valido fino al» è la data di scadenza su cui si basano i promemoria. La revisione ha anche la «Data della revisione».",
+     "image": ""
+    },
+    {
+     "id": "pages",
+     "title": "Pagine",
+     "text": "Fotografa le pagine del documento con la fotocamera. Le pagine si aprono a tutto schermo, si sfogliano e si possono eliminare una per una.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Promemoria delle scadenze",
+     "text": "Prima della scadenza l'app invia una notifica e mostra la finestra «Scadenza dei documenti» all'avvio. «Ho capito» chiude la finestra fino alla soglia di avviso successiva. I documenti dell'autista («Patente di guida», «Passaporto», «Certificato ADR») si trovano in «Impostazioni profilo».",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "maintenance",
+   "title": "Manutenzione e pneumatici",
+   "intro": "Manutenzione: registrazioni degli interventi, intervalli e promemoria quando arriva il momento.",
+   "steps": [
+    {
+     "id": "maintenance",
+     "title": "Manutenzione",
+     "text": "In alto vedi quanto manca al prossimo intervento in chilometri o giorni, oppure di quanto è in ritardo. Più in basso ci sono gli interventi registrati. Gli intervalli e il punto di partenza si impostano nelle impostazioni del mezzo.",
+     "image": "img/it/maintenance-maintenance.png"
+    },
+    {
+     "id": "new-record",
+     "title": "Intervento di manutenzione",
+     "text": "«Registra intervento» apre la scheda: chilometraggio, data, lavori eseguiti, foto. Il chilometraggio al tagliando non può superare quello attuale.",
+     "image": ""
+    },
+    {
+     "id": "tyres",
+     "title": "Pneumatici",
+     "text": "Le gomme si gestiscono sullo schema degli assi: sezione «Parco mezzi», passaggio «Assi e gomme».",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "address-book",
+   "title": "Rubrica e clienti",
+   "intro": "I clienti con i loro indirizzi e i tuoi luoghi salvati. La rubrica si aggiorna da sola quando inserisci un nuovo cliente in un viaggio.",
+   "steps": [
+    {
+     "id": "book",
+     "title": "Rubrica",
+     "text": "La scheda «Clienti» contiene i clienti con i loro indirizzi; la scheda «Luoghi» contiene i tuoi punti salvati. I clienti nascosti non vengono proposti durante la scelta; «Mostra nascosti» li riporta nell'elenco.",
+     "image": "img/it/address-book-book.png"
+    },
+    {
+     "id": "clients",
+     "title": "Clienti",
+     "text": "«Nuovo cliente» aggiunge un cliente. Non è possibile eliminare un cliente che ha dei viaggi registrati, ma puoi scegliere «Rimuovi dalla selezione». I viaggi passati mantengono il nome del cliente.",
+     "image": ""
+    },
+    {
+     "id": "client",
+     "title": "Cliente",
+     "text": "Nome, nota del conducente e indirizzi. Quando rinomini un cliente, l'app controlla che quel nome non esista già. L'eliminazione può essere annullata subito con il pulsante «Annulla».",
+     "image": "img/it/address-book-client.png"
+    },
+    {
+     "id": "add-address",
+     "title": "Indirizzo",
+     "text": "Indirizzo, etichetta e coordinata. La coordinata può essere salvata usando la posizione attuale. «Apri nel navigatore» e «Invia» condividono il punto. Il segno rosso («Segna in rosso») mette in evidenza un indirizzo da tenere a mente (ingresso difficile, regole particolari).",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "backup",
+   "title": "Backup e ripristino",
+   "intro": "Il backup è un unico file con tutto il registro: viaggi, turni, rifornimenti, mezzi e documenti con le foto.",
+   "steps": [
+    {
+     "id": "backup",
+     "title": "Fare un backup",
+     "text": "«Impostazioni» → «Backup»: «Esporta database (backup)» salva il file, «Condividi backup» lo invia subito (email, messaggistica, cloud). Puoi fare il backup in qualsiasi momento senza interrompere il lavoro.",
+     "image": ""
+    },
+    {
+     "id": "restore",
+     "title": "Ripristinare",
+     "text": "«Importa database (ripristino)» sostituisce tutti i dati attuali con il file di backup. L'app controlla prima il file: un file estraneo o un backup creato con una versione più recente non verrà accettato. Su un telefono nuovo puoi ripristinare direttamente al primo passaggio del primo avvio.",
+     "image": ""
+    },
+    {
+     "id": "cross",
+     "title": "Android e iPhone",
+     "text": "Il backup è identico su Android e iPhone: un file salvato su uno si ripristina sull'altro.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "online",
+   "title": "Programma online",
+   "intro": "Il programma online è my.vecturabook.com: lo stesso registro nel browser e sugli altri tuoi dispositivi.",
+   "steps": [
+    {
+     "id": "device-link",
+     "title": "Collegare il telefono",
+     "text": "«Impostazioni» → «Collegati a VecturaBook». Scansiona il codice QR dall'area personale sul sito, apri l'area web nel browser e conferma sul telefono, oppure inserisci il codice mostrato sullo schermo. «Scollega questo telefono» lo disconnette.",
+     "image": "img/it/online-device-link.png"
+    },
+    {
+     "id": "sync",
+     "title": "Sincronizzazione",
+     "text": "Il telefono collegato invia da solo le nuove voci e riceve le modifiche dagli altri dispositivi. La riga di stato mostra «Tutto sincronizzato» oppure quante voci sono in attesa di invio. Senza rete, le voci restano in attesa sul telefono.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "settings",
+   "title": "Impostazioni",
+   "intro": "Le impostazioni sono divise in gruppi: «Profilo del conducente», «Telefono e connessione», «Documenti (PDF)», «Backup», «Impostazioni generali».",
+   "steps": [
+    {
+     "id": "settings",
+     "title": "Impostazioni",
+     "text": "Qui trovi «Lingua e regione», unità di misura, «Tema», «Animazioni», «PDF rifornimenti» e «PDF cronologia viaggi», «Backup» e il collegamento al programma online.",
+     "image": "img/it/settings-settings.png"
+    },
+    {
+     "id": "profile",
+     "title": "Profilo del conducente",
+     "text": "Il nome per i report e i documenti dell'autista: «Patente di guida», «Passaporto», «Certificato ADR» — con date di scadenza e foto delle pagine.",
+     "image": "img/it/settings-profile.png"
+    },
+    {
+     "id": "language",
+     "title": "Lingua e regione",
+     "text": "«Lingua dell'app», lingua per «Indirizzi GPS» («Auto (in base al paese attuale)») e «Formato data».",
+     "image": "img/it/settings-language.png"
+    },
+    {
+     "id": "units",
+     "title": "Unità di misura",
+     "text": "«Distanza», «Peso», «Volume», «Lunghezza / Dimensione», «Temperatura» e «Consumo carburante». Preimpostazioni: «Metrico», «Imperiale», «Misto» — oppure «Personalizzato».",
+     "image": ""
+    },
+    {
+     "id": "theme",
+     "title": "Tema",
+     "text": "«Chiaro», «Scuro» o «Automatico» (in base all'ora di «Inizio del giorno» e «Inizio della notte»). Temi pronti («Preimpostazioni»): «Kraft», «Kraft scuro», «Manila», «Quasi bianco», «Scuro». Puoi anche crearne uno tuo.",
+     "image": "img/it/settings-theme.png"
+    },
+    {
+     "id": "theme-custom",
+     "title": "Tema personalizzato",
+     "text": "Colore di «Sfondo», «Testo», «Barra superiore», «Scheda», «Bordo del campo», «Didascalie», «Pulsanti ed evidenziazione», «Icona rifornimento» e «Icona sosta». Il tema si può salvare, rinominare e assegnare alla modalità chiara o scura.",
+     "image": ""
+    },
+    {
+     "id": "animations",
+     "title": "Animazioni",
+     "text": "Scene animate di scarico e rifornimento. Si possono disattivare.",
+     "image": ""
+    },
+    {
+     "id": "about",
+     "title": "Informazioni",
+     "text": "Versione, «Sito web», Telegram, Facebook e la possibilità di sostenere il progetto («Sostieni il progetto»). In precedenza l'app si chiamava CargoLog: è cambiato solo il nome.",
+     "image": ""
+    },
+    {
+     "id": "feedback",
+     "title": "Feedback",
+     "text": "Segnala un errore, proponi un'idea o scrivi altro. Puoi allegare uno screenshot o una foto. Inoltre nel menu trovi «Cerca aggiornamenti» e «Valuta l'app».",
+     "image": ""
+    },
+    {
+     "id": "help",
+     "title": "Aiuto",
+     "text": "«Aiuto» è l'indice di questa guida: sezioni generali («Generale») e sezioni «Per tipo di veicolo». Ogni sezione si apre direttamente qui, passo dopo passo.",
+     "image": "img/it/settings-help.png"
+    }
+   ]
+  },
+  {
+   "slug": "notifications",
+   "title": "Notifiche e promemoria",
+   "intro": "L'app ti avvisa su quello che è in corso e sulle scadenze in arrivo.",
+   "steps": [
+    {
+     "id": "timers",
+     "title": "Timer",
+     "text": "Attesa, rifornimento e scarico continuano a scorrere anche con l'app ridotta a icona: il timer è visibile nell'area notifiche. Tocca la notifica per tornare all'app.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Scadenza dei documenti",
+     "text": "Le notifiche sulle scadenze dei documenti arrivano in anticipo e il giorno stesso della scadenza.",
+     "image": ""
+    },
+    {
+     "id": "permissions",
+     "title": "Permessi",
+     "text": "Se notifiche, fotocamera o posizione sono disattivate, l'app ti indicherà dove attivarle nelle impostazioni del telefono.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics",
+   "title": "Canale di diagnostica",
+   "intro": "Il canale di diagnostica invia allo sviluppatore i dati dal telefono per analizzare i guasti su dati reali. È spento finché non lo accendi tu.",
+   "steps": [
+    {
+     "id": "enroll",
+     "title": "Registrazione del telefono",
+     "text": "Leggi il consenso e, se sei d'accordo, tocca «Acconsento, registra questo telefono». «Revoca questo telefono» disattiva il canale e cancella il certificato.",
+     "image": "img/it/diagnostics-enroll.png"
+    },
+    {
+     "id": "channel-settings",
+     "title": "Cosa inviare",
+     "text": "Tre interruttori: «Registri di attività dell'app», «Database dei viaggi», «Foto dei numeri di container». Ognuno è spento finché non lo accendi tu e puoi spegnerlo in qualsiasi momento. Finché sono tutti e tre spenti, non viene inviato nulla. L'app non legge la galleria del telefono.",
+     "image": ""
+    },
+    {
+     "id": "warning",
+     "title": "Avviso",
+     "text": "L'ingresso nelle schermate di servizio inizia con un avviso. Puoi uscire toccando «Tiratemi fuori di qui».",
+     "image": ""
+    },
+    {
+     "id": "server",
+     "title": "Server del canale",
+     "text": "Stato del collegamento: «In linea», «MUTO», nessuna rete, oppure il server non accetta. Tutto ciò che è pronto per l'invio resta in attesa sul telefono: non devi fare nulla.",
+     "image": ""
+    },
+    {
+     "id": "import",
+     "title": "Pacchetto del canale",
+     "text": "Per i telefoni di servizio il pacchetto del canale si può installare con un file .p12 protetto da password. La password si usa una sola volta e non viene salvata.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "service",
+   "title": "Schermate di servizio",
+   "intro": "Le schermate di servizio servono per analizzare i problemi tecnici. Si aprono toccando sette volte la schermata «Informazioni». Nel lavoro normale non servono.",
+   "steps": [
+    {
+     "id": "hub",
+     "title": "Centro di servizio",
+     "text": "Informazioni sull'app e sul telefono, accesso alle schermate di servizio e al canale di diagnostica, galleria delle animazioni.",
+     "image": ""
+    },
+    {
+     "id": "database",
+     "title": "Database",
+     "text": "Stato del database e ripristino completo dell'app. Il ripristino cancella tutto in modo definitivo: fai prima un backup.",
+     "image": ""
+    },
+    {
+     "id": "logs",
+     "title": "Registri",
+     "text": "Registri di attività dell'app per analizzare eventuali errori.",
+     "image": ""
+    },
+    {
+     "id": "ocr",
+     "title": "Riconoscimento",
+     "text": "Diagnostica della lettura dei numeri tramite fotocamera.",
+     "image": ""
+    },
+    {
+     "id": "system",
+     "title": "Sistema",
+     "text": "Informazioni sul telefono e sugli arresti anomali.",
+     "image": ""
+    },
+    {
+     "id": "locale",
+     "title": "Lingua e avvio iniziale",
+     "text": "Controllo delle lingue e ripetizione della configurazione iniziale.",
+     "image": ""
+    },
+    {
+     "id": "dataset",
+     "title": "Acquisizione foto",
+     "text": "Scatto di immagini per addestrare il riconoscimento — solo se hai dato il consenso per le foto.",
+     "image": ""
+    },
+    {
+     "id": "splash-tuner",
+     "title": "Schermata di avvio",
+     "text": "Configurazione della schermata iniziale di avvio.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "flatbed",
+   "title": "Pianale",
+   "intro": "Il pianale trasporta merce generica e carichi fuori sagoma.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Nel parco mezzi",
+     "text": "Indica la carrozzeria «Pianale» e la «Lunghezza del pianale».",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "In viaggio",
+     "text": "Tipi di carico: «Merce generica» (pallet, peso, descrizione), «Fuori sagoma» (lunghezza, larghezza, altezza, peso), «Container» su pianale. Per il fuori sagoma il passaggio «Dettagli del carico» richiede le misure.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Scarico",
+     "text": "I pallet si scaricano nei vari punti per quantità o in percentuale.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "container",
+   "title": "Container",
+   "intro": "Il portacontainer trasporta container da 20, 40 e 45 piedi, uno o due.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Nel parco mezzi",
+     "text": "Carrozzeria «Container»; indica la «Dimensione container» per cui è predisposto il rimorchio.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "In viaggio",
+     "text": "Serie di domande: «Vuoto o carico?», «Dimensione del container?», «Quanti container?», «Tipo di container?» («Standard», Reefer, Flat Rack, Open Top, Tank). Numero del container e del sigillo con la fotocamera. «Numero sigillo Venta (facoltativo)» e temperatura per il Reefer.",
+     "image": ""
+    },
+    {
+     "id": "fate",
+     "title": "Dopo lo scarico",
+     "text": "L'app chiede cosa succede al container: resta dal cliente, resta sul camion, va da un altro cliente o viene restituito al porto o al deposito.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "sidelifter",
+   "title": "Sidelifter",
+   "intro": "Il sidelifter carica e scarica il container a terra da solo.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Nel parco mezzi",
+     "text": "La carrozzeria «Sidelifter» è disponibile solo per il «Semirimorchio».",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "In viaggio",
+     "text": "Il container si inserisce esattamente come per il portacontainer; il «Lavoro con gru» si seleziona nel riepilogo.",
+     "image": ""
+    },
+    {
+     "id": "exchange",
+     "title": "Scambio",
+     "text": "Il sidelifter scambia spesso i container sul posto: usa «Scambio container».",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "refrigerated",
+   "title": "Frigorifero",
+   "intro": "Il frigorifero trasporta merce a temperatura controllata.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Nel parco mezzi",
+     "text": "Carrozzeria «Frigorifero»; attiva «Generatore installato» se è presente un genset, e indica «Serbatoio del gruppo, l» e «Riserva critica del gruppo, l».",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "In viaggio",
+     "text": "«Temperatura controllata?»: «Controllata» o «Ambiente»; temperatura del carico. Nella schermata di guida c'è l'interruttore «Gruppo in funzione».",
+     "image": ""
+    },
+    {
+     "id": "fuel",
+     "title": "Carburante del gruppo",
+     "text": "Il gasolio del gruppo si inserisce nel rifornimento in un campo dedicato; l'app calcola le ore motore e il consumo in litri all'ora e mostra «≈ N h alla riserva».",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "curtainsider",
+   "title": "Centinato",
+   "intro": "Il rimorchio centinato trasporta merce generica su pallet.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Nel parco mezzi",
+     "text": "Carrozzeria «Centinato».",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "In viaggio",
+     "text": "«Merce generica»: «Numero di pallet», «Peso totale (kg)», «Descrizione del carico».",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Scarico",
+     "text": "Ad ogni fermata segna quanti pallet sono stati scaricati; l'app ricorda quanti ne restano a bordo.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tipper",
+   "title": "Ribaltabile",
+   "intro": "Il ribaltabile trasporta materiale sfuso.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Nel parco mezzi",
+     "text": "Carrozzeria «Ribaltabile».",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "In viaggio",
+     "text": "«Sfuso»: «Volume (m³)», «Peso netto (kg)» e «Peso lordo (kg)», «Descrizione del carico».",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Scarico",
+     "text": "Lo scarico viene registrato con l'orario; il timer delle operazioni mostra quanto è durato.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fuel-tanker",
+   "title": "Cisterna carburante",
+   "intro": "La cisterna carburante trasporta carburante diviso in scomparti.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Nel parco mezzi",
+     "text": "Carrozzeria «Cisterna»; «Numero di scomparti» e volume di ciascuno in litri.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "In viaggio",
+     "text": "In «Dettagli del carico» inserisci il volume per ogni scomparto.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Scarico",
+     "text": "Al punto di consegna segna gli scomparti scaricati. Se a fine viaggio restano «Scomparti non completati», l'app chiederà conferma.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tanker",
+   "title": "Cisterna",
+   "intro": "La cisterna trasporta carichi liquidi.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Nel parco mezzi",
+     "text": "Carrozzeria «Cisterna»; scomparti e volumi.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "In viaggio",
+     "text": "«Categoria di liquido»: «Prodotti chimici», «Alimentare», «Rifiuti»; «Temperatura controllata»; ADR con codici UN per le merci pericolose.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Scarico",
+     "text": "Gli scomparti si scaricano nei vari punti proprio come per la cisterna carburante.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "car-transporter",
+   "title": "Bisarca",
+   "intro": "La bisarca trasporta autovetture.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Nel parco mezzi",
+     "text": "Carrozzeria «Bisarca»; «Numero di posti auto».",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "In viaggio",
+     "text": "I veicoli si inseriscono per «VIN» (17 caratteri, senza I, O, Q) o per «Targa»; il VIN si può scansionare con la fotocamera. Il contatore mostra quanti veicoli sono stati caricati.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Scarico",
+     "text": "Alla fermata segna quali veicoli sono stati scaricati e quali caricati. Se a fine viaggio ci sono «Veicoli ancora a bordo», l'app chiederà conferma.",
+     "image": ""
+    }
+   ]
+  }
+ ],
+ "screens": {
+  "getting-started.welcome": "Primo avvio: nome, camion, rimorchio e permessi. Se hai un backup, puoi ripristinare l'intero registro.",
+  "getting-started.onboarding": "Rispondi alle domande su di te e sul mezzo. Tutto si può modificare dopo nelle impostazioni e nel parco mezzi.",
+  "getting-started.main-screen": "La schermata principale mostra a che punto sei del lavoro e ti guida al passaggio successivo: turno, viaggio, scarico.",
+  "getting-started.menu": "Menu dell'app: parco mezzi, storico, report, rifornimenti, manutenzione, documenti, rubrica, aiuto e impostazioni.",
+  "shift.shift-welcome": "Inizio del turno: posizione, attesa del viaggio e pulsante «Inizia viaggio».",
+  "shift.shift-status": "Mostra se il turno è aperto, da che ora e quanti viaggi contiene.",
+  "trip.origin": "Cliente e indirizzo di partenza o destinazione. Un nuovo cliente viene salvato da solo in rubrica.",
+  "trip.cargo-type": "Cosa trasporti. L'elenco dipende dalla carrozzeria del camion e del rimorchio.",
+  "trip.cargo-details": "Dettagli del carico: numeri di container e sigilli, scomparti, veicoli, pallet. I numeri si possono leggere con la fotocamera.",
+  "trip.load-details": "Dimensioni, peso e descrizione del carico.",
+  "trip.trip-times": "Modifica di orari, indirizzi e contachilometri di un viaggio già registrato.",
+  "trip.confirm": "Riepilogo del viaggio. Controlla e tocca «In marcia»: solo allora il viaggio verrà registrato.",
+  "trip.arrival": "Sei sul posto: arrivo, inizio e fine dello scarico o del carico.",
+  "trip.unload": "Cosa viene scaricato in questo punto: scomparti, percentuale, pallet o veicoli.",
+  "trip.cargo-fate": "Cosa succede al container dopo lo scarico.",
+  "trip.summary": "Riepilogo del viaggio: fermata successiva, fine viaggio o nuovo viaggio.",
+  "driving.driving": "Viaggio in corso: arrivo, rifornimento, sosta. Sotto il mezzo c'è la stima di quanto manca alla riserva.",
+  "driving.odometer": "Lettura del contachilometri. L'app inserisce il valore previsto e lo controlla; puoi leggerlo con la fotocamera.",
+  "driving.swap-trailer": "Cambio del rimorchio in viaggio: scegli un rimorchio dal parco mezzi.",
+  "refuel.refuel-timer": "Rifornimento in corso: timer. Al termine inserisci i litri.",
+  "refuel.refuel-data": "Litri di gasolio, AdBlue e gruppo del rimorchio, contachilometri. Tutto viene salvato in un'unica voce.",
+  "refuel.refuel-history": "Tutti i rifornimenti del periodo, consumo medio e report PDF.",
+  "parking.parking-stop": "Indirizzo della sosta: a mano, dai luoghi salvati o tramite GPS.",
+  "parking.places": "I tuoi luoghi: aree di sosta, porti, depositi. Si scelgono durante una sosta e alla restituzione del container.",
+  "parking.place-form": "Nome, nota e coordinata del luogo; apertura nel navigatore.",
+  "camera.scan": "Inquadra il numero nella cornice. Stringi la cornice con due dita sul numero; tocca fuori per scattare.",
+  "camera.container-exchange": "Scambio di container con un altro autista: cosa hai lasciato e cosa hai preso.",
+  "camera.photos": "Foto dei documenti del viaggio a tutto schermo.",
+  "history.history": "Tutti i turni e i viaggi: ricerca, dettagli, modifica ed eliminazione.",
+  "report.report": "Totali del periodo e report PDF.",
+  "garage.garage": "I tuoi camion e rimorchi. Tocca un mezzo per aprirne la gestione.",
+  "garage.truck-form": "Targa, tipo e carrozzeria del camion; gru o manipolatore.",
+  "garage.trailer-form": "Targa, aggancio e carrozzeria del rimorchio; scomparti, posti auto, generatore.",
+  "garage.vehicle-hub": "Tutto sul mezzo: documenti, manutenzione, revisione, assi e gomme, targa, verniciatura.",
+  "garage.vehicle-settings": "Chilometraggio, intervalli di manutenzione, assi, serbatoio e riserva critica.",
+  "garage.plate-colors": "Colori della targa, proprio come sul mezzo.",
+  "garage.rig-paint": "Colori di cabina, gru e carrozzeria nel disegno del mezzo.",
+  "garage.tyres": "Schema degli assi e cronologia delle gomme: cambi, forature, rotazioni.",
+  "documents.overview": "Tutti i documenti dei mezzi e dell'autista con le scadenze.",
+  "documents.list": "Documenti di questo mezzo. Tocca «+» per aggiungere.",
+  "documents.form": "Tipo, nome e data di scadenza del documento.",
+  "documents.pages": "Foto delle pagine del documento.",
+  "maintenance.maintenance": "Quanto manca al prossimo tagliando e storico degli interventi.",
+  "maintenance.new-record": "Nuovo intervento di manutenzione: chilometraggio, data, lavori, foto.",
+  "address-book.book": "Clienti e luoghi salvati.",
+  "address-book.clients": "Elenco dei clienti: aggiungi, nascondi, elimina.",
+  "address-book.client": "Nome, nota e indirizzi del cliente.",
+  "address-book.add-address": "Indirizzo, coordinata, navigatore e segno rosso.",
+  "backup.backup": "Un file con tutto il registro: salva, condividi o ripristina.",
+  "online.device-link": "Collegamento del telefono al programma online: codice QR o codice sullo schermo.",
+  "settings.settings": "Tutte le impostazioni divise per gruppi.",
+  "settings.profile": "Nome dell'autista e suoi documenti.",
+  "settings.language": "Lingua dell'app, lingua degli indirizzi GPS, formato della data.",
+  "settings.theme": "Chiaro, scuro o automatico; temi pronti e personalizzati.",
+  "settings.theme-custom": "Colori del tuo tema personalizzato.",
+  "settings.about": "Versione dell'app e contatti dello sviluppatore.",
+  "settings.feedback": "Segnala un bug o invia un suggerimento.",
+  "settings.help": "Guida dell'app divisa per sezioni.",
+  "diagnostics.enroll": "Consenso e registrazione del telefono nel canale di diagnostica.",
+  "diagnostics.warning": "Ingresso nella sezione di servizio dell'app.",
+  "diagnostics.channel-settings": "Cosa invia il telefono allo sviluppatore: tre consensi separati.",
+  "diagnostics.server": "Stato del collegamento del canale di diagnostica.",
+  "diagnostics.import": "Installazione del pacchetto del canale tramite file .p12.",
+  "service.hub": "Centro di servizio: informazioni e schermate di servizio.",
+  "service.database": "Stato del database e ripristino completo dell'app.",
+  "service.logs": "Registri di attività dell'app.",
+  "service.ocr": "Diagnostica del riconoscimento dei numeri.",
+  "service.system": "Informazioni sul telefono e sugli arresti anomali.",
+  "service.locale": "Controllo delle lingue e ripetizione del primo avvio.",
+  "service.dataset": "Acquisizione di immagini per il riconoscimento.",
+  "service.splash-tuner": "Configurazione della schermata di avvio."
+ }
+}

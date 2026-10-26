@@ -1,0 +1,978 @@
+{
+ "format": 1,
+ "language": "tr",
+ "revision": "2026-10-26",
+ "sections": [
+  {
+   "slug": "getting-started",
+   "title": "İlk adımlar",
+   "intro": "VecturaBook sürücünün sefer defteridir: vardiyalar, seferler, yakıt alımları, parklar, belgeler ve araçlar tek telefonda. Her şey telefonda saklanır ve internet olmadan çalışır.",
+   "steps": [
+    {
+     "id": "welcome",
+     "title": "İlk çalıştırma",
+     "text": "İlk çalıştırmada uygulama birkaç soru sorar — dört kısa adım. Bir dakikada tamamlanabilir, verdiğiniz tüm yanıtlar daha sonra ayarlarda ve filoda düzeltilebilir.\n\nHalihazırda bir VecturaBook yedeğiniz varsa (örneğin eski telefonunuzdan), ilk adımda “Yedekten geri yükle” düğmesine dokunun: defter tamamen geri döner ve sorulara gerek kalmaz.",
+     "image": "img/tr/getting-started-welcome.png"
+    },
+    {
+     "id": "onboarding",
+     "title": "Ad, çekici, römork, izinler",
+     "text": "Adım 1 — adınız. Raporlarda yazdırılır. Boş bırakıp daha sonra yazabilirsiniz.\n\nAdım 2 — çekici veya kamyon: plaka numarası, tipi ve kasa tipi. Tip ve kasa, sorular zinciriyle resimli olarak seçilir: her yanıtta uygulama bir sonraki soruyu gösterir.\n\nAdım 3 — römork. “Römorku Atla” düğmesiyle atlayıp daha sonra filodan ekleyebilirsiniz.\n\nAdım 4 — izinler: kamera (konteyner numaraları, mühürler, kilometre sayacı), konum (vardiya başında şehir, yalnızca siz istediğinizde) ve bildirimler (bekleme, yakıt alma ve boşaltma zamanlayıcıları). Herhangi birini reddedebilirsiniz — uygulama yine çalışır, yalnızca o özellik olmaz.",
+     "image": "img/tr/getting-started-onboarding.png"
+    },
+    {
+     "id": "main-screen",
+     "title": "Ana Ekran",
+     "text": "Ana ekran o sırada işin neresinde olduğunuzu gösterir: vardiya başlamadı, vardiya açık, sefer devam ediyor, boşaltma noktasındasınız vb. Üzerindeki düğmeler her zaman bir sonraki adıma götürür, bu yüzden hiçbir şeyi atlayamazsınız.\n\nÜstte solda menü düğmesi ve sağda “?” düğmesi bulunan çubuk yer alır. “?” her ekranda vardır: ekranı kısaca açıklar ve “Daha fazla” düğmesiyle bu kılavuzun ilgili bölümünü açar.",
+     "image": "img/tr/getting-started-main-screen.png"
+    },
+    {
+     "id": "menu",
+     "title": "Menü",
+     "text": "Üç çizgili düğme kutucuklu menüyü açar: Filo, Sefer Geçmişi, Rapor, Yakıt Kaydı, Bakım, Araç belgeleri, Adres defteri, Yardım. Altta Ayarlar bulunur.\n\nDiğer tüm ekranlarda menü düğmesinin yerinde “geri” oku vardır.",
+     "image": "img/tr/getting-started-menu.png"
+    },
+    {
+     "id": "help-offline",
+     "title": "İnternetsiz yardım",
+     "text": "Uygulama bu kılavuzun metinlerini kendi dilinde indirir ve telefonda saklar; bu sayede “?” ve “Yardım” yolda şebeke olmadan çalışır. Günde bir kez internet olduğunda uygulama sessizce yenilik olup olmadığını kontrol eder.\n\nYardım henüz hiç indirilmediyse uygulama internete bağlanmanızı ister.",
+     "image": "img/tr/getting-started-help-offline.png"
+    }
+   ]
+  },
+  {
+   "slug": "shift",
+   "title": "Vardiya",
+   "intro": "Vardiya, baştan sona bir iş günüdür. Vardiyanın içinde seferler, yakıt alımları ve molalar yer alır; vardiya toplamları geçmişe ve raporlara girer.",
+   "steps": [
+    {
+     "id": "shift-welcome",
+     "title": "Vardiya Başlat",
+     "text": "“Vardiya Başlat” düğmesine dokunun. Uygulama sizi selamlar ve nerede olduğunuzu gösterir: izin verdiyseniz şehir konumdan algılanır, aksi halde raptiyeli satıra dokunup yeri kendiniz yazın.\n\nHenüz sefer yoksa “Sefer Bekleniyor” düğmesine dokunun — bekleme zamanlayıcısı başlar. “Beklemeyi Durdur” onu durdurur. Sefer öncesi bekleme geçmişe ve rapora işlenir.\n\nSefer hazır olduğunda — “Seferi Başlat”.",
+     "image": "img/tr/shift-shift-welcome.png"
+    },
+    {
+     "id": "shift-status",
+     "title": "Vardiya durumu",
+     "text": "“Vardiya” ekranı vardiyanın açık olup olmadığını, ne zaman açıldığını ve içinde kaç sefer olduğunu gösterir. “Vardiyaya devam et” işe geri döndürür.\n\nSefer bitmeden vardiya kapatılamaz: önce seferi bitirin.",
+     "image": "img/tr/shift-shift-status.png"
+    },
+    {
+     "id": "end-shift",
+     "title": "Vardiya Bitir",
+     "text": "Kırmızı “Vardiya Bitir” düğmesi uygulamadaki tek kırmızı düğmedir. Uygulama emin olup olmadığınızı sorar ve son kilometreyi ister. Sayı kontrol edilir: önceki değerden küçükse veya beklenenden çok fazlaysa, uygulama bilinen son değeri gösterir ve onaylamanızı ya da düzeltmenizi ister.",
+     "image": ""
+    },
+    {
+     "id": "forgotten-shift",
+     "title": "Unutulan vardiya",
+     "text": "Vardiya bir günden uzun süredir açıksa uygulama onu son olayın saatiyle kapatmayı önerir — böylece rapordaki çalışma süresi şişmez. Kabul edebilir veya vardiyaya devam edebilirsiniz.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "trip",
+   "title": "Sefer: yüklemeden boşaltmaya",
+   "intro": "Sefer adım adım kaydedilir: nereden ve nereye, ne taşıyorsunuz, yük detayları, özet — ve “Yola çık”. Noktada — varış, boşaltma veya yükleme, özet. Siz “Yola çık” düğmesine dokunana kadar deftere hiçbir şey yazılmaz: istediğiniz adımda “Geri” düğmesiyle dönebilirsiniz, girdikleriniz kaybolmaz.",
+   "steps": [
+    {
+     "id": "origin",
+     "title": "Müşteri ve Güzergah",
+     "text": "Müşteriyi seçin: adı yazmaya başlayın — uygulama adres defterinden önerir. Yeni müşteriyi yazmanız yeterlidir: kendisi deftere eklenir.\n\nBir müşterinin birden fazla adresi olabilir — uygun olanı seçin veya yeni ekleyin. GPS simgesi mevcut konuma göre adresi doldurur. Şoförün müşteriyle ilgili notları doğrudan burada görünür.",
+     "image": "img/tr/trip-origin.png"
+    },
+    {
+     "id": "cargo-type",
+     "title": "Ne taşıyorsun?",
+     "text": "Yük tipi kutucuklarla seçilir: konteyner, parça yük, gabari dışı, frigorifik, akaryakıt tankeri, dökme yük, oto taşıyıcı, boş. Liste çekicinin ve römorkun kasa tipine bağlıdır.\n\nDetaylar girildikten sonra yük tipini değiştirirseniz, uygulama girdiklerinizin silineceği konusunda uyarır ve onay ister.",
+     "image": "img/tr/trip-cargo-type.png"
+    },
+    {
+     "id": "cargo-details",
+     "title": "Yük Detayları",
+     "text": "Detaylar yük tipine göre değişir. Konteyner için — boş mu dolu mu, boyutu, kaç konteyner, tipi, konteyner ve mühür numarası. Numaralar kamerayla taranabilir. Tankerler için — bölmeler ve hacimler, oto taşıyıcı için — VIN veya plakaya göre araçlar, parça yük için — palet sayısı ve ağırlık.\n\nSefer için detay gerekmiyorsa (örneğin boş), “İleri” düğmesine dokunmanız yeterlidir.\n\nADR anahtarı tehlikeli yükler için Birleşmiş Milletler (UN) numarası alanlarını açar.",
+     "image": "img/tr/trip-cargo-details.png"
+    },
+    {
+     "id": "load-details",
+     "title": "Yük detayları",
+     "text": "Gabari dışı yükler ve platform üzerindeki konteynerler için — uzunluk, genişlik, yükseklik, ağırlık ve açıklama. Boyutlar ayarlarda seçilen birimlerdedir.",
+     "image": "img/tr/trip-load-details.png"
+    },
+    {
+     "id": "trip-times",
+     "title": "Sefer saatleri ve noktaları",
+     "text": "Bu ekran yalnızca geçmişten kaydedilmiş bir seferi düzenlerken görünür. Burada başlangıç, varış, yük işlemleri başlangıç ve bitiş saatleri ile noktaların adresleri ve kilometreleri düzeltilir.\n\nSeferde olmayan bir saat tire ile gösterilir ve düzenlenemez: düzenleme, seferde yaşanmamış bir şeyi sonradan eklemez.",
+     "image": ""
+    },
+    {
+     "id": "confirm",
+     "title": "Sefer Özeti",
+     "text": "Özet tüm seferi tek ekranda gösterir. İşaretler de buradadır: kabinde uyu, askeri görev, tehlikeli bölge, sıcaklık kontrollü, vinçle çalışma (çekicide vinç varsa).\n\n“Değiştir” adımlara geri döndürür. Yeşil “Yola çık” düğmesi seferi kaydeder ve başlatır. Telefonda navigasyon uygulaması varsa uygulama adresi onda açmayı önerir.",
+     "image": "img/tr/trip-confirm.png"
+    },
+    {
+     "id": "arrival",
+     "title": "Varış",
+     "text": "Noktaya vardığınızda “Vardım” düğmesine dokunun. Uygulama saati kaydeder ve kilometreyi önerir.\n\n“Boşaltmayı/Yüklemeyi Başlat” yük işlemleri zamanlayıcısını başlatır, “Boşaltmayı/Yüklemeyi Durdur” onu durdurur. Bir şey kaydedilemediyse (örneğin telefon takıldıysa) uygulama bunu bildirir ve tekrar dokunmanızı ister — deftere hiçbir şey yarım gitmez.",
+     "image": "img/tr/trip-arrival.png"
+    },
+    {
+     "id": "unload",
+     "title": "Bu durakta boşaltma",
+     "text": "Yük parça parça teslim ediliyorsa bu noktada neyin bırakıldığını işaretleyin: akaryakıt tankerinin bölmeleri, konteyner yüzdesi, paletler, oto taşıyıcıdaki belirli araçlar. Uygulama araçta ne kadar kaldığını hatırlar ve olandan fazlasını vermenize izin vermez.",
+     "image": ""
+    },
+    {
+     "id": "cargo-fate",
+     "title": "Konteynere ne oldu?",
+     "text": "Boşaltmadan sonra uygulama konteynere ne olacağını sorar: burada kaldı, araçta kaldı, başka bir müşteriye gidiyor, bir yere (liman, depo) veya başka adrese iade ediliyor. Yanıt seferin bir sonraki adımını belirler.",
+     "image": "img/tr/trip-cargo-fate.png"
+    },
+    {
+     "id": "summary",
+     "title": "Sefer Özeti",
+     "text": "Noktadan sonra — “Sefere Devam” (aynı seferin bir sonraki durağı), “Seferi Bitir” veya “Yeni Sefer”.\n\n“Sonraki seferi doldur”, daha boşaltmadayken bir sonraki seferi — müşteriyi, yükü, numaraları — önceden yazmanızı sağlar. Ardından “Bitir ve yola çık” onu hemen başlatır.",
+     "image": "img/tr/trip-summary.png"
+    }
+   ]
+  },
+  {
+   "slug": "driving",
+   "title": "Sürüş ekranı",
+   "intro": "Sefer devam ederken ana ekran “Devam ediyor” ekranıdır: seferin aracı, çekici ve römork plakaları, yoldaki süre ve sonraki işlem düğmeleri.",
+   "steps": [
+    {
+     "id": "driving",
+     "title": "Devam ediyor",
+     "text": "Ekran düğmeleri: “Vardım” (noktadasınız), “Yakıt Al”, “Park / Mola”. Düğmelerin üzerinde plakalarıyla aracınızın çizimi yer alır; çizim filoda kayıtlı bilgilere göre oluşturulur: tip, kasa, akslar, renkler.\n\nFiloda depo hacmi ve kendi kritik yedeğiniz belirtilmişse aracın altında yedeğe yaklaşık ne kadar kaldığı görünür: çekici dizeli için “≈ yedeğe N km” ve römork ünitesi (frigorifik, jeneratör) için “≈ yedeğe N sa”. Hesaplama yakıt alımlarınıza ve kilometrenize göre yapılır; bu yüzden ilk yakıt alımından hemen sonra görünmeyebilir.",
+     "image": "img/tr/driving-driving.png"
+    },
+    {
+     "id": "swap-trailer",
+     "title": "Römork Değiştir",
+     "text": "Yolda römork değiştirmek için — “Römork Değiştir”. Pencerede filodaki römorklar görünür: römorkun çizimi ve altında plakası. Yenisini seçin — değişim sefere kaydedilir. Çekiciyle uyumsuz römorklar listede sunulmaz.",
+     "image": "img/tr/driving-swap-trailer.png"
+    },
+    {
+     "id": "odometer",
+     "title": "Kilometre",
+     "text": "Uygulama beklenen değeri doldurur: araçtan, yüklemeden, son boşaltmadan veya yakıt alımından. Kontrol edin ve gerekirse düzeltin. Kilometre sayacı kamerayla taranabilir.\n\nSayı öncekinden küçükse, beklenenden çok fazlaysa veya hiç dokunmadıysanız uygulama bilinen son değeri gösterir ve doğru olup olmadığını sorar. Geçmiş bir seferde kilometreyi düzenlemek, bunun başka hangi kayıtları etkileyeceğini gösterir.",
+     "image": "img/tr/driving-odometer.png"
+    }
+   ]
+  },
+  {
+   "slug": "refuel",
+   "title": "Yakıt alımı, AdBlue, ünite",
+   "intro": "Yakıt alımları yakıt tüketimi, raporlar ve “yedeğe” ipucu için gereklidir.",
+   "steps": [
+    {
+     "id": "refuel-timer",
+     "title": "Yakıt alma zamanlayıcısı",
+     "text": "Sürüş ekranındaki “Yakıt Al” zamanlayıcıyı başlatır — yakıt alma süresi deftere işlenir. “Yakıt Almayı Bitir” zamanlayıcıyı durdurur ve litre girişini açar. Uygulama küçültülmüşse zamanlayıcı bildirim panelinde de çalışmaya devam eder.",
+     "image": "img/tr/refuel-refuel-timer.png"
+    },
+    {
+     "id": "refuel-data",
+     "title": "Litre ve kilometre",
+     "text": "Dizeli litre olarak, gerekirse AdBlue ve römork ünitesi (frigorifik, jeneratör) motorinini girin. Kilometre otomatik doldurulur; kamerayla da taranabilir. “Yakıtı Kaydet” her şeyi tek bir kayıt olarak kaydeder.",
+     "image": "img/tr/refuel-refuel-data.png"
+    },
+    {
+     "id": "unit",
+     "title": "Römork ünitesi",
+     "text": "Römorkta jeneratör takılıysa bunu römork ayarlarında işaretleyin. Böylece sürüş ekranında “Ünite çalışıyor” anahtarı çıkar, uygulama ünitenin çalışma saatini ve saatte litre cinsinden tüketimini hesaplar, yakıt alımında ise ünite yakıtı alanı görünür.",
+     "image": ""
+    },
+    {
+     "id": "refuel-history",
+     "title": "Yakıt Kaydı",
+     "text": "Kayıt ekranı hafta, ay, tüm zamanlar veya seçilen dönem için tüm yakıt alımlarını gösterir: toplam yakıt, mola sayısı ve ortalama tüketim. AdBlue’nun motorine oranı ve ünite tüketimi ayrı hesaplanır.\n\n“PDF Rapor Oluştur” yakıt alımları için PDF raporu oluşturur, bunu gönderebilirsiniz. Bir yakıt kaydı silinebilir.",
+     "image": "img/tr/refuel-refuel-history.png"
+    }
+   ]
+  },
+  {
+   "slug": "parking",
+   "title": "Park ve dinlenme",
+   "intro": "Park, yoldaki moladır: dinlenme, geceleme, bekleme. Kendi adresi ve saatiyle sefere kaydedilir.",
+   "steps": [
+    {
+     "id": "parking-stop",
+     "title": "Park / Mola",
+     "text": "Sürüş ekranında “Park / Mola” düğmesine dokunun. Adresi elle girebilir, kayıtlı yerlerden seçebilir veya GPS simgesine dokunabilirsiniz. Adres bulunamazsa uygulama koordinatları doldurur — bunları düzeltebilirsiniz.\n\nKabinde geçen geceler geçmişte ve raporda sayılır.",
+     "image": "img/tr/parking-parking-stop.png"
+    },
+    {
+     "id": "places",
+     "title": "Yerler",
+     "text": "Yerler, müşterilere bağlı olmayan kendi noktalarınızdır: park yerleri, limanlar, depolar, akaryakıt istasyonları. Liste ada göre aranır. Yerler park ederken ve konteyner iadesinde seçilir.",
+     "image": ""
+    },
+    {
+     "id": "place-form",
+     "title": "Yer",
+     "text": "Ad, not ve koordinat. Koordinat mevcut konumdan kaydedilebilir, değiştirilebilir veya silinebilir. “Navigasyonda aç” ve “Gönder” düğmeleri noktayı navigasyona veya mesaja aktarır.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "camera",
+   "title": "Kamera: konteynerler ve mühürler",
+   "intro": "Kamera; elle yazmamanız için konteyner, mühür, VIN numaralarını ve kilometre sayacını okur.",
+   "steps": [
+    {
+     "id": "scan",
+     "title": "Kamera çerçevesi",
+     "text": "Numarayı çerçeveye hizalayın. Çerçeveyi iki parmakla numaranın etrafına sıkıştırın — böylece daha iyi okunur. “Çerçeveyi döndür” dikey yazılmış numaralar içindir. Çerçevenin dışına dokunmak fotoğraf çeker.",
+     "image": ""
+    },
+    {
+     "id": "container-number",
+     "title": "Konteyner Numarası",
+     "text": "Konteyner numarası 4 harf ve 7 rakamdan oluşur. Uygulama kontrol basamağını denetler; numara tutmazsa “Numara doğrulanmadı” notuyla kaydedilir — gözünüzle kontrol edin.",
+     "image": ""
+    },
+    {
+     "id": "seal",
+     "title": "Mühür",
+     "text": "Mühür numarası yazıdan okunur. Mühürde barkod varsa ve basılı numarayla uyuşmuyorsa uygulama basılı numarayı alır: barkod başka bir seriye ait olabilir.",
+     "image": ""
+    },
+    {
+     "id": "container-exchange",
+     "title": "Konteyner Değişimi",
+     "text": "Noktada konteyneri başka bir sürücüye verip onun konteynerini alıyorsanız değişimi kaydedin: hangi konteyner boşaltıldı, hangisi yüklendi, sürücü adı ve çekici plaka numarası.",
+     "image": ""
+    },
+    {
+     "id": "photos",
+     "title": "Fotoğraflar",
+     "text": "Sefere yükleme ve boşaltmadaki belgelerin fotoğraflarını ekleyebilirsiniz: “Belge Fotoğrafı”. “ FOTOĞRAFLARI GÖR” bunları tam ekranda açar.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "history",
+   "title": "Sefer geçmişi ve düzenleme",
+   "intro": "Geçmiş, tüm vardiyalar ve seferlerdir. Burada görüntülenir, aranır, düzenlenir ve silinir.",
+   "steps": [
+    {
+     "id": "history",
+     "title": "Geçmiş",
+     "text": "Seferler vardiyalara göre gruplanır: vardiya başı ve sonu, süre, mesafe, sefer sayısı. Bir sefere dokunun — ayrıntılar açılır: müşteri, yük, noktalar, kilometreler, bekleme, fotoğraflar. Arama — müşteri, konteyner, rota ile yapılır. “Tüm seferler” hepsini tek listede gösterir.",
+     "image": "img/tr/history-history.png"
+    },
+    {
+     "id": "edit",
+     "title": "Seferi düzenle",
+     "text": "“Düzenle”, oluşturma sırasındaki adımların aynısını ve ek olarak saatler ve noktalar ekranını açar. Değişiklikler toplanır ve yalnızca özette kaydedilir.\n\nKilometre düzenlemesi başka kayıtları etkileyecekse (sonraki sefer, araç göstergesi, vardiya kilometresi), uygulama uygulamadan önce bunları gösterir.",
+     "image": ""
+    },
+    {
+     "id": "delete",
+     "title": "Silme",
+     "text": "Tek sefer çöp kutusu düğmesiyle, birden fazlası seçim moduyla silinir. Aktif sefer silinemez — önce onu tamamlayın. Telefon çevrimiçi programa bağlıysa silme işlemi diğer cihazlara da ulaşır.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "report",
+   "title": "Rapor ve PDF",
+   "intro": "Rapor dönem içindeki çalışmayı hesaplar: seferler, mesafe, çalışma süresi, bekleme, yakıt ve tüketim.",
+   "steps": [
+    {
+     "id": "report",
+     "title": "Dönem Raporu",
+     "text": "Dönemi seçin: bugün, hafta, ay veya özel tarihler. Kartlar toplamları gösterir. “Raporu dışa aktar” vardiyalar, seferler, noktalar ve yakıt alımlarını içeren bir PDF oluşturur; bunu gönderebilir veya yazdırabilirsiniz.",
+     "image": "img/tr/report-report.png"
+    },
+    {
+     "id": "pdf",
+     "title": "PDF’te neler var",
+     "text": "PDF’te her vardiya için — açılış ve kapanış, çekici ve römork, müşterileri, yükü, boşaltma ve bekleme süreleri, kilometreleriyle seferler ve yakıt alımları yer alır. Sonda dönem toplamları bulunur: vardiyalar, seferler, yakıt almalar, toplam mesafe, toplam süre, toplam yakıt, vardiya başına ortalama mesafe ve ortalama tüketim.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "garage",
+   "title": "Filo: çekiciler ve römorklar",
+   "intro": "Filo araçlarınızı saklar. Araç çizimleri, plakalar, römork uyumluluğu, kilometreler ve araçta ayarlanan her şey buradan alınır.",
+   "steps": [
+    {
+     "id": "garage",
+     "title": "Filo",
+     "text": "İki sekme vardır: Çekiciler ve Römorklar. Aktif araç vurgulanır. “+ Çekici Ekle” ve “+ Römork Ekle” yeni araç ekler. Araca dokunmak yönetim ekranını açar.\n\nSefer devam ederken araç değiştirilemez — önce seferi bitirin (yoldayken römork, römork değiştirme ile değiştirilir).",
+     "image": "img/tr/garage-garage.png"
+    },
+    {
+     "id": "truck-form",
+     "title": "Çekici",
+     "text": "Plaka numarası, tipi (çekici veya kamyon) ve kasa tipi — resimli sorular zinciriyle; vinç veya manipülatör olup olmadığı. Filoda aynı plakadan iki tane olamaz.",
+     "image": ""
+    },
+    {
+     "id": "trailer-form",
+     "title": "Römork",
+     "text": "Plaka numarası, bağlantı tipi (yarı römork veya kamyon römorku) ve kasa tipi. Akaryakıt tankeri ve tanker için — bölme sayısı ve her birinin hacmi, oto taşıyıcı için — araç yeri sayısı, frigorifik için — jeneratör takılı olup olmadığı.",
+     "image": ""
+    },
+    {
+     "id": "vehicle-hub",
+     "title": "Araç yönetimi",
+     "text": "Araç ekranı onunla ilgili her şeyi bir araya toplar: tescil, belgeler, bakım, muayene, akslar ve lastikler, plaka, boya. “Aktif yap” aracı çalışma için seçer.",
+     "image": "img/tr/garage-vehicle-hub.png"
+    },
+    {
+     "id": "vehicle-settings",
+     "title": "Araç ayarları",
+     "text": "Güncel kilometre, bakım aralığı (kilometre, ay, uyarı eşikleri), bakım başlangıç noktası, akslar, depo hacmi ve kendi kritik yedeğiniz (“yedeğe” ipucu için). Üniteli römorkta — ünite deposu ve kritik yedeği.",
+     "image": "img/tr/garage-vehicle-settings.png"
+    },
+    {
+     "id": "plate-colors",
+     "title": "Plaka",
+     "text": "Plaka zemini rengi ve numara rengi — aracınızdaki gibi. Kombinasyon zor okunuyorsa numara siyah veya beyaz gösterilir.",
+     "image": "img/tr/garage-plate-colors.png"
+    },
+    {
+     "id": "rig-paint",
+     "title": "Boya",
+     "text": "Araç çiziminde kabin, vinç ve kasa rengi. “Çizimdeki gibi” orijinal rengi geri getirir.",
+     "image": "img/tr/garage-rig-paint.png"
+    },
+    {
+     "id": "tyres",
+     "title": "Akslar ve lastikler",
+     "text": "Aks şeması aks sayısına göre kendiliğinden çizilir; her aks tek veya çift yapılabilir. Bir lastiğe dokunun: değişim, patlak, yer değiştirme veya başka bir şey — kayıt geçmişe eklenir. İstatistikler iki değişim arasındaki ortalama mesafeyi ve en sık değişen yeri gösterir. Römorkun kendi kilometresi vardır — elle girilebilir.",
+     "image": "img/tr/garage-tyres.png"
+    }
+   ]
+  },
+  {
+   "slug": "documents",
+   "title": "Belgeler ve son tarihler",
+   "intro": "Sayfa fotoğrafları ve geçerlilik tarihleriyle araç ve sürücü belgeleri. Uygulama süreleri önceden hatırlatır.",
+   "steps": [
+    {
+     "id": "overview",
+     "title": "Tüm belgeler",
+     "text": "Genel görünüm, tüm araçların ve sürücünün belgelerini geçerlilik süreleriyle tek bir listede gösterir: kaç gün kaldığı veya “süresi doldu” bilgisi.",
+     "image": "img/tr/documents-overview.png"
+    },
+    {
+     "id": "list",
+     "title": "Araç belgeleri",
+     "text": "Her aracın kendi listesi vardır: araç ruhsatı, sigorta, muayene ve özel belgeler. “+” belge ekler.",
+     "image": "img/tr/documents-list.png"
+    },
+    {
+     "id": "form",
+     "title": "Belge",
+     "text": "Tipi veya “Özel belge…” seçeneğini seçin ve adını yazın (örneğin ADR belgesi). “Geçerlilik tarihi” son tarihtir, hatırlatıcılar buna göre gelir. Muayenenin ayrıca muayene tarihi vardır.",
+     "image": ""
+    },
+    {
+     "id": "pages",
+     "title": "Sayfalar",
+     "text": "Belge sayfalarını kamerayla fotoğraflayın. Sayfalar tam ekranda açılır, kaydırılarak gezilir ve tek tek silinir.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Süre hatırlatıcıları",
+     "text": "Süre dolmadan önce uygulama bildirim gönderir ve açılışta “Belge süreleri” penceresini gösterir. “Anladım” bir sonraki eşiğe kadar pencereyi kapatır. Sürücü belgeleri (sürücü belgesi, pasaport, ADR) profil ayarlarındadır.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "maintenance",
+   "title": "Bakım ve lastikler",
+   "intro": "Bakım: kayıtlar, aralıklar ve zamanı geldiğinde hatırlatma.",
+   "steps": [
+    {
+     "id": "maintenance",
+     "title": "Bakım",
+     "text": "Üstte — sonraki bakıma kilometre veya gün olarak ne kadar kaldığı ya da ne kadar geciktiği yer alır. Altta — bakım kayıtları. Aralıklar ve başlangıç noktası araç ayarlarında belirlenir.",
+     "image": "img/tr/maintenance-maintenance.png"
+    },
+    {
+     "id": "new-record",
+     "title": "Bakım kaydı",
+     "text": "“Bakım kaydet” kaydı açar: kilometre, tarih, ne yapıldı, fotoğraflar. Bakımdaki kilometre mevcut kilometreden yüksek olamaz.",
+     "image": ""
+    },
+    {
+     "id": "tyres",
+     "title": "Lastikler",
+     "text": "Lastikler aks şemasında tutulur — “Filo” bölümü, “Akslar ve lastikler” adımı.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "address-book",
+   "title": "Adres defteri ve müşteriler",
+   "intro": "Müşteriler ve adresleri, kendi yerleriniz. Sefere yeni bir müşteri yazdığınızda defter kendiliğinden güncellenir.",
+   "steps": [
+    {
+     "id": "book",
+     "title": "Adres defteri",
+     "text": "“Müşteriler” sekmesi adresleriyle müşterileri, yerler sekmesi ise kendi noktalarınızı içerir. Gizli müşteriler seçim sırasında önerilmez; “Gizlenenleri göster” onları listeye geri getirir.",
+     "image": "img/tr/address-book-book.png"
+    },
+    {
+     "id": "clients",
+     "title": "Müşteriler",
+     "text": "“Yeni müşteri” müşteri ekler. Seferi olan bir müşteri silinemez — seçimden kaldırılabilir. Geçmiş seferler kendi müşteri adını korur.",
+     "image": ""
+    },
+    {
+     "id": "client",
+     "title": "Müşteri",
+     "text": "Ad, şoför notu ve adresler. Yeniden adlandırma bu adın zaten var olup olmadığını kontrol eder. Silme işlemi hemen “Geri al” düğmesiyle geri alınabilir.",
+     "image": "img/tr/address-book-client.png"
+    },
+    {
+     "id": "add-address",
+     "title": "Adres",
+     "text": "Adres, etiket ve koordinat. Koordinat mevcut konumdan kaydedilebilir. “Navigasyonda aç” ve “Gönder” noktayı iletir. Kırmızı işaret unutulmaması gereken adresi vurgular (zor giriş, özel kurallar).",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "backup",
+   "title": "Yedekleme ve geri yükleme",
+   "intro": "Yedek, tüm defteri içeren tek bir dosyadır: seferler, vardiyalar, yakıt alımları, araçlar, fotoğraflarıyla belgeler.",
+   "steps": [
+    {
+     "id": "backup",
+     "title": "Yedek alma",
+     "text": "Ayarlar → Yedekleme: “Veritabanını Dışa Aktar (Yedek)” dosyayı kaydeder, “Yedeği paylaş” hemen gönderir (e-posta, mesajlaşma uygulaması, bulut). İstediğiniz zaman yedek alabilirsiniz — çalışma kesintiye uğramaz.",
+     "image": ""
+    },
+    {
+     "id": "restore",
+     "title": "Geri yükleme",
+     "text": "“Veritabanını İçe Aktar (Geri Yükle)” mevcut tüm verileri yedek dosyasıyla değiştirir. Uygulama önce dosyayı kontrol eder: yabancı bir dosya veya daha yeni bir sürümden alınan yedek kabul edilmez. Yeni telefonda ilk çalıştırmanın hemen ilk adımında geri yükleme yapılabilir.",
+     "image": ""
+    },
+    {
+     "id": "cross",
+     "title": "Android ve iPhone",
+     "text": "Yedek Android ve iPhone’da aynıdır: birinde alınan dosya diğerinde geri yüklenir.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "online",
+   "title": "Çevrimiçi program",
+   "intro": "Çevrimiçi program — my.vecturabook.com: aynı defter tarayıcıda ve diğer cihazlarınızda.",
+   "steps": [
+    {
+     "id": "device-link",
+     "title": "Telefonu bağlama",
+     "text": "Ayarlar → “VecturaBook’a bağlan”. Web sitesindeki hesaptan QR kodunu tarayın, hesabı tarayıcıda açıp telefonda onaylayın veya ekrandaki kodu girin. “Bu telefonun bağlantısını kes” bağlantıyı kaldırır.",
+     "image": "img/tr/online-device-link.png"
+    },
+    {
+     "id": "sync",
+     "title": "Senkronizasyon",
+     "text": "Bağlı telefon yeni kayıtları kendisi gönderir ve diğer cihazlardan gelen düzenlemeleri alır. Durum satırı “Her şey senkronize” bilgisini veya kaç kaydın gönderilmeyi beklediğini gösterir. Şebeke yokken kayıtlar telefonda bekler.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "settings",
+   "title": "Ayarlar",
+   "intro": "Ayarlar gruplar halinde toplanmıştır: sürücü profili, telefon ve bağlantı, belgeler (PDF), yedekleme, genel ayarlar.",
+   "steps": [
+    {
+     "id": "settings",
+     "title": "Ayarlar",
+     "text": "Burada dil ve bölge, birimler, tema, animasyonlar, yakıt ve sefer geçmişi PDF’leri, yedekleme ve çevrimiçi programa bağlantı yer alır.",
+     "image": "img/tr/settings-settings.png"
+    },
+    {
+     "id": "profile",
+     "title": "Sürücü profili",
+     "text": "Raporlar için ad ve sürücü belgeleri: sürücü belgesi, pasaport, ADR Belgesi — geçerlilik tarihleri ve sayfa fotoğraflarıyla.",
+     "image": "img/tr/settings-profile.png"
+    },
+    {
+     "id": "language",
+     "title": "Dil ve Bölge",
+     "text": "Uygulama dili, GPS adreslerinin dili (otomatik — ülkeye göre) ve tarih biçimi.",
+     "image": "img/tr/settings-language.png"
+    },
+    {
+     "id": "units",
+     "title": "Birimler",
+     "text": "Mesafe, ağırlık, hacim, uzunluk, sıcaklık ve yakıt tüketimi. Ön ayarlar: metrik, İngiliz, karışık — veya özel.",
+     "image": ""
+    },
+    {
+     "id": "theme",
+     "title": "Tema",
+     "text": "Açık, koyu veya otomatik (gündüz ve gece başlangıç saatine göre). Hazır temalar: Kraft, Koyu kraft, Manila, Neredeyse beyaz, Koyu. Kendi temanızı da yapabilirsiniz.",
+     "image": "img/tr/settings-theme.png"
+    },
+    {
+     "id": "theme-custom",
+     "title": "Özel tema",
+     "text": "Arka plan, yazı, üst çubuk, kartlar, alan çerçeveleri, alt yazılar, düğmeler ile yakıt ve park simgelerinin rengi. Temayı kaydedebilir, yeniden adlandırabilir ve açık veya koyu moda atayabilirsiniz.",
+     "image": ""
+    },
+    {
+     "id": "animations",
+     "title": "Animasyonlar",
+     "text": "Boşaltma ve yakıt alma için hareketli sahneler. Bunları kapatabilirsiniz.",
+     "image": ""
+    },
+    {
+     "id": "about",
+     "title": "Hakkında",
+     "text": "Sürüm, web sitesi, Telegram, Facebook ve projeye destek olma imkanı. Uygulamanın adı eskiden CargoLog idi — yalnızca adı değişti.",
+     "image": ""
+    },
+    {
+     "id": "feedback",
+     "title": "Geri Bildirim",
+     "text": "Hata bildirin, öneri sunun veya başka bir şey yazın. Ekran görüntüsü veya fotoğraf ekleyebilirsiniz. Ayrıca menüde: “Güncellemeleri kontrol et” ve “Uygulamayı puanla”.",
+     "image": ""
+    },
+    {
+     "id": "help",
+     "title": "Yardım",
+     "text": "“Yardım” bu kılavuzun içindekiler listesidir: genel bölümler ve araç türüne göre bölümler. Her biri adım adım doğrudan burada açılır.",
+     "image": "img/tr/settings-help.png"
+    }
+   ]
+  },
+  {
+   "slug": "notifications",
+   "title": "Bildirimler ve hatırlatıcılar",
+   "intro": "Uygulama devam eden işlemleri ve yaklaşan tarihleri bildirir.",
+   "steps": [
+    {
+     "id": "timers",
+     "title": "Zamanlayıcılar",
+     "text": "Bekleme, yakıt alma ve boşaltma uygulama küçültüldüğünde de çalışır: zamanlayıcı bildirim panelinde görünür. Uygulamaya dönmek için bildirime dokunun.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Belge süreleri",
+     "text": "Belge geçerlilik süresi bildirimleri önceden ve sürenin dolduğu gün gelir.",
+     "image": ""
+    },
+    {
+     "id": "permissions",
+     "title": "İzinler",
+     "text": "Bildirimler, kamera veya konum engellenmişse uygulama telefon ayarlarında bunlara nereden izin vereceğinizi gösterir.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics",
+   "title": "Tanılama kanalı",
+   "intro": "Tanılama kanalı, arızaların gerçek verilerle incelenebilmesi için telefondan geliştiriciye veri gönderir. Siz kendiniz açana kadar kapalıdır.",
+   "steps": [
+    {
+     "id": "enroll",
+     "title": "Telefon kaydı",
+     "text": "Onay metnini okuyun ve kabul ediyorsanız “Kabul ediyorum, bu telefonu kaydet” düğmesine dokunun. “Bu telefonun kaydını geri al” kanalı kapatır ve sertifikayı siler.",
+     "image": "img/tr/diagnostics-enroll.png"
+    },
+    {
+     "id": "channel-settings",
+     "title": "Ne gönderilecek",
+     "text": "Üç anahtar vardır: uygulama etkinlik günlükleri, sefer veritabanı, konteyner numarası fotoğrafları. Her biri siz açana kadar kapalıdır; istediğiniz an kapatabilirsiniz. Üçü de kapalı olduğu sürece hiçbir şey gönderilmez. Uygulama galerinizi okumaz.",
+     "image": ""
+    },
+    {
+     "id": "warning",
+     "title": "Uyarı",
+     "text": "Servis ekranlarına giriş bir uyarıyla başlar. “Beni buradan çıkarın” düğmesiyle çıkabilirsiniz.",
+     "image": ""
+    },
+    {
+     "id": "server",
+     "title": "Kanal sunucusu",
+     "text": "Bağlantı durumu: yayında, sessiz, ağ yok, sunucu kabul etmiyor. Gönderilmeye hazır olan her şey telefonda bekler — yapmanız gereken bir şey yoktur.",
+     "image": ""
+    },
+    {
+     "id": "import",
+     "title": "Kanal paketi",
+     "text": "Servis telefonları için kanal paketi parolalı bir .p12 dosyasıyla kurulabilir. Parola bir kez kullanılır ve saklanmaz.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "service",
+   "title": "Servis ekranları",
+   "intro": "Servis ekranları arızaları incelemek içindir. Giriş — “Hakkında” ekranına yedi kez dokunarak yapılır. Normal çalışmada bunlara gerek yoktur.",
+   "steps": [
+    {
+     "id": "hub",
+     "title": "Servis merkezi",
+     "text": "Uygulama ve telefon bilgileri, servis ekranlarına ve tanılama kanalına giriş, animasyon galerisi.",
+     "image": ""
+    },
+    {
+     "id": "database",
+     "title": "Veritabanı",
+     "text": "Veritabanı durumu ve uygulamanın tam sıfırlanması. Sıfırlama her şeyi geri dönüşsüz siler — önce yedek alın.",
+     "image": ""
+    },
+    {
+     "id": "logs",
+     "title": "Günlükler",
+     "text": "Arızaları incelemek için uygulama etkinlik günlükleri.",
+     "image": ""
+    },
+    {
+     "id": "ocr",
+     "title": "Tanıma",
+     "text": "Kamerayla numara okuma tanılaması.",
+     "image": ""
+    },
+    {
+     "id": "system",
+     "title": "Sistem",
+     "text": "Telefon ve çökmeler hakkında bilgiler.",
+     "image": ""
+    },
+    {
+     "id": "locale",
+     "title": "Dil ve ilk kurulum",
+     "text": "Dillerin kontrolü ve ilk çalıştırmayı tekrarlama.",
+     "image": ""
+    },
+    {
+     "id": "dataset",
+     "title": "Kamera kareleri",
+     "text": "Tanıma eğitimi için kare çekimi — yalnızca fotoğraf onayıyla.",
+     "image": ""
+    },
+    {
+     "id": "splash-tuner",
+     "title": "Açılış ekranı",
+     "text": "Başlangıçtaki açılış ekranı ayarı.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "flatbed",
+   "title": "Platform",
+   "intro": "Platform parça yük ve gabari dışı yük taşır.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Filoda",
+     "text": "Kasa tipini “Platform” olarak ve platform uzunluğunu belirtin.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Seferde",
+     "text": "Yük tipleri: parça yük (palet, ağırlık, açıklama), gabari dışı (uzunluk, genişlik, yükseklik, ağırlık), platform üzerinde konteyner. Gabari dışı yükte “Yük detayları” adımı boyutları sorar.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Boşaltma",
+     "text": "Paletler noktalarda adet veya yüzde olarak teslim edilir.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "container",
+   "title": "Konteyner",
+   "intro": "Konteyner taşıyıcı bir veya iki adet 20, 40 ve 45 fitlik konteyner taşır.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Filoda",
+     "text": "Kasa tipi “Konteyner”; römorkun uygun olduğu konteyner boyutu.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Seferde",
+     "text": "Sorular zinciri: boş mu dolu mu, boyut, kaç konteyner, tip (standart, Reefer, Flat Rack, Open Top, Tank). Konteyner ve mühür numarası — kamerayla. Venta mührü ve sıcaklık — Reefer için.",
+     "image": ""
+    },
+    {
+     "id": "fate",
+     "title": "Boşaltmadan sonra",
+     "text": "Uygulama konteynere ne olduğunu sorar: müşteride kaldı, araçta kaldı, başka bir müşteriye gidiyor veya limana ya da depoya iade ediliyor.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "sidelifter",
+   "title": "Yandan yükleyici",
+   "intro": "Yandan yükleyici konteyneri kendisi indirir ve yükler.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Filoda",
+     "text": "“Yandan yükleyici” kasa tipi yalnızca yarı römorkta bulunur.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Seferde",
+     "text": "Konteyner, konteyner taşıyıcıdaki gibi girilir; vinçle çalışma özette işaretlenir.",
+     "image": ""
+    },
+    {
+     "id": "exchange",
+     "title": "Değişim",
+     "text": "Yandan yükleyici noktada sık sık konteyner değiştirir — “Konteyner Değişimi” özelliğini kullanın.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "refrigerated",
+   "title": "Frigorifik",
+   "intro": "Frigorifik sıcaklık kontrollü yük taşır.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Filoda",
+     "text": "Kasa tipi “Frigorifik”; takılıysa jeneratörü işaretleyin, ünite deposunu ve kritik yedeğini belirtin.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Seferde",
+     "text": "Sıcaklık kontrolü: kontrollü veya kontrolsüz; yük sıcaklığı. Sürüş ekranında — “Ünite çalışıyor” anahtarı.",
+     "image": ""
+    },
+    {
+     "id": "fuel",
+     "title": "Ünite yakıtı",
+     "text": "Ünite motorini yakıt alımında ayrı bir alana yazılır; uygulama çalışma saatini ve saatte litre cinsinden tüketimi hesaplar ve “≈ yedeğe N sa” bilgisini gösterir.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "curtainsider",
+   "title": "Tenteli",
+   "intro": "Tenteli römork paletli parça yük taşır.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Filoda",
+     "text": "Kasa tipi “Tenteli”.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Seferde",
+     "text": "Parça yük: palet sayısı, toplam ağırlık, açıklama.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Boşaltma",
+     "text": "Her noktada kaç palet bırakıldığını işaretleyin; uygulama araçta kalanı hatırlar.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tipper",
+   "title": "Damperli",
+   "intro": "Damperli araç dökme yük taşır.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Filoda",
+     "text": "Kasa tipi “Damperli”.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Seferde",
+     "text": "Dökme yük: metreküp cinsinden hacim, net ve brüt ağırlık, açıklama.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Boşaltma",
+     "text": "Boşaltma saatle kaydedilir; yük işlemleri zamanlayıcısı ne kadar sürdüğünü gösterir.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fuel-tanker",
+   "title": "Akaryakıt tankeri",
+   "intro": "Akaryakıt tankeri bölmeler halinde yakıt taşır.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Filoda",
+     "text": "Kasa tipi “Akaryakıt tankeri”; bölme sayısı ve her birinin litre cinsinden hacmi.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Seferde",
+     "text": "Yük detaylarında her bölmenin hacmi girilir.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Boşaltma",
+     "text": "Noktada boşaltılan bölmeleri işaretleyin. Sefer bitirilirken boşaltılmamış bölmeler kaldıysa uygulama onay sorar.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tanker",
+   "title": "Tanker",
+   "intro": "Tanker sıvı yük taşır.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Filoda",
+     "text": "Kasa tipi “Tanker”; bölmeler ve hacimleri.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Seferde",
+     "text": "Sıvı kategorisi: kimyasallar, gıda, atık; sıcaklık kontrollü; tehlikeli yükler için UN numaralı ADR.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Boşaltma",
+     "text": "Bölmeler noktalarda akaryakıt tankerindeki gibi teslim edilir.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "car-transporter",
+   "title": "Oto taşıyıcı",
+   "intro": "Oto taşıyıcı binek araç taşır.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Filoda",
+     "text": "Kasa tipi “Oto taşıyıcı”; araç yeri sayısı.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Seferde",
+     "text": "Araçlar VIN (17 karakter, I, O, Q yok) veya plakaya göre girilir; VIN kamerayla taranabilir. Sayaç kaç araç yüklendiğini gösterir.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Boşaltma",
+     "text": "Noktada hangi araçların bırakıldığını ve hangilerinin alındığını işaretleyin. Sefer bitirilirken araçta hâlâ araç kaldıysa uygulama onay sorar.",
+     "image": ""
+    }
+   ]
+  }
+ ],
+ "screens": {
+  "getting-started.welcome": "İlk çalıştırma: ad, çekici, römork ve izinler. Yedek varsa defter tamamen geri yüklenebilir.",
+  "getting-started.onboarding": "Kendiniz ve aracınız hakkındaki soruları yanıtlayın. Her şey daha sonra ayarlarda ve filoda düzeltilebilir.",
+  "getting-started.main-screen": "Ana ekran o sırada işin neresinde olduğunuzu gösterir ve bir sonraki adıma götürür: vardiya, sefer, boşaltma.",
+  "getting-started.menu": "Uygulama menüsü: filo, geçmiş, raporlar, yakıt kaydı, bakım, belgeler, adresler, yardım ve ayarlar.",
+  "shift.shift-welcome": "Vardiya başı: konum, sefer bekleme ve “Seferi Başlat” düğmesi.",
+  "shift.shift-status": "Vardiyanın açık olup olmadığı, saat kaçtan beri açık olduğu ve içinde kaç sefer bulunduğu.",
+  "trip.origin": "Müşteri ve nereden veya nereye gittiğinizin adresi. Yeni müşteri kendiliğinden adres defterine eklenir.",
+  "trip.cargo-type": "Ne taşıyorsunuz. Liste çekicinin ve römorkun kasa tipine bağlıdır.",
+  "trip.cargo-details": "Yük detayları: konteyner ve mühür numaraları, bölmeler, araçlar, paletler. Numaralar kamerayla taranabilir.",
+  "trip.load-details": "Yükün boyutları, ağırlığı ve açıklaması.",
+  "trip.trip-times": "Kaydedilmiş bir seferin saatlerini, adreslerini ve kilometrelerini düzenleme.",
+  "trip.confirm": "Sefer Özeti. Kontrol edin ve “Yola çık” düğmesine dokunun — sefer ancak o zaman kaydedilir.",
+  "trip.arrival": "Noktadasınız: varış, boşaltma veya yükleme başlangıcı ve bitişi.",
+  "trip.unload": "Bu noktada ne teslim edildi: bölmeler, yüzde, paletler veya araçlar.",
+  "trip.cargo-fate": "Boşaltmadan sonra konteynere ne olacağı.",
+  "trip.summary": "Sefer Özeti: sonraki durak, bitirme veya yeni sefer.",
+  "driving.driving": "Devam eden sefer: varış, yakıt alımı, park. Aracın altında — yakıt yedeğine kalan yaklaşık miktar.",
+  "driving.odometer": "Kilometre sayacı değeri. Uygulama beklenen değeri doldurur ve sayıyı kontrol eder; kamerayla taranabilir.",
+  "driving.swap-trailer": "Yolda römork değişimi: filodan römork seçin.",
+  "refuel.refuel-timer": "Yakıt alımı devam ediyor: zamanlayıcı. Bittiğinde — litre girişi.",
+  "refuel.refuel-data": "Dizel, AdBlue ve römork ünitesi litreleri, kilometre. Tek kayıt olarak kaydedilir.",
+  "refuel.refuel-history": "Dönem içindeki tüm yakıt alımları, ortalama tüketim ve PDF raporu.",
+  "parking.parking-stop": "Park adresi: elle, kayıtlı yerlerden veya GPS ile.",
+  "parking.places": "Kendi yerleriniz: park yerleri, limanlar, depolar. Park ederken ve konteyner iadesinde seçilir.",
+  "parking.place-form": "Yerin adı, notu ve koordinatı; navigasyonda açma.",
+  "camera.scan": "Numarayı çerçeveye hizalayın. Çerçeveyi iki parmakla numaraya sıkıştırın; dışına dokunmak fotoğraf çeker.",
+  "camera.container-exchange": "Başka bir sürücüyle konteyner değişimi: ne verildi, ne alındı.",
+  "camera.photos": "Tam ekranda sefer belgesi fotoğrafları.",
+  "history.history": "Tüm vardiyalar ve seferler: arama, ayrıntılar, düzenleme ve silme.",
+  "report.report": "Dönem toplamları ve PDF raporu.",
+  "garage.garage": "Çekicileriniz ve römorklarınız. Yönetimini açmak için araca dokunun.",
+  "garage.truck-form": "Çekicinin plakası, tipi ve kasası; vinç veya manipülatör.",
+  "garage.trailer-form": "Römorkun plakası, bağlantı tipi ve kasası; bölmeler, araç yerleri, jeneratör.",
+  "garage.vehicle-hub": "Araç hakkında her şey: belgeler, bakım, muayene, akslar ve lastikler, plaka, boya.",
+  "garage.vehicle-settings": "Kilometre, bakım aralıkları, akslar, depo ve kritik yedek.",
+  "garage.plate-colors": "Araçtaki gibi plaka renkleri.",
+  "garage.rig-paint": "Araç çiziminde kabin, vinç ve kasa renkleri.",
+  "garage.tyres": "Aks şeması ve lastik geçmişi: değişimler, patlaklar, yer değiştirmeler.",
+  "documents.overview": "Geçerlilik süreleriyle tüm araç ve sürücü belgeleri.",
+  "documents.list": "Bu aracın belgeleri. “+” — ekle.",
+  "documents.form": "Belgenin tipi, adı ve geçerlilik tarihi.",
+  "documents.pages": "Belge sayfalarının fotoğrafları.",
+  "maintenance.maintenance": "Sonraki bakıma ne kadar kaldığı ve bakım kayıtları.",
+  "maintenance.new-record": "Yeni bakım kaydı: kilometre, tarih, yapılan işler, fotoğraflar.",
+  "address-book.book": "Müşteriler ve kendi yerleriniz.",
+  "address-book.clients": "Müşteri listesi: ekleme, gizleme, silme.",
+  "address-book.client": "Müşterinin adı, notu ve adresleri.",
+  "address-book.add-address": "Adres, koordinat, navigasyon ve kırmızı işaret.",
+  "backup.backup": "Tüm defteri içeren dosya: kaydetme, gönderme veya geri yükleme.",
+  "online.device-link": "Telefonu çevrimiçi programa bağlama: QR kodu veya ekrandaki kod.",
+  "settings.settings": "Gruplar halinde tüm ayarlar.",
+  "settings.profile": "Sürücü adı ve belgeleri.",
+  "settings.language": "Uygulama dili, GPS adreslerinin dili, tarih biçimi.",
+  "settings.theme": "Açık, koyu veya otomatik; hazır ve özel temalar.",
+  "settings.theme-custom": "Özel temanın renkleri.",
+  "settings.about": "Uygulama sürümü ve geliştiriciyle iletişim.",
+  "settings.feedback": "Hata bildirme veya öneri sunma.",
+  "settings.help": "Bölümlere göre uygulama kılavuzu.",
+  "diagnostics.enroll": "Onay ve telefonun tanılama kanalına kaydı.",
+  "diagnostics.warning": "Uygulamanın servis bölümüne giriş.",
+  "diagnostics.channel-settings": "Telefonun geliştiriciye gönderdikleri: üç ayrı onay.",
+  "diagnostics.server": "Tanılama kanalı bağlantı durumu.",
+  "diagnostics.import": "Kanal paketinin .p12 dosyasıyla kurulması.",
+  "service.hub": "Servis merkezi: bilgiler ve servis ekranları.",
+  "service.database": "Veritabanı durumu ve uygulamanın tam sıfırlanması.",
+  "service.logs": "Uygulama etkinlik günlükleri.",
+  "service.ocr": "Numara tanıma tanılaması.",
+  "service.system": "Telefon ve çökmeler hakkında bilgiler.",
+  "service.locale": "Dillerin kontrolü ve ilk çalıştırmayı tekrarlama.",
+  "service.dataset": "Tanıma için kare çekimi.",
+  "service.splash-tuner": "Açılış ekranı ayarı."
+ }
+}

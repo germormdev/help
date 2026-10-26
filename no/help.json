@@ -1,0 +1,978 @@
+{
+ "format": 1,
+ "language": "no",
+ "revision": "2026-10-26",
+ "sections": [
+  {
+   "slug": "getting-started",
+   "title": "Kom i gang",
+   "intro": "VecturaBook er en kjørebok for sjåfører: skift, turer, tankinger, parkeringer, dokumenter og kjøretøy på én telefon. Alt lagres på telefonen og fungerer uten internett.",
+   "steps": [
+    {
+     "id": "welcome",
+     "title": "Første oppstart",
+     "text": "Ved første oppstart stiller appen noen spørsmål — fire korte trinn. Det tar et minutt, og alt du svarer kan endres senere i innstillingene og i vognparken.\n\nHvis du allerede har en sikkerhetskopi av VecturaBook (for eksempel fra en tidligere telefon), trykk «Gjenopprett fra sikkerhetskopi» på første trinn: hele kjøreboken kommer tilbake, og du slipper spørsmålene.",
+     "image": "img/no/getting-started-welcome.png"
+    },
+    {
+     "id": "onboarding",
+     "title": "Navn, trekkvogn, tilhenger, tillatelser",
+     "text": "Trinn 1 — navn. Det skrives ut i rapporter. Du kan la det stå tomt og fylle det inn senere.\n\nTrinn 2 — trekkvogn eller lastebil: registreringsnummer, type og påbygg. Type og påbygg velges med bilder gjennom en rekke spørsmål: for hvert svar viser appen neste spørsmål.\n\nTrinn 3 — tilhenger. Du kan hoppe over den med knappen «Hopp over tilhenger» og legge den til senere i vognparken.\n\nTrinn 4 — tillatelser: «Kamera» (containernumre, plomber, kilometerstand), «Posisjon» (by ved skiftstart, kun når du ber om det) og «Varsler» (tidtakere for venting, fylling og lossing). Du kan avslå hvilken som helst av dem — appen vil fungere, bare uten denne funksjonen.",
+     "image": "img/no/getting-started-onboarding.png"
+    },
+    {
+     "id": "main-screen",
+     "title": "Hovedskjerm",
+     "text": "Hovedskjermen viser hvor du er i arbeidet akkurat nå: skift ikke startet, skift pågår, tur pågår, du er på lossestedet og så videre. Knappene på skjermen fører alltid til neste trinn, så du kan ikke glemme noe.\n\nØverst er en linje med menyknappen til venstre og knappen «?» til høyre. «?» finnes på hver skjerm: den forklarer skjermen kort, og med knappen «Mer» åpner den riktig del av denne håndboken.",
+     "image": "img/no/getting-started-main-screen.png"
+    },
+    {
+     "id": "menu",
+     "title": "Meny",
+     "text": "Knappen med tre streker åpner menyen: «Vognpark», «Turhistorikk», «Rapport», «Tankelogg», «Vedlikehold», «Kjøretøydokumenter», «Adressebok», «Hjelp». Nederst ligger «Innstillinger».\n\nPå alle andre skjermer står det en tilbake-pil der menyknappen ellers er.",
+     "image": "img/no/getting-started-menu.png"
+    },
+    {
+     "id": "help-offline",
+     "title": "Hjelp uten internett",
+     "text": "Appen laster ned tekstene i denne håndboken på ditt språk og lagrer dem lokalt, slik at «?» og «Hjelp» fungerer på veien uten dekning. Én gang i døgnet, når du har internett, sjekker appen i bakgrunnen om det har kommet oppdateringer.\n\nHvis hjelpen aldri har blitt lastet ned før, ber appen deg om å koble til internett.",
+     "image": "img/no/getting-started-help-offline.png"
+    }
+   ]
+  },
+  {
+   "slug": "shift",
+   "title": "Skift",
+   "intro": "Et skift er arbeidsdagen fra start til slutt. Inne i skiftet ligger turer, tankinger og parkeringer; oppsummeringen av skiftet havner i historikken og rapportene.",
+   "steps": [
+    {
+     "id": "shift-welcome",
+     "title": "Start skift",
+     "text": "Trykk «Start skift». Appen hilser og viser hvor du er: byen finnes via posisjon hvis du har gitt tillatelse, ellers trykker du på linjen med nålen og skriver inn stedet selv.\n\nHvis du ikke har en tur ennå, trykk «Venter på tur» — da starter tidtakeren for venting. «Stopp venting» stopper den. Venting før tur blir med i historikken og rapporten.\n\nNår du har en tur — trykk «Start tur».",
+     "image": "img/no/shift-shift-welcome.png"
+    },
+    {
+     "id": "shift-status",
+     "title": "Skiftstatus",
+     "text": "Skjermen «Skift» viser om skiftet er åpent, når det ble åpnet og hvor mange turer det har. «Fortsett skiftet» tar deg tilbake til arbeidet.\n\nDu kan ikke avslutte skiftet mens en tur pågår: avslutt turen først.",
+     "image": "img/no/shift-shift-status.png"
+    },
+    {
+     "id": "end-shift",
+     "title": "Avslutt skift",
+     "text": "Den røde knappen «Avslutt skift» er den eneste røde knappen i appen. Appen spør om bekreftelse og ber om «Sluttkilometerstand». Tallet sjekkes: hvis det er lavere enn sist eller mye høyere enn forventet, viser appen siste kjente verdi og ber deg bekrefte eller rette.",
+     "image": ""
+    },
+    {
+     "id": "forgotten-shift",
+     "title": "Glemt skift",
+     "text": "Hvis et skift har vært åpent i mer enn ett døgn, foreslår appen å lukke det med tidspunktet for siste hendelse — slik at arbeidstiden i rapporten ikke blir kunstig høy. Du kan godta eller fortsette skiftet.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "trip",
+   "title": "Tur: fra lasting til lossing",
+   "intro": "En tur registreres trinn for trinn: hvor fra og hvor til, hva du frakter, lastdetaljer, oppsummering — og «Avreise». På stedet — ankomst, lossing eller lasting, oppsummering. Før du har trykket «Avreise», er ingenting lagret i kjøreboken: på hvert trinn kan du gå tilbake med knappen «Tilbake» uten å miste det du har skrevet.",
+   "steps": [
+    {
+     "id": "origin",
+     "title": "Kunde og rute",
+     "text": "Velg kunde: begynn å skrive navnet, så foreslår appen fra adresseboken. En ny kunde trenger du bare å skrive inn: den legges automatisk til i boken.\n\nEn kunde kan ha flere adresser — velg den riktige eller legg til en ny. GPS-ikonet fyller inn adressen der du er nå. Sjåførnotater om kunden vises rett her.",
+     "image": "img/no/trip-origin.png"
+    },
+    {
+     "id": "cargo-type",
+     "title": "Hva frakter du?",
+     "text": "Lasttype velges med fliser: container, stykkgods, overdimensjonert, kjøl, drivstoff, bulk, kjøretøy, tom. Listen avhenger av påbygget på lastebilen og tilhengeren.\n\nHvis du endrer lasttype etter at du har lagt inn detaljer, varsler appen om at det du har lagt inn vil bli slettet, og ber om bekreftelse.",
+     "image": "img/no/trip-cargo-type.png"
+    },
+    {
+     "id": "cargo-details",
+     "title": "Lastdetaljer",
+     "text": "Detaljene avhenger av lasttypen. For container — tom eller lastet, størrelse, hvor mange containere, type, containernummer og plombenummer. Numrene kan skannes med kameraet. For tankbil — seksjoner og volumer, for biltransport — kjøretøy etter VIN eller registreringsnummer, for stykkgods — paller og vekt.\n\nHvis turen ikke trenger detaljer (for eksempel tom), trykker du bare «Neste».\n\nADR-bryteren åpner felt for UN-numre ved farlig gods.",
+     "image": "img/no/trip-cargo-details.png"
+    },
+    {
+     "id": "load-details",
+     "title": "Lastdetaljer",
+     "text": "For overdimensjonert last og containere på plan — lengde, bredde, høyde, vekt og beskrivelse. Målene oppgis i enhetene som er valgt i innstillingene.",
+     "image": "img/no/trip-load-details.png"
+    },
+    {
+     "id": "trip-times",
+     "title": "Tider og punkter for turen",
+     "text": "Denne skjermen vises kun når du redigerer en allerede lagret tur fra historikken. Her kan du endre starttid, ankomsttid, start- og sluttid for lastearbeid, adresser og kilometerstand for punktene.\n\nTidspunkter som ikke fantes i turen vises med en strek og kan ikke endres: redigering legger ikke til hendelser som ikke har skjedd.",
+     "image": ""
+    },
+    {
+     "id": "confirm",
+     "title": "Turoppsummering",
+     "text": "Oppsummeringen viser hele turen på én skjerm. Her finnes også avkrysninger: «Sov i hytta», «Militæroppdrag», «Farlig sone», «Temperaturstyrt», «Arbeid med kran» (hvis lastebilen har kran).\n\n«Endre» tar deg tilbake til trinnene. Den grønne knappen «Avreise» lagrer turen og starter den. Hvis du har en navigasjonsapp på telefonen, tilbyr appen å åpne adressen i den.",
+     "image": "img/no/trip-confirm.png"
+    },
+    {
+     "id": "arrival",
+     "title": "Ankomst",
+     "text": "Når du er framme, trykk «Framme». Appen lagrer klokkeslettet og foreslår kilometerstand.\n\n«Start lossing/lasting» starter tidtakeren for lastearbeid, og «Stopp lossing/lasting» stopper den. Hvis noe ikke ble lagret (for eksempel hvis telefonen hang seg opp), sier appen fra og ber deg trykke én gang til — ingenting blir lagret halvveis i kjøreboken.",
+     "image": "img/no/trip-arrival.png"
+    },
+    {
+     "id": "unload",
+     "title": "Lossing på dette stoppet",
+     "text": "Hvis lasten leveres i deler, marker hva som ble levert på dette punktet: seksjoner på tankbil, prosent av container, paller, bestemte biler på biltransport. Appen husker hvor mye som er igjen om bord, og lar deg ikke levere mer enn det som finnes.",
+     "image": ""
+    },
+    {
+     "id": "cargo-fate",
+     "title": "Hva skjedde med containeren?",
+     "text": "Etter lossing spør appen hva som skjer videre med containeren: «Ble her», «Fortsatt på bilen», går «Til en kunde», går i «Retur» «Til et sted» (havn, depot) eller til «Annen adresse». Svaret styrer neste trinn på turen.",
+     "image": "img/no/trip-cargo-fate.png"
+    },
+    {
+     "id": "summary",
+     "title": "Turoppsummering",
+     "text": "Etter stoppet — «Fortsett tur» (neste stopp på samme tur), «Avslutt tur» eller «Ny tur».\n\n«Fyll ut neste tur» lar deg legge inn neste tur på forhånd mens du losser — kunde, last, numre. Deretter starter «Avslutt og kjør: %1$s» den med det samme.",
+     "image": "img/no/trip-summary.png"
+    }
+   ]
+  },
+  {
+   "slug": "driving",
+   "title": "Kjøreskjerm",
+   "intro": "Mens turen pågår, er hovedskjermen «Pågår»: turens kjøretøy, registreringsnummer på lastebil og tilhenger, kjøretid og knapper for neste handlinger.",
+   "steps": [
+    {
+     "id": "driving",
+     "title": "Pågår",
+     "text": "Knapper på skjermen: «Framme» (du er på stedet), «Tank», «Parkering / Stopp». Over knappene vises en tegning av bilen din med registreringsnumre; tegningen er satt sammen av det som er lagret i vognparken: type, påbygg, aksler, farger.\n\nHvis du har lagt inn tankvolum og din kritiske reserve i vognparken, vises det under bilen omtrent hvor mye som er igjen til reserven: «≈ N km til reserve» for dieselen på lastebilen og «≈ N t til reserve» for aggregatet på tilhengeren (kjøleaggregat, generator). Beregningen bygger på tankingene dine og kjørelengden, så den vises kanskje ikke rett etter første tanking.",
+     "image": "img/no/driving-driving.png"
+    },
+    {
+     "id": "swap-trailer",
+     "title": "Bytt tilhenger",
+     "text": "Bytte tilhenger underveis — «Bytt tilhenger». I vinduet vises tilhengerne fra vognparken: tegning av tilhengeren med registreringsnummeret under. Velg den nye — byttet registreres på turen. Tilhengere som ikke passer til lastebilen, foreslås ikke i listen.",
+     "image": "img/no/driving-swap-trailer.png"
+    },
+    {
+     "id": "odometer",
+     "title": "Kilometerstand",
+     "text": "Appen fyller inn forventet verdi: fra lastebilen, fra lasting, fra forrige lossing eller fra tanking. Sjekk tallet og rett det ved behov. Kilometerstanden kan skannes med kameraet.\n\nHvis tallet er lavere enn forrige, mye høyere enn forventet, eller du ikke har rørt det, viser appen siste kjente verdi og spør om det stemmer. Endring av kilometerstand i en tidligere tur viser hvilke andre oppføringer som blir påvirket.",
+     "image": "img/no/driving-odometer.png"
+    }
+   ]
+  },
+  {
+   "slug": "refuel",
+   "title": "Tanking, AdBlue, aggregat",
+   "intro": "Tankinger brukes til å beregne drivstofforbruk, rapporter og indikatoren «til reserve».",
+   "steps": [
+    {
+     "id": "refuel-timer",
+     "title": "Tidtaker for tanking",
+     "text": "«Tank» på kjøreskjermen starter en tidtaker — tiden du bruker på å tanke blir med i kjøreboken. «Avslutt tanking» stopper den og åpner feltet for antall liter. Tidtakeren går også i varslingsfeltet når appen er minimert.",
+     "image": "img/no/refuel-refuel-timer.png"
+    },
+    {
+     "id": "refuel-data",
+     "title": "Liter og kilometerstand",
+     "text": "Skriv inn diesel i liter, og ved behov AdBlue og diesel til hengerens aggregat (kjøleaggregat, generator). Kilometerstanden er fylt ut på forhånd; den kan skannes med kameraet. «Lagre tanking» lagrer alt som én oppføring.",
+     "image": "img/no/refuel-refuel-data.png"
+    },
+    {
+     "id": "unit",
+     "title": "Hengerens aggregat",
+     "text": "Hvis det står en generator på tilhengeren, kryss av for «Generator montert» i «Tilhengerinnstillinger». Da får kjøreskjermen bryteren «Aggregatet går», appen teller aggregatets driftstimer og forbruk i liter per time, og ved tanking dukker det opp et felt for diesel til aggregatet.",
+     "image": ""
+    },
+    {
+     "id": "refuel-history",
+     "title": "Tankelogg",
+     "text": "Loggen viser alle tankinger for «Uke», «Måned», «All tid» eller «Tilpasset» periode: «Totalt drivstoff», antall stopp («Stopp») og «Gj.sn. forbruk». Andelen AdBlue av diesel og aggregatets forbruk regnes ut hver for seg.\n\n«Generer PDF-rapport» lager en rapport over tankinger som kan sendes. En tanking kan slettes.",
+     "image": "img/no/refuel-refuel-history.png"
+    }
+   ]
+  },
+  {
+   "slug": "parking",
+   "title": "Parkering og hvile",
+   "intro": "En parkering er et stopp underveis: hvile, overnatting, venting. Den lagres på turen med egen adresse og tid.",
+   "steps": [
+    {
+     "id": "parking-stop",
+     "title": "Parkering / Stopp",
+     "text": "På kjøreskjermen trykker du «Parkering / Stopp». Du kan skrive inn adressen manuelt, velge «Fra lagrede steder» eller trykke på GPS-ikonet. Hvis adressen ikke ble funnet, fyller appen inn koordinater — de kan du redigere.\n\nNetter i førerhuset telles med i historikken og i rapporten.",
+     "image": "img/no/parking-parking-stop.png"
+    },
+    {
+     "id": "places",
+     "title": "Steder",
+     "text": "«Steder» er dine egne punkter som ikke er knyttet til kunder: rasteplasser, havner, depoter, bensinstasjoner. Du kan søke i listen etter navn. Steder kan velges ved parkering og ved retur av container.",
+     "image": ""
+    },
+    {
+     "id": "place-form",
+     "title": "Sted",
+     "text": "«Stedets navn», «Notat» og koordinat. Koordinaten kan lagres fra nåværende posisjon («Lagre koordinat herfra»), erstattes («Erstatt koordinat») eller slettes («Slett koordinat»). Knappene «Åpne i navigasjon» og «Send» sender punktet til navigasjonsappen eller i en melding.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "camera",
+   "title": "Kamera: containere og plomber",
+   "intro": "Kameraet leser containernumre, plombenumre, VIN og kilometerstand, slik at du slipper å skrive dem inn for hånd.",
+   "steps": [
+    {
+     "id": "scan",
+     "title": "Kameraramme",
+     "text": "Rett nummeret mot rammen. Knip rammen tett rundt nummeret med to fingre — da leses det bedre. «Snu rammen» brukes for numre som står loddrett. Trykk utenfor rammen for å ta bildet.",
+     "image": ""
+    },
+    {
+     "id": "container-number",
+     "title": "Containernummer",
+     "text": "Et containernummer består av 4 bokstaver og 7 sifre. Appen sjekker kontrollsifferet; hvis nummeret ikke stemmer, lagres det med merknaden «Nummeret er ikke validert» — sjekk det selv med øynene.",
+     "image": ""
+    },
+    {
+     "id": "seal",
+     "title": "Plombe",
+     "text": "Plombenummeret leses fra teksten. Hvis plomben har en strekkode og den ikke stemmer overens med det trykte nummeret, velger appen det trykte nummeret: strekkoden kan tilhøre en annen serie.",
+     "image": ""
+    },
+    {
+     "id": "container-exchange",
+     "title": "Containerbytte",
+     "text": "Hvis du på et stopp gir fra deg en container til en annen sjåfør og tar med deg hans container, registrerer du byttet: hvilken container som ble losset («Container losset»), hvilken som ble lastet («Container lastet»), «Sjåførnavn» og «Lastebilens registreringsnummer».",
+     "image": ""
+    },
+    {
+     "id": "photos",
+     "title": "Bilder",
+     "text": "Du kan legge ved bilder av dokumenter på turen ved lasting og lossing: «Dokumentbilde». «SE BILDER» åpner dem i fullskjerm.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "history",
+   "title": "Turhistorikk og redigering",
+   "intro": "Historikken inneholder alle skift og turer. Her kan du se, søke i, redigere og slette dem.",
+   "steps": [
+    {
+     "id": "history",
+     "title": "Historikk",
+     "text": "Turene er gruppert etter skift: skiftstart og skiftslutt, tid, distanse, antall turer. Trykk på en tur for å åpne detaljene: kunde, last, punkter, kilometerstand, venting, bilder. Du kan søke etter kunde, container eller rute. «Alle turer» viser dem i én samlet liste.",
+     "image": "img/no/history-history.png"
+    },
+    {
+     "id": "edit",
+     "title": "Rediger tur",
+     "text": "«Rediger» åpner de samme trinnene som da turen ble opprettet, pluss skjermen for tider og punkter. Endringene samles opp og lagres først på oppsummeringsskjermen.\n\nHvis en endring av kilometerstanden påvirker andre oppføringer (neste tur, lastebilens stand, skiftets kilometer), viser appen dem før du trykker «Bruk».",
+     "image": ""
+    },
+    {
+     "id": "delete",
+     "title": "Sletting",
+     "text": "En tur slettes med søppelbøtte-knappen; flere turer slettes i «Slettemodus». En aktiv tur kan ikke slettes — avslutt den først. Hvis telefonen er koblet til «Programmet på nett», blir slettingen også overført til de andre enhetene dine.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "report",
+   "title": "Rapport og PDF",
+   "intro": "Rapporten regner sammen arbeidet for en periode: turer, distanse, arbeidstid, ventetid, drivstoff og forbruk.",
+   "steps": [
+    {
+     "id": "report",
+     "title": "Perioderapport",
+     "text": "Velg periode: «I dag», «Uke», «Måned» eller «Tilpasset». Kortene viser totalene. «Eksporter rapport» lager en PDF med skift, turer, punkter og tankinger; den kan sendes eller skrives ut.",
+     "image": "img/no/report-report.png"
+    },
+    {
+     "id": "pdf",
+     "title": "Hva som står i PDF-en",
+     "text": "I PDF-en vises det for hvert skift når det ble åpnet og avsluttet, lastebil og tilhenger, turer med kunder, last, losse- og ventetider, kilometerstand og tankinger. Til slutt står «Totalt for perioden»: skift, turer, tankinger, total distanse, total tid, totalt drivstoff, gjennomsnittlig distanse per skift og gjennomsnittlig forbruk.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "garage",
+   "title": "Vognpark: trekkvogner og tilhengere",
+   "intro": "Vognparken lagrer kjøretøyene dine. Herfra hentes tegninger av bilene, registreringsnumre, kompatibilitet mellom tilhengere, kilometerstand og alle innstillinger for hvert kjøretøy.",
+   "steps": [
+    {
+     "id": "garage",
+     "title": "Vognpark",
+     "text": "To faner: «Lastebiler» og «Tilhengere». Det aktive kjøretøyet er uthevet. «+ Legg til lastebil» og «+ Legg til tilhenger» oppretter nye kjøretøy. Trykk på et kjøretøy for å åpne administrasjonen av det.\n\nMens en tur pågår, kan du ikke bytte kjøretøy i vognparken — avslutt turen først (tilhenger underveis byttes med «Bytt tilhenger»).",
+     "image": "img/no/garage-garage.png"
+    },
+    {
+     "id": "truck-form",
+     "title": "Trekkvogn",
+     "text": "Registreringsnummer, type («Trekkvogn» eller «Lastebil») og påbygg velges gjennom en rekke spørsmål med bilder; samt om bilen har kran eller manipulator. To like registreringsnumre kan ikke finnes i vognparken.",
+     "image": ""
+    },
+    {
+     "id": "trailer-form",
+     "title": "Tilhenger",
+     "text": "Registreringsnummer, koblingstype («Semitrailer» eller «Tilhenger») og påbygg. For tankbil oppgis antall seksjoner og volumet for hver av dem, for biltransport — antall kjøretøyplasser, for kjølehenger — om det er «Generator montert».",
+     "image": ""
+    },
+    {
+     "id": "vehicle-hub",
+     "title": "Kjøretøyadministrasjon",
+     "text": "Kjøretøyskjermen samler alt om bilen: «Registrering», «Dokumenter», «Vedlikehold», «Kontroll», «Aksler og dekk», «Nummerskilt», «Lakk». «Aktiver» velger kjøretøyet for arbeid.",
+     "image": "img/no/garage-vehicle-hub.png"
+    },
+    {
+     "id": "vehicle-settings",
+     "title": "Kjøretøyinnstillinger",
+     "text": "«Nåværende kilometerstand», «Serviceintervall» (kilometer, måneder, varselgrenser), «Startpunkt» for service, «Aksler», «Tankvolum, l» og «Min kritiske reserve, l» (for indikatoren «til reserve»). For tilhenger med aggregat — «Aggregatets tank, l» og «Aggregatets kritiske reserve, l».",
+     "image": "img/no/garage-vehicle-settings.png"
+    },
+    {
+     "id": "plate-colors",
+     "title": "Nummerskilt",
+     "text": "«Skiltets bakgrunn» og «Nummerets farge» — akkurat som på bilen din. Hvis kombinasjonen er vanskelig å lese, vises nummeret i svart eller hvitt.",
+     "image": "img/no/garage-plate-colors.png"
+    },
+    {
+     "id": "rig-paint",
+     "title": "Lakk",
+     "text": "Farge på «Førerhus», «Kran» og «Påbygg» på tegningen av bilen. «Som tegnet» gir tilbake standardfargen.",
+     "image": "img/no/garage-rig-paint.png"
+    },
+    {
+     "id": "tyres",
+     "title": "Aksler og dekk",
+     "text": "Akselskissen tegnes automatisk ut fra antall aksler; hver aksel kan settes som «Enkel» eller «Tvilling». Trykk på et dekk: «Dekkskift», «Punktering», «Omplassering» eller «Noe annet» — oppføringen havner i «Historikk». «Statistikk» viser gjennomsnittlig kjørelengde mellom dekkskift og hvilken plass som skiftes oftest. En tilhenger har sin egen kjørelengde — den kan du skrive inn med «Skriv inn kjørte km».",
+     "image": "img/no/garage-tyres.png"
+    }
+   ]
+  },
+  {
+   "slug": "documents",
+   "title": "Dokumenter og utløpsdatoer",
+   "intro": "Dokumenter for kjøretøy og sjåfør med bilder av sidene og utløpsdatoer. Appen minner deg på fristene i god tid.",
+   "steps": [
+    {
+     "id": "overview",
+     "title": "Alle dokumenter",
+     "text": "Oversikten viser dokumentene for alle kjøretøy og sjåføren i én liste med frister: hvor mange dager som er igjen eller «utløpt».",
+     "image": "img/no/documents-overview.png"
+    },
+    {
+     "id": "list",
+     "title": "Kjøretøydokumenter",
+     "text": "Hvert kjøretøy har sin egen liste: «Vognkort», «Forsikring», «Kontroll» og egne dokumenter. «+» legger til et dokument.",
+     "image": "img/no/documents-list.png"
+    },
+    {
+     "id": "form",
+     "title": "Dokument",
+     "text": "Velg type eller «Eget dokument…» og skriv inn navn (for eksempel ADR-tillatelse). «Gyldig til» er utløpsdatoen som styrer påminnelsene. «Kontroll» har også «Godkjent dato».",
+     "image": ""
+    },
+    {
+     "id": "pages",
+     "title": "Dokumentsider",
+     "text": "Ta bilde av sidene i dokumentet med kameraet. Sidene kan åpnes i fullskjerm, blas gjennom og slettes én etter én.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Påminnelser om utløpsdatoer",
+     "text": "Før et dokument utløper, sender appen et varsel og viser vinduet «Dokumentenes utløp» ved oppstart. «Forstått» skjuler vinduet frem til neste varselgrense. Sjåførens dokumenter («Førerkort», «Pass», «ADR-sertifikat») ligger under «Profilinnstillinger».",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "maintenance",
+   "title": "Service og dekk",
+   "intro": "Vedlikehold: oppføringer, intervaller og påminnelse når det er på tide med service.",
+   "steps": [
+    {
+     "id": "maintenance",
+     "title": "Vedlikehold",
+     "text": "Øverst vises hvor mye som gjenstår til neste service i kilometer eller dager, eller hvor mye den er forsinket med. Nedenfor ligger serviceoppføringene. Intervaller og «Startpunkt» settes i kjøretøyinnstillingene.",
+     "image": "img/no/maintenance-maintenance.png"
+    },
+    {
+     "id": "new-record",
+     "title": "Serviceoppføring",
+     "text": "«Registrer service» åpner en ny oppføring: «Kilometerstand», «Dato», «Hva ble gjort (valgfritt)», «Bilder». Kilometerstanden ved service kan ikke være høyere enn dagens.",
+     "image": ""
+    },
+    {
+     "id": "tyres",
+     "title": "Dekk",
+     "text": "Dekk administreres på akselskissen — under delen «Vognpark», trinnet «Aksler og dekk».",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "address-book",
+   "title": "Adressebok og kunder",
+   "intro": "Kunder med adresser, og dine egne steder. Boken fylles ut av seg selv når du skriver inn en ny kunde på en tur.",
+   "steps": [
+    {
+     "id": "book",
+     "title": "Adressebok",
+     "text": "Fanen «Kunder» viser kunder med adresser; fanen «Steder» viser dine egne punkter. Skjulte kunder foreslås ikke når du velger kunde; «Vis skjulte» henter dem frem i listen igjen.",
+     "image": "img/no/address-book-book.png"
+    },
+    {
+     "id": "clients",
+     "title": "Kunder",
+     "text": "«Ny kunde» legger til en kunde. En kunde som har turer kan ikke slettes — men du kan velge «Fjern fra valg». Tidligere turer beholder sitt kundenavn.",
+     "image": ""
+    },
+    {
+     "id": "client",
+     "title": "Kunde",
+     "text": "Navn, sjåførnotat og adresser. Ved navneendring sjekker appen om navnet allerede finnes. En sletting kan angres med det samme med knappen «Angre».",
+     "image": "img/no/address-book-client.png"
+    },
+    {
+     "id": "add-address",
+     "title": "Adresse",
+     "text": "«Adresse», «Etikett (valgfritt)» og koordinat. Koordinaten kan lagres fra nåværende posisjon («Lagre koordinat herfra»). «Åpne i navigasjon» og «Send» deler punktet. Med «Merk rød» kan du fremheve en adresse du må være ekstra obs på (vanskelig innkjøring, egne regler).",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "backup",
+   "title": "Sikkerhetskopi og gjenoppretting",
+   "intro": "En sikkerhetskopi er én enkelt fil med hele kjøreboken: turer, skift, tankinger, kjøretøy og dokumenter med bilder.",
+   "steps": [
+    {
+     "id": "backup",
+     "title": "Ta sikkerhetskopi",
+     "text": "«Innstillinger» → «Sikkerhetskopi»: «Eksporter database (sikkerhetskopi)» lagrer filen, mens «Del sikkerhetskopi» sender den med det samme (e-post, meldingstjeneste, sky). Du kan ta sikkerhetskopi når som helst — arbeidet avbrytes ikke.",
+     "image": ""
+    },
+    {
+     "id": "restore",
+     "title": "Gjenopprett",
+     "text": "«Importer database (gjenopprett)» erstatter alle gjeldende data med sikkerhetskopifilen. Appen sjekker filen først: en fremmed fil eller en sikkerhetskopi fra en nyere versjon av appen blir ikke godtatt. På en ny telefon kan du gjenopprette rett på første trinn ved første oppstart.",
+     "image": ""
+    },
+    {
+     "id": "cross",
+     "title": "Android og iPhone",
+     "text": "Sikkerhetskopien er lik på Android og iPhone: en fil som er tatt på den ene, kan gjenopprettes på den andre.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "online",
+   "title": "Programmet på nett",
+   "intro": "Programmet på nett — my.vecturabook.com: den samme kjøreboken i nettleseren og på de andre enhetene dine.",
+   "steps": [
+    {
+     "id": "device-link",
+     "title": "Koble til telefonen",
+     "text": "«Innstillinger» → «Koble til VecturaBook». Skann QR-koden fra nettkontoen på nettsiden, åpne kontoen i nettleseren og bekreft på telefonen, eller skriv inn koden som vises på skjermen. «Koble fra denne telefonen» kobler den fra.",
+     "image": "img/no/online-device-link.png"
+    },
+    {
+     "id": "sync",
+     "title": "Synkronisering",
+     "text": "En tilkoblet telefon sender automatisk nye oppføringer og mottar endringer fra andre enheter. Statuslinjen viser «Alt synkronisert» eller hvor mange oppføringer som venter på sending («Venter: %d»). Uten dekning venter oppføringene på telefonen.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "settings",
+   "title": "Innstillinger",
+   "intro": "Innstillingene er samlet i grupper: «Sjåførprofil», «Telefon og tilkobling», «Dokumenter (PDF)», «Sikkerhetskopi», «Generelle innstillinger».",
+   "steps": [
+    {
+     "id": "settings",
+     "title": "Innstillinger",
+     "text": "Her finner du «Språk og region», enheter, «Tema», «Animasjoner», «Drivstoff-PDF» og «PDF for turhistorikk», «Sikkerhetskopi» og tilkobling til «Programmet på nett».",
+     "image": "img/no/settings-settings.png"
+    },
+    {
+     "id": "profile",
+     "title": "Sjåførprofil",
+     "text": "Navn til rapporter og sjåførens dokumenter: «Førerkort», «Pass», «ADR-sertifikat» — med utløpsdatoer og bilder av sidene.",
+     "image": "img/no/settings-profile.png"
+    },
+    {
+     "id": "language",
+     "title": "Språk og region",
+     "text": "«App-språk», språk for «GPS-adresser» («Auto (etter gjeldende land)») og «Datoformat».",
+     "image": "img/no/settings-language.png"
+    },
+    {
+     "id": "units",
+     "title": "Enheter",
+     "text": "«Avstand», «Vekt», «Volum», «Lengde / Størrelse», «Temperatur» og «Drivstofforbruk». «Enhetssystem»: «Metrisk», «Imperisk», «Blandet» — eller «Tilpasset».",
+     "image": ""
+    },
+    {
+     "id": "theme",
+     "title": "Tema",
+     "text": "«Lyst», «Mørkt» eller «Automatisk» (etter klokkeslett for «Dagen starter» og «Natten starter»). «Forhåndsinnstillinger»: «Kraftpapir», «Mørkt kraftpapir», «Manila», «Nesten hvit», «Mørkt». Du kan også lage ditt eget.",
+     "image": "img/no/settings-theme.png"
+    },
+    {
+     "id": "theme-custom",
+     "title": "Egendefinert tema",
+     "text": "Farge på «Bakgrunn», «Tekst», «Øvre linje», «Kort», «Feltkant», «Bildetekster», «Knapper og utheving», «Fyllingsikon» og «Parkeringsikon». Temaet kan lagres («Lagre tema»), gis nytt navn («Gi tema nytt navn») og tildeles lyst eller mørkt modus («Tildelt Lyst» / «Tildelt Mørkt»).",
+     "image": ""
+    },
+    {
+     "id": "animations",
+     "title": "Animasjoner",
+     "text": "«Levende scener ved lossing og tanking». De kan slås av.",
+     "image": ""
+    },
+    {
+     "id": "about",
+     "title": "Om",
+     "text": "Versjon, «Nettside», Telegram, Facebook og mulighet til å støtte prosjektet («Støtt prosjektet»). Tidligere het appen CargoLog — bare navnet er endret.",
+     "image": ""
+    },
+    {
+     "id": "feedback",
+     "title": "Tilbakemelding / Feilrapport",
+     "text": "«Rapporter feil», send et «Forslag» eller skriv «Annet». Du kan legge ved et skjermbilde eller et bilde. Også i menyen: «Søk etter oppdateringer» og «Vurder appen».",
+     "image": ""
+    },
+    {
+     "id": "help",
+     "title": "Hjelp",
+     "text": "«Hjelp» er innholdsfortegnelsen for denne håndboken: «Generelt» og «Etter kjøretøytype». Hver del åpnes rett her, trinn for trinn.",
+     "image": "img/no/settings-help.png"
+    }
+   ]
+  },
+  {
+   "slug": "notifications",
+   "title": "Varsler og påminnelser",
+   "intro": "Appen gir beskjed om det som pågår nå, og om det som nærmer seg.",
+   "steps": [
+    {
+     "id": "timers",
+     "title": "Tidtakere",
+     "text": "Venting, tanking og lossing fortsetter å gå selv når appen er minimert: tidtakeren vises i varslingsfeltet. Trykk på varselet for å gå tilbake til appen.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Dokumentfrister",
+     "text": "Varsler om utløpsdatoer for dokumenter kommer i god tid på forhånd og på selve utløpsdagen.",
+     "image": ""
+    },
+    {
+     "id": "permissions",
+     "title": "Tillatelser",
+     "text": "Hvis varsler, kamera eller posisjon er avslått, viser appen hvor du kan tillate dem i telefonens innstillinger («Åpne innstillinger»).",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics",
+   "title": "Diagnosekanal",
+   "intro": "Diagnosekanalen sender data fra telefonen til utvikleren, slik at feil kan undersøkes på ekte data. Den er avslått helt til du selv slår den på.",
+   "steps": [
+    {
+     "id": "enroll",
+     "title": "Registrering av telefonen",
+     "text": "Les samtykket, og hvis du er enig, trykk «Jeg samtykker, registrer denne telefonen». «Trekk tilbake denne telefonen» slår av kanalen og sletter sertifikatet.",
+     "image": "img/no/diagnostics-enroll.png"
+    },
+    {
+     "id": "channel-settings",
+     "title": "Hva som sendes",
+     "text": "Tre brytere: «Appens aktivitetslogger», «Turdatabase», «Bilder av containernumre». Hver av dem er av til du slår den på, og kan slås av når som helst. Så lenge alle tre er av, sendes ingenting. Appen leser ikke galleriet ditt.",
+     "image": ""
+    },
+    {
+     "id": "warning",
+     "title": "Advarsel",
+     "text": "Inngangen til serviceskjermene starter med en advarsel. Du kan gå ut igjen med knappen «Få meg ut herfra».",
+     "image": ""
+    },
+    {
+     "id": "server",
+     "title": "Kanalens server",
+     "text": "Forbindelsesstatus: «På lufta», «TAUS», ingen nettverk, eller serveren tar ikke imot. Alt som er klart til å sendes venter på telefonen — du trenger ikke gjøre noe.",
+     "image": ""
+    },
+    {
+     "id": "import",
+     "title": "Kanalbunt",
+     "text": "For tjenestetelefoner kan en kanalbunt installeres med en .p12-fil og passord («Importer kanalbunt»). Passordet brukes én gang og lagres aldri.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "service",
+   "title": "Serviceskjermer",
+   "intro": "Serviceskjermene brukes til feilsøking. Du åpner dem ved å trykke sju ganger på skjermen «Om». I vanlig arbeid trenger du dem ikke.",
+   "steps": [
+    {
+     "id": "hub",
+     "title": "Servicesenter",
+     "text": "Informasjon om appen og telefonen, inngang til serviceskjermene og «Diagnosekanal», samt animasjonsgalleri.",
+     "image": ""
+    },
+    {
+     "id": "database",
+     "title": "Database",
+     "text": "Status for databasen og full tilbakestilling av appen. Tilbakestilling sletter alt permanent — ta en sikkerhetskopi først.",
+     "image": ""
+    },
+    {
+     "id": "logs",
+     "title": "Logger",
+     "text": "Appens aktivitetslogger for feilsøking.",
+     "image": ""
+    },
+    {
+     "id": "ocr",
+     "title": "Gjenkjenning",
+     "text": "Diagnostikk for kamerabasert avlesning av numre.",
+     "image": ""
+    },
+    {
+     "id": "system",
+     "title": "System",
+     "text": "Informasjon om telefonen og eventuelle krasj.",
+     "image": ""
+    },
+    {
+     "id": "locale",
+     "title": "Språk og oppstart",
+     "text": "Sjekk av språk og ny gjennomgang av første oppstart.",
+     "image": ""
+    },
+    {
+     "id": "dataset",
+     "title": "Kamerabilder",
+     "text": "Opptak av bilder for å trene nummergjenkjenningen — kun med samtykke til bilder.",
+     "image": ""
+    },
+    {
+     "id": "splash-tuner",
+     "title": "Oppstartsbilde",
+     "text": "Innstillinger for oppstartsbildet når appen starter.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "flatbed",
+   "title": "Plan",
+   "intro": "En planbil frakter stykkgods og overdimensjonert last.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "I vognparken",
+     "text": "Velg påbygget «Plan» og oppgi «Planlengde».",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "På turen",
+     "text": "Lasttyper: «Stykkgods» (paller, vekt, beskrivelse), «Overdimensjonert» (lengde, bredde, høyde, vekt), «Container» på plan. Ved overdimensjonert last ber trinnet «Lastdetaljer» om målene.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Lossing",
+     "text": "Paller leveres på hvert stopp som antall eller prosent.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "container",
+   "title": "Container",
+   "intro": "En containerbil frakter 20-, 40- og 45-fots containere, én eller to.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "I vognparken",
+     "text": "Påbygg «Container»; oppgi «Containerstørrelse» som tilhengeren er bygget for.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "På turen",
+     "text": "En rekke spørsmål: «Tom eller lastet?», «Containerstørrelse?», «Hvor mange containere?», «Containertype?» («Standard», Reefer, Flat Rack, Open Top, Tank). «Containernummer» og «Plombenummer» skannes med kameraet. «Venta-plombenummer (valgfritt)» og «Temperatur (°C, valgfritt)» gjelder for Reefer.",
+     "image": ""
+    },
+    {
+     "id": "fate",
+     "title": "Etter lossing",
+     "text": "Appen spør hva som skjedde med containeren: ble hos kunden («Ble her»), «Fortsatt på bilen», går «Til en kunde» eller i «Retur» til havn eller depot.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "sidelifter",
+   "title": "Sidelaster",
+   "intro": "En sidelaster løfter selv containeren av og på.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "I vognparken",
+     "text": "Påbygget «Sidelaster» finnes kun for «Semitrailer».",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "På turen",
+     "text": "Containeren legges inn på samme måte som for containerbil; «Arbeid med kran» krysses av på oppsummeringen.",
+     "image": ""
+    },
+    {
+     "id": "exchange",
+     "title": "Bytte",
+     "text": "En sidelaster bytter ofte containere på stedet — bruk «Containerbytte».",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "refrigerated",
+   "title": "Kjøl",
+   "intro": "En kjølebil frakter temperaturstyrt last.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "I vognparken",
+     "text": "Påbygg «Kjøl»; kryss av for «Generator montert» hvis den har det, og oppgi «Aggregatets tank, l» og «Aggregatets kritiske reserve, l».",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "På turen",
+     "text": "«Temperaturstyrt?»: «Styrt» eller «Ustyrt»; lastens temperatur. På kjøreskjermen finnes bryteren «Aggregatet går».",
+     "image": ""
+    },
+    {
+     "id": "fuel",
+     "title": "Drivstoff til aggregatet",
+     "text": "Diesel til aggregatet føres inn i et eget felt ved tanking; appen teller driftstimer og forbruk i liter per time, og viser «≈ N t til reserve».",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "curtainsider",
+   "title": "Presenning",
+   "intro": "En presenningshenger frakter stykkgods på paller.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "I vognparken",
+     "text": "Påbygg «Presenning».",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "På turen",
+     "text": "«Stykkgods»: «Antall paller», «Total vekt (kg)», «Beskrivelse av lasten».",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Lossing",
+     "text": "På hvert stopp markerer du hvor mange paller som ble losset; appen husker hva som gjenstår om bord.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tipper",
+   "title": "Tippbil",
+   "intro": "En tippbil frakter bulk.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "I vognparken",
+     "text": "Påbygg «Tippbil».",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "På turen",
+     "text": "«Bulk»: «Volum (m³)», «Nettovekt (kg)» og «Bruttovekt (kg)», «Beskrivelse av lasten».",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Lossing",
+     "text": "Lossingen registreres med tid; tidtakeren for lastearbeid viser hvor lenge den varte.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fuel-tanker",
+   "title": "Tankbil",
+   "intro": "En tankbil for drivstoff frakter drivstoff fordelt på seksjoner.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "I vognparken",
+     "text": "Påbygg «Tankbil»; «Antall seksjoner» og volumet for hver seksjon i liter.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "På turen",
+     "text": "I «Lastdetaljer» oppgis volumet for hver enkelt seksjon.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Lossing",
+     "text": "På stoppet markerer du hvilke seksjoner som er losset. Hvis det fortsatt er uferdige seksjoner når du avslutter turen, ber appen om bekreftelse.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tanker",
+   "title": "Tankbil",
+   "intro": "En tankbil frakter flytende last.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "I vognparken",
+     "text": "Påbygg «Tankbil»; seksjoner og volumer.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "På turen",
+     "text": "«Væskekategori»: «Kjemikalier», «Næringsmidler», «Avfall»; «Temperaturstyrt»; ADR med UN-numre for farlig gods.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Lossing",
+     "text": "Seksjonene leveres punkt for punkt på samme måte som for drivstofftankbil.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "car-transporter",
+   "title": "Biltransport",
+   "intro": "En bilfrakter transporterer personbiler.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "I vognparken",
+     "text": "Påbygg «Biltransport»; «Antall kjøretøyplasser».",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "På turen",
+     "text": "Kjøretøy legges inn med VIN (17 tegn, uten I, O, Q) eller «Registreringsnummer»; VIN kan skannes med kameraet («Skann VIN med kamera»). Telleren viser hvor mange som er lastet.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Lossing",
+     "text": "På stoppet markerer du hvilke kjøretøy som er levert og hvilke som er lastet på. Hvis det fortsatt er kjøretøy om bord når du avslutter turen, ber appen om bekreftelse.",
+     "image": ""
+    }
+   ]
+  }
+ ],
+ "screens": {
+  "getting-started.welcome": "Første oppstart: navn, trekkvogn, tilhenger og tillatelser. Har du en sikkerhetskopi, kan du gjenopprette hele kjøreboken.",
+  "getting-started.onboarding": "Svar på spørsmålene om deg selv og kjøretøyet. Alt kan endres senere i innstillingene og i vognparken.",
+  "getting-started.main-screen": "Hovedskjermen viser hvor du er i arbeidet nå, og tar deg til neste trinn: skift, tur, lossing.",
+  "getting-started.menu": "Appens meny: vognpark, historikk, rapporter, tankelogg, vedlikehold, dokumenter, adressebok, hjelp og innstillinger.",
+  "shift.shift-welcome": "Skiftstart: sted, venting på tur og knappen «Start tur».",
+  "shift.shift-status": "Om skiftet er åpent, fra hvilket klokkeslett og hvor mange turer det har.",
+  "trip.origin": "Kunde og adresse du kjører fra eller til. En ny kunde legges automatisk i adresseboken.",
+  "trip.cargo-type": "Hva frakter du? Listen avhenger av påbygget på lastebilen og tilhengeren.",
+  "trip.cargo-details": "Lastdetaljer: containernumre og plombenumre, seksjoner, kjøretøy, paller. Numre kan skannes med kameraet.",
+  "trip.load-details": "Mål, vekt og beskrivelse av lasten.",
+  "trip.trip-times": "Redigering av tider, adresser og kilometerstand for en allerede lagret tur.",
+  "trip.confirm": "Turoppsummering. Sjekk alt og trykk «Avreise» — først da lagres turen.",
+  "trip.arrival": "Du er på stedet: ankomst, start og stopp av lossing eller lasting.",
+  "trip.unload": "Hva som ble levert på dette stoppet: seksjoner, prosent, paller eller kjøretøy.",
+  "trip.cargo-fate": "Hva som skjer videre med containeren etter lossing.",
+  "trip.summary": "Turoppsummering: neste stopp, avslutt tur eller ny tur.",
+  "driving.driving": "Tur pågår: ankomst, tanking, parkering. Under bilen vises omtrent hvor mye som gjenstår til drivstoffreserven.",
+  "driving.odometer": "Kilometerstand. Appen fyller inn forventet verdi og sjekker tallet; kan skannes med kameraet.",
+  "driving.swap-trailer": "Bytte tilhenger underveis: velg en tilhenger fra vognparken.",
+  "refuel.refuel-timer": "Fylling pågår: tidtaker. Når du er ferdig, skriver du inn liter.",
+  "refuel.refuel-data": "Liter diesel, AdBlue og til hengerens aggregat, samt kilometerstand. Lagres som én oppføring.",
+  "refuel.refuel-history": "Alle tankinger for perioden, gjennomsnittlig forbruk og PDF-rapport.",
+  "parking.parking-stop": "Parkeringsadresse: manuelt, fra lagrede steder eller via GPS.",
+  "parking.places": "Dine steder: rasteplasser, havner, depoter. Velges ved parkering og retur av container.",
+  "parking.place-form": "Stedets navn, notat og koordinat; åpne i navigasjon.",
+  "camera.scan": "Rett nummeret mot rammen. Knip rammen tett rundt nummeret; trykk utenfor rammen for å ta bilde.",
+  "camera.container-exchange": "Containerbytte med en annen sjåfør: hva du leverte fra deg og hva du tok med.",
+  "camera.photos": "Bilder av turens dokumenter i fullskjerm.",
+  "history.history": "Alle skift og turer: søk, detaljer, redigering og sletting.",
+  "report.report": "Totaler for perioden og PDF-rapport.",
+  "garage.garage": "Dine lastebiler og tilhengere. Trykk på et kjøretøy for å åpne administrasjonen.",
+  "garage.truck-form": "Registreringsnummer, type og påbygg på lastebilen; kran eller manipulator.",
+  "garage.trailer-form": "Registreringsnummer, koblingstype og påbygg på tilhengeren; seksjoner, kjøretøyplasser, generator.",
+  "garage.vehicle-hub": "Alt om kjøretøyet: dokumenter, vedlikehold, kontroll, aksler og dekk, nummerskilt, lakk.",
+  "garage.vehicle-settings": "Kilometerstand, serviceintervaller, aksler, tankvolum og kritisk reserve.",
+  "garage.plate-colors": "Farger på nummerskiltet, akkurat som på bilen.",
+  "garage.rig-paint": "Farger på førerhus, kran og påbygg på tegningen av bilen.",
+  "garage.tyres": "Akselskisse og dekkhistorikk: dekkskift, punkteringer, omplasseringer.",
+  "documents.overview": "Alle dokumenter for kjøretøy og sjåfør med utløpsdatoer.",
+  "documents.list": "Dokumenter for dette kjøretøyet. «+» legger til.",
+  "documents.form": "Type, navn og utløpsdato for dokumentet.",
+  "documents.pages": "Bilder av dokumentets sider.",
+  "maintenance.maintenance": "Hvor mye som gjenstår til neste service, og serviceoppføringer.",
+  "maintenance.new-record": "Ny serviceoppføring: kilometerstand, dato, utført arbeid, bilder.",
+  "address-book.book": "Kunder og egne steder.",
+  "address-book.clients": "Kundeliste: legg til, skjul, slett.",
+  "address-book.client": "Navn, notat og adresser for kunden.",
+  "address-book.add-address": "Adresse, koordinat, navigasjon og rød merking.",
+  "backup.backup": "Fil med hele kjøreboken: lagre, del eller gjenopprett.",
+  "online.device-link": "Koble telefonen til programmet på nett: QR-kode eller kode fra skjermen.",
+  "settings.settings": "Alle innstillinger delt inn i grupper.",
+  "settings.profile": "Sjåførens navn og dokumenter.",
+  "settings.language": "App-språk, språk for GPS-adresser, datoformat.",
+  "settings.theme": "Lyst, mørkt eller automatisk; forhåndsinnstillinger og egne temaer.",
+  "settings.theme-custom": "Farger for ditt eget tema.",
+  "settings.about": "Appversjon og kontakt med utvikleren.",
+  "settings.feedback": "Rapporter en feil eller send inn et forslag.",
+  "settings.help": "Brukerhåndbok for appen, delt inn etter emner.",
+  "diagnostics.enroll": "Samtykke og registrering av telefonen i diagnosekanalen.",
+  "diagnostics.warning": "Inngang til servicedelen av appen.",
+  "diagnostics.channel-settings": "Hva telefonen sender til utvikleren: tre separate samtykker.",
+  "diagnostics.server": "Forbindelsesstatus for diagnosekanalen.",
+  "diagnostics.import": "Installasjon av kanalbunt fra en .p12-fil.",
+  "service.hub": "Servicesenter: informasjon og serviceskjermer.",
+  "service.database": "Databasestatus og full tilbakestilling av appen.",
+  "service.logs": "Appens aktivitetslogger.",
+  "service.ocr": "Diagnostikk for nummergjenkjenning.",
+  "service.system": "Informasjon om telefonen og krasj.",
+  "service.locale": "Sjekk av språk og ny gjennomgang av første oppstart.",
+  "service.dataset": "Opptak av bilder for nummergjenkjenning.",
+  "service.splash-tuner": "Innstillinger for oppstartsbilde."
+ }
+}

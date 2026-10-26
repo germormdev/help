@@ -1,0 +1,978 @@
+{
+ "format": 1,
+ "language": "hr",
+ "revision": "2026-10-26",
+ "sections": [
+  {
+   "slug": "getting-started",
+   "title": "Prvi koraci",
+   "intro": "VecturaBook je putni dnevnik vozača: smjene, vožnje, točenja goriva, parkiranja, dokumenti i vozila u jednom telefonu. Sve se sprema na telefon i radi bez interneta.",
+   "steps": [
+    {
+     "id": "welcome",
+     "title": "Prvo pokretanje",
+     "text": "Pri prvom pokretanju aplikacija postavlja nekoliko pitanja u četiri kratka koraka. Možete ih proći za minutu, a sve odgovore kasnije možete urediti u postavkama i u voznom parku.\n\nAko već imate sigurnosnu kopiju aplikacije VecturaBook (na primjer sa starog telefona), dodirnite „Vrati iz sigurnosne kopije” na prvom koraku: cijeli dnevnik će se vratiti i pitanja neće biti potrebna.",
+     "image": "img/hr/getting-started-welcome.png"
+    },
+    {
+     "id": "onboarding",
+     "title": "Ime, tegljač, poluprikolica, dopuštenja",
+     "text": "Korak 1 — ime. Ono se ispisuje u izvješćima. Možete ga ostaviti praznim i upisati kasnije.\n\nKorak 2 — tegljač ili solo kamion: registracija, vrsta i nadogradnja. Vrsta i nadogradnja biraju se sličicama kroz niz pitanja: nakon svakog odgovora aplikacija prikazuje sljedeće pitanje.\n\nKorak 3 — poluprikolica. Možete je preskočiti gumbom „Preskoči poluprikolicu” i dodati kasnije u voznom parku.\n\nKorak 4 — dopuštenja: kamera (brojevi kontejnera, plombe, brojač kilometara), lokacija (grad na početku smjene, samo kad to zatražite) i obavijesti (mjerači vremena za čekanje, točenje i istovar). Svako dopuštenje možete odbiti — aplikacija će raditi, samo bez te mogućnosti.",
+     "image": "img/hr/getting-started-onboarding.png"
+    },
+    {
+     "id": "main-screen",
+     "title": "Glavni zaslon",
+     "text": "Glavni zaslon pokazuje gdje ste trenutno u poslu: smjena nije započeta, smjena traje, vožnja je u tijeku, na mjestu ste istovara i tako dalje. Gumbi na njemu uvijek vode na sljedeći korak pa ništa ne možete preskočiti.\n\nNa vrhu je traka s gumbom izbornika lijevo i gumbom „?” desno. Gumb „?” nalazi se na svakom zaslonu: kratko objašnjava zaslon, a pritiskom na „Više” otvara odgovarajući odjeljak ovog priručnika.",
+     "image": "img/hr/getting-started-main-screen.png"
+    },
+    {
+     "id": "menu",
+     "title": "Izbornik",
+     "text": "Gumb s tri crte otvara pločice izbornika: Moj vozni park, Povijest vožnji, Izvješće, Dnevnik točenja, Održavanje, Dokumenti vozila, Adresar, Pomoć. Na dnu su Postavke.\n\nNa svakom drugom zaslonu umjesto gumba izbornika nalazi se strelica „Natrag”.",
+     "image": "img/hr/getting-started-menu.png"
+    },
+    {
+     "id": "help-offline",
+     "title": "Pomoć bez interneta",
+     "text": "Tekstove ovog priručnika aplikacija preuzima na svojem jeziku i sprema ih na telefon, pa „?” i „Pomoć” rade na putu i bez mreže. Jednom dnevno, kad postoji internetska veza, aplikacija tiho provjerava ima li novosti.\n\nAko pomoć još nijednom nije preuzeta, aplikacija će zatražiti spajanje na internet.",
+     "image": "img/hr/getting-started-help-offline.png"
+    }
+   ]
+  },
+  {
+   "slug": "shift",
+   "title": "Smjena",
+   "intro": "Smjena je radni dan od početka do kraja. Unutar smjene bilježe se vožnje, točenja goriva i parkiranja, a zbroj smjene ulazi u povijest i izvješća.",
+   "steps": [
+    {
+     "id": "shift-welcome",
+     "title": "Započni smjenu",
+     "text": "Dodirnite „Započni smjenu”. Aplikacija će vas pozdraviti i pokazati gdje se nalazite: grad se određuje prema lokaciji ako ste je dopustili, a inače dodirnite redak s pribadačom i sami upišite mjesto.\n\nAko još nemate vožnju, dodirnite „Čekanje na vožnju” — pokrenut će se mjerač vremena čekanja. Gumb „Zaustavi čekanje” ga zaustavlja. Čekanje prije vožnje ulazi u povijest i izvješće.\n\nKad imate vožnju — dodirnite „Započni vožnju”.",
+     "image": "img/hr/shift-shift-welcome.png"
+    },
+    {
+     "id": "shift-status",
+     "title": "Status smjene",
+     "text": "Zaslon „Smjena” pokazuje je li smjena otvorena, kada je otvorena i koliko vožnji sadrži. Gumb „Nastavi smjenu” vraća vas na posao.\n\nSmjenu nije moguće zatvoriti dok vožnja traje: najprije završite vožnju.",
+     "image": "img/hr/shift-shift-status.png"
+    },
+    {
+     "id": "end-shift",
+     "title": "Završi smjenu",
+     "text": "Crveni gumb „Završi smjenu” jedini je crveni gumb u aplikaciji. Aplikacija će tražiti potvrdu i završno stanje brojača. Broj se provjerava: ako je manji od prethodnog ili znatno veći od očekivanog, aplikacija će prikazati zadnje poznato stanje i zamoliti vas da ga potvrdite ili ispravite.",
+     "image": ""
+    },
+    {
+     "id": "forgotten-shift",
+     "title": "Zaboravljena smjena",
+     "text": "Ako je smjena otvorena dulje od jednog dana, aplikacija će ponuditi da je zatvori vremenom posljednjeg događaja — tako se radno vrijeme u izvješću neće nepotrebno povećati. Možete prihvatiti ili nastaviti smjenu.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "trip",
+   "title": "Vožnja: od utovara do istovara",
+   "intro": "Vožnja se upisuje korak po korak: polazište i odredište, što prevozite, detalji tereta, sažetak — i „Na put”. Na odredištu slijede dolazak, istovar ili utovar te sažetak vožnje. Dok ne dodirnete „Na put”, u dnevnik se ništa ne zapisuje: na svakom koraku možete se vratiti gumbom „Natrag”, a uneseni podaci neće se izgubiti.",
+   "steps": [
+    {
+     "id": "origin",
+     "title": "Klijent i ruta",
+     "text": "Odaberite klijenta: počnite tipkati ime i aplikacija će ponuditi prijedloge iz adresara. Novog klijenta dovoljno je upisati — sam će se spremiti u adresar.\n\nKlijent može imati više adresa — odaberite željenu ili dodajte novu. Ikona GPS-a upisuje adresu prema trenutnoj lokaciji. Vozačeve bilješke o klijentu vidljive su odmah ovdje.",
+     "image": "img/hr/trip-origin.png"
+    },
+    {
+     "id": "cargo-type",
+     "title": "Što prevozite",
+     "text": "Vrsta tereta bira se pločicama: kontejner, opći teret, izvangabaritni teret, hladnjača, gorivo, rasuti teret, vozila, prazno. Popis ovisi o nadogradnji tegljača i poluprikolice.\n\nAko promijenite vrstu tereta nakon što ste već unijeli detalje, aplikacija će vas upozoriti da će uneseno biti obrisano i zatražiti potvrdu.",
+     "image": "img/hr/trip-cargo-type.png"
+    },
+    {
+     "id": "cargo-details",
+     "title": "Detalji tereta",
+     "text": "Detalji ovise o vrsti tereta. Za kontejner — prazan ili natovaren, veličina, koliko kontejnera, tip, broj kontejnera i plombe. Brojeve možete skenirati kamerom. Za cisterne — komore i obujmi, za autotransporter — vozila po VIN-u ili registraciji, za opći teret — palete i težina.\n\nAko za vožnju detalji nisu potrebni (na primjer, prazno), samo dodirnite „Dalje”.\n\nPrekidač ADR otvara polja za UN brojeve opasnog tereta.",
+     "image": "img/hr/trip-cargo-details.png"
+    },
+    {
+     "id": "load-details",
+     "title": "Parametri tereta",
+     "text": "Za izvangabaritni teret i kontejnere na platformi unose se duljina, širina, visina, težina i opis. Mjere su u jedinicama odabranim u postavkama.",
+     "image": "img/hr/trip-load-details.png"
+    },
+    {
+     "id": "trip-times",
+     "title": "Vremena i točke vožnje",
+     "text": "Ovaj se zaslon pojavljuje samo pri uređivanju već spremljene vožnje iz povijesti. Ovdje se uređuju vrijeme polaska, dolaska, početka i završetka rukovanja teretom, adrese i stanja brojača po točkama.\n\nVrijeme kojeg u vožnji nije bilo prikazano je crticom i ne može se uređivati: uređivanje ne dodaje vožnji ono što se nije dogodilo.",
+     "image": ""
+    },
+    {
+     "id": "confirm",
+     "title": "Sažetak vožnje",
+     "text": "Sažetak prikazuje cijelu vožnju na jednom zaslonu. Ovdje su i oznake: spavanje u kabini, vojna misija, opasna zona, kontrolirana temperatura, rad s dizalicom (ako tegljač ima dizalicu).\n\nGumb „Uredi” vraća na prethodne korake. Zeleni gumb „Na put” sprema vožnju i pokreće je. Ako na telefonu imate navigaciju, aplikacija će ponuditi otvaranje adrese u njoj.",
+     "image": "img/hr/trip-confirm.png"
+    },
+    {
+     "id": "arrival",
+     "title": "Dolazak",
+     "text": "Na odredištu dodirnite „Stigao”. Aplikacija će zapamtiti vrijeme i ponuditi unos brojača.\n\nGumb „Započni istovar/utovar” pokreće mjerač vremena rukovanja teretom, a „Zaustavi istovar/utovar” ga zaustavlja. Ako se nešto nije spremilo (na primjer, telefon je zablokirao), aplikacija će vas obavijestiti i zamoliti da pritisnete ponovno — ništa neće ostati napola zapisano u dnevniku.",
+     "image": "img/hr/trip-arrival.png"
+    },
+    {
+     "id": "unload",
+     "title": "Istovar na ovoj točki",
+     "text": "Ako se teret predaje u dijelovima, označite što je istovareno na ovom stajalištu: komore cisterne, postotak kontejnera, palete ili pojedina vozila s autotransportera. Aplikacija pamti koliko je ostalo na vozilu i ne dopušta istovar više nego što imate.",
+     "image": ""
+    },
+    {
+     "id": "cargo-fate",
+     "title": "Što je s kontejnerom",
+     "text": "Nakon istovara aplikacija pita što je dalje s kontejnerom: ostao ovdje, ostao na vozilu, ide drugom klijentu, vraća se na lokaciju (luka, depo) ili ide na drugu adresu. Odgovor određuje sljedeći korak vožnje.",
+     "image": "img/hr/trip-cargo-fate.png"
+    },
+    {
+     "id": "summary",
+     "title": "Sažetak vožnje",
+     "text": "Nakon točke odaberite „Nastavi vožnju” (sljedeće stajalište iste vožnje), „Završi vožnju” ili „Nova vožnja”.\n\nOpcija „Ispuni sljedeću vožnju” omogućuje da unaprijed, već na istovaru, upišete sljedeću vožnju — klijenta, teret i brojeve. Zatim je gumb „Završi i kreni” odmah pokreće.",
+     "image": "img/hr/trip-summary.png"
+    }
+   ]
+  },
+  {
+   "slug": "driving",
+   "title": "Zaslon vožnje",
+   "intro": "Dok je vožnja u tijeku, glavni zaslon je „U tijeku”: vozilo u vožnji, registracije tegljača i poluprikolice, vrijeme vožnje i gumbi za sljedeće radnje.",
+   "steps": [
+    {
+     "id": "driving",
+     "title": "U tijeku",
+     "text": "Gumbi na zaslonu: „Stigao” (na odredištu ste), „Točenje”, „Parkiranje / Stajanje”. Iznad gumba je crtež vašeg vozila s njegovim registracijama; crtež je složen prema podacima iz voznog parka: vrsta, nadogradnja, osovine i boje.\n\nAko ste u voznom parku unijeli zapreminu spremnika i svoju kritičnu zalihu, ispod vozila se vidi koliko je otprilike ostalo do rezerve: „≈ N km do rezerve” za dizel tegljača i „≈ N h do rezerve” za agregat prikolice (hladnjača, generator). Izračun se temelji na vašim točenjima i kilometraži, pa se odmah nakon prvog točenja možda još neće prikazati.",
+     "image": "img/hr/driving-driving.png"
+    },
+    {
+     "id": "swap-trailer",
+     "title": "Zamjena poluprikolice",
+     "text": "Za promjenu poluprikolice tijekom vožnje dodirnite „Zamijeni poluprikolicu”. U prozoru se prikazuju poluprikolice iz voznog parka: crtež poluprikolice i registracija ispod nje. Odaberite novu — promjena će se zapisati u vožnju. Poluprikolice koje nisu kompatibilne s tegljačem ne nude se na popisu.",
+     "image": "img/hr/driving-swap-trailer.png"
+    },
+    {
+     "id": "odometer",
+     "title": "Brojač kilometara",
+     "text": "Aplikacija sama nudi očekivano stanje: s vozila, s utovara, sa zadnjeg istovara ili s benzinske postaje. Provjerite ga i po potrebi ispravite. Brojač možete i skenirati kamerom.\n\nAko je broj manji od prethodnog, znatno veći od očekivanog ili ga niste mijenjali, aplikacija će prikazati zadnje poznato stanje i pitati je li sve točno. Uređivanje brojača u prijašnjoj vožnji pokazuje na koje će još zapise ta izmjena utjecati.",
+     "image": "img/hr/driving-odometer.png"
+    }
+   ]
+  },
+  {
+   "slug": "refuel",
+   "title": "Točenje, AdBlue, agregat",
+   "intro": "Točenja goriva služe za izračun potrošnje, izvješća i procjenu „do rezerve”.",
+   "steps": [
+    {
+     "id": "refuel-timer",
+     "title": "Mjerač vremena točenja",
+     "text": "Gumb „Točenje” na zaslonu vožnje pokreće mjerač vremena — trajanje točenja bilježi se u dnevnik. Gumb „Završi točenje” ga zaustavlja i otvara unos litara. Mjerač radi i u traci obavijesti dok je aplikacija u pozadini.",
+     "image": "img/hr/refuel-refuel-timer.png"
+    },
+    {
+     "id": "refuel-data",
+     "title": "Litre i brojač",
+     "text": "Upišite dizel u litrama, a po potrebi i AdBlue te dizel za agregat prikolice (hladnjača, generator). Stanje brojača već je ponuđeno; možete ga i skenirati kamerom. Gumb „Spremi točenje” sprema sve kao jedan zapis.",
+     "image": "img/hr/refuel-refuel-data.png"
+    },
+    {
+     "id": "unit",
+     "title": "Agregat prikolice",
+     "text": "Ako prikolica ima ugrađen generator, označite to u postavkama prikolice. Tada se na zaslonu vožnje prikazuje prekidač „Agregat radi”, aplikacija broji radne sate agregata i njegovu potrošnju u litrama po satu, a pri točenju se pojavljuje polje za dizel agregata.",
+     "image": ""
+    },
+    {
+     "id": "refuel-history",
+     "title": "Dnevnik točenja",
+     "text": "Dnevnik prikazuje sva točenja za tjedan, mjesec, sve vrijeme ili odabrano razdoblje: ukupno gorivo, broj točenja i prosječnu potrošnju. Udio AdBluea u odnosu na dizel i potrošnja agregata računaju se zasebno.\n\nGumb „Generiraj PDF izvješće” izrađuje izvješće o točenjima koje možete poslati. Točenje možete i izbrisati.",
+     "image": "img/hr/refuel-refuel-history.png"
+    }
+   ]
+  },
+  {
+   "slug": "parking",
+   "title": "Parkiranje i odmor",
+   "intro": "Parkiranje je zaustavljanje na putu: odmor, noćenje ili čekanje. Zapisuje se u vožnju sa svojom adresom i vremenom.",
+   "steps": [
+    {
+     "id": "parking-stop",
+     "title": "Parkiranje / Stajanje",
+     "text": "Na zaslonu vožnje dodirnite „Parkiranje / Stajanje”. Adresu možete unijeti ručno, odabrati iz spremljenih mjesta ili dodirnuti ikonu GPS-a. Ako adresa nije pronađena, aplikacija će upisati koordinate koje možete urediti.\n\nNoći u kabini zbrajaju se u povijesti i u izvješću.",
+     "image": "img/hr/parking-parking-stop.png"
+    },
+    {
+     "id": "places",
+     "title": "Mjesta",
+     "text": "Mjesta su vaše vlastite točke koje nisu vezane uz klijente: parkirališta, luke, depoi, benzinske postaje. Popis se pretražuje po nazivu. Mjesta se biraju pri parkiranju i pri povratu kontejnera.",
+     "image": ""
+    },
+    {
+     "id": "place-form",
+     "title": "Mjesto",
+     "text": "Naziv, bilješka i koordinata. Koordinatu možete spremiti prema trenutnoj lokaciji, zamijeniti ili izbrisati. Gumbi „Otvori u navigaciji” i „Pošalji” šalju točku u navigaciju ili u poruku.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "camera",
+   "title": "Kamera: kontejneri i plombe",
+   "intro": "Kamera čita brojeve kontejnera, plombi, VIN i stanje brojača kilometara kako ih ne biste morali upisivati ručno.",
+   "steps": [
+    {
+     "id": "scan",
+     "title": "Okvir kamere",
+     "text": "Usmjerite broj u okvir. Stisnite okvir s dva prsta uz sam broj — tako se bolje čita. Gumb „Okreni okvir” služi za brojeve ispisane okomito. Dodir izvan okvira snima sliku.",
+     "image": ""
+    },
+    {
+     "id": "container-number",
+     "title": "Broj kontejnera",
+     "text": "Broj kontejnera ima 4 slova i 7 znamenki. Aplikacija provjerava kontrolnu znamenku; ako se broj ne slaže, sprema se s oznakom „Broj nije provjeren” — provjerite ga sami.",
+     "image": ""
+    },
+    {
+     "id": "seal",
+     "title": "Plomba",
+     "text": "Broj plombe čita se s natpisa. Ako plomba ima crtični kod koji se ne podudara s otisnutim brojem, aplikacija uzima otisnuti broj jer crtični kod ponekad pripada drugoj seriji.",
+     "image": ""
+    },
+    {
+     "id": "container-exchange",
+     "title": "Zamjena kontejnera",
+     "text": "Ako na točki predajete kontejner drugom vozaču i preuzimate njegov, zabilježite zamjenu: koji je kontejner istovaren, koji utovaren, ime vozača i registraciju njegova tegljača.",
+     "image": ""
+    },
+    {
+     "id": "photos",
+     "title": "Fotografije",
+     "text": "Vožnji možete priložiti fotografije dokumenata pri utovaru i istovaru pomoću gumba „Foto dokumenata”. Gumb „Prikaži fotografije” otvara ih preko cijelog zaslona.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "history",
+   "title": "Povijest vožnji i uređivanje",
+   "intro": "Povijest sadrži sve smjene i vožnje. Ovdje ih možete pregledavati, pretraživati, uređivati i brisati.",
+   "steps": [
+    {
+     "id": "history",
+     "title": "Povijest",
+     "text": "Vožnje su grupirane po smjenama: početak i kraj dana, trajanje, udaljenost i broj vožnji. Dodirnite vožnju za prikaz detalja: klijent, teret, točke, brojači, čekanje i fotografije. Pretraživati možete po klijentu, kontejneru i ruti. Opcija „Sve vožnje” prikazuje ih na jednom popisu.",
+     "image": "img/hr/history-history.png"
+    },
+    {
+     "id": "edit",
+     "title": "Uređivanje vožnje",
+     "text": "Gumb „Uredi” otvara iste korake kao pri unosu vožnje, uz dodatni zaslon za vremena i točke. Izmjene se skupljaju i spremaju tek na sažetku vožnje.\n\nAko izmjena brojača utječe na druge zapise (sljedeću vožnju, stanje vozila, kilometre smjene), aplikacija će ih prikazati prije primjene.",
+     "image": ""
+    },
+    {
+     "id": "delete",
+     "title": "Brisanje",
+     "text": "Vožnja se briše gumbom koša za smeće, a više njih pomoću načina odabira. Aktivnu vožnju nije moguće izbrisati — najprije je završite. Ako je telefon povezan s programom na mreži, brisanje će se prenijeti i na ostale uređaje.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "report",
+   "title": "Izvještaj i PDF",
+   "intro": "Izvješće zbraja rad za odabrano razdoblje: vožnje, udaljenost, radno vrijeme, čekanje, gorivo i potrošnju.",
+   "steps": [
+    {
+     "id": "report",
+     "title": "Izvješće za razdoblje",
+     "text": "Odaberite razdoblje: danas, tjedan, mjesec ili prilagođene datume. Kartice će prikazati ukupne brojke. Gumb „Izvezi izvješće” izrađuje PDF sa smjenama, vožnjama, točkama i točenjima goriva; možete ga poslati ili ispisati.",
+     "image": "img/hr/report-report.png"
+    },
+    {
+     "id": "pdf",
+     "title": "Što je u PDF-u",
+     "text": "U PDF-u su za svaku smjenu navedeni početak i kraj, tegljač i poluprikolica, vožnje s klijentima, teretom, vremenima istovara i čekanja, stanjima brojača te točenja goriva. Na kraju je zbroj za razdoblje: smjene, vožnje, točenja, ukupna udaljenost, ukupno vrijeme, ukupno gorivo, prosječna udaljenost po smjeni i prosječna potrošnja.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "garage",
+   "title": "Vozni park: tegljači i prikolice",
+   "intro": "Moj vozni park čuva vaša vozila. Iz njega se preuzimaju crteži vozila, registracije, kompatibilnost poluprikolica, kilometraža i sve postavke vozila.",
+   "steps": [
+    {
+     "id": "garage",
+     "title": "Moj vozni park",
+     "text": "Dvije kartice: Tegljači i Poluprikolice. Aktivno vozilo je istaknuto. Gumbi „+ Dodaj tegljač” i „+ Dodaj poluprikolicu” služe za unos novog vozila. Dodirnite vozilo kako biste otvorili upravljanje njime.\n\nDok je vožnja u tijeku, vozilo se ne može mijenjati — najprije završite vožnju (poluprikolica se tijekom vožnje mijenja opcijom zamjene poluprikolice).",
+     "image": "img/hr/garage-garage.png"
+    },
+    {
+     "id": "truck-form",
+     "title": "Tegljač",
+     "text": "Registracija, vrsta (tegljač ili solo) i nadogradnja biraju se kroz niz pitanja sa sličicama, kao i ima li vozilo dizalicu ili manipulator. Dvije iste registracije u voznom parku nisu moguće.",
+     "image": ""
+    },
+    {
+     "id": "trailer-form",
+     "title": "Poluprikolica",
+     "text": "Registracija, vrsta priključka (poluprikolica ili prikolica) i nadogradnja. Za cisternu se unosi broj komora i obujam svake komore, za autotransporter broj mjesta za vozila, a za hladnjaču ima li ugrađen generator.",
+     "image": ""
+    },
+    {
+     "id": "vehicle-hub",
+     "title": "Upravljanje vozilom",
+     "text": "Zaslon vozila okuplja sve o njemu: registraciju, dokumente, održavanje, tehnički pregled, osovine i gume, registarsku pločicu i boju. Gumb „Postavi kao aktivno” odabire vozilo za rad.",
+     "image": "img/hr/garage-vehicle-hub.png"
+    },
+    {
+     "id": "vehicle-settings",
+     "title": "Postavke vozila",
+     "text": "Trenutna kilometraža, interval servisa (kilometri, mjeseci, pragovi upozorenja), početna točka za izračun servisa, osovine, zapremina spremnika i vlastita kritična zaliha (za procjenu „do rezerve”). Kod prikolice s agregatom unose se i spremnik agregata te njegova kritična zaliha.",
+     "image": "img/hr/garage-vehicle-settings.png"
+    },
+    {
+     "id": "plate-colors",
+     "title": "Registarska pločica",
+     "text": "Pozadina pločice i boja broja — baš kao na vašem vozilu. Ako se odabrana kombinacija teško čita, broj će se prikazati crno ili bijelo.",
+     "image": "img/hr/garage-plate-colors.png"
+    },
+    {
+     "id": "rig-paint",
+     "title": "Boja",
+     "text": "Boja kabine, dizalice i nadogradnje na crtežu vozila. Gumb „Kao na crtežu” vraća izvornu boju.",
+     "image": "img/hr/garage-rig-paint.png"
+    },
+    {
+     "id": "tyres",
+     "title": "Osovine i gume",
+     "text": "Shema osovina crta se sama prema broju osovina; svaku osovinu možete prebaciti na jednostruku ili dvostruku. Dodirnite gumu: zamjena, probušena guma, premještanje ili nešto drugo — zapis ulazi u povijest. Statistika prikazuje prosječnu kilometražu između zamjena i najčešće mjesto. Prikolica ima vlastitu kilometražu koju možete upisati.",
+     "image": "img/hr/garage-tyres.png"
+    }
+   ]
+  },
+  {
+   "slug": "documents",
+   "title": "Dokumenti i rokovi",
+   "intro": "Dokumenti vozila i vozača s fotografijama stranica i rokovima valjanosti. Aplikacija vas na vrijeme podsjeća na istek rokova.",
+   "steps": [
+    {
+     "id": "overview",
+     "title": "Svi dokumenti",
+     "text": "Pregled prikazuje dokumente svih vozila i vozača na jednom popisu s rokovima: koliko je dana preostalo ili oznaku „isteklo”.",
+     "image": "img/hr/documents-overview.png"
+    },
+    {
+     "id": "list",
+     "title": "Dokumenti vozila",
+     "text": "Svako vozilo ima svoj popis: prometna dozvola, osiguranje, tehnički pregled i prilagođeni dokumenti. Gumb „+” dodaje novi dokument.",
+     "image": "img/hr/documents-list.png"
+    },
+    {
+     "id": "form",
+     "title": "Dokument",
+     "text": "Odaberite vrstu ili „Prilagođeni dokument…” i upišite naziv (na primjer, ADR dozvola). Polje „Vrijedi do” je rok valjanosti prema kojem stižu podsjetnici. Tehnički pregled ima i datum pregleda.",
+     "image": ""
+    },
+    {
+     "id": "pages",
+     "title": "Stranice",
+     "text": "Fotografirajte stranice dokumenta kamerom. Stranice se otvaraju preko cijelog zaslona, mogu se listati i brisati jedna po jedna.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Podsjetnici o rokovima",
+     "text": "Prije isteka roka aplikacija šalje obavijest i pri pokretanju prikazuje prozor „Rokovi dokumenata”. Gumb „Razumijem” zatvara prozor do sljedećeg praga. Dokumenti vozača (vozačka dozvola, putovnica, ADR) nalaze se u postavkama profila.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "maintenance",
+   "title": "Servis i gume",
+   "intro": "Održavanje: zapisi o servisu, intervali i podsjetnik kada dođe vrijeme za servis.",
+   "steps": [
+    {
+     "id": "maintenance",
+     "title": "Održavanje",
+     "text": "Na vrhu piše koliko je ostalo do sljedećeg servisa u kilometrima ili danima, odnosno koliko servis kasni. Ispod su zapisi o servisu. Intervali i početna točka postavljaju se u postavkama vozila.",
+     "image": "img/hr/maintenance-maintenance.png"
+    },
+    {
+     "id": "new-record",
+     "title": "Zapis o servisu",
+     "text": "Gumb „Zabilježi servis” otvara unos: kilometraža, datum, što je obavljeno i fotografije. Kilometraža na servisu ne može biti veća od trenutne.",
+     "image": ""
+    },
+    {
+     "id": "tyres",
+     "title": "Gume",
+     "text": "Gume se vode na shemi osovina — odjeljak „Moj vozni park”, korak „Osovine i gume”.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "address-book",
+   "title": "Adresar i klijenti",
+   "intro": "Klijenti i njihove adrese te vaša mjesta. Adresar se sam dopunjuje kada u vožnju upišete novog klijenta.",
+   "steps": [
+    {
+     "id": "book",
+     "title": "Adresar",
+     "text": "Kartica „Klijenti” prikazuje klijente s adresama, a kartica mjesta vaše točke. Skriveni klijenti ne nude se pri odabiru; opcija „Prikaži skrivene” vraća ih na popis.",
+     "image": "img/hr/address-book-book.png"
+    },
+    {
+     "id": "clients",
+     "title": "Klijenti",
+     "text": "Gumb „Novi klijent” dodaje klijenta. Klijenta koji ima vožnje nije moguće izbrisati — možete ga ukloniti iz odabira. Prijašnje vožnje zadržavaju svoje ime klijenta.",
+     "image": ""
+    },
+    {
+     "id": "client",
+     "title": "Klijent",
+     "text": "Ime, vozačeva bilješka i adrese. Pri preimenovanju se provjerava postoji li već to ime u adresaru. Brisanje možete odmah poništiti gumbom „Poništi”.",
+     "image": "img/hr/address-book-client.png"
+    },
+    {
+     "id": "add-address",
+     "title": "Adresa",
+     "text": "Adresa, oznaka i koordinata. Koordinatu možete spremiti prema trenutnoj lokaciji. Gumbi „Otvori u navigaciji” i „Pošalji” prosljeđuju točku. Crvena oznaka ističe adresu na koju treba paziti (težak prilaz, posebna pravila).",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "backup",
+   "title": "Sigurnosna kopija i vraćanje",
+   "intro": "Sigurnosna kopija je jedna datoteka s cijelim dnevnikom: vožnje, smjene, točenja goriva, vozila i dokumenti s fotografijama.",
+   "steps": [
+    {
+     "id": "backup",
+     "title": "Izrada sigurnosne kopije",
+     "text": "Postavke → Sigurnosna kopija: „Izvezi bazu (sigurnosna kopija)” sprema datoteku, a „Podijeli sigurnosnu kopiju” odmah je šalje (e-pošta, poruke, oblak). Sigurnosnu kopiju možete napraviti u svakom trenutku — rad se ne prekida.",
+     "image": ""
+    },
+    {
+     "id": "restore",
+     "title": "Vraćanje",
+     "text": "Opcija „Uvezi bazu (vraćanje)” zamjenjuje sve trenutne podatke datotekom sigurnosne kopije. Aplikacija će najprije provjeriti datoteku: tuđa datoteka ili kopija iz novije verzije aplikacije neće biti prihvaćena. Na novom telefonu podatke možete vratiti odmah na prvom koraku pri prvom pokretanju.",
+     "image": ""
+    },
+    {
+     "id": "cross",
+     "title": "Android i iPhone",
+     "text": "Sigurnosna kopija jednaka je na Androidu i iPhoneu: datoteka spremljena na jednom uređaju vraća se na drugom.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "online",
+   "title": "Program na mreži",
+   "intro": "Program na mreži je my.vecturabook.com: isti dnevnik u pregledniku i na ostalim vašim uređajima.",
+   "steps": [
+    {
+     "id": "device-link",
+     "title": "Povezivanje telefona",
+     "text": "Postavke → „Poveži s VecturaBook”. Skenirajte QR kod iz web računa na stranici, otvorite račun u pregledniku i potvrdite na telefonu ili unesite kod prikazan na zaslonu. Gumb „Odspoji ovaj telefon” prekida vezu.",
+     "image": "img/hr/online-device-link.png"
+    },
+    {
+     "id": "sync",
+     "title": "Sinkronizacija",
+     "text": "Povezani telefon sam šalje nove zapise i prima izmjene s drugih uređaja. Statusna traka prikazuje „Sve sinkronizirano” ili koliko zapisa čeka na slanje. Kada nema mreže, zapisi čekaju na telefonu.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "settings",
+   "title": "Postavke",
+   "intro": "Postavke su podijeljene po skupinama: profil vozača, telefon i veza, dokumenti (PDF), sigurnosna kopija i opće postavke.",
+   "steps": [
+    {
+     "id": "settings",
+     "title": "Postavke",
+     "text": "Ovdje se nalaze jezik i regija, mjerne jedinice, tema, animacije, PDF točenja goriva i povijesti vožnji, sigurnosna kopija te povezivanje s programom na mreži.",
+     "image": "img/hr/settings-settings.png"
+    },
+    {
+     "id": "profile",
+     "title": "Profil vozača",
+     "text": "Ime za izvješća i dokumenti vozača: vozačka dozvola, putovnica, ADR certifikat — s rokovima valjanosti i fotografijama stranica.",
+     "image": "img/hr/settings-profile.png"
+    },
+    {
+     "id": "language",
+     "title": "Jezik i regija",
+     "text": "Jezik aplikacije, jezik GPS adresa (automatski — prema trenutnoj državi) i format datuma.",
+     "image": "img/hr/settings-language.png"
+    },
+    {
+     "id": "units",
+     "title": "Mjerne jedinice",
+     "text": "Udaljenost, težina, obujam, duljina, temperatura i potrošnja goriva. Sustavi jedinica: metrički, imperijalni, mješoviti ili prilagođeno.",
+     "image": ""
+    },
+    {
+     "id": "theme",
+     "title": "Tema",
+     "text": "Svijetla, tamna ili automatski (prema vremenu početka dana i noći). Predlošci: Kraft, Tamni kraft, Manila, Gotovo bijela, Tamna. Možete izraditi i vlastitu temu.",
+     "image": "img/hr/settings-theme.png"
+    },
+    {
+     "id": "theme-custom",
+     "title": "Prilagođena tema",
+     "text": "Boja pozadine, teksta, gornje trake, kartica, obruba polja, natpisa, gumba te ikona točenja goriva i parkiranja. Temu možete spremiti, preimenovati i dodijeliti svijetlom ili tamnom načinu.",
+     "image": ""
+    },
+    {
+     "id": "animations",
+     "title": "Animacije",
+     "text": "Pokretne scene istovara i točenja goriva. Možete ih isključiti.",
+     "image": ""
+    },
+    {
+     "id": "about",
+     "title": "O aplikaciji",
+     "text": "Verzija, web stranica, Telegram, Facebook i mogućnost podrške projektu. Prije se aplikacija zvala CargoLog — promijenilo se samo ime.",
+     "image": ""
+    },
+    {
+     "id": "feedback",
+     "title": "Povratne informacije",
+     "text": "Prijavite grešku, pošaljite prijedlog ili napišite nešto drugo. Možete priložiti snimku zaslona ili fotografiju. U izborniku se nalaze i opcije „Provjeri ažuriranja” te „Ocijeni aplikaciju”.",
+     "image": ""
+    },
+    {
+     "id": "help",
+     "title": "Pomoć",
+     "text": "„Pomoć” je sadržaj ovog priručnika: opći odjeljci i odjeljci po vrsti vozila. Svaki se otvara odmah ovdje, korak po korak.",
+     "image": "img/hr/settings-help.png"
+    }
+   ]
+  },
+  {
+   "slug": "notifications",
+   "title": "Obavijesti i podsjetnici",
+   "intro": "Aplikacija javlja što je trenutno u tijeku i što uskoro slijedi.",
+   "steps": [
+    {
+     "id": "timers",
+     "title": "Mjerači vremena",
+     "text": "Čekanje, točenje goriva i istovar rade i kada je aplikacija u pozadini: mjerač vremena vidljiv je u traci obavijesti. Dodirnite obavijest za povratak u aplikaciju.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Rokovi dokumenata",
+     "text": "Obavijesti o rokovima valjanosti dokumenata stižu unaprijed i na sam dan isteka.",
+     "image": ""
+    },
+    {
+     "id": "permissions",
+     "title": "Dopuštenja",
+     "text": "Ako su obavijesti, kamera ili lokacija odbijene, aplikacija će pokazati gdje ih možete dopustiti u postavkama telefona.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics",
+   "title": "Dijagnostički kanal",
+   "intro": "Dijagnostički kanal šalje razvijatelju podatke s telefona kako bi se kvarovi rješavali na stvarnim podacima. Isključen je sve dok ga sami ne uključite.",
+   "steps": [
+    {
+     "id": "enroll",
+     "title": "Registracija telefona",
+     "text": "Pročitajte privolu i, ako se slažete, dodirnite „Slažem se, registriraj ovaj telefon”. Gumb „Povuci ovaj telefon” isključuje kanal i briše certifikat.",
+     "image": "img/hr/diagnostics-enroll.png"
+    },
+    {
+     "id": "channel-settings",
+     "title": "Što se šalje",
+     "text": "Tri sklopke: zapisi o radu aplikacije, baza vožnji i snimke brojeva kontejnera. Svaka je isključena dok je ne uključite, a možete je isključiti u svakom trenutku. Dok su sve tri isključene, ne šalje se ništa. Aplikacija ne čita vašu galeriju.",
+     "image": ""
+    },
+    {
+     "id": "warning",
+     "title": "Upozorenje",
+     "text": "Ulazak u servisne zaslone počinje upozorenjem. Možete izaći gumbom „Izvedite me odavde”.",
+     "image": ""
+    },
+    {
+     "id": "server",
+     "title": "Poslužitelj kanala",
+     "text": "Stanje veze: na vezi, šuti, nema mreže ili poslužitelj ne prima. Sve što je spremno za slanje čeka na telefonu — ne morate ništa raditi.",
+     "image": ""
+    },
+    {
+     "id": "import",
+     "title": "Svežanj kanala",
+     "text": "Za službene telefone svežanj kanala može se instalirati datotekom .p12 s lozinkom. Lozinka se koristi samo jednom i ne sprema se.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "service",
+   "title": "Servisni zasloni",
+   "intro": "Servisni zasloni služe za rješavanje kvarova. Ulazi se sa sedam dodira na zaslonu „O aplikaciji”. U redovnom radu nisu potrebni.",
+   "steps": [
+    {
+     "id": "hub",
+     "title": "Servisni centar",
+     "text": "Podaci o aplikaciji i telefonu, ulaz u servisne zaslone i dijagnostički kanal te galerija animacija.",
+     "image": ""
+    },
+    {
+     "id": "database",
+     "title": "Baza podataka",
+     "text": "Stanje baze podataka i potpuno brisanje aplikacije. Resetiranje nepovratno briše sve — najprije napravite sigurnosnu kopiju.",
+     "image": ""
+    },
+    {
+     "id": "logs",
+     "title": "Zapisi rada",
+     "text": "Zapisi o radu aplikacije za potrebe rješavanja kvarova.",
+     "image": ""
+    },
+    {
+     "id": "ocr",
+     "title": "Prepoznavanje",
+     "text": "Dijagnostika čitanja brojeva kamerom.",
+     "image": ""
+    },
+    {
+     "id": "system",
+     "title": "Sustav",
+     "text": "Podaci o telefonu i rušenjima aplikacije.",
+     "image": ""
+    },
+    {
+     "id": "locale",
+     "title": "Jezik i uvodni koraci",
+     "text": "Provjera prijevoda i ponovno pokretanje prvog postavljanja.",
+     "image": ""
+    },
+    {
+     "id": "dataset",
+     "title": "Snimke kamere",
+     "text": "Snimanje kadrova za učenje prepoznavanja — samo uz privolu za snimke.",
+     "image": ""
+    },
+    {
+     "id": "splash-tuner",
+     "title": "Početni zaslon",
+     "text": "Postavljanje početnog zaslona pri pokretanju.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "flatbed",
+   "title": "Platforma",
+   "intro": "Platforma prevozi opći i izvangabaritni teret.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "U voznom parku",
+     "text": "Odaberite nadogradnju „Platforma” i unesite duljinu platforme.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "U vožnji",
+     "text": "Vrste tereta: opći teret (palete, težina, opis), izvangabaritni teret (duljina, širina, visina, težina), kontejner na platformi. Kod izvangabaritnog tereta korak „Detalji tereta” traži dimenzije.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Istovar",
+     "text": "Palete se predaju po točkama kao broj ili postotak.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "container",
+   "title": "Kontejner",
+   "intro": "Kontejnersko vozilo prevozi kontejnere od 20, 40 i 45 stopa, jedan ili dva.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "U voznom parku",
+     "text": "Nadogradnja „Kontejner”; veličina kontejnera za koju je poluprikolica namijenjena.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "U vožnji",
+     "text": "Niz pitanja: prazan ili natovaren, veličina, koliko kontejnera, tip (standardni, Reefer, Flat Rack, Open Top, Tank). Broj kontejnera i plombe skeniraju se kamerom. Plomba ventilacije i temperatura unose se za Reefer.",
+     "image": ""
+    },
+    {
+     "id": "fate",
+     "title": "Nakon istovara",
+     "text": "Aplikacija pita što je s kontejnerom: ostao kod klijenta, ostao na vozilu, ide drugom klijentu ili na povrat u luku ili depo.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "sidelifter",
+   "title": "Sidelifter",
+   "intro": "Sidelifter sam podiže i spušta kontejner.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "U voznom parku",
+     "text": "Nadogradnja „Sidelifter” dostupna je samo za poluprikolicu.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "U vožnji",
+     "text": "Kontejner se unosi jednako kao kod kontejnerskog vozila, a rad s dizalicom označava se na sažetku vožnje.",
+     "image": ""
+    },
+    {
+     "id": "exchange",
+     "title": "Zamjena",
+     "text": "Sidelifter često mijenja kontejnere na odredištu — koristite opciju „Zamjena kontejnera”.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "refrigerated",
+   "title": "Hladnjača",
+   "intro": "Hladnjača prevozi teret s kontroliranom temperaturom.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "U voznom parku",
+     "text": "Nadogradnja „Hladnjača”; označite ugrađen generator ako postoji te unesite spremnik agregata i kritičnu zalihu.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "U vožnji",
+     "text": "Kontrolirana temperatura: s kontrolom ili bez kontrole; temperatura tereta. Na zaslonu vožnje nalazi se prekidač „Agregat radi”.",
+     "image": ""
+    },
+    {
+     "id": "fuel",
+     "title": "Gorivo agregata",
+     "text": "Dizel agregata upisuje se pri točenju u zasebno polje; aplikacija računa radne sate i potrošnju u litrama po satu te prikazuje „≈ N h do rezerve”.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "curtainsider",
+   "title": "Cerada",
+   "intro": "Poluprikolica s ceradom prevozi opći teret na paletama.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "U voznom parku",
+     "text": "Nadogradnja „Cerada”.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "U vožnji",
+     "text": "Opći teret: broj paleta, ukupna težina i opis.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Istovar",
+     "text": "Na svakom stajalištu označite koliko je paleta istovareno; aplikacija pamti koliko je preostalo na vozilu.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tipper",
+   "title": "Kiper",
+   "intro": "Kiper prevozi rasuti teret.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "U voznom parku",
+     "text": "Nadogradnja „Kiper”.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "U vožnji",
+     "text": "Rasuti teret: obujam u kubičnim metrima, težina neto i bruto te opis.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Istovar",
+     "text": "Istovar se bilježi vremenom, a mjerač vremena rukovanja teretom pokazuje koliko je trajao.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fuel-tanker",
+   "title": "Cisterna za gorivo",
+   "intro": "Cisterna za gorivo prevozi gorivo po komorama.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "U voznom parku",
+     "text": "Nadogradnja „Cisterna”; broj komora i obujam svake komore u litrama.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "U vožnji",
+     "text": "U detaljima tereta unosi se obujam za svaku komoru.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Istovar",
+     "text": "Na stajalištu označite istovarene komore. Ako pri završetku vožnje ostanu neistovarene komore, aplikacija će zatražiti potvrdu.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tanker",
+   "title": "Cisterna",
+   "intro": "Cisterna prevozi tekući teret.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "U voznom parku",
+     "text": "Nadogradnja „Cisterna”; komore i obujmi.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "U vožnji",
+     "text": "Kategorija tekućine: kemikalije, prehrambeno, otpad; kontrolirana temperatura; ADR s UN brojevima za opasni teret.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Istovar",
+     "text": "Komore se predaju po točkama jednako kao kod cisterne za gorivo.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "car-transporter",
+   "title": "Autotransporter",
+   "intro": "Autotransporter prevozi osobna vozila.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "U voznom parku",
+     "text": "Nadogradnja „Autotransporter”; broj mjesta za vozila.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "U vožnji",
+     "text": "Vozila se unose po VIN-u (17 znakova, bez I, O, Q) ili po registraciji; VIN možete skenirati kamerom. Brojač pokazuje koliko je vozila utovareno.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Istovar",
+     "text": "Na stajalištu označite koja su vozila istovarena, a koja utovarena. Ako pri završetku vožnje na vozilu još ima automobila, aplikacija će zatražiti potvrdu.",
+     "image": ""
+    }
+   ]
+  }
+ ],
+ "screens": {
+  "getting-started.welcome": "Prvo pokretanje: ime, tegljač, poluprikolica i dopuštenja. Ako imate sigurnosnu kopiju, možete vratiti cijeli dnevnik.",
+  "getting-started.onboarding": "Odgovorite na pitanja o sebi i svojem vozilu. Sve kasnije možete urediti u postavkama i u voznom parku.",
+  "getting-started.main-screen": "Glavni zaslon pokazuje gdje ste trenutno u poslu i vodi vas na sljedeći korak: smjena, vožnja, istovar.",
+  "getting-started.menu": "Izbornik aplikacije: vozni park, povijest, izvješća, točenja, održavanje, dokumenti, adresar, pomoć i postavke.",
+  "shift.shift-welcome": "Početak smjene: lokacija, čekanje na vožnju i gumb „Započni vožnju”.",
+  "shift.shift-status": "Je li smjena otvorena, od kada i koliko vožnji sadrži.",
+  "trip.origin": "Klijent i adresa polazišta ili odredišta. Novi klijent sam se sprema u adresar.",
+  "trip.cargo-type": "Što prevozite. Popis ovisi o nadogradnji tegljača i poluprikolice.",
+  "trip.cargo-details": "Detalji tereta: brojevi kontejnera i plombi, komore, vozila, palete. Brojeve možete skenirati kamerom.",
+  "trip.load-details": "Dimenzije, težina i opis tereta.",
+  "trip.trip-times": "Uređivanje vremena, adresa i stanja brojača već spremljene vožnje.",
+  "trip.confirm": "Sažetak vožnje. Provjerite podatke i dodirnite „Na put” — tek tada se vožnja sprema.",
+  "trip.arrival": "Na odredištu ste: dolazak, početak i završetak istovara ili utovara.",
+  "trip.unload": "Što je predano na ovoj točki: komore, postotak, palete ili vozila.",
+  "trip.cargo-fate": "Što je dalje s kontejnerom nakon istovara.",
+  "trip.summary": "Sažetak vožnje: sljedeće stajalište, završetak ili nova vožnja.",
+  "driving.driving": "Vožnja u tijeku: dolazak, točenje, parkiranje. Ispod vozila je približna procjena do rezerve goriva.",
+  "driving.odometer": "Stanje brojača kilometara. Aplikacija nudi očekivani broj i provjerava unos; možete ga skenirati kamerom.",
+  "driving.swap-trailer": "Zamjena poluprikolice tijekom vožnje: odaberite poluprikolicu iz voznog parka.",
+  "refuel.refuel-timer": "Točenje goriva u tijeku: mjerač vremena. Po završetku slijedi unos litara.",
+  "refuel.refuel-data": "Litre dizela, AdBluea i goriva agregata prikolice te stanje brojača. Sprema se kao jedan zapis.",
+  "refuel.refuel-history": "Sva točenja u razdoblju, prosječna potrošnja i PDF izvješće.",
+  "parking.parking-stop": "Adresa parkirališta: ručni unos, iz spremljenih mjesta ili putem GPS-a.",
+  "parking.places": "Vaša mjesta: parkirališta, luke, depoi. Biraju se pri parkiranju i povratu kontejnera.",
+  "parking.place-form": "Naziv, bilješka i koordinata mjesta; otvaranje u navigaciji.",
+  "camera.scan": "Usmjerite broj u okvir. Stisnite okvir s dva prsta uz broj; dodir izvan okvira snima sliku.",
+  "camera.container-exchange": "Zamjena kontejnera s drugim vozačem: što je predano, a što preuzeto.",
+  "camera.photos": "Fotografije dokumenata vožnje preko cijelog zaslona.",
+  "history.history": "Sve smjene i vožnje: pretraživanje, detalji, uređivanje i brisanje.",
+  "report.report": "Ukupno za razdoblje i PDF izvješće.",
+  "garage.garage": "Vaši tegljači i poluprikolice. Dodirnite vozilo za upravljanje njime.",
+  "garage.truck-form": "Registracija, vrsta i nadogradnja tegljača; dizalica ili manipulator.",
+  "garage.trailer-form": "Registracija, priključak i nadogradnja poluprikolice; komore, mjesta za vozila, generator.",
+  "garage.vehicle-hub": "Sve o vozilu: dokumenti, održavanje, tehnički pregled, osovine i gume, pločica, boja.",
+  "garage.vehicle-settings": "Kilometraža, intervali servisa, osovine, spremnik i kritična zaliha.",
+  "garage.plate-colors": "Boje registarske pločice, kao na vozilu.",
+  "garage.rig-paint": "Boje kabine, dizalice i nadogradnje na crtežu vozila.",
+  "garage.tyres": "Shema osovina i povijest guma: zamjene, probušene gume, premještanja.",
+  "documents.overview": "Svi dokumenti vozila i vozača s rokovima valjanosti.",
+  "documents.list": "Dokumenti ovog vozila. „+” za dodavanje.",
+  "documents.form": "Vrsta, naziv i rok valjanosti dokumenta.",
+  "documents.pages": "Fotografije stranica dokumenta.",
+  "maintenance.maintenance": "Koliko je ostalo do servisa i zapisi o održavanju.",
+  "maintenance.new-record": "Novi zapis o servisu: kilometraža, datum, obavljeni radovi, fotografije.",
+  "address-book.book": "Klijenti i vaša mjesta.",
+  "address-book.clients": "Popis klijenata: dodavanje, skrivanje, brisanje.",
+  "address-book.client": "Ime, bilješka i adrese klijenta.",
+  "address-book.add-address": "Adresa, koordinata, navigacija i crvena oznaka.",
+  "backup.backup": "Datoteka s cijelim dnevnikom: spremite, pošaljite ili vratite.",
+  "online.device-link": "Povezivanje telefona s programom na mreži: QR kod ili kod sa zaslona.",
+  "settings.settings": "Sve postavke po skupinama.",
+  "settings.profile": "Ime vozača i njegovi dokumenti.",
+  "settings.language": "Jezik aplikacije, jezik GPS adresa, format datuma.",
+  "settings.theme": "Svijetla, tamna ili automatski; predlošci i prilagođene teme.",
+  "settings.theme-custom": "Boje vaše prilagođene teme.",
+  "settings.about": "Verzija aplikacije i kontakt s razvijateljem.",
+  "settings.feedback": "Prijavite grešku ili pošaljite prijedlog.",
+  "settings.help": "Priručnik za aplikaciju po odjeljcima.",
+  "diagnostics.enroll": "Privola i registracija telefona u dijagnostičkom kanalu.",
+  "diagnostics.warning": "Ulaz u servisni dio aplikacije.",
+  "diagnostics.channel-settings": "Što telefon šalje razvijatelju: tri zasebne privole.",
+  "diagnostics.server": "Stanje veze dijagnostičkog kanala.",
+  "diagnostics.import": "Instalacija svežnja kanala pomoću datoteke .p12.",
+  "service.hub": "Servisni centar: podaci i servisni zasloni.",
+  "service.database": "Stanje baze podataka i potpuno brisanje aplikacije.",
+  "service.logs": "Zapisi o radu aplikacije.",
+  "service.ocr": "Dijagnostika prepoznavanja brojeva.",
+  "service.system": "Podaci o telefonu i rušenjima.",
+  "service.locale": "Provjera jezika i ponovno prvo pokretanje.",
+  "service.dataset": "Snimanje kadrova za prepoznavanje.",
+  "service.splash-tuner": "Postavke početnog zaslona."
+ }
+}

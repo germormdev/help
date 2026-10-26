@@ -1,0 +1,978 @@
+{
+ "format": 1,
+ "language": "nl",
+ "revision": "2026-10-26",
+ "sections": [
+  {
+   "slug": "getting-started",
+   "title": "Aan de slag",
+   "intro": "VecturaBook is het rittenboek voor de chauffeur: diensten, ritten, tankbeurten, stops, documenten en voertuigen op één telefoon. Alles staat op uw telefoon en werkt zonder internet.",
+   "steps": [
+    {
+     "id": "welcome",
+     "title": "Eerste start",
+     "text": "Bij de eerste start stelt de app een paar vragen in vier korte stappen. Dit duurt een minuut. Alles wat u invult, kunt u later aanpassen in de instellingen en in het wagenpark.\n\nHebt u al een back-up van VecturaBook (bijvoorbeeld van uw vorige telefoon)? Tik dan bij de eerste stap op „Herstellen vanaf back-up”: uw hele rittenboek komt terug en de vragen zijn niet nodig.",
+     "image": "img/nl/getting-started-welcome.png"
+    },
+    {
+     "id": "onboarding",
+     "title": "Naam, trekker, aanhanger, toestemmingen",
+     "text": "Stap 1 — naam. Deze komt op de rapporten te staan. U kunt dit leeg laten en later invullen.\n\nStap 2 — trekker of bakwagen: kenteken, type en carrosserie. U kiest het type en de carrosserie met plaatjes via een reeks vragen: na elk antwoord toont de app de volgende vraag.\n\nStap 3 — aanhanger. U kunt deze overslaan met de knop „Aanhanger overslaan” en later toevoegen in het wagenpark.\n\nStap 4 — toestemmingen: camera (containernummers, zegels, kilometerteller), locatie (plaats bij het begin van de dienst, alleen wanneer u daarom vraagt) en meldingen (timers voor wachten, tanken en lossen). U kunt elke toestemming weigeren — de app werkt dan gewoon, alleen zonder die functie.",
+     "image": "img/nl/getting-started-onboarding.png"
+    },
+    {
+     "id": "main-screen",
+     "title": "Hoofdscherm",
+     "text": "Het hoofdscherm laat zien waar u nu bent in uw werk: dienst niet gestart, dienst loopt, rit onderweg, op het losadres, enzovoort. De knoppen leiden altijd naar de volgende stap, zodat u niets kunt overslaan.\n\nBovenaan staat een balk met links de menuknop en rechts de knop „?”. De „?” staat op elk scherm: deze legt het scherm kort uit en opent via „Meer” het juiste onderdeel van deze handleiding.",
+     "image": "img/nl/getting-started-main-screen.png"
+    },
+    {
+     "id": "menu",
+     "title": "Menu",
+     "text": "De knop met drie streepjes opent het tegelmenu: Wagenpark, Rithistorie, Rapport, Tanklogboek, Onderhoud, Voertuigdocumenten, Adresboek, Hulp. Onderaan staat Instellingen.\n\nOp elk ander scherm staat op de plek van de menuknop een pijl „terug”.",
+     "image": "img/nl/getting-started-menu.png"
+    },
+    {
+     "id": "help-offline",
+     "title": "Hulp zonder internet",
+     "text": "De app downloadt de teksten van deze handleiding in uw eigen taal en bewaart ze op de telefoon. Daardoor werken „?” en „Hulp” ook onderweg zonder bereik. Eén keer per dag, als er internet is, controleert de app op de achtergrond of er iets nieuws is.\n\nAls de hulp nog nooit is gedownload, vraagt de app om verbinding te maken met internet.",
+     "image": "img/nl/getting-started-help-offline.png"
+    }
+   ]
+  },
+  {
+   "slug": "shift",
+   "title": "Dienst",
+   "intro": "Een dienst is uw werkdag van begin tot eind. Binnen een dienst vallen ritten, tankbeurten en stops; de totalen van de dienst komen in de historie en de rapporten.",
+   "steps": [
+    {
+     "id": "shift-welcome",
+     "title": "Dienst starten",
+     "text": "Tik op „Dienst starten”. De app begroet u en toont waar u bent: uw plaats wordt bepaald via locatie als u dat hebt toegestaan. Zo niet, tik dan op de regel met de speld en vul de plaats zelf in.\n\nIs er nog geen rit, tik dan op „Wachten op rit” — de wachttimer begint te lopen. Met „Wachten stoppen” zet u hem stil. Het wachten vóór een rit komt in de historie en in het rapport.\n\nZodra er een rit is, tikt u op „Rit starten”.",
+     "image": "img/nl/shift-shift-welcome.png"
+    },
+    {
+     "id": "shift-status",
+     "title": "Dienststatus",
+     "text": "Het scherm „Dienst” laat zien of de dienst open is, wanneer deze is geopend en hoeveel ritten erin zitten. Met „Dienst hervatten” gaat u terug naar uw werk.\n\nU kunt een dienst niet sluiten zolang een rit nog niet is afgerond: beëindig eerst de rit.",
+     "image": "img/nl/shift-shift-status.png"
+    },
+    {
+     "id": "end-shift",
+     "title": "Dienst beëindigen",
+     "text": "De rode knop „Dienst beëindigen” is de enige rode knop in de app. De app vraagt om bevestiging en om de eindkilometerstand. Het getal wordt gecontroleerd: is het lager dan de vorige stand of veel hoger dan verwacht, dan toont de app de laatst bekende stand en vraagt u om dit te bevestigen of te corrigeren.",
+     "image": ""
+    },
+    {
+     "id": "forgotten-shift",
+     "title": "Vergeten dienst",
+     "text": "Staat een dienst langer dan een dag open, dan stelt de app voor om deze te sluiten op de tijd van de laatste gebeurtenis — zo loopt de werktijd in het rapport niet onnodig op. U kunt hiermee akkoord gaan of de dienst hervatten.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "trip",
+   "title": "Rit: van laden tot lossen",
+   "intro": "Een rit legt u stap voor stap vast: vertrek en bestemming, wat u vervoert, ladingdetails, ritoverzicht — en „Op weg”. Op het adres: aankomst, lossen of laden, overzicht. Zolang u niet op „Op weg” hebt getikt, staat er nog niets in het rittenboek: u kunt bij elke stap terug met de knop „Terug”, zonder dat uw invoer verloren gaat.",
+   "steps": [
+    {
+     "id": "origin",
+     "title": "Klant & route",
+     "text": "Kies een klant: begin de naam te typen en de app geeft suggesties uit het adresboek. Een nieuwe klant hoeft u alleen maar in te typen: deze wordt vanzelf in het adresboek opgeslagen.\n\nEen klant kan meerdere adressen hebben — kies het juiste adres of voeg een nieuw toe. Het GPS-pictogram vult het adres van uw huidige locatie in. Chauffeursnotities over de klant zijn hier direct zichtbaar.",
+     "image": "img/nl/trip-origin.png"
+    },
+    {
+     "id": "cargo-type",
+     "title": "Wat vervoer je?",
+     "text": "U kiest het ladingtype met tegels: container, stukgoed, buitenmaats, koeltransport, tankwagen, stortgoed, autotransporter, leeg. De lijst hangt af van de carrosserie van uw trekker en aanhanger.\n\nVerandert u het ladingtype nadat u al details hebt ingevuld, dan waarschuwt de app dat het ingevoerde wordt gewist en vraagt om bevestiging.",
+     "image": "img/nl/trip-cargo-type.png"
+    },
+    {
+     "id": "cargo-details",
+     "title": "Ladingdetails",
+     "text": "De details hangen af van het ladingtype. Voor een container: leeg of beladen, formaat, hoeveel containers, type, containernummer en zegelnummer. De nummers kunt u scannen met de camera. Voor tankwagens: secties en volumes. Voor autotransporters: voertuigen op VIN of kenteken. Voor stukgoed: pallets en gewicht.\n\nZijn er voor een rit geen details nodig (bijvoorbeeld leeg), tik dan gewoon op „Volgende”.\n\nDe ADR-schakelaar opent velden voor UN-nummers voor gevaarlijke stoffen.",
+     "image": "img/nl/trip-cargo-details.png"
+    },
+    {
+     "id": "load-details",
+     "title": "Ladinggegevens",
+     "text": "Voor buitenmaatse lading en containers op een platform: lengte, breedte, hoogte, gewicht en omschrijving. De maten staan in de eenheden die u in de instellingen hebt gekozen.",
+     "image": "img/nl/trip-load-details.png"
+    },
+    {
+     "id": "trip-times",
+     "title": "Tijden en ritpunten",
+     "text": "Dit scherm verschijnt alleen wanneer u een al opgeslagen rit uit de historie bewerkt. Hier past u de starttijd, aankomsttijd, begin- en eindtijd van laadwerkzaamheden, adressen en kilometerstanden van de punten aan.\n\nEen tijd die tijdens de rit niet is vastgelegd, staat aangegeven met een streepje en kan niet worden aangepast: bewerken voegt geen gebeurtenissen toe die niet hebben plaatsgevonden.",
+     "image": ""
+    },
+    {
+     "id": "confirm",
+     "title": "Ritoverzicht",
+     "text": "Het overzicht toont de hele rit op één scherm. Hier staan ook de opties: slapen in cabine, militaire missie, gevarenzone, temperatuurgeregeld, werken met kraan (als de truck een kraan heeft).\n\nMet „Wijzigen” gaat u terug naar de stappen. De groene knop „Op weg” slaat de rit op en start deze. Staat er een navigatie-app op uw telefoon, dan stelt de app voor om het adres daarin te openen.",
+     "image": "img/nl/trip-confirm.png"
+    },
+    {
+     "id": "arrival",
+     "title": "Aankomst",
+     "text": "Tik op de bestemming op „Aangekomen”. De app onthoudt de tijd en stelt een kilometerstand voor.\n\n„Lossen/laden starten” start de timer voor laadwerkzaamheden, „Lossen/laden stoppen” zet deze stil. Als er iets niet kon worden opgeslagen (bijvoorbeeld omdat de telefoon vastliep), meldt de app dit en vraagt u om nogmaals te tikken — er wordt nooit iets half in het rittenboek geschreven.",
+     "image": "img/nl/trip-arrival.png"
+    },
+    {
+     "id": "unload",
+     "title": "Lossen bij deze stop",
+     "text": "Wordt de lading in delen afgeleverd, geef dan aan wat u bij deze stop hebt gelost: secties van de tankwagen, percentage van de container, pallets of specifieke auto's van de autotransporter. De app onthoudt hoeveel er nog aan boord is en voorkomt dat u meer aflevert dan u bij u hebt.",
+     "image": ""
+    },
+    {
+     "id": "cargo-fate",
+     "title": "Wat is er met de container gebeurd?",
+     "text": "Na het lossen vraagt de app wat er verder met de container gebeurt: blijft hier, nog op de truck, gaat naar een andere klant, inleveren op een locatie (haven, depot) of naar een ander adres. Uw antwoord bepaalt de volgende stap van de rit.",
+     "image": "img/nl/trip-cargo-fate.png"
+    },
+    {
+     "id": "summary",
+     "title": "Ritoverzicht",
+     "text": "Na een stop kiest u „Rit voortzetten” (volgende stop van dezelfde rit), „Rit beëindigen” of „Nieuwe rit”.\n\nMet „Volgende rit alvast invullen” kunt u al tijdens het lossen de volgende rit invoeren: klant, lading, nummers. Daarna start u die rit direct met „Beëindigen en rijden”.",
+     "image": "img/nl/trip-summary.png"
+    }
+   ]
+  },
+  {
+   "slug": "driving",
+   "title": "Rijscherm",
+   "intro": "Zolang de rit onderweg is, is het hoofdscherm „Onderweg”: het voertuig van de rit, de kentekens van trekker en aanhanger, de rijtijd en de knoppen voor de volgende acties.",
+   "steps": [
+    {
+     "id": "driving",
+     "title": "Onderweg",
+     "text": "De knoppen op het scherm zijn: „Aangekomen” (u bent op het adres), „Tanken”, „Parkeren / stop”. Boven de knoppen staat een tekening van uw combinatie met de bijbehorende kentekens; de tekening is opgebouwd uit wat er in het wagenpark staat: type, carrosserie, assen en kleuren.\n\nHebt u in het wagenpark de tankinhoud en uw eigen kritieke reserve ingevuld, dan ziet u onder het voertuig hoeveel er ongeveer resteert tot de reserve: „≈ N km tot reserve” voor de diesel van de trekker en „≈ N u tot reserve” voor het aggregaat van de oplegger (koeltrailer, genset). De berekening is gebaseerd op uw tankbeurten en kilometerstanden, en is daarom direct na de eerste tankbeurt mogelijk nog niet zichtbaar.",
+     "image": "img/nl/driving-driving.png"
+    },
+    {
+     "id": "swap-trailer",
+     "title": "Aanhanger wisselen",
+     "text": "Onderweg van aanhanger wisselen doet u met „Aanhanger wisselen”. In het venster ziet u de aanhangers uit uw wagenpark: een tekening van de aanhanger met het kenteken eronder. Kies de nieuwe aanhanger — de wissel wordt in de rit vastgelegd. Aanhangers die niet compatibel zijn met de trekker worden niet in de lijst getoond.",
+     "image": "img/nl/driving-swap-trailer.png"
+    },
+    {
+     "id": "odometer",
+     "title": "Kilometerstand",
+     "text": "De app vult de verwachte stand alvast in: van het voertuig, van het laden, van de vorige lossing of van een tankbeurt. Controleer het getal en pas het zo nodig aan. U kunt de kilometerteller ook scannen met de camera.\n\nIs het getal lager dan de vorige stand, veel hoger dan verwacht, of hebt u het niet aangepast, dan toont de app de laatst bekende stand en vraagt of alles klopt. Als u de kilometerstand van een eerdere rit aanpast, laat de app zien welke andere registraties daardoor worden geraakt.",
+     "image": "img/nl/driving-odometer.png"
+    }
+   ]
+  },
+  {
+   "slug": "refuel",
+   "title": "Tanken, AdBlue, aggregaat",
+   "intro": "Tankbeurten zijn nodig voor het brandstofverbruik, de rapporten en de indicatie „tot reserve”.",
+   "steps": [
+    {
+     "id": "refuel-timer",
+     "title": "Tanktimer",
+     "text": "Met „Tanken” op het rijscherm start u de timer — de tanktijd wordt vastgelegd in het rittenboek. „Tanken beëindigen” stopt de timer en opent het scherm om de liters in te voeren. De timer loopt ook door in het meldingenpaneel als de app op de achtergrond staat.",
+     "image": "img/nl/refuel-refuel-timer.png"
+    },
+    {
+     "id": "refuel-data",
+     "title": "Liters en kilometerstand",
+     "text": "Vul de diesel in liters in, en zo nodig ook AdBlue en de diesel voor het aggregaat van de oplegger (koeltrailer, genset). De kilometerstand staat al ingevuld; u kunt deze ook scannen met de camera. „Tankbeurt opslaan” legt alles in één registratie vast.",
+     "image": "img/nl/refuel-refuel-data.png"
+    },
+    {
+     "id": "unit",
+     "title": "Aggregaat oplegger",
+     "text": "Zit er een generator op de oplegger, vink dit dan aan bij de oplegger-instellingen. Op het rijscherm verschijnt dan de schakelaar „Aggregaat draait”. De app telt de draaiuren van het aggregaat en berekent het verbruik in liter per uur, en bij het tanken verschijnt een veld voor de diesel van het aggregaat.",
+     "image": ""
+    },
+    {
+     "id": "refuel-history",
+     "title": "Tanklogboek",
+     "text": "Het logboek toont alle tankbeurten per week, maand, alle tijd of een gekozen periode: totale brandstof, aantal tankbeurten en gemiddeld verbruik. Het aandeel AdBlue ten opzichte van de diesel en het verbruik van het aggregaat worden apart berekend.\n\nMet „PDF-rapport genereren” maakt u een overzicht van de tankbeurten dat u kunt versturen. Een tankbeurt kan ook worden verwijderd.",
+     "image": "img/nl/refuel-refuel-history.png"
+    }
+   ]
+  },
+  {
+   "slug": "parking",
+   "title": "Parkeren en rust",
+   "intro": "Een stop onderweg: rust, overnachting of wachten. Deze wordt in de rit opgeslagen met adres en tijd.",
+   "steps": [
+    {
+     "id": "parking-stop",
+     "title": "Parkeren / stop",
+     "text": "Tik op het rijscherm op „Parkeren / stop”. U kunt het adres handmatig invoeren, kiezen uit opgeslagen plekken of op het GPS-pictogram tikken. Wordt het adres niet gevonden, dan vult de app de coördinaten in — u kunt deze aanpassen.\n\nOvernachtingen in de cabine worden meegeteld in de historie en in het rapport.",
+     "image": "img/nl/parking-parking-stop.png"
+    },
+    {
+     "id": "places",
+     "title": "Locaties",
+     "text": "Locaties zijn uw eigen plekken die niet aan klanten zijn gekoppeld: parkeerplaatsen, havens, depots, tankstations. U kunt in de lijst zoeken op naam. Locaties kiest u bij het parkeren en bij het inleveren van een container.",
+     "image": ""
+    },
+    {
+     "id": "place-form",
+     "title": "Locatie",
+     "text": "Naam, notitie en coördinaat. U kunt de coördinaat van uw huidige plek opslaan, vervangen of wissen. De knoppen „Openen in navigatie” en „Verzenden” sturen het punt naar uw navigatie-app of naar een bericht.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "camera",
+   "title": "Camera: containers en zegels",
+   "intro": "De camera leest containernummers, zegelnummers, VIN-codes en de kilometerteller, zodat u deze niet met de hand hoeft in te typen.",
+   "steps": [
+    {
+     "id": "scan",
+     "title": "Camerakader",
+     "text": "Richt het kader op het nummer. Knijp het kader met twee vingers strak om het nummer — dan wordt het beter gelezen. Gebruik „Kader draaien” voor nummers die verticaal geschreven zijn. Tik buiten het kader om de foto te maken.",
+     "image": ""
+    },
+    {
+     "id": "container-number",
+     "title": "Containernummer",
+     "text": "Een containernummer bestaat uit 4 letters en 7 cijfers. De app controleert het controlecijfer; klopt het nummer niet, dan wordt het opgeslagen met de melding „Nummer niet gevalideerd” — controleer het dan zelf even.",
+     "image": ""
+    },
+    {
+     "id": "seal",
+     "title": "Zegel",
+     "text": "Het zegelnummer wordt gelezen van het opschrift. Staat er een streepjescode op het zegel die afwijkt van het gedrukte nummer, dan gebruikt de app het gedrukte nummer: de streepjescode hoort soms bij een andere reeks.",
+     "image": ""
+    },
+    {
+     "id": "container-exchange",
+     "title": "Containerwissel",
+     "text": "Geeft u op een locatie een container over aan een andere chauffeur en neemt u zijn container mee, leg de wissel dan vast: welke container is gelost, welke is geladen, de naam van de chauffeur en het kenteken van zijn truck.",
+     "image": ""
+    },
+    {
+     "id": "photos",
+     "title": "Foto's",
+     "text": "Bij het laden en lossen kunt u foto's van documenten aan de rit toevoegen via „Documentenfoto”. Met „Foto's bekijken” opent u ze op het volledige scherm.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "history",
+   "title": "Rittengeschiedenis en bewerken",
+   "intro": "De historie bevat alle diensten en ritten. Hier kunt u ze bekijken, zoeken, bewerken en verwijderen.",
+   "steps": [
+    {
+     "id": "history",
+     "title": "Historie",
+     "text": "Ritten zijn gegroepeerd per dienst: begin en einde van de dienst, duur, afstand en aantal ritten. Tik op een rit voor de details: klant, lading, stops, kilometerstanden, wachttijd en foto's. Zoeken kan op klant, container en route. „Alle ritten” toont ze in één lijst.",
+     "image": "img/nl/history-history.png"
+    },
+    {
+     "id": "edit",
+     "title": "Rit bewerken",
+     "text": "„Bewerken” opent dezelfde stappen als bij het aanmaken, plus het scherm voor tijden en ritpunten. Wijzigingen worden verzameld en pas opgeslagen op het ritoverzicht.\n\nAls een aanpassing van de kilometerstand gevolgen heeft voor andere registraties (de volgende rit, de truckstand, de kilometers van de dienst), laat de app dit zien voordat u de wijziging toepast.",
+     "image": ""
+    },
+    {
+     "id": "delete",
+     "title": "Verwijderen",
+     "text": "U verwijdert een rit met het prullenbak-icoon; meerdere ritten tegelijk verwijdert u via de selectiemodus. Een actieve rit kan niet worden verwijderd — rond deze eerst af. Is uw telefoon verbonden met het programma online, dan wordt de verwijdering ook doorgevoerd op uw andere apparaten.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "report",
+   "title": "Rapport en PDF",
+   "intro": "Het rapport berekent uw werk over een periode: ritten, afstand, werktijd, wachttijd, brandstof en verbruik.",
+   "steps": [
+    {
+     "id": "report",
+     "title": "Perioderapport",
+     "text": "Kies een periode: vandaag, week, maand of eigen datums. De kaarten tonen de totalen. „Rapport exporteren” maakt een PDF met diensten, ritten, stops en tankbeurten; deze kunt u versturen of afdrukken.",
+     "image": "img/nl/report-report.png"
+    },
+    {
+     "id": "pdf",
+     "title": "Wat staat er in de PDF?",
+     "text": "In de PDF staat per dienst: begin en einde, truck en aanhanger, ritten met klanten, lading, los- en wachttijden, kilometerstanden en tankbeurten. Onderaan staan de periodetotalen: diensten, ritten, tankbeurten, totale afstand, totale duur, totale brandstof, gemiddelde afstand per dienst en gemiddeld verbruik.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "garage",
+   "title": "Wagenpark: trekkers en opleggers",
+   "intro": "In het wagenpark bewaart u uw voertuigen. Hiervandaan haalt de app de voertuigtekeningen, kentekens, compatibiliteit van aanhangers, kilometerstanden en alle voertuiginstellingen.",
+   "steps": [
+    {
+     "id": "garage",
+     "title": "Wagenpark",
+     "text": "Twee tabbladen: Trucks en Aanhangers. Het actieve voertuig is gemarkeerd. Met „+ Truck toevoegen” en „+ Aanhanger toevoegen” voegt u een nieuw voertuig toe. Tik op een voertuig om het beheer te openen.\n\nZolang een rit onderweg is, kunt u niet van voertuig wisselen — beëindig eerst de rit (een aanhanger wisselt u onderweg via „Aanhanger wisselen”).",
+     "image": "img/nl/garage-garage.png"
+    },
+    {
+     "id": "truck-form",
+     "title": "Trekker",
+     "text": "Kenteken, type (trekker of bakwagen) en carrosserie kiest u via een reeks vragen met plaatjes; geef ook aan of er een kraan of manipulator op zit. Twee dezelfde kentekens in het wagenpark zijn niet mogelijk.",
+     "image": ""
+    },
+    {
+     "id": "trailer-form",
+     "title": "Aanhanger",
+     "text": "Kenteken, koppeling (oplegger of aanhangwagen) en carrosserie. Voor een tankwagen: het aantal secties en het volume per sectie. Voor een autotransporter: het aantal autoplaatsen. Voor een koeltrailer: of er een generator aanwezig is.",
+     "image": ""
+    },
+    {
+     "id": "vehicle-hub",
+     "title": "Voertuigbeheer",
+     "text": "Het voertuigscherm brengt alles samen: registratie, documenten, onderhoud, keuring, assen en banden, kentekenplaat en lak. Met „Actief maken” kiest u het voertuig voor uw werk.",
+     "image": "img/nl/garage-vehicle-hub.png"
+    },
+    {
+     "id": "vehicle-settings",
+     "title": "Voertuiginstellingen",
+     "text": "Huidige kilometerstand, onderhoudsinterval (kilometers, maanden, waarschuwingsdrempels), startpunt voor onderhoud, assen, tankinhoud en uw eigen kritieke reserve (voor de melding „tot reserve”). Bij een oplegger met aggregaat stelt u ook de tank en de reserve van het aggregaat in.",
+     "image": "img/nl/garage-vehicle-settings.png"
+    },
+    {
+     "id": "plate-colors",
+     "title": "Kentekenplaat",
+     "text": "De achtergrond van de plaat en de kleur van het nummer — precies zoals op uw voertuig. Is de combinatie slecht leesbaar, dan wordt het nummer zwart of wit weergegeven.",
+     "image": "img/nl/garage-plate-colors.png"
+    },
+    {
+     "id": "rig-paint",
+     "title": "Lak",
+     "text": "Kleur van de cabine, kraan en opbouw op de tekening van het voertuig. „Zoals getekend” zet de oorspronkelijke kleur terug.",
+     "image": "img/nl/garage-rig-paint.png"
+    },
+    {
+     "id": "tyres",
+     "title": "Assen en banden",
+     "text": "Het assenschema wordt vanzelf getekend op basis van het aantal assen; elke as kunt u instellen op enkel of dubbel. Tik op een band voor een bandenwissel, lekke band, omwisselen of iets anders — de registratie komt in de geschiedenis. De statistieken tonen de gemiddelde afstand tussen bandenwissels en de meest voorkomende plek. Een oplegger heeft een eigen kilometerstand die u kunt invoeren.",
+     "image": "img/nl/garage-tyres.png"
+    }
+   ]
+  },
+  {
+   "slug": "documents",
+   "title": "Documenten en vervaldata",
+   "intro": "Documenten van het voertuig en de chauffeur, met foto's van de pagina's en vervaldata. De app herinnert u op tijd aan vervaldata.",
+   "steps": [
+    {
+     "id": "overview",
+     "title": "Alle documenten",
+     "text": "Het overzicht toont de documenten van alle voertuigen en van de chauffeur in één lijst met de geldigheid: hoeveel dagen er nog over zijn of „verlopen”.",
+     "image": "img/nl/documents-overview.png"
+    },
+    {
+     "id": "list",
+     "title": "Voertuigdocumenten",
+     "text": "Elk voertuig heeft zijn eigen lijst: kentekenbewijs, verzekering, keuring en eigen documenten. Met „+” voegt u een document toe.",
+     "image": "img/nl/documents-list.png"
+    },
+    {
+     "id": "form",
+     "title": "Document",
+     "text": "Kies het type of „Eigen document…” en vul een naam in (bijvoorbeeld ADR-vergunning). „Geldig tot” is de vervaldatum waarop de herinneringen zijn gebaseerd. Een keuring heeft ook een keuringsdatum.",
+     "image": ""
+    },
+    {
+     "id": "pages",
+     "title": "Pagina's",
+     "text": "Fotografeer de pagina's van het document met de camera. U kunt de pagina's op het volledige scherm bekijken, doorbladeren en één voor één verwijderen.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Herinneringen voor vervaldata",
+     "text": "Vóór de vervaldatum stuurt de app een melding en toont bij het opstarten het venster „Geldigheid documenten”. Met „Begrepen” sluit u het venster tot de volgende drempel. Chauffeursdocumenten (rijbewijs, paspoort, ADR) staan bij de profielinstellingen.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "maintenance",
+   "title": "Onderhoud en banden",
+   "intro": "Onderhoud: registraties, intervallen en een herinnering wanneer het tijd is.",
+   "steps": [
+    {
+     "id": "maintenance",
+     "title": "Onderhoud",
+     "text": "Bovenaan ziet u hoeveel kilometer of dagen er nog over zijn tot het volgende onderhoud, of hoe lang het onderhoud al te laat is. Daaronder staan de onderhoudsregistraties. De intervallen en het startpunt stelt u in bij de voertuiginstellingen.",
+     "image": "img/nl/maintenance-maintenance.png"
+    },
+    {
+     "id": "new-record",
+     "title": "Onderhoudsregistratie",
+     "text": "„Onderhoud registreren” opent een nieuwe registratie: kilometerstand, datum, wat er is gedaan en foto's. De kilometerstand bij het onderhoud mag niet hoger zijn dan de huidige stand.",
+     "image": ""
+    },
+    {
+     "id": "tyres",
+     "title": "Banden",
+     "text": "Banden houdt u bij op het assenschema — zie het onderdeel „Wagenpark”, stap „Assen en banden”.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "address-book",
+   "title": "Adresboek en klanten",
+   "intro": "Klanten met hun adressen en uw eigen locaties. Het adresboek vult zich vanzelf aan wanneer u bij een rit een nieuwe klant invoert.",
+   "steps": [
+    {
+     "id": "book",
+     "title": "Adresboek",
+     "text": "Het tabblad „Klanten” bevat klanten met hun adressen; het tabblad „Locaties” bevat uw eigen plekken. Verborgen klanten worden niet voorgesteld bij het kiezen; „Verborgen tonen” zet ze weer in de lijst.",
+     "image": "img/nl/address-book-book.png"
+    },
+    {
+     "id": "clients",
+     "title": "Klanten",
+     "text": "Met „Nieuwe klant” voegt u een klant toe. Een klant met ritten kan niet worden verwijderd — u kunt deze wel uit de keuze halen. Eerdere ritten behouden hun eigen klantnaam.",
+     "image": ""
+    },
+    {
+     "id": "client",
+     "title": "Klant",
+     "text": "Naam, chauffeursnotitie en adressen. Bij het wijzigen van een naam controleert de app of die naam al bestaat. Een verwijdering kunt u direct ongedaan maken met de knop „Ongedaan maken”.",
+     "image": "img/nl/address-book-client.png"
+    },
+    {
+     "id": "add-address",
+     "title": "Adres",
+     "text": "Adres, label en coördinaat. U kunt de coördinaat van uw huidige locatie opslaan. Met „Openen in navigatie” en „Verzenden” deelt u de locatie. Een rode markering laat een adres opvallen waar u extra op moet letten (lastige inrit, speciale regels).",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "backup",
+   "title": "Back-up en herstel",
+   "intro": "Een back-up is één bestand met uw hele rittenboek: ritten, diensten, tankbeurten, voertuigen en documenten met foto's.",
+   "steps": [
+    {
+     "id": "backup",
+     "title": "Back-up maken",
+     "text": "Instellingen → Back-up: „Database exporteren (back-up)” slaat het bestand op, „Back-up delen” verstuurt het direct (via e-mail, berichten-app of cloud). U kunt op elk moment een back-up maken — uw werk wordt niet onderbroken.",
+     "image": ""
+    },
+    {
+     "id": "restore",
+     "title": "Herstellen",
+     "text": "„Database importeren (herstellen)” vervangt alle huidige gegevens door het back-upbestand. De app controleert het bestand eerst: een vreemd bestand of een back-up uit een nieuwere versie wordt niet geaccepteerd. Op een nieuwe telefoon kunt u de back-up direct bij de eerste stap van de eerste start herstellen.",
+     "image": ""
+    },
+    {
+     "id": "cross",
+     "title": "Android en iPhone",
+     "text": "De back-up is hetzelfde op Android en iPhone: een bestand dat op het ene toestel is gemaakt, kunt u op het andere herstellen.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "online",
+   "title": "Programma online",
+   "intro": "Het programma online is my.vecturabook.com: hetzelfde rittenboek in de browser en op uw andere apparaten.",
+   "steps": [
+    {
+     "id": "device-link",
+     "title": "Telefoon verbinden",
+     "text": "Instellingen → „Verbinden met VecturaBook”. Scan de QR-code in het webportaal, open het portaal in de browser en bevestig op uw telefoon, of voer de code in die op het scherm staat. Met „Deze telefoon loskoppelen” verbreekt u de verbinding.",
+     "image": "img/nl/online-device-link.png"
+    },
+    {
+     "id": "sync",
+     "title": "Synchronisatie",
+     "text": "Een verbonden telefoon verstuurt zelf nieuwe registraties en ontvangt wijzigingen van andere apparaten. De statusbalk toont „Alles gesynchroniseerd” of hoeveel items er nog in afwachting zijn. Zonder netwerk wachten de registraties op de telefoon.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "settings",
+   "title": "Instellingen",
+   "intro": "De instellingen zijn ingedeeld in groepen: chauffeursprofiel, telefoon en verbinding, documenten (PDF), back-up en algemene instellingen.",
+   "steps": [
+    {
+     "id": "settings",
+     "title": "Instellingen",
+     "text": "Hier vindt u taal en regio, eenheden, thema, animaties, tank-pdf en ritgeschiedenis-pdf, back-up en de verbinding met het programma online.",
+     "image": "img/nl/settings-settings.png"
+    },
+    {
+     "id": "profile",
+     "title": "Chauffeursprofiel",
+     "text": "Uw naam voor op de rapporten en uw chauffeursdocumenten: rijbewijs, paspoort en ADR-certificaat — inclusief vervaldata en foto's van de pagina's.",
+     "image": "img/nl/settings-profile.png"
+    },
+    {
+     "id": "language",
+     "title": "Taal & regio",
+     "text": "App-taal, taal van GPS-adressen (automatisch op basis van het huidige land) en datumnotatie.",
+     "image": "img/nl/settings-language.png"
+    },
+    {
+     "id": "units",
+     "title": "Eenheden",
+     "text": "Afstand, gewicht, volume, lengte, temperatuur en brandstofverbruik. Voorinstellingen: metrisch, imperiaal, gemengd — of handmatig aangepast.",
+     "image": ""
+    },
+    {
+     "id": "theme",
+     "title": "Thema",
+     "text": "Licht, donker of automatisch (op basis van het begin van de dag en de nacht). Voorinstellingen: Kraftpapier, Donker kraftpapier, Manilla, Bijna wit, Donker. U kunt ook een eigen thema maken.",
+     "image": "img/nl/settings-theme.png"
+    },
+    {
+     "id": "theme-custom",
+     "title": "Eigen thema",
+     "text": "Kleur van achtergrond, tekst, bovenbalk, kaarten, veldranden, bijschriften, knoppen en de pictogrammen voor tanken en parkeren. U kunt het thema opslaan, hernoemen en toewijzen aan de lichte of donkere modus.",
+     "image": ""
+    },
+    {
+     "id": "animations",
+     "title": "Animaties",
+     "text": "Bewegende scènes bij lossen en tanken. U kunt deze uitzetten.",
+     "image": ""
+    },
+    {
+     "id": "about",
+     "title": "Over",
+     "text": "Versie, website, Telegram, Facebook en de mogelijkheid om het project te steunen. Voorheen heette de app CargoLog — alleen de naam is veranderd.",
+     "image": ""
+    },
+    {
+     "id": "feedback",
+     "title": "Feedback",
+     "text": "Een fout melden, een suggestie doen of iets anders sturen. U kunt een schermafbeelding of foto toevoegen. Ook in het menu: „Controleren op updates” en „App beoordelen”.",
+     "image": ""
+    },
+    {
+     "id": "help",
+     "title": "Hulp",
+     "text": "„Hulp” is de inhoudsopgave van deze handleiding: algemene onderdelen en onderdelen per voertuigtype. Elk onderdeel opent direct hier, stap voor stap.",
+     "image": "img/nl/settings-help.png"
+    }
+   ]
+  },
+  {
+   "slug": "notifications",
+   "title": "Meldingen en herinneringen",
+   "intro": "De app houdt u op de hoogte van wat er nu loopt en wat er binnenkort aankomt.",
+   "steps": [
+    {
+     "id": "timers",
+     "title": "Timers",
+     "text": "Wachten, tanken en lossen lopen door wanneer de app op de achtergrond staat: de timer is zichtbaar in het meldingenpaneel. Tik op de melding om terug te gaan naar de app.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Vervaldatum documenten",
+     "text": "Meldingen over vervaldata van documenten komen van tevoren en op de vervaldag zelf.",
+     "image": ""
+    },
+    {
+     "id": "permissions",
+     "title": "Toestemmingen",
+     "text": "Zijn meldingen, camera of locatie uitgeschakeld, dan legt de app uit waar u deze kunt toestaan in de instellingen van uw telefoon.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics",
+   "title": "Diagnosekanaal",
+   "intro": "Het diagnosekanaal stuurt gegevens van uw telefoon naar de ontwikkelaar om storingen op echte gegevens te kunnen onderzoeken. Het staat uit zolang u het niet zelf aanzet.",
+   "steps": [
+    {
+     "id": "enroll",
+     "title": "Telefoon registreren",
+     "text": "Lees de toestemmingstekst en tik, als u akkoord gaat, op „Ik ga akkoord, registreer deze telefoon”. Met „Deze telefoon intrekken” zet u het kanaal uit en wist u het certificaat.",
+     "image": "img/nl/diagnostics-enroll.png"
+    },
+    {
+     "id": "channel-settings",
+     "title": "Wat wordt er verstuurd?",
+     "text": "Drie schakelaars: logboeken van de app-activiteit, ritdatabase en foto's van containernummers. Elke schakelaar staat uit totdat u hem aanzet, en u kunt ze op elk moment weer uitzetten. Zolang alle drie uit staan, wordt er niets verstuurd. De app leest uw fotogalerij niet.",
+     "image": ""
+    },
+    {
+     "id": "warning",
+     "title": "Waarschuwing",
+     "text": "Het openen van de serviceschermen begint met een waarschuwing. U kunt direct teruggaan met de knop „Haal me hier weg”.",
+     "image": ""
+    },
+    {
+     "id": "server",
+     "title": "Kanaalserver",
+     "text": "Verbindingsstatus: in de lucht, stil, geen netwerk, of de server neemt niets aan. Alles wat klaarstaat om te versturen, wacht op de telefoon — u hoeft niets te doen.",
+     "image": ""
+    },
+    {
+     "id": "import",
+     "title": "Kanaalbundel",
+     "text": "Voor bedrijfstelefoons kan een kanaalbundel worden geïnstalleerd met een .p12-bestand en een wachtwoord. Het wachtwoord wordt één keer gebruikt en nooit bewaard.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "service",
+   "title": "Serviceschermen",
+   "intro": "De serviceschermen zijn bedoeld voor het onderzoeken van storingen. U opent ze door zeven keer op het scherm „Over” te tikken. Voor uw normale werk hebt u ze niet nodig.",
+   "steps": [
+    {
+     "id": "hub",
+     "title": "Servicecentrum",
+     "text": "Informatie over de app en de telefoon, toegang tot de serviceschermen en het diagnosekanaal, en de animatiegalerij.",
+     "image": ""
+    },
+    {
+     "id": "database",
+     "title": "Database",
+     "text": "Status van de database en het volledig wissen van de app. Wissen verwijdert alles definitief — maak eerst een back-up.",
+     "image": ""
+    },
+    {
+     "id": "logs",
+     "title": "Logboeken",
+     "text": "Logboeken van de app-activiteit voor het onderzoeken van storingen.",
+     "image": ""
+    },
+    {
+     "id": "ocr",
+     "title": "Herkenning",
+     "text": "Diagnose van het lezen van nummers met de camera.",
+     "image": ""
+    },
+    {
+     "id": "system",
+     "title": "Systeem",
+     "text": "Informatie over de telefoon en over crashes.",
+     "image": ""
+    },
+    {
+     "id": "locale",
+     "title": "Taal en eerste start",
+     "text": "Controle van talen en het opnieuw doorlopen van de eerste start.",
+     "image": ""
+    },
+    {
+     "id": "dataset",
+     "title": "Camerabeelden",
+     "text": "Opnemen van beelden om de nummerherkenning te trainen — alleen met toestemming voor foto's.",
+     "image": ""
+    },
+    {
+     "id": "splash-tuner",
+     "title": "Opstartscherm",
+     "text": "Instellen van het opstartscherm bij het openen van de app.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "flatbed",
+   "title": "Platform",
+   "intro": "Een platform vervoert stukgoed en buitenmaatse lading.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In het wagenpark",
+     "text": "Kies het carrosserietype „Platform” en voer de lengte van de oplegger in.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Tijdens de rit",
+     "text": "Ladingtypes: stukgoed (pallets, gewicht, omschrijving), buitenmaats (lengte, breedte, hoogte, gewicht), container op een platform. Bij buitenmaatse lading vraagt de stap „Ladinggegevens” om de afmetingen.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Lossen",
+     "text": "Pallets worden per stop afgeleverd op aantal of op percentage.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "container",
+   "title": "Container",
+   "intro": "Een containerchassis vervoert 20-, 40- en 45-voets containers, één of twee tegelijk.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In het wagenpark",
+     "text": "Carrosserietype „Container”; kies het containerformaat waarvoor de aanhanger geschikt is.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Tijdens de rit",
+     "text": "Reeks vragen: leeg of beladen, formaat, hoeveel containers, type (Standaard, Reefer, Flat Rack, Open Top, Tank). Containernummer en zegelnummer scant u met de camera. Voor een Reefer vult u ook het venta-zegelnummer en de temperatuur in.",
+     "image": ""
+    },
+    {
+     "id": "fate",
+     "title": "Na het lossen",
+     "text": "De app vraagt wat er met de container gebeurt: blijft bij de klant, blijft op de truck, gaat naar een andere klant of wordt ingeleverd bij een haven of depot.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "sidelifter",
+   "title": "Sidelifter",
+   "intro": "Een sidelifter laadt en lost zelf de container.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In het wagenpark",
+     "text": "Het carrosserietype „Sidelifter” is alleen beschikbaar bij een oplegger.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Tijdens de rit",
+     "text": "U voert de container op dezelfde manier in als bij een gewone containerwagen; werken met de kraan vinkt u aan op het ritoverzicht.",
+     "image": ""
+    },
+    {
+     "id": "exchange",
+     "title": "Wissel",
+     "text": "Een sidelifter wisselt op een adres vaak containers uit — gebruik hiervoor „Containerwissel”.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "refrigerated",
+   "title": "Koeltrailer",
+   "intro": "Een koeltrailer vervoert temperatuurgeregelde lading.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In het wagenpark",
+     "text": "Carrosserietype „Koeltrailer”; vink de generator (genset) aan als die aanwezig is, en vul de tank van het aggregaat en de kritieke reserve in.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Tijdens de rit",
+     "text": "Temperatuurgeregeld: geregeld of ongekoeld, en de temperatuur van de lading. Op het rijscherm staat de schakelaar „Aggregaat draait”.",
+     "image": ""
+    },
+    {
+     "id": "fuel",
+     "title": "Brandstof van het aggregaat",
+     "text": "De diesel voor het aggregaat vult u bij het tanken in een apart veld in; de app telt de draaiuren en berekent het verbruik in liter per uur, en toont „≈ N u tot reserve”.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "curtainsider",
+   "title": "Huifoplegger",
+   "intro": "Een huifoplegger vervoert stukgoed op pallets.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In het wagenpark",
+     "text": "Carrosserietype „Huifoplegger”.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Tijdens de rit",
+     "text": "Stukgoed: aantal pallets, totaalgewicht en omschrijving.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Lossen",
+     "text": "Geef bij elke stop aan hoeveel pallets er zijn gelost; de app onthoudt wat er nog aan boord staat.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tipper",
+   "title": "Kipper",
+   "intro": "Een kipper vervoert stortgoed.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In het wagenpark",
+     "text": "Carrosserietype „Kipper”.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Tijdens de rit",
+     "text": "Stortgoed: volume in kubieke meter, nettogewicht en brutogewicht, omschrijving.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Lossen",
+     "text": "Het lossen wordt vastgelegd met de tijd; de timer voor laadwerkzaamheden laat zien hoe lang het heeft geduurd.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fuel-tanker",
+   "title": "Tankwagen (brandstof)",
+   "intro": "Een brandstoftankwagen vervoert brandstof verdeeld over secties.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In het wagenpark",
+     "text": "Carrosserietype „Tankwagen”; aantal secties en het volume van elke sectie in liters.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Tijdens de rit",
+     "text": "Bij de ladingdetails vult u het volume per sectie in.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Lossen",
+     "text": "Vink bij een stop de geloste secties aan. Zijn er bij het beëindigen van de rit nog onafgeronde secties over, dan vraagt de app om bevestiging.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tanker",
+   "title": "Tankwagen (vloeistoffen)",
+   "intro": "Een tankwagen vervoert vloeibare lading.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In het wagenpark",
+     "text": "Carrosserietype „Tankwagen”; secties en volumes.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Tijdens de rit",
+     "text": "Vloeistofcategorie: chemicaliën, voedsel, afval; temperatuurgeregeld; ADR met UN-nummers voor gevaarlijke stoffen.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Lossen",
+     "text": "De secties worden per stop op dezelfde manier afgeleverd als bij een brandstoftankwagen.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "car-transporter",
+   "title": "Autotransporter",
+   "intro": "Een autotransporter vervoert personenauto's.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In het wagenpark",
+     "text": "Carrosserietype „Autotransporter”; aantal autoplaatsen.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Tijdens de rit",
+     "text": "U voert voertuigen in op VIN (17 tekens, geen I, O, Q) of op kenteken; het VIN kunt u scannen met de camera. De teller laat zien hoeveel auto's er geladen zijn.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Lossen",
+     "text": "Geef bij elke stop aan welke voertuigen zijn gelost en welke zijn geladen. Staan er bij het beëindigen van de rit nog voertuigen aan boord, dan vraagt de app om bevestiging.",
+     "image": ""
+    }
+   ]
+  }
+ ],
+ "screens": {
+  "getting-started.welcome": "Eerste start: naam, trekker, aanhanger en toestemmingen. Hebt u een back-up, dan kunt u het hele rittenboek herstellen.",
+  "getting-started.onboarding": "Beantwoord de vragen over uzelf en uw voertuig. Alles is later aan te passen in de instellingen en in het wagenpark.",
+  "getting-started.main-screen": "Het hoofdscherm laat zien waar u nu bent in uw werk en leidt naar de volgende stap: dienst, rit, lossen.",
+  "getting-started.menu": "App-menu: wagenpark, historie, rapporten, tankbeurten, onderhoud, documenten, adressen, hulp en instellingen.",
+  "shift.shift-welcome": "Start van de dienst: locatie, wachten op een rit en de knop „Rit starten”.",
+  "shift.shift-status": "Of de dienst open is, vanaf welke tijd en hoeveel ritten erin zitten.",
+  "trip.origin": "Klant en adres van vertrek of bestemming. Een nieuwe klant komt vanzelf in het adresboek.",
+  "trip.cargo-type": "Wat u vervoert. De lijst hangt af van de carrosserie van uw trekker en aanhanger.",
+  "trip.cargo-details": "Ladingdetails: containernummers en zegelnummers, secties, voertuigen, pallets. Nummers kunt u scannen met de camera.",
+  "trip.load-details": "Afmetingen, gewicht en omschrijving van de lading.",
+  "trip.trip-times": "Bewerken van tijden, adressen en kilometerstanden van een al opgeslagen rit.",
+  "trip.confirm": "Ritoverzicht. Controleer alles en tik op „Op weg” — pas dan wordt de rit opgeslagen.",
+  "trip.arrival": "U bent op de bestemming: aankomst, begin en einde van het lossen of laden.",
+  "trip.unload": "Wat er bij deze stop is afgeleverd: secties, percentage, pallets of voertuigen.",
+  "trip.cargo-fate": "Wat er na het lossen verder met de container gebeurt.",
+  "trip.summary": "Ritoverzicht: volgende stop, rit beëindigen of een nieuwe rit starten.",
+  "driving.driving": "Rit onderweg: aankomst, tanken, parkeren. Onder het voertuig staat de geschatte afstand of tijd tot de brandstofreserve.",
+  "driving.odometer": "Kilometerstand. De app vult de verwachte waarde in en controleert het getal; scannen met de camera kan ook.",
+  "driving.swap-trailer": "Onderweg van aanhanger wisselen: kies een aanhanger uit het wagenpark.",
+  "refuel.refuel-timer": "Bezig met tanken: timer loopt. Daarna vult u de liters in.",
+  "refuel.refuel-data": "Liters diesel, AdBlue en diesel voor het aggregaat van de oplegger, plus kilometerstand. Wordt als één registratie opgeslagen.",
+  "refuel.refuel-history": "Alle tankbeurten over een periode, gemiddeld verbruik en PDF-rapport.",
+  "parking.parking-stop": "Parkeeradres: handmatig, uit opgeslagen plekken of via GPS.",
+  "parking.places": "Eigen locaties: parkeerplaatsen, havens, depots. Te kiezen bij parkeren en bij het inleveren van een container.",
+  "parking.place-form": "Naam, notitie en coördinaat van de locatie; openen in navigatie.",
+  "camera.scan": "Richt op het nummer in het kader. Knijp het kader strak om het nummer; tik buiten het kader voor een foto.",
+  "camera.container-exchange": "Containerwissel met een andere chauffeur: wat is gelost en wat is geladen.",
+  "camera.photos": "Foto's van ritdocumenten op het volledige scherm.",
+  "history.history": "Alle diensten en ritten: zoeken, details bekijken, bewerken en verwijderen.",
+  "report.report": "Periodetotalen en PDF-rapport.",
+  "garage.garage": "Uw trucks en aanhangers. Tik op een voertuig om het beheer te openen.",
+  "garage.truck-form": "Kenteken, type en carrosserie van de truck; kraan of manipulator.",
+  "garage.trailer-form": "Kenteken, koppeling en carrosserie van de aanhanger; secties, autoplaatsen, generator.",
+  "garage.vehicle-hub": "Alles over het voertuig: documenten, onderhoud, keuring, assen en banden, kentekenplaat en lak.",
+  "garage.vehicle-settings": "Kilometerstand, onderhoudsintervallen, assen, tankinhoud en kritieke reserve.",
+  "garage.plate-colors": "Kleuren van de kentekenplaat, zoals op het voertuig.",
+  "garage.rig-paint": "Kleuren van cabine, kraan en opbouw op de tekening van het voertuig.",
+  "garage.tyres": "Assenschema en bandengeschiedenis: wissels, lekke banden en omwisselen.",
+  "documents.overview": "Alle documenten van voertuigen en chauffeur met hun vervaldata.",
+  "documents.list": "Documenten van dit voertuig. Tik op „+” om toe te voegen.",
+  "documents.form": "Type, naam en vervaldatum van het document.",
+  "documents.pages": "Foto's van de documentpagina's.",
+  "maintenance.maintenance": "Afstand of dagen tot het volgende onderhoud en alle onderhoudsregistraties.",
+  "maintenance.new-record": "Nieuwe onderhoudsregistratie: kilometerstand, datum, werkzaamheden, foto's.",
+  "address-book.book": "Klanten en eigen locaties.",
+  "address-book.clients": "Klantenlijst: toevoegen, verbergen, verwijderen.",
+  "address-book.client": "Naam, notitie en adressen van de klant.",
+  "address-book.add-address": "Adres, coördinaat, navigatie en rode markering.",
+  "backup.backup": "Bestand met het hele rittenboek: opslaan, delen of herstellen.",
+  "online.device-link": "Telefoon verbinden met het programma online: via QR-code of schermcode.",
+  "settings.settings": "Alle instellingen per groep.",
+  "settings.profile": "Naam en documenten van de chauffeur.",
+  "settings.language": "App-taal, taal van GPS-adressen en datumnotatie.",
+  "settings.theme": "Licht, donker of automatisch; voorinstellingen en eigen thema's.",
+  "settings.theme-custom": "Kleuren van uw eigen thema.",
+  "settings.about": "App-versie en contact met de ontwikkelaar.",
+  "settings.feedback": "Een fout melden of een suggestie sturen.",
+  "settings.help": "Handleiding van de app per onderdeel.",
+  "diagnostics.enroll": "Toestemming en registratie van de telefoon voor het diagnosekanaal.",
+  "diagnostics.warning": "Toegang tot het servicegedeelte van de app.",
+  "diagnostics.channel-settings": "Wat de telefoon naar de ontwikkelaar stuurt: drie afzonderlijke toestemmingen.",
+  "diagnostics.server": "Verbindingsstatus van het diagnosekanaal.",
+  "diagnostics.import": "Kanaalbundel installeren met een .p12-bestand.",
+  "service.hub": "Servicecentrum: gegevens en serviceschermen.",
+  "service.database": "Databasestatus en volledig wissen van de app.",
+  "service.logs": "Logboeken van de app-activiteit.",
+  "service.ocr": "Diagnose van de nummerherkenning.",
+  "service.system": "Informatie over de telefoon en crashes.",
+  "service.locale": "Talen controleren en de eerste start opnieuw doorlopen.",
+  "service.dataset": "Camerabeelden opnemen voor herkenning.",
+  "service.splash-tuner": "Opstartscherm instellen."
+ }
+}

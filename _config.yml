@@ -1,6 +1,0 @@
-# help.vecturabook.com — мануал VecturaBook. Источник — Help.git на NAS; GitHub Pages только раздаёт.
-title: VecturaBook Help
-url: https://help.vecturabook.com
-permalink: /:path/:basename
-markdown: kramdown
-exclude: [README.md, tools]

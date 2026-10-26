@@ -1,0 +1,978 @@
+{
+ "format": 1,
+ "language": "et",
+ "revision": "2026-10-26",
+ "sections": [
+  {
+   "slug": "getting-started",
+   "title": "Esimesed sammud",
+   "intro": "VecturaBook on juhi sõidupäevik: vahetused, reisid, tankimised, peatused, dokumendid ja tehnika ühes telefonis. Kõik hoitakse telefonis ja töötab ilma internetita.",
+   "steps": [
+    {
+     "id": "welcome",
+     "title": "Esimene käivitus",
+     "text": "Esimesel käivitusel küsib rakendus mõne küsimuse — neli lühikest sammu. Need saab läbida minutiga ning kõiki vastuseid saab hiljem seadetes ja garaažis muuta.\n\nKui teil on juba olemas VecturaBooki varukoopia (näiteks eelmisest telefonist), vajutage esimesel sammul „Taasta varukoopiast“: päevik taastatakse tervikuna ja küsimusi pole vaja.",
+     "image": "img/et/getting-started-welcome.png"
+    },
+    {
+     "id": "onboarding",
+     "title": "Nimi, veok, haagis, load",
+     "text": "Samm 1 — nimi. See trükitakse aruannetesse. Võib jätta tühjaks ja sisestada hiljem.\n\nSamm 2 — sadulveok või veoauto: numbrimärk, tüüp ja kere. Tüüp ja kere valitakse piltide järgi küsimuste ahelana: iga vastuse järel näitab rakendus järgmist küsimust.\n\nSamm 3 — haagis. Selle võib nupuga „Jäta haagis vahele“ vahele jätta ja lisada hiljem garaažis.\n\nSamm 4 — load: kaamera (konteinerite numbrid, plommid, odomeeter), asukoht (linn vahetuse alguses, ainult siis, kui seda küsite) ja teavitused (ootamise, tankimise ja mahalaadimise taimerid). Igast loast võib keelduda — rakendus töötab ikka, lihtsalt ilma selle võimaluseta.",
+     "image": "img/et/getting-started-onboarding.png"
+    },
+    {
+     "id": "main-screen",
+     "title": "Avakuva",
+     "text": "Avakuva näitab, kus te oma tööjärjega parajasti olete: vahetus pole alanud, vahetus käib, reis on teel, olete mahalaadimiskohas ja nii edasi. Ekraanil olevad nupud viivad alati järgmise sammuni, nii et midagi ei saa vahele jääda.\n\nÜleval on riba, mille vasakul pool on menüünupp ja paremal nupp „?“. Nupp „?“ on igal ekraanil: see selgitab ekraani lühidalt ja avab nupuga „Rohkem“ selle juhendi vastava osa.",
+     "image": "img/et/getting-started-main-screen.png"
+    },
+    {
+     "id": "menu",
+     "title": "Menüü",
+     "text": "Kolme kriipsuga nupp avab paanidega menüü: Garaaž, Reiside ajalugu, Aruanne, Tankimispäevik, Hooldus, Sõiduki dokumendid, Aadressiraamat, Abi. All on Seaded.\n\nIgal teisel ekraanil on menüünupu asemel nool „tagasi“.",
+     "image": "img/et/getting-started-menu.png"
+    },
+    {
+     "id": "help-offline",
+     "title": "Abi ilma internetita",
+     "text": "Rakendus laadib selle juhendi tekstid oma keeles alla ja hoiab neid telefonis, mistõttu „?“ ja „Abi“ töötavad teel olles ka ilma võrguta. Kord ööpäevas kontrollib rakendus interneti olemasolul vaikselt, kas on midagi uut.\n\nKui abi pole veel kordagi alla laaditud, palub rakendus luua internetiühenduse.",
+     "image": "img/et/getting-started-help-offline.png"
+    }
+   ]
+  },
+  {
+   "slug": "shift",
+   "title": "Vahetus",
+   "intro": "Vahetus on tööpäev algusest lõpuni. Vahetuse sees toimuvad reisid, tankimised ja peatused; vahetuse kokkuvõte läheb ajalukku ja aruannetesse.",
+   "steps": [
+    {
+     "id": "shift-welcome",
+     "title": "Alusta vahetus",
+     "text": "Vajutage „Alusta vahetus“. Rakendus tervitab teid ja näitab asukohta: linn tuvastatakse asukoha järgi, kui olete selle lubanud, muidu puudutage nööpnõelaga rida ja sisestage koht ise.\n\nKui reisi veel pole, vajutage „Ootan reisi“ — käivitub ootetaimer. „Lõpeta ootamine“ peatab selle. Ootamine enne reisi läheb ajalukku ja aruandesse.\n\nKui reis on olemas, vajutage „Alusta reisi“.",
+     "image": "img/et/shift-shift-welcome.png"
+    },
+    {
+     "id": "shift-status",
+     "title": "Vahetuse olek",
+     "text": "Ekraan „Vahetus“ näitab, kas vahetus on avatud, millal see avati ja mitu reisi selles on. „Jätka vahetust“ viib tagasi töö juurde.\n\nVahetust ei saa sulgeda enne, kui reis on lõpetatud: lõpetage esmalt reis.",
+     "image": "img/et/shift-shift-status.png"
+    },
+    {
+     "id": "end-shift",
+     "title": "Lõpeta vahetus",
+     "text": "Punane nupp „Lõpeta vahetus“ on rakenduse ainus punane nupp. Rakendus küsib üle ja palub sisestada lõppodomeetri näidu. Arvu kontrollitakse: kui see on eelmisest väiksem või oodatust palju suurem, näitab rakendus viimast teadaolevat näitu ning palub selle kinnitada või parandada.",
+     "image": ""
+    },
+    {
+     "id": "forgotten-shift",
+     "title": "Unustatud vahetus",
+     "text": "Kui vahetus on avatud üle ööpäeva, pakub rakendus selle sulgemist viimase sündmuse ajaga — nii ei paisu tööaeg aruandes liiga suureks. Võite nõustuda või vahetust jätkata.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "trip",
+   "title": "Reis: laadimisest mahalaadimiseni",
+   "intro": "Reis pannakse kirja samm-sammult: kust ja kuhu, mida veate, lasti andmed, kokkuvõte — ja „Teele“. Sihtkohas — saabumine, mahalaadimine või laadimine, kokkuvõte. Kuni te pole vajutanud „Teele“, ei salvestata päevikusse midagi: igal sammul saab nupuga „Tagasi“ naasta ja sisestatu ei lähe kaotsi.",
+   "steps": [
+    {
+     "id": "origin",
+     "title": "Klient ja marsruut",
+     "text": "Valige klient: hakake nime sisestama ja rakendus pakub vasteid aadressiraamatust. Uue kliendi puhul piisab nime sisestamisest: ta lisatakse raamatusse automaatselt.\n\nKliendil võib olla mitu aadressi — valige sobiv või lisage uus. GPS-ikoon täidab aadressi praeguse asukoha järgi. Juhi märkmed kliendi kohta on näha siinsamas.",
+     "image": "img/et/trip-origin.png"
+    },
+    {
+     "id": "cargo-type",
+     "title": "Mida veate",
+     "text": "Lasti tüüp valitakse paanidelt: konteiner, tükikaup, gabariidiväline, külmvedu, kütus, puistlast, sõidukid, tühi. Valik sõltub veoki ja haagise keretüübist.\n\nKui muudate lasti tüüpi pärast andmete sisestamist, hoiatab rakendus, et sisestatu kustutatakse, ja küsib kinnitust.",
+     "image": "img/et/trip-cargo-type.png"
+    },
+    {
+     "id": "cargo-details",
+     "title": "Lasti andmed",
+     "text": "Andmed sõltuvad lasti tüübist. Konteineri puhul — tühi või laaditud, suurus, mitu konteinerit, tüüp, konteineri ja plommi number. Numbreid saab pildistada kaameraga. Paakauto puhul — sektsioonid ja mahud, autoveo puhul — sõidukid VIN-koodi või numbrimärgi järgi, tükikauba puhul — alused ja kaal.\n\nKui reis ei vaja lasti andmeid (näiteks tühisõit), vajutage lihtsalt „Edasi“.\n\nLüliti ADR avab ohtliku veose UN-numbrite väljad.",
+     "image": "img/et/trip-cargo-details.png"
+    },
+    {
+     "id": "load-details",
+     "title": "Lasti mõõtmed",
+     "text": "Gabariidivälise veose ja platvormil oleva konteineri puhul — pikkus, laius, kõrgus, kaal ja kirjeldus. Mõõtmed on seadetes valitud ühikutes.",
+     "image": "img/et/trip-load-details.png"
+    },
+    {
+     "id": "trip-times",
+     "title": "Reisi kellaajad ja punktid",
+     "text": "See ekraan ilmub ainult ajaloost võetud, juba salvestatud reisi muutmisel. Siin saab muuta alguse, saabumise, laadimistööde alguse ja lõpu kellaaega ning punktide aadresse ja odomeetri näite.\n\nKellaaeg, mida reisil polnud, kuvatakse sidekriipsuga ja seda muuta ei saa: muutmine ei lisa reisile seda, mida seal ei olnud.",
+     "image": ""
+    },
+    {
+     "id": "confirm",
+     "title": "Reisi kokkuvõte",
+     "text": "Kokkuvõte näitab kogu reisi ühel ekraanil. Siinsamas on ka märked: magamine kabiinis, sõjaväemissioon, ohtlik tsoon, temperatuuriga juhitud, töö kraanaga (kui veokil on kraana).\n\n„Muuda“ viib tagasi sammude juurde. Roheline nupp „Teele“ salvestab reisi ja käivitab selle. Kui telefonis on navigaator, pakub rakendus aadressi avamist selles.",
+     "image": "img/et/trip-confirm.png"
+    },
+    {
+     "id": "arrival",
+     "title": "Saabumine",
+     "text": "Kohapeal vajutage „Kohal“. Rakendus jätab kellaaja meelde ja pakub odomeetri näitu.\n\n„Alusta mahalaadimist/laadimist“ käivitab laadimistööde taimeri, „Lõpeta mahalaadimine/laadimine“ peatab selle. Kui midagi ei õnnestunud salvestada (näiteks telefon jooksis kokku), annab rakendus sellest teada ja palub uuesti vajutada — päevikusse ei lähe midagi poolikult.",
+     "image": "img/et/trip-arrival.png"
+    },
+    {
+     "id": "unload",
+     "title": "Mahalaadimine sellel peatusel",
+     "text": "Kui kaup antakse üle osade kaupa, märkige, mis sellel peatusel maha laaditi: paakauto sektsioonid, konteineri protsent, alused, konkreetsed sõidukid. Rakendus mäletab, kui palju on veel koormas, ega lase maha laadida rohkem, kui peal on.",
+     "image": ""
+    },
+    {
+     "id": "cargo-fate",
+     "title": "Mis konteineriga juhtus",
+     "text": "Pärast mahalaadimist küsib rakendus, mis konteinerist edasi saab: jäi siia, jäi autole, läheb teise kliendi juurde, tagastatakse kohta (sadam, depoo) või teisele aadressile. Vastus määrab reisi järgmise sammu.",
+     "image": "img/et/trip-cargo-fate.png"
+    },
+    {
+     "id": "summary",
+     "title": "Reisi kokkuvõte",
+     "text": "Pärast peatust — „Jätka reisi“ (sama reisi järgmine peatus), „Lõpeta reis“ või „Uus reis“.\n\n„Täida järgmine reis ette“ võimaldab mahalaadimise ajal järgmise reisi andmed — kliendi, lasti ja numbrid — ette ära täita. Hiljem käivitab „Lõpeta ja sõida“ selle kohe.",
+     "image": "img/et/trip-summary.png"
+    }
+   ]
+  },
+  {
+   "slug": "driving",
+   "title": "Sõiduekraan",
+   "intro": "Kui reis on teel, on avakuvaks „Käimas“: reisi sõiduk, veoki ja haagise numbrimärgid, sõiduaeg ja järgmiste toimingute nupud.",
+   "steps": [
+    {
+     "id": "driving",
+     "title": "Käimas",
+     "text": "Ekraani nupud: „Kohal“ (olete sihtkohas), „Tankimine“, „Parkimine / peatus“. Nuppude kohal on teie sõiduki joonis koos numbrimärkidega; joonis pannakse kokku garaaži sisestatud andmete põhjal: tüüp, kere, teljed, värvid.\n\nKui garaažis on märgitud paagi maht ja teie kriitiline varu, näeb sõiduki all, kui palju on ligikaudu jäänud reservini: „≈ N km varuni“ veoki diisli järgi ja „≈ N h varuni“ haagise agregaadi (külmik, generaator) järgi. Arvutus põhineb teie tankimistel ja läbisõidul, seega kohe pärast esimest tankimist ei pruugi seda veel näha olla.",
+     "image": "img/et/driving-driving.png"
+    },
+    {
+     "id": "swap-trailer",
+     "title": "Vaheta haagis",
+     "text": "Haagise vahetamine teel olles — „Vaheta haagis“. Aknas on näha garaažis olevad haagised: haagise joonis ja selle all numbrimärk. Valige uus — vahetus salvestatakse reisi juurde. Veokiga mittesobivaid haagiseid nimekirjas ei pakuta.",
+     "image": "img/et/driving-swap-trailer.png"
+    },
+    {
+     "id": "odometer",
+     "title": "Odomeeter",
+     "text": "Rakendus pakub eeldatava näidu: veoki, pealelaadimise, eelmise mahalaadimise või tankimise järgi. Kontrollige see üle ja vajadusel parandage. Odomeetri näitu saab pildistada kaameraga.\n\nKui arv on eelmisest väiksem, oodatust palju suurem või te ei muutnud seda, näitab rakendus viimast teadaolevat näitu ja küsib, kas kõik on õige. Odomeetri muutmine varasemas reisis näitab, milliseid teisi kirjeid see veel mõjutab.",
+     "image": "img/et/driving-odometer.png"
+    }
+   ]
+  },
+  {
+   "slug": "refuel",
+   "title": "Tankimine, AdBlue, agregaat",
+   "intro": "Tankimisi on vaja kütusekulu arvutamiseks, aruanneteks ja vihjeks „varuni“.",
+   "steps": [
+    {
+     "id": "refuel-timer",
+     "title": "Tankimise taimer",
+     "text": "„Tankimine“ sõiduekraanil käivitab taimeri — tankimise aeg läheb päevikusse. „Lõpeta tankimine“ peatab taimeri ja avab liitrite sisestamise. Taimer töötab ka teavitusribal, kui rakendus on taustal.",
+     "image": "img/et/refuel-refuel-timer.png"
+    },
+    {
+     "id": "refuel-data",
+     "title": "Liitrid ja odomeeter",
+     "text": "Sisestage diisel liitrites, vajadusel ka AdBlue ja haagise agregaadi (külmik, generaator) diisel. Odomeetri näit on eeltäidetud; seda saab ka kaameraga pildistada. „Salvesta tankimine“ salvestab kõik ühe kirjena.",
+     "image": "img/et/refuel-refuel-data.png"
+    },
+    {
+     "id": "unit",
+     "title": "Haagise agregaat",
+     "text": "Kui haagisel on generaator, märkige see haagise seadetes. Siis ilmub sõiduekraanile lüliti „Agregaat töötab“, rakendus arvestab agregaadi töötunde ja kulu liitrites tunni kohta ning tankimisel ilmub agregaadi diisli väli.",
+     "image": ""
+    },
+    {
+     "id": "refuel-history",
+     "title": "Tankimispäevik",
+     "text": "Päevik näitab kõiki tankimisi nädala, kuu, kogu aja või valitud perioodi kohta: kütus kokku, tankimiste arv ja keskmine kulu. AdBlue osakaal diislist ja agregaadi kulu arvutatakse eraldi.\n\n„Loo PDF-aruanne“ koostab tankimiste aruande, mida saab edasi saata. Tankimist saab ka kustutada.",
+     "image": "img/et/refuel-refuel-history.png"
+    }
+   ]
+  },
+  {
+   "slug": "parking",
+   "title": "Parkimine ja puhkus",
+   "intro": "Parkimine on peatus teel: puhkus, ööbimine, ootamine. See salvestatakse reisi juurde oma aadressi ja kellaajaga.",
+   "steps": [
+    {
+     "id": "parking-stop",
+     "title": "Parkimine / peatus",
+     "text": "Vajutage sõiduekraanil „Parkimine / peatus“. Aadressi saab sisestada käsitsi, valida salvestatud kohtadest või puudutada GPS-ikooni. Kui aadressi ei õnnestunud tuvastada, sisestab rakendus koordinaadid — neid saab muuta.\n\nKabiinis veedetud ööd arvestatakse ajaloos ja aruandes.",
+     "image": "img/et/parking-parking-stop.png"
+    },
+    {
+     "id": "places",
+     "title": "Kohad",
+     "text": "Kohad on teie enda punktid, mis ei ole seotud klientidega: parklad, sadamad, depood, tanklad. Nimekirjast saab otsida nime järgi. Kohti saab valida parkimisel ja konteineri tagastamisel.",
+     "image": ""
+    },
+    {
+     "id": "place-form",
+     "title": "Koht",
+     "text": "Nimi, märkus ja koordinaat. Koordinaadi saab salvestada praeguse asukoha järgi, üle kirjutada või kustutada. Nupud „Ava navigaatoris“ ja „Saada“ edastavad punkti navigaatorisse või sõnumisse.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "camera",
+   "title": "Kaamera: konteinerid ja plommid",
+   "intro": "Kaamera loeb konteinerite ja plommide numbreid, VIN-koode ning odomeetri näite, et neid ei peaks käsitsi sisestama.",
+   "steps": [
+    {
+     "id": "scan",
+     "title": "Kaamera raam",
+     "text": "Suunake number raami sisse. Suruge raam kahe sõrmega tihedalt numbri ümber — nii loetakse seda paremini. „Pööra raami“ on mõeldud püstiselt kirjutatud numbrite jaoks. Puudutus väljaspool raami teeb pildi.",
+     "image": ""
+    },
+    {
+     "id": "container-number",
+     "title": "Konteineri number",
+     "text": "Konteineri number koosneb 4 tähest ja 7 numbrist. Rakendus kontrollib kontrollnumbrit; kui see ei klapi, salvestatakse number märkega „Number pole valideeritud“ — kontrollige see silmaga üle.",
+     "image": ""
+    },
+    {
+     "id": "seal",
+     "title": "Plomm",
+     "text": "Plommi number loetakse tekstilt. Kui plommil on vöötkood ja see ei lange kokku trükitud numbriga, võtab rakendus trükitud numbri: vöötkood võib olla teisest seeriast.",
+     "image": ""
+    },
+    {
+     "id": "container-exchange",
+     "title": "Konteinerite vahetus",
+     "text": "Kui annate sihtkohas konteineri teisele juhile ja võtate vastu tema konteineri, pange vahetus kirja: milline konteiner laaditi maha, milline laaditi peale, juhi nimi ja tema veoki numbrimärk.",
+     "image": ""
+    },
+    {
+     "id": "photos",
+     "title": "Fotod",
+     "text": "Reisi juurde saab lisada peale- ja mahalaadimise dokumentide fotosid: „Dokumentide foto“. „VAATA FOTOSID“ avab need täisekraanil.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "history",
+   "title": "Reiside ajalugu ja muutmine",
+   "intro": "Ajalugu sisaldab kõiki vahetusi ja reise. Siin saab neid vaadata, otsida, muuta ja kustutada.",
+   "steps": [
+    {
+     "id": "history",
+     "title": "Ajalugu",
+     "text": "Reisid on rühmitatud vahetuste kaupa: vahetuse algus ja lõpp, kestus, läbisõit, reiside arv. Puudutage reisi, et avada üksikasjad: klient, last, punktid, odomeetri näidud, ootamine, fotod. Otsida saab kliendi, konteineri ja marsruudi järgi. „Kõik reisid“ näitab neid ühe nimekirjana.",
+     "image": "img/et/history-history.png"
+    },
+    {
+     "id": "edit",
+     "title": "Muuda reisi",
+     "text": "„Muuda“ avab samad sammud, mis reisi loomisel, ning lisaks kellaaegade ja punktide ekraani. Muudatused kogutakse kokku ja salvestatakse alles kokkuvõtte ekraanil.\n\nKui odomeetri muutmine puudutab teisi kirjeid (järgmine reis, veoki näit, vahetuse läbisõit), näitab rakendus neid enne kinnitamist.",
+     "image": ""
+    },
+    {
+     "id": "delete",
+     "title": "Kustutamine",
+     "text": "Üksik reis kustutatakse prügikasti nupuga, mitu reisi valikurežiimis. Aktiivset reisi kustutada ei saa — lõpetage see kõigepealt. Kui telefon on ühendatud võrguprogrammiga, jõuab kustutamine ka teistesse seadmetesse.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "report",
+   "title": "Aruanne ja PDF",
+   "intro": "Aruanne arvutab perioodi töö: reisid, läbisõidu, tööaja, ooteaja, kütuse ja kütusekulu.",
+   "steps": [
+    {
+     "id": "report",
+     "title": "Perioodi aruanne",
+     "text": "Valige periood: täna, nädal, kuu või oma kuupäevad. Kaardid näitavad kokkuvõtet. „Ekspordi aruanne“ loob PDF-faili vahetuste, reiside, punktide ja tankimistega; seda saab saata või printida.",
+     "image": "img/et/report-report.png"
+    },
+    {
+     "id": "pdf",
+     "title": "Mis on PDF-is",
+     "text": "PDF-is on iga vahetuse kohta algus ja lõpp, veok ja haagis, reisid koos klientide, lasti, mahalaadimis- ja ooteaegade ning odomeetri näitudega, samuti tankimised. Lõpus on perioodi kokkuvõte: vahetused, reisid, tankimised, läbisõit, aeg, kütus, keskmine läbisõit vahetuse kohta ja keskmine kulu.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "garage",
+   "title": "Autopark: sadulveokid ja haagised",
+   "intro": "Garaaž hoiab teie tehnikat. Sealt võetakse sõidukite joonised, numbrimärgid, haagiste ühilduvus, läbisõidud ja kõik sõiduki seadistused.",
+   "steps": [
+    {
+     "id": "garage",
+     "title": "Garaaž",
+     "text": "Kaks vahekaarti: Veokid ja Haagised. Aktiivne sõiduk on esile tõstetud. „+ Lisa veok“ ja „+ Lisa haagis“ lisavad uue. Sõidukil puudutamine avab selle haldamise.\n\nKui reis on käimas, ei saa tehnikat vahetada — lõpetage esmalt reis (haagist saab teel olles vahetada nupuga „Vaheta haagis“).",
+     "image": "img/et/garage-garage.png"
+    },
+    {
+     "id": "truck-form",
+     "title": "Veok",
+     "text": "Numbrimärk, tüüp (sadulveok või veoauto) ja kere valitakse piltidega küsimuste ahelana; samuti see, kas peal on kraana või manipulaator. Kahte sama numbrimärgiga sõidukit garaažis olla ei saa.",
+     "image": ""
+    },
+    {
+     "id": "trailer-form",
+     "title": "Haagis",
+     "text": "Numbrimärk, haakeseadme tüüp (poolhaagis või täishaagis) ja kere. Paakauto puhul sektsioonide arv ja iga sektsiooni maht, autoveotreileri puhul autokohtade arv, külmiku puhul see, kas generaator on paigaldatud.",
+     "image": ""
+    },
+    {
+     "id": "vehicle-hub",
+     "title": "Sõiduki haldamine",
+     "text": "Sõiduki ekraan koondab kõik selle andmed: registreerimine, dokumendid, hooldus, ülevaatus, teljed ja rehvid, numbrimärk, värv. „Määra aktiivseks“ valib sõiduki tööks.",
+     "image": "img/et/garage-vehicle-hub.png"
+    },
+    {
+     "id": "vehicle-settings",
+     "title": "Sõiduki seaded",
+     "text": "Praegune odomeetri näit, hoolduse intervall (kilomeetrid, kuud, hoiatuse läved), hoolduse lähtepunkt, teljed, paagi maht ja oma kriitiline varu (vihje „varuni“ jaoks). Agregaadiga haagisel ka agregaadi paak ja selle kriitiline varu.",
+     "image": "img/et/garage-vehicle-settings.png"
+    },
+    {
+     "id": "plate-colors",
+     "title": "Numbrimärk",
+     "text": "Numbrimärgi taustavärv ja numbri värv — täpselt nagu teie sõidukil. Kui värvikombinatsiooni on raske lugeda, kuvatakse number mustana või valgena.",
+     "image": "img/et/garage-plate-colors.png"
+    },
+    {
+     "id": "rig-paint",
+     "title": "Värv",
+     "text": "Kabiini, kraana ja kere värv sõiduki joonisel. „Nagu joonisel“ taastab esialgse värvi.",
+     "image": "img/et/garage-rig-paint.png"
+    },
+    {
+     "id": "tyres",
+     "title": "Teljed ja rehvid",
+     "text": "Telgede skeem joonistatakse telgede arvu järgi automaatselt; iga telje saab määrata ühekordseks või paarisrattaks. Puudutage rehvi: vahetus, purunemine, ümberpaigutus või midagi muud — kirje läheb ajalukku. Statistika näitab keskmist läbisõitu vahetuste vahel ja kõige sagedasemat kohta. Haagisel on oma läbisõit, mille saab eraldi sisestada.",
+     "image": "img/et/garage-tyres.png"
+    }
+   ]
+  },
+  {
+   "slug": "documents",
+   "title": "Dokumendid ja tähtajad",
+   "intro": "Sõiduki ja juhi dokumendid koos lehekülgede fotode ja kehtivusaegadega. Rakendus tuletab tähtaegu aegsasti meelde.",
+   "steps": [
+    {
+     "id": "overview",
+     "title": "Kõik dokumendid",
+     "text": "Ülevaade näitab kõigi sõidukite ja juhi dokumente ühes nimekirjas koos tähtaegadega: mitu päeva on jäänud või „aegunud“.",
+     "image": "img/et/documents-overview.png"
+    },
+    {
+     "id": "list",
+     "title": "Sõiduki dokumendid",
+     "text": "Igal sõidukil on oma nimekiri: registreerimistunnistus, kindlustus, ülevaatus ja muud dokumendid. „+“ lisab dokumendi.",
+     "image": "img/et/documents-list.png"
+    },
+    {
+     "id": "form",
+     "title": "Dokument",
+     "text": "Valige tüüp või „Kohandatud dokument…“ ja sisestage nimi (näiteks ADR-luba). „Kehtib kuni“ on tähtaeg, mille järgi saadetakse meeldetuletusi. Ülevaatusel on ka läbimise kuupäev.",
+     "image": ""
+    },
+    {
+     "id": "pages",
+     "title": "Lehed",
+     "text": "Pildistage dokumendi lehekülgi kaameraga. Lehekülgi saab avada täisekraanil, sirvida ja ükshaaval kustutada.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Tähtaegade meeldetuletused",
+     "text": "Enne kehtivusaja lõppu saadab rakendus teavituse ja näitab käivitamisel akent „Dokumentide kehtivus“. „Sain aru“ peidab akna kuni järgmise läveni. Juhi dokumendid (juhiluba, pass, ADR) asuvad profiili seadetes.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "maintenance",
+   "title": "Hooldus ja rehvid",
+   "intro": "Hooldus: kirjed, intervallid ja meeldetuletus, kui aeg on käes.",
+   "steps": [
+    {
+     "id": "maintenance",
+     "title": "Hooldus",
+     "text": "Üleval on näha, kui palju on hoolduseni jäänud kilomeetrites või päevades või kui palju see on üle aja läinud. Allpool on hoolduskirjed. Intervallid ja lähtepunkt määratakse sõiduki seadetes.",
+     "image": "img/et/maintenance-maintenance.png"
+    },
+    {
+     "id": "new-record",
+     "title": "Hoolduskirje",
+     "text": "„Registreeri hooldus“ avab uue kirje: odomeeter, kuupäev, mida tehti, fotod. Hoolduse odomeetri näit ei tohi olla suurem kui praegune näit.",
+     "image": ""
+    },
+    {
+     "id": "tyres",
+     "title": "Rehvid",
+     "text": "Rehve hallatakse telgede skeemil — jaotis „Garaaž“, samm „Teljed ja rehvid“.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "address-book",
+   "title": "Aadressiraamat ja kliendid",
+   "intro": "Kliendid ja nende aadressid ning teie enda kohad. Raamat täieneb ise, kui sisestate reisi juurde uue kliendi.",
+   "steps": [
+    {
+     "id": "book",
+     "title": "Aadressiraamat",
+     "text": "Vahekaart „Kliendid“ sisaldab kliente ja nende aadresse; kohtade vahekaart teie enda punkte. Peidetud kliente valimisel ei pakuta; „Näita peidetuid“ toob nad nimekirja tagasi.",
+     "image": "img/et/address-book-book.png"
+    },
+    {
+     "id": "clients",
+     "title": "Kliendid",
+     "text": "„Uus klient“ lisab kliendi. Reisidega klienti kustutada ei saa — ta saab valikust eemaldada. Varasematele reisidele jääb kliendi nimi alles.",
+     "image": ""
+    },
+    {
+     "id": "client",
+     "title": "Klient",
+     "text": "Nimi, juhi märkus ja aadressid. Ümbernimetamisel kontrollitakse, kas selline nimi on juba olemas. Kustutamise saab kohe nupuga „Võta tagasi“ tühistada.",
+     "image": "img/et/address-book-client.png"
+    },
+    {
+     "id": "add-address",
+     "title": "Aadress",
+     "text": "Aadress, silt ja koordinaat. Koordinaadi saab salvestada praeguse asukoha järgi. „Ava navigaatoris“ ja „Saada“ edastavad punkti. Punane märk tõstab esile aadressi, mida tuleb meeles pidada (keeruline sissesõit, erireeglid).",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "backup",
+   "title": "Varukoopia ja taastamine",
+   "intro": "Varukoopia on üks fail kogu päevikuga: reisid, vahetused, tankimised, tehnika ja dokumendid koos fotodega.",
+   "steps": [
+    {
+     "id": "backup",
+     "title": "Varukoopia tegemine",
+     "text": "Seaded → Varukoopia: „Ekspordi andmebaas (varukoopia)“ salvestab faili, „Jaga varukoopiat“ saadab selle kohe edasi (e-post, sõnumirakendus, pilv). Varukoopiat saab teha igal ajal — töö ei katke.",
+     "image": ""
+    },
+    {
+     "id": "restore",
+     "title": "Taastamine",
+     "text": "„Impordi andmebaas (taaste)“ asendab kõik praegused andmed varukoopia failiga. Rakendus kontrollib esmalt faili: võõrast faili või uuema versiooni varukoopiat vastu ei võeta. Uues telefonis saab andmed taastada kohe esimese käivituse esimesel sammul.",
+     "image": ""
+    },
+    {
+     "id": "cross",
+     "title": "Android ja iPhone",
+     "text": "Varukoopia on Androidis ja iPhone'is ühesugune: ühes tehtud faili saab teises taastada.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "online",
+   "title": "Programm võrgus",
+   "intro": "Programm võrgus — my.vecturabook.com: seesama päevik brauseris ja teie teistes seadmetes.",
+   "steps": [
+    {
+     "id": "device-link",
+     "title": "Telefoni ühendamine",
+     "text": "Seaded → „Ühenda VecturaBookiga“. Skannige veebikontos QR-kood, avage konto brauseris ja kinnitage telefonis või sisestage ekraanil kuvatav kood. „Katkesta selle telefoni ühendus“ lülitab ühenduse välja.",
+     "image": "img/et/online-device-link.png"
+    },
+    {
+     "id": "sync",
+     "title": "Sünkroonimine",
+     "text": "Ühendatud telefon saadab uued kirjed ise ja võtab vastu teistes seadmetes tehtud muudatused. Olekuriba näitab „Kõik on sünkroonitud“ või seda, mitu kirjet ootab saatmist. Ilma võrguta ootavad kirjed telefonis.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "settings",
+   "title": "Seaded",
+   "intro": "Seaded on jagatud rühmadesse: juhi profiil, telefon ja ühendus, dokumendid (PDF), varukoopia, üldised seaded.",
+   "steps": [
+    {
+     "id": "settings",
+     "title": "Seaded",
+     "text": "Siin on keel ja regioon, ühikud, teema, animatsioonid, tankimiste ja sõiduajaloo PDF, varukoopia ning ühendamine võrguprogrammiga.",
+     "image": "img/et/settings-settings.png"
+    },
+    {
+     "id": "profile",
+     "title": "Juhi profiil",
+     "text": "Nimi aruannete jaoks ja juhi dokumendid: juhiluba, pass, ADR-sertifikaat — koos kehtivusaegade ja lehekülgede fotodega.",
+     "image": "img/et/settings-profile.png"
+    },
+    {
+     "id": "language",
+     "title": "Keel ja regioon",
+     "text": "Rakenduse keel, GPS-aadresside keel (automaatselt riigi järgi) ja kuupäeva vorming.",
+     "image": "img/et/settings-language.png"
+    },
+    {
+     "id": "units",
+     "title": "Ühikud",
+     "text": "Vahemaa, kaal, maht, pikkus, temperatuur ja kütusekulu. Eelseaded: meetermõõdustik, briti, segatud — või kohandatud.",
+     "image": ""
+    },
+    {
+     "id": "theme",
+     "title": "Teema",
+     "text": "Hele, tume või automaatne (päeva ja öö alguskellaaja järgi). Valmisteemad: Kraft, Tume kraft, Manila, Peaaegu valge, Tume. Võib teha ka oma teema.",
+     "image": "img/et/settings-theme.png"
+    },
+    {
+     "id": "theme-custom",
+     "title": "Oma teema",
+     "text": "Tausta, teksti, ülemise riba, kaartide, väljade ääriste, pealdiste, nuppude ning tankimise ja parkimise ikoonide värv. Teema saab salvestada, ümber nimetada ja määrata heledale või tumedale režiimile.",
+     "image": ""
+    },
+    {
+     "id": "animations",
+     "title": "Animatsioonid",
+     "text": "Liikuvad stseenid mahalaadimisel ja tankimisel. Need saab välja lülitada.",
+     "image": ""
+    },
+    {
+     "id": "about",
+     "title": "Teave",
+     "text": "Versioon, veebisait, Telegram, Facebook ja võimalus projekti toetada. Varem kandis rakendus nime CargoLog — muutus ainult nimi.",
+     "image": ""
+    },
+    {
+     "id": "feedback",
+     "title": "Tagasiside",
+     "text": "Teatage veast, pakkuge ideed või kirjutage muul teemal. Juurde saab lisada ekraanipildi või foto. Samuti on menüüs „Otsi uuendusi“ ja „Hinda rakendust“.",
+     "image": ""
+    },
+    {
+     "id": "help",
+     "title": "Abi",
+     "text": "„Abi“ on selle juhendi sisukord: üldised jaotised ja jaotised sõiduki tüübi järgi. Iga jaotis avaneb siinsamas sammude kaupa.",
+     "image": "img/et/settings-help.png"
+    }
+   ]
+  },
+  {
+   "slug": "notifications",
+   "title": "Teavitused ja meeldetuletused",
+   "intro": "Rakendus annab märku sellest, mis parajasti käib, ja sellest, mis on peagi ees.",
+   "steps": [
+    {
+     "id": "timers",
+     "title": "Taimerid",
+     "text": "Ootamine, tankimine ja mahalaadimine käivad edasi ka siis, kui rakendus on taustal: taimer on näha teavitusribal. Puudutage teavitust, et naasta rakendusse.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Dokumentide tähtajad",
+     "text": "Teavitused dokumentide tähtaegade kohta saabuvad aegsasti ette ja kehtivusaja lõppemise päeval.",
+     "image": ""
+    },
+    {
+     "id": "permissions",
+     "title": "Load",
+     "text": "Kui teavitused, kaamera või asukoht on keelatud, juhendab rakendus, kus need telefoni seadetes lubada.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics",
+   "title": "Diagnostikakanal",
+   "intro": "Diagnostikakanal saadab telefonist arendajale andmeid, et uurida tõrkeid päris andmete põhjal. See on välja lülitatud, kuni te selle ise sisse lülitate.",
+   "steps": [
+    {
+     "id": "enroll",
+     "title": "Telefoni registreerimine",
+     "text": "Lugege nõusoleku tekst läbi ja kui olete nõus, vajutage „Olen nõus, registreeri see telefon“. „Võta see telefon tagasi“ lülitab kanali välja ja kustutab sertifikaadi.",
+     "image": "img/et/diagnostics-enroll.png"
+    },
+    {
+     "id": "channel-settings",
+     "title": "Mida saata",
+     "text": "Kolm lülitit: rakenduse tegevuse logid, sõitude andmebaas, konteinerinumbrite pildid. Igaüks neist on väljas, kuni te selle sisse lülitate, ning igaühe saab igal ajal välja lülitada. Kuni kõik kolm on väljas, ei saadeta midagi. Telefoni galeriid rakendus ei loe.",
+     "image": ""
+    },
+    {
+     "id": "warning",
+     "title": "Hoiatus",
+     "text": "Sisenemine hooldusekraanidele algab hoiatusega. Lahkuda saab nupuga „Viige mind siit ära“.",
+     "image": ""
+    },
+    {
+     "id": "server",
+     "title": "Kanali server",
+     "text": "Ühenduse olek: eetris, vaikib, võrku pole, server ei võta vastu. Kõik saatmiseks valmis olev ootab telefonis — teil pole vaja midagi teha.",
+     "image": ""
+    },
+    {
+     "id": "import",
+     "title": "Kanali komplekt",
+     "text": "Ametitelefonidele saab kanali komplekti paigaldada parooliga .p12-failist. Parooli kasutatakse üks kord ja seda ei salvestata.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "service",
+   "title": "Hooldusekraanid",
+   "intro": "Hooldusekraanid on mõeldud tõrgete uurimiseks. Sisenemiseks puudutage seitse korda ekraani „Teave“. Tavalises töös ei ole neid vaja.",
+   "steps": [
+    {
+     "id": "hub",
+     "title": "Hoolduskeskus",
+     "text": "Andmed rakenduse ja telefoni kohta, pääs hooldusekraanidele ja diagnostikakanalisse ning animatsioonide galerii.",
+     "image": ""
+    },
+    {
+     "id": "database",
+     "title": "Andmebaas",
+     "text": "Andmebaasi olek ja rakenduse täielik lähtestamine. Lähtestamine kustutab kõik jäädavalt — tehke enne varukoopia.",
+     "image": ""
+    },
+    {
+     "id": "logs",
+     "title": "Logid",
+     "text": "Rakenduse tegevuse logid tõrgete uurimiseks.",
+     "image": ""
+    },
+    {
+     "id": "ocr",
+     "title": "Tuvastamine",
+     "text": "Kaameraga numbrite lugemise diagnostika.",
+     "image": ""
+    },
+    {
+     "id": "system",
+     "title": "Süsteem",
+     "text": "Andmed telefoni ja kokkujooksmiste kohta.",
+     "image": ""
+    },
+    {
+     "id": "locale",
+     "title": "Keel ja esmakäivitus",
+     "text": "Keelte kontroll ja esimese käivituse kordamine.",
+     "image": ""
+    },
+    {
+     "id": "dataset",
+     "title": "Kaamera kaadrid",
+     "text": "Kaadrite pildistamine tuvastuse õpetamiseks — ainult siis, kui piltide saatmiseks on antud nõusolek.",
+     "image": ""
+    },
+    {
+     "id": "splash-tuner",
+     "title": "Avaleht",
+     "text": "Käivituskuva seadistamine.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "flatbed",
+   "title": "Madelveok",
+   "intro": "Madelveok veab tükikaupa ja gabariidivälist veost.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaažis",
+     "text": "Määrake keretüübiks „Madelveok“ ja sisestage madeli pikkus.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisil",
+     "text": "Lasti tüübid: tükikaup (alused, kaal, kirjeldus), gabariidiväline (pikkus, laius, kõrgus, kaal), konteiner platvormil. Gabariidivälise veose korral küsib samm „Lasti andmed“ mõõtmeid.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Mahalaadimine",
+     "text": "Alused antakse peatustes üle arvu või protsendi järgi.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "container",
+   "title": "Konteiner",
+   "intro": "Konteineriveok veab 20-, 40- ja 45-jalaseid konteinereid, ühte või kahte.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaažis",
+     "text": "Keretüüp „Konteiner“; konteineri suurus, mille jaoks haagis on mõeldud.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisil",
+     "text": "Küsimuste ahel: tühi või laaditud, suurus, mitu konteinerit, tüüp (standardne, Reefer, Flat Rack, Open Top, Tank). Konteineri ja plommi number — kaameraga. Ventilatsiooni plomm ja temperatuur — Reeferi jaoks.",
+     "image": ""
+    },
+    {
+     "id": "fate",
+     "title": "Pärast mahalaadimist",
+     "text": "Rakendus küsib, mis konteineriga sai: jäi kliendi juurde, jäi autole, läheb teise kliendi juurde või tagastatakse sadamasse või depoosse.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "sidelifter",
+   "title": "Külglaadur",
+   "intro": "Külglaadur tõstab konteineri ise peale ja maha.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaažis",
+     "text": "Keretüüp „Külglaadur“ on olemas ainult poolhaagisel.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisil",
+     "text": "Konteiner sisestatakse samamoodi nagu konteineriveokil; töö kraanaga märgitakse reisi kokkuvõttes.",
+     "image": ""
+    },
+    {
+     "id": "exchange",
+     "title": "Vahetus",
+     "text": "Külglaadur vahetab sageli sihtkohas konteinereid — kasutage valikut „Konteinerite vahetus“.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "refrigerated",
+   "title": "Külmik",
+   "intro": "Külmik veab kontrollitud temperatuuriga kaupa.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaažis",
+     "text": "Keretüüp „Külmik“; märkige generaator, kui see on paigaldatud, ning sisestage agregaadi paak ja kriitiline varu.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisil",
+     "text": "Temperatuurirežiim: kontrollitud või kontrollimata; kauba temperatuur. Sõiduekraanil on lüliti „Agregaat töötab“.",
+     "image": ""
+    },
+    {
+     "id": "fuel",
+     "title": "Agregaadi kütus",
+     "text": "Agregaadi diisel sisestatakse tankimisel eraldi väljale; rakendus arvestab mootoritunde ja kulu liitrites tunni kohta ning näitab „≈ N h varuni“.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "curtainsider",
+   "title": "Tentveok",
+   "intro": "Tenthaagis veab tükikaupa alustel.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaažis",
+     "text": "Keretüüp „Tentveok“.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisil",
+     "text": "Tükikaup: aluste arv, kogukaal, kirjeldus.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Mahalaadimine",
+     "text": "Igas peatuses märkige, mitu alust maha laaditi; rakendus peab meeles, kui palju on veel koormas.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tipper",
+   "title": "Kallur",
+   "intro": "Kallur veab puistlasti.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaažis",
+     "text": "Keretüüp „Kallur“.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisil",
+     "text": "Puistlast: maht kuupmeetrites, neto- ja brutokaal, kirjeldus.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Mahalaadimine",
+     "text": "Mahalaadimine märgitakse kellaajaga; laadimistööde taimer näitab, kui kaua see kestis.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fuel-tanker",
+   "title": "Paakauto",
+   "intro": "Kütuseveok veab kütust sektsioonide kaupa.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaažis",
+     "text": "Keretüüp „Paakauto“; sektsioonide arv ja iga sektsiooni maht liitrites.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisil",
+     "text": "Lasti andmetes märgitakse maht iga sektsiooni kaupa.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Mahalaadimine",
+     "text": "Märkige peatuses tühjendatud sektsioonid. Kui reisi lõpetamisel on mõni sektsioon veel tühjendamata, küsib rakendus kinnitust.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tanker",
+   "title": "Paakauto",
+   "intro": "Tsistern veab vedelaid veoseid.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaažis",
+     "text": "Keretüüp „Paakauto“; sektsioonid ja mahud.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisil",
+     "text": "Vedeliku kategooria: kemikaalid, toidukõlblik, jäätmed; temperatuuriga juhitud; ohtlike veoste puhul ADR koos UN-numbritega.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Mahalaadimine",
+     "text": "Sektsioonid antakse peatustes üle samamoodi nagu kütuseveokil.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "car-transporter",
+   "title": "Autovedu",
+   "intro": "Autoveotreiler veab sõiduautosid.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaažis",
+     "text": "Keretüüp „Autovedu“; autokohtade arv.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisil",
+     "text": "Sõidukid sisestatakse VIN-koodi (17 märki, ilma tähtedeta I, O, Q) või numbrimärgi järgi; VIN-koodi saab skannida kaameraga. Loendur näitab, mitu sõidukit on peale laaditud.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Mahalaadimine",
+     "text": "Märkige peatuses, millised sõidukid laaditi maha ja millised võeti peale. Kui reisi lõpetamisel on sõidukeid veel pardal, küsib rakendus kinnitust.",
+     "image": ""
+    }
+   ]
+  }
+ ],
+ "screens": {
+  "getting-started.welcome": "Esimene käivitus: nimi, veok, haagis ja load. Kui varukoopia on olemas, saab päeviku tervikuna taastada.",
+  "getting-started.onboarding": "Vastake küsimustele enda ja sõiduki kohta. Kõike saab hiljem seadetes ja garaažis muuta.",
+  "getting-started.main-screen": "Avakuva näitab, kus te oma tööjärjega olete, ja viib järgmise sammuni: vahetus, reis, mahalaadimine.",
+  "getting-started.menu": "Rakenduse menüü: garaaž, ajalugu, aruanded, tankimised, hooldus, dokumendid, aadressid, abi ja seaded.",
+  "shift.shift-welcome": "Vahetuse algus: asukoht, reisi ootamine ja nupp „Alusta reisi“.",
+  "shift.shift-status": "Kas vahetus on avatud, mis ajast ja mitu reisi selles on.",
+  "trip.origin": "Klient ja aadress, kust või kuhu sõidate. Uus klient lisatakse aadressiraamatusse automaatselt.",
+  "trip.cargo-type": "Mida veate. Nimekiri sõltub veoki ja haagise keretüübist.",
+  "trip.cargo-details": "Lasti andmed: konteinerite ja plommide numbrid, sektsioonid, sõidukid, alused. Numbreid saab pildistada kaameraga.",
+  "trip.load-details": "Lasti mõõtmed, kaal ja kirjeldus.",
+  "trip.trip-times": "Juba salvestatud reisi kellaaegade, aadresside ja odomeetri näitude muutmine.",
+  "trip.confirm": "Reisi kokkuvõte. Kontrollige üle ja vajutage „Teele“ — alles siis reis salvestatakse.",
+  "trip.arrival": "Olete sihtkohas: saabumine, mahalaadimise või laadimise algus ja lõpp.",
+  "trip.unload": "Mis sellel peatusel maha laaditi: sektsioonid, protsent, alused või sõidukid.",
+  "trip.cargo-fate": "Mis saab konteinerist edasi pärast mahalaadimist.",
+  "trip.summary": "Reisi kokkuvõte: järgmine peatus, lõpetamine või uus reis.",
+  "driving.driving": "Reis on käimas: saabumine, tankimine, parkimine. Sõiduki all on ligikaudne jääk kütusereservini.",
+  "driving.odometer": "Odomeetri näit. Rakendus pakub eeldatava näidu ja kontrollib arvu; näitu saab pildistada kaameraga.",
+  "driving.swap-trailer": "Haagise vahetamine teel olles: valige haagis garaažist.",
+  "refuel.refuel-timer": "Tankimine käib: taimer. Pärast lõpetamist sisestatakse liitrid.",
+  "refuel.refuel-data": "Diisli, AdBlue ja haagise agregaadi liitrid ning odomeeter. Salvestatakse ühe kirjena.",
+  "refuel.refuel-history": "Kõik perioodi tankimised, keskmine kulu ja PDF-aruanne.",
+  "parking.parking-stop": "Parkimise aadress: käsitsi, salvestatud kohtadest või GPS-i järgi.",
+  "parking.places": "Oma kohad: parklad, sadamad, depood. Valitakse parkimisel ja konteineri tagastamisel.",
+  "parking.place-form": "Koha nimi, märkus ja koordinaat; avamine navigaatoris.",
+  "camera.scan": "Suunake number raami. Suruge raam kahe sõrmega numbri ümber; puudutus väljaspool raami teeb pildi.",
+  "camera.container-exchange": "Konteinerite vahetus teise juhiga: mis anti ära, mis võeti asemele.",
+  "camera.photos": "Reisi dokumentide fotod täisekraanil.",
+  "history.history": "Kõik vahetused ja reisid: otsing, üksikasjad, muutmine ja kustutamine.",
+  "report.report": "Perioodi kokkuvõte ja PDF-aruanne.",
+  "garage.garage": "Teie veokid ja haagised. Puudutage sõidukit, et avada selle haldamine.",
+  "garage.truck-form": "Veoki numbrimärk, tüüp ja kere; kraana või manipulaator.",
+  "garage.trailer-form": "Haagise numbrimärk, haakeseade ja kere; sektsioonid, autokohad, generaator.",
+  "garage.vehicle-hub": "Kõik sõiduki kohta: dokumendid, hooldus, ülevaatus, teljed ja rehvid, numbrimärk, värv.",
+  "garage.vehicle-settings": "Odomeeter, hoolduse intervallid, teljed, paak ja kriitiline varu.",
+  "garage.plate-colors": "Numbrimärgi värvid, nagu sõidukil.",
+  "garage.rig-paint": "Kabiini, kraana ja kere värvid sõiduki joonisel.",
+  "garage.tyres": "Telgede skeem ja rehvide ajalugu: vahetused, purunemised, ümberpaigutused.",
+  "documents.overview": "Kõik sõidukite ja juhi dokumendid koos tähtaegadega.",
+  "documents.list": "Selle sõiduki dokumendid. „+“ — lisa.",
+  "documents.form": "Dokumendi tüüp, nimi ja kehtivusaeg.",
+  "documents.pages": "Dokumendi lehekülgede fotod.",
+  "maintenance.maintenance": "Kui palju on hoolduseni jäänud ja hoolduskirjed.",
+  "maintenance.new-record": "Uus hoolduskirje: odomeeter, kuupäev, tehtud tööd, fotod.",
+  "address-book.book": "Kliendid ja oma kohad.",
+  "address-book.clients": "Klientide nimekiri: lisa, peida, kustuta.",
+  "address-book.client": "Kliendi nimi, märkus ja aadressid.",
+  "address-book.add-address": "Aadress, koordinaat, navigaator ja punane märk.",
+  "backup.backup": "Fail kogu päevikuga: salvesta, saada või taasta.",
+  "online.device-link": "Telefoni ühendamine võrguprogrammiga: QR-kood või ekraanikood.",
+  "settings.settings": "Kõik seaded rühmade kaupa.",
+  "settings.profile": "Juhi nimi ja tema dokumendid.",
+  "settings.language": "Rakenduse keel, GPS-aadresside keel, kuupäeva vorming.",
+  "settings.theme": "Hele, tume või automaatne; valmis- ja oma teemad.",
+  "settings.theme-custom": "Oma teema värvid.",
+  "settings.about": "Rakenduse versioon ja ühendus arendajaga.",
+  "settings.feedback": "Teatage veast või pakkuge ideed.",
+  "settings.help": "Rakenduse juhend jaotiste kaupa.",
+  "diagnostics.enroll": "Nõusolek ja telefoni registreerimine diagnostikakanalis.",
+  "diagnostics.warning": "Sisenemine rakenduse hooldusossa.",
+  "diagnostics.channel-settings": "Mida telefon arendajale saadab: kolm eraldi nõusolekut.",
+  "diagnostics.server": "Diagnostikakanali ühenduse olek.",
+  "diagnostics.import": "Kanali komplekti paigaldamine .p12-failiga.",
+  "service.hub": "Hoolduskeskus: üldinfo ja hooldusekraanid.",
+  "service.database": "Andmebaasi olek ja rakenduse täielik lähtestamine.",
+  "service.logs": "Rakenduse tegevuse logid.",
+  "service.ocr": "Numbrite tuvastamise diagnostika.",
+  "service.system": "Andmed telefoni ja kokkujooksmiste kohta.",
+  "service.locale": "Keelte kontroll ja esimese käivituse kordamine.",
+  "service.dataset": "Kaadrite pildistamine tuvastamise jaoks.",
+  "service.splash-tuner": "Käivituskuva seadistamine."
+ }
+}

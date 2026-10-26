@@ -1,0 +1,978 @@
+{
+ "format": 1,
+ "language": "lv",
+ "revision": "2026-10-26",
+ "sections": [
+  {
+   "slug": "getting-started",
+   "title": "Pirmie soļi",
+   "intro": "VecturaBook ir vadītāja brauciena žurnāls: maiņas, reisi, uzpildes, stāvvietas, dokumenti un tehnika vienā tālrunī. Viss glabājas tālrunī un darbojas bez interneta.",
+   "steps": [
+    {
+     "id": "welcome",
+     "title": "Pirmā palaišana",
+     "text": "Pirmajā palaišanā lietotne uzdod dažus jautājumus — četri īsi soļi. Tos var iziet minūtes laikā, un visu ievadīto vēlāk var izlabot iestatījumos un garāžā.\n\nJa jums jau ir VecturaBook dublējumkopija (piemēram, no iepriekšējā tālruņa), pirmajā solī nospiediet «Atjaunot no dublējumkopijas»: žurnāls atgriezīsies pilnībā, un uz jautājumiem nebūs jāatbild.",
+     "image": "img/lv/getting-started-welcome.png"
+    },
+    {
+     "id": "onboarding",
+     "title": "Vārds, vilcējs, piekabe, atļaujas",
+     "text": "1. solis — vārds. Tas tiek drukāts atskaitēs. Var atstāt tukšu un ierakstīt vēlāk.\n\n2. solis — vilcējs vai kravas auto: numura zīme, tips un virsbūve. Tipu un virsbūvi izvēlas pēc attēliem jautājumu ķēdē: pēc katras atbildes lietotne parāda nākamo jautājumu.\n\n3. solis — piekabe. To var izlaist ar pogu «Izlaist piekabi» un pievienot vēlāk garāžā.\n\n4. solis — atļaujas: kamera (konteineru numuri, plombas, odometrs), atrašanās vieta (pilsēta maiņas sākumā, tikai tad, kad to pieprasāt) un paziņojumi (gaidīšanas, uzpildes un izkraušanas taimeri). No jebkuras atļaujas var atteikties — lietotne strādās, vienkārši bez šīs iespējas.",
+     "image": "img/lv/getting-started-onboarding.png"
+    },
+    {
+     "id": "main-screen",
+     "title": "Galvenais ekrāns",
+     "text": "Galvenais ekrāns rāda, kur šobrīd esat darbā: maiņa nav sākta, maiņa notiek, reiss ir ceļā, esat izkraušanas punktā un tā tālāk. Pogas tajā vienmēr ved uz nākamo soli, tāpēc neko nevar izlaist.\n\nAugšā ir josla ar izvēlnes pogu pa kreisi un pogu «?» pa labi. Poga «?» ir katrā ekrānā: tā īsi izskaidro ekrānu un ar pogu «Vairāk» atver vajadzīgo šīs rokasgrāmatas sadaļu.",
+     "image": "img/lv/getting-started-main-screen.png"
+    },
+    {
+     "id": "menu",
+     "title": "Izvēlne",
+     "text": "Poga ar trim svītrām atver izvēlnes flīzes: Garāža, Reisu vēsture, Atskaite, Uzpilžu žurnāls, Apkope, Transportlīdzekļa dokumenti, Adrešu grāmata, Palīdzība. Apakšā — Iestatījumi.\n\nJebkurā citā ekrānā izvēlnes pogas vietā ir bultiņa «atpakaļ».",
+     "image": "img/lv/getting-started-menu.png"
+    },
+    {
+     "id": "help-offline",
+     "title": "Palīdzība bez interneta",
+     "text": "Šīs rokasgrāmatas tekstus lietotne lejupielādē savā valodā un glabā pie sevis, tāpēc «?» un «Palīdzība» darbojas ceļā bez sakariem. Reizi diennaktī, ja ir internets, lietotne klusi pārbauda, vai nav parādījies kas jauns.\n\nJa palīdzība vēl ne reizi nav lejupielādēta, lietotne lūgs pieslēgties internetam.",
+     "image": "img/lv/getting-started-help-offline.png"
+    }
+   ]
+  },
+  {
+   "slug": "shift",
+   "title": "Maiņa",
+   "intro": "Maiņa ir darba diena no sākuma līdz beigām. Maiņas ietvaros notiek reisi, uzpildes un stāvēšanas; maiņas kopsummas nonāk vēsturē un atskaitēs.",
+   "steps": [
+    {
+     "id": "shift-welcome",
+     "title": "Sākt maiņu",
+     "text": "Nospiediet «Sākt maiņu». Lietotne sasveicināsies un parādīs, kur atrodaties: pilsētu nosaka pēc atrašanās vietas, ja esat to atļāvis, citādi pieskarieties rindai ar spraudīti un ierakstiet vietu pats.\n\nJa reisa vēl nav, nospiediet «Gaidu reisu» — sāksies gaidīšanas taimeris. «Beigt gaidīšanu» to aptur. Gaidīšana pirms reisa nonāk vēsturē un atskaitē.\n\nKad reiss ir — «Sākt reisu».",
+     "image": "img/lv/shift-shift-welcome.png"
+    },
+    {
+     "id": "shift-status",
+     "title": "Maiņas statuss",
+     "text": "Ekrāns «Maiņa» rāda, vai maiņa ir atvērta, kad tā atvērta un cik tajā ir reisu. «Turpināt maiņu» atgriež pie darba.\n\nSlēgt maiņu, kamēr reiss nav pabeigts, nevar: vispirms pabeidziet reisu.",
+     "image": "img/lv/shift-shift-status.png"
+    },
+    {
+     "id": "end-shift",
+     "title": "Beigt maiņu",
+     "text": "Sarkanā poga «Beigt maiņu» ir vienīgā sarkanā poga lietotnē. Lietotne pārjautās un palūgs beigu odometru. Skaitlis tiek pārbaudīts: ja tas ir mazāks par iepriekšējo vai daudz lielāks par gaidīto, lietotne parādīs pēdējo zināmo rādījumu un lūgs apstiprināt vai izlabot.",
+     "image": ""
+    },
+    {
+     "id": "forgotten-shift",
+     "title": "Aizmirsta maiņa",
+     "text": "Ja maiņa ir atvērta ilgāk par diennakti, lietotne piedāvās to slēgt ar pēdējā notikuma laiku — tā darba laiks atskaitē neizpūtīsies. Var piekrist vai turpināt maiņu.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "trip",
+   "title": "Reiss: no iekraušanas līdz izkraušanai",
+   "intro": "Reiss tiek ierakstīts pa soļiem: no kurienes un uz kurieni, ko vedat, kravas dati, kopsavilkums — un «Dodies ceļā». Punktā — ierašanās, izkraušana vai iekraušana, kopsavilkums. Kamēr neesat nospiedis «Dodies ceļā», žurnālā nekas nav ierakstīts: jebkurā solī var atgriezties ar pogu «Atpakaļ», ievadītais nepazudīs.",
+   "steps": [
+    {
+     "id": "origin",
+     "title": "Klients un maršruts",
+     "text": "Izvēlieties klientu: sāciet ievadīt nosaukumu — lietotne priekšā pateiks no adrešu grāmatas. Jaunu klientu pietiek ierakstīt: tas pats nonāks grāmatā.\n\nKlientam var būt vairākas adreses — izvēlieties vajadzīgo vai pievienojiet jaunu. GPS ikona ievieto adresi pēc pašreizējās atrašanās vietas. Vadītāja piezīmes par klientu ir redzamas tieši šeit.",
+     "image": "img/lv/trip-origin.png"
+    },
+    {
+     "id": "cargo-type",
+     "title": "Ko vedat",
+     "text": "Kravas tipu izvēlas ar flīzēm: konteiners, gabala krava, negabarīts, refrižerators, degviela, beramkrava, automašīnas, tukšs. Saraksts ir atkarīgs no vilcēja un piekabes virsbūves.\n\nJa nomainīsiet kravas tipu, kad dati jau ievadīti, lietotne brīdinās, ka ievadītais tiks dzēsts, un lūgs apstiprinājumu.",
+     "image": "img/lv/trip-cargo-type.png"
+    },
+    {
+     "id": "cargo-details",
+     "title": "Kravas dati",
+     "text": "Dati ir atkarīgi no kravas tipa. Konteineram — tukšs vai piekrauts, izmērs, cik konteineru, tips, konteinera un plombas numurs. Numurus var noskenēt ar kameru. Cisternām — sekcijas un tilpumi, autovedējam — mašīnas pēc VIN vai numura zīmes, gabala kravai — paletes un svars.\n\nJa reisam kravas dati nav vajadzīgi (piemēram, tukšs), vienkārši nospiediet «Tālāk».\n\nADR slēdzis atver ANO (UN) numuru laukus bīstamai kravai.",
+     "image": "img/lv/trip-cargo-details.png"
+    },
+    {
+     "id": "load-details",
+     "title": "Kravas parametri",
+     "text": "Negabarītam un konteineriem uz platformas — garums, platums, augstums, svars un apraksts. Izmēri ir iestatījumos izvēlētajās mērvienībās.",
+     "image": "img/lv/trip-load-details.png"
+    },
+    {
+     "id": "trip-times",
+     "title": "Reisa laiki un punkti",
+     "text": "Šis ekrāns parādās tikai tad, kad labojat jau ierakstītu reisu no vēstures. Šeit labo sākuma, ierašanās, kravas darbu sākuma un beigu laiku, kā arī punktu adreses un odometrus.\n\nLaiks, kura reisā nebija, ir parādīts ar domuzīmi un nav labojams: labošana nepiezīmē reisam to, kā nav bijis.",
+     "image": ""
+    },
+    {
+     "id": "confirm",
+     "title": "Reisa kopsavilkums",
+     "text": "Kopsavilkums rāda visu reisu vienā ekrānā. Šeit pat ir atzīmes: gulēšana kabīnē, armijas reiss, bīstama zona, ar temperatūras kontroli, darbs ar celtni (ja vilcējam ir celtnis).\n\n«Mainīt» atgriež pie soļiem. Zaļā poga «Dodies ceļā» ieraksta reisu un palaiž to. Ja tālrunī ir navigācija, lietotne piedāvās atvērt adresi tajā.",
+     "image": "img/lv/trip-confirm.png"
+    },
+    {
+     "id": "arrival",
+     "title": "Ierašanās",
+     "text": "Galapunktā nospiediet «Ierados». Lietotne iegaumēs laiku un piedāvās odometru.\n\n«Sākt izkraušanu/iekraušanu» palaiž kravas darbu taimeri, «Apturēt izkraušanu/iekraušanu» to aptur. Ja kaut kas neierakstījās (piemēram, tālrunis uzkārās), lietotne par to paziņos un lūgs nospiest vēlreiz — žurnālā nekas nenonāks pa pusei.",
+     "image": "img/lv/trip-arrival.png"
+    },
+    {
+     "id": "unload",
+     "title": "Izkraušana šajā punktā",
+     "text": "Ja kravu nodod pa daļām, atzīmējiet, kas nodots šajā punktā: cisternas sekcijas, konteinera procents, paletes, konkrētas autovedēja mašīnas. Lietotne atceras, cik palicis mašīnā, un neļaus nodot vairāk, nekā ir.",
+     "image": ""
+    },
+    {
+     "id": "cargo-fate",
+     "title": "Kas notika ar konteineru",
+     "text": "Pēc izkraušanas lietotne jautā, kas tālāk notiek ar konteineru: palika šeit, palika uz auto, brauc pie cita klienta, atgriežas uz vietu (ostu, depo) vai uz citu adresi. Atbilde virza nākamo reisa soli.",
+     "image": "img/lv/trip-cargo-fate.png"
+    },
+    {
+     "id": "summary",
+     "title": "Reisa kopsavilkums",
+     "text": "Pēc punkta — «Turpināt reisu» (nākamā tā paša reisa pietura), «Beigt reisu» vai «Jauns reiss».\n\n«Aizpildīt nākamo reisu» ļauj jau iepriekš, izkraušanas laikā, ievadīt nākamo reisu — klientu, kravu, numurus. Pēc tam «Pabeigt un braukt» palaiž to uzreiz.",
+     "image": "img/lv/trip-summary.png"
+    }
+   ]
+  },
+  {
+   "slug": "driving",
+   "title": "Braukšanas ekrāns",
+   "intro": "Kamēr reiss ir ceļā, galvenais ekrāns ir «Notiek»: reisa mašīna, vilcēja un piekabes numuri, laiks ceļā un nākamo darbību pogas.",
+   "steps": [
+    {
+     "id": "driving",
+     "title": "Notiek",
+     "text": "Ekrāna pogas: «Ierados» (esat punktā), «Uzpilde», «Stāvvieta / apstāšanās». Virs pogām ir jūsu mašīnas zīmējums ar tās numuriem; zīmējums ir salikts no tā, kas ierakstīts garāžā: tips, virsbūve, asis, krāsas.\n\nJa garāžā norādīts tvertnes tilpums un savs kritiskais atlikums, zem mašīnas redzams, cik aptuveni atlicis līdz rezervei: «≈ N km līdz rezervei» vilcēja dīzelim un «≈ N h līdz rezervei» piekabes agregātam (refrižeratoram, ģeneratoram). Aprēķins notiek pēc jūsu uzpildēm un nobraukuma, tāpēc uzreiz pēc pirmās uzpildes tā var nebūt.",
+     "image": "img/lv/driving-driving.png"
+    },
+    {
+     "id": "swap-trailer",
+     "title": "Nomainīt piekabi",
+     "text": "Nomainīt piekabi ceļā — «Nomainīt piekabi». Logā redzamas garāžas piekabes: piekabes zīmējums un numurs zem tā. Izvēlieties jauno — maiņa ierakstīsies reisā. Ar vilcēju nesaderīgas piekabes sarakstā netiek piedāvātas.",
+     "image": "img/lv/driving-swap-trailer.png"
+    },
+    {
+     "id": "odometer",
+     "title": "Odometrs",
+     "text": "Lietotne ievieto gaidāmo rādījumu: no mašīnas, no iekraušanas, no iepriekšējās izkraušanas vai no uzpildes. Pārbaudiet un vajadzības gadījumā izlabojiet. Odometru var noskenēt ar kameru.\n\nJa skaitlis ir mazāks par iepriekšējo, stipri lielāks par gaidīto vai neesat to aizticis, lietotne parādīs pēdējo zināmo rādījumu un pajautās, vai viss ir pareizi. Odometra labošana iepriekšējā reisā parāda, kurus vēl ierakstus tā skars.",
+     "image": "img/lv/driving-odometer.png"
+    }
+   ]
+  },
+  {
+   "slug": "refuel",
+   "title": "Uzpilde, AdBlue, agregāts",
+   "intro": "Uzpildes ir vajadzīgas degvielas patēriņam, atskaitēm un norādei «līdz rezervei».",
+   "steps": [
+    {
+     "id": "refuel-timer",
+     "title": "Uzpildes taimeris",
+     "text": "«Uzpilde» braukšanas ekrānā palaiž taimeri — uzpildes laiks nonāk žurnālā. «Beigt uzpildi» to aptur un atver litru ievadi. Taimeris darbojas arī paziņojumu joslā, ja lietotne ir minimizēta.",
+     "image": "img/lv/refuel-refuel-timer.png"
+    },
+    {
+     "id": "refuel-data",
+     "title": "Litri un odometrs",
+     "text": "Ierakstiet dīzeļdegvielu litros, vajadzības gadījumā AdBlue un piekabes agregāta (refrižeratora, ģeneratora) dīzeli. Odometrs ir ievietots; to var noskenēt ar kameru. «Saglabāt uzpildi» ieraksta visu vienā ierakstā.",
+     "image": "img/lv/refuel-refuel-data.png"
+    },
+    {
+     "id": "unit",
+     "title": "Piekabes agregāts",
+     "text": "Ja uz piekabes ir uzstādīts ģenerators, atzīmējiet to piekabes iestatījumos. Tad braukšanas ekrānā ir slēdzis «Agregāts darbojas», lietotne skaita agregāta motorstundas un tā patēriņu litros stundā, bet uzpildē parādās agregāta dīzeļa lauks.",
+     "image": ""
+    },
+    {
+     "id": "refuel-history",
+     "title": "Uzpilžu žurnāls",
+     "text": "Žurnāls rāda visas uzpildes par nedēļu, mēnesi, visu laiku vai izvēlētu periodu: kopējā degviela, uzpilžu skaits un vidējais patēriņš. AdBlue daļa no dīzeļa un agregāta patēriņš tiek rēķināti atsevišķi.\n\n«Izveidot PDF atskaiti» izveido uzpilžu atskaiti, ko var nosūtīt. Uzpildi var izdzēst.",
+     "image": "img/lv/refuel-refuel-history.png"
+    }
+   ]
+  },
+  {
+   "slug": "parking",
+   "title": "Stāvēšana un atpūta",
+   "intro": "Stāvvieta ir apstāšanās ceļā: atpūta, nakts, gaidīšana. Tā tiek ierakstīta reisā ar savu adresi un laiku.",
+   "steps": [
+    {
+     "id": "parking-stop",
+     "title": "Stāvvieta / apstāšanās",
+     "text": "Braukšanas ekrānā nospiediet «Stāvvieta / apstāšanās». Adresi var ievadīt ar roku, izvēlēties no saglabātajām vietām vai nospiest GPS ikonu. Ja adrese nav atrasta, lietotne ievietos koordinātes — tās var izlabot.\n\nNaktis kabīnē tiek skaitītas vēsturē un atskaitē.",
+     "image": "img/lv/parking-parking-stop.png"
+    },
+    {
+     "id": "places",
+     "title": "Vietas",
+     "text": "Vietas ir savas atzīmes, kas nav piesaistītas klientiem: stāvvietas, ostas, depo, degvielas uzpildes stacijas. Sarakstu var meklēt pēc nosaukuma. Vietas izvēlas stāvvietā un konteinera atgriešanā.",
+     "image": ""
+    },
+    {
+     "id": "place-form",
+     "title": "Vieta",
+     "text": "Nosaukums, piezīme un koordināta. Koordinātu var saglabāt ar pašreizējo atrašanās vietu, pārrakstīt vai dzēst. Pogas «Atvērt navigācijā» un «Nosūtīt» nodod punktu navigācijai vai ziņojumā.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "camera",
+   "title": "Kamera: konteineri un plombas",
+   "intro": "Kamera nolasa konteineru numurus, plombas, VIN un odometra rādījumus, lai tie nebūtu jāievada ar roku.",
+   "steps": [
+    {
+     "id": "scan",
+     "title": "Kameras rāmis",
+     "text": "Iekadrējiet numuru rāmī. Ar diviem pirkstiem savelciet rāmi cieši ap numuru — tā to nolasa labāk. «Pagriezt rāmi» ir numuriem, kas uzrakstīti stabiņā. Pieskāriens ārpus rāmja uzņem attēlu.",
+     "image": ""
+    },
+    {
+     "id": "container-number",
+     "title": "Konteinera numurs",
+     "text": "Konteinera numurs ir 4 burti un 7 cipari. Lietotne pārbauda kontrolciparu; ja numurs nesakrīt, tas tiek saglabāts ar atzīmi «Numurs nav validēts» — pārbaudiet to ar aci.",
+     "image": ""
+    },
+    {
+     "id": "seal",
+     "title": "Plomba",
+     "text": "Plombas numuru nolasa no uzraksta. Ja uz plombas ir svītrkods un tas nesakrīt ar uzdrukāto numuru, lietotne ņem uzdrukāto numuru: svītrkods mēdz būt no citas sērijas.",
+     "image": ""
+    },
+    {
+     "id": "container-exchange",
+     "title": "Konteineru maiņa",
+     "text": "Ja punktā jūs nododat konteineru citam vadītājam un paņemat viņa konteineru, ierakstiet maiņu: kurš konteiners izkrauts, kurš iekrauts, vadītāja vārds un viņa mašīnas numura zīme.",
+     "image": ""
+    },
+    {
+     "id": "photos",
+     "title": "Fotoattēli",
+     "text": "Reisam var pievienot dokumentu fotoattēlus iekraušanā un izkraušanā: «Dokumentu foto». «SKATĪT FOTO» atver tos pilnekrāna režīmā.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "history",
+   "title": "Reisu vēsture un labošana",
+   "intro": "Vēsture ir visas maiņas un reisi. Šeit tos apskata, meklē, labo un dzēš.",
+   "steps": [
+    {
+     "id": "history",
+     "title": "Vēsture",
+     "text": "Reisi ir sagrupēti pa maiņām: maiņas sākums un beigas, laiks, nobraukums, reisu skaits. Pieskarieties reisam — atvērsies detaļas: klients, krava, punkti, odometri, gaidīšana, fotoattēli. Meklēšana — pēc klienta, konteinera, maršruta. «Visi reisi» rāda tos vienā sarakstā.",
+     "image": "img/lv/history-history.png"
+    },
+    {
+     "id": "edit",
+     "title": "Reisa labošana",
+     "text": "«Rediģēt» atver tos pašus soļus kā veidojot, kā arī laiku un punktu ekrānu. Labojumi tiek apkopoti un ierakstīti tikai kopsavilkumā.\n\nJa odometra labojums mainīs citus ierakstus (nākamo reisu, vilcēja rādījumu, maiņas nobraukumu), lietotne tos parādīs pirms piemērošanas.",
+     "image": ""
+    },
+    {
+     "id": "delete",
+     "title": "Dzēšana",
+     "text": "Reisu dzēš ar miskastes pogu; vairākus — atlases režīmā. Aktīvu reisu dzēst nevar — vispirms pabeidziet to. Ja tālrunis ir savienots ar programmu tiešsaistē, dzēšana nonāks arī citās ierīcēs.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "report",
+   "title": "Atskaite un PDF",
+   "intro": "Atskaite aprēķina darbu par periodu: reisus, nobraukumu, darba laiku, gaidīšanu, degvielu un patēriņu.",
+   "steps": [
+    {
+     "id": "report",
+     "title": "Perioda atskaite",
+     "text": "Izvēlieties periodu: šodien, nedēļa, mēnesis vai savi datumi. Kartītes parādīs kopsummas. «Eksportēt atskaiti» izveido PDF ar maiņām, reisiem, punktiem un uzpildēm; to var nosūtīt vai izdrukāt.",
+     "image": "img/lv/report-report.png"
+    },
+    {
+     "id": "pdf",
+     "title": "Kas ir PDF",
+     "text": "PDF failā par katru maiņu ir atvēršana un slēgšana, vilcējs un piekabe, reisi ar klientiem, kravu, izkraušanas un gaidīšanas laikiem, odometriem, kā arī uzpildes. Beigās ir perioda kopsummas: maiņas, reisi, uzpildes, nobraukums, laiks, degviela, vidējais nobraukums maiņā un vidējais patēriņš.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "garage",
+   "title": "Autoparks: vilcēji un piekabes",
+   "intro": "Garāža glabā jūsu tehniku. No tās tiek ņemti mašīnu zīmējumi, numuri, piekabju saderība, nobraukumi un viss, ko iestata mašīnai.",
+   "steps": [
+    {
+     "id": "garage",
+     "title": "Garāža",
+     "text": "Divas cilnes: Vilcēji un Piekabes. Aktīvā mašīna ir izcelta. «+ Pievienot vilcēju» un «+ Pievienot piekabi» pievieno jaunu. Pieskaroties mašīnai, atveras tās pārvaldība.\n\nKamēr reiss ir ceļā, tehniku mainīt nevar — vispirms pabeidziet reisu (piekabi ceļā maina ar piekabes maiņas pogu).",
+     "image": "img/lv/garage-garage.png"
+    },
+    {
+     "id": "truck-form",
+     "title": "Vilcējs",
+     "text": "Numura zīme, tips (vilcējs vai kravas auto) un virsbūve — jautājumu ķēdē ar attēliem; vai ir celtnis vai manipulators. Divu vienādu numuru garāžā nevar būt.",
+     "image": ""
+    },
+    {
+     "id": "trailer-form",
+     "title": "Piekabe",
+     "text": "Numura zīme, sakabe (puspiekabe vai kravas auto piekabe) un virsbūve. Degvielas cisternai un cisternai — sekciju skaits un katras tilpums, autovedējam — auto vietu skaits, refrižeratoram — vai ir uzstādīts ģenerators.",
+     "image": ""
+    },
+    {
+     "id": "vehicle-hub",
+     "title": "Mašīnas pārvaldība",
+     "text": "Mašīnas ekrāns apkopo visu par to: reģistrācija, dokumenti, apkope, tehniskā apskate, asis un riepas, numura zīme, krāsojums. «Iestatīt kā aktīvu» izvēlas to darbam.",
+     "image": "img/lv/garage-vehicle-hub.png"
+    },
+    {
+     "id": "vehicle-settings",
+     "title": "Mašīnas iestatījumi",
+     "text": "Pašreizējais odometra rādījums, apkopes intervāls (kilometri, mēneši, brīdinājuma sliekšņi), apkopes sākuma punkts, asis, tvertnes tilpums un savs kritiskais atlikums (norādei «līdz rezervei»). Piekabei ar agregātu — agregāta tvertne un tās atlikums.",
+     "image": "img/lv/garage-vehicle-settings.png"
+    },
+    {
+     "id": "plate-colors",
+     "title": "Numura zīme",
+     "text": "Numura zīmes fona krāsa un numura krāsa — kā uz jūsu mašīnas. Ja salikums ir slikti salasāms, numurs tiks rādīts melnā vai baltā krāsā.",
+     "image": "img/lv/garage-plate-colors.png"
+    },
+    {
+     "id": "rig-paint",
+     "title": "Krāsojums",
+     "text": "Kabīnes, celtņa un virsbūves krāsa mašīnas zīmējumā. «Kā zīmējumā» atgriež sākotnējo krāsu.",
+     "image": "img/lv/garage-rig-paint.png"
+    },
+    {
+     "id": "tyres",
+     "title": "Asis un riepas",
+     "text": "Asu shēma uzzīmējas pati pēc asu skaita; jebkuru asi var padarīt vienkāršu vai dubultu. Pieskarieties riepai: maiņa, caurdurums, pārlikšana vai kaut kas cits — ieraksts nonāks vēsturē. Statistika rāda vidējo nobraukumu starp maiņām un biežāko vietu. Piekabei ir savs nobraukums — to var ierakstīt.",
+     "image": "img/lv/garage-tyres.png"
+    }
+   ]
+  },
+  {
+   "slug": "documents",
+   "title": "Dokumenti un termiņi",
+   "intro": "Mašīnas un vadītāja dokumenti ar lappušu fotoattēliem un derīguma termiņiem. Lietotne laikus atgādina par termiņiem.",
+   "steps": [
+    {
+     "id": "overview",
+     "title": "Visi dokumenti",
+     "text": "Pārskats rāda visu mašīnu un vadītāja dokumentus vienā sarakstā ar termiņiem: cik dienu atlicis vai «beidzies».",
+     "image": "img/lv/documents-overview.png"
+    },
+    {
+     "id": "list",
+     "title": "Transportlīdzekļa dokumenti",
+     "text": "Katrai mašīnai ir savs saraksts: reģistrācijas apliecība, apdrošināšana, tehniskā apskate un savi dokumenti. «+» pievieno dokumentu.",
+     "image": "img/lv/documents-list.png"
+    },
+    {
+     "id": "form",
+     "title": "Dokuments",
+     "text": "Izvēlieties tipu vai «Pielāgots dokuments…» un ierakstiet nosaukumu (piemēram, ADR atļauja). «Derīgs līdz» ir termiņš, pēc kura nāk atgādinājumi. Tehniskajai apskatei ir pārbaudes datums.",
+     "image": ""
+    },
+    {
+     "id": "pages",
+     "title": "Lapas",
+     "text": "Nofotografējiet dokumenta lapas ar kameru. Lapas atveras pilnekrāna režīmā, tās var šķirstīt un dzēst pa vienai.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Atgādinājumi par termiņiem",
+     "text": "Pirms termiņa beigām lietotne atsūta paziņojumu un palaižot parāda logu «Dokumentu derīgums». «Sapratu» aizver logu līdz nākamajam slieksnim. Vadītāja dokumenti (vadītāja apliecība, pase, ADR) ir profila iestatījumos.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "maintenance",
+   "title": "Apkope un riepas",
+   "intro": "Apkope: ieraksti, intervāli un atgādinājums, kad pienācis laiks.",
+   "steps": [
+    {
+     "id": "maintenance",
+     "title": "Apkope",
+     "text": "Augšā — cik atlicis līdz apkopei kilometros vai dienās, vai par cik tā ir nokavēta. Zemāk — apkopes ieraksti. Intervālus un sākuma punktu iestata mašīnas iestatījumos.",
+     "image": "img/lv/maintenance-maintenance.png"
+    },
+    {
+     "id": "new-record",
+     "title": "Apkopes ieraksts",
+     "text": "«Reģistrēt apkopi» atver ierakstu: odometrs, datums, kas tika veikts, fotoattēli. Apkopes odometrs nevar būt lielāks par pašreizējo.",
+     "image": ""
+    },
+    {
+     "id": "tyres",
+     "title": "Riepas",
+     "text": "Riepas tiek uzskaitītas asu shēmā — sadaļa «Garāža», solis «Asis un riepas».",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "address-book",
+   "title": "Adrešu grāmata un klienti",
+   "intro": "Klienti un viņu adreses, savas vietas. Grāmata papildinās pati, kad ierakstāt reisā jaunu klientu.",
+   "steps": [
+    {
+     "id": "book",
+     "title": "Adrešu grāmata",
+     "text": "Cilne «Klienti» — klienti ar adresēm; vietu cilne — savas atzīmes. Paslēptie klienti netiek piedāvāti izvēlē; «Rādīt paslēptos» atgriež tos sarakstā.",
+     "image": "img/lv/address-book-book.png"
+    },
+    {
+     "id": "clients",
+     "title": "Klienti",
+     "text": "«Jauns klients» pievieno klientu. Izdzēst klientu, kuram ir reisi, nevar — viņu var noņemt no izvēles. Iepriekšējie reisi saglabā savu klienta nosaukumu.",
+     "image": ""
+    },
+    {
+     "id": "client",
+     "title": "Klients",
+     "text": "Nosaukums, vadītāja piezīme un adreses. Pārdēvējot tiek pārbaudīts, vai tāds nosaukums jau nav. Dzēšanu var uzreiz atcelt ar pogu «Atsaukt».",
+     "image": "img/lv/address-book-client.png"
+    },
+    {
+     "id": "add-address",
+     "title": "Adrese",
+     "text": "Adrese, etiķete un koordināta. Koordinātu var saglabāt ar pašreizējo atrašanās vietu. «Atvērt navigācijā» un «Nosūtīt» nodod punktu. Sarkanā atzīme izceļ adresi, par kuru jāatceras (sarežģīta iebraukšana, īpaši noteikumi).",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "backup",
+   "title": "Rezerves kopija un atjaunošana",
+   "intro": "Dublējumkopija ir viens fails ar visu žurnālu: reisi, maiņas, uzpildes, tehnika, dokumenti ar fotoattēliem.",
+   "steps": [
+    {
+     "id": "backup",
+     "title": "Izveidot dublējumkopiju",
+     "text": "Iestatījumi → Rezerves kopija: «Eksportēt datubāzi (dublējums)» saglabā failu, «Kopīgot dublējumkopiju» uzreiz to nosūta (e-pasts, saziņas lietotne, mākonis). Dublējumkopiju var veidot jebkurā brīdī — darbs netiek pārtraukts.",
+     "image": ""
+    },
+    {
+     "id": "restore",
+     "title": "Atjaunot",
+     "text": "«Importēt datubāzi (atjaunot)» aizstāj visus pašreizējos datus ar dublējumkopijas failu. Lietotne vispirms pārbaudīs failu: svešs fails vai dublējumkopija no jaunākas versijas netiks pieņemta. Jaunā tālrunī datus var atjaunot tieši pirmās palaišanas pirmajā solī.",
+     "image": ""
+    },
+    {
+     "id": "cross",
+     "title": "Android un iPhone",
+     "text": "Dublējumkopija ir vienāda Android un iPhone ierīcēs: vienā izveidots fails ir atjaunojams otrā.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "online",
+   "title": "Programma tiešsaistē",
+   "intro": "Programma tiešsaistē — my.vecturabook.com: tas pats žurnāls pārlūkā un citās jūsu ierīcēs.",
+   "steps": [
+    {
+     "id": "device-link",
+     "title": "Savienot tālruni",
+     "text": "Iestatījumi → «Savienot ar VecturaBook». Noskenējiet QR kodu no konta vietnē, atveriet kontu pārlūkā un apstipriniet tālrunī vai ievadiet ekrānā redzamo kodu. «Atvienot šo tālruni» to atvieno.",
+     "image": "img/lv/online-device-link.png"
+    },
+    {
+     "id": "sync",
+     "title": "Sinhronizācija",
+     "text": "Savienots tālrunis pats nosūta jaunos ierakstus un saņem labojumus no citām ierīcēm. Statusa rinda rāda «Viss sinhronizēts» vai to, cik ierakstu gaida nosūtīšanu. Bez tīkla ieraksti gaida tālrunī.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "settings",
+   "title": "Iestatījumi",
+   "intro": "Iestatījumi ir sakārtoti grupās: vadītāja profils, tālrunis un savienojums, dokumenti (PDF), rezerves kopija, vispārīgie iestatījumi.",
+   "steps": [
+    {
+     "id": "settings",
+     "title": "Iestatījumi",
+     "text": "Šeit ir valoda un reģions, mērvienības, tēma, animācijas, degvielas un braucienu vēstures PDF, rezerves kopija, savienojums ar programmu tiešsaistē.",
+     "image": "img/lv/settings-settings.png"
+    },
+    {
+     "id": "profile",
+     "title": "Vadītāja profils",
+     "text": "Vārds atskaitēm un vadītāja dokumenti: vadītāja apliecība, pase, ADR sertifikāts — ar termiņiem un lappušu fotoattēliem.",
+     "image": "img/lv/settings-profile.png"
+    },
+    {
+     "id": "language",
+     "title": "Valoda un reģions",
+     "text": "Lietotnes valoda, GPS adrešu valoda (automātiski — pēc valsts) un datuma formāts.",
+     "image": "img/lv/settings-language.png"
+    },
+    {
+     "id": "units",
+     "title": "Mērvienības",
+     "text": "Attālums, svars, tilpums, garums, temperatūra un degvielas patēriņš. Sagataves: metriskā, imperiālā, jaukta — vai pielāgots ar roku.",
+     "image": ""
+    },
+    {
+     "id": "theme",
+     "title": "Tēma",
+     "text": "Gaiša, tumša vai automātisks (pēc dienas un nakts sākuma laika). Sagataves: Krafts, Tumšs krafts, Manila, Gandrīz balta, Tumša. Var izveidot savu.",
+     "image": "img/lv/settings-theme.png"
+    },
+    {
+     "id": "theme-custom",
+     "title": "Pielāgota tēma",
+     "text": "Fona, teksta, augšējās joslas, kartīšu, lauka apmaļu, parakstu, pogu un uzpildes un stāvvietas ikonu krāsa. Tēmu var saglabāt, pārdēvēt un piešķirt gaišajai vai tumšajai.",
+     "image": ""
+    },
+    {
+     "id": "animations",
+     "title": "Animācijas",
+     "text": "Kustīgas izkraušanas un uzpildes ainas. Tās var izslēgt.",
+     "image": ""
+    },
+    {
+     "id": "about",
+     "title": "Par",
+     "text": "Versija, tīmekļa vietne, Telegram, Facebook un iespēja atbalstīt projektu. Agrāk lietotni sauca CargoLog — mainījies tikai nosaukums.",
+     "image": ""
+    },
+    {
+     "id": "feedback",
+     "title": "Atsauksme",
+     "text": "Ziņot par kļūdu, ieteikt ideju vai uzrakstīt ko citu. Var pievienot ekrānuzņēmumu vai fotoattēlu. Izvēlnē arī: «Meklēt atjauninājumus» un «Novērtē lietotni».",
+     "image": ""
+    },
+    {
+     "id": "help",
+     "title": "Palīdzība",
+     "text": "«Palīdzība» ir šīs rokasgrāmatas satura rādītājs: vispārīgās sadaļas un sadaļas pēc transportlīdzekļa veida. Katra atveras tepat, pa soļiem.",
+     "image": "img/lv/settings-help.png"
+    }
+   ]
+  },
+  {
+   "slug": "notifications",
+   "title": "Paziņojumi un atgādinājumi",
+   "intro": "Lietotne ziņo par to, kas notiek pašlaik, un par to, kas gaidāms drīz.",
+   "steps": [
+    {
+     "id": "timers",
+     "title": "Taimeri",
+     "text": "Gaidīšana, uzpilde un izkraušana turpinās arī tad, ja lietotne ir minimizēta: taimeris ir redzams paziņojumu joslā. Pieskarieties paziņojumam, lai atgrieztos lietotnē.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Dokumentu termiņi",
+     "text": "Paziņojumi par dokumentu termiņiem pienāk savlaicīgi un termiņa beigu dienā.",
+     "image": ""
+    },
+    {
+     "id": "permissions",
+     "title": "Atļaujas",
+     "text": "Ja paziņojumi, kamera vai atrašanās vieta ir liegta, lietotne parādīs, kur tos atļaut tālruņa iestatījumos.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics",
+   "title": "Diagnostikas kanāls",
+   "intro": "Diagnostikas kanāls sūta izstrādātājam datus no tālruņa, lai izmeklētu kļūmes ar īstiem datiem. Tas ir izslēgts, kamēr jūs pats to neieslēdzat.",
+   "steps": [
+    {
+     "id": "enroll",
+     "title": "Tālruņa reģistrācija",
+     "text": "Izlasiet piekrišanu un, ja piekrītat, nospiediet «Piekrītu, reģistrēt šo tālruni». «Atsaukt šo tālruni» izslēdz kanālu un izdzēš sertifikātu.",
+     "image": "img/lv/diagnostics-enroll.png"
+    },
+    {
+     "id": "channel-settings",
+     "title": "Ko sūtīt",
+     "text": "Trīs slēdži: lietotnes darbības žurnāli, braucienu datubāze, konteineru numuru attēli. Katrs ir izslēgts, līdz jūs to ieslēdzat; izslēgt var jebkurā brīdī. Kamēr visi trīs ir izslēgti, netiek sūtīts nekas. Galeriju lietotne nelasa.",
+     "image": ""
+    },
+    {
+     "id": "warning",
+     "title": "Brīdinājums",
+     "text": "Ieeja servisa ekrānos sākas ar brīdinājumu. Var iziet ar pogu «Izvediet mani no šejienes».",
+     "image": ""
+    },
+    {
+     "id": "server",
+     "title": "Kanāla serveris",
+     "text": "Savienojuma stāvoklis: sakaros, klusē, nav tīkla, serveris nepieņem. Viss, kas gatavs nosūtīšanai, gaida tālrunī — nekas nav jādara.",
+     "image": ""
+    },
+    {
+     "id": "import",
+     "title": "Kanāla saišķis",
+     "text": "Darba tālruņiem kanāla saišķi var uzstādīt ar .p12 failu un paroli. Parole tiek izmantota vienu reizi un netiek saglabāta.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "service",
+   "title": "Servisa ekrāni",
+   "intro": "Servisa ekrāni ir paredzēti kļūmju izmeklēšanai. Ieeja — septiņi pieskārieni ekrānā «Par». Ikdienas darbā tie nav vajadzīgi.",
+   "steps": [
+    {
+     "id": "hub",
+     "title": "Servisa centrs",
+     "text": "Ziņas par lietotni un tālruni, ieeja servisa ekrānos un diagnostikas kanālā, animāciju galerija.",
+     "image": ""
+    },
+    {
+     "id": "database",
+     "title": "Datubāze",
+     "text": "Datubāzes stāvoklis un pilnīga lietotnes atiestatīšana. Atiestatīšana neatgriezeniski izdzēš visu — vispirms izveidojiet dublējumkopiju.",
+     "image": ""
+    },
+    {
+     "id": "logs",
+     "title": "Žurnāli",
+     "text": "Lietotnes darbības žurnāli kļūmju izmeklēšanai.",
+     "image": ""
+    },
+    {
+     "id": "ocr",
+     "title": "Atpazīšana",
+     "text": "Numuru nolasīšanas ar kameru diagnostika.",
+     "image": ""
+    },
+    {
+     "id": "system",
+     "title": "Sistēma",
+     "text": "Ziņas par tālruni un avārijām.",
+     "image": ""
+    },
+    {
+     "id": "locale",
+     "title": "Valoda un sākuma iestatīšana",
+     "text": "Valodu pārbaude un atkārtota pirmā palaišana.",
+     "image": ""
+    },
+    {
+     "id": "dataset",
+     "title": "Kameras kadri",
+     "text": "Kadru uzņemšana atpazīšanas apmācībai — tikai ar piekrišanu attēlu sūtīšanai.",
+     "image": ""
+    },
+    {
+     "id": "splash-tuner",
+     "title": "Sākuma ekrāns",
+     "text": "Palaišanas ekrāna pielāgošana.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "flatbed",
+   "title": "Platforma",
+   "intro": "Platforma ved gabala kravu un negabarītu.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garāžā",
+     "text": "Norādiet virsbūvi «Platforma» un platformas garumu.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisā",
+     "text": "Kravas tipi: gabala krava (paletes, svars, apraksts), negabarīts (garums, platums, augstums, svars), konteiners uz platformas. Negabarītam solis «Kravas dati» prasa izmērus.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Izkraušana",
+     "text": "Paletes punktos nodod pēc skaita vai procentos.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "container",
+   "title": "Konteiners",
+   "intro": "Konteinervedējs ved 20, 40 un 45 pēdu konteinerus, vienu vai divus.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garāžā",
+     "text": "Virsbūve «Konteiners»; konteinera izmērs, kādam paredzēta piekabe.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisā",
+     "text": "Jautājumu ķēde: tukšs vai piekrauts, izmērs, cik konteineru, tips (standarta, Reefer, Flat Rack, Open Top, Tank). Konteinera un plombas numurs — ar kameru. Venta plombas numurs un temperatūra — Reefer konteineram.",
+     "image": ""
+    },
+    {
+     "id": "fate",
+     "title": "Pēc izkraušanas",
+     "text": "Lietotne jautā, kas notika ar konteineru: palika pie klienta, uz auto, brauc pie cita klienta vai tiek atgriezts ostā vai depo.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "sidelifter",
+   "title": "Sānu pacēlājs",
+   "intro": "Sānu pacēlājs pats noņem un uzceļ konteineru.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garāžā",
+     "text": "Virsbūve «Sānu pacēlājs» ir tikai puspiekabei.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisā",
+     "text": "Konteineru ievada tāpat kā konteinervedējam; darbu ar celtni atzīmē kopsavilkumā.",
+     "image": ""
+    },
+    {
+     "id": "exchange",
+     "title": "Maiņa",
+     "text": "Sānu pacēlājs bieži maina konteinerus punktā — izmantojiet «Konteineru maiņa».",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "refrigerated",
+   "title": "Refrižerators",
+   "intro": "Refrižerators ved kravu ar temperatūras kontroli.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garāžā",
+     "text": "Virsbūve «Refrižerators»; atzīmējiet ģeneratoru, ja tas ir uzstādīts, norādiet agregāta tvertni un kritisko atlikumu.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisā",
+     "text": "Temperatūras kontrole: kontrolēta vai bez kontroles; kravas temperatūra. Braukšanas ekrānā — slēdzis «Agregāts darbojas».",
+     "image": ""
+    },
+    {
+     "id": "fuel",
+     "title": "Agregāta degviela",
+     "text": "Agregāta dīzeli uzpildē ieraksta atsevišķā laukā; lietotne skaita motorstundas un patēriņu litros stundā un rāda «≈ N h līdz rezervei».",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "curtainsider",
+   "title": "Tents",
+   "intro": "Tenta piekabe ved gabala kravu uz paletēm.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garāžā",
+     "text": "Virsbūve «Tents».",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisā",
+     "text": "Gabala krava: palešu skaits, kopējais svars, apraksts.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Izkraušana",
+     "text": "Katrā punktā atzīmējiet, cik palešu ir izkrauts; lietotne atceras atlikumu mašīnā.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tipper",
+   "title": "Pašizgāzējs",
+   "intro": "Pašizgāzējs ved beramkravu.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garāžā",
+     "text": "Virsbūve «Pašizgāzējs».",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisā",
+     "text": "Beramkrava: tilpums kubikmetros, neto un bruto svars, apraksts.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Izkraušana",
+     "text": "Izkraušanu atzīmē ar laiku; kravas darbu taimeris rāda, cik ilgi tā ilga.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fuel-tanker",
+   "title": "Cisterna",
+   "intro": "Degvielas cisterna ved degvielu pa sekcijām.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garāžā",
+     "text": "Virsbūve «Cisterna»; sekciju skaits un katras tilpums litros.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisā",
+     "text": "Kravas datos — katras sekcijas tilpums.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Izkraušana",
+     "text": "Punktā atzīmējiet izkrautās sekcijas. Ja, beidzot reisu, ir palikušas neizkrautas sekcijas, lietotne lūgs apstiprinājumu.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tanker",
+   "title": "Cisterna",
+   "intro": "Cisterna ved šķidrās kravas.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garāžā",
+     "text": "Virsbūve «Cisterna»; sekcijas un tilpumi.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisā",
+     "text": "Šķidruma kategorija: ķīmiskās vielas, pārtikas, atkritumi; ar temperatūras kontroli; ADR ar UN numuriem bīstamām kravām.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Izkraušana",
+     "text": "Sekcijas punktos nodod tāpat kā degvielas cisternai.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "car-transporter",
+   "title": "Autovedējs",
+   "intro": "Autovedējs ved vieglās automašīnas.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garāžā",
+     "text": "Virsbūve «Autovedējs»; auto vietu skaits.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisā",
+     "text": "Mašīnas ievada pēc VIN (17 zīmes, bez I, O, Q) vai pēc numura zīmes; VIN var noskenēt ar kameru. Skaitītājs rāda, cik ir iekrauts.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Izkraušana",
+     "text": "Punktā atzīmējiet, kuras mašīnas ir izkrautas un kuras iekrautas. Ja, beidzot reisu, mašīnas vēl ir uz klāja, lietotne lūgs apstiprinājumu.",
+     "image": ""
+    }
+   ]
+  }
+ ],
+ "screens": {
+  "getting-started.welcome": "Pirmā palaišana: vārds, vilcējs, piekabe un atļaujas. Ja ir dublējumkopija — var atjaunot visu žurnālu.",
+  "getting-started.onboarding": "Atbildiet uz jautājumiem par sevi un mašīnu. Visu vēlāk var izlabot iestatījumos un garāžā.",
+  "getting-started.main-screen": "Galvenais ekrāns rāda, kur šobrīd esat darbā, un ved uz nākamo soli: maiņa, reiss, izkraušana.",
+  "getting-started.menu": "Lietotnes izvēlne: garāža, vēsture, atskaites, uzpildes, apkope, dokumenti, adreses, palīdzība un iestatījumi.",
+  "shift.shift-welcome": "Maiņas sākums: vieta, reisa gaidīšana un poga «Sākt reisu».",
+  "shift.shift-status": "Vai maiņa ir atvērta, no kura laika un cik tajā ir reisu.",
+  "trip.origin": "Klients un adrese, no kurienes vai uz kurieni braucat. Jauns klients pats nonāks adrešu grāmatā.",
+  "trip.cargo-type": "Ko vedat. Saraksts ir atkarīgs no vilcēja un piekabes virsbūves.",
+  "trip.cargo-details": "Kravas dati: konteineru un plombu numuri, sekcijas, mašīnas, paletes. Numurus var noskenēt ar kameru.",
+  "trip.load-details": "Kravas izmēri, svars un apraksts.",
+  "trip.trip-times": "Jau ierakstīta reisa laiku, adrešu un odometru labošana.",
+  "trip.confirm": "Reisa kopsavilkums. Pārbaudiet un nospiediet «Dodies ceļā» — tikai tad reiss tiks ierakstīts.",
+  "trip.arrival": "Esat punktā: ierašanās, izkraušanas vai iekraušanas sākums un beigas.",
+  "trip.unload": "Kas nodots šajā punktā: sekcijas, procents, paletes vai mašīnas.",
+  "trip.cargo-fate": "Kas tālāk notiek ar konteineru pēc izkraušanas.",
+  "trip.summary": "Reisa kopsavilkums: nākamā pietura, pabeigšana vai jauns reiss.",
+  "driving.driving": "Reiss notiek: ierašanās, uzpilde, stāvvieta. Zem mašīnas — aptuvenais atlikums līdz degvielas rezervei.",
+  "driving.odometer": "Odometra rādījums. Lietotne ievietos gaidāmo un pārbaudīs skaitli; var noskenēt ar kameru.",
+  "driving.swap-trailer": "Piekabes maiņa ceļā: izvēlieties piekabi no garāžas.",
+  "refuel.refuel-timer": "Notiek uzpilde: taimeris. Beigās — litru ievade.",
+  "refuel.refuel-data": "Dīzeļdegvielas, AdBlue un piekabes agregāta litri, odometrs. Saglabājas vienā ierakstā.",
+  "refuel.refuel-history": "Visas uzpildes par periodu, vidējais patēriņš un PDF atskaite.",
+  "parking.parking-stop": "Stāvvietas adrese: ar roku, no saglabātajām vietām vai pēc GPS.",
+  "parking.places": "Savas vietas: stāvvietas, ostas, depo. Tiek izvēlētas stāvvietā un konteinera atgriešanā.",
+  "parking.place-form": "Vietas nosaukums, piezīme un koordināta; atvērt navigācijā.",
+  "camera.scan": "Iekadrējiet numuru rāmī. Ar diviem pirkstiem savelciet rāmi ap numuru; pieskāriens ārpusē — uzņēmums.",
+  "camera.container-exchange": "Konteineru maiņa ar citu vadītāju: ko nodevāt, ko paņēmāt.",
+  "camera.photos": "Reisa dokumentu fotoattēli pilnekrāna režīmā.",
+  "history.history": "Visas maiņas un reisi: meklēšana, detaļas, labošana un dzēšana.",
+  "report.report": "Perioda kopsummas un PDF atskaite.",
+  "garage.garage": "Jūsu vilcēji un piekabes. Pieskarieties mašīnai, lai atvērtu tās pārvaldību.",
+  "garage.truck-form": "Vilcēja numura zīme, tips un virsbūve; celtnis vai manipulators.",
+  "garage.trailer-form": "Piekabes numura zīme, sakabe un virsbūve; sekcijas, auto vietas, ģenerators.",
+  "garage.vehicle-hub": "Viss par mašīnu: dokumenti, apkope, tehniskā apskate, asis un riepas, numura zīme, krāsojums.",
+  "garage.vehicle-settings": "Odometrs, apkopes intervāli, asis, tvertne un kritiskais atlikums.",
+  "garage.plate-colors": "Numura zīmes krāsas kā uz mašīnas.",
+  "garage.rig-paint": "Kabīnes, celtņa un virsbūves krāsas mašīnas zīmējumā.",
+  "garage.tyres": "Asu shēma un riepu vēsture: maiņas, caurdurumi, pārlikšanas.",
+  "documents.overview": "Visi mašīnu un vadītāja dokumenti ar termiņiem.",
+  "documents.list": "Šīs mašīnas dokumenti. «+» — pievienot.",
+  "documents.form": "Dokumenta tips, nosaukums un derīguma termiņš.",
+  "documents.pages": "Dokumenta lappušu fotoattēli.",
+  "maintenance.maintenance": "Cik atlicis līdz apkopei un apkopes ieraksti.",
+  "maintenance.new-record": "Jauns apkopes ieraksts: odometrs, datums, darbi, fotoattēli.",
+  "address-book.book": "Klienti un savas vietas.",
+  "address-book.clients": "Klientu saraksts: pievienot, paslēpt, dzēst.",
+  "address-book.client": "Klienta nosaukums, piezīme un adreses.",
+  "address-book.add-address": "Adrese, koordināta, navigācija un sarkanā atzīme.",
+  "backup.backup": "Fails ar visu žurnālu: saglabāt, nosūtīt vai atjaunot.",
+  "online.device-link": "Tālruņa savienošana ar programmu tiešsaistē: QR kods vai ekrānā redzamais kods.",
+  "settings.settings": "Visi iestatījumi pa grupām.",
+  "settings.profile": "Vadītāja vārds un viņa dokumenti.",
+  "settings.language": "Lietotnes valoda, GPS adrešu valoda, datuma formāts.",
+  "settings.theme": "Gaiša, tumša vai automātiska; sagataves un savas tēmas.",
+  "settings.theme-custom": "Savas tēmas krāsas.",
+  "settings.about": "Lietotnes versija un saziņa ar izstrādātāju.",
+  "settings.feedback": "Ziņot par kļūdu vai ieteikt ideju.",
+  "settings.help": "Lietotnes rokasgrāmata pa sadaļām.",
+  "diagnostics.enroll": "Piekrišana un tālruņa reģistrācija diagnostikas kanālā.",
+  "diagnostics.warning": "Ieeja lietotnes servisa daļā.",
+  "diagnostics.channel-settings": "Ko tālrunis sūta izstrādātājam: trīs atsevišķas piekrišanas.",
+  "diagnostics.server": "Diagnostikas kanāla savienojuma stāvoklis.",
+  "diagnostics.import": "Kanāla saišķa uzstādīšana ar .p12 failu.",
+  "service.hub": "Servisa centrs: ziņas un servisa ekrāni.",
+  "service.database": "Datubāzes stāvoklis un pilnīga lietotnes atiestatīšana.",
+  "service.logs": "Lietotnes darbības žurnāli.",
+  "service.ocr": "Numuru atpazīšanas diagnostika.",
+  "service.system": "Ziņas par tālruni un avārijām.",
+  "service.locale": "Valodu pārbaude un atkārtota pirmā palaišana.",
+  "service.dataset": "Kadru uzņemšana atpazīšanai.",
+  "service.splash-tuner": "Sākuma ekrāna pielāgošana."
+ }
+}

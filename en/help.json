@@ -1,0 +1,978 @@
+{
+ "format": 1,
+ "language": "en",
+ "revision": "2026-10-26",
+ "sections": [
+  {
+   "slug": "getting-started",
+   "title": "Getting started",
+   "intro": "VecturaBook is a truck driver's logbook: shifts, trips, refuels, parking stops, documents, and vehicles on one phone. Everything stays on your phone and works offline.",
+   "steps": [
+    {
+     "id": "welcome",
+     "title": "First launch",
+     "text": "When you open the app for the first time, it asks a few questions in four short steps. This takes about a minute, and you can change any of your answers later in Settings and Garage.\n\nIf you already have a VecturaBook backup (for example, from your old phone), tap \"Restore from Backup\" on the first step: your entire logbook will be restored, and you will not need to answer the questions.",
+     "image": "img/en/getting-started-welcome.png"
+    },
+    {
+     "id": "onboarding",
+     "title": "Name, truck, trailer, permissions",
+     "text": "Step 1 — your name. It is printed on reports. You can leave it blank and fill it in later.\n\nStep 2 — your semi truck or rigid truck: plate number, truck type, and body type. You pick the type and body using pictures in a chain of questions: each answer brings up the next question.\n\nStep 3 — trailer. You can skip it with the \"Skip Trailer\" button and add it later in Garage.\n\nStep 4 — permissions: Camera (container numbers, seals, odometer), Location (your city at the start of a shift, only when you ask for it), and Notifications (timers for waiting, refueling, and unloading). You can decline any of them — the app will still work, just without that feature.",
+     "image": "img/en/getting-started-onboarding.png"
+    },
+    {
+     "id": "main-screen",
+     "title": "Main Screen",
+     "text": "The Main Screen shows where you are in your workday: shift not started, shift open, trip in progress, at an unloading stop, and so on. The buttons on it always lead to the next step, so you cannot miss anything.\n\nAt the top is a bar with the menu button on the left and the \"?\" button on the right. The \"?\" button is on every screen: it briefly explains the screen, and tapping \"More\" opens the relevant section of this manual.",
+     "image": "img/en/getting-started-main-screen.png"
+    },
+    {
+     "id": "menu",
+     "title": "Menu",
+     "text": "The three-line button opens the tile menu: Garage, Trip History, Report, Refuel Log, Maintenance, Vehicle Documents, Address Book, Help. At the bottom is Settings.\n\nOn any other screen, a back arrow replaces the menu button.",
+     "image": "img/en/getting-started-menu.png"
+    },
+    {
+     "id": "help-offline",
+     "title": "Offline help",
+     "text": "The app downloads the text of this manual in its language and stores it on the phone, so \"?\" and \"Help\" work on the road without a signal. Once a day, when internet is available, the app quietly checks for updates.\n\nIf the help has never been downloaded yet, the app will ask you to connect to the internet.",
+     "image": "img/en/getting-started-help-offline.png"
+    }
+   ]
+  },
+  {
+   "slug": "shift",
+   "title": "Shift",
+   "intro": "A shift is your working day from start to finish. Trips, refuels, and parking stops happen inside a shift; shift totals go into your history and reports.",
+   "steps": [
+    {
+     "id": "shift-welcome",
+     "title": "Start Shift",
+     "text": "Tap \"Start Shift\". The app greets you and shows where you are: your city is detected from your location if you allowed it, otherwise tap the line with the pin and type the place yourself.\n\nIf you do not have a trip yet, tap \"Waiting for Trip\" to start the waiting timer. \"Stop Waiting\" stops it. Pre-trip waiting time is recorded in your history and report.\n\nWhen you have a trip, tap \"Start Trip\".",
+     "image": "img/en/shift-shift-welcome.png"
+    },
+    {
+     "id": "shift-status",
+     "title": "Shift status",
+     "text": "The \"Shift\" screen shows whether the shift is open, when it was opened, and how many trips are in it. \"Resume shift\" takes you back to work.\n\nYou cannot close a shift while a trip is still in progress: finish the trip first.",
+     "image": "img/en/shift-shift-status.png"
+    },
+    {
+     "id": "end-shift",
+     "title": "End Shift",
+     "text": "The red \"End Shift\" button is the only red button in the app. The app will ask you to confirm and enter the final odometer reading. The number is checked: if it is lower than the previous reading or much higher than expected, the app shows the last known reading and asks you to confirm or fix it.",
+     "image": ""
+    },
+    {
+     "id": "forgotten-shift",
+     "title": "Forgotten shift",
+     "text": "If a shift has been open for over a day, the app offers to close it using the time of the last event — that way your working time in the report is not inflated. You can agree or continue the shift.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "trip",
+   "title": "Trip: loading to unloading",
+   "intro": "A trip is logged step by step: origin and destination, what you are carrying, cargo details, summary — and \"Start trip\". At the stop: arrival, unloading or loading, summary. Until you tap \"Start trip\", nothing is written to the logbook: at any step you can go back with the \"Back\" button without losing what you entered.",
+   "steps": [
+    {
+     "id": "origin",
+     "title": "Client & Route",
+     "text": "Select a client: start typing the name and the app will suggest matches from the Address Book. For a new client, just type the name — it will be added to the book automatically.\n\nA client can have several addresses — pick the one you need or add a new one. The GPS icon fills in the address from your current location. Driver notes about this client are shown right here.",
+     "image": "img/en/trip-origin.png"
+    },
+    {
+     "id": "cargo-type",
+     "title": "What are you carrying?",
+     "text": "You pick the cargo type using tiles: Container, General, Oversized, Refrigerated, Fuel Tanker, Tipper, Car Transporter, Empty. The list depends on the body type of your truck and trailer.\n\nIf you change the cargo type after entering details, the app warns you that your entries will be erased and asks you to confirm.",
+     "image": "img/en/trip-cargo-type.png"
+    },
+    {
+     "id": "cargo-details",
+     "title": "Cargo Details",
+     "text": "The details depend on the cargo type. For a container: empty or laden, size, how many containers, type, container number, and seal number. Numbers can be scanned with the camera. For tankers: sections and volumes; for a car transporter: vehicles by VIN or license plate; for general cargo: pallets and weight.\n\nIf no cargo details are needed for the trip (for example, when running empty), simply tap \"Next\" (or \"Continue\").\n\nThe ADR switch opens the UN number fields for dangerous goods.",
+     "image": "img/en/trip-cargo-details.png"
+    },
+    {
+     "id": "load-details",
+     "title": "Load details",
+     "text": "For oversized cargo and containers on a flatbed: length, width, height, weight, and description. Dimensions use the units chosen in Settings.",
+     "image": "img/en/trip-load-details.png"
+    },
+    {
+     "id": "trip-times",
+     "title": "Trip times and points",
+     "text": "This screen only appears when you edit a saved trip from History. Here you can edit the start time, arrival time, cargo handling start and end times, and the addresses and odometer readings of the stops.\n\nAny time that was not recorded during the trip is shown as a dash and cannot be edited: editing does not invent events that never happened.",
+     "image": ""
+    },
+    {
+     "id": "confirm",
+     "title": "Trip Summary",
+     "text": "The summary shows the whole trip on one screen. Here you can also mark options: \"Sleep in cabin\", \"Army mission\", \"Dangerous zone\", \"Temperature controlled\", and \"Working with crane\" (if the truck has a crane).\n\n\"Edit\" takes you back to the steps. The green \"Start trip\" button saves the trip and starts it. If you have a navigation app on your phone, the app will offer to open the address in it.",
+     "image": "img/en/trip-confirm.png"
+    },
+    {
+     "id": "arrival",
+     "title": "Arrival",
+     "text": "When you reach the site, tap \"Arrived\". The app records the time and suggests an odometer reading.\n\n\"Start Unloading/Loading\" starts the cargo handling timer, and \"Stop Unloading/Loading\" stops it. If something fails to save (for example, if the phone freezes), the app will tell you and ask you to tap again — nothing is ever saved half-done.",
+     "image": "img/en/trip-arrival.png"
+    },
+    {
+     "id": "unload",
+     "title": "Unload/Load at this stop",
+     "text": "If you deliver cargo in parts, mark what was delivered at this stop: fuel tanker sections, container percentage, pallets, or specific vehicles on a car transporter. The app remembers how much is left on board and will not let you unload more than you have.",
+     "image": ""
+    },
+    {
+     "id": "cargo-fate",
+     "title": "What happened to the container?",
+     "text": "After unloading, the app asks what happens next with the container: \"Left here\", \"Still on the truck\", going \"To a client\", or \"Return\" to a place (port, depot) or \"Another address\". Your answer sets up the next step of the trip.",
+     "image": "img/en/trip-cargo-fate.png"
+    },
+    {
+     "id": "summary",
+     "title": "Trip Summary",
+     "text": "After a stop, choose \"Continue Trip\" (next stop on the same trip), \"Finish Trip\", or \"New Trip\".\n\n\"Fill in the next trip\" lets you enter the next trip in advance while unloading — client, cargo, numbers. Then \"Finish and drive\" starts it right away.",
+     "image": "img/en/trip-summary.png"
+    }
+   ]
+  },
+  {
+   "slug": "driving",
+   "title": "Driving screen",
+   "intro": "While a trip is underway, the Main Screen shows \"In progress\": the vehicle on the trip, truck and trailer plate numbers, driving time, and buttons for your next actions.",
+   "steps": [
+    {
+     "id": "driving",
+     "title": "In progress",
+     "text": "Buttons on the screen: \"Arrived\" (you are at the stop), \"Refuel\", and \"Parking / Stop\". Above the buttons is a drawing of your rig with its plate numbers, built from what is saved in Garage: type, body, axles, and colors.\n\nIf you entered the fuel tank volume and your critical reserve in Garage, you will see the estimated distance or time to reserve below the truck: \"≈ N km to reserve\" for truck diesel and \"≈ N h to reserve\" for the trailer unit (reefer, genset). This is calculated from your refuels and mileage, so it may not appear right after your very first refuel.",
+     "image": "img/en/driving-driving.png"
+    },
+    {
+     "id": "swap-trailer",
+     "title": "Swap Trailer",
+     "text": "To change trailers on the road, tap \"Swap Trailer\". The window shows the trailers from your Garage: a drawing of each trailer with its plate number underneath. Pick the new one and the swap is logged in the trip. Trailers that are not compatible with your truck are not shown.",
+     "image": "img/en/driving-swap-trailer.png"
+    },
+    {
+     "id": "odometer",
+     "title": "Odometer",
+     "text": "The app fills in the expected reading: from the truck, from loading, from the last drop, or from the pump. Check it and fix it if needed. You can also scan the odometer with the camera.\n\nIf the number is lower than the previous one, much higher than expected, or left untouched, the app shows the last known reading and asks if it is right. Editing the odometer in a past trip shows which other records will be affected.",
+     "image": "img/en/driving-odometer.png"
+    }
+   ]
+  },
+  {
+   "slug": "refuel",
+   "title": "Refuelling, AdBlue, unit",
+   "intro": "Refuels are used to calculate fuel consumption, build reports, and show the \"to reserve\" estimate.",
+   "steps": [
+    {
+     "id": "refuel-timer",
+     "title": "Refuel timer",
+     "text": "Tapping \"Refuel\" on the driving screen starts a timer so the refueling time is logged. \"Finish Refueling\" stops it and opens the liters entry screen. The timer also runs in the notification shade if the app is minimized.",
+     "image": "img/en/refuel-refuel-timer.png"
+    },
+    {
+     "id": "refuel-data",
+     "title": "Liters and odometer",
+     "text": "Enter diesel in liters, and if needed, AdBlue and fuel for the trailer unit (reefer, genset). The odometer reading is pre-filled, or you can scan it with the camera. \"Save Refuel\" saves everything as a single entry.",
+     "image": "img/en/refuel-refuel-data.png"
+    },
+    {
+     "id": "unit",
+     "title": "Trailer unit",
+     "text": "If your trailer has a generator, turn on \"Generator (genset) installed\" in \"Trailer settings\". Then the driving screen gets a \"Trailer unit running\" switch, the app tracks unit hours and consumption in liters per hour, and the refuel screen shows a field for unit fuel.",
+     "image": ""
+    },
+    {
+     "id": "refuel-history",
+     "title": "Refuel Log",
+     "text": "The log shows all refuels for the week, month, all time, or a custom period: \"Total fuel\", \"Stops\", and \"Avg. consumption\". The AdBlue share of diesel and trailer unit consumption are calculated separately.\n\n\"Generate PDF Report\" creates a fuel report that you can share. Any refuel entry can be deleted.",
+     "image": "img/en/refuel-refuel-history.png"
+    }
+   ]
+  },
+  {
+   "slug": "parking",
+   "title": "Parking and rest",
+   "intro": "A parking stop is any break on the road: rest, overnight stay, or waiting. It is logged in the trip with its own address and time.",
+   "steps": [
+    {
+     "id": "parking-stop",
+     "title": "Parking / Stop",
+     "text": "On the driving screen, tap \"Parking / Stop\". You can enter the address by hand, pick from saved places, or tap the GPS icon. If the address cannot be found, the app fills in the coordinates — you can edit them.\n\nNights in the cabin are counted in your history and report.",
+     "image": "img/en/parking-parking-stop.png"
+    },
+    {
+     "id": "places",
+     "title": "Places",
+     "text": "Places are your own locations not tied to any client: truck stops, ports, depots, fuel stations. You can search the list by name. Places can be selected when parking and when returning a container.",
+     "image": ""
+    },
+    {
+     "id": "place-form",
+     "title": "Place",
+     "text": "Place name, note, and coordinates. You can save the coordinates from your current location, replace them, or erase them. The \"Open in navigator\" and \"Send\" buttons pass the location to your navigation app or a message.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "camera",
+   "title": "Camera: containers and seals",
+   "intro": "The camera reads container numbers, seal numbers, VINs, and odometer readings so you do not have to type them by hand.",
+   "steps": [
+    {
+     "id": "scan",
+     "title": "Camera frame",
+     "text": "Aim the number into the frame. Pinch the frame tight around the number so it reads better. Use \"Turn the frame\" for numbers written vertically. Tap outside the frame to take the shot.",
+     "image": ""
+    },
+    {
+     "id": "container-number",
+     "title": "Container Number",
+     "text": "A container number has 4 letters and 7 digits. The app checks the check digit; if it does not match, the number is saved with the note \"Number not validated\" — check it with your own eyes.",
+     "image": ""
+    },
+    {
+     "id": "seal",
+     "title": "Seal",
+     "text": "The seal number is read from the printed text. If the seal has a barcode that does not match the printed number, the app uses the printed number: barcodes sometimes come from a different series.",
+     "image": ""
+    },
+    {
+     "id": "container-exchange",
+     "title": "Container Exchange",
+     "text": "If you hand over a container to another driver at a stop and pick up theirs, log the exchange: which container was unloaded, which was loaded, the driver's name, and their truck plate number.",
+     "image": ""
+    },
+    {
+     "id": "photos",
+     "title": "Photos",
+     "text": "You can attach photos of paperwork at loading and unloading using \"Document Photo\". \"VIEW PHOTOS\" opens them full-screen.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "history",
+   "title": "Trip history and editing",
+   "intro": "History holds all your shifts and trips. Here you can view, search, edit, and delete them.",
+   "steps": [
+    {
+     "id": "history",
+     "title": "History",
+     "text": "Trips are grouped by shift: shift start and end, duration, mileage, and number of trips. Tap a trip to see its details: client, cargo, stops, odometers, waiting time, and photos. Search by client, container, or route. \"All trips\" shows them in a single list.",
+     "image": "img/en/history-history.png"
+    },
+    {
+     "id": "edit",
+     "title": "Edit trip",
+     "text": "\"Edit\" opens the same steps as when creating a trip, plus the times and points screen. Your changes are collected and saved only on the summary screen.\n\nIf an odometer edit affects other records (the next trip, the truck reading, or shift mileage), the app shows them before applying the change.",
+     "image": ""
+    },
+    {
+     "id": "delete",
+     "title": "Delete",
+     "text": "Delete a single trip with the trash icon, or delete several using selection mode. An active trip cannot be deleted — finish it first. If your phone is connected to the online app, the deletion will sync to your other devices as well.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "report",
+   "title": "Report and PDF",
+   "intro": "The report totals your work for a period: trips, mileage, working time, waiting time, fuel, and consumption.",
+   "steps": [
+    {
+     "id": "report",
+     "title": "Period Report",
+     "text": "Choose a period: \"Today\", \"Week\", \"Month\", or \"Custom\" dates. Cards show the totals. \"Export report\" creates a PDF with shifts, trips, stops, and refuels that you can share or print.",
+     "image": "img/en/report-report.png"
+    },
+    {
+     "id": "pdf",
+     "title": "What is in the PDF",
+     "text": "For each shift, the PDF lists the start and end times, truck and trailer, trips with clients, cargo, unloading and waiting times, odometers, and refuels. At the end are the \"Period totals\": shifts, trips, refuels, total distance, total duration, total fuel, average distance per shift, and average consumption.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "garage",
+   "title": "Garage: trucks and trailers",
+   "intro": "Garage stores your vehicles. It provides the rig drawings, plate numbers, trailer compatibility, mileage, and all vehicle settings.",
+   "steps": [
+    {
+     "id": "garage",
+     "title": "Garage",
+     "text": "Two tabs: \"Trucks\" and \"Trailers\". The active vehicle is highlighted. \"+ Add Truck\" and \"+ Add Trailer\" add a new one. Tapping a vehicle opens its management screen.\n\nWhile a trip is in progress, you cannot change vehicles in Garage — finish the trip first (to change trailers on the road, use \"Swap Trailer\").",
+     "image": "img/en/garage-garage.png"
+    },
+    {
+     "id": "truck-form",
+     "title": "Truck",
+     "text": "Plate number, truck type (\"Semi Truck\" or \"Rigid\"), and body type — chosen through a chain of picture questions — plus whether the truck has a crane or manipulator. You cannot have two vehicles with the same plate number in Garage.",
+     "image": ""
+    },
+    {
+     "id": "trailer-form",
+     "title": "Trailer",
+     "text": "Plate number, trailer type (semi-trailer or rigid trailer), and body type. For a fuel tanker or tanker: number of sections and volume of each; for a car transporter: number of car slots; for a refrigerated trailer: whether a generator (genset) is installed.",
+     "image": ""
+    },
+    {
+     "id": "vehicle-hub",
+     "title": "Vehicle management",
+     "text": "The vehicle screen brings everything about it together: \"Registration\", \"Documents\", \"Maintenance\", \"Inspection\", \"Axles and tyres\", \"Number plate\", and \"Paint\". \"Make Active\" selects it for work.",
+     "image": "img/en/garage-vehicle-hub.png"
+    },
+    {
+     "id": "vehicle-settings",
+     "title": "Vehicle settings",
+     "text": "Current odometer, service interval (kilometers, months, warning thresholds), starting point for the service countdown, axles, fuel tank volume, and your critical reserve (for the \"to reserve\" estimate). For a trailer with a unit: unit tank and unit critical reserve.",
+     "image": "img/en/garage-vehicle-settings.png"
+    },
+    {
+     "id": "plate-colors",
+     "title": "Number plate",
+     "text": "Plate background color and number color — just like on your real vehicle. If the combination is hard to read, the number is shown in black or white.",
+     "image": "img/en/garage-plate-colors.png"
+    },
+    {
+     "id": "rig-paint",
+     "title": "Paint",
+     "text": "Colors of the cab, crane, and body on the vehicle drawing. \"As drawn\" restores the original color.",
+     "image": "img/en/garage-rig-paint.png"
+    },
+    {
+     "id": "tyres",
+     "title": "Axles and tyres",
+     "text": "The axle diagram is drawn automatically from the number of axles; any axle can be switched between \"Single\" and \"Dual\". Tap a tyre to log a \"Tyre change\", \"Puncture\", \"Rotation\", or \"Something else\" — the entry is saved to History. \"Statistics\" shows the average distance between tyre changes and the most frequent position. A trailer has its own mileage, which you can enter.",
+     "image": "img/en/garage-tyres.png"
+    }
+   ]
+  },
+  {
+   "slug": "documents",
+   "title": "Documents and expiry dates",
+   "intro": "Vehicle and driver documents with page photos and expiry dates. The app reminds you before they expire.",
+   "steps": [
+    {
+     "id": "overview",
+     "title": "All documents",
+     "text": "The overview lists the documents for all vehicles and the driver in one place with their expiry status: how many days are left or \"expired\".",
+     "image": "img/en/documents-overview.png"
+    },
+    {
+     "id": "list",
+     "title": "Vehicle Documents",
+     "text": "Each vehicle has its own list: \"Vehicle registration\", \"Insurance\", \"Inspection\", and custom documents. Tap \"+\" to add a document.",
+     "image": "img/en/documents-list.png"
+    },
+    {
+     "id": "form",
+     "title": "Document",
+     "text": "Pick a document type or \"Custom document…\" and enter a name (for example, ADR permit). \"Valid until\" is the expiry date used for reminders. An inspection also has a \"Passed on\" date.",
+     "image": ""
+    },
+    {
+     "id": "pages",
+     "title": "Document pages",
+     "text": "Take photos of the document pages with the camera. You can open pages full-screen, swipe through them, and delete them one by one.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Expiry reminders",
+     "text": "Before a document expires, the app sends a notification and shows the \"Document expiry\" dialog when you open the app. \"Got it\" dismisses the dialog until the next reminder threshold. Driver documents (\"Driver's License\", \"Passport\", \"ADR Certificate\") are in \"Profile Settings\".",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "maintenance",
+   "title": "Maintenance and tyres",
+   "intro": "Maintenance: service records, intervals, and reminders when service is due.",
+   "steps": [
+    {
+     "id": "maintenance",
+     "title": "Maintenance",
+     "text": "At the top, you see how many kilometers or days remain until the next service, or by how much it is overdue. Below are your service records. Intervals and the starting point are set in the vehicle settings.",
+     "image": "img/en/maintenance-maintenance.png"
+    },
+    {
+     "id": "new-record",
+     "title": "Service record",
+     "text": "\"Log service\" opens a new record: odometer, date, what was done, and photos. The odometer at service cannot be higher than the current odometer.",
+     "image": ""
+    },
+    {
+     "id": "tyres",
+     "title": "Tyres",
+     "text": "Tyres are tracked on the axle diagram — see the \"Garage\" section, \"Axles and tyres\" step.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "address-book",
+   "title": "Address book and clients",
+   "intro": "Clients and their addresses, plus your own places. The book grows automatically whenever you enter a new client in a trip.",
+   "steps": [
+    {
+     "id": "book",
+     "title": "Address Book",
+     "text": "The \"Clients\" tab holds clients and their addresses; the \"Places\" tab holds your own locations. Hidden clients are not suggested when picking a client; \"Show hidden\" brings them back into the list.",
+     "image": "img/en/address-book-book.png"
+    },
+    {
+     "id": "clients",
+     "title": "Clients",
+     "text": "\"New client\" adds a client. A client that has trips cannot be deleted, but you can choose \"Remove from picker\". Past trips keep their client name.",
+     "image": ""
+    },
+    {
+     "id": "client",
+     "title": "Client",
+     "text": "Name, driver notes, and addresses. When you rename a client, the app checks whether that name is already in the book. If you delete a client, you can immediately reverse it by tapping \"Undo\".",
+     "image": "img/en/address-book-client.png"
+    },
+    {
+     "id": "add-address",
+     "title": "Address",
+     "text": "Address, label, and coordinates. You can save the coordinates from your current location. \"Open in navigator\" and \"Send\" share the location. A red mark highlights an address to watch out for (tight entrance, special site rules).",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "backup",
+   "title": "Backup and restore",
+   "intro": "A backup is a single file containing your entire logbook: trips, shifts, refuels, vehicles, and documents with photos.",
+   "steps": [
+    {
+     "id": "backup",
+     "title": "Create a backup",
+     "text": "Settings → Backup: \"Export Database (Backup)\" saves the file, and \"Share Backup\" sends it right away (email, messenger, cloud). You can make a backup at any time without interrupting your work.",
+     "image": ""
+    },
+    {
+     "id": "restore",
+     "title": "Restore",
+     "text": "\"Import Database (Restore)\" replaces all current data with the backup file. The app checks the file first: an unrelated file or a backup made with a newer version of the app will not be accepted. On a new phone, you can restore right on the first step of the first launch.",
+     "image": ""
+    },
+    {
+     "id": "cross",
+     "title": "Android and iPhone",
+     "text": "The backup format is the same on Android and iPhone: a file made on one can be restored on the other.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "online",
+   "title": "Online app",
+   "intro": "The online app is my.vecturabook.com: the same logbook in your browser and on your other devices.",
+   "steps": [
+    {
+     "id": "device-link",
+     "title": "Connect your phone",
+     "text": "Settings → \"Connect to VecturaBook\". Scan the QR code from the web cabinet, open the cabinet in your browser and confirm on your phone, or enter the code shown on screen. \"Disconnect this phone\" unlinks it.",
+     "image": "img/en/online-device-link.png"
+    },
+    {
+     "id": "sync",
+     "title": "Sync",
+     "text": "A connected phone automatically sends new entries and receives edits from your other devices. The status line shows \"All synced\" or how many entries are waiting to be sent. When offline, entries wait on your phone.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "settings",
+   "title": "Settings",
+   "intro": "Settings are organized into groups: \"Driver profile\", \"Phone & connection\", \"Documents (PDF)\", \"Backup\", and \"General settings\".",
+   "steps": [
+    {
+     "id": "settings",
+     "title": "Settings",
+     "text": "Here you will find \"Language & Region\", units, \"Theme\", \"Animations\", \"Fuel PDF\" and \"Trip history PDF\", \"Backup\", and connection to the online app.",
+     "image": "img/en/settings-settings.png"
+    },
+    {
+     "id": "profile",
+     "title": "Driver profile",
+     "text": "Your name for reports and driver documents: \"Driver's License\", \"Passport\", and \"ADR Certificate\" — with expiry dates and page photos.",
+     "image": "img/en/settings-profile.png"
+    },
+    {
+     "id": "language",
+     "title": "Language & Region",
+     "text": "\"App language\", \"GPS addresses\" language (\"Auto (by current country)\"), and \"Date Format\".",
+     "image": "img/en/settings-language.png"
+    },
+    {
+     "id": "units",
+     "title": "Units",
+     "text": "\"Distance\", \"Weight\", \"Volume\", \"Length / Size\", \"Temperature\", and \"Fuel consumption\". Presets: \"Metric\", \"Imperial\", \"Mixed\", or \"Custom\".",
+     "image": ""
+    },
+    {
+     "id": "theme",
+     "title": "Theme",
+     "text": "\"Light\", \"Dark\", or \"Auto\" (by \"Day starts\" and \"Night starts\" times). Presets: \"Kraft\", \"Dark Kraft\", \"Manila\", \"Almost White\", \"Dark\". You can also build your own.",
+     "image": "img/en/settings-theme.png"
+    },
+    {
+     "id": "theme-custom",
+     "title": "Custom theme",
+     "text": "Colors for \"Background\", \"Text\", \"Top bar\", \"Card\", \"Field border\", \"Captions\", \"Buttons and highlight\", \"Refuel icon\", and \"Parking icon\". You can save a theme, rename it, and assign it to Light or Dark mode.",
+     "image": ""
+    },
+    {
+     "id": "animations",
+     "title": "Animations",
+     "text": "\"Moving scenes for unloading and refuelling\". You can turn them off.",
+     "image": ""
+    },
+    {
+     "id": "about",
+     "title": "About",
+     "text": "App version, \"Website\", Telegram, Facebook, and a way to \"Support the project\". The app was formerly called CargoLog — only the name has changed.",
+     "image": ""
+    },
+    {
+     "id": "feedback",
+     "title": "Feedback / Bug Report",
+     "text": "Send a \"Bug Report\", a \"Suggestion\", or \"Other\" message. You can attach a screenshot or photo. Also in the menu: \"Check for updates\" and \"Rate the app\".",
+     "image": ""
+    },
+    {
+     "id": "help",
+     "title": "Help",
+     "text": "\"Help\" is the table of contents of this manual: \"General\" sections and sections \"By vehicle type\". Each one opens right here, step by step.",
+     "image": "img/en/settings-help.png"
+    }
+   ]
+  },
+  {
+   "slug": "notifications",
+   "title": "Notifications and reminders",
+   "intro": "The app lets you know what is running now and what is coming due soon.",
+   "steps": [
+    {
+     "id": "timers",
+     "title": "Timers",
+     "text": "Waiting, refueling, and unloading timers keep running when the app is minimized: the timer is shown in the notification shade. Tap the notification to return to the app.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Document expiry",
+     "text": "Document expiry notifications arrive in advance and on the day a document expires.",
+     "image": ""
+    },
+    {
+     "id": "permissions",
+     "title": "Permissions",
+     "text": "If notifications, camera, or location permissions are turned off, the app will show you where to allow them in your phone's settings.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics",
+   "title": "Diagnostics channel",
+   "intro": "The diagnostic channel sends data from your phone to the developer so failures can be investigated on real data. It is off unless you switch it on yourself.",
+   "steps": [
+    {
+     "id": "enroll",
+     "title": "Register on the server",
+     "text": "Read the consent text and, if you agree, tap \"I agree, register this phone\". \"Revoke this phone\" turns the channel off and erases the certificate.",
+     "image": "img/en/diagnostics-enroll.png"
+    },
+    {
+     "id": "channel-settings",
+     "title": "What to send",
+     "text": "Three switches: \"Application activity logs\", \"Trip database\", and \"Container number photos\". Each one is off until you switch it on, and you can switch it off at any time. While all three are off, nothing is sent. The app does not read your photo gallery.",
+     "image": ""
+    },
+    {
+     "id": "warning",
+     "title": "Warning",
+     "text": "Opening the service screens starts with a warning. You can leave right away by tapping \"Get me out of here\".",
+     "image": ""
+    },
+    {
+     "id": "server",
+     "title": "Channel server",
+     "text": "Connection status: on air, silent, no network, or server not accepting. Everything ready to send waits on your phone — there is nothing you need to do.",
+     "image": ""
+    },
+    {
+     "id": "import",
+     "title": "Channel bundle",
+     "text": "For company or test phones, a channel bundle can be installed from a password-protected .p12 file. The password is used once and is never saved.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "service",
+   "title": "Service screens",
+   "intro": "Service screens are used for troubleshooting failures. To enter, tap 7 times on the \"About\" screen. You do not need them in everyday work.",
+   "steps": [
+    {
+     "id": "hub",
+     "title": "Service hub",
+     "text": "Information about the app and phone, access to service screens and the diagnostic channel, and the animation gallery.",
+     "image": ""
+    },
+    {
+     "id": "database",
+     "title": "Database",
+     "text": "Database status and full app reset. A reset permanently erases everything — make a backup first.",
+     "image": ""
+    },
+    {
+     "id": "logs",
+     "title": "Logs",
+     "text": "Application activity logs for troubleshooting.",
+     "image": ""
+    },
+    {
+     "id": "ocr",
+     "title": "OCR",
+     "text": "Diagnostics for camera number recognition.",
+     "image": ""
+    },
+    {
+     "id": "system",
+     "title": "System",
+     "text": "Information about the phone and crash reports.",
+     "image": ""
+    },
+    {
+     "id": "locale",
+     "title": "Language and onboarding",
+     "text": "Language checks and re-running the first-launch steps.",
+     "image": ""
+    },
+    {
+     "id": "dataset",
+     "title": "Camera frames",
+     "text": "Capturing frames to train number recognition — only when photo consent is enabled.",
+     "image": ""
+    },
+    {
+     "id": "splash-tuner",
+     "title": "Splash screen",
+     "text": "Startup splash screen settings.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "flatbed",
+   "title": "Flatbed",
+   "intro": "A flatbed carries general and oversized cargo.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In Garage",
+     "text": "Select the \"Flatbed\" body type and enter the \"Flatbed length\".",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "On a trip",
+     "text": "Cargo types: \"General\" (pallets, weight, description), \"Oversized\" (length, width, height, weight), or \"Container\" on a flatbed. For oversized cargo, the \"Load details\" step asks for the dimensions.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Unloading",
+     "text": "Pallets are unloaded at each stop by count or by percentage.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "container",
+   "title": "Container",
+   "intro": "A container chassis carries one or two 20ft, 40ft, or 45ft containers.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In Garage",
+     "text": "Body type \"Container\", plus the \"Container Size\" the trailer is built for.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "On a trip",
+     "text": "Chain of questions: \"Empty or laden?\", \"Container size?\", \"How many containers?\", \"Container type?\" (\"Standard\", Reefer, Flat Rack, Open Top, Tank). Scan the container number and seal number with the camera. Venta seal number and temperature are available for Reefer.",
+     "image": ""
+    },
+    {
+     "id": "fate",
+     "title": "After unloading",
+     "text": "The app asks what happened to the container: left with the client, still on the truck, going to another client, or returning to a port or depot.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "sidelifter",
+   "title": "Sidelifter",
+   "intro": "A sidelifter loads and unloads containers by itself.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In Garage",
+     "text": "The \"Sidelifter\" body type is only available for a semi-trailer.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "On a trip",
+     "text": "Enter the container the same way as for a container chassis; mark \"Working with crane\" on the trip summary.",
+     "image": ""
+    },
+    {
+     "id": "exchange",
+     "title": "Exchange",
+     "text": "A sidelifter often swaps containers at a stop — use \"Container Exchange\".",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "refrigerated",
+   "title": "Refrigerated",
+   "intro": "A refrigerated vehicle carries temperature-controlled cargo.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In Garage",
+     "text": "Body type \"Refrigerated\"; check \"Generator (genset) installed\" if it has one, and enter the \"Unit tank, l\" and \"Unit critical reserve, l\".",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "On a trip",
+     "text": "\"Temperature-controlled?\": \"Controlled\" or \"Ambient\", plus cargo temperature. On the driving screen, use the \"Trailer unit running\" switch.",
+     "image": ""
+    },
+    {
+     "id": "fuel",
+     "title": "Unit fuel",
+     "text": "Enter trailer unit diesel in its own field when refueling; the app tracks unit hours and consumption in L/h and shows \"≈ N h to reserve\".",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "curtainsider",
+   "title": "Curtainsider",
+   "intro": "A curtainsider carries general cargo on pallets.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In Garage",
+     "text": "Body type \"Curtainsider\".",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "On a trip",
+     "text": "General cargo: \"Number of pallets\", \"Total weight (kg)\", and \"Cargo description\".",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Unloading",
+     "text": "At each stop, mark how many pallets were unloaded; the app remembers how many remain on board.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tipper",
+   "title": "Tipper",
+   "intro": "A tipper carries bulk cargo.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In Garage",
+     "text": "Body type \"Tipper\".",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "On a trip",
+     "text": "Bulk cargo: \"Volume (m³)\", \"Weight Netto (kg)\" and \"Weight Brutto (kg)\", and \"Cargo description\".",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Unloading",
+     "text": "Unloading is logged by time; the cargo handling timer shows how long it took.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fuel-tanker",
+   "title": "Fuel Tanker",
+   "intro": "A fuel tanker carries fuel in separate sections.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In Garage",
+     "text": "Body type \"Fuel Tanker\"; \"Number of Sections\" and the volume of each section in liters.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "On a trip",
+     "text": "In \"Cargo Details\", enter the volume for each section.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Unloading",
+     "text": "At each stop, select the unloaded sections. If any sections are still not delivered when you finish the trip, the app will ask you to confirm.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tanker",
+   "title": "Tanker",
+   "intro": "A tanker carries liquid cargo.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In Garage",
+     "text": "Body type \"Tanker\"; sections and their volumes.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "On a trip",
+     "text": "\"Liquid category\": \"Chemicals\", \"Food-grade\", or \"Waste\"; \"Temperature controlled\"; ADR with UN numbers for dangerous goods.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Unloading",
+     "text": "Sections are unloaded at each stop the same way as on a fuel tanker.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "car-transporter",
+   "title": "Car Transporter",
+   "intro": "A car transporter carries passenger vehicles.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In Garage",
+     "text": "Body type \"Car Transporter\"; \"Number of car slots\".",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "On a trip",
+     "text": "Add vehicles by VIN (17 characters, no I, O, or Q) or by \"License plate\"; you can scan the VIN with the camera. A counter shows how many vehicles are loaded.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Unloading",
+     "text": "At each stop, mark which vehicles were dropped and which were picked up. If vehicles are still on board when you finish the trip, the app will ask you to confirm.",
+     "image": ""
+    }
+   ]
+  }
+ ],
+ "screens": {
+  "getting-started.welcome": "First launch: name, truck, trailer, and permissions. Have a backup? Restore your entire logbook.",
+  "getting-started.onboarding": "Answer a few questions about yourself and your vehicle. You can change everything later in Settings and Garage.",
+  "getting-started.main-screen": "The Main Screen shows where you are in your workday and leads to the next step: shift, trip, or unloading.",
+  "getting-started.menu": "App menu: Garage, Trip History, Report, Refuel Log, Maintenance, Vehicle Documents, Address Book, Help, and Settings.",
+  "shift.shift-welcome": "Starting a shift: your location, waiting for a trip, and the \"Start Trip\" button.",
+  "shift.shift-status": "Whether the shift is open, since when, and how many trips are in it.",
+  "trip.origin": "Client and address for origin or destination. A new client is added to the Address Book automatically.",
+  "trip.cargo-type": "What are you carrying? The list depends on the body type of your truck and trailer.",
+  "trip.cargo-details": "Cargo Details: container and seal numbers, sections, vehicles, pallets. Numbers can be scanned with the camera.",
+  "trip.load-details": "Dimensions, weight, and description of the cargo.",
+  "trip.trip-times": "Edit times, addresses, and odometer readings of a saved trip.",
+  "trip.confirm": "Trip Summary. Check the details and tap \"Start trip\" — only then is the trip saved.",
+  "trip.arrival": "At the stop: arrival, and starting and stopping unloading or loading.",
+  "trip.unload": "What was unloaded or loaded at this stop: sections, percentage, pallets, or vehicles.",
+  "trip.cargo-fate": "What happens next with the container after unloading.",
+  "trip.summary": "Trip Summary: next stop, finish trip, or start a new trip.",
+  "driving.driving": "Trip in progress: arrival, refuel, parking stop. Below the truck is the estimated distance or time to fuel reserve.",
+  "driving.odometer": "Odometer reading. The app fills in the expected value and checks the number; you can also scan it with the camera.",
+  "driving.swap-trailer": "Swap Trailer on the road: pick a trailer from your Garage.",
+  "refuel.refuel-timer": "Refueling in progress: timer. When finished, enter the liters.",
+  "refuel.refuel-data": "Liters of diesel, AdBlue, and trailer unit fuel, plus odometer. Saved as a single entry.",
+  "refuel.refuel-history": "All refuels for the period, average consumption, and PDF report.",
+  "parking.parking-stop": "Parking address: enter by hand, pick from saved places, or detect from GPS.",
+  "parking.places": "Your own places: truck stops, ports, depots. Used when parking and when returning a container.",
+  "parking.place-form": "Place name, note, and coordinates; open in navigator.",
+  "camera.scan": "Aim the number into the frame. Pinch the frame tight around the number; tap outside to take the shot.",
+  "camera.container-exchange": "Container Exchange with another driver: what you dropped and what you picked up.",
+  "camera.photos": "Full-screen photos of trip documents.",
+  "history.history": "All shifts and trips: search, details, editing, and deletion.",
+  "report.report": "Period totals and PDF report.",
+  "garage.garage": "Your trucks and trailers. Tap a vehicle to open its management screen.",
+  "garage.truck-form": "Plate number, truck type, and body type; crane or manipulator.",
+  "garage.trailer-form": "Plate number, trailer type, and body type; sections, car slots, generator.",
+  "garage.vehicle-hub": "Everything about the vehicle: documents, maintenance, inspection, axles and tyres, number plate, paint.",
+  "garage.vehicle-settings": "Odometer, service intervals, axles, fuel tank, and critical reserve.",
+  "garage.plate-colors": "Number plate colors, just like on your vehicle.",
+  "garage.rig-paint": "Cab, crane, and body colors on the vehicle drawing.",
+  "garage.tyres": "Axle diagram and tyre history: tyre changes, punctures, rotations.",
+  "documents.overview": "All vehicle and driver documents with expiry dates.",
+  "documents.list": "Documents for this vehicle. Tap \"+\" to add one.",
+  "documents.form": "Document type, name, and expiry date.",
+  "documents.pages": "Photos of document pages.",
+  "maintenance.maintenance": "Distance or days until next service and service records.",
+  "maintenance.new-record": "New service record: odometer, date, work done, photos.",
+  "address-book.book": "Clients and your own places.",
+  "address-book.clients": "Client list: add, hide, or delete.",
+  "address-book.client": "Client name, driver notes, and addresses.",
+  "address-book.add-address": "Address, coordinates, navigator, and red mark.",
+  "backup.backup": "Single file with your whole logbook: export, share, or restore.",
+  "online.device-link": "Connect your phone to the online app: QR code or on-screen code.",
+  "settings.settings": "All settings organized by group.",
+  "settings.profile": "Driver name and driver documents.",
+  "settings.language": "App language, GPS addresses language, and date format.",
+  "settings.theme": "Light, Dark, or Auto; preset and custom themes.",
+  "settings.theme-custom": "Colors for your custom theme.",
+  "settings.about": "App version and how to get in touch with the developer.",
+  "settings.feedback": "Report a bug or send a suggestion.",
+  "settings.help": "User manual organized by section.",
+  "diagnostics.enroll": "Consent and phone registration in the diagnostic channel.",
+  "diagnostics.warning": "Entering the service screens of the app.",
+  "diagnostics.channel-settings": "What the phone sends to the developer: three separate consent switches.",
+  "diagnostics.server": "Connection status of the diagnostic channel.",
+  "diagnostics.import": "Install a channel bundle from a .p12 file.",
+  "service.hub": "Service hub: device info and service screens.",
+  "service.database": "Database status and full app reset.",
+  "service.logs": "Application activity logs.",
+  "service.ocr": "Diagnostics for camera number recognition.",
+  "service.system": "Phone information and crash reports.",
+  "service.locale": "Language checks and re-running first launch.",
+  "service.dataset": "Capturing camera frames for recognition training.",
+  "service.splash-tuner": "Startup splash screen settings."
+ }
+}

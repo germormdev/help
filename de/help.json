@@ -1,0 +1,978 @@
+{
+ "format": 1,
+ "language": "de",
+ "revision": "2026-10-26",
+ "sections": [
+  {
+   "slug": "getting-started",
+   "title": "Erste Schritte",
+   "intro": "VecturaBook ist das Fahrtenbuch für LKW-Fahrer: Schichten, Fahrten, Tankvorgänge, Parkpausen, Dokumente und Fuhrpark auf einem Telefon. Alles wird auf dem Telefon gespeichert und funktioniert ohne Internet.",
+   "steps": [
+    {
+     "id": "welcome",
+     "title": "Erster Start",
+     "text": "Beim ersten Start stellt die App ein paar Fragen in vier kurzen Schritten. Das dauert nur eine Minute. Alle Angaben können Sie später in den Einstellungen und im Fuhrpark ändern.\n\nWenn Sie bereits ein Backup von VecturaBook haben (zum Beispiel vom alten Telefon), tippen Sie im ersten Schritt auf „Aus Backup wiederherstellen“: Das gesamte Fahrtenbuch wird wiederhergestellt und die Fragen entfallen.",
+     "image": "img/de/getting-started-welcome.png"
+    },
+    {
+     "id": "onboarding",
+     "title": "Name, LKW, Anhänger, Berechtigungen",
+     "text": "Schritt 1 — Name. Er steht auf den Berichten. Sie können das Feld leer lassen und später ausfüllen.\n\nSchritt 2 — Zugmaschine oder LKW: Kennzeichen, Typ und Aufbauart. Typ und Aufbauart wählen Sie über Bilder Schritt für Schritt aus: Nach jeder Antwort zeigt die App die nächste Frage.\n\nSchritt 3 — Anhänger. Sie können ihn mit „Anhänger überspringen“ auslassen und später im Fuhrpark hinzufügen.\n\nSchritt 4 — Berechtigungen: Kamera (Containernummern, Plomben, Kilometerstand), Standort (Stadt beim Schichtstart, nur auf Ihre Anfrage) und Benachrichtigungen (Timer für Warten, Tanken und Entladen). Sie können jede Berechtigung ablehnen — die App funktioniert trotzdem, nur ohne diese Funktion.",
+     "image": "img/de/getting-started-onboarding.png"
+    },
+    {
+     "id": "main-screen",
+     "title": "Hauptbildschirm",
+     "text": "Der Hauptbildschirm zeigt Ihren aktuellen Arbeitsstand: Schicht nicht gestartet, Schicht läuft, in Fahrt, am Entladeort und so weiter. Die Schaltflächen führen immer zum nächsten Schritt, sodass Sie nichts vergessen können.\n\nOben befindet sich die Leiste mit der Menü-Schaltfläche links und der Schaltfläche „?“ rechts. Das „?“ gibt es auf jedem Bildschirm: Es erklärt den Bildschirm kurz und öffnet über „Mehr“ das passende Kapitel in diesem Handbuch.",
+     "image": "img/de/getting-started-main-screen.png"
+    },
+    {
+     "id": "menu",
+     "title": "Menü",
+     "text": "Die Schaltfläche mit den drei Strichen öffnet das Kachelmenü: Fuhrpark, Fahrtenverlauf, Bericht, Tankbuch, Wartung, Fahrzeugdokumente, Adressbuch, Hilfe. Unten stehen die Einstellungen.\n\nAuf jedem anderen Bildschirm steht anstelle des Menüs der Pfeil „Zurück“.",
+     "image": "img/de/getting-started-menu.png"
+    },
+    {
+     "id": "help-offline",
+     "title": "Hilfe ohne Internet",
+     "text": "Die App lädt die Texte dieses Handbuchs in Ihrer Sprache herunter und speichert sie auf dem Gerät. Deshalb funktionieren „?“ und „Hilfe“ unterwegs auch ohne Netz. Einmal täglich prüft die App bei Internetverbindung im Hintergrund, ob es Neuerungen gibt.\n\nWenn die Hilfe noch nie heruntergeladen wurde, bittet die App um eine Internetverbindung.",
+     "image": "img/de/getting-started-help-offline.png"
+    }
+   ]
+  },
+  {
+   "slug": "shift",
+   "title": "Schicht",
+   "intro": "Eine Schicht ist ein Arbeitstag von Anfang bis Ende. Zur Schicht gehören Fahrten, Tankvorgänge und Parkpausen; die Summen der Schicht gehen in den Verlauf und in die Berichte ein.",
+   "steps": [
+    {
+     "id": "shift-welcome",
+     "title": "Schicht starten",
+     "text": "Tippen Sie auf „Schicht starten“. Die App begrüßt Sie und zeigt Ihren Standort: Die Stadt wird per Standortbestimmung ermittelt, sofern Sie diese erlaubt haben. Andernfalls tippen Sie auf die Zeile mit der Stecknadel und tragen den Ort selbst ein.\n\nWenn noch keine Fahrt ansteht, tippen Sie auf „Warte auf Fahrt“ — der Wartetimer läuft an. Mit „Warten stoppen“ halten Sie ihn an. Die Wartezeit vor der Fahrt wird im Verlauf und im Bericht erfasst.\n\nSobald eine Fahrt vorliegt, tippen Sie auf „Fahrt starten“.",
+     "image": "img/de/shift-shift-welcome.png"
+    },
+    {
+     "id": "shift-status",
+     "title": "Schichtstatus",
+     "text": "Der Bildschirm „Schicht“ zeigt, ob die Schicht offen ist, seit wann sie läuft und wie viele Fahrten sie enthält. „Schicht fortsetzen“ bringt Sie zurück zur Arbeit.\n\nSolange eine Fahrt läuft, kann die Schicht nicht beendet werden: Beenden Sie zuerst die Fahrt.",
+     "image": "img/de/shift-shift-status.png"
+    },
+    {
+     "id": "end-shift",
+     "title": "Schicht beenden",
+     "text": "Die rote Schaltfläche „Schicht beenden“ ist die einzige rote Schaltfläche in der App. Die App fragt nach und bittet um den letzten Kilometerstand. Die Zahl wird geprüft: Ist sie kleiner als der vorige Stand oder ungewöhnlich hoch, zeigt die App den letzten bekannten Stand und bittet Sie, den Wert zu bestätigen oder zu korrigieren.",
+     "image": ""
+    },
+    {
+     "id": "forgotten-shift",
+     "title": "Vergessene Schicht",
+     "text": "Wenn eine Schicht länger als einen Tag offen ist, schlägt die App vor, sie mit der Uhrzeit des letzten Ereignisses zu schließen — so wird die Arbeitszeit im Bericht nicht verfälscht. Sie können zustimmen oder die Schicht fortsetzen.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "trip",
+   "title": "Tour: vom Laden bis zum Entladen",
+   "intro": "Eine Fahrt wird Schritt für Schritt erfasst: Start und Ziel, was Sie transportieren, Ladungsdetails, Zusammenfassung — und dann „Losfahren“. Am Ziel folgen Ankunft, Ent- oder Beladung und der Abschluss. Solange Sie nicht auf „Losfahren“ getippt haben, wird nichts ins Fahrtenbuch eingetragen: Sie können in jedem Schritt mit „Zurück“ zurückgehen, ohne dass Ihre Eingaben verloren gehen.",
+   "steps": [
+    {
+     "id": "origin",
+     "title": "Kunde & Route",
+     "text": "Wählen Sie den Kunden: Tippen Sie den Namen an — die App macht Vorschläge aus dem Adressbuch. Einen neuen Kunden tippen Sie einfach ein; er wird automatisch im Adressbuch gespeichert.\n\nEin Kunde kann mehrere Adressen haben — wählen Sie die passende aus oder fügen Sie eine neue hinzu. Das GPS-Symbol trägt die Adresse Ihres aktuellen Standorts ein. Ihre Fahrernotizen zum Kunden sehen Sie direkt hier.",
+     "image": "img/de/trip-origin.png"
+    },
+    {
+     "id": "cargo-type",
+     "title": "Was transportierst du?",
+     "text": "Den Ladungstyp wählen Sie über Kacheln: Container, Stückgut, Sperrgut, Kühltransport, Tankwagen, Schüttgut, Autotransporter, Leer. Die Auswahl richtet sich nach der Aufbauart von LKW und Anhänger.\n\nWenn Sie den Ladungstyp ändern, nachdem bereits Details eingegeben wurden, warnt die App, dass die Eingaben gelöscht werden, und fragt nach einer Bestätigung.",
+     "image": "img/de/trip-cargo-type.png"
+    },
+    {
+     "id": "cargo-details",
+     "title": "Ladungsdetails",
+     "text": "Die Details hängen vom Ladungstyp ab. Beim Container: leer oder beladen, Größe, Anzahl der Container, Typ, Containernummer und Plombennummer. Die Nummern lassen sich mit der Kamera scannen. Bei Tankwagen: Kammern und Volumina. Beim Autotransporter: Fahrzeuge nach VIN oder Kennzeichen. Bei Stückgut: Paletten und Gewicht.\n\nWenn für die Fahrt keine Details nötig sind (zum Beispiel bei Leerfahrt), tippen Sie einfach auf „Weiter“.\n\nDer Schalter ADR öffnet die Felder für die UN-Nummern bei Gefahrgut.",
+     "image": "img/de/trip-cargo-details.png"
+    },
+    {
+     "id": "load-details",
+     "title": "Ladungsdetails",
+     "text": "Für Sperrgut und Übermaß-Container auf der Pritsche geben Sie Länge, Breite, Höhe, Gewicht und eine Beschreibung an. Die Maße werden in den Einheiten eingetragen, die in den Einstellungen gewählt sind.",
+     "image": "img/de/trip-load-details.png"
+    },
+    {
+     "id": "trip-times",
+     "title": "Zeiten und Fahrtpunkte",
+     "text": "Dieser Bildschirm erscheint nur beim Bearbeiten einer bereits gespeicherten Fahrt aus dem Verlauf. Hier ändern Sie Startzeit, Ankunftszeit, Start- und Endzeit der Ladearbeiten sowie die Adressen und Kilometerstände der Fahrtpunkte.\n\nZeiten, die es bei der Fahrt nicht gab, werden als Strich angezeigt und sind nicht änderbar: Beim Bearbeiten wird nichts nachträglich hinzuerfunden, was nicht stattgefunden hat.",
+     "image": ""
+    },
+    {
+     "id": "confirm",
+     "title": "Fahrtzusammenfassung",
+     "text": "Die Zusammenfassung zeigt die gesamte Fahrt auf einem Bildschirm. Hier setzen Sie auch die Markierungen: „In Kabine schlafen“, „Militäreinsatz“, „Gefahrenzone“, „Temperaturkontrolliert“, „Kranarbeiten“ (falls der LKW einen Kran hat).\n\n„Ändern“ führt zurück zu den Eingabeschritten. Die grüne Schaltfläche „Losfahren“ speichert die Fahrt und startet sie. Wenn auf dem Telefon eine Navigations-App installiert ist, bietet die App an, die Adresse dort zu öffnen.",
+     "image": "img/de/trip-confirm.png"
+    },
+    {
+     "id": "arrival",
+     "title": "Ankunft",
+     "text": "Tippen Sie am Ziel auf „Angekommen“. Die App merkt sich die Uhrzeit und schlägt den Kilometerstand vor.\n\n„Entladung/Beladung starten“ startet den Timer für die Ladearbeiten, „Entladung/Beladung stoppen“ hält ihn an. Falls etwas nicht gespeichert werden konnte (zum Beispiel weil das Telefon kurz hing), meldet die App das und bittet Sie, noch einmal zu tippen — es werden keine halben Einträge gespeichert.",
+     "image": "img/de/trip-arrival.png"
+    },
+    {
+     "id": "unload",
+     "title": "Ent-/Beladung an diesem Stopp",
+     "text": "Wenn die Ladung in Teilmengen abgeliefert wird, geben Sie an, was an diesem Stopp abgeladen wurde: Kammern des Tankwagens, Prozent des Containers, Paletten oder bestimmte Fahrzeuge vom Autotransporter. Die App merkt sich den Restbestand an Bord und lässt nicht zu, dass mehr abgeladen wird als vorhanden ist.",
+     "image": ""
+    },
+    {
+     "id": "cargo-fate",
+     "title": "Was ist mit dem Container?",
+     "text": "Nach dem Entladen fragt die App, was mit dem Container geschieht: „Bleibt hier“, „Bleibt auf dem Fahrzeug“, fährt „Zum Kunden“, geht als „Rückgabe“ an einen Ort (Hafen, Depot) oder an eine „Andere Adresse“. Ihre Antwort bestimmt den nächsten Schritt der Fahrt.",
+     "image": "img/de/trip-cargo-fate.png"
+    },
+    {
+     "id": "summary",
+     "title": "Fahrtzusammenfassung",
+     "text": "Nach einem Stopp wählen Sie „Fahrt fortsetzen“ (nächster Halt derselben Fahrt), „Fahrt beenden“ oder „Neue Fahrt“.\n\nMit „Nächste Fahrt vorab ausfüllen“ können Sie schon während des Entladens die nächste Fahrt eintragen — Kunde, Ladung, Nummern. Danach startet „Beenden und losfahren“ die neue Fahrt sofort.",
+     "image": "img/de/trip-summary.png"
+    }
+   ]
+  },
+  {
+   "slug": "driving",
+   "title": "Fahrbildschirm",
+   "intro": "Während eine Fahrt läuft, zeigt der Hauptbildschirm „In Fahrt“: das Fahrzeug der Fahrt, die Kennzeichen von LKW und Anhänger, die Fahrzeit und die Schaltflächen für die nächsten Schritte.",
+   "steps": [
+    {
+     "id": "driving",
+     "title": "In Fahrt",
+     "text": "Die Schaltflächen auf dem Bildschirm sind: „Angekommen“ (Sie sind am Ziel), „Tanken“, „Parken / Stopp“. Über den Schaltflächen sehen Sie die Zeichnung Ihres Fahrzeugs mit den Kennzeichen; das Bild setzt sich aus den Angaben im Fuhrpark zusammen: Typ, Aufbau, Achsen und Farben.\n\nWenn im Fuhrpark das Tankvolumen und Ihre kritische Reserve eingetragen sind, steht unter dem Fahrzeug die geschätzte Restreichweite: „≈ N km bis zur Reserve“ für den Diesel des LKW und „≈ N h bis zur Reserve“ für das Aggregat des Anhängers (Kühlaggregat, Genset). Berechnet wird das aus Ihren Tankvorgängen und der Laufleistung — direkt nach dem ersten Tanken wird der Wert daher noch nicht angezeigt.",
+     "image": "img/de/driving-driving.png"
+    },
+    {
+     "id": "swap-trailer",
+     "title": "Anhänger tauschen",
+     "text": "Um unterwegs den Anhänger zu wechseln, tippen Sie auf „Anhänger tauschen“. Im Fenster sehen Sie die Anhänger aus Ihrem Fuhrpark mit Zeichnung und Kennzeichen darunter. Wählen Sie den neuen Anhänger — der Wechsel wird in der Fahrt vermerkt. Anhänger, die nicht zum LKW passen, werden in der Liste nicht angeboten.",
+     "image": "img/de/driving-swap-trailer.png"
+    },
+    {
+     "id": "odometer",
+     "title": "Kilometerstand",
+     "text": "Die App trägt den erwarteten Stand vorab ein: vom Fahrzeug, vom Beladen, vom letzten Entladen oder vom Tanken. Prüfen Sie den Wert und korrigieren Sie ihn bei Bedarf. Sie können den Kilometerstand auch mit der Kamera scannen.\n\nWenn die Zahl kleiner ist als der vorige Stand, ungewöhnlich weit darüber liegt oder unverändert gelassen wurde, zeigt die App den letzten bekannten Stand und fragt nach, ob alles stimmt. Wenn Sie den Kilometerstand einer früheren Fahrt ändern, zeigt die App vorab, welche weiteren Einträge davon betroffen sind.",
+     "image": "img/de/driving-odometer.png"
+    }
+   ]
+  },
+  {
+   "slug": "refuel",
+   "title": "Tanken, AdBlue, Aggregat",
+   "intro": "Tankvorgänge werden für den Kraftstoffverbrauch, die Berichte und die Anzeige „bis zur Reserve“ benötigt.",
+   "steps": [
+    {
+     "id": "refuel-timer",
+     "title": "Tank-Timer",
+     "text": "„Tanken“ auf dem Fahrbildschirm startet den Timer — die Tankzeit wird im Fahrtenbuch erfasst. „Tanken beenden“ stoppt den Timer und öffnet die Litereingabe. Der Timer läuft auch in der Benachrichtigungsleiste weiter, wenn die App im Hintergrund ist.",
+     "image": "img/de/refuel-refuel-timer.png"
+    },
+    {
+     "id": "refuel-data",
+     "title": "Liter und Kilometerstand",
+     "text": "Tragen Sie die getankten Liter Diesel ein sowie bei Bedarf AdBlue und den Diesel für das Aggregat des Anhängers (Kühlaggregat, Genset). Der Kilometerstand ist voreingetragen; er lässt sich auch mit der Kamera scannen. „Tankvorgang speichern“ legt alles in einem gemeinsamen Eintrag ab.",
+     "image": "img/de/refuel-refuel-data.png"
+    },
+    {
+     "id": "unit",
+     "title": "Aggregat des Anhängers",
+     "text": "Wenn am Anhänger ein Generator verbaut ist, aktivieren Sie das in den „Anhänger-Einstellungen“. Dann erscheint auf dem Fahrbildschirm der Schalter „Aggregat läuft“. Die App zählt die Betriebsstunden des Aggregats, berechnet den Verbrauch in Litern pro Stunde und zeigt beim Tanken ein eigenes Feld für den Aggregat-Diesel.",
+     "image": ""
+    },
+    {
+     "id": "refuel-history",
+     "title": "Tankbuch",
+     "text": "Das Tankbuch zeigt alle Tankvorgänge für eine Woche, einen Monat, die gesamte Zeit oder einen eigenen Zeitraum: Gesamtkraftstoff, Anzahl der Tankstopps und Durchschnittsverbrauch. Der AdBlue-Anteil am Diesel und der Aggregatverbrauch werden getrennt berechnet.\n\n„PDF-Bericht erstellen“ erzeugt einen Tankbericht als PDF, den Sie teilen können. Einzelne Tankvorgänge lassen sich auch löschen.",
+     "image": "img/de/refuel-refuel-history.png"
+    }
+   ]
+  },
+  {
+   "slug": "parking",
+   "title": "Parken und Ruhezeit",
+   "intro": "Ein Parkstopp ist eine Unterbrechung unterwegs: Pause, Nachtruhe oder Wartezeit. Er wird mit Adresse und Zeit in der Fahrt gespeichert.",
+   "steps": [
+    {
+     "id": "parking-stop",
+     "title": "Parken / Stopp",
+     "text": "Tippen Sie auf dem Fahrbildschirm auf „Parken / Stopp“. Sie können die Adresse von Hand eingeben, „Aus gespeicherten Orten“ wählen oder auf das GPS-Symbol tippen. Wenn keine Adresse ermittelt werden kann, trägt die App die Koordinaten ein — Sie können diese anpassen.\n\nÜbernachtungen in der Kabine werden im Verlauf und im Bericht gezählt.",
+     "image": "img/de/parking-parking-stop.png"
+    },
+    {
+     "id": "places",
+     "title": "Orte",
+     "text": "Orte sind Ihre eigenen Punkte unabhängig von Kunden: Parkplätze, Häfen, Depots, Tankstellen. Die Liste lässt sich nach Namen durchsuchen. Orte können Sie beim Parken und bei der Containerrückgabe auswählen.",
+     "image": ""
+    },
+    {
+     "id": "place-form",
+     "title": "Ort",
+     "text": "Name, Notiz und Koordinate. Die Koordinate können Sie vom aktuellen Standort übernehmen, ersetzen oder löschen. Mit „In Navigation öffnen“ und „Senden“ übergeben Sie den Punkt an Ihre Navigations-App oder in eine Nachricht.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "camera",
+   "title": "Kamera: Container und Plomben",
+   "intro": "Die Kamera liest Containernummern, Plombennummern, VIN und den Kilometerstand ab, damit Sie diese nicht von Hand eintippen müssen.",
+   "steps": [
+    {
+     "id": "scan",
+     "title": "Kamerarahmen",
+     "text": "Richten Sie die Nummer im Rahmen aus. Ziehen Sie den Rahmen mit zwei Fingern eng um die Nummer — so wird sie besser erkannt. „Rahmen drehen“ hilft bei senkrecht geschriebenen Nummern. Ein Tippen außerhalb des Rahmens löst die Aufnahme aus.",
+     "image": ""
+    },
+    {
+     "id": "container-number",
+     "title": "Containernummer",
+     "text": "Eine Containernummer besteht aus 4 Buchstaben und 7 Ziffern. Die App prüft die Prüfziffer; stimmt sie nicht überein, wird die Nummer mit dem Hinweis „Nummer nicht validiert“ gespeichert — bitte prüfen Sie sie dann selbst.",
+     "image": ""
+    },
+    {
+     "id": "seal",
+     "title": "Plombe",
+     "text": "Die Plombennummer wird vom Aufdruck gelesen. Wenn auf der Plombe ein Barcode steht und dieser nicht mit der aufgedruckten Nummer übereinstimmt, übernimmt die App die gedruckte Nummer: Der Barcode stammt mitunter aus einer anderen Serie.",
+     "image": ""
+    },
+    {
+     "id": "container-exchange",
+     "title": "Container-Austausch",
+     "text": "Wenn Sie an einem Stopp einen Container an einen anderen Fahrer übergeben und dessen Container übernehmen, erfassen Sie den Austausch: welcher Container entladen und welcher geladen wurde, dazu den Fahrernamen und das LKW-Kennzeichen des Kollegen.",
+     "image": ""
+    },
+    {
+     "id": "photos",
+     "title": "Fotos",
+     "text": "Sie können einer Fahrt Fotos der Frachtpapiere beim Be- und Entladen anhängen: „Dokumentenfoto“. Mit „FOTOS ANSEHEN“ öffnen Sie die Bilder im Vollbild.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "history",
+   "title": "Tourverlauf und Bearbeitung",
+   "intro": "Der Verlauf enthält alle Schichten und Fahrten. Hier können Sie sie ansehen, durchsuchen, bearbeiten und löschen.",
+   "steps": [
+    {
+     "id": "history",
+     "title": "Verlauf",
+     "text": "Die Fahrten sind nach Schichten gruppiert: Schichtstart und Schichtende, Dauer, Strecke, Anzahl der Fahrten. Tippen Sie auf eine Fahrt, um die Details zu sehen: Kunde, Ladung, Fahrtpunkte, Kilometerstände, Wartezeit, Fotos. Gesucht werden kann nach Kunde, Container und Route. „Alle Fahrten“ zeigt sämtliche Fahrten in einer gemeinsamen Liste.",
+     "image": "img/de/history-history.png"
+    },
+    {
+     "id": "edit",
+     "title": "Fahrt bearbeiten",
+     "text": "„Bearbeiten“ öffnet dieselben Schritte wie beim Anlegen einer Fahrt, ergänzt um den Bildschirm für Zeiten und Fahrtpunkte. Alle Änderungen werden gesammelt und erst auf der Zusammenfassung gespeichert.\n\nWenn eine Änderung des Kilometerstands weitere Einträge betrifft (die nächste Fahrt, den LKW-Stand oder die Schichtkilometer), zeigt die App diese vor dem Übernehmen an.",
+     "image": ""
+    },
+    {
+     "id": "delete",
+     "title": "Löschen",
+     "text": "Eine einzelne Fahrt löschen Sie über das Papierkorb-Symbol, mehrere Fahrten über den Auswahlmodus. Eine aktive Fahrt kann nicht gelöscht werden — beenden Sie sie zuerst. Ist das Telefon mit dem Online-Programm verbunden, wird die Löschung auch auf Ihre anderen Geräte übertragen.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "report",
+   "title": "Bericht und PDF",
+   "intro": "Der Bericht berechnet Ihre Arbeit für einen Zeitraum: Fahrten, Gesamtstrecke, Arbeitszeit, Wartezeit, Kraftstoff und Durchschnittsverbrauch.",
+   "steps": [
+    {
+     "id": "report",
+     "title": "Zeitraum-Bericht",
+     "text": "Wählen Sie den Zeitraum: „Heute“, „Woche“, „Monat“ oder „Eigene“ Daten. Die Karten zeigen die Gesamtsummen. „Bericht exportieren“ erstellt ein PDF mit Schichten, Fahrten, Stopps und Tankvorgängen; Sie können es teilen oder ausdrucken.",
+     "image": "img/de/report-report.png"
+    },
+    {
+     "id": "pdf",
+     "title": "Inhalt des PDFs",
+     "text": "Im PDF stehen zu jeder Schicht Beginn und Ende, LKW und Anhänger, die Fahrten mit Kunden, Ladung, Entlade- und Wartezeiten, Kilometerständen sowie die Tankvorgänge. Am Ende folgen die „Zeitraum-Gesamtsummen“: Schichten, Fahrten, Tankvorgänge, Gesamtstrecke, Gesamtdauer, Gesamtkraftstoff, „Ø-Strecke pro Schicht“ und „Ø-Verbrauch“.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "garage",
+   "title": "Fuhrpark: Zugmaschinen und Anhänger",
+   "intro": "Im Fuhrpark sind Ihre Fahrzeuge gespeichert. Daraus stammen die Fahrzeugzeichnungen, Kennzeichen, die Kompatibilität der Anhänger, die Kilometerstände und alle Fahrzeugeinstellungen.",
+   "steps": [
+    {
+     "id": "garage",
+     "title": "Fuhrpark",
+     "text": "Es gibt zwei Reiter: „LKW“ und „Anhänger“. Das aktive Fahrzeug ist hervorgehoben. Mit „+ LKW hinzufügen“ und „+ Anhänger hinzufügen“ legen Sie ein neues Fahrzeug an. Ein Tippen auf ein Fahrzeug öffnet dessen Verwaltung.\n\nSolange eine Fahrt läuft, kann das Fahrzeug nicht gewechselt werden — beenden Sie zuerst die Fahrt (ein Anhängerwechsel unterwegs erfolgt über „Anhänger tauschen“).",
+     "image": "img/de/garage-garage.png"
+    },
+    {
+     "id": "truck-form",
+     "title": "LKW",
+     "text": "Kennzeichen, Typ (Zugmaschine oder LKW) und Aufbauart wählen Sie Schritt für Schritt über Bilder aus; außerdem geben Sie an, ob ein Kran oder Manipulator vorhanden ist. Dasselbe Kennzeichen kann im Fuhrpark nicht zweimal vergeben werden.",
+     "image": ""
+    },
+    {
+     "id": "trailer-form",
+     "title": "Anhänger",
+     "text": "Kennzeichen, Kupplungsart (Sattelauflieger oder Anhänger) und Aufbauart. Beim Tankwagen geben Sie die Anzahl der Kammern und das Volumen jeder Kammer an, beim Autotransporter die Anzahl der Autostellplätze, beim Kühlauflieger, ob ein Generator verbaut ist.",
+     "image": ""
+    },
+    {
+     "id": "vehicle-hub",
+     "title": "Fahrzeugverwaltung",
+     "text": "Der Fahrzeugbildschirm bündelt alles zum Fahrzeug: „Zulassung“, „Dokumente“, „Wartung“, „Inspektion“, „Achsen und Reifen“, „Kennzeichen“ und „Lackierung“. Mit „Aktivieren“ wählen Sie das Fahrzeug für den Einsatz aus.",
+     "image": "img/de/garage-vehicle-hub.png"
+    },
+    {
+     "id": "vehicle-settings",
+     "title": "Fahrzeugeinstellungen",
+     "text": "Aktueller Kilometerstand, Wartungsintervall (Kilometer, Monate, Warnschwellen), Startpunkt für die Wartung, Achsen, Tankinhalt und Ihre kritische Reserve (für die Anzeige „bis zur Reserve“). Bei einem Anhänger mit Aggregat tragen Sie auch den Tank des Aggregats und dessen Reserve ein.",
+     "image": "img/de/garage-vehicle-settings.png"
+    },
+    {
+     "id": "plate-colors",
+     "title": "Kennzeichen",
+     "text": "Hintergrundfarbe des Kennzeichens und Farbe der Nummer — genau wie an Ihrem Fahrzeug. Wenn die Farbkombination schlecht lesbar ist, wird die Nummer schwarz oder weiß dargestellt.",
+     "image": "img/de/garage-plate-colors.png"
+    },
+    {
+     "id": "rig-paint",
+     "title": "Lackierung",
+     "text": "Farbe von Fahrerhaus, Kran und Aufbau auf der Fahrzeugzeichnung. „Wie gezeichnet“ stellt die ursprüngliche Farbe wieder her.",
+     "image": "img/de/garage-rig-paint.png"
+    },
+    {
+     "id": "tyres",
+     "title": "Achsen und Reifen",
+     "text": "Das Achsschema wird anhand der Achsanzahl automatisch gezeichnet; jede Achse lässt sich zwischen „Einzeln“ und „Zwilling“ umschalten. Tippen Sie auf einen Reifen: „Reifenwechsel“, „Reifenpanne“, „Umsetzen“ oder „Etwas anderes“ — der Eintrag landet im Verlauf. Die Statistik zeigt die durchschnittliche Laufleistung zwischen Reifenwechseln und die häufigste Position. Der Anhänger hat eine eigene Laufleistung, die Sie eintragen können.",
+     "image": "img/de/garage-tyres.png"
+    }
+   ]
+  },
+  {
+   "slug": "documents",
+   "title": "Dokumente und Fristen",
+   "intro": "Dokumente für Fahrzeug und Fahrer mit Seitenfotos und Ablaufdaten. Die App erinnert Sie rechtzeitig an ablaufende Fristen.",
+   "steps": [
+    {
+     "id": "overview",
+     "title": "Alle Dokumente",
+     "text": "Die Übersicht zeigt die Dokumente aller Fahrzeuge und des Fahrers in einer Liste samt Fristen: wie viele Tage noch verbleiben oder „abgelaufen“.",
+     "image": "img/de/documents-overview.png"
+    },
+    {
+     "id": "list",
+     "title": "Fahrzeugdokumente",
+     "text": "Jedes Fahrzeug hat seine eigene Liste: „Fahrzeugschein“, „Versicherung“, „Inspektion“ und eigene Dokumente. Über „+“ fügen Sie ein Dokument hinzu.",
+     "image": "img/de/documents-list.png"
+    },
+    {
+     "id": "form",
+     "title": "Dokument",
+     "text": "Wählen Sie den Typ oder „Eigenes Dokument…“ und geben Sie den Namen ein (zum Beispiel ADR-Schein). „Gültig bis“ ist das Ablaufdatum, nach dem sich die Erinnerungen richten. Bei der Inspektion gibt es zusätzlich das Feld „Geprüft am“.",
+     "image": ""
+    },
+    {
+     "id": "pages",
+     "title": "Seiten",
+     "text": "Fotografieren Sie die Seiten des Dokuments mit der Kamera. Die Seiten lassen sich im Vollbild öffnen, durchblättern und einzeln löschen.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Fristerinnerungen",
+     "text": "Vor Ablauf der Frist sendet die App eine Benachrichtigung und zeigt beim Start das Fenster „Dokumentenfristen“. Mit „Verstanden“ schließen Sie das Fenster bis zur nächsten Warnschwelle. Die Dokumente des Fahrers (Führerschein, Reisepass, ADR-Bescheinigung) finden Sie in den Profileinstellungen.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "maintenance",
+   "title": "Wartung und Reifen",
+   "intro": "Wartung: Einträge, Intervalle und rechtzeitige Erinnerungen.",
+   "steps": [
+    {
+     "id": "maintenance",
+     "title": "Wartung",
+     "text": "Oben sehen Sie, wie viele Kilometer oder Tage bis zur nächsten Wartung bleiben oder um wie viel sie überfällig ist. Darunter stehen die Wartungseinträge. Intervalle und Startpunkt legen Sie in den Fahrzeugeinstellungen fest.",
+     "image": "img/de/maintenance-maintenance.png"
+    },
+    {
+     "id": "new-record",
+     "title": "Wartungseintrag",
+     "text": "„Wartung erfassen“ öffnet einen neuen Eintrag: Kilometerstand, Datum, was gemacht wurde, Fotos. Der Kilometerstand beim Service darf nicht höher sein als der aktuelle Stand.",
+     "image": ""
+    },
+    {
+     "id": "tyres",
+     "title": "Reifen",
+     "text": "Die Reifen verwalten Sie im Achsschema — unter „Fuhrpark“ im Schritt „Achsen und Reifen“.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "address-book",
+   "title": "Adressbuch und Kunden",
+   "intro": "Kunden mit ihren Adressen sowie Ihre eigenen Orte. Das Adressbuch füllt sich von selbst, sobald Sie bei einer Fahrt einen neuen Kunden eintragen.",
+   "steps": [
+    {
+     "id": "book",
+     "title": "Adressbuch",
+     "text": "Im Reiter „Kunden“ stehen die Kunden mit ihren Adressen; im Reiter „Orte“ Ihre eigenen Punkte. Ausgeblendete Kunden werden bei der Auswahl nicht vorgeschlagen; „Ausgeblendete anzeigen“ holt sie wieder in die Liste.",
+     "image": "img/de/address-book-book.png"
+    },
+    {
+     "id": "clients",
+     "title": "Kunden",
+     "text": "„Neuer Kunde“ legt einen Kunden an. Ein Kunde, zu dem bereits Fahrten gehören, kann nicht gelöscht werden — Sie können ihn aber mit „Aus Auswahl entfernen“ ausblenden. Frühere Fahrten behalten ihren Kundennamen.",
+     "image": ""
+    },
+    {
+     "id": "client",
+     "title": "Kunde",
+     "text": "Name, Fahrernotiz und Adressen. Beim Umbenennen prüft die App, ob der Name bereits vergeben ist. Ein versehentliches Löschen können Sie sofort über „Rückgängig“ widerrufen.",
+     "image": "img/de/address-book-client.png"
+    },
+    {
+     "id": "add-address",
+     "title": "Adresse",
+     "text": "Adresse, Bezeichnung und Koordinate. Die Koordinate lässt sich vom aktuellen Standort speichern. „In Navigation öffnen“ und „Senden“ geben den Punkt weiter. Eine rote Markierung hebt Adressen hervor, bei denen besondere Vorsicht gilt (schwierige Zufahrt, besondere Vorschriften).",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "backup",
+   "title": "Sicherung und Wiederherstellung",
+   "intro": "Ein Backup ist eine einzelne Datei mit Ihrem gesamten Fahrtenbuch: Fahrten, Schichten, Tankvorgänge, Fuhrpark und Dokumente samt Fotos.",
+   "steps": [
+    {
+     "id": "backup",
+     "title": "Backup erstellen",
+     "text": "„Einstellungen“ → „Sicherung“: „Datenbank exportieren (Backup)“ speichert die Datei auf dem Gerät, „Backup teilen“ versendet sie direkt (E-Mail, Messenger, Cloud). Sie können jederzeit ein Backup erstellen — die laufende Arbeit wird nicht unterbrochen.",
+     "image": ""
+    },
+    {
+     "id": "restore",
+     "title": "Wiederherstellen",
+     "text": "„Datenbank importieren (Restore)“ ersetzt alle aktuellen Daten durch die Backup-Datei. Die App prüft die Datei vorab: Eine fremde Datei oder ein Backup aus einer neueren App-Version wird nicht angenommen. Auf einem neuen Telefon können Sie das Backup direkt im ersten Schritt beim ersten Start wiederherstellen.",
+     "image": ""
+    },
+    {
+     "id": "cross",
+     "title": "Android und iPhone",
+     "text": "Das Backup-Format ist auf Android und iPhone gleich: Eine Datei, die auf dem einen Gerät erstellt wurde, lässt sich auf dem anderen wiederherstellen.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "online",
+   "title": "Programm online",
+   "intro": "Das Online-Programm unter my.vecturabook.com: dasselbe Fahrtenbuch im Browser und auf Ihren weiteren Geräten.",
+   "steps": [
+    {
+     "id": "device-link",
+     "title": "Telefon verbinden",
+     "text": "„Einstellungen“ → „Mit VecturaBook verbinden“. Scannen Sie den QR-Code aus Ihrem Web-Konto, öffnen Sie das Konto im Browser und bestätigen Sie auf dem Telefon, oder geben Sie den auf dem Bildschirm angezeigten Code ein. Mit „Dieses Telefon trennen“ heben Sie die Verbindung wieder auf.",
+     "image": "img/de/online-device-link.png"
+    },
+    {
+     "id": "sync",
+     "title": "Synchronisierung",
+     "text": "Ein verbundenes Telefon sendet neue Einträge automatisch und empfängt Änderungen von Ihren anderen Geräten. Die Statuszeile zeigt „Alles synchronisiert“ oder wie viele Einträge noch ausstehen. Ohne Netz warten die Einträge auf dem Telefon.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "settings",
+   "title": "Einstellungen",
+   "intro": "Die Einstellungen sind in Gruppen geordnet: „Fahrerprofil“, „Telefon & Verbindung“, „Dokumente (PDF)“, „Sicherung“ und „Allgemeine Einstellungen“.",
+   "steps": [
+    {
+     "id": "settings",
+     "title": "Einstellungen",
+     "text": "Hier finden Sie „Sprache & Region“, Einheiten, „Thema“, „Animationen“, „Tank-PDF“ und „Fahrten-PDF“, „Sicherung“ sowie die Verbindung zum Online-Programm.",
+     "image": "img/de/settings-settings.png"
+    },
+    {
+     "id": "profile",
+     "title": "Fahrerprofil",
+     "text": "Ihr Name für die Berichte und die Dokumente des Fahrers: „Führerschein“, „Reisepass“, „ADR-Bescheinigung“ — jeweils mit Ablaufdatum und Fotos der Seiten.",
+     "image": "img/de/settings-profile.png"
+    },
+    {
+     "id": "language",
+     "title": "Sprache & Region",
+     "text": "„App-Sprache“, Sprache für „GPS-Adressen“ (automatisch nach aktuellem Land) und „Datumsformat“.",
+     "image": "img/de/settings-language.png"
+    },
+    {
+     "id": "units",
+     "title": "Einheiten",
+     "text": "„Entfernung“, „Gewicht“, „Volumen“, „Länge / Größe“, „Temperatur“ und „Kraftstoffverbrauch“. Vorlagen für das Einheitensystem: „Metrisch“, „Imperial“, „Gemischt“ — oder „Benutzerdefiniert“.",
+     "image": ""
+    },
+    {
+     "id": "theme",
+     "title": "Thema",
+     "text": "„Hell“, „Dunkel“ oder „Automatisch“ (nach Tagesbeginn und Nachtbeginn). Fertige „Vorlagen“: „Kraftpapier“, „Dunkles Kraftpapier“, „Manila“, „Fast Weiß“, „Dunkel“. Sie können auch ein eigenes Thema erstellen.",
+     "image": "img/de/settings-theme.png"
+    },
+    {
+     "id": "theme-custom",
+     "title": "Eigenes Thema",
+     "text": "Farben für „Hintergrund“, „Schrift“, „Obere Leiste“, „Karte“, „Feldrahmen“, „Beschriftungen“, „Schaltflächen und Hervorhebung“ sowie „Tank-Symbol“ und „Park-Symbol“. Sie können das Thema speichern, umbenennen und dem hellen oder dunklen Modus zuweisen.",
+     "image": ""
+    },
+    {
+     "id": "animations",
+     "title": "Animationen",
+     "text": "Bewegte Szenen beim Entladen und Tanken. Sie lassen sich ausschalten.",
+     "image": ""
+    },
+    {
+     "id": "about",
+     "title": "Über VecturaBook",
+     "text": "Version, Website, Telegram, Facebook und die Möglichkeit, das Projekt zu unterstützen. Früher hieß die App CargoLog — geändert hat sich nur der Name.",
+     "image": ""
+    },
+    {
+     "id": "feedback",
+     "title": "Feedback / Fehler melden",
+     "text": "Einen Fehler melden, einen Vorschlag einreichen oder sonstiges Feedback schreiben. Sie können einen Screenshot oder ein Foto anhängen. Ebenfalls im Menü: „Nach Updates suchen“ und „App bewerten“.",
+     "image": ""
+    },
+    {
+     "id": "help",
+     "title": "Hilfe",
+     "text": "„Hilfe“ ist das Inhaltsverzeichnis dieses Handbuchs: allgemeine Kapitel und Kapitel „Nach Fahrzeugtyp“. Jedes Kapitel öffnet sich direkt hier Schritt für Schritt.",
+     "image": "img/de/settings-help.png"
+    }
+   ]
+  },
+  {
+   "slug": "notifications",
+   "title": "Benachrichtigungen und Erinnerungen",
+   "intro": "Die App informiert Sie über laufende Vorgänge und über anstehende Fristen.",
+   "steps": [
+    {
+     "id": "timers",
+     "title": "Timer",
+     "text": "Warten, Tanken und Entladen laufen auch weiter, wenn die App im Hintergrund ist: Der Timer bleibt in der Benachrichtigungsleiste sichtbar. Tippen Sie auf die Benachrichtigung, um zur App zurückzukehren.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Dokumentenfristen",
+     "text": "Benachrichtigungen über ablaufende Dokumente kommen rechtzeitig im Voraus sowie am Tag des Ablaufs.",
+     "image": ""
+    },
+    {
+     "id": "permissions",
+     "title": "Berechtigungen",
+     "text": "Wenn Benachrichtigungen, Kamera oder Standortzugriff gesperrt sind, zeigt die App Ihnen, wo Sie diese in den Telefoneinstellungen freigeben können.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics",
+   "title": "Diagnosekanal",
+   "intro": "Der Diagnosekanal sendet Daten vom Telefon an den Entwickler, damit Fehler anhand echter Daten untersucht werden können. Er ist ausgeschaltet, solange Sie ihn nicht selbst einschalten.",
+   "steps": [
+    {
+     "id": "enroll",
+     "title": "Telefon registrieren",
+     "text": "Lesen Sie die Einwilligung und tippen Sie, wenn Sie einverstanden sind, auf „Ich stimme zu, dieses Telefon registrieren“. Mit „Dieses Telefon widerrufen“ schalten Sie den Kanal ab und löschen das Zertifikat.",
+     "image": "img/de/diagnostics-enroll.png"
+    },
+    {
+     "id": "channel-settings",
+     "title": "Was gesendet wird",
+     "text": "Drei Schalter: „Protokolle der App-Aktivität“, „Fahrtendatenbank“, „Fotos von Containernummern“. Jeder Schalter ist aus, bis Sie ihn einschalten, und lässt sich jederzeit wieder ausschalten. Solange alle drei ausgeschaltet sind, wird nichts gesendet. Ihre Galerie liest die App nicht.",
+     "image": ""
+    },
+    {
+     "id": "warning",
+     "title": "Warnhinweis",
+     "text": "Vor dem Öffnen der Servicebildschirme erscheint ein Warnhinweis. Mit „Holt mich hier raus“ verlassen Sie den Bereich sofort wieder.",
+     "image": ""
+    },
+    {
+     "id": "server",
+     "title": "Kanalserver",
+     "text": "Verbindungsstatus: „Auf Sendung“, „STUMM“, kein Netz oder der Server nimmt nichts an. Alles, was zum Senden bereit ist, wartet auf dem Telefon — Sie müssen nichts tun.",
+     "image": ""
+    },
+    {
+     "id": "import",
+     "title": "Kanalbündel",
+     "text": "Auf Diensttelefonen kann das Kanalbündel über eine passwortgeschützte .p12-Datei installiert werden. Das Passwort wird nur einmal verwendet und nicht gespeichert.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "service",
+   "title": "Servicebildschirme",
+   "intro": "Die Servicebildschirme dienen zur Fehlersuche. Sie erreichen sie durch siebenmaliges Tippen auf dem Bildschirm „Über VecturaBook“. Im normalen Arbeitsalltag werden sie nicht benötigt.",
+   "steps": [
+    {
+     "id": "hub",
+     "title": "Servicecenter",
+     "text": "Informationen zu App und Telefon, Zugang zu den Servicebildschirmen und zum Diagnosekanal sowie die Animationsgalerie.",
+     "image": ""
+    },
+    {
+     "id": "database",
+     "title": "Datenbank",
+     "text": "Zustand der Datenbank und vollständiges Zurücksetzen der App. Beim Zurücksetzen wird alles unwiderruflich gelöscht — erstellen Sie vorher ein Backup.",
+     "image": ""
+    },
+    {
+     "id": "logs",
+     "title": "Protokolle",
+     "text": "Protokolle der App-Aktivität zur Untersuchung von Fehlern.",
+     "image": ""
+    },
+    {
+     "id": "ocr",
+     "title": "Texterkennung",
+     "text": "Diagnose für das Erkennen von Nummern mit der Kamera.",
+     "image": ""
+    },
+    {
+     "id": "system",
+     "title": "System",
+     "text": "Angaben zum Telefon und zu App-Abstürzen.",
+     "image": ""
+    },
+    {
+     "id": "locale",
+     "title": "Sprache und Einrichtung",
+     "text": "Prüfung der Sprachdateien und erneutes Durchlaufen des ersten Starts.",
+     "image": ""
+    },
+    {
+     "id": "dataset",
+     "title": "Kamerabilder",
+     "text": "Aufnahme von Bildern zum Trainieren der Texterkennung — nur mit aktiver Einwilligung für Fotos.",
+     "image": ""
+    },
+    {
+     "id": "splash-tuner",
+     "title": "Startbildschirm",
+     "text": "Einstellungen für den Startbildschirm beim Öffnen der App.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "flatbed",
+   "title": "Pritsche",
+   "intro": "Die Pritsche transportiert Stückgut und Sperrgut.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Im Fuhrpark",
+     "text": "Wählen Sie die Aufbauart „Pritsche“ und geben Sie die „Pritschenlänge“ an.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Auf der Fahrt",
+     "text": "Ladungstypen: „Stückgut“ (Paletten, Gewicht, Beschreibung), „Sperrgut“ (Länge, Breite, Höhe, Gewicht) oder „Übermaß-Container“ auf der Pritsche. Bei Sperrgut fragt der Schritt „Ladungsdetails“ die Maße ab.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Entladung",
+     "text": "Paletten werden an den Stopps nach Stückzahl oder in Prozent abgeladen.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "container",
+   "title": "Container",
+   "intro": "Das Containerchassis transportiert 20-, 40- und 45-Fuß-Container, einzeln oder zu zweit.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Im Fuhrpark",
+     "text": "Aufbauart „Container“; dazu die Containergröße, für die der Anhänger ausgelegt ist.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Auf der Fahrt",
+     "text": "Fragenkette: „Leer“ oder „Beladen“, Größe, wie viele Container, Typ („Standard“, Reefer, Flat Rack, Open Top, Tank). Containernummer und Plombennummer scannen Sie mit der Kamera. Beim Reefer kommen Lüftungsplombe und Temperatur hinzu.",
+     "image": ""
+    },
+    {
+     "id": "fate",
+     "title": "Nach dem Entladen",
+     "text": "Die App fragt, was mit dem Container geschieht: bleibt beim Kunden, bleibt auf dem Fahrzeug, fährt weiter zu einem anderen Kunden oder geht zurück an Hafen oder Depot.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "sidelifter",
+   "title": "Seitenlader",
+   "intro": "Der Seitenlader hebt den Container selbst auf und setzt ihn ab.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Im Fuhrpark",
+     "text": "Die Aufbauart „Seitenlader“ gibt es nur beim Sattelauflieger.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Auf der Fahrt",
+     "text": "Der Container wird genauso eingetragen wie beim Containerchassis; die Kranarbeiten markieren Sie auf der Fahrtzusammenfassung.",
+     "image": ""
+    },
+    {
+     "id": "exchange",
+     "title": "Austausch",
+     "text": "Mit dem Seitenlader werden am Stopp häufig Container getauscht — nutzen Sie dafür „Container-Austausch“.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "refrigerated",
+   "title": "Kühlauflieger",
+   "intro": "Der Kühlauflieger transportiert temperaturgeführte Ladung.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Im Fuhrpark",
+     "text": "Aufbauart „Kühlauflieger“; aktivieren Sie „Generator (Genset) verbaut“, falls vorhanden, und tragen Sie „Tank des Aggregats, l“ sowie „Kritische Reserve des Aggregats, l“ ein.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Auf der Fahrt",
+     "text": "Temperaturführung: „Gekühlt“ oder „Ungekühlt“ sowie die Temperatur der Ladung. Auf dem Fahrbildschirm schalten Sie „Aggregat läuft“ ein.",
+     "image": ""
+    },
+    {
+     "id": "fuel",
+     "title": "Kraftstoff des Aggregats",
+     "text": "Den Diesel für das Aggregat tragen Sie beim Tanken in ein eigenes Feld ein; die App zählt die Betriebsstunden, berechnet den Verbrauch in Litern pro Stunde und zeigt „≈ N h bis zur Reserve“.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "curtainsider",
+   "title": "Planenauflieger",
+   "intro": "Der Planenauflieger transportiert Stückgut auf Paletten.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Im Fuhrpark",
+     "text": "Aufbauart „Planenauflieger“.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Auf der Fahrt",
+     "text": "Stückgut: „Anzahl Paletten“, „Gesamtgewicht (kg)“ und „Ladungsbeschreibung“.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Entladung",
+     "text": "Geben Sie an jedem Stopp an, wie viele Paletten abgeladen wurden; die App merkt sich den verbleibenden Bestand an Bord.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tipper",
+   "title": "Kipper",
+   "intro": "Der Kipper transportiert Schüttgut.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Im Fuhrpark",
+     "text": "Aufbauart „Kipper“.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Auf der Fahrt",
+     "text": "Schüttgut: Volumen in Kubikmetern, Netto- und Bruttogewicht sowie Beschreibung.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Entladung",
+     "text": "Die Entladung wird über die Zeit erfasst; der Timer für die Ladearbeiten zeigt die Dauer an.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fuel-tanker",
+   "title": "Tankwagen",
+   "intro": "Der Kraftstoff-Tankwagen transportiert Kraftstoff aufgeteilt auf einzelne Kammern.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Im Fuhrpark",
+     "text": "Aufbauart „Tankwagen“; dazu die Anzahl der Kammern und das Volumen jeder Kammer in Litern.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Auf der Fahrt",
+     "text": "In den Ladungsdetails tragen Sie das Volumen für jede Kammer ein.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Entladung",
+     "text": "Markieren Sie am Stopp die entladenen Kammern. Wenn beim Beenden der Fahrt noch nicht entladene Kammern übrig sind, fragt die App zur Sicherheit nach.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tanker",
+   "title": "Tankwagen",
+   "intro": "Der Tankwagen transportiert flüssige Güter.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Im Fuhrpark",
+     "text": "Aufbauart „Tankwagen“; dazu Kammern und Volumina.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Auf der Fahrt",
+     "text": "Flüssigkeitskategorie: „Chemikalien“, „Lebensmittel“, „Abfall“; „Temperaturkontrolliert“; dazu ADR mit UN-Nummern für Gefahrgut.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Entladung",
+     "text": "Die Kammern werden an den Stopps genauso abgeladen wie beim Kraftstoff-Tankwagen.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "car-transporter",
+   "title": "Autotransporter",
+   "intro": "Der Autotransporter befördert PKW.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Im Fuhrpark",
+     "text": "Aufbauart „Autotransporter“; dazu die „Anzahl Autostellplätze“.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Auf der Fahrt",
+     "text": "Die Fahrzeuge tragen Sie per VIN (17 Zeichen, ohne I, O, Q) oder per Kennzeichen ein; die VIN lässt sich mit der Kamera scannen. Der Zähler zeigt an, wie viele Fahrzeuge geladen sind.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Entladung",
+     "text": "Markieren Sie am Stopp, welche Fahrzeuge abgeladen und welche neu aufgeladen wurden. Sind beim Beenden der Fahrt noch Fahrzeuge an Bord, bittet die App um Bestätigung.",
+     "image": ""
+    }
+   ]
+  }
+ ],
+ "screens": {
+  "getting-started.welcome": "Erster Start: Name, LKW, Anhänger und Berechtigungen. Mit einem Backup stellen Sie das gesamte Fahrtenbuch wieder her.",
+  "getting-started.onboarding": "Beantworten Sie kurz die Fragen zu Ihrer Person und Ihrem Fahrzeug. Alles lässt sich später in den Einstellungen und im Fuhrpark ändern.",
+  "getting-started.main-screen": "Der Hauptbildschirm zeigt Ihren aktuellen Arbeitsstand und führt zum nächsten Schritt: Schicht, Fahrt, Entladung.",
+  "getting-started.menu": "App-Menü: Fuhrpark, Verlauf, Berichte, Tankbuch, Wartung, Dokumente, Adressbuch, Hilfe und Einstellungen.",
+  "shift.shift-welcome": "Schichtstart: Standort, Warten auf Fahrt und die Schaltfläche „Fahrt starten“.",
+  "shift.shift-status": "Ob die Schicht offen ist, seit wann sie läuft und wie viele Fahrten sie umfasst.",
+  "trip.origin": "Kunde und Adresse für Start oder Ziel. Neue Kunden werden automatisch im Adressbuch gespeichert.",
+  "trip.cargo-type": "Was Sie transportieren. Die Liste richtet sich nach dem Aufbau von LKW und Anhänger.",
+  "trip.cargo-details": "Ladungsdetails: Container- und Plombennummern, Kammern, Fahrzeuge, Paletten. Nummern lassen sich per Kamera scannen.",
+  "trip.load-details": "Maße, Gewicht und Beschreibung der Ladung.",
+  "trip.trip-times": "Zeiten, Adressen und Kilometerstände einer gespeicherten Fahrt bearbeiten.",
+  "trip.confirm": "Fahrtzusammenfassung. Prüfen Sie alles und tippen Sie auf „Losfahren“ — erst dann wird die Fahrt gespeichert.",
+  "trip.arrival": "Sie sind am Ziel: Ankunft sowie Beginn und Ende der Ent- oder Beladung.",
+  "trip.unload": "Was an diesem Stopp abgeladen wurde: Kammern, Prozent, Paletten oder Fahrzeuge.",
+  "trip.cargo-fate": "Was nach dem Entladen mit dem Container geschieht.",
+  "trip.summary": "Fahrtzusammenfassung: nächster Stopp, Fahrt beenden oder neue Fahrt.",
+  "driving.driving": "In Fahrt: Ankunft, Tanken, Parken. Unter dem Fahrzeug steht die geschätzte Restreichweite bis zur Reserve.",
+  "driving.odometer": "Kilometerstand. Die App schlägt den erwarteten Wert vor und prüft die Eingabe; auch per Kamera scannbar.",
+  "driving.swap-trailer": "Anhänger unterwegs tauschen: Wählen Sie einen Anhänger aus dem Fuhrpark.",
+  "refuel.refuel-timer": "Tankvorgang läuft: Timer. Danach geben Sie die Liter ein.",
+  "refuel.refuel-data": "Liter für Diesel, AdBlue und Anhänger-Aggregat sowie Kilometerstand. Wird als ein Eintrag gespeichert.",
+  "refuel.refuel-history": "Alle Tankvorgänge im Zeitraum, Durchschnittsverbrauch und PDF-Bericht.",
+  "parking.parking-stop": "Parkadresse: von Hand eingeben, aus gespeicherten Orten wählen oder per GPS ermitteln.",
+  "parking.places": "Eigene Orte: Parkplätze, Häfen, Depots. Auswählbar beim Parken und bei der Containerrückgabe.",
+  "parking.place-form": "Name, Notiz und Koordinate des Ortes; in der Navigation öffnen.",
+  "camera.scan": "Nummer im Rahmen ausrichten. Rahmen mit zwei Fingern eng zusammenziehen; außerhalb tippen für die Aufnahme.",
+  "camera.container-exchange": "Container-Austausch mit einem anderen Fahrer: was abgegeben und was übernommen wurde.",
+  "camera.photos": "Fotos der Frachtpapiere zur Fahrt im Vollbild.",
+  "history.history": "Alle Schichten und Fahrten: Suche, Details, Bearbeiten und Löschen.",
+  "report.report": "Gesamtsummen für den Zeitraum und PDF-Bericht.",
+  "garage.garage": "Ihre LKW und Anhänger. Tippen Sie auf ein Fahrzeug, um dessen Verwaltung zu öffnen.",
+  "garage.truck-form": "Kennzeichen, Typ und Aufbauart des LKW; Kran oder Manipulator.",
+  "garage.trailer-form": "Kennzeichen, Kupplungsart und Aufbauart des Anhängers; Kammern, Autostellplätze, Generator.",
+  "garage.vehicle-hub": "Alles zum Fahrzeug: Dokumente, Wartung, Inspektion, Achsen und Reifen, Kennzeichen, Lackierung.",
+  "garage.vehicle-settings": "Kilometerstand, Wartungsintervalle, Achsen, Tankinhalt und kritische Reserve.",
+  "garage.plate-colors": "Farben des Kennzeichens wie am eigenen Fahrzeug.",
+  "garage.rig-paint": "Farben von Fahrerhaus, Kran und Aufbau auf der Fahrzeugzeichnung.",
+  "garage.tyres": "Achsschema und Reifenverlauf: Reifenwechsel, Pannen, Umsetzen.",
+  "documents.overview": "Alle Dokumente der Fahrzeuge und des Fahrers mit Ablaufdaten.",
+  "documents.list": "Dokumente dieses Fahrzeugs. Mit „+“ fügen Sie neue hinzu.",
+  "documents.form": "Typ, Name und Ablaufdatum des Dokuments.",
+  "documents.pages": "Fotos der Dokumentenseiten.",
+  "maintenance.maintenance": "Restlaufstrecke oder Resttage bis zur Wartung sowie alle Wartungseinträge.",
+  "maintenance.new-record": "Neuer Wartungseintrag: Kilometerstand, Datum, durchgeführte Arbeiten, Fotos.",
+  "address-book.book": "Kunden und eigene Orte.",
+  "address-book.clients": "Kundenliste: hinzufügen, ausblenden, löschen.",
+  "address-book.client": "Name, Notiz und Adressen des Kunden.",
+  "address-book.add-address": "Adresse, Koordinate, Navigation und rote Markierung.",
+  "backup.backup": "Datei mit dem gesamten Fahrtenbuch: speichern, teilen oder wiederherstellen.",
+  "online.device-link": "Telefon mit dem Online-Programm verbinden: per QR-Code oder Bildschirmcode.",
+  "settings.settings": "Alle Einstellungen nach Gruppen geordnet.",
+  "settings.profile": "Fahrername und Dokumente des Fahrers.",
+  "settings.language": "App-Sprache, Sprache der GPS-Adressen und Datumsformat.",
+  "settings.theme": "Hell, Dunkel oder Automatisch; Vorlagen und eigene Themen.",
+  "settings.theme-custom": "Farben Ihres eigenen Themas.",
+  "settings.about": "App-Version und Kontakt zum Entwickler.",
+  "settings.feedback": "Fehler melden oder Vorschlag senden.",
+  "settings.help": "Handbuch zur App nach Kapiteln.",
+  "diagnostics.enroll": "Einwilligung und Registrierung des Telefons im Diagnosekanal.",
+  "diagnostics.warning": "Zugang zum Servicebereich der App.",
+  "diagnostics.channel-settings": "Was das Telefon an den Entwickler sendet: drei einzelne Einwilligungen.",
+  "diagnostics.server": "Verbindungsstatus des Diagnosekanals.",
+  "diagnostics.import": "Kanalbündel über eine .p12-Datei installieren.",
+  "service.hub": "Servicecenter: Gerätedaten und Servicebildschirme.",
+  "service.database": "Datenbankstatus und vollständiges Zurücksetzen der App.",
+  "service.logs": "Protokolle der App-Aktivität.",
+  "service.ocr": "Diagnose der Nummernerkennung.",
+  "service.system": "Angaben zum Telefon und zu Abstürzen.",
+  "service.locale": "Sprachprüfung und erneuter erster Start.",
+  "service.dataset": "Kamerabilder für die Texterkennung aufnehmen.",
+  "service.splash-tuner": "Einstellungen für den Startbildschirm."
+ }
+}

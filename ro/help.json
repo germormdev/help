@@ -1,0 +1,978 @@
+{
+ "format": 1,
+ "language": "ro",
+ "revision": "2026-10-26",
+ "sections": [
+  {
+   "slug": "getting-started",
+   "title": "Primii pași",
+   "intro": "VecturaBook este jurnalul de bord al șoferului: ture, curse, alimentări, parcări, documente și vehicule într-un singur telefon. Totul se păstrează pe telefon și funcționează fără internet.",
+   "steps": [
+    {
+     "id": "welcome",
+     "title": "Prima pornire",
+     "text": "La prima pornire, aplicația vă pune câteva întrebări — patru pași scurți. Îi puteți parcurge într-un minut, iar tot ce ați ales se poate modifica mai târziu în setări și în parc.\n\nDacă aveți deja o copie de siguranță VecturaBook (de exemplu, de pe vechiul telefon), apăsați „Restaurează din copia de siguranță” la primul pas: jurnalul va reveni complet și nu va mai fi nevoie de întrebări.",
+     "image": "img/ro/getting-started-welcome.png"
+    },
+    {
+     "id": "onboarding",
+     "title": "Nume, camion, remorcă, permisiuni",
+     "text": "Pasul 1 — numele. Acesta apare pe rapoarte. Îl puteți lăsa gol și îl puteți completa mai târziu.\n\nPasul 2 — capul tractor sau camionul: numărul de înmatriculare, tipul și caroseria. Tipul și caroseria se aleg din imagini, printr-un șir de întrebări: la fiecare răspuns, aplicația afișează întrebarea următoare.\n\nPasul 3 — remorca. Puteți trece peste acest pas cu butonul „Sari peste remorcă” și o puteți adăuga mai târziu în „Parcul meu”.\n\nPasul 4 — permisiuni: cameră (numere de container, sigilii, kilometraj), locație (orașul la începutul turei, doar când o cereți) și notificări (cronometre pentru așteptare, alimentare și descărcare). Puteți refuza oricare dintre ele — aplicația va funcționa, doar că fără acea opțiune.",
+     "image": "img/ro/getting-started-onboarding.png"
+    },
+    {
+     "id": "main-screen",
+     "title": "Ecran principal",
+     "text": "Ecranul principal arată în ce punct al muncii vă aflați: tura nu a început, tura este în desfășurare, cursa este în curs, sunteți la punctul de descărcare și așa mai departe. Butoanele de pe ecran vă duc mereu la pasul următor, așa că nu puteți omite nimic.\n\nSus se află bara cu butonul de meniu în stânga și butonul „?” în dreapta. Butonul „?” există pe fiecare ecran: explică pe scurt ecranul respectiv, iar prin butonul „Mai mult” deschide capitolul corespunzător din acest ghid.",
+     "image": "img/ro/getting-started-main-screen.png"
+    },
+    {
+     "id": "menu",
+     "title": "Meniu",
+     "text": "Butonul cu trei linii deschide meniul cu casete: „Parcul meu”, „Istoric curse”, „Raport”, „Jurnal alimentări”, „Întreținere”, „Documente vehicul”, „Agendă de adrese”, „Ajutor”. Jos se află „Setări”.\n\nPe oricare alt ecran, în locul butonului de meniu se află săgeata „înapoi”.",
+     "image": "img/ro/getting-started-menu.png"
+    },
+    {
+     "id": "help-offline",
+     "title": "Ajutor fără internet",
+     "text": "Aplicația descarcă textele acestui ghid în limba aleasă și le păstrează în telefon, astfel încât „?” și „Ajutor” funcționează pe drum și fără semnal. O dată pe zi, când există internet, aplicația verifică discret dacă au apărut noutăți.\n\nDacă ghidul nu a fost descărcat încă niciodată, aplicația vă va ruga să vă conectați la internet.",
+     "image": "img/ro/getting-started-help-offline.png"
+    }
+   ]
+  },
+  {
+   "slug": "shift",
+   "title": "Tură",
+   "intro": "Tura reprezintă ziua de lucru de la început până la sfârșit. În cadrul turei se înregistrează cursele, alimentările și opririle; totalurile turei ajung în istoric și în rapoarte.",
+   "steps": [
+    {
+     "id": "shift-welcome",
+     "title": "Începe tura",
+     "text": "Apăsați „Începe tura”. Aplicația vă salută și arată unde vă aflați: orașul este detectat prin locație, dacă ați permis accesul; altfel, apăsați pe rândul cu piuneza și scrieți singur locul.\n\nDacă nu aveți încă o cursă, apăsați „Aștept cursă” — va porni cronometrul de așteptare. „Oprește așteptarea” îl oprește. Așteptarea dinaintea cursei este inclusă în istoric și în raport.\n\nCând aveți o cursă, apăsați „Începe cursa”.",
+     "image": "img/ro/shift-shift-welcome.png"
+    },
+    {
+     "id": "shift-status",
+     "title": "Starea turei",
+     "text": "Ecranul „Tură” arată dacă tura este deschisă, când a fost deschisă și câte curse conține. „Continuă tura” vă readuce la lucru.\n\nNu puteți închide tura cât timp o cursă este neterminată: încheiați mai întâi cursa.",
+     "image": "img/ro/shift-shift-status.png"
+    },
+    {
+     "id": "end-shift",
+     "title": "Încheie tura",
+     "text": "Butonul roșu „Încheie tura” este singurul buton roșu din aplicație. Aplicația vă va cere confirmarea și kilometrajul final. Valoarea este verificată: dacă este mai mică decât cea anterioară sau mult mai mare decât cea așteptată, aplicația vă arată ultima valoare cunoscută și vă roagă să confirmați sau să corectați.",
+     "image": ""
+    },
+    {
+     "id": "forgotten-shift",
+     "title": "Tură uitată deschisă",
+     "text": "Dacă tura rămâne deschisă mai mult de o zi, aplicația vă propune să o închideți cu ora ultimului eveniment — astfel timpul de lucru din raport nu va fi umflat artificial. Puteți accepta sau puteți continua tura.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "trip",
+   "title": "Cursă: de la încărcare la descărcare",
+   "intro": "Cursa se înregistrează pas cu pas: de unde și încotro, ce transportați, detaliile mărfii, rezumatul — și „La drum”. La destinație — sosirea, descărcarea sau încărcarea, apoi rezumatul. Până nu apăsați „La drum”, nimic nu este salvat în jurnal: la orice pas vă puteți întoarce cu butonul „Înapoi”, fără să pierdeți ce ați completat.",
+   "steps": [
+    {
+     "id": "origin",
+     "title": "Client și traseu",
+     "text": "Alegeți clientul: începeți să scrieți numele, iar aplicația vă va sugera variante din agenda de adrese. Pentru un client nou, este suficient să îi scrieți numele: va fi salvat automat în agendă.\n\nUn client poate avea mai multe adrese — alegeți-o pe cea dorită sau adăugați una nouă. Pictograma GPS completează adresa după locația actuală. Notițele șoferului despre client sunt vizibile chiar aici.",
+     "image": "img/ro/trip-origin.png"
+    },
+    {
+     "id": "cargo-type",
+     "title": "Ce transporți",
+     "text": "Tipul de marfă se alege din casete: container, marfă generală, agabaritic, frigorific, cisternă, vrac, transportor auto, gol. Lista depinde de caroseria camionului și a remorcii.\n\nDacă schimbați tipul de marfă după ce ați introdus deja detaliile, aplicația vă avertizează că datele introduse vor fi șterse și vă cere confirmarea.",
+     "image": "img/ro/trip-cargo-type.png"
+    },
+    {
+     "id": "cargo-details",
+     "title": "Detalii marfă",
+     "text": "Detaliile depind de tipul de marfă. Pentru container — gol sau încărcat, dimensiunea, câte containere, tipul, numărul containerului și al sigiliului. Numerele pot fi scanate cu camera. Pentru cisterne — compartimentele și volumele, pentru transportorul auto — mașinile după VIN sau număr de înmatriculare, iar pentru marfă generală — paleții și greutatea.\n\nDacă pentru cursă nu sunt necesare detalii (de exemplu, când mergeți gol), apăsați pur și simplu „Înainte”.\n\nComutatorul ADR deschide câmpurile pentru numerele ONU (UN) pentru marfă periculoasă.",
+     "image": "img/ro/trip-cargo-details.png"
+    },
+    {
+     "id": "load-details",
+     "title": "Detalii încărcare",
+     "text": "Pentru marfă agabaritică și containere pe platformă — lungimea, lățimea, înălțimea, greutatea și descrierea. Dimensiunile sunt exprimate în unitățile alese în setări.",
+     "image": "img/ro/trip-load-details.png"
+    },
+    {
+     "id": "trip-times",
+     "title": "Orele și punctele cursei",
+     "text": "Acest ecran apare doar când editați o cursă deja salvată în istoric. Aici puteți corecta ora de plecare, de sosire, de începere și de încheiere a operațiunilor de manipulare, precum și adresele și kilometrajele punctelor.\n\nO oră care nu a existat în cursă este afișată cu liniuță și nu poate fi modificată: editarea nu adaugă în cursă evenimente care nu au avut loc.",
+     "image": ""
+    },
+    {
+     "id": "confirm",
+     "title": "Rezumat cursă",
+     "text": "Rezumatul arată întreaga cursă pe un singur ecran. Tot aici sunt opțiunile: „Dormit în cabină”, „Misiune militară”, „Zonă periculoasă”, „Temperatură controlată”, „Lucru cu macara” (dacă aveți macara pe camion).\n\n„Modifică” vă întoarce la pașii anteriori. Butonul verde „La drum” salvează cursa și o pornește. Dacă aveți o aplicație de navigație pe telefon, aplicația vă va propune să deschideți adresa în aceasta.",
+     "image": "img/ro/trip-confirm.png"
+    },
+    {
+     "id": "arrival",
+     "title": "Sosire",
+     "text": "La destinație, apăsați „Am ajuns”. Aplicația reține ora și vă propune kilometrajul.\n\n„Începe descărcarea/încărcarea” pornește cronometrul operațiunilor de manipulare, iar „Oprește descărcarea/încărcarea” îl oprește. Dacă ceva nu s-a salvat (de exemplu, telefonul s-a blocat pe moment), aplicația vă anunță și vă roagă să apăsați din nou — nimic nu rămâne salvat pe jumătate în jurnal.",
+     "image": "img/ro/trip-arrival.png"
+    },
+    {
+     "id": "unload",
+     "title": "Descărcarea la această oprire",
+     "text": "Dacă marfa se livrează pe părți, bifați ce ați predat la acest punct: compartimentele cisternei, procentul din container, paleții sau mașinile de pe transportorul auto. Aplicația ține minte cât a mai rămas la bord și nu vă lasă să descărcați mai mult decât aveți.",
+     "image": ""
+    },
+    {
+     "id": "cargo-fate",
+     "title": "Ce s-a întâmplat cu containerul",
+     "text": "După descărcare, aplicația vă întreabă ce urmează cu containerul: „A rămas aici”, „A rămas pe camion”, merge „La un client”, la „Returnare” către un loc (port, depozit) sau la „Altă adresă”. Răspunsul conduce la pasul următor al cursei.",
+     "image": "img/ro/trip-cargo-fate.png"
+    },
+    {
+     "id": "summary",
+     "title": "Rezumat cursă",
+     "text": "După un punct, puteți alege „Continuă cursa” (următoarea oprire din aceeași cursă), „Încheie cursa” sau „Cursă nouă”.\n\n„Completează cursa următoare” vă permite să pregătiți din timp, în timpul descărcării, datele pentru cursa următoare — clientul, marfa, numerele. Apoi „Termină și pleacă” o pornește imediat.",
+     "image": "img/ro/trip-summary.png"
+    }
+   ]
+  },
+  {
+   "slug": "driving",
+   "title": "Ecran de condus",
+   "intro": "Cât timp cursa este în desfășurare, ecranul principal este „În curs”: desenul camionului, numerele de înmatriculare ale camionului și remorcii, timpul de mers și butoanele pentru acțiunile următoare.",
+   "steps": [
+    {
+     "id": "driving",
+     "title": "În curs",
+     "text": "Butoanele ecranului sunt: „Am ajuns” (sunteți la destinație), „Alimentare”, „Parcare / Oprire”. Deasupra butoanelor apare desenul camionului dumneavoastră cu numerele sale de înmatriculare; desenul este compus din datele salvate în parc: tip, caroserie, axe, culori.\n\nDacă în parc ați completat capacitatea rezervorului și rezerva critică, sub camion se vede aproximativ cât mai aveți până la rezervă: „≈ N km până la rezervă” pentru motorina camionului și „≈ N h până la rezervă” pentru agregatul remorcii (frigorific, generator). Calculul se face după alimentările și rulajul dumneavoastră, așa că imediat după prima alimentare este posibil să nu apară încă.",
+     "image": "img/ro/driving-driving.png"
+    },
+    {
+     "id": "swap-trailer",
+     "title": "Schimbă remorca",
+     "text": "Pentru a schimba remorca pe traseu, apăsați „Schimbă remorca”. În fereastră apar remorcile din parc: desenul remorcii și numărul de înmatriculare dedesubt. Alegeți remorca nouă — schimbarea se va înregistra în cursă. Remorcile incompatibile cu camionul nu sunt afișate în listă.",
+     "image": "img/ro/driving-swap-trailer.png"
+    },
+    {
+     "id": "odometer",
+     "title": "Kilometraj",
+     "text": "Aplicația completează automat valoarea așteptată: de pe camion, de la încărcare, de la ultima descărcare sau de la alimentare. Verificați-o și corectați-o dacă este nevoie. Kilometrajul poate fi scanat și cu camera.\n\nDacă numărul este mai mic decât cel anterior, mult mai mare decât cel așteptat sau dacă nu l-ați modificat, aplicația vă arată ultima valoare cunoscută și vă întreabă dacă este corectă. Modificarea kilometrajului într-o cursă anterioară vă arată ce alte înregistrări vor fi afectate.",
+     "image": "img/ro/driving-odometer.png"
+    }
+   ]
+  },
+  {
+   "slug": "refuel",
+   "title": "Alimentare, AdBlue, agregat",
+   "intro": "Alimentările sunt folosite pentru calculul consumului de combustibil, pentru rapoarte și pentru estimarea „până la rezervă”.",
+   "steps": [
+    {
+     "id": "refuel-timer",
+     "title": "Cronometrul de alimentare",
+     "text": "Butonul „Alimentare” de pe ecranul de condus pornește cronometrul — durata alimentării intră în jurnal. „Încheie alimentarea” oprește cronometrul și deschide câmpul pentru introducerea litrilor. Cronometrul rămâne vizibil și în bara de notificări dacă aplicația este minimizată.",
+     "image": "img/ro/refuel-refuel-timer.png"
+    },
+    {
+     "id": "refuel-data",
+     "title": "Litri și kilometraj",
+     "text": "Introduceți motorina în litri și, dacă este cazul, AdBlue și motorina pentru agregatul remorcii (frigorific, generator). Kilometrajul este precompletat; îl puteți scana și cu camera. „Salvează alimentarea” înregistrează totul într-o singură intrare.",
+     "image": "img/ro/refuel-refuel-data.png"
+    },
+    {
+     "id": "unit",
+     "title": "Agregatul remorcii",
+     "text": "Dacă remorca are generator montat, bifați acest lucru în „Setări remorcă”. Atunci pe ecranul de condus apare comutatorul „Agregatul funcționează”, aplicația numără orele de funcționare ale agregatului și consumul său în litri pe oră, iar la alimentare apare câmpul pentru motorina agregatului.",
+     "image": ""
+    },
+    {
+     "id": "refuel-history",
+     "title": "Jurnal alimentări",
+     "text": "Jurnalul arată toate alimentările pe o săptămână, o lună, tot timpul sau o perioadă aleasă: combustibil total, numărul de alimentări și consumul mediu. Procentul de AdBlue față de motorină și consumul agregatului se calculează separat.\n\n„Generează raport PDF” creează un raport al alimentărilor pe care îl puteți trimite. O alimentare poate fi ștearsă.",
+     "image": "img/ro/refuel-refuel-history.png"
+    }
+   ]
+  },
+  {
+   "slug": "parking",
+   "title": "Parcare și odihnă",
+   "intro": "Parcarea este o oprire pe traseu: odihnă, înnoptare, așteptare. Se înregistrează în cursă cu adresa și durata ei.",
+   "steps": [
+    {
+     "id": "parking-stop",
+     "title": "Parcare / Oprire",
+     "text": "Pe ecranul de condus, apăsați „Parcare / Oprire”. Puteți introduce adresa manual, o puteți alege din locurile salvate sau puteți apăsa pictograma GPS. Dacă adresa nu a putut fi determinată, aplicația completează coordonatele — le puteți corecta.\n\nNopțile dormite în cabină sunt numărate în istoric și în raport.",
+     "image": "img/ro/parking-parking-stop.png"
+    },
+    {
+     "id": "places",
+     "title": "Locuri",
+     "text": "Locurile sunt punctele dumneavoastră proprii, care nu țin de clienți: parcări, porturi, depozite, benzinării. Lista poate fi căutată după nume. Locurile se aleg la parcare și la returnarea containerului.",
+     "image": ""
+    },
+    {
+     "id": "place-form",
+     "title": "Loc",
+     "text": "Nume, notă și coordonată. Coordonata poate fi salvată după locația curentă, înlocuită sau ștearsă. Butoanele „Deschide în navigație” și „Trimite” transmit punctul către aplicația de navigație sau într-un mesaj.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "camera",
+   "title": "Cameră: containere și sigilii",
+   "intro": "Camera citește numerele de container, de sigiliu, codul VIN și kilometrajul, ca să nu le tastați manual.",
+   "steps": [
+    {
+     "id": "scan",
+     "title": "Cadrul camerei",
+     "text": "Încadrați numărul în chenar. Strângeți cadrul cu două degete aproape de număr — așa se citește mai bine. „Rotește cadrul” este util pentru numerele scrise pe verticală. Atingerea în afara cadrului face poza.",
+     "image": ""
+    },
+    {
+     "id": "container-number",
+     "title": "Număr container",
+     "text": "Numărul containerului are 4 litere și 7 cifre. Aplicația verifică cifra de control; dacă numărul nu corespunde, este salvat cu mențiunea „Număr nevalidat” — verificați-l vizual.",
+     "image": ""
+    },
+    {
+     "id": "seal",
+     "title": "Sigiliu",
+     "text": "Numărul sigiliului se citește din inscripție. Dacă pe sigiliu există un cod de bare care nu corespunde cu numărul tipărit, aplicația ia numărul tipărit: codul de bare poate aparține altei serii.",
+     "image": ""
+    },
+    {
+     "id": "container-exchange",
+     "title": "Schimb de containere",
+     "text": "Dacă la un punct predați containerul altui șofer și preluați containerul lui, înregistrați schimbul: ce container a fost descărcat, ce container a fost încărcat, numele șoferului și numărul de înmatriculare al camionului său.",
+     "image": ""
+    },
+    {
+     "id": "photos",
+     "title": "Fotografii",
+     "text": "La cursă puteți atașa fotografii ale documentelor la încărcare și la descărcare: „Foto documente”. „Vezi pozele” le deschide pe tot ecranul.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "history",
+   "title": "Istoricul curselor și editare",
+   "intro": "Istoricul cuprinde toate turele și cursele. Aici le puteți consulta, căuta, edita și șterge.",
+   "steps": [
+    {
+     "id": "history",
+     "title": "Istoric",
+     "text": "Cursele sunt grupate pe ture: începutul și sfârșitul turei, durata, distanța, numărul de curse. Apăsați pe o cursă pentru a vedea detaliile: clientul, marfa, punctele, kilometrajele, așteptarea, fotografiile. Căutarea se face după client, container sau rută. „Toate cursele” le afișează într-o singură listă.",
+     "image": "img/ro/history-history.png"
+    },
+    {
+     "id": "edit",
+     "title": "Editează cursa",
+     "text": "„Editează” deschide aceiași pași ca la crearea cursei, plus ecranul pentru ore și puncte. Modificările se adună și se salvează doar în ecranul de rezumat.\n\nDacă modificarea kilometrajului afectează alte înregistrări (cursa următoare, indicația camionului, kilometrii turei), aplicația vi le arată înainte de aplicare.",
+     "image": ""
+    },
+    {
+     "id": "delete",
+     "title": "Ștergere",
+     "text": "O cursă se șterge cu butonul coș de gunoi; mai multe curse se șterg prin modul de selecție. O cursă activă nu poate fi ștearsă — încheiați-o mai întâi. Dacă telefonul este conectat la programul online, ștergerea se va transmite și pe celelalte dispozitive.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "report",
+   "title": "Raport și PDF",
+   "intro": "Raportul calculează activitatea pe o perioadă: curse, distanță, timp de lucru, așteptare, combustibil și consum.",
+   "steps": [
+    {
+     "id": "report",
+     "title": "Raport de perioadă",
+     "text": "Alegeți perioada: „Azi”, „Săptămână”, „Lună” sau „Liber” (interval ales de dumneavoastră). Cardurile afișează totalurile. „Exportă raportul” creează un fișier PDF cu turele, cursele, punctele și alimentările; îl puteți trimite sau tipări.",
+     "image": "img/ro/report-report.png"
+    },
+    {
+     "id": "pdf",
+     "title": "Ce conține PDF-ul",
+     "text": "În PDF, pentru fiecare tură apar deschiderea și închiderea, camionul și remorca, cursele cu clienții, marfa, timpii de descărcare și de așteptare, kilometrajele și alimentările. La sfârșit sunt totalurile perioadei: ture, curse, alimentări, distanță, durată, combustibil, distanța medie pe tură și consumul mediu.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "garage",
+   "title": "Flotă: capete tractor și remorci",
+   "intro": "Parcul păstrează vehiculele dumneavoastră. De aici se preiau desenele vehiculelor, numerele de înmatriculare, compatibilitatea remorcilor, rulajele și toate setările fiecărui vehicul.",
+   "steps": [
+    {
+     "id": "garage",
+     "title": "Parcul meu",
+     "text": "Două file: „Camioane” și „Remorci”. Vehiculul activ este evidențiat. „+ Adaugă camion” și „+ Adaugă remorcă” adaugă un vehicul nou. Apăsarea pe un vehicul deschide administrarea acestuia.\n\nCât timp o cursă este în desfășurare, vehiculul nu poate fi schimbat din parc — încheiați mai întâi cursa (remorca se poate schimba pe traseu prin „Schimbă remorca”).",
+     "image": "img/ro/garage-garage.png"
+    },
+    {
+     "id": "truck-form",
+     "title": "Cap tractor",
+     "text": "Numărul de înmatriculare, tipul („Cap tractor” sau „Autoportant”) și caroseria — printr-un șir de întrebări cu imagini; de asemenea, dacă are macara sau manipulator. Nu pot exista două numere de înmatriculare identice în parc.",
+     "image": ""
+    },
+    {
+     "id": "trailer-form",
+     "title": "Remorcă",
+     "text": "Numărul de înmatriculare, tipul de cuplare (semiremorcă sau remorcă pentru camion) și caroseria. Pentru cisternă — numărul de compartimente și volumul fiecăruia, pentru transportorul auto — numărul de locuri pentru mașini, iar pentru frigorific — dacă are generator montat.",
+     "image": ""
+    },
+    {
+     "id": "vehicle-hub",
+     "title": "Administrarea vehiculului",
+     "text": "Ecranul vehiculului adună totul despre acesta: „Înmatriculare”, „Documente”, „Întreținere”, „Inspecție tehnică”, „Axe și anvelope”, „Plăcuța de înmatriculare”, „Vopsea”. „Setează ca activ” îl selectează pentru lucru.",
+     "image": "img/ro/garage-vehicle-hub.png"
+    },
+    {
+     "id": "vehicle-settings",
+     "title": "Setările vehiculului",
+     "text": "Kilometrajul actual, intervalul de service (kilometri, luni, praguri de avertizare), punctul de pornire pentru calculul reviziei, axele, capacitatea rezervorului și rezerva critică (pentru estimarea „până la rezervă”). La remorca cu agregat — rezervorul agregatului și rezerva critică a acestuia.",
+     "image": "img/ro/garage-vehicle-settings.png"
+    },
+    {
+     "id": "plate-colors",
+     "title": "Plăcuța de înmatriculare",
+     "text": "Culoarea fundalului plăcuței și culoarea numărului — exact ca pe vehiculul dumneavoastră. Dacă combinația se citește greu, numărul va fi afișat cu negru sau alb.",
+     "image": "img/ro/garage-plate-colors.png"
+    },
+    {
+     "id": "rig-paint",
+     "title": "Vopsea",
+     "text": "Culoarea cabinei, a macaralei și a caroseriei pe desenul vehiculului. „Ca în desen” readuce culoarea inițială.",
+     "image": "img/ro/garage-rig-paint.png"
+    },
+    {
+     "id": "tyres",
+     "title": "Axe și anvelope",
+     "text": "Schema axelor se desenează automat după numărul de axe; orice axă poate fi setată ca simplă sau dublă. Apăsați pe o anvelopă: schimb, pană, rotire sau altceva — înregistrarea intră în istoric. Statisticile arată distanța medie între schimbări și poziția cea mai frecventă. Remorca are propriul său kilometraj, pe care îl puteți introduce.",
+     "image": "img/ro/garage-tyres.png"
+    }
+   ]
+  },
+  {
+   "slug": "documents",
+   "title": "Documente și termene",
+   "intro": "Documentele vehiculului și ale șoferului, cu fotografiile paginilor și datele de expirare. Aplicația vă amintește din timp de termene.",
+   "steps": [
+    {
+     "id": "overview",
+     "title": "Toate documentele",
+     "text": "Prezentarea generală arată documentele tuturor vehiculelor și ale șoferului într-o singură listă, cu termenele lor: câte zile au mai rămas sau „expirat”.",
+     "image": "img/ro/documents-overview.png"
+    },
+    {
+     "id": "list",
+     "title": "Documente vehicul",
+     "text": "Fiecare vehicul are propria listă: „Talon vehicul”, „Asigurare”, „Inspecție tehnică” și documente personalizate. „+” adaugă un document.",
+     "image": "img/ro/documents-list.png"
+    },
+    {
+     "id": "form",
+     "title": "Document",
+     "text": "Alegeți tipul sau „Document personalizat…” și scrieți numele (de exemplu, autorizație ADR). „Valabil până la” este data de expirare după care se trimit mementourile. Inspecția tehnică are și „Data inspecției”.",
+     "image": ""
+    },
+    {
+     "id": "pages",
+     "title": "Pagini",
+     "text": "Fotografiați paginile documentului cu camera. Paginile se deschid pe tot ecranul, pot fi răsfoite și șterse una câte una.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Mementouri de expirare",
+     "text": "Înainte de expirarea termenului, aplicația trimite o notificare și afișează fereastra „Expirarea documentelor” la pornire. „Am înțeles” închide fereastra până la pragul următor. Documentele șoferului („Permis de conducere”, „Pașaport”, „Certificat ADR”) se află în setările profilului.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "maintenance",
+   "title": "Întreținere și anvelope",
+   "intro": "Întreținerea tehnică: înregistrări, intervale și memento când se apropie termenul.",
+   "steps": [
+    {
+     "id": "maintenance",
+     "title": "Întreținere",
+     "text": "Sus se vede cât a mai rămas până la service în kilometri sau zile, ori cu cât este întârziat. Mai jos sunt înregistrările de service. Intervalele și punctul de pornire se stabilesc în setările vehiculului.",
+     "image": "img/ro/maintenance-maintenance.png"
+    },
+    {
+     "id": "new-record",
+     "title": "Înregistrare service",
+     "text": "„Înregistrează service” deschide o înregistrare nouă: kilometraj, dată, ce s-a făcut, fotografii. Kilometrajul la revizie nu poate fi mai mare decât cel actual.",
+     "image": ""
+    },
+    {
+     "id": "tyres",
+     "title": "Anvelope",
+     "text": "Evidența anvelopelor se ține pe schema axelor — capitolul „Flotă: capete tractor și remorci”, pasul „Axe și anvelope”.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "address-book",
+   "title": "Agendă și clienți",
+   "intro": "Clienții cu adresele lor și locurile proprii. Agenda se completează automat atunci când introduceți un client nou într-o cursă.",
+   "steps": [
+    {
+     "id": "book",
+     "title": "Agendă de adrese",
+     "text": "Fila „Clienți” conține clienții cu adresele lor; fila „Locuri” conține punctele dumneavoastră. Clienții ascunși nu sunt sugerați la selecție; „Arată ascunsele” îi readuce în listă.",
+     "image": "img/ro/address-book-book.png"
+    },
+    {
+     "id": "clients",
+     "title": "Clienți",
+     "text": "„Client nou” adaugă un client. Un client care are curse nu poate fi șters — dar îl puteți ascunde cu „Elimină din selecție”. Cursele anterioare își păstrează numele clientului.",
+     "image": ""
+    },
+    {
+     "id": "client",
+     "title": "Client",
+     "text": "Numele, notița șoferului și adresele. La redenumire se verifică dacă numele există deja. Ștergerea poate fi anulată imediat cu butonul „Anulați”.",
+     "image": "img/ro/address-book-client.png"
+    },
+    {
+     "id": "add-address",
+     "title": "Adresă",
+     "text": "Adresa, eticheta și coordonata. Coordonata poate fi salvată după locația curentă. „Deschide în navigație” și „Trimite” transmit punctul mai departe. Marcajul roșu evidențiază o adresă de care trebuie să țineți cont (acces dificil, reguli speciale).",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "backup",
+   "title": "Copie de rezervă și restaurare",
+   "intro": "Copia de siguranță este un singur fișier cu întregul jurnal: curse, ture, alimentări, vehicule și documente cu fotografii.",
+   "steps": [
+    {
+     "id": "backup",
+     "title": "Crearea copiei de siguranță",
+     "text": "„Setări” → „Copie de rezervă”: „Exportă baza de date (backup)” salvează fișierul, iar „Distribuie copia de siguranță” îl trimite imediat (e-mail, aplicație de mesagerie, cloud). Puteți face o copie de siguranță în orice moment — lucrul nu se întrerupe.",
+     "image": ""
+    },
+    {
+     "id": "restore",
+     "title": "Restaurare",
+     "text": "„Importă baza de date (restaurare)” înlocuiește toate datele actuale cu fișierul de backup. Aplicația verifică mai întâi fișierul: un fișier străin sau un backup făcut cu o versiune mai nouă a aplicației nu va fi acceptat. Pe un telefon nou, puteți restaura datele chiar la primul pas de la prima pornire.",
+     "image": ""
+    },
+    {
+     "id": "cross",
+     "title": "Android și iPhone",
+     "text": "Copia de siguranță are același format pe Android și pe iPhone: un fișier salvat pe unul se restaurează pe celălalt.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "online",
+   "title": "Programul online",
+   "intro": "Programul online — my.vecturabook.com: același jurnal în browser și pe celelalte dispozitive ale dumneavoastră.",
+   "steps": [
+    {
+     "id": "device-link",
+     "title": "Conectarea telefonului",
+     "text": "„Setări” → „Conectare la VecturaBook”. Scanați codul QR din contul de pe site, deschideți contul în browser și confirmați pe telefon sau introduceți codul afișat pe ecran. „Deconectează acest telefon” îl deconectează.",
+     "image": "img/ro/online-device-link.png"
+    },
+    {
+     "id": "sync",
+     "title": "Sincronizare",
+     "text": "Telefonul conectat trimite automat înregistrările noi și primește modificările de pe celelalte dispozitive. Bara de stare arată „Totul este sincronizat” sau câte înregistrări sunt în așteptare. Fără semnal, înregistrările așteaptă pe telefon.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "settings",
+   "title": "Setări",
+   "intro": "Setările sunt împărțite pe grupuri: „Profilul șoferului”, „Telefon și conexiune”, „Documente (PDF)”, „Copie de rezervă”, „Setări generale”.",
+   "steps": [
+    {
+     "id": "settings",
+     "title": "Setări",
+     "text": "Aici găsiți limba și regiunea, unitățile, tema, animațiile, PDF-ul pentru alimentări și istoricul curselor, copia de rezervă și conectarea la programul online.",
+     "image": "img/ro/settings-settings.png"
+    },
+    {
+     "id": "profile",
+     "title": "Profilul șoferului",
+     "text": "Numele pentru rapoarte și documentele șoferului: „Permis de conducere”, „Pașaport”, „Certificat ADR” — cu date de expirare și fotografiile paginilor.",
+     "image": "img/ro/settings-profile.png"
+    },
+    {
+     "id": "language",
+     "title": "Limbă și regiune",
+     "text": "Limba aplicației, limba pentru adresele GPS (automat — după țară) și formatul datei.",
+     "image": "img/ro/settings-language.png"
+    },
+    {
+     "id": "units",
+     "title": "Unități",
+     "text": "Distanță, greutate, volum, lungime, temperatură și consum de combustibil. Presetări: „Metric”, „Imperial”, „Mixt” — sau „Personalizat”.",
+     "image": ""
+    },
+    {
+     "id": "theme",
+     "title": "Temă",
+     "text": "„Deschisă”, „Întunecată” sau „Automat” (după ora de început a zilei și a nopții). Presetări: „Kraft”, „Kraft închis”, „Manila”, „Aproape alb”, „Întunecată”. Puteți crea și propria temă.",
+     "image": "img/ro/settings-theme.png"
+    },
+    {
+     "id": "theme-custom",
+     "title": "Temă personalizată",
+     "text": "Culoarea pentru fundal, text, bara de sus, carduri, chenarul câmpului, etichete, butoane și pictogramele de alimentare și parcare. Tema poate fi salvată, redenumită și atribuită modului deschis sau întunecat.",
+     "image": ""
+    },
+    {
+     "id": "animations",
+     "title": "Animații",
+     "text": "Scene animate la descărcare și alimentare. Le puteți dezactiva.",
+     "image": ""
+    },
+    {
+     "id": "about",
+     "title": "Despre",
+     "text": "Versiunea, site-ul web, Telegram, Facebook și posibilitatea de a susține proiectul. Anterior aplicația se numea CargoLog — s-a schimbat doar numele.",
+     "image": ""
+    },
+    {
+     "id": "feedback",
+     "title": "Feedback / Raportare eroare",
+     "text": "Raportați o eroare, trimiteți o sugestie sau scrieți orice altceva. Puteți atașa o captură de ecran sau o fotografie. Tot în meniu găsiți: „Caută actualizări” și „Evaluează aplicația”.",
+     "image": ""
+    },
+    {
+     "id": "help",
+     "title": "Ajutor",
+     "text": "„Ajutor” este cuprinsul acestui ghid: capitole generale și capitole după tipul vehiculului. Fiecare se deschide chiar aici, pas cu pas.",
+     "image": "img/ro/settings-help.png"
+    }
+   ]
+  },
+  {
+   "slug": "notifications",
+   "title": "Notificări și mementouri",
+   "intro": "Aplicația vă anunță despre ce este în desfășurare și despre ce urmează în curând.",
+   "steps": [
+    {
+     "id": "timers",
+     "title": "Cronometre",
+     "text": "Așteptarea, alimentarea și descărcarea continuă să meargă și când aplicația este minimizată: cronometrul se vede în bara de notificări. Apăsați pe notificare pentru a reveni în aplicație.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Expirarea documentelor",
+     "text": "Notificările privind expirarea documentelor sosesc din timp și în ziua expirării.",
+     "image": ""
+    },
+    {
+     "id": "permissions",
+     "title": "Permisiuni",
+     "text": "Dacă notificările, camera sau locația sunt oprite, aplicația vă arată unde le puteți permite în setările telefonului.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics",
+   "title": "Canal de diagnosticare",
+   "intro": "Canalul de diagnosticare trimite dezvoltatorului date de pe telefon pentru a analiza erorile pe date reale. Este oprit până când îl porniți chiar dumneavoastră.",
+   "steps": [
+    {
+     "id": "enroll",
+     "title": "Înregistrarea telefonului",
+     "text": "Citiți consimțământul și, dacă sunteți de acord, apăsați „Sunt de acord, înregistrează acest telefon”. „Retrage acest telefon” oprește canalul și șterge certificatul.",
+     "image": "img/ro/diagnostics-enroll.png"
+    },
+    {
+     "id": "channel-settings",
+     "title": "Ce se trimite",
+     "text": "Trei comutatoare: „Jurnalele de activitate ale aplicației”, „Baza de curse”, „Fotografii cu numere de container”. Fiecare este oprit până când îl porniți; îl puteți opri în orice moment. Cât timp toate trei sunt oprite, nu se trimite nimic. Aplicația nu citește galeria foto.",
+     "image": ""
+    },
+    {
+     "id": "warning",
+     "title": "Avertisment",
+     "text": "Intrarea în ecranele de service începe cu un avertisment. Puteți ieși cu butonul „Scoateți-mă de aici”.",
+     "image": ""
+    },
+    {
+     "id": "server",
+     "title": "Serverul canalului",
+     "text": "Starea conexiunii: în legătură, tace, nu există rețea, serverul nu acceptă. Tot ce este gata de trimis așteaptă pe telefon — nu trebuie să faceți nimic.",
+     "image": ""
+    },
+    {
+     "id": "import",
+     "title": "Pachetul canalului",
+     "text": "Pentru telefoanele de serviciu, pachetul canalului poate fi instalat dintr-un fișier .p12 cu parolă. Parola se folosește o singură dată și nu se păstrează.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "service",
+   "title": "Ecrane de service",
+   "intro": "Ecranele de service sunt folosite pentru analizarea defecțiunilor. Intrarea se face prin șapte atingeri pe ecranul „Despre”. În munca obișnuită nu este nevoie de ele.",
+   "steps": [
+    {
+     "id": "hub",
+     "title": "Centrul de service",
+     "text": "Informații despre aplicație și telefon, acces la ecranele de service și la canalul de diagnosticare, galeria de animații.",
+     "image": ""
+    },
+    {
+     "id": "database",
+     "title": "Baza de date",
+     "text": "Starea bazei de date și resetarea completă a aplicației. Resetarea șterge totul definitiv — faceți mai întâi o copie de siguranță.",
+     "image": ""
+    },
+    {
+     "id": "logs",
+     "title": "Jurnale",
+     "text": "Jurnalele de funcționare ale aplicației pentru analizarea erorilor.",
+     "image": ""
+    },
+    {
+     "id": "ocr",
+     "title": "Recunoaștere",
+     "text": "Diagnosticarea citirii numerelor cu camera.",
+     "image": ""
+    },
+    {
+     "id": "system",
+     "title": "Sistem",
+     "text": "Informații despre telefon și despre blocările aplicației.",
+     "image": ""
+    },
+    {
+     "id": "locale",
+     "title": "Limbă și configurare inițială",
+     "text": "Verificarea limbilor și reluarea pașilor de la prima pornire.",
+     "image": ""
+    },
+    {
+     "id": "dataset",
+     "title": "Cadre cameră",
+     "text": "Capturarea cadrelor pentru antrenarea recunoașterii — doar cu consimțământul pentru fotografii.",
+     "image": ""
+    },
+    {
+     "id": "splash-tuner",
+     "title": "Ecran de pornire",
+     "text": "Reglarea ecranului de pornire al aplicației.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "flatbed",
+   "title": "Platformă",
+   "intro": "Platforma transportă marfă generală și marfă agabaritică.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "În parc",
+     "text": "Alegeți caroseria „Platformă” și introduceți lungimea platformei.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "În cursă",
+     "text": "Tipuri de marfă: marfă generală (paleți, greutate, descriere), agabaritic (lungime, lățime, înălțime, greutate), container pe platformă. La marfa agabaritică, pasul „Detalii încărcare” cere dimensiunile.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Descărcare",
+     "text": "Paleții se predau pe puncte, ca număr sau ca procent.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "container",
+   "title": "Container",
+   "intro": "Șasiul de container transportă containere de 20, 40 și 45 de picioare, unul sau două.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "În parc",
+     "text": "Caroseria „Container”; dimensiunea containerului pentru care este construită remorca.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "În cursă",
+     "text": "Șirul de întrebări: gol sau încărcat, dimensiunea, câte containere, tipul (Standard, Reefer, Flat Rack, Open Top, Tank). Numărul containerului și al sigiliului — cu camera. Sigiliul de ventilație și temperatura — pentru Reefer.",
+     "image": ""
+    },
+    {
+     "id": "fate",
+     "title": "După descărcare",
+     "text": "Aplicația întreabă ce s-a întâmplat cu containerul: a rămas la client, a rămas pe camion, merge la alt client sau se returnează în port ori la depozit.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "sidelifter",
+   "title": "Sidelifter",
+   "intro": "Sidelifter-ul ridică și așază singur containerul.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "În parc",
+     "text": "Caroseria „Sidelifter” este disponibilă doar la semiremorcă.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "În cursă",
+     "text": "Containerul se introduce la fel ca la șasiul de container; lucrul cu macaraua se bifează în rezumatul cursei.",
+     "image": ""
+    },
+    {
+     "id": "exchange",
+     "title": "Schimb",
+     "text": "Sidelifter-ul schimbă des containere la punctul de lucru — folosiți „Schimb de containere”.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "refrigerated",
+   "title": "Frigorific",
+   "intro": "Frigorificul transportă marfă cu temperatură controlată.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "În parc",
+     "text": "Caroseria „Frigorific”; bifați „Generator montat” dacă există și completați rezervorul agregatului și rezerva critică.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "În cursă",
+     "text": "Temperatură controlată: „Controlată” sau „Ambientală”; temperatura mărfii. Pe ecranul de condus se află comutatorul „Agregatul funcționează”.",
+     "image": ""
+    },
+    {
+     "id": "fuel",
+     "title": "Combustibilul agregatului",
+     "text": "Motorina agregatului se introduce la alimentare într-un câmp separat; aplicația calculează orele de funcționare și consumul în litri pe oră și afișează „≈ N h până la rezervă”.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "curtainsider",
+   "title": "Prelată",
+   "intro": "Remorca cu prelată transportă marfă generală pe paleți.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "În parc",
+     "text": "Caroseria „Prelată”.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "În cursă",
+     "text": "Marfă generală: numărul de paleți, greutatea totală, descrierea.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Descărcare",
+     "text": "La fiecare oprire notați câți paleți ați descărcat; aplicația ține minte cât a rămas la bord.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tipper",
+   "title": "Basculantă",
+   "intro": "Basculanta transportă marfă vrac.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "În parc",
+     "text": "Caroseria „Basculantă”.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "În cursă",
+     "text": "Vrac: volumul în metri cubi, greutatea netă și brută, descrierea.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Descărcare",
+     "text": "Descărcarea se înregistrează prin timp; cronometrul operațiunilor de manipulare arată cât a durat.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fuel-tanker",
+   "title": "Cisternă combustibil",
+   "intro": "Cisterna de combustibil transportă carburant pe compartimente.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "În parc",
+     "text": "Caroseria „Cisternă”; numărul de compartimente și volumul fiecăruia în litri.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "În cursă",
+     "text": "La detaliile mărfii — volumul pentru fiecare compartiment.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Descărcare",
+     "text": "La destinație, bifați compartimentele descărcate. Dacă la încheierea cursei au rămas compartimente nedescărcate, aplicația vă va cere confirmarea.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tanker",
+   "title": "Cisternă",
+   "intro": "Cisterna transportă mărfuri lichide.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "În parc",
+     "text": "Caroseria „Cisternă”; compartimentele și volumele lor.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "În cursă",
+     "text": "Categoria de lichid: „Substanțe chimice”, „Alimentar”, „Deșeuri”; „Temperatură controlată”; ADR cu numere UN pentru mărfuri periculoase.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Descărcare",
+     "text": "Compartimentele se predau pe puncte, la fel ca la cisterna de combustibil.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "car-transporter",
+   "title": "Transportor auto",
+   "intro": "Transportorul auto transportă autoturisme.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "În parc",
+     "text": "Caroseria „Transportor auto”; numărul de locuri auto.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "În cursă",
+     "text": "Mașinile se introduc după VIN (17 caractere, fără I, O, Q) sau după numărul de înmatriculare; VIN-ul poate fi scanat cu camera. Contorul arată câte mașini sunt încărcate.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Descărcare",
+     "text": "La oprire, bifați ce mașini au fost livrate și ce mașini au fost încărcate. Dacă la încheierea cursei mai rămân mașini la bord, aplicația vă va cere confirmarea.",
+     "image": ""
+    }
+   ]
+  }
+ ],
+ "screens": {
+  "getting-started.welcome": "Prima pornire: numele, camionul, remorca și permisiunile. Dacă aveți o copie de siguranță, puteți restaura întregul jurnal.",
+  "getting-started.onboarding": "Răspundeți la întrebările despre dumneavoastră și vehicul. Totul poate fi modificat ulterior în setări și în parc.",
+  "getting-started.main-screen": "Ecranul principal arată în ce stadiu al lucrului sunteți și vă conduce la pasul următor: tură, cursă, descărcare.",
+  "getting-started.menu": "Meniul aplicației: parc, istoric, rapoarte, alimentări, întreținere, documente, adrese, ajutor și setări.",
+  "shift.shift-welcome": "Începutul turei: locația, așteptarea cursei și butonul „Începe cursa”.",
+  "shift.shift-status": "Arată dacă tura este deschisă, de la ce oră și câte curse conține.",
+  "trip.origin": "Clientul și adresa de plecare sau de destinație. Un client nou este salvat automat în agenda de adrese.",
+  "trip.cargo-type": "Ce transportați. Lista depinde de caroseria camionului și a remorcii.",
+  "trip.cargo-details": "Detaliile mărfii: numere de container și sigilii, compartimente, mașini, paleți. Numerele pot fi scanate cu camera.",
+  "trip.load-details": "Dimensiunile, greutatea și descrierea mărfii.",
+  "trip.trip-times": "Editarea orelor, adreselor și kilometrajelor unei curse deja salvate.",
+  "trip.confirm": "Rezumatul cursei. Verificați datele și apăsați „La drum” — abia atunci cursa este salvată.",
+  "trip.arrival": "Sunteți la destinație: sosirea, începutul și sfârșitul descărcării sau încărcării.",
+  "trip.unload": "Ce s-a predat la această oprire: compartimente, procent, paleți sau mașini.",
+  "trip.cargo-fate": "Ce urmează cu containerul după descărcare.",
+  "trip.summary": "Rezumatul cursei: următoarea oprire, încheierea cursei sau o cursă nouă.",
+  "driving.driving": "Cursă în desfășurare: sosire, alimentare, parcare. Sub camion apare estimarea combustibilului până la rezervă.",
+  "driving.odometer": "Valoarea kilometrajului. Aplicația propune numărul așteptat și îl verifică; îl puteți scana și cu camera.",
+  "driving.swap-trailer": "Schimbarea remorcii pe traseu: alegeți o remorcă din parc.",
+  "refuel.refuel-timer": "Alimentare în curs: cronometru. La final se introduc litrii.",
+  "refuel.refuel-data": "Litrii de motorină, AdBlue și pentru agregatul remorcii, plus kilometrajul. Se salvează într-o singură înregistrare.",
+  "refuel.refuel-history": "Toate alimentările pe perioadă, consumul mediu și raportul PDF.",
+  "parking.parking-stop": "Adresa parcării: manual, din locurile salvate sau prin GPS.",
+  "parking.places": "Locurile proprii: parcări, porturi, depozite. Se aleg la parcare și la returnarea containerului.",
+  "parking.place-form": "Numele, nota și coordonata locului; deschidere în navigație.",
+  "camera.scan": "Încadrați numărul în chenar. Strângeți cadrul cu două degete în jurul numărului; atingeți în afara cadrului pentru poză.",
+  "camera.container-exchange": "Schimb de containere cu alt șofer: ce ați predat și ce ați preluat.",
+  "camera.photos": "Fotografiile documentelor cursei pe tot ecranul.",
+  "history.history": "Toate turele și cursele: căutare, detalii, editare și ștergere.",
+  "report.report": "Totalurile pe perioadă și raportul PDF.",
+  "garage.garage": "Camioanele și remorcile dumneavoastră. Apăsați pe un vehicul pentru a-i deschide administrarea.",
+  "garage.truck-form": "Numărul de înmatriculare, tipul și caroseria camionului; macara sau manipulator.",
+  "garage.trailer-form": "Numărul de înmatriculare, cuplarea și caroseria remorcii; compartimente, locuri auto, generator.",
+  "garage.vehicle-hub": "Totul despre vehicul: documente, întreținere, inspecție tehnică, axe și anvelope, plăcuță, vopsea.",
+  "garage.vehicle-settings": "Kilometraj, intervale de service, axe, rezervor și rezerva critică.",
+  "garage.plate-colors": "Culorile plăcuței de înmatriculare, ca pe vehicul.",
+  "garage.rig-paint": "Culorile cabinei, macaralei și caroseriei pe desenul vehiculului.",
+  "garage.tyres": "Schema axelor și istoricul anvelopelor: schimburi, pene, rotiri.",
+  "documents.overview": "Toate documentele vehiculelor și ale șoferului, cu termenele de expirare.",
+  "documents.list": "Documentele acestui vehicul. „+” pentru a adăuga.",
+  "documents.form": "Tipul, numele și data de expirare a documentului.",
+  "documents.pages": "Fotografiile paginilor documentului.",
+  "maintenance.maintenance": "Cât a mai rămas până la service și înregistrările de întreținere.",
+  "maintenance.new-record": "Înregistrare nouă de service: kilometraj, dată, lucrări, fotografii.",
+  "address-book.book": "Clienți și locuri proprii.",
+  "address-book.clients": "Lista de clienți: adăugare, ascundere, ștergere.",
+  "address-book.client": "Numele, notița și adresele clientului.",
+  "address-book.add-address": "Adresa, coordonata, navigația și marcajul roșu.",
+  "backup.backup": "Fișierul cu întregul jurnal: salvare, trimitere sau restaurare.",
+  "online.device-link": "Conectarea telefonului la programul online: cod QR sau cod de pe ecran.",
+  "settings.settings": "Toate setările grupate pe categorii.",
+  "settings.profile": "Numele șoferului și documentele sale.",
+  "settings.language": "Limba aplicației, limba adreselor GPS, formatul datei.",
+  "settings.theme": "Deschisă, întunecată sau automat; teme presetate și personalizate.",
+  "settings.theme-custom": "Culorile temei personalizate.",
+  "settings.about": "Versiunea aplicației și contactul dezvoltatorului.",
+  "settings.feedback": "Raportați o eroare sau trimiteți o sugestie.",
+  "settings.help": "Ghidul aplicației pe capitole.",
+  "diagnostics.enroll": "Consimțământul și înregistrarea telefonului în canalul de diagnosticare.",
+  "diagnostics.warning": "Intrarea în partea de service a aplicației.",
+  "diagnostics.channel-settings": "Ce trimite telefonul către dezvoltator: trei consimțăminte separate.",
+  "diagnostics.server": "Starea conexiunii canalului de diagnosticare.",
+  "diagnostics.import": "Instalarea pachetului canalului dintr-un fișier .p12.",
+  "service.hub": "Centrul de service: informații și ecrane de service.",
+  "service.database": "Starea bazei de date și resetarea completă a aplicației.",
+  "service.logs": "Jurnalele de funcționare ale aplicației.",
+  "service.ocr": "Diagnosticarea recunoașterii numerelor.",
+  "service.system": "Informații despre telefon și blocări.",
+  "service.locale": "Verificarea limbilor și reluarea primei porniri.",
+  "service.dataset": "Capturarea cadrelor pentru recunoaștere.",
+  "service.splash-tuner": "Reglarea ecranului de pornire."
+ }
+}

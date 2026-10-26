@@ -1,0 +1,978 @@
+{
+ "format": 1,
+ "language": "hu",
+ "revision": "2026-10-26",
+ "sections": [
+  {
+   "slug": "getting-started",
+   "title": "Első lépések",
+   "intro": "A VecturaBook a sofőr menetlevele: műszakok, fuvarok, tankolások, parkolások, dokumentumok és járművek egyetlen telefonon. Minden a telefonon tárolódik, és internet nélkül is működik.",
+   "steps": [
+    {
+     "id": "welcome",
+     "title": "Első indítás",
+     "text": "Az első indításkor a program néhány kérdést tesz fel — négy rövid lépésben. Egy perc alatt végigmehet rajtuk, és a megadott adatok később bármikor módosíthatók a beállításokban és a parkban.\n\nHa már van VecturaBook biztonsági mentése (például egy korábbi telefonról), az első lépésnél koppintson a „Visszaállítás biztonsági mentésből” gombra: a teljes napló visszatér, és nem kell válaszolnia a kérdésekre.",
+     "image": "img/hu/getting-started-welcome.png"
+    },
+    {
+     "id": "onboarding",
+     "title": "Név, vontató, pótkocsi, engedélyek",
+     "text": "1. lépés — név. Ez jelenik meg a jelentésekben. Üresen is hagyható, és később is beírható.\n\n2. lépés — vontató vagy teherautó: rendszám, típus és felépítmény. A típust és a felépítményt képes kérdéssorral választhatja ki: minden válasz után a program a következő kérdést mutatja.\n\n3. lépés — pótkocsi. A „Pótkocsi kihagyása” gombbal kihagyható, és később is hozzáadható a parkban.\n\n4. lépés — engedélyek: kamera (konténerszámok, plombák, kilométeróra), helymeghatározás (város a műszak elején, csak amikor Ön kéri) és értesítések (várakozás, tankolás és kirakodás időzítői). Bármelyiket elutasíthatja — a program anélkül is működni fog, csak az adott funkció nélkül.",
+     "image": "img/hu/getting-started-onboarding.png"
+    },
+    {
+     "id": "main-screen",
+     "title": "Főképernyő",
+     "text": "A főképernyő mutatja, hol tart éppen a munkában: a műszak még nem indult el, a műszak folyamatban van, a fuvar úton van, Ön a lerakóhelyen áll és így tovább. A gombok mindig a következő lépésre viszik, így semmit sem lehet kihagyni.\n\nFelül egy sáv található, bal oldalon a menü gombbal, jobb oldalon pedig a „?” gombbal. A „?” minden képernyőn ott van: röviden elmagyarázza az adott képernyőt, a „Bővebben” gombbal pedig megnyitja ennek az útmutatónak a megfelelő fejezetét.",
+     "image": "img/hu/getting-started-main-screen.png"
+    },
+    {
+     "id": "menu",
+     "title": "Menü",
+     "text": "A háromcsíkos gomb megnyitja a csempés menüt: Park, Útnapló, Jelentés, Tankkönyv, Karbantartás, Jármű dokumentumai, Címjegyzék, Súgó. Alul — Beállítások.\n\nBármely más képernyőn a menü gomb helyén a „Vissza” nyíl áll.",
+     "image": "img/hu/getting-started-menu.png"
+    },
+    {
+     "id": "help-offline",
+     "title": "Súgó internet nélkül",
+     "text": "Ennek az útmutatónak a szövegét a program a saját nyelvén letölti és eltárolja, ezért a „?” és a „Súgó” útközben, térerő nélkül is működik. Naponta egyszer, ha van internet, a program a háttérben ellenőrzi, van-e frissítés.\n\nHa a súgó még egyszer sem töltődött le, a program internetkapcsolatot kér.",
+     "image": "img/hu/getting-started-help-offline.png"
+    }
+   ]
+  },
+  {
+   "slug": "shift",
+   "title": "Műszak",
+   "intro": "A műszak a munkanap az elejétől a végéig. A műszakon belül futnak a fuvarok, tankolások és parkolások; a műszak összesítése bekerül az előzményekbe és a jelentésekbe.",
+   "steps": [
+    {
+     "id": "shift-welcome",
+     "title": "Műszak indítása",
+     "text": "Koppintson a „Műszak indítása” gombra. A program üdvözli Önt, és megmutatja, hol van: a várost helymeghatározással állapítja meg, ha azt engedélyezte, különben koppintson a gombostűs sorra, és írja be a helyet kézzel.\n\nHa még nincs fuvar, koppintson az „Útra várakozás” gombra — elindul a várakozási időzítő. A „Várakozás leállítása” megállítja. A fuvar előtti várakozás bekerül az előzményekbe és a jelentésbe.\n\nAmikor megvan a fuvar — „Út indítása”.",
+     "image": "img/hu/shift-shift-welcome.png"
+    },
+    {
+     "id": "shift-status",
+     "title": "Műszak állapota",
+     "text": "A „Műszak” képernyő mutatja, hogy nyitva van-e a műszak, mikor nyílt meg, és hány fuvar van benne. A „Műszak folytatása” visszaviszi a munkához.\n\nA műszakot nem lehet lezárni, amíg a fuvar nincs befejezve: előbb fejezze be a fuvart.",
+     "image": "img/hu/shift-shift-status.png"
+    },
+    {
+     "id": "end-shift",
+     "title": "Műszak vége",
+     "text": "A piros „Műszak vége” gomb a program egyetlen piros gombja. A program visszakérdez, és kéri a záró kilométeróra-állást. A számot ellenőrzi: ha kisebb az előzőnél, vagy jóval nagyobb a vártnál, a program megmutatja az utolsó ismert állást, és megerősítést vagy javítást kér.",
+     "image": ""
+    },
+    {
+     "id": "forgotten-shift",
+     "title": "Elfelejtett műszak",
+     "text": "Ha a műszak több mint egy napja nyitva van, a program felajánlja, hogy lezárja az utolsó esemény időpontjával — így a munkaidő a jelentésben nem duzzad fel. Ezt elfogadhatja, vagy folytathatja a műszakot.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "trip",
+   "title": "Fuvar: rakodástól lerakodásig",
+   "intro": "A fuvar rögzítése lépésről lépésre történik: honnan és hová, mit szállít, rakomány adatai, összegzés — majd „Indulás”. A célállomáson — érkezés, kirakodás vagy berakodás, összegzés. Amíg nem koppint az „Indulás” gombra, semmi sem kerül a naplóba: bármelyik lépésnél visszaléphet a „Vissza” gombbal, a beírt adatok nem vesznek el.",
+   "steps": [
+    {
+     "id": "origin",
+     "title": "Ügyfél és útvonal",
+     "text": "Válassza ki az ügyfelet: kezdje el beírni a nevet — a program ajánlásokat mutat a címjegyzékből. Az új ügyfelet elég csak beírni: automatikusan bekerül a címjegyzékbe.\n\nEgy ügyfélnek több címe is lehet — válassza ki a megfelelőt, vagy adjon hozzá újat. A GPS ikon beírja a címet az aktuális helyzet alapján. Az ügyfélhez írt sofőri megjegyzések közvetlenül itt láthatók.",
+     "image": "img/hu/trip-origin.png"
+    },
+    {
+     "id": "cargo-type",
+     "title": "Mit szállítasz?",
+     "text": "A rakomány típusát csempékkel választhatja ki: konténer, darabáru, túlméretes, hűtős, üzemanyag, ömlesztett, járművek, üres. A lista a vontató és a pótkocsi felépítményétől függ.\n\nHa akkor módosítja a rakomány típusát, amikor az adatokat már megadta, a program figyelmeztet, hogy a beírt adatok törlődnek, és megerősítést kér.",
+     "image": "img/hu/trip-cargo-type.png"
+    },
+    {
+     "id": "cargo-details",
+     "title": "Rakomány adatai",
+     "text": "A részletek a rakomány típusától függnek. Konténernél — üres vagy rakott, méret, hány konténer, típus, konténerszám és zárszám. A számokat kamerával is beolvashatja. Tartálykocsinál — rekeszek és térfogatok, autószállítónál — járművek VIN vagy rendszám szerint, darabárunál — raklapok és súly.\n\nHa a fuvarhoz nem kellenek részletek (például üres fuvarnál), egyszerűen koppintson a „Tovább” gombra.\n\nAz ADR kapcsoló megnyitja a veszélyes áruk UN-számainak mezőit.",
+     "image": "img/hu/trip-cargo-details.png"
+    },
+    {
+     "id": "load-details",
+     "title": "Rakomány adatai",
+     "text": "Túlméretes árunál és platón szállított konténereknél — hossz, szélesség, magasság, súly és leírás. A méretek a beállításokban kiválasztott mértékegységekben jelennek meg.",
+     "image": "img/hu/trip-load-details.png"
+    },
+    {
+     "id": "trip-times",
+     "title": "A fuvar időpontjai és pontjai",
+     "text": "Ez a képernyő csak akkor jelenik meg, amikor egy már rögzített fuvart szerkeszt az előzményekből. Itt javítható a kezdés, az érkezés, a rakodási munkák kezdetének és végének ideje, valamint a pontok címei és kilométeróra-állásai.\n\nAz az időpont, amely a fuvarban nem szerepelt, kötőjellel jelenik meg, és nem szerkeszthető: a szerkesztés nem ad hozzá a fuvarhoz olyat, ami nem történt meg.",
+     "image": ""
+    },
+    {
+     "id": "confirm",
+     "title": "Út összegzése",
+     "text": "Az összegzés egyetlen képernyőn mutatja a teljes fuvart. Itt találhatók a jelölők is: alvás a fülkében, katonai bevetés, veszélyes zóna, hőmérséklet-szabályozott, daruzás (ha a vontatón van daru).\n\nA „Módosítás” visszaviszi a lépésekhez. A zöld „Indulás” gomb rögzíti és elindítja a fuvart. Ha a telefonon van navigációs alkalmazás, a program felajánlja a cím megnyitását benne.",
+     "image": "img/hu/trip-confirm.png"
+    },
+    {
+     "id": "arrival",
+     "title": "Érkezés",
+     "text": "A helyszínen koppintson a „Megérkeztem” gombra. A program megjegyzi az időt, és felajánlja a kilométeróra-állást.\n\nA „Kirakodás/berakodás indítása” elindítja a rakodási munkák időzítőjét, a „Kirakodás/berakodás leállítása” pedig megállítja. Ha valami nem mentődött el (például lefagyott a telefon), a program szól, és kéri, hogy koppintson újra — a naplóba semmi sem kerül be félkész állapotban.",
+     "image": "img/hu/trip-arrival.png"
+    },
+    {
+     "id": "unload",
+     "title": "Kirakodás ezen a megállón",
+     "text": "Ha a rakományt részletekben adja le, jelölje be, mit adott le ezen a ponton: a tartálykocsi rekeszeit, a konténer százalékát, a raklapokat vagy az autószállító konkrét járműveit. A program megjegyzi, mennyi maradt a fedélzeten, és nem enged többet leadni annál, mint amennyi fent van.",
+     "image": ""
+    },
+    {
+     "id": "cargo-fate",
+     "title": "Mi lett a konténerrel?",
+     "text": "Kirakodás után a program megkérdezi, mi lesz a konténerrel: itt maradt, a járművön maradt, másik ügyfélhez megy, visszakerül egy helyre (kikötő, depó) vagy egy másik címre. A válasz határozza meg a fuvar következő lépését.",
+     "image": "img/hu/trip-cargo-fate.png"
+    },
+    {
+     "id": "summary",
+     "title": "Út összegzése",
+     "text": "A megálló után — „Út folytatása” (ugyanannak a fuvarnak a következő megállója), „Út befejezése” vagy „Új út”.\n\nA „Következő út előre kitöltése” lehetővé teszi, hogy már előre, a kirakodás alatt beírja a következő fuvart — az ügyfelet, a rakományt, a számokat. Utána a „Befejezés és indulás” azonnal elindítja.",
+     "image": "img/hu/trip-summary.png"
+    }
+   ]
+  },
+  {
+   "slug": "driving",
+   "title": "Vezetési képernyő",
+   "intro": "Amíg a fuvar úton van, a főképernyő a „Folyamatban”: a fuvar járműve, a vontató és a pótkocsi rendszáma, a menetidő és a következő műveletek gombjai.",
+   "steps": [
+    {
+     "id": "driving",
+     "title": "Folyamatban",
+     "text": "A képernyő gombjai: „Megérkeztem” (Ön a célállomáson van), „Tankolás”, „Parkolás / megállás”. A gombok felett a járművének rajza látható a rendszámokkal; a rajz abból áll össze, amit a parkban megadott: típus, felépítmény, tengelyek, színek.\n\nHa a parkban megadta a tank térfogatát és a saját kritikus tartalékát, a jármű alatt látható, körülbelül mennyi van még a tartalékig: „≈ N km a tartalékig” a vontató gázolajára, és „≈ N ó a tartalékig” a pótkocsi aggregátjára (hűtős, aggregát). A számítás az Ön tankolásai és futásteljesítménye alapján történik, ezért közvetlenül az első tankolás után még nem biztos, hogy megjelenik.",
+     "image": "img/hu/driving-driving.png"
+    },
+    {
+     "id": "swap-trailer",
+     "title": "Pótkocsi csere",
+     "text": "Pótkocsi cseréje útközben — „Pótkocsi csere”. Az ablakban a park pótkocsijai láthatók: a pótkocsi rajza és alatta a rendszáma. Válassza ki az újat — a csere bekerül a fuvarba. A vontatóval nem kompatibilis pótkocsikat a lista nem ajánlja fel.",
+     "image": "img/hu/driving-swap-trailer.png"
+    },
+    {
+     "id": "odometer",
+     "title": "Kilométeróra",
+     "text": "A program beírja a várt állást: a járműről, a felrakodásról, az előző lerakodásról vagy a tankolásról. Ellenőrizze, és szükség esetén javítsa. A kilométeróra kamerával is beolvasható.\n\nHa a szám kisebb az előzőnél, jóval nagyobb a vártnál, vagy Ön nem nyúlt hozzá, a program megmutatja az utolsó ismert állást, és megkérdezi, hogy minden helyes-e. Egy korábbi fuvar kilométeróra-állásának javításakor a program megmutatja, mely további bejegyzéseket érinti a módosítás.",
+     "image": "img/hu/driving-odometer.png"
+    }
+   ]
+  },
+  {
+   "slug": "refuel",
+   "title": "Tankolás, AdBlue, aggregát",
+   "intro": "A tankolások az üzemanyag-fogyasztáshoz, a jelentésekhez és „a tartalékig” kijelzéshez szükségesek.",
+   "steps": [
+    {
+     "id": "refuel-timer",
+     "title": "Tankolási időzítő",
+     "text": "A vezetési képernyőn a „Tankolás” gomb elindítja az időzítőt — a tankolás ideje bekerül a naplóba. A „Tankolás befejezése” megállítja az időzítőt, és megnyitja a literek megadását. Az időzítő az értesítési sávban is fut, ha a program a háttérben van.",
+     "image": "img/hu/refuel-refuel-timer.png"
+    },
+    {
+     "id": "refuel-data",
+     "title": "Literek és kilométeróra",
+     "text": "Írja be a gázolajat literben, szükség esetén pedig az AdBlue-t és a pótkocsi aggregátjának gázolaját (hűtős, aggregát). A kilométeróra-állás előre ki van töltve; kamerával is beolvasható. A „Tankolás mentése” mindent egyetlen bejegyzésként ment el.",
+     "image": "img/hu/refuel-refuel-data.png"
+    },
+    {
+     "id": "unit",
+     "title": "Pótkocsi aggregát",
+     "text": "Ha a pótkocsin generátor van, jelölje be a pótkocsi beállításaiban. Ekkor a vezetési képernyőn megjelenik „Az aggregát jár” kapcsoló, a program számolja az aggregát üzemóráit és liter/óra fogyasztását, a tankolásnál pedig megjelenik az aggregát gázolajának mezője.",
+     "image": ""
+    },
+    {
+     "id": "refuel-history",
+     "title": "Tankkönyv",
+     "text": "A napló mutatja az összes tankolást egy hétre, hónapra, a teljes időszakra vagy egy kiválasztott időszakra: összes üzemanyag, tankolások száma és átlagfogyasztás. Az AdBlue gázolajhoz viszonyított arányát és az aggregát fogyasztását külön számolja.\n\nA „PDF-jelentés készítése” jelentést készít a tankolásokról, amelyet elküldhet. A tankolás törölhető.",
+     "image": "img/hu/refuel-refuel-history.png"
+    }
+   ]
+  },
+  {
+   "slug": "parking",
+   "title": "Parkolás és pihenő",
+   "intro": "A parkolás útközbeni megállás: pihenő, éjszaka, várakozás. Saját címmel és időponttal kerül be a fuvarba.",
+   "steps": [
+    {
+     "id": "parking-stop",
+     "title": "Parkolás / megállás",
+     "text": "A vezetési képernyőn koppintson a „Parkolás / megállás” gombra. A címet beírhatja kézzel, kiválaszthatja a mentett helyek közül, vagy megnyomhatja a GPS ikont. Ha a címet nem sikerült meghatározni, a program a koordinátákat írja be — ezeket javíthatja.\n\nA fülkében töltött éjszakákat a program számolja az előzményekben és a jelentésben.",
+     "image": "img/hu/parking-parking-stop.png"
+    },
+    {
+     "id": "places",
+     "title": "Helyek",
+     "text": "A helyek saját, ügyfelekhez nem kötött pontok: parkolók, kikötők, depók, benzinkutak. A listában név szerint lehet keresni. A helyeket parkoláskor és a konténer visszaadásakor választhatja ki.",
+     "image": ""
+    },
+    {
+     "id": "place-form",
+     "title": "Hely",
+     "text": "Név, megjegyzés és koordináta. A koordináta elmenthető az aktuális helyzettel, felülírható vagy törölhető. A „Megnyitás navigációban” és a „Küldés” gombok átadják a pontot a navigációnak vagy egy üzenetbe.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "camera",
+   "title": "Kamera: konténerek és plombák",
+   "intro": "A kamera beolvassa a konténerszámokat, zárszámokat, az alvázszámot (VIN) és a kilométeróra-állást, hogy ne kelljen kézzel beírni őket.",
+   "steps": [
+    {
+     "id": "scan",
+     "title": "Kamerakeret",
+     "text": "Irányítsa a számot a keretbe. Két ujjal húzza szorosan a keretet a szám köré — így jobban olvasható. A „Keret elforgatása” az oszlopban írt számokhoz való. A kereten kívüli koppintás elkészíti a felvételt.",
+     "image": ""
+    },
+    {
+     "id": "container-number",
+     "title": "Konténerszám",
+     "text": "A konténerszám 4 betűből és 7 számjegyből áll. A program ellenőrzi az ellenőrző számjegyet; ha a szám nem egyezik, „A szám nincs ellenőrizve” megjelöléssel menti el — ellenőrizze szabad szemmel.",
+     "image": ""
+    },
+    {
+     "id": "seal",
+     "title": "Plomba",
+     "text": "A zárszámot a feliratról olvassa le. Ha a plombán van vonalkód, és az nem egyezik a nyomtatott számmal, a program a nyomtatott számot veszi: a vonalkód néha más sorozatból származik.",
+     "image": ""
+    },
+    {
+     "id": "container-exchange",
+     "title": "Konténercsere",
+     "text": "Ha a megállóban átad egy konténert egy másik sofőrnek, és átveszi az övét, rögzítse a cserét: melyik konténert rakták le, melyiket rakták fel, a sofőr nevét és a járműve rendszámát.",
+     "image": ""
+    },
+    {
+     "id": "photos",
+     "title": "Fotók",
+     "text": "A fuvarhoz csatolhat fotókat a fel- és lerakodási dokumentumokról: „Dokumentumok fotó”. A „FOTÓK MEGTEKINTÉSE” teljes képernyőn nyitja meg őket.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "history",
+   "title": "Fuvarelőzmények és szerkesztés",
+   "intro": "Az előzményekben található az összes műszak és fuvar. Itt lehet őket megtekinteni, keresni, szerkeszteni és törölni.",
+   "steps": [
+    {
+     "id": "history",
+     "title": "Napló",
+     "text": "A fuvarok műszakok szerint vannak csoportosítva: a műszak kezdete és vége, idő, futásteljesítmény, fuvarok száma. Koppintson egy fuvarra — megnyílnak a részletek: ügyfél, rakomány, pontok, kilométeróra-állások, várakozás, fotók. Keresés — ügyfél, konténer, útvonal szerint. Az „Összes fuvar” egyetlen listában mutatja őket.",
+     "image": "img/hu/history-history.png"
+    },
+    {
+     "id": "edit",
+     "title": "Út szerkesztése",
+     "text": "A „Szerkesztés” ugyanazokat a lépéseket nyitja meg, mint a létrehozáskor, kiegészítve az időpontok és pontok képernyőjével. A módosítások csak az összegzésnél gyűlnek össze és mentődnek el.\n\nHa a kilométeróra-állás javítása más bejegyzéseket is érint (következő fuvar, a vontató állása, a műszak futásteljesítménye), a program az alkalmazás előtt megmutatja őket.",
+     "image": ""
+    },
+    {
+     "id": "delete",
+     "title": "Törlés",
+     "text": "Egy fuvart a kuka gombbal, többet pedig a kijelölési móddal lehet törölni. Aktív fuvart nem lehet törölni — előbb fejezze be. Ha a telefon csatlakozik az online programhoz, a törlés a többi eszközre is átkerül.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "report",
+   "title": "Jelentés és PDF",
+   "intro": "A jelentés kiszámítja az adott időszak munkáját: fuvarok, futásteljesítmény, munkaidő, várakozás, üzemanyag és fogyasztás.",
+   "steps": [
+    {
+     "id": "report",
+     "title": "Időszaki jelentés",
+     "text": "Válassza ki az időszakot: ma, hét, hónap vagy egyéni dátumok. A kártyák megmutatják az összesítést. A „Jelentés exportálása” PDF-et készít a műszakokkal, fuvarokkal, pontokkal és tankolásokkal; ezt elküldheti vagy kinyomtathatja.",
+     "image": "img/hu/report-report.png"
+    },
+    {
+     "id": "pdf",
+     "title": "Mi szerepel a PDF-ben",
+     "text": "A PDF-ben minden műszaknál szerepel a nyitás és zárás, a vontató és a pótkocsi, a fuvarok az ügyfelekkel, a rakománnyal, a kirakodási és várakozási időkkel, a kilométeróra-állásokkal, valamint a tankolások. A végén az időszak összesítése látható: műszakok, fuvarok, tankolások, futásteljesítmény, idő, üzemanyag, műszakonkénti átlagos táv és átlagfogyasztás.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "garage",
+   "title": "Flotta: vontatók és pótkocsik",
+   "intro": "A park tárolja az Ön járműveit. Innen származnak a járművek rajzai, a rendszámok, a pótkocsik kompatibilitása, a futásteljesítmények és minden, ami a járművön beállítható.",
+   "steps": [
+    {
+     "id": "garage",
+     "title": "Park",
+     "text": "Két fül: Vontatók és Pótkocsik. Az aktív jármű ki van emelve. A „+ Vontató hozzáadása” és a „+ Pótkocsi hozzáadása” újat vesz fel. A járműre koppintva megnyílik a kezelése.\n\nAmíg a fuvar úton van, a járművet nem lehet lecserélni — előbb fejezze be a fuvart (a pótkocsi útközben pótkocsicserével váltható).",
+     "image": "img/hu/garage-garage.png"
+    },
+    {
+     "id": "truck-form",
+     "title": "Vontató",
+     "text": "Rendszám, típus (vontató vagy teherautó) és felépítmény — képes kérdéssorral; van-e rajta daru vagy manipulátor. Két azonos rendszám nem lehet a parkban.",
+     "image": ""
+    },
+    {
+     "id": "trailer-form",
+     "title": "Pótkocsi",
+     "text": "Rendszám, kapcsolás (félpótkocsi vagy vonórúdas pótkocsi) és felépítmény. Tartálykocsinál — a rekeszek száma és egyenkénti térfogata, autószállítónál — az autóhelyek száma, hűtősnél — van-e rajta generátor.",
+     "image": ""
+    },
+    {
+     "id": "vehicle-hub",
+     "title": "Jármű kezelése",
+     "text": "A jármű képernyője mindent összegyűjt róla: regisztráció, dokumentumok, karbantartás, műszaki vizsga, tengelyek és gumik, rendszámtábla, fényezés. A „Beállítás aktívként” kiválasztja a munkához.",
+     "image": "img/hu/garage-vehicle-hub.png"
+    },
+    {
+     "id": "vehicle-settings",
+     "title": "Jármű beállításai",
+     "text": "Jelenlegi kilométeróra-állás, szervizintervallum (kilométer, hónap, figyelmeztetési küszöbök), a szerviz kiindulópontja, tengelyek, tank térfogata és saját kritikus tartalék („a tartalékig” kijelzéshez). Aggregátos pótkocsinál — az aggregát tankja és kritikus tartaléka.",
+     "image": "img/hu/garage-vehicle-settings.png"
+    },
+    {
+     "id": "plate-colors",
+     "title": "Rendszámtábla",
+     "text": "A tábla hátterének színe és a rendszám színe — ahogy a saját járművén van. Ha az összeállítás nehezen olvasható, a rendszám feketén vagy fehéren jelenik meg.",
+     "image": "img/hu/garage-plate-colors.png"
+    },
+    {
+     "id": "rig-paint",
+     "title": "Fényezés",
+     "text": "A fülke, a daru és a felépítmény színe a jármű rajzán. A „Mint a rajzon” visszaállítja az eredeti színt.",
+     "image": "img/hu/garage-rig-paint.png"
+    },
+    {
+     "id": "tyres",
+     "title": "Tengelyek és gumik",
+     "text": "A tengelyvázlat magától kirajzolódik a tengelyek száma alapján; bármelyik tengely beállítható szimplára vagy ikerre. Koppintson egy gumira: csere, defekt, áthelyezés vagy valami más — a bejegyzés bekerül az előzményekbe. A statisztika mutatja a cserék közötti átlagos futásteljesítményt és a leggyakoribb helyet. A pótkocsinak saját futásteljesítménye van — ezt külön beírhatja.",
+     "image": "img/hu/garage-tyres.png"
+    }
+   ]
+  },
+  {
+   "slug": "documents",
+   "title": "Dokumentumok és határidők",
+   "intro": "A jármű és a sofőr dokumentumai az oldalak fotóival és a lejárati dátumokkal. A program előre emlékeztet a határidőkre.",
+   "steps": [
+    {
+     "id": "overview",
+     "title": "Összes dokumentum",
+     "text": "Az áttekintés egyetlen listában mutatja az összes jármű és a sofőr dokumentumait a lejáratokkal: hány nap van hátra, vagy „lejárt”.",
+     "image": "img/hu/documents-overview.png"
+    },
+    {
+     "id": "list",
+     "title": "Jármű dokumentumai",
+     "text": "Minden járműnek saját listája van: forgalmi engedély, biztosítás, műszaki vizsga és egyéni dokumentumok. A „+” új dokumentumot ad hozzá.",
+     "image": "img/hu/documents-list.png"
+    },
+    {
+     "id": "form",
+     "title": "Dokumentum",
+     "text": "Válassza ki a típust vagy az „Egyéni dokumentum…” lehetőséget, és írja be a nevet (például ADR-engedély). Az „Érvényes eddig” a lejárati dátum, ez alapján jönnek az emlékeztetők. A műszaki vizsgánál a vizsga dátuma is megadható.",
+     "image": ""
+    },
+    {
+     "id": "pages",
+     "title": "Oldalak",
+     "text": "Fényképezze le a dokumentum oldalait a kamerával. Az oldalak teljes képernyőn nyithatók meg, lapozhatók és egyesével törölhetők.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Lejárati emlékeztetők",
+     "text": "A lejárat előtt a program értesítést küld, és indításkor megjeleníti a „Dokumentumok lejárata” ablakot. A „Megértettem” eltünteti az ablakot a következő küszöbig. A sofőr dokumentumai (jogosítvány, útlevél, ADR) a profilbeállításokban találhatók.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "maintenance",
+   "title": "Karbantartás és gumik",
+   "intro": "Karbantartás: bejegyzések, intervallumok és emlékeztető, amikor eljött az ideje.",
+   "steps": [
+    {
+     "id": "maintenance",
+     "title": "Karbantartás",
+     "text": "Felül látható, mennyi van még a következő szervizig kilométerben vagy napokban, illetve mennyivel járt le. Alatta a szervizbejegyzések állnak. Az intervallumokat és a kiindulópontot a jármű beállításaiban lehet megadni.",
+     "image": "img/hu/maintenance-maintenance.png"
+    },
+    {
+     "id": "new-record",
+     "title": "Szervizbejegyzés",
+     "text": "A „Szerviz rögzítése” megnyitja a bejegyzést: kilométeróra, dátum, mit végeztek el, fotók. A szervizkori kilométeróra-állás nem lehet nagyobb a jelenleginél.",
+     "image": ""
+    },
+    {
+     "id": "tyres",
+     "title": "Gumik",
+     "text": "A gumik vezetése a tengelyvázlaton történik — „Park” fejezet, „Tengelyek és gumik” lépés.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "address-book",
+   "title": "Címjegyzék és ügyfelek",
+   "intro": "Ügyfelek és címeik, valamint saját helyek. A címjegyzék magától bővül, amikor új ügyfelet ír be egy fuvarba.",
+   "steps": [
+    {
+     "id": "book",
+     "title": "Címjegyzék",
+     "text": "Az „Ügyfelek” fül az ügyfeleket mutatja a címeikkel; a helyek fül pedig a saját pontokat. A rejtett ügyfeleket a program nem ajánlja fel kiválasztáskor; a „Rejtettek mutatása” visszateszi őket a listába.",
+     "image": "img/hu/address-book-book.png"
+    },
+    {
+     "id": "clients",
+     "title": "Ügyfelek",
+     "text": "Az „Új ügyfél” ügyfelet ad hozzá. Olyan ügyfelet, akinek vannak fuvarjai, nem lehet törölni — de eltávolítható a választékból. A korábbi fuvarok megtartják az ügyfél nevét.",
+     "image": ""
+    },
+    {
+     "id": "client",
+     "title": "Ügyfél",
+     "text": "Név, sofőri megjegyzés és címek. Átnevezéskor a program ellenőrzi, nincs-e már ilyen név. A törlés azonnal visszavonható a „Visszavonás” gombbal.",
+     "image": "img/hu/address-book-client.png"
+    },
+    {
+     "id": "add-address",
+     "title": "Cím",
+     "text": "Cím, címke és koordináta. A koordináta elmenthető az aktuális helyzettel. A „Megnyitás navigációban” és a „Küldés” továbbítja a pontot. A piros jelölés kiemeli azt a címet, amelyre érdemes odafigyelni (nehéz behajtás, különleges szabályok).",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "backup",
+   "title": "Biztonsági mentés és visszaállítás",
+   "intro": "A biztonsági mentés egyetlen fájl a teljes naplóval: fuvarok, műszakok, tankolások, járművek, dokumentumok a fényképekkel együtt.",
+   "steps": [
+    {
+     "id": "backup",
+     "title": "Biztonsági mentés készítése",
+     "text": "Beállítások → Biztonsági mentés: az „Adatbázis exportálása (mentés)” elmenti a fájlt, a „Biztonsági mentés megosztása” pedig azonnal elküldi (e-mail, üzenetküldő, felhő). Biztonsági mentés bármikor készíthető — a munka nem szakad meg.",
+     "image": ""
+    },
+    {
+     "id": "restore",
+     "title": "Visszaállítás",
+     "text": "Az „Adatbázis importálása (visszaállítás)” minden jelenlegi adatot lecserél a mentési fájlra. A program először ellenőrzi a fájlt: idegen fájlt vagy újabb verzióból származó mentést nem fogad el. Új telefonon a visszaállítás közvetlenül az első indítás első lépésénél is elvégezhető.",
+     "image": ""
+    },
+    {
+     "id": "cross",
+     "title": "Android és iPhone",
+     "text": "A biztonsági mentés megegyezik Androidon és iPhone-on: az egyiken készített fájl visszaállítható a másikon.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "online",
+   "title": "A program online",
+   "intro": "A program online — my.vecturabook.com: ugyanaz a napló a böngészőben és az Ön többi eszközén.",
+   "steps": [
+    {
+     "id": "device-link",
+     "title": "Telefon csatlakoztatása",
+     "text": "Beállítások → „Csatlakozás a VecturaBookhoz”. Olvassa be a QR-kódot a weboldalon lévő fiókból, nyissa meg a fiókot a böngészőben és erősítse meg a telefonon, vagy írja be a képernyőn látható kódot. „A telefon leválasztása” lekapcsolja a készüléket.",
+     "image": "img/hu/online-device-link.png"
+    },
+    {
+     "id": "sync",
+     "title": "Szinkronizálás",
+     "text": "A csatlakoztatott telefon magától elküldi az új bejegyzéseket, és fogadja a többi eszközről érkező módosításokat. Az állapotsor mutatja a „Minden szinkronizálva” feliratot, vagy azt, hogy hány bejegyzés vár küldésre. Hálózat nélkül a bejegyzések a telefonon várakoznak.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "settings",
+   "title": "Beállítások",
+   "intro": "A beállítások csoportokba vannak rendezve: sofőrprofil, telefon és kapcsolat, dokumentumok (PDF), biztonsági mentés, általános.",
+   "steps": [
+    {
+     "id": "settings",
+     "title": "Beállítások",
+     "text": "Itt található a nyelv és régió, a mértékegységek, a téma, az animációk, a tankolási és fuvartörténeti PDF, a biztonsági mentés és a csatlakozás az online programhoz.",
+     "image": "img/hu/settings-settings.png"
+    },
+    {
+     "id": "profile",
+     "title": "Sofőrprofil",
+     "text": "Név a jelentésekhez és a sofőr dokumentumai: jogosítvány, útlevél, ADR-bizonyítvány — lejárati dátumokkal és az oldalak fotóival.",
+     "image": "img/hu/settings-profile.png"
+    },
+    {
+     "id": "language",
+     "title": "Nyelv és régió",
+     "text": "A program nyelve, a GPS-címek nyelve (automatikusan — ország szerint) és a dátumformátum.",
+     "image": "img/hu/settings-language.png"
+    },
+    {
+     "id": "units",
+     "title": "Mértékegységek",
+     "text": "Távolság, súly, térfogat, hossz, hőmérséklet és üzemanyag-fogyasztás. Előbeállítások: metrikus, angolszász, vegyes — vagy egyéni.",
+     "image": ""
+    },
+    {
+     "id": "theme",
+     "title": "Téma",
+     "text": "Világos, sötét vagy automatikus (a nappal és az éjszaka kezdetének ideje szerint). Előbeállítások: Kraft, Sötét kraft, Manila, Majdnem fehér, Sötét. Saját téma is készíthető.",
+     "image": "img/hu/settings-theme.png"
+    },
+    {
+     "id": "theme-custom",
+     "title": "Saját téma",
+     "text": "A háttér, a szöveg, a felső sáv, a kártyák, a mezőkeretek, a feliratok, a gombok, valamint a tankolás és a parkolás ikonjainak színe. A téma elmenthető, átnevezhető, és hozzárendelhető a világos vagy a sötét módhoz.",
+     "image": ""
+    },
+    {
+     "id": "animations",
+     "title": "Animációk",
+     "text": "Mozgó jelenetek lerakodáskor és tankoláskor. Kikapcsolhatók.",
+     "image": ""
+    },
+    {
+     "id": "about",
+     "title": "Névjegy",
+     "text": "Verzió, weboldal, Telegram, Facebook és a projekt támogatásának lehetősége. Korábban a program neve CargoLog volt — csak a név változott.",
+     "image": ""
+    },
+    {
+     "id": "feedback",
+     "title": "Visszajelzés",
+     "text": "Hibabejelentés, ötlet javaslata vagy egyéb üzenet küldése. Képernyőkép vagy fotó is csatolható. Ugyanitt a menüben: „Frissítések keresése” és „Értékeld az alkalmazást”.",
+     "image": ""
+    },
+    {
+     "id": "help",
+     "title": "Súgó",
+     "text": "A „Súgó” ennek az útmutatónak a tartalomjegyzéke: általános fejezetek és járműtípus szerinti fejezetek. Mindegyik itt nyílik meg, lépésről lépésre.",
+     "image": "img/hu/settings-help.png"
+    }
+   ]
+  },
+  {
+   "slug": "notifications",
+   "title": "Értesítések és emlékeztetők",
+   "intro": "A program jelzi, ami éppen folyamatban van, és azt is, ami hamarosan esedékes.",
+   "steps": [
+    {
+     "id": "timers",
+     "title": "Időzítők",
+     "text": "A várakozás, a tankolás és a kirakodás akkor is fut, amikor a program a háttérben van: az időzítő látható az értesítési sávban. Koppintson az értesítésre, hogy visszatérjen a programba.",
+     "image": ""
+    },
+    {
+     "id": "expiry",
+     "title": "Dokumentumok lejárata",
+     "text": "A dokumentumok lejáratáról szóló értesítések előre és a lejárat napján érkeznek.",
+     "image": ""
+    },
+    {
+     "id": "permissions",
+     "title": "Engedélyek",
+     "text": "Ha az értesítések, a kamera vagy a helymeghatározás le van tiltva, a program megmutatja, hol engedélyezheti őket a telefon beállításaiban.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics",
+   "title": "Diagnosztikai csatorna",
+   "intro": "A diagnosztikai csatorna adatokat küld a telefonról a fejlesztőnek, hogy a hibákat valódi adatok alapján lehessen kivizsgálni. Addig ki van kapcsolva, amíg Ön saját kezűleg be nem kapcsolja.",
+   "steps": [
+    {
+     "id": "enroll",
+     "title": "Telefon regisztrálása",
+     "text": "Olvassa el a hozzájárulást, és ha egyetért, koppintson a „Hozzájárulok, regisztráld ezt a telefont” gombra. Az „Ennek a telefonnak a visszavonása” kikapcsolja a csatornát, és törli a tanúsítványt.",
+     "image": "img/hu/diagnostics-enroll.png"
+    },
+    {
+     "id": "channel-settings",
+     "title": "Mit küldjön",
+     "text": "Három kapcsoló: az alkalmazás működési naplói, a fuvarok adatbázisa, konténerszámokról készült képek. Mindegyik ki van kapcsolva, amíg Ön be nem kapcsolja; bármikor kikapcsolható. Amíg mindhárom ki van kapcsolva, semmi sem kerül elküldésre. A galériát a program nem olvassa.",
+     "image": ""
+    },
+    {
+     "id": "warning",
+     "title": "Figyelmeztetés",
+     "text": "A szervizképernyőkre való belépés figyelmeztetéssel indul. A „Vigyetek ki innen” gombbal kiléphet.",
+     "image": ""
+    },
+    {
+     "id": "server",
+     "title": "Csatorna kiszolgálója",
+     "text": "A kapcsolat állapota: adásban, hallgat, nincs hálózat, a kiszolgáló nem fogad. Minden, ami küldésre kész, a telefonon vár — nincs semmi teendő.",
+     "image": ""
+    },
+    {
+     "id": "import",
+     "title": "Csatornacsomag",
+     "text": "Szolgálati telefonoknál a csatornacsomag jelszavas .p12 fájllal is telepíthető. A jelszót egyszer használja a program, és nem menti el.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "service",
+   "title": "Szervizképernyők",
+   "intro": "A szervizképernyők a hibák kivizsgálására szolgálnak. Belépés — hét koppintás a „Névjegy” képernyőn. A mindennapi munkában nincs rájuk szükség.",
+   "steps": [
+    {
+     "id": "hub",
+     "title": "Szervizközpont",
+     "text": "Adatok a programról és a telefonról, belépés a szervizképernyőkre és a diagnosztikai csatornába, animációs galéria.",
+     "image": ""
+    },
+    {
+     "id": "database",
+     "title": "Adatbázis",
+     "text": "Az adatbázis állapota és a program teljes visszaállítása. A visszaállítás mindent véglegesen töröl — előtte készítsen biztonsági mentést.",
+     "image": ""
+    },
+    {
+     "id": "logs",
+     "title": "Naplók",
+     "text": "A program működési naplói a hibák kivizsgálásához.",
+     "image": ""
+    },
+    {
+     "id": "ocr",
+     "title": "Felismerés",
+     "text": "A kamerás számbeolvasás diagnosztikája.",
+     "image": ""
+    },
+    {
+     "id": "system",
+     "title": "Rendszer",
+     "text": "Adatok a telefonról és az összeomlásokról.",
+     "image": ""
+    },
+    {
+     "id": "locale",
+     "title": "Nyelv és első indítás",
+     "text": "A nyelvek ellenőrzése és az első indítás újbóli megnyitása.",
+     "image": ""
+    },
+    {
+     "id": "dataset",
+     "title": "Kameraképek",
+     "text": "Képkockák rögzítése a felismerés tanításához — kizárólag a képekre adott hozzájárulással.",
+     "image": ""
+    },
+    {
+     "id": "splash-tuner",
+     "title": "Nyitóképernyő",
+     "text": "Az indítási nyitóképernyő beállítása.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "flatbed",
+   "title": "Plató",
+   "intro": "A platós jármű darabárut és túlméretes rakományt szállít.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "A parkban",
+     "text": "Adja meg a „Plató” felépítményt és a platóhosszt.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Fuvar közben",
+     "text": "Rakománytípusok: darabáru (raklapok, súly, leírás), túlméretes (hossz, szélesség, magasság, súly), konténer platón. Túlméretes árunál a „Rakomány adatai” lépés bekéri a méreteket.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Kirakodás",
+     "text": "A raklapok megállónként darabszámmal vagy százalékban adhatók le.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "container",
+   "title": "Konténer",
+   "intro": "A konténerszállító 20, 40 és 45 lábas konténereket szállít, egyet vagy kettőt.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "A parkban",
+     "text": "„Konténer” felépítmény; a konténer mérete, amelyre a pótkocsit tervezték.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Fuvar közben",
+     "text": "Kérdéssor: üres vagy rakott, méret, hány konténer, típus (Standard, Reefer, Flat Rack, Open Top, Tank). Konténerszám és zárszám — kamerával. Szellőzőplomba és hőmérséklet — Reefer esetén.",
+     "image": ""
+    },
+    {
+     "id": "fate",
+     "title": "Kirakodás után",
+     "text": "A program megkérdezi, mi lett a konténerrel: az ügyfélnél maradt, a járművön maradt, másik ügyfélhez megy, vagy visszakerül a kikötőbe, illetve depóba.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "sidelifter",
+   "title": "Oldalsó rakodó",
+   "intro": "Az oldalsó rakodó saját maga emeli le és teszi fel a konténert.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "A parkban",
+     "text": "Az „Oldalsó rakodó” felépítmény csak félpótkocsinál érhető el.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Fuvar közben",
+     "text": "A konténert ugyanúgy kell megadni, mint a konténerszállítónál; a daruzást az összegzésen lehet bejelölni.",
+     "image": ""
+    },
+    {
+     "id": "exchange",
+     "title": "Csere",
+     "text": "Az oldalsó rakodó gyakran cserél konténert a megállóban — használja a „Konténercsere” funkciót.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "refrigerated",
+   "title": "Hűtős",
+   "intro": "A hűtős jármű hőmérséklet-szabályozott rakományt szállít.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "A parkban",
+     "text": "„Hűtős” felépítmény; jelölje be a generátort (aggregátot), ha fel van szerelve, és adja meg az aggregát tankját és kritikus tartalékát.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Fuvar közben",
+     "text": "Hűtött szállítás: hűtött vagy nem hűtött; a rakomány hőmérséklete. A vezetési képernyőn — „Az aggregát jár” kapcsoló.",
+     "image": ""
+    },
+    {
+     "id": "fuel",
+     "title": "Az aggregát üzemanyaga",
+     "text": "Az aggregát gázolaja a tankolásnál külön mezőbe írható be; a program számolja az üzemórákat és a liter/óra fogyasztást, és megjeleníti a „≈ N ó a tartalékig” jelzést.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "curtainsider",
+   "title": "Ponyvás",
+   "intro": "A ponyvás pótkocsi raklapos darabárut szállít.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "A parkban",
+     "text": "„Ponyvás” felépítmény.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Fuvar közben",
+     "text": "Darabáru: raklapok száma, összsúly, leírás.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Kirakodás",
+     "text": "Minden megállóban jelölje be, hány raklapot adott le; a program megjegyzi a fedélzeten maradt mennyiséget.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tipper",
+   "title": "Billenős",
+   "intro": "A billenős jármű ömlesztett rakományt szállít.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "A parkban",
+     "text": "„Billenős” felépítmény.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Fuvar közben",
+     "text": "Ömlesztett rakomány: térfogat köbméterben, nettó és bruttó súly, leírás.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Kirakodás",
+     "text": "A kirakodást az időpont rögzíti; a rakodási munkák időzítője mutatja, mennyi ideig tartott.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fuel-tanker",
+   "title": "Tartálykocsi",
+   "intro": "Az üzemanyagszállító tartálykocsi rekeszenként szállítja az üzemanyagot.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "A parkban",
+     "text": "„Tartálykocsi” felépítmény; a rekeszek száma és egyenkénti térfogata literben.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Fuvar közben",
+     "text": "A rakomány adataiban — az egyes rekeszek térfogata.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Kirakodás",
+     "text": "A megállóban jelölje be a lefejtett rekeszeket. Ha a fuvar befejezésekor maradtak ki nem rakott rekeszek, a program megerősítést kér.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "tanker",
+   "title": "Tartálykocsi",
+   "intro": "A tartálykocsi folyékony rakományt szállít.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "A parkban",
+     "text": "„Tartálykocsi” felépítmény; rekeszek és térfogatok.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Fuvar közben",
+     "text": "Folyadékkategória: vegyszerek, élelmiszer, hulladék; hőmérséklet-szabályozott; ADR veszélyes árukhoz UN-számokkal.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Kirakodás",
+     "text": "A rekeszek megállónkénti leadása ugyanúgy történik, mint az üzemanyagszállító tartálykocsinál.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "car-transporter",
+   "title": "Autószállító",
+   "intro": "Az autószállító személygépkocsikat szállít.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "A parkban",
+     "text": "„Autószállító” felépítmény; az autóhelyek száma.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Fuvar közben",
+     "text": "A járműveket VIN (17 karakter, I, O, Q nélkül) vagy rendszám alapján lehet felvenni; a VIN kamerával is beolvasható. A számláló mutatja, hány jármű van felrakva.",
+     "image": ""
+    },
+    {
+     "id": "unload",
+     "title": "Kirakodás",
+     "text": "A megállóban jelölje be, mely járműveket adta le és melyeket vette fel. Ha a fuvar befejezésekor maradtak járművek a fedélzeten, a program megerősítést kér.",
+     "image": ""
+    }
+   ]
+  }
+ ],
+ "screens": {
+  "getting-started.welcome": "Első indítás: név, vontató, pótkocsi és engedélyek. Ha van biztonsági mentés, a teljes napló visszaállítható.",
+  "getting-started.onboarding": "Válaszoljon a saját magára és a járműre vonatkozó kérdésekre. Később minden módosítható a beállításokban és a parkban.",
+  "getting-started.main-screen": "A főképernyő mutatja, hol tart a munkában, és továbbviszi a következő lépésre: műszak, fuvar, kirakodás.",
+  "getting-started.menu": "A program menüje: park, útnapló, jelentések, tankolások, karbantartás, dokumentumok, címek, súgó és beállítások.",
+  "shift.shift-welcome": "Műszak kezdete: helyszín, útra várakozás és az „Út indítása” gomb.",
+  "shift.shift-status": "Nyitva van-e a műszak, mióta és hány fuvar van benne.",
+  "trip.origin": "Ügyfél és cím, ahonnan indul vagy ahová tart. Az új ügyfél automatikusan bekerül a címjegyzékbe.",
+  "trip.cargo-type": "Mit szállít. A lista a vontató és a pótkocsi felépítményétől függ.",
+  "trip.cargo-details": "Rakomány adatai: konténer- és zárszámok, rekeszek, járművek, raklapok. A számok kamerával is beolvashatók.",
+  "trip.load-details": "A rakomány méretei, súlya és leírása.",
+  "trip.trip-times": "Egy már rögzített fuvar időpontjainak, címeinek és kilométeróra-állásainak szerkesztése.",
+  "trip.confirm": "Út összegzése. Ellenőrizze, majd koppintson az „Indulás” gombra — a fuvar csak ekkor kerül rögzítésre.",
+  "trip.arrival": "Ön a célállomáson van: érkezés, a kirakodás vagy berakodás kezdete és vége.",
+  "trip.unload": "Mit adott le ezen a ponton: rekeszek, százalék, raklapok vagy járművek.",
+  "trip.cargo-fate": "Mi történik a konténerrel a kirakodás után.",
+  "trip.summary": "Út összegzése: következő megálló, befejezés vagy új út.",
+  "driving.driving": "Fuvar folyamatban: érkezés, tankolás, parkolás. A jármű alatt — hozzávetőleges távolság vagy idő az üzemanyag-tartalékig.",
+  "driving.odometer": "Kilométeróra-állás. A program beírja a várt értéket, és ellenőrzi a számot; kamerával is beolvasható.",
+  "driving.swap-trailer": "Pótkocsi cseréje útközben: válasszon pótkocsit a parkból.",
+  "refuel.refuel-timer": "Tankolás folyamatban: időzítő. A végén — a literek megadása.",
+  "refuel.refuel-data": "Gázolaj, AdBlue és pótkocsi-aggregát literek, kilométeróra. Egyetlen bejegyzésként mentődik.",
+  "refuel.refuel-history": "Az időszak összes tankolása, átlagfogyasztás és PDF-jelentés.",
+  "parking.parking-stop": "Parkolási cím: kézzel, mentett helyekből vagy GPS alapján.",
+  "parking.places": "Saját helyek: parkolók, kikötők, depók. Parkoláskor és a konténer visszaadásakor választhatók ki.",
+  "parking.place-form": "A hely neve, megjegyzése és koordinátája; megnyitás navigációban.",
+  "camera.scan": "Irányítsa a számot a keretbe. Két ujjal húzza a keretet a számra; koppintás a kereten kívül — fotó.",
+  "camera.container-exchange": "Konténercsere másik sofőrrel: mit adott át és mit vett át.",
+  "camera.photos": "A fuvar dokumentumainak fotói teljes képernyőn.",
+  "history.history": "Minden műszak és fuvar: keresés, részletek, szerkesztés és törlés.",
+  "report.report": "Időszaki összesítés és PDF-jelentés.",
+  "garage.garage": "Az Ön vontatói és pótkocsijai. Koppintson egy járműre a kezelés megnyitásához.",
+  "garage.truck-form": "A vontató rendszáma, típusa és felépítménye; daru vagy manipulátor.",
+  "garage.trailer-form": "A pótkocsi rendszáma, kapcsolása és felépítménye; rekeszek, autóhelyek, generátor.",
+  "garage.vehicle-hub": "Minden a járműről: dokumentumok, karbantartás, műszaki vizsga, tengelyek és gumik, rendszámtábla, fényezés.",
+  "garage.vehicle-settings": "Kilométeróra, szervizintervallumok, tengelyek, tank és kritikus tartalék.",
+  "garage.plate-colors": "A rendszámtábla színei, ahogy a járművön van.",
+  "garage.rig-paint": "A fülke, a daru és a felépítmény színei a jármű rajzán.",
+  "garage.tyres": "Tengelyvázlat és gumielőzmények: cserék, defektek, áthelyezések.",
+  "documents.overview": "A járművek és a sofőr összes dokumentuma a lejárati dátumokkal.",
+  "documents.list": "Ennek a járműnek a dokumentumai. „+” — hozzáadás.",
+  "documents.form": "A dokumentum típusa, neve és érvényességi ideje.",
+  "documents.pages": "A dokumentum oldalainak fotói.",
+  "maintenance.maintenance": "Mennyi van még a szervizig, és a karbantartási bejegyzések.",
+  "maintenance.new-record": "Új szervizbejegyzés: kilométeróra, dátum, elvégzett munkák, fotók.",
+  "address-book.book": "Ügyfelek és saját helyek.",
+  "address-book.clients": "Ügyfelek listája: hozzáadás, elrejtés, törlés.",
+  "address-book.client": "Az ügyfél neve, megjegyzése és címei.",
+  "address-book.add-address": "Cím, koordináta, navigáció és piros jelölés.",
+  "backup.backup": "Fájl a teljes naplóval: mentés, küldés vagy visszaállítás.",
+  "online.device-link": "A telefon csatlakoztatása az online programhoz: QR-kód vagy a képernyőn látható kód.",
+  "settings.settings": "Minden beállítás csoportokba rendezve.",
+  "settings.profile": "A sofőr neve és dokumentumai.",
+  "settings.language": "A program nyelve, a GPS-címek nyelve, dátumformátum.",
+  "settings.theme": "Világos, sötét vagy automatikus; előre beállított és saját témák.",
+  "settings.theme-custom": "A saját téma színei.",
+  "settings.about": "A program verziója és kapcsolatfelvétel a fejlesztővel.",
+  "settings.feedback": "Hibabejelentés vagy ötlet javaslata.",
+  "settings.help": "A program útmutatója fejezetenként.",
+  "diagnostics.enroll": "Hozzájárulás és a telefon regisztrálása a diagnosztikai csatornában.",
+  "diagnostics.warning": "Belépés a program szervizrészébe.",
+  "diagnostics.channel-settings": "Mit küld a telefon a fejlesztőnek: három külön hozzájárulás.",
+  "diagnostics.server": "A diagnosztikai csatorna kapcsolatának állapota.",
+  "diagnostics.import": "Csatornacsomag telepítése .p12 fájlból.",
+  "service.hub": "Szervizközpont: adatok és szervizképernyők.",
+  "service.database": "Az adatbázis állapota és a program teljes visszaállítása.",
+  "service.logs": "A program működési naplói.",
+  "service.ocr": "A számfelismerés diagnosztikája.",
+  "service.system": "Adatok a telefonról és az összeomlásokról.",
+  "service.locale": "A nyelvek ellenőrzése és az első indítás újbóli megnyitása.",
+  "service.dataset": "Képkockák rögzítése a felismeréshez.",
+  "service.splash-tuner": "A nyitóképernyő beállítása."
+ }
+}
