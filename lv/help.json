@@ -828,13 +828,13 @@
   },
   {
    "slug": "fuel-tanker",
-   "title": "Cisterna",
+   "title": "Degvielas autocisterna",
    "intro": "Degvielas cisterna ved degvielu pa sekcijām.",
    "steps": [
     {
      "id": "setup",
      "title": "Garāžā",
-     "text": "Virsbūve «Cisterna»; sekciju skaits un katras tilpums litros.",
+     "text": "Virsbūve «Degvielas autocisterna»; sekciju skaits un katras tilpums litros.",
      "image": "img/lv/fuel-tanker-setup.png"
     },
     {

@@ -828,13 +828,13 @@
   },
   {
    "slug": "fuel-tanker",
-   "title": "Cisterna",
+   "title": "Benzinvežis",
    "intro": "Degalų cisterna veža degalus sekcijomis.",
    "steps": [
     {
      "id": "setup",
      "title": "Garaže",
-     "text": "Kėbulas „Cisterna“; sekcijų skaičius ir kiekvienos tūris litrais.",
+     "text": "Kėbulas „Benzinvežis“; sekcijų skaičius ir kiekvienos tūris litrais.",
      "image": "img/lt/fuel-tanker-setup.png"
     },
     {

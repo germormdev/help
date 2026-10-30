@@ -828,13 +828,13 @@
   },
   {
    "slug": "fuel-tanker",
-   "title": "Säiliöauto",
+   "title": "Polttoaineauto",
    "intro": "Säiliöauto kuljettaa polttoainetta lohkoissa.",
    "steps": [
     {
      "id": "setup",
      "title": "Hallissa",
-     "text": "Korityyppi ”Säiliöauto”; lohkojen määrä ja kunkin tilavuus litroina.",
+     "text": "Korityyppi ”Polttoaineauto”; lohkojen määrä ja kunkin tilavuus litroina.",
      "image": "img/fi/fuel-tanker-setup.png"
     },
     {

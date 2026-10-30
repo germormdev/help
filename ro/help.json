@@ -85,7 +85,7 @@
     {
      "id": "cargo-type",
      "title": "Ce transporți",
-     "text": "Tipul de marfă se alege din casete: container, marfă generală, agabaritic, frigorific, cisternă, vrac, transportor auto, gol. Lista depinde de caroseria camionului și a remorcii.\n\nDacă schimbați tipul de marfă după ce ați introdus deja detaliile, aplicația vă avertizează că datele introduse vor fi șterse și vă cere confirmarea.",
+     "text": "Tipul de marfă se alege din casete: container, marfă generală, agabaritic, frigorific, cisternă de combustibil, vrac, transportor auto, gol. Lista depinde de caroseria camionului și a remorcii.\n\nDacă schimbați tipul de marfă după ce ați introdus deja detaliile, aplicația vă avertizează că datele introduse vor fi șterse și vă cere confirmarea.",
      "image": "img/ro/trip-cargo-type.png"
     },
     {
@@ -828,13 +828,13 @@
   },
   {
    "slug": "fuel-tanker",
-   "title": "Cisternă combustibil",
+   "title": "Cisternă de combustibil",
    "intro": "Cisterna de combustibil transportă carburant pe compartimente.",
    "steps": [
     {
      "id": "setup",
      "title": "În parc",
-     "text": "Caroseria „Cisternă”; numărul de compartimente și volumul fiecăruia în litri.",
+     "text": "Caroseria „Cisternă de combustibil”; numărul de compartimente și volumul fiecăruia în litri.",
      "image": "img/ro/fuel-tanker-setup.png"
     },
     {

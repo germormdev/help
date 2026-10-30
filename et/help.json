@@ -828,13 +828,13 @@
   },
   {
    "slug": "fuel-tanker",
-   "title": "Paakauto",
+   "title": "Kütuseveok",
    "intro": "Kütuseveok veab kütust sektsioonide kaupa.",
    "steps": [
     {
      "id": "setup",
      "title": "Garaažis",
-     "text": "Keretüüp „Paakauto“; sektsioonide arv ja iga sektsiooni maht liitrites.",
+     "text": "Keretüüp „Kütuseveok“; sektsioonide arv ja iga sektsiooni maht liitrites.",
      "image": "img/et/fuel-tanker-setup.png"
     },
     {

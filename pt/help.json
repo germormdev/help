@@ -85,7 +85,7 @@
     {
      "id": "cargo-type",
      "title": "O que transportas?",
-     "text": "O tipo de carga escolhe-se por mosaicos: contentor, carga geral, especial, frigorífico, cisterna, granel, porta-automóveis, vazio. A lista depende da carroçaria do camião e do reboque.\n\nSe mudar o tipo de carga depois de já ter introduzido detalhes, a aplicação avisa que os dados introduzidos serão apagados e pede confirmação.",
+     "text": "O tipo de carga escolhe-se por mosaicos: contentor, carga geral, especial, frigorífico, cisterna de combustível, granel, porta-automóveis, vazio. A lista depende da carroçaria do camião e do reboque.\n\nSe mudar o tipo de carga depois de já ter introduzido detalhes, a aplicação avisa que os dados introduzidos serão apagados e pede confirmação.",
      "image": "img/pt/trip-cargo-type.png"
     },
     {
@@ -834,7 +834,7 @@
     {
      "id": "setup",
      "title": "Na frota",
-     "text": "Carroçaria «Cisterna»; número de compartimentos e volume de cada um em litros.",
+     "text": "Carroçaria «Cisterna de combustível»; número de compartimentos e volume de cada um em litros.",
      "image": "img/pt/fuel-tanker-setup.png"
     },
     {

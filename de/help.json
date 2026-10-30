@@ -85,7 +85,7 @@
     {
      "id": "cargo-type",
      "title": "Was transportierst du?",
-     "text": "Den Ladungstyp wählen Sie über Kacheln: Container, Stückgut, Sperrgut, Kühltransport, Tankwagen, Schüttgut, Autotransporter, Leer. Die Auswahl richtet sich nach der Aufbauart von LKW und Anhänger.\n\nWenn Sie den Ladungstyp ändern, nachdem bereits Details eingegeben wurden, warnt die App, dass die Eingaben gelöscht werden, und fragt nach einer Bestätigung.",
+     "text": "Den Ladungstyp wählen Sie über Kacheln: Container, Stückgut, Sperrgut, Kühltransport, Kraftstofftankwagen, Schüttgut, Autotransporter, Leer. Die Auswahl richtet sich nach der Aufbauart von LKW und Anhänger.\n\nWenn Sie den Ladungstyp ändern, nachdem bereits Details eingegeben wurden, warnt die App, dass die Eingaben gelöscht werden, und fragt nach einer Bestätigung.",
      "image": "img/de/trip-cargo-type.png"
     },
     {
@@ -828,13 +828,13 @@
   },
   {
    "slug": "fuel-tanker",
-   "title": "Tankwagen",
+   "title": "Kraftstofftankwagen",
    "intro": "Der Kraftstoff-Tankwagen transportiert Kraftstoff aufgeteilt auf einzelne Kammern.",
    "steps": [
     {
      "id": "setup",
      "title": "Im Fuhrpark",
-     "text": "Aufbauart „Tankwagen“; dazu die Anzahl der Kammern und das Volumen jeder Kammer in Litern.",
+     "text": "Aufbauart „Kraftstofftankwagen“; dazu die Anzahl der Kammern und das Volumen jeder Kammer in Litern.",
      "image": "img/de/fuel-tanker-setup.png"
     },
     {

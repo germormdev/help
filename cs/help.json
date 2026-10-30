@@ -828,13 +828,13 @@
   },
   {
    "slug": "fuel-tanker",
-   "title": "Cisterna",
+   "title": "Cisterna na PHM",
    "intro": "Cisterna na palivo vozí pohonné hmoty v jednotlivých komorách.",
    "steps": [
     {
      "id": "setup",
      "title": "V garáži",
-     "text": "Nástavba „Cisterna“; počet komor a objem každé z nich v litrech.",
+     "text": "Nástavba „Cisterna na PHM“; počet komor a objem každé z nich v litrech.",
      "image": "img/cs/fuel-tanker-setup.png"
     },
     {

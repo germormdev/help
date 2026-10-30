@@ -828,13 +828,13 @@
   },
   {
    "slug": "fuel-tanker",
-   "title": "Tartálykocsi",
+   "title": "Üzemanyag-szállító",
    "intro": "Az üzemanyagszállító tartálykocsi rekeszenként szállítja az üzemanyagot.",
    "steps": [
     {
      "id": "setup",
      "title": "A parkban",
-     "text": "„Tartálykocsi” felépítmény; a rekeszek száma és egyenkénti térfogata literben.",
+     "text": "„Üzemanyag-szállító” felépítmény; a rekeszek száma és egyenkénti térfogata literben.",
      "image": "img/hu/fuel-tanker-setup.png"
     },
     {

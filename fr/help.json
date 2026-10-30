@@ -85,7 +85,7 @@
     {
      "id": "cargo-type",
      "title": "Que transportes-tu ?",
-     "text": "Le type de cargaison se choisit par tuiles : conteneur, marchandise générale, hors gabarit, frigorifique, citerne, vrac, porte-voitures, vide. La liste dépend de la carrosserie du camion et de la remorque.\n\nSi vous changez le type de cargaison après avoir déjà saisi des détails, l'application vous préviendra que la saisie sera effacée et demandera confirmation.",
+     "text": "Le type de cargaison se choisit par tuiles : conteneur, marchandise générale, hors gabarit, frigorifique, citerne à carburant, vrac, porte-voitures, vide. La liste dépend de la carrosserie du camion et de la remorque.\n\nSi vous changez le type de cargaison après avoir déjà saisi des détails, l'application vous préviendra que la saisie sera effacée et demandera confirmation.",
      "image": "img/fr/trip-cargo-type.png"
     },
     {
@@ -828,13 +828,13 @@
   },
   {
    "slug": "fuel-tanker",
-   "title": "Citerne",
+   "title": "Citerne à carburant",
    "intro": "La citerne à carburant transporte le carburant par compartiments.",
    "steps": [
     {
      "id": "setup",
      "title": "Dans le parc",
-     "text": "Carrosserie « Citerne » ; nombre de compartiments et volume de chacun en litres.",
+     "text": "Carrosserie « Citerne à carburant » ; nombre de compartiments et volume de chacun en litres.",
      "image": "img/fr/fuel-tanker-setup.png"
     },
     {

@@ -828,13 +828,13 @@
   },
   {
    "slug": "fuel-tanker",
-   "title": "Tankbil",
+   "title": "Drivstofftankbil",
    "intro": "En tankbil for drivstoff frakter drivstoff fordelt på seksjoner.",
    "steps": [
     {
      "id": "setup",
      "title": "I vognparken",
-     "text": "Påbygg «Tankbil»; «Antall seksjoner» og volumet for hver seksjon i liter.",
+     "text": "Påbygg «Drivstofftankbil»; «Antall seksjoner» og volumet for hver seksjon i liter.",
      "image": "img/no/fuel-tanker-setup.png"
     },
     {

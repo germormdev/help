@@ -828,13 +828,13 @@
   },
   {
    "slug": "fuel-tanker",
-   "title": "Tankbil",
+   "title": "Brændstoftankbil",
    "intro": "En tankbil til brændstof transporterer brændstof fordelt på sektioner.",
    "steps": [
     {
      "id": "setup",
      "title": "I vognparken",
-     "text": "Opbygningen \"Tankbil\"; antal sektioner og volumen for hver sektion i liter.",
+     "text": "Opbygningen \"Brændstoftankbil\"; antal sektioner og volumen for hver sektion i liter.",
      "image": "img/da/fuel-tanker-setup.png"
     },
     {

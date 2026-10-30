@@ -85,7 +85,7 @@
     {
      "id": "cargo-type",
      "title": "Cosa trasporti",
-     "text": "Il tipo di carico si sceglie dai riquadri: «Container», «Merce generica», «Fuori sagoma», «Frigorifero», «Cisterna», «Sfuso», «Bisarca», «Vuoto». L'elenco dipende dalla carrozzeria del camion e del rimorchio.\n\nSe cambi il tipo di carico dopo aver già inserito i dettagli, l'app ti avviserà che i dati inseriti verranno cancellati e chiederà conferma.",
+     "text": "Il tipo di carico si sceglie dai riquadri: «Container», «Merce generica», «Fuori sagoma», «Frigorifero», «Cisterna carburanti», «Sfuso», «Bisarca», «Vuoto». L'elenco dipende dalla carrozzeria del camion e del rimorchio.\n\nSe cambi il tipo di carico dopo aver già inserito i dettagli, l'app ti avviserà che i dati inseriti verranno cancellati e chiederà conferma.",
      "image": "img/it/trip-cargo-type.png"
     },
     {
@@ -828,13 +828,13 @@
   },
   {
    "slug": "fuel-tanker",
-   "title": "Cisterna carburante",
+   "title": "Cisterna carburanti",
    "intro": "La cisterna carburante trasporta carburante diviso in scomparti.",
    "steps": [
     {
      "id": "setup",
      "title": "Nel parco mezzi",
-     "text": "Carrozzeria «Cisterna»; «Numero di scomparti» e volume di ciascuno in litri.",
+     "text": "Carrozzeria «Cisterna carburanti»; «Numero di scomparti» e volume di ciascuno in litri.",
      "image": "img/it/fuel-tanker-setup.png"
     },
     {

@@ -85,7 +85,7 @@
     {
      "id": "cargo-type",
      "title": "Čo vezieš",
-     "text": "Typ nákladu sa vyberá dlaždicami: kontajner, všeobecný náklad, nadrozmerný, chladiareň, cisterna, sypký, autotransportér, prázdny. Ponuka závisí od nadstavby ťahača a návesu.\n\nAk zmeníte typ nákladu, keď sú už detaily zadané, aplikácia upozorní, že zadané údaje sa vymažú, a vypýta si potvrdenie.",
+     "text": "Typ nákladu sa vyberá dlaždicami: kontajner, všeobecný náklad, nadrozmerný, chladiareň, cisterna na palivo, sypký, autotransportér, prázdny. Ponuka závisí od nadstavby ťahača a návesu.\n\nAk zmeníte typ nákladu, keď sú už detaily zadané, aplikácia upozorní, že zadané údaje sa vymažú, a vypýta si potvrdenie.",
      "image": "img/sk/trip-cargo-type.png"
     },
     {
@@ -828,13 +828,13 @@
   },
   {
    "slug": "fuel-tanker",
-   "title": "Cisterna",
+   "title": "Cisterna na palivo",
    "intro": "Palivová cisterna vozí palivo rozdelené po komorách.",
    "steps": [
     {
      "id": "setup",
      "title": "V parku",
-     "text": "Nadstavba „Cisterna“; počet komôr a objem každej v litroch.",
+     "text": "Nadstavba „Cisterna na palivo“; počet komôr a objem každej v litroch.",
      "image": "img/sk/fuel-tanker-setup.png"
     },
     {

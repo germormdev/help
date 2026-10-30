@@ -828,13 +828,13 @@
   },
   {
    "slug": "fuel-tanker",
-   "title": "Cysterna paliwowa",
+   "title": "Cysterna na paliwo",
    "intro": "Cysterna paliwowa przewozi paliwo w komorach.",
    "steps": [
     {
      "id": "setup",
      "title": "W parku",
-     "text": "Nadwozie „Cysterna”; liczba komór i pojemność każdej w litrach.",
+     "text": "Nadwozie „Cysterna na paliwo”; liczba komór i pojemność każdej w litrach.",
      "image": "img/pl/fuel-tanker-setup.png"
     },
     {

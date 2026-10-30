@@ -85,7 +85,7 @@
     {
      "id": "cargo-type",
      "title": "Wat vervoer je?",
-     "text": "U kiest het ladingtype met tegels: container, stukgoed, buitenmaats, koeltransport, tankwagen, stortgoed, autotransporter, leeg. De lijst hangt af van de carrosserie van uw trekker en aanhanger.\n\nVerandert u het ladingtype nadat u al details hebt ingevuld, dan waarschuwt de app dat het ingevoerde wordt gewist en vraagt om bevestiging.",
+     "text": "U kiest het ladingtype met tegels: container, stukgoed, buitenmaats, koeltransport, brandstoftankwagen, stortgoed, autotransporter, leeg. De lijst hangt af van de carrosserie van uw trekker en aanhanger.\n\nVerandert u het ladingtype nadat u al details hebt ingevuld, dan waarschuwt de app dat het ingevoerde wordt gewist en vraagt om bevestiging.",
      "image": "img/nl/trip-cargo-type.png"
     },
     {
@@ -828,13 +828,13 @@
   },
   {
    "slug": "fuel-tanker",
-   "title": "Tankwagen (brandstof)",
+   "title": "Brandstoftankwagen",
    "intro": "Een brandstoftankwagen vervoert brandstof verdeeld over secties.",
    "steps": [
     {
      "id": "setup",
      "title": "In het wagenpark",
-     "text": "Carrosserietype „Tankwagen”; aantal secties en het volume van elke sectie in liters.",
+     "text": "Carrosserietype „Brandstoftankwagen”; aantal secties en het volume van elke sectie in liters.",
      "image": "img/nl/fuel-tanker-setup.png"
     },
     {

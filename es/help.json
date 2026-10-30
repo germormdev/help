@@ -85,7 +85,7 @@
     {
      "id": "cargo-type",
      "title": "¿Qué transportas?",
-     "text": "El «Tipo de mercancía» se elige con tarjetas: «Contenedor», «Mercancía general», «Especial», «Frigorífico», «Cisterna», «Granel», «Portacoches», «Vacío». La lista depende de la carrocería del camión y del remolque.\n\nSi cambia el tipo de carga después de haber introducido los detalles, la aplicación le avisará de que se borrarán los datos escritos y le pedirá confirmación.",
+     "text": "El «Tipo de mercancía» se elige con tarjetas: «Contenedor», «Mercancía general», «Especial», «Frigorífico», «Cisterna de combustible», «Granel», «Portacoches», «Vacío». La lista depende de la carrocería del camión y del remolque.\n\nSi cambia el tipo de carga después de haber introducido los detalles, la aplicación le avisará de que se borrarán los datos escritos y le pedirá confirmación.",
      "image": "img/es/trip-cargo-type.png"
     },
     {
@@ -828,13 +828,13 @@
   },
   {
    "slug": "fuel-tanker",
-   "title": "Cisterna",
+   "title": "Cisterna de combustible",
    "intro": "La cisterna de combustible transporta carburante repartido por compartimentos.",
    "steps": [
     {
      "id": "setup",
      "title": "En el parque",
-     "text": "Carrocería «Cisterna»; «Número de compartimentos» y el volumen de cada uno en litros.",
+     "text": "Carrocería «Cisterna de combustible»; «Número de compartimentos» y el volumen de cada uno en litros.",
      "image": "img/es/fuel-tanker-setup.png"
     },
     {
