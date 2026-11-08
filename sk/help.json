@@ -160,6 +160,12 @@
      "title": "Stav tachometra",
      "text": "Aplikácia predvyplní očakávaný stav: z vozidla, z nakládky, z predchádzajúcej vykládky alebo z tankovania. Skontrolujte ho a v prípade potreby opravte. Tachometer sa dá odfotiť kamerou.\n\nAk je číslo menšie ako predchádzajúce, výrazne väčšie ako očakávané alebo ste sa ho nedotkli, aplikácia ukáže posledný známy stav a opýta sa, či je všetko správne. Úprava tachometra v minulej jazde ukáže, ktoré ďalšie záznamy ovplyvní.",
      "image": "img/sk/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Hranica a trajekt",
+     "text": "Zapína sa v nastaveniach („Hranica a trajekt“), predvolene vypnuté. Na obrazovke jazdy tlačidlá „Hranica“ a „Trajekt“. Hranica: krajina vstupu, potom fázy rad, kontrola, prešiel. Trajekt: prístav odchodu a príchodu, potom čakanie, na palube, vylodil sa. Každá fáza má svoj časovač; čas sa zapisuje len ťuknutím, GPS netreba. Hranica a trajekt sa uložia do jazdy ako zastávka.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/sk/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Podvalník",
+   "intro": "Rozťahovací podvalník vozí nadrozmerné a ťažké náklady.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "V parku",
+     "text": "Nadstavba „Podvalník“ — len náves.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Počas jazdy",
+     "text": "Náklad: nadrozmerný, bežný alebo prázdny. Rozmery a hmotnosť sa zadávajú ako pri plošine.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Informácie o telefóne a pádoch.",
   "service.locale": "Kontrola jazykov a opätovné prvé spustenie.",
   "service.dataset": "Zhotovovanie snímok pre rozpoznávanie.",
-  "service.splash-tuner": "Nastavenie úvodnej obrazovky."
+  "service.splash-tuner": "Nastavenie úvodnej obrazovky.",
+  "driving.crossing": "Hranica alebo trajekt počas jazdy: fázy s časovačmi, ťuknutím."
  }
 }

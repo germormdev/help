@@ -160,6 +160,12 @@
      "title": "Conta-quilómetros",
      "text": "A aplicação preenche a leitura esperada: do veículo, da carga, da última descarga ou do abastecimento. Verifique e corrija se necessário. O conta-quilómetros pode ser lido com a câmara.\n\nSe o valor for inferior ao anterior, muito superior ao esperado ou se não lhe tiver mexido, a aplicação mostra a última leitura conhecida e pergunta se está correto. Editar o conta-quilómetros numa viagem antiga mostra que outros registos serão afetados.",
      "image": "img/pt/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Fronteira e ferry",
+     "text": "Ativa-se nas Definições («Fronteira e ferry»); desligado por omissão. No ecrã de condução, os botões «Fronteira» e «Ferry». Fronteira: país de entrada e depois as etapas fila, inspeção, passou. Ferry: portos de partida e de chegada e depois espera, a bordo, desembarcou. Cada etapa tem o seu temporizador; a hora só é registada ao tocar, sem GPS. A fronteira e o ferry ficam na viagem como uma paragem.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/pt/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Prancha rebaixada",
+   "intro": "A prancha rebaixada extensível transporta cargas excecionais e pesadas.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Na frota",
+     "text": "Carroçaria «Prancha rebaixada» — só semirreboque.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Na viagem",
+     "text": "Carga: excecional, geral ou vazia. Medidas e peso introduzem-se como na plataforma.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Informações sobre o telemóvel e falhas.",
   "service.locale": "Verificação de idiomas e repetição da primeira utilização.",
   "service.dataset": "Captura de fotogramas para treinar o reconhecimento.",
-  "service.splash-tuner": "Configuração do ecrã de arranque."
+  "service.splash-tuner": "Configuração do ecrã de arranque.",
+  "driving.crossing": "Fronteira ou ferry dentro da viagem: etapas com temporizadores, ao tocar."
  }
 }

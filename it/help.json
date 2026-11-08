@@ -160,6 +160,12 @@
      "title": "Contachilometri",
      "text": "L'app precompila il valore previsto: dal mezzo, dal carico, dall'ultimo scarico o dal rifornimento. Controllalo e correggilo se serve. Il contachilometri si può leggere con la fotocamera.\n\nSe il numero è inferiore al precedente, molto più alto del previsto o se non lo hai toccato, l'app mostrerà l'ultima lettura nota e chiederà se è tutto corretto. La modifica del contachilometri in un viaggio passato mostra quali altre voci verranno aggiornate.",
      "image": "img/it/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Confine e traghetto",
+     "text": "Si attiva nelle Impostazioni («Confine e traghetto»), spento di default. Nella schermata di guida, i pulsanti «Confine» e «Traghetto». Confine: Paese di ingresso, poi le fasi coda, controllo, passato. Traghetto: porto di partenza e di arrivo, poi attesa, a bordo, sbarcato. Ogni fase ha il suo timer; l'ora si registra solo toccando, senza GPS. Confine e traghetto restano nel viaggio come una sosta.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/it/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Carrellone ribassato",
+   "intro": "Il carrellone ribassato allungabile trasporta carichi eccezionali e pesanti.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Nel parco mezzi",
+     "text": "Carrozzeria «Carrellone ribassato» — solo semirimorchio.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "In viaggio",
+     "text": "Carico: eccezionale, generico o vuoto. Misure e peso si inseriscono come sul pianale.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Informazioni sul telefono e sugli arresti anomali.",
   "service.locale": "Controllo delle lingue e ripetizione del primo avvio.",
   "service.dataset": "Acquisizione di immagini per il riconoscimento.",
-  "service.splash-tuner": "Configurazione della schermata di avvio."
+  "service.splash-tuner": "Configurazione della schermata di avvio.",
+  "driving.crossing": "Confine o traghetto nel viaggio: fasi con timer, a tocco."
  }
 }

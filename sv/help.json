@@ -160,6 +160,12 @@
      "title": "Mätarställning",
      "text": "Appen fyller i det förväntade värdet: från lastbilen, från lastningen, från senaste lossningen eller från tankningen. Kontrollera och ändra vid behov. Mätarställningen kan läsas av med kameran.\n\nOm siffran är lägre än den förra, mycket högre än väntat eller om du inte har rört den, visar appen det senast kända värdet och frågar om det stämmer. Om du ändrar mätarställningen i en tidigare resa visas vilka andra poster som påverkas.",
      "image": "img/sv/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Gräns och färja",
+     "text": "Slås på i Inställningar (”Gräns och färja”), avstängt som standard. På körskärmen knapparna ”Gräns” och ”Färja”. Gräns: inreseland, sedan faserna kö, kontroll, passerat. Färja: avgångs- och ankomsthamn, sedan väntar, ombord, gått i land. Varje fas har egen timer; tiden registreras bara vid tryck, GPS behövs inte. Gräns och färja sparas i resan som ett stopp.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/sv/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Lågbäddstrailer",
+   "intro": "Den utdragbara lågbäddstrailern kör bredtransport och tungt gods.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "I fordonsparken",
+     "text": "Påbyggnad ”Lågbäddstrailer” — endast semitrailer.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Under resan",
+     "text": "Last: bredtransport, allmän eller tom. Mått och vikt anges som på ett flak.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Information om telefonen och krascher.",
   "service.locale": "Språkkontroll och omstart av första starten.",
   "service.dataset": "Insamling av bilder för avläsning.",
-  "service.splash-tuner": "Inställning av startbild."
+  "service.splash-tuner": "Inställning av startbild.",
+  "driving.crossing": "Gräns eller färja under resan: faser med timer, vid tryck."
  }
 }

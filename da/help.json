@@ -160,6 +160,12 @@
      "title": "Kilometertæller",
      "text": "Appen indsætter den forventede værdi: fra køretøjet, fra læsningen, fra sidste aflæsning eller fra tankningen. Kontrollér tallet og ret det om nødvendigt. Kilometertælleren kan skannes med kameraet.\n\nHvis tallet er lavere end det forrige, meget højere end forventet, eller hvis du ikke har rørt ved det, viser appen den senest kendte værdi og spørger, om det er rigtigt. Hvis du retter kilometerstanden på en tidligere tur, viser appen, hvilke andre poster ændringen påvirker.",
      "image": "img/da/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Grænse og færge",
+     "text": "Slås til i Indstillinger (»Grænse og færge«), slået fra som standard. På køreskærmen knapperne »Grænse« og »Færge«. Grænse: indrejseland, derefter faserne kø, kontrol, passeret. Færge: afgangs- og ankomsthavn, derefter venter, om bord, gået i land. Hver fase har sin egen timer; tiden registreres kun ved tryk, GPS er ikke nødvendig. Grænse og færge gemmes i turen som et stop.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/da/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Blokvogn",
+   "intro": "Den udtrækkelige blokvogn kører med specialtransport og tungt gods.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "I vognparken",
+     "text": "Opbygning »Blokvogn« — kun sættevogn.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "På turen",
+     "text": "Last: specialtransport, almindelig eller tom. Mål og vægt indtastes som på en fladvogn.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Oplysninger om telefonen og nedbrud.",
   "service.locale": "Kontrol af sprog og ny gennemgang af første opstart.",
   "service.dataset": "Optagelse af billeder til genkendelse.",
-  "service.splash-tuner": "Indstilling af opstartsskærm."
+  "service.splash-tuner": "Indstilling af opstartsskærm.",
+  "driving.crossing": "Grænse eller færge under turen: faser med timere, ved tryk."
  }
 }

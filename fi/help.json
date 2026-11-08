@@ -160,6 +160,12 @@
      "title": "Matkamittari",
      "text": "Sovellus täyttää odotetun lukeman valmiiksi: autosta, lastauksesta, edellisestä purusta tai tankkauksesta. Tarkista se ja korjaa tarvittaessa. Matkamittarin voi lukea kameralla.\n\nJos luku on pienempi kuin edellinen, paljon odotettua suurempi tai et muuttanut sitä, sovellus näyttää viimeisimmän tunnetun lukeman ja kysyy, pitääkö se paikkansa. Matkamittarin muokkaus aiemmassa reissussa näyttää, mihin muihin merkintöihin muutos vaikuttaa.",
      "image": "img/fi/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Raja ja lautta",
+     "text": "Otetaan käyttöön asetuksista (”Raja ja lautta”), oletuksena pois. Ajonäytössä painikkeet ”Raja” ja ”Lautta”. Raja: maahantulomaa, sitten vaiheet jono, tarkastus, ylitetty. Lautta: lähtö- ja tulosatama, sitten odotus, laivalla, poistunut. Jokaisella vaiheella on oma ajastin; aika kirjataan vain painamalla, GPS:ää ei tarvita. Raja ja lautta tallentuvat ajoon pisteenä.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/fi/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Lavetti",
+   "intro": "Jatkettava lavetti kuljettaa ylisuuria ja raskaita kuormia.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Hallissa",
+     "text": "Kori ”Lavetti” — vain puoliperävaunu.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reissulla",
+     "text": "Kuorma: ylisuuri, tavallinen tai tyhjä. Mitat ja paino syötetään kuten lavalla.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Tiedot puhelimesta ja kaatumisista.",
   "service.locale": "Kielten tarkistus ja ensimmäisen käynnistyksen toisto.",
   "service.dataset": "Kuvien ottaminen tunnistusta varten.",
-  "service.splash-tuner": "Aloitusnäytön säätö."
+  "service.splash-tuner": "Aloitusnäytön säätö.",
+  "driving.crossing": "Raja tai lautta ajon aikana: vaiheet ajastimin, painamalla."
  }
 }

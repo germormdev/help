@@ -160,6 +160,12 @@
      "title": "Kilometraj",
      "text": "Aplicația completează automat valoarea așteptată: de pe camion, de la încărcare, de la ultima descărcare sau de la alimentare. Verificați-o și corectați-o dacă este nevoie. Kilometrajul poate fi scanat și cu camera.\n\nDacă numărul este mai mic decât cel anterior, mult mai mare decât cel așteptat sau dacă nu l-ați modificat, aplicația vă arată ultima valoare cunoscută și vă întreabă dacă este corectă. Modificarea kilometrajului într-o cursă anterioară vă arată ce alte înregistrări vor fi afectate.",
      "image": "img/ro/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Frontieră și feribot",
+     "text": "Se activează din Setări („Frontieră și feribot”), implicit oprit. Pe ecranul de condus, butoanele „Frontieră” și „Feribot”. Frontieră: țara de intrare, apoi etapele coadă, control, trecut. Feribot: portul de plecare și de sosire, apoi așteptare, la bord, debarcat. Fiecare etapă are cronometrul ei; ora se înregistrează doar la atingere, fără GPS. Frontiera și feribotul se salvează în cursă ca un punct.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/ro/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Trailer agabaritic",
+   "intro": "Trailerul agabaritic extensibil transportă încărcături agabaritice și grele.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "În parc",
+     "text": "Caroserie „Trailer agabaritic” — doar semiremorcă.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "În cursă",
+     "text": "Marfă: agabaritică, generală sau gol. Dimensiunile și greutatea se introduc ca la platformă.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Informații despre telefon și blocări.",
   "service.locale": "Verificarea limbilor și reluarea primei porniri.",
   "service.dataset": "Capturarea cadrelor pentru recunoaștere.",
-  "service.splash-tuner": "Reglarea ecranului de pornire."
+  "service.splash-tuner": "Reglarea ecranului de pornire.",
+  "driving.crossing": "Frontieră sau feribot în cursă: etape cu cronometre, la atingere."
  }
 }

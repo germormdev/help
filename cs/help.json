@@ -160,6 +160,12 @@
      "title": "Tachometr",
      "text": "Aplikace předvyplní očekávaný stav: z vozidla, z nakládky, z minulé vykládky nebo z tankování. Zkontrolujte ho a v případě potřeby opravte. Tachometr můžete vyfotit kamerou.\n\nPokud je číslo nižší než předchozí, výrazně vyšší než očekávané, nebo jste ho nezměnili, aplikace ukáže poslední známý stav a zeptá se, zda je vše správně. Úprava tachometru v minulé jízdě ukáže, které další záznamy tím budou ovlivněny.",
      "image": "img/cs/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Hranice a trajekt",
+     "text": "Zapíná se v nastavení („Hranice a trajekt“), výchozí je vypnuto. Na obrazovce jízdy tlačítka „Hranice“ a „Trajekt“. Hranice: země vstupu, pak fáze fronta, kontrola, projel. Trajekt: přístav odjezdu a příjezdu, pak čekání, na palubě, vylodil se. Každá fáze má svůj časovač; čas se zapisuje jen klepnutím, GPS není potřeba. Hranice a trajekt se uloží do jízdy jako zastávka.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/cs/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Podvalník",
+   "intro": "Roztahovací podvalník vozí nadrozměrné a těžké náklady.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "V garáži",
+     "text": "Nástavba „Podvalník“ — jen návěs.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "V jízdě",
+     "text": "Náklad: nadrozměrný, běžný nebo prázdný. Rozměry a hmotnost se zadávají jako u plošiny.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Informace o telefonu a pádech.",
   "service.locale": "Kontrola jazyků a opakované první spuštění.",
   "service.dataset": "Pořizování snímků pro rozpoznávání.",
-  "service.splash-tuner": "Nastavení úvodní obrazovky."
+  "service.splash-tuner": "Nastavení úvodní obrazovky.",
+  "driving.crossing": "Hranice nebo trajekt během jízdy: fáze s časovači, klepnutím."
  }
 }

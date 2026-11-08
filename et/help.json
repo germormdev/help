@@ -160,6 +160,12 @@
      "title": "Odomeeter",
      "text": "Rakendus pakub eeldatava näidu: veoki, pealelaadimise, eelmise mahalaadimise või tankimise järgi. Kontrollige see üle ja vajadusel parandage. Odomeetri näitu saab pildistada kaameraga.\n\nKui arv on eelmisest väiksem, oodatust palju suurem või te ei muutnud seda, näitab rakendus viimast teadaolevat näitu ja küsib, kas kõik on õige. Odomeetri muutmine varasemas reisis näitab, milliseid teisi kirjeid see veel mõjutab.",
      "image": "img/et/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Piir ja praam",
+     "text": "Lülitatakse sisse seadetes („Piir ja praam”), vaikimisi väljas. Sõiduekraanil nupud „Piir” ja „Praam”. Piir: sisenemisriik, seejärel etapid järjekord, kontroll, ületatud. Praam: lähte- ja saabumissadam, seejärel ootamine, pardal, maale läinud. Igal etapil on oma taimer; aeg salvestatakse ainult vajutusega, GPS-i pole vaja. Piir ja praam salvestatakse reisile punktina.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/et/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Madalhaagis",
+   "intro": "Pikendatav madalhaagis veab ülegabariidilisi ja raskeid veoseid.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaažis",
+     "text": "Kere „Madalhaagis” — ainult poolhaagis.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisil",
+     "text": "Veos: ülegabariidiline, tavaline või tühi. Mõõdud ja kaal sisestatakse nagu platvormil.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Andmed telefoni ja kokkujooksmiste kohta.",
   "service.locale": "Keelte kontroll ja esimese käivituse kordamine.",
   "service.dataset": "Kaadrite pildistamine tuvastamise jaoks.",
-  "service.splash-tuner": "Käivituskuva seadistamine."
+  "service.splash-tuner": "Käivituskuva seadistamine.",
+  "driving.crossing": "Piir või praam reisi ajal: etapid taimeritega, vajutusega."
  }
 }

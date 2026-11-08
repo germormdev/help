@@ -160,6 +160,12 @@
      "title": "Cuentakilómetros",
      "text": "La aplicación rellena la lectura esperada: la del camión, la de la carga, la de la última descarga o la de la gasolinera. Compruébela y corríjala si hace falta. Puede escanear el cuentakilómetros con la cámara.\n\nSi el número es menor que el anterior, mucho mayor de lo esperado o si no lo ha tocado, la aplicación mostrará la última lectura conocida y preguntará si es correcto. Al editar el cuentakilómetros de un viaje pasado, la aplicación muestra qué otros registros cambiarán.",
      "image": "img/es/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Frontera y ferry",
+     "text": "Se activa en Ajustes («Frontera y ferry»); desactivado por defecto. En la pantalla de conducción, los botones «Frontera» y «Ferry». Frontera: país de entrada y luego las etapas cola, inspección, cruzado. Ferry: puerto de salida y de llegada y luego espera, a bordo, desembarcado. Cada etapa tiene su temporizador; la hora se registra solo al pulsar, sin GPS. La frontera y el ferry se guardan en el viaje como una parada.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/es/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Góndola",
+   "intro": "La góndola extensible transporta cargas sobredimensionadas y pesadas.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "En el parque",
+     "text": "Carrocería «Góndola» — solo semirremolque.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "En el viaje",
+     "text": "Carga: sobredimensionada, general o vacía. Medidas y peso se introducen como en una plataforma.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Información del teléfono y cierres inesperados.",
   "service.locale": "Comprobación de idiomas y repetición del primer inicio.",
   "service.dataset": "Captura de imágenes para el reconocimiento.",
-  "service.splash-tuner": "Configuración de la pantalla de presentación."
+  "service.splash-tuner": "Configuración de la pantalla de presentación.",
+  "driving.crossing": "Frontera o ferry dentro del viaje: etapas con temporizadores, al pulsar."
  }
 }

@@ -160,6 +160,12 @@
      "title": "Kilometerstand",
      "text": "Die App trägt den erwarteten Stand vorab ein: vom Fahrzeug, vom Beladen, vom letzten Entladen oder vom Tanken. Prüfen Sie den Wert und korrigieren Sie ihn bei Bedarf. Sie können den Kilometerstand auch mit der Kamera scannen.\n\nWenn die Zahl kleiner ist als der vorige Stand, ungewöhnlich weit darüber liegt oder unverändert gelassen wurde, zeigt die App den letzten bekannten Stand und fragt nach, ob alles stimmt. Wenn Sie den Kilometerstand einer früheren Fahrt ändern, zeigt die App vorab, welche weiteren Einträge davon betroffen sind.",
      "image": "img/de/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Grenze und Fähre",
+     "text": "Wird in den Einstellungen eingeschaltet („Grenze und Fähre“), standardmäßig aus. Auf dem Fahrbildschirm die Tasten „Grenze“ und „Fähre“. Grenze: Einreiseland, dann die Etappen Warteschlange, Kontrolle, Passiert. Fähre: Abfahrts- und Ankunftshafen, dann Warten, An Bord, Von Bord. Jede Etappe hat ihren Timer; die Zeit wird nur per Tippen erfasst, GPS ist nicht nötig. Grenze und Fähre werden im Auftrag als Halt gespeichert.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/de/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Tieflader",
+   "intro": "Der ausziehbare Tieflader befördert übergroße und schwere Ladung.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Im Fuhrpark",
+     "text": "Aufbau „Tieflader“ — nur Sattelauflieger.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Auf der Fahrt",
+     "text": "Ladung: übergroß, allgemein oder leer. Maße und Gewicht übergroßer Ladung werden wie beim Pritschenauflieger eingegeben.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Angaben zum Telefon und zu Abstürzen.",
   "service.locale": "Sprachprüfung und erneuter erster Start.",
   "service.dataset": "Kamerabilder für die Texterkennung aufnehmen.",
-  "service.splash-tuner": "Einstellungen für den Startbildschirm."
+  "service.splash-tuner": "Einstellungen für den Startbildschirm.",
+  "driving.crossing": "Grenze oder Fähre innerhalb der Fahrt: Etappen mit Timern, per Tippen."
  }
 }

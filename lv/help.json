@@ -160,6 +160,12 @@
      "title": "Odometrs",
      "text": "Lietotne ievieto gaidāmo rādījumu: no mašīnas, no iekraušanas, no iepriekšējās izkraušanas vai no uzpildes. Pārbaudiet un vajadzības gadījumā izlabojiet. Odometru var noskenēt ar kameru.\n\nJa skaitlis ir mazāks par iepriekšējo, stipri lielāks par gaidīto vai neesat to aizticis, lietotne parādīs pēdējo zināmo rādījumu un pajautās, vai viss ir pareizi. Odometra labošana iepriekšējā reisā parāda, kurus vēl ierakstus tā skars.",
      "image": "img/lv/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Robeža un prāmis",
+     "text": "Ieslēdz iestatījumos (“Robeža un prāmis”), pēc noklusējuma izslēgts. Braukšanas ekrānā pogas “Robeža” un “Prāmis”. Robeža: iebraukšanas valsts, tad posmi rinda, pārbaude, šķērsoja. Prāmis: izbraukšanas un ierašanās osta, tad gaidīšana, uz klāja, izkāpa. Katram posmam ir savs taimeris; laiks tiek ierakstīts tikai ar pieskārienu, GPS nav vajadzīgs. Robeža un prāmis tiek saglabāti braucienā kā punkts.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/lv/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Zemā platforma",
+   "intro": "Izvelkamā zemā platforma pārvadā lielgabarīta un smagas kravas.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garāžā",
+     "text": "Virsbūve “Zemā platforma” — tikai puspiekabe.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reisā",
+     "text": "Krava: lielgabarīta, parasta vai tukšs. Izmērus un svaru ievada kā platformai.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Ziņas par tālruni un avārijām.",
   "service.locale": "Valodu pārbaude un atkārtota pirmā palaišana.",
   "service.dataset": "Kadru uzņemšana atpazīšanai.",
-  "service.splash-tuner": "Sākuma ekrāna pielāgošana."
+  "service.splash-tuner": "Sākuma ekrāna pielāgošana.",
+  "driving.crossing": "Robeža vai prāmis brauciena laikā: posmi ar taimeriem, ar pieskārienu."
  }
 }

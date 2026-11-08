@@ -160,6 +160,12 @@
      "title": "Compteur",
      "text": "L'application pré-remplit le relevé attendu : d'après le camion, le chargement, le dernier déchargement ou le plein. Vérifiez-le et corrigez-le si besoin. Le compteur peut être lu par la caméra.\n\nSi le nombre est inférieur au précédent, beaucoup plus élevé que prévu ou si vous n'y avez pas touché, l'application affiche le dernier relevé connu et vous demande si tout est exact. La modification d'un compteur dans un ancien trajet indique quels autres enregistrements seront touchés.",
      "image": "img/fr/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Frontière et ferry",
+     "text": "S'active dans les réglages (« Frontière et ferry »), désactivé par défaut. Sur l'écran de conduite, les boutons « Frontière » et « Ferry ». Frontière : pays d'entrée, puis les étapes file d'attente, contrôle, passé. Ferry : ports de départ et d'arrivée, puis attente, à bord, débarqué. Chaque étape a son minuteur ; l'heure n'est enregistrée que par vos appuis, sans GPS. La frontière et le ferry sont enregistrés dans le voyage comme un arrêt.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/fr/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Porte-engins",
+   "intro": "Le porte-engins extensible transporte les charges hors gabarit et lourdes.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Dans le parc",
+     "text": "Carrosserie « Porte-engins » — semi-remorque uniquement.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "En trajet",
+     "text": "Chargement : hors gabarit, général ou vide. Dimensions et poids du hors-gabarit se saisissent comme sur un plateau.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Informations sur le téléphone et les plantages.",
   "service.locale": "Vérification des langues et relance du premier lancement.",
   "service.dataset": "Prise d'images pour la reconnaissance.",
-  "service.splash-tuner": "Réglage de l'écran de démarrage."
+  "service.splash-tuner": "Réglage de l'écran de démarrage.",
+  "driving.crossing": "Frontière ou ferry pendant le voyage : étapes avec minuteurs, par appui."
  }
 }

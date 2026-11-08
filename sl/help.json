@@ -160,6 +160,12 @@
      "title": "Števec",
      "text": "Aplikacija predlaga pričakovano stanje: z vozila, z nakladanja, s prejšnjega razkladanja ali s točenja goriva. Preverite ga in po potrebi popravite. Števec lahko posnamete s kamero.\n\nČe je številka manjša od prejšnje, precej večja od pričakovane ali pa se je niste dotaknili, bo aplikacija prikazala zadnje znano stanje in vprašala, ali je vse pravilno. Urejanje števca v pretekli vožnji pokaže, na katere druge zapise bo sprememba še vplivala.",
      "image": "img/sl/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Meja in trajekt",
+     "text": "Vklopi se v nastavitvah (»Meja in trajekt«), privzeto izklopljeno. Na zaslonu vožnje gumba »Meja« in »Trajekt«. Meja: država vstopa, nato faze vrsta, pregled, prečkal. Trajekt: pristanišči odhoda in prihoda, nato čakanje, na krovu, izkrcal. Vsaka faza ima svoj časovnik; čas se zapiše samo z dotikom, GPS ni potreben. Meja in trajekt se shranita v vožnjo kot točka.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/sl/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Nizkopodni polpriklopnik",
+   "intro": "Raztegljivi nizkopodni polpriklopnik prevaža izredne in težke tovore.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "V voznem parku",
+     "text": "Nadgradnja »Nizkopodni polpriklopnik« — samo polpriklopnik.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Med vožnjo",
+     "text": "Tovor: izredni, splošni ali prazno. Mere in teža se vpišejo kot pri ploščadi.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Podatki o telefonu in sesutjih.",
   "service.locale": "Preverjanje jezikov in ponovni prvi zagon.",
   "service.dataset": "Zajemanje posnetkov za prepoznavanje.",
-  "service.splash-tuner": "Nastavitev pozdravnega zaslona."
+  "service.splash-tuner": "Nastavitev pozdravnega zaslona.",
+  "driving.crossing": "Meja ali trajekt med vožnjo: faze s časovniki, z dotikom."
  }
 }

@@ -160,6 +160,12 @@
      "title": "Kilométeróra",
      "text": "A program beírja a várt állást: a járműről, a felrakodásról, az előző lerakodásról vagy a tankolásról. Ellenőrizze, és szükség esetén javítsa. A kilométeróra kamerával is beolvasható.\n\nHa a szám kisebb az előzőnél, jóval nagyobb a vártnál, vagy Ön nem nyúlt hozzá, a program megmutatja az utolsó ismert állást, és megkérdezi, hogy minden helyes-e. Egy korábbi fuvar kilométeróra-állásának javításakor a program megmutatja, mely további bejegyzéseket érinti a módosítás.",
      "image": "img/hu/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Határ és komp",
+     "text": "A beállításokban kapcsolható be („Határ és komp”), alapból ki van kapcsolva. A vezetési képernyőn a „Határ” és „Komp” gomb. Határ: belépési ország, majd a sor, ellenőrzés, átlépte szakaszok. Komp: indulási és érkezési kikötő, majd várakozás, a fedélzeten, kiszállt. Minden szakasznak saját időzítője van; az idő csak koppintásra rögzül, GPS nem kell. A határ és a komp pontként kerül a fuvarba.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/hu/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Mélyágyas pótkocsi",
+   "intro": "A kihúzható mélyágyas pótkocsi túlméretes és nehéz rakományt szállít.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "A parkban",
+     "text": "Felépítmény „Mélyágyas pótkocsi” — csak félpótkocsi.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Fuvar közben",
+     "text": "Rakomány: túlméretes, általános vagy üres. A méreteket és a tömeget úgy kell megadni, mint platónál.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Adatok a telefonról és az összeomlásokról.",
   "service.locale": "A nyelvek ellenőrzése és az első indítás újbóli megnyitása.",
   "service.dataset": "Képkockák rögzítése a felismeréshez.",
-  "service.splash-tuner": "A nyitóképernyő beállítása."
+  "service.splash-tuner": "A nyitóképernyő beállítása.",
+  "driving.crossing": "Határ vagy komp a fuvar közben: szakaszok időzítővel, koppintásra."
  }
 }

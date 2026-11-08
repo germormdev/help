@@ -160,6 +160,12 @@
      "title": "Odometer",
      "text": "The app fills in the expected reading: from the truck, from loading, from the last drop, or from the pump. Check it and fix it if needed. You can also scan the odometer with the camera.\n\nIf the number is lower than the previous one, much higher than expected, or left untouched, the app shows the last known reading and asks if it is right. Editing the odometer in a past trip shows which other records will be affected.",
      "image": "img/en/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Border and ferry",
+     "text": "Turned on in Settings → “Border and ferry”; off by default. On the driving screen tap “Border” or “Ferry”. Border: enter the country of entry, then mark the stages queue, inspection, crossed. Ferry: enter the departure and arrival ports, then waiting, on board, disembarked. Each stage has its own timer; the time is recorded only by your taps, no GPS is needed. The crossing is saved in the trip as a stop.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/en/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Lowbed",
+   "intro": "A lowbed (extendable low loader) carries oversized and heavy cargo.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In Garage",
+     "text": "Body “Lowbed” — semi-trailer only.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "On a trip",
+     "text": "Cargo: oversized, general or empty. Dimensions and weight of oversized cargo are entered as on a flatbed.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Phone information and crash reports.",
   "service.locale": "Language checks and re-running first launch.",
   "service.dataset": "Capturing camera frames for recognition training.",
-  "service.splash-tuner": "Startup splash screen settings."
+  "service.splash-tuner": "Startup splash screen settings.",
+  "driving.crossing": "Border or ferry inside a trip: stages with timers, by your taps."
  }
 }

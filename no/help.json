@@ -160,6 +160,12 @@
      "title": "Kilometerstand",
      "text": "Appen fyller inn forventet verdi: fra lastebilen, fra lasting, fra forrige lossing eller fra tanking. Sjekk tallet og rett det ved behov. Kilometerstanden kan skannes med kameraet.\n\nHvis tallet er lavere enn forrige, mye høyere enn forventet, eller du ikke har rørt det, viser appen siste kjente verdi og spør om det stemmer. Endring av kilometerstand i en tidligere tur viser hvilke andre oppføringer som blir påvirket.",
      "image": "img/no/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Grense og ferje",
+     "text": "Slås på i Innstillinger («Grense og ferje»), av som standard. På kjøreskjermen knappene «Grense» og «Ferje». Grense: innreiseland, deretter fasene kø, kontroll, passert. Ferje: avgangs- og ankomsthavn, deretter venter, om bord, gått i land. Hver fase har egen tidtaker; tiden registreres bare ved trykk, GPS trengs ikke. Grense og ferje lagres i turen som et stopp.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/no/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Blokkvogn",
+   "intro": "Den uttrekkbare blokkvognen frakter spesialtransport og tung last.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "I vognparken",
+     "text": "Påbygg «Blokkvogn» — kun semitrailer.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "På turen",
+     "text": "Last: spesialtransport, vanlig eller tom. Mål og vekt legges inn som på en flatvogn.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Informasjon om telefonen og krasj.",
   "service.locale": "Sjekk av språk og ny gjennomgang av første oppstart.",
   "service.dataset": "Opptak av bilder for nummergjenkjenning.",
-  "service.splash-tuner": "Innstillinger for oppstartsbilde."
+  "service.splash-tuner": "Innstillinger for oppstartsbilde.",
+  "driving.crossing": "Grense eller ferje under turen: faser med tidtakere, ved trykk."
  }
 }

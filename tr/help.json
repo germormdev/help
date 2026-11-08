@@ -160,6 +160,12 @@
      "title": "Kilometre",
      "text": "Uygulama beklenen değeri doldurur: araçtan, yüklemeden, son boşaltmadan veya yakıt alımından. Kontrol edin ve gerekirse düzeltin. Kilometre sayacı kamerayla taranabilir.\n\nSayı öncekinden küçükse, beklenenden çok fazlaysa veya hiç dokunmadıysanız uygulama bilinen son değeri gösterir ve doğru olup olmadığını sorar. Geçmiş bir seferde kilometreyi düzenlemek, bunun başka hangi kayıtları etkileyeceğini gösterir.",
      "image": "img/tr/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Sınır ve feribot",
+     "text": "Ayarlardan açılır («Sınır ve feribot»), varsayılan olarak kapalıdır. Sürüş ekranında «Sınır» ve «Feribot» düğmeleri. Sınır: giriş ülkesi, ardından kuyruk, kontrol, geçti aşamaları. Feribot: kalkış ve varış limanı, ardından bekleme, gemide, indi. Her aşamanın kendi zamanlayıcısı vardır; saat yalnızca dokunarak kaydedilir, GPS gerekmez. Sınır ve feribot seferde bir nokta olarak saklanır.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/tr/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Lowbed dorse",
+   "intro": "Uzayabilen lowbed dorse gabari dışı ve ağır yük taşır.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Filoda",
+     "text": "Kasa «Lowbed dorse» — yalnızca yarı römork.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Seferde",
+     "text": "Yük: gabari dışı, genel veya boş. Ölçü ve ağırlık platformdaki gibi girilir.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Telefon ve çökmeler hakkında bilgiler.",
   "service.locale": "Dillerin kontrolü ve ilk çalıştırmayı tekrarlama.",
   "service.dataset": "Tanıma için kare çekimi.",
-  "service.splash-tuner": "Açılış ekranı ayarı."
+  "service.splash-tuner": "Açılış ekranı ayarı.",
+  "driving.crossing": "Sefer içinde sınır veya feribot: zamanlayıcılı aşamalar, dokunarak."
  }
 }

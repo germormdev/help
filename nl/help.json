@@ -160,6 +160,12 @@
      "title": "Kilometerstand",
      "text": "De app vult de verwachte stand alvast in: van het voertuig, van het laden, van de vorige lossing of van een tankbeurt. Controleer het getal en pas het zo nodig aan. U kunt de kilometerteller ook scannen met de camera.\n\nIs het getal lager dan de vorige stand, veel hoger dan verwacht, of hebt u het niet aangepast, dan toont de app de laatst bekende stand en vraagt of alles klopt. Als u de kilometerstand van een eerdere rit aanpast, laat de app zien welke andere registraties daardoor worden geraakt.",
      "image": "img/nl/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Grens en veerboot",
+     "text": "Aan te zetten in Instellingen („Grens en veerboot”), standaard uit. Op het rijscherm de knoppen „Grens” en „Veerboot”. Grens: land van binnenkomst, dan de fasen wachtrij, controle, gepasseerd. Veerboot: vertrek- en aankomsthaven, dan wachten, aan boord, van boord. Elke fase heeft een eigen timer; de tijd wordt alleen door tikken vastgelegd, geen gps nodig. Grens en veerboot worden als stop in de rit bewaard.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/nl/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Dieplader",
+   "intro": "De uitschuifbare dieplader vervoert exceptionele en zware lading.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "In het wagenpark",
+     "text": "Opbouw „Dieplader” — alleen oplegger.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Tijdens de rit",
+     "text": "Lading: exceptioneel, algemeen of leeg. Maten en gewicht worden ingevoerd zoals bij een vlakke oplegger.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Informatie over de telefoon en crashes.",
   "service.locale": "Talen controleren en de eerste start opnieuw doorlopen.",
   "service.dataset": "Camerabeelden opnemen voor herkenning.",
-  "service.splash-tuner": "Opstartscherm instellen."
+  "service.splash-tuner": "Opstartscherm instellen.",
+  "driving.crossing": "Grens of veerboot tijdens de rit: fasen met timers, door tikken."
  }
 }

@@ -160,6 +160,12 @@
      "title": "Licznik",
      "text": "Aplikacja podpowiada oczekiwany stan licznika: z pojazdu, z załadunku, z poprzedniego rozładunku lub z tankowania. Sprawdź go i w razie potrzeby popraw. Licznik można zeskanować kamerą.\n\nJeśli liczba jest mniejsza od poprzedniej, dużo większa od oczekiwanej albo jej nie zmieniłeś, aplikacja pokaże ostatni znany stan i zapyta, czy wszystko się zgadza. Edycja licznika w dawnej trasie pokazuje, na jakie inne wpisy wpłynie ta zmiana.",
      "image": "img/pl/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Granica i prom",
+     "text": "Włącza się w ustawieniach („Granica i prom”), domyślnie wyłączone. Na ekranie jazdy przyciski „Granica” i „Prom”. Granica: kraj wjazdu, potem etapy kolejka, kontrola, przejechał. Prom: port wyjścia i docelowy, potem oczekiwanie, na pokładzie, zszedł. Każdy etap ma swój licznik; czas zapisuje się tylko przyciśnięciem, GPS niepotrzebny. Granica i prom zapisują się w kursie jako punkt.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/pl/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Naczepa niskopodwoziowa",
+   "intro": "Rozsuwana naczepa niskopodwoziowa wozi ładunki ponadgabarytowe i ciężkie.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "W parku",
+     "text": "Zabudowa „Naczepa niskopodwoziowa” — tylko naczepa.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "W trasie",
+     "text": "Ładunek: ponadgabarytowy, zwykły lub pusty. Wymiary i masę wpisuje się jak na platformie.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Informacje o telefonie i awariach.",
   "service.locale": "Sprawdzanie języków i ponowne pierwsze uruchomienie.",
   "service.dataset": "Zapisywanie klatek do rozpoznawania.",
-  "service.splash-tuner": "Ustawienia ekranu startowego."
+  "service.splash-tuner": "Ustawienia ekranu startowego.",
+  "driving.crossing": "Granica lub prom w trakcie kursu: etapy z licznikami, przyciskiem."
  }
 }

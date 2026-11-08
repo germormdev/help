@@ -160,6 +160,12 @@
      "title": "Odometras",
      "text": "Programa įrašo tikėtiną rodmenį: iš mašinos, pakrovimo, ankstesnio iškrovimo arba degalinės. Patikrinkite ir, jei reikia, pataisykite. Odometrą galima nufotografuoti kamera.\n\nJei skaičius mažesnis už ankstesnį, daug didesnis nei tikėtasi arba jo nepakeitėte, programa parodys paskutinį žinomą rodmenį ir paklaus, ar viskas teisingai. Taisant odometrą ankstesniame reise parodoma, kokius dar įrašus šis pakeitimas palies.",
      "image": "img/lt/driving-odometer.png"
+    },
+    {
+     "id": "crossing",
+     "title": "Siena ir keltas",
+     "text": "Įjungiama nustatymuose („Siena ir keltas“), pagal nutylėjimą išjungta. Važiavimo ekrane mygtukai „Siena“ ir „Keltas“. Siena: įvažiavimo šalis, tada etapai eilė, patikra, pervažiavo. Keltas: išvykimo ir atvykimo uostas, tada laukimas, laive, išlipo. Kiekvienas etapas turi savo laikmatį; laikas įrašomas tik paspaudus, GPS nereikia. Siena ir keltas išsaugomi reise kaip taškas.",
+     "image": ""
     }
    ]
   },
@@ -900,6 +906,25 @@
      "image": "img/lt/car-transporter-unload.png"
     }
    ]
+  },
+  {
+   "slug": "lowbed",
+   "title": "Žemaplatformė puspriekabė",
+   "intro": "Ištraukiama žemaplatformė puspriekabė veža negabaritinius ir sunkius krovinius.",
+   "steps": [
+    {
+     "id": "setup",
+     "title": "Garaže",
+     "text": "Kėbulas „Žemaplatformė puspriekabė“ — tik puspriekabė.",
+     "image": ""
+    },
+    {
+     "id": "trip",
+     "title": "Reise",
+     "text": "Krovinys: negabaritinis, bendras arba tuščia. Matmenys ir svoris įvedami kaip platformai.",
+     "image": ""
+    }
+   ]
   }
  ],
  "screens": {
@@ -973,6 +998,7 @@
   "service.system": "Duomenys apie telefoną ir strigimus.",
   "service.locale": "Kalbų patikra ir pakartotinis pirmas paleidimas.",
   "service.dataset": "Kadrų fotografavimas atpažinimui.",
-  "service.splash-tuner": "Pradinio ekrano nustatymas."
+  "service.splash-tuner": "Pradinio ekrano nustatymas.",
+  "driving.crossing": "Siena ar keltas reiso metu: etapai su laikmačiais, paspaudus."
  }
 }
