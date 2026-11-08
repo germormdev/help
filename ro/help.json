@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Frontieră și feribot",
-     "text": "Se activează din Setări („Frontieră și feribot”), implicit oprit. Pe ecranul de condus, butoanele „Frontieră” și „Feribot”. Frontieră: țara de intrare, apoi etapele coadă, control, trecut. Feribot: portul de plecare și de sosire, apoi așteptare, la bord, debarcat. Fiecare etapă are cronometrul ei; ora se înregistrează doar la atingere, fără GPS. Frontiera și feribotul se salvează în cursă ca un punct.",
+     "text": "Se activează din Setări → „Profilul șoferului” → „Frontieră și feribot”, implicit oprit. Pe ecranul de condus, butoanele „Frontieră” și „Feribot”. Frontieră: țara de intrare, apoi etapele coadă, control, trecut. Feribot: portul de plecare și de sosire, apoi așteptare, la bord, debarcat. Fiecare etapă are cronometrul ei; ora se înregistrează doar la atingere, fără GPS. Frontiera și feribotul se salvează în cursă ca un punct.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Setări",
-   "intro": "Setările sunt împărțite pe grupuri: „Profilul șoferului”, „Telefon și conexiune”, „Documente (PDF)”, „Copie de rezervă”, „Setări generale”.",
+   "intro": "Setările sunt împărțite pe grupuri: „Limbă și aspect”, „Profilul șoferului”, „Rapoarte PDF”, „Copie de rezervă”, „Telefon și conexiune”.",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Profilul șoferului",
-     "text": "Numele pentru rapoarte și documentele șoferului: „Permis de conducere”, „Pașaport”, „Certificat ADR” — cu date de expirare și fotografiile paginilor.",
+     "text": "Numele pentru rapoarte și documentele șoferului: „Permis de conducere”, „Pașaport”, „Certificat ADR” — cu date de expirare și fotografiile paginilor.\n\n„Frontieră și feribot”. Butoanele „Frontieră” și „Feribot” pe drum.",
      "image": "img/ro/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Fișierul cu întregul jurnal: salvare, trimitere sau restaurare.",
   "online.device-link": "Conectarea telefonului la programul online: cod QR sau cod de pe ecran.",
   "settings.settings": "Toate setările grupate pe categorii.",
-  "settings.profile": "Numele șoferului și documentele sale.",
+  "settings.profile": "Numele șoferului și documentele sale. „Frontieră și feribot”. Butoanele „Frontieră” și „Feribot” pe drum.",
   "settings.language": "Limba aplicației, limba adreselor GPS, formatul datei.",
   "settings.theme": "Deschisă, întunecată sau automat; teme presetate și personalizate.",
   "settings.theme-custom": "Culorile temei personalizate.",

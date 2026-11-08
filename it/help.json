@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Confine e traghetto",
-     "text": "Si attiva nelle Impostazioni («Confine e traghetto»), spento di default. Nella schermata di guida, i pulsanti «Confine» e «Traghetto». Confine: Paese di ingresso, poi le fasi coda, controllo, passato. Traghetto: porto di partenza e di arrivo, poi attesa, a bordo, sbarcato. Ogni fase ha il suo timer; l'ora si registra solo toccando, senza GPS. Confine e traghetto restano nel viaggio come una sosta.",
+     "text": "Si attiva nelle Impostazioni → «Profilo del conducente» → «Confine e traghetto», spento di default. Nella schermata di guida, i pulsanti «Confine» e «Traghetto». Confine: Paese di ingresso, poi le fasi coda, controllo, passato. Traghetto: porto di partenza e di arrivo, poi attesa, a bordo, sbarcato. Ogni fase ha il suo timer; l'ora si registra solo toccando, senza GPS. Confine e traghetto restano nel viaggio come una sosta.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Impostazioni",
-   "intro": "Le impostazioni sono divise in gruppi: «Profilo del conducente», «Telefono e connessione», «Documenti (PDF)», «Backup», «Impostazioni generali».",
+   "intro": "Le impostazioni sono divise in gruppi: «Lingua e aspetto», «Profilo del conducente», «Report PDF», «Backup», «Telefono e connessione».",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Profilo del conducente",
-     "text": "Il nome per i report e i documenti dell'autista: «Patente di guida», «Passaporto», «Certificato ADR» — con date di scadenza e foto delle pagine.",
+     "text": "Il nome per i report e i documenti dell'autista: «Patente di guida», «Passaporto», «Certificato ADR» — con date di scadenza e foto delle pagine.\n\n«Confine e traghetto». Pulsanti «Confine» e «Traghetto» in viaggio.",
      "image": "img/it/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Un file con tutto il registro: salva, condividi o ripristina.",
   "online.device-link": "Collegamento del telefono al programma online: codice QR o codice sullo schermo.",
   "settings.settings": "Tutte le impostazioni divise per gruppi.",
-  "settings.profile": "Nome dell'autista e suoi documenti.",
+  "settings.profile": "Nome dell'autista e suoi documenti. «Confine e traghetto». Pulsanti «Confine» e «Traghetto» in viaggio.",
   "settings.language": "Lingua dell'app, lingua degli indirizzi GPS, formato della data.",
   "settings.theme": "Chiaro, scuro o automatico; temi pronti e personalizzati.",
   "settings.theme-custom": "Colori del tuo tema personalizzato.",

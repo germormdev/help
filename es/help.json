@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Frontera y ferry",
-     "text": "Se activa en Ajustes («Frontera y ferry»); desactivado por defecto. En la pantalla de conducción, los botones «Frontera» y «Ferry». Frontera: país de entrada y luego las etapas cola, inspección, cruzado. Ferry: puerto de salida y de llegada y luego espera, a bordo, desembarcado. Cada etapa tiene su temporizador; la hora se registra solo al pulsar, sin GPS. La frontera y el ferry se guardan en el viaje como una parada.",
+     "text": "Se activa en Ajustes → «Perfil del conductor» → «Frontera y ferry»; desactivado por defecto. En la pantalla de conducción, los botones «Frontera» y «Ferry». Frontera: país de entrada y luego las etapas cola, inspección, cruzado. Ferry: puerto de salida y de llegada y luego espera, a bordo, desembarcado. Cada etapa tiene su temporizador; la hora se registra solo al pulsar, sin GPS. La frontera y el ferry se guardan en el viaje como una parada.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Ajustes",
-   "intro": "Los ajustes están organizados por grupos: «Perfil del conductor», «Teléfono y conexión», «Documentos (PDF)», «Copia de seguridad» y «Ajustes generales».",
+   "intro": "Los ajustes están organizados por grupos: «Idioma y apariencia», «Perfil del conductor», «Informes PDF», «Copia de seguridad», «Teléfono y conexión».",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Perfil del conductor",
-     "text": "Nombre para los informes y documentos del conductor: «Carné de conducir», «Pasaporte» y «Certificado ADR», con fechas de vencimiento y fotos de las páginas.",
+     "text": "Nombre para los informes y documentos del conductor: «Carné de conducir», «Pasaporte» y «Certificado ADR», con fechas de vencimiento y fotos de las páginas.\n\n«Frontera y ferry». Botones «Frontera» y «Ferry» en ruta.",
      "image": "img/es/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Archivo con todo el cuaderno: guardar, compartir o restaurar.",
   "online.device-link": "Conexión del teléfono al programa en línea: código QR o código en pantalla.",
   "settings.settings": "Todos los ajustes organizados por grupos.",
-  "settings.profile": "Nombre del conductor y sus documentos.",
+  "settings.profile": "Nombre del conductor y sus documentos. «Frontera y ferry». Botones «Frontera» y «Ferry» en ruta.",
   "settings.language": "Idioma de la aplicación, idioma de direcciones GPS y formato de fecha.",
   "settings.theme": "Claro, oscuro o automático; temas predefinidos y personalizados.",
   "settings.theme-custom": "Colores de su tema personalizado.",

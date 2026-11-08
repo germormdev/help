@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Meja in trajekt",
-     "text": "Vklopi se v nastavitvah (»Meja in trajekt«), privzeto izklopljeno. Na zaslonu vožnje gumba »Meja« in »Trajekt«. Meja: država vstopa, nato faze vrsta, pregled, prečkal. Trajekt: pristanišči odhoda in prihoda, nato čakanje, na krovu, izkrcal. Vsaka faza ima svoj časovnik; čas se zapiše samo z dotikom, GPS ni potreben. Meja in trajekt se shranita v vožnjo kot točka.",
+     "text": "Vklopi se v nastavitvah → »Profil voznika« → »Meja in trajekt«, privzeto izklopljeno. Na zaslonu vožnje gumba »Meja« in »Trajekt«. Meja: država vstopa, nato faze vrsta, pregled, prečkal. Trajekt: pristanišči odhoda in prihoda, nato čakanje, na krovu, izkrcal. Vsaka faza ima svoj časovnik; čas se zapiše samo z dotikom, GPS ni potreben. Meja in trajekt se shranita v vožnjo kot točka.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Nastavitve",
-   "intro": "Nastavitve so zbrane po skupinah: profil voznika, telefon in povezava, dokumenti (PDF), varnostna kopija, splošne nastavitve.",
+   "intro": "Nastavitve so zbrane po skupinah: »Jezik in videz«, »Profil voznika«, »Poročila PDF«, »Varnostna kopija«, »Telefon in povezava«.",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Profil voznika",
-     "text": "Ime za poročila in dokumenti voznika: vozniško dovoljenje, potni list, certifikat ADR — z roki veljavnosti in fotografijami strani.",
+     "text": "Ime za poročila in dokumenti voznika: vozniško dovoljenje, potni list, certifikat ADR — z roki veljavnosti in fotografijami strani.\n\n»Meja in trajekt«. Gumba »Meja« in »Trajekt« med vožnjo.",
      "image": "img/sl/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Datoteka s celotnim dnevnikom: shranite, pošljite ali obnovite.",
   "online.device-link": "Povezava telefona s programom na spletu: koda QR ali koda z zaslona.",
   "settings.settings": "Vse nastavitve po skupinah.",
-  "settings.profile": "Ime voznika in njegovi dokumenti.",
+  "settings.profile": "Ime voznika in njegovi dokumenti. »Meja in trajekt«. Gumba »Meja« in »Trajekt« med vožnjo.",
   "settings.language": "Jezik aplikacije, jezik naslovov GPS, oblika datuma.",
   "settings.theme": "Svetla, temna ali samodejno; prednastavljene teme in teme po meri.",
   "settings.theme-custom": "Barve vaše teme po meri.",

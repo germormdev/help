@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Grense og ferje",
-     "text": "Slås på i Innstillinger («Grense og ferje»), av som standard. På kjøreskjermen knappene «Grense» og «Ferje». Grense: innreiseland, deretter fasene kø, kontroll, passert. Ferje: avgangs- og ankomsthavn, deretter venter, om bord, gått i land. Hver fase har egen tidtaker; tiden registreres bare ved trykk, GPS trengs ikke. Grense og ferje lagres i turen som et stopp.",
+     "text": "Slås på i Innstillinger → «Sjåførprofil» → «Grense og ferje», av som standard. På kjøreskjermen knappene «Grense» og «Ferje». Grense: innreiseland, deretter fasene kø, kontroll, passert. Ferje: avgangs- og ankomsthavn, deretter venter, om bord, gått i land. Hver fase har egen tidtaker; tiden registreres bare ved trykk, GPS trengs ikke. Grense og ferje lagres i turen som et stopp.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Innstillinger",
-   "intro": "Innstillingene er samlet i grupper: «Sjåførprofil», «Telefon og tilkobling», «Dokumenter (PDF)», «Sikkerhetskopi», «Generelle innstillinger».",
+   "intro": "Innstillingene er samlet i grupper: «Språk og utseende», «Sjåførprofil», «PDF-rapporter», «Sikkerhetskopi», «Telefon og tilkobling».",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Sjåførprofil",
-     "text": "Navn til rapporter og sjåførens dokumenter: «Førerkort», «Pass», «ADR-sertifikat» — med utløpsdatoer og bilder av sidene.",
+     "text": "Navn til rapporter og sjåførens dokumenter: «Førerkort», «Pass», «ADR-sertifikat» — med utløpsdatoer og bilder av sidene.\n\n«Grense og ferje». Knappene «Grense» og «Ferje» underveis.",
      "image": "img/no/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Fil med hele kjøreboken: lagre, del eller gjenopprett.",
   "online.device-link": "Koble telefonen til programmet på nett: QR-kode eller kode fra skjermen.",
   "settings.settings": "Alle innstillinger delt inn i grupper.",
-  "settings.profile": "Sjåførens navn og dokumenter.",
+  "settings.profile": "Sjåførens navn og dokumenter. «Grense og ferje». Knappene «Grense» og «Ferje» underveis.",
   "settings.language": "App-språk, språk for GPS-adresser, datoformat.",
   "settings.theme": "Lyst, mørkt eller automatisk; forhåndsinnstillinger og egne temaer.",
   "settings.theme-custom": "Farger for ditt eget tema.",

@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Hranica a trajekt",
-     "text": "Zapína sa v nastaveniach („Hranica a trajekt“), predvolene vypnuté. Na obrazovke jazdy tlačidlá „Hranica“ a „Trajekt“. Hranica: krajina vstupu, potom fázy rad, kontrola, prešiel. Trajekt: prístav odchodu a príchodu, potom čakanie, na palube, vylodil sa. Každá fáza má svoj časovač; čas sa zapisuje len ťuknutím, GPS netreba. Hranica a trajekt sa uložia do jazdy ako zastávka.",
+     "text": "Zapína sa v nastaveniach → „Profil vodiča“ → „Hranica a trajekt“, predvolene vypnuté. Na obrazovke jazdy tlačidlá „Hranica“ a „Trajekt“. Hranica: krajina vstupu, potom fázy rad, kontrola, prešiel. Trajekt: prístav odchodu a príchodu, potom čakanie, na palube, vylodil sa. Každá fáza má svoj časovač; čas sa zapisuje len ťuknutím, GPS netreba. Hranica a trajekt sa uložia do jazdy ako zastávka.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Nastavenia",
-   "intro": "Nastavenia sú rozdelené do skupín: profil vodiča, telefón a pripojenie, dokumenty (PDF), záloha, všeobecné nastavenia.",
+   "intro": "Nastavenia sú rozdelené do skupín: „Jazyk a vzhľad“, „Profil vodiča“, „Správy PDF“, „Záloha“, „Telefón a pripojenie“.",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Profil vodiča",
-     "text": "Meno pre výkazy a dokumenty vodiča: vodičský preukaz, cestovný pas, certifikát ADR — s dátumami platnosti a fotkami strán.",
+     "text": "Meno pre výkazy a dokumenty vodiča: vodičský preukaz, cestovný pas, certifikát ADR — s dátumami platnosti a fotkami strán.\n\n„Hranica a trajekt“. Tlačidlá „Hranica“ a „Trajekt“ na ceste.",
      "image": "img/sk/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Súbor s celým denníkom: uložiť, zdieľať alebo obnoviť.",
   "online.device-link": "Pripojenie telefónu k programu online: QR kód alebo kód z obrazovky.",
   "settings.settings": "Všetky nastavenia rozdelené do skupín.",
-  "settings.profile": "Meno vodiča a jeho dokumenty.",
+  "settings.profile": "Meno vodiča a jeho dokumenty. „Hranica a trajekt“. Tlačidlá „Hranica“ a „Trajekt“ na ceste.",
   "settings.language": "Jazyk aplikácie, jazyk pre GPS adresy, formát dátumu.",
   "settings.theme": "Svetlý, tmavý alebo automatický; predvoľby a vlastné motívy.",
   "settings.theme-custom": "Farby vlastného motívu.",

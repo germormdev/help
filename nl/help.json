@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Grens en veerboot",
-     "text": "Aan te zetten in Instellingen („Grens en veerboot”), standaard uit. Op het rijscherm de knoppen „Grens” en „Veerboot”. Grens: land van binnenkomst, dan de fasen wachtrij, controle, gepasseerd. Veerboot: vertrek- en aankomsthaven, dan wachten, aan boord, van boord. Elke fase heeft een eigen timer; de tijd wordt alleen door tikken vastgelegd, geen gps nodig. Grens en veerboot worden als stop in de rit bewaard.",
+     "text": "Aan te zetten in Instellingen → „Chauffeursprofiel” → „Grens en veerboot”, standaard uit. Op het rijscherm de knoppen „Grens” en „Veerboot”. Grens: land van binnenkomst, dan de fasen wachtrij, controle, gepasseerd. Veerboot: vertrek- en aankomsthaven, dan wachten, aan boord, van boord. Elke fase heeft een eigen timer; de tijd wordt alleen door tikken vastgelegd, geen gps nodig. Grens en veerboot worden als stop in de rit bewaard.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Instellingen",
-   "intro": "De instellingen zijn ingedeeld in groepen: chauffeursprofiel, telefoon en verbinding, documenten (PDF), back-up en algemene instellingen.",
+   "intro": "De instellingen zijn ingedeeld in groepen: „Taal en weergave”, „Chauffeursprofiel”, „PDF-rapporten”, „Back-up”, „Telefoon en verbinding”.",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Chauffeursprofiel",
-     "text": "Uw naam voor op de rapporten en uw chauffeursdocumenten: rijbewijs, paspoort en ADR-certificaat — inclusief vervaldata en foto's van de pagina's.",
+     "text": "Uw naam voor op de rapporten en uw chauffeursdocumenten: rijbewijs, paspoort en ADR-certificaat — inclusief vervaldata en foto's van de pagina's.\n\n„Grens en veerboot”. Knoppen „Grens” en „Veerboot” onderweg.",
      "image": "img/nl/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Bestand met het hele rittenboek: opslaan, delen of herstellen.",
   "online.device-link": "Telefoon verbinden met het programma online: via QR-code of schermcode.",
   "settings.settings": "Alle instellingen per groep.",
-  "settings.profile": "Naam en documenten van de chauffeur.",
+  "settings.profile": "Naam en documenten van de chauffeur. „Grens en veerboot”. Knoppen „Grens” en „Veerboot” onderweg.",
   "settings.language": "App-taal, taal van GPS-adressen en datumnotatie.",
   "settings.theme": "Licht, donker of automatisch; voorinstellingen en eigen thema's.",
   "settings.theme-custom": "Kleuren van uw eigen thema.",

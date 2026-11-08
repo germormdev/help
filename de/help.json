@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Grenze und Fähre",
-     "text": "Wird in den Einstellungen eingeschaltet („Grenze und Fähre“), standardmäßig aus. Auf dem Fahrbildschirm die Tasten „Grenze“ und „Fähre“. Grenze: Einreiseland, dann die Etappen Warteschlange, Kontrolle, Passiert. Fähre: Abfahrts- und Ankunftshafen, dann Warten, An Bord, Von Bord. Jede Etappe hat ihren Timer; die Zeit wird nur per Tippen erfasst, GPS ist nicht nötig. Grenze und Fähre werden im Auftrag als Halt gespeichert.",
+     "text": "Wird in den Einstellungen eingeschaltet → „Fahrerprofil“ → „Grenze und Fähre“, standardmäßig aus. Auf dem Fahrbildschirm die Tasten „Grenze“ und „Fähre“. Grenze: Einreiseland, dann die Etappen Warteschlange, Kontrolle, Passiert. Fähre: Abfahrts- und Ankunftshafen, dann Warten, An Bord, Von Bord. Jede Etappe hat ihren Timer; die Zeit wird nur per Tippen erfasst, GPS ist nicht nötig. Grenze und Fähre werden im Auftrag als Halt gespeichert.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Einstellungen",
-   "intro": "Die Einstellungen sind in Gruppen geordnet: „Fahrerprofil“, „Telefon & Verbindung“, „Dokumente (PDF)“, „Sicherung“ und „Allgemeine Einstellungen“.",
+   "intro": "Die Einstellungen sind in Gruppen geordnet: „Sprache und Darstellung“, „Fahrerprofil“, „PDF-Berichte“, „Sicherung“, „Telefon & Verbindung“.",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Fahrerprofil",
-     "text": "Ihr Name für die Berichte und die Dokumente des Fahrers: „Führerschein“, „Reisepass“, „ADR-Bescheinigung“ — jeweils mit Ablaufdatum und Fotos der Seiten.",
+     "text": "Ihr Name für die Berichte und die Dokumente des Fahrers: „Führerschein“, „Reisepass“, „ADR-Bescheinigung“ — jeweils mit Ablaufdatum und Fotos der Seiten.\n\n„Grenze und Fähre“. Tasten „Grenze“ und „Fähre“ während der Fahrt.",
      "image": "img/de/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Datei mit dem gesamten Fahrtenbuch: speichern, teilen oder wiederherstellen.",
   "online.device-link": "Telefon mit dem Online-Programm verbinden: per QR-Code oder Bildschirmcode.",
   "settings.settings": "Alle Einstellungen nach Gruppen geordnet.",
-  "settings.profile": "Fahrername und Dokumente des Fahrers.",
+  "settings.profile": "Fahrername und Dokumente des Fahrers. „Grenze und Fähre“. Tasten „Grenze“ und „Fähre“ während der Fahrt.",
   "settings.language": "App-Sprache, Sprache der GPS-Adressen und Datumsformat.",
   "settings.theme": "Hell, Dunkel oder Automatisch; Vorlagen und eigene Themen.",
   "settings.theme-custom": "Farben Ihres eigenen Themas.",

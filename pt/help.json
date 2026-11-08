@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Fronteira e ferry",
-     "text": "Ativa-se nas Definições («Fronteira e ferry»); desligado por omissão. No ecrã de condução, os botões «Fronteira» e «Ferry». Fronteira: país de entrada e depois as etapas fila, inspeção, passou. Ferry: portos de partida e de chegada e depois espera, a bordo, desembarcou. Cada etapa tem o seu temporizador; a hora só é registada ao tocar, sem GPS. A fronteira e o ferry ficam na viagem como uma paragem.",
+     "text": "Ativa-se nas Definições → «Perfil do motorista» → «Fronteira e ferry»; desligado por omissão. No ecrã de condução, os botões «Fronteira» e «Ferry». Fronteira: país de entrada e depois as etapas fila, inspeção, passou. Ferry: portos de partida e de chegada e depois espera, a bordo, desembarcou. Cada etapa tem o seu temporizador; a hora só é registada ao tocar, sem GPS. A fronteira e o ferry ficam na viagem como uma paragem.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Definições",
-   "intro": "As definições estão organizadas por grupos: perfil do motorista, telefone e conexão, documentos (PDF), cópia de segurança e configurações gerais.",
+   "intro": "As definições estão organizadas por grupos: «Idioma e aspeto», «Perfil do motorista», «Relatórios PDF», «Cópia de segurança», «Telefone e conexão».",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Perfil do motorista",
-     "text": "Nome para os relatórios e documentos do motorista: carta de condução, passaporte e certificado ADR — com datas de validade e fotografias das páginas.",
+     "text": "Nome para os relatórios e documentos do motorista: carta de condução, passaporte e certificado ADR — com datas de validade e fotografias das páginas.\n\n«Fronteira e ferry». Botões «Fronteira» e «Ferry» em viagem.",
      "image": "img/pt/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Ficheiro com todo o diário: guardar, partilhar ou restaurar.",
   "online.device-link": "Ligação do telemóvel ao programa online: código QR ou código no ecrã.",
   "settings.settings": "Todas as definições organizadas por grupos.",
-  "settings.profile": "Nome do motorista e os seus documentos.",
+  "settings.profile": "Nome do motorista e os seus documentos. «Fronteira e ferry». Botões «Fronteira» e «Ferry» em viagem.",
   "settings.language": "Idioma da app, idioma das moradas GPS e formato da data.",
   "settings.theme": "Claro, Escuro ou Automático; temas predefinidos e personalizados.",
   "settings.theme-custom": "Cores do seu tema personalizado.",

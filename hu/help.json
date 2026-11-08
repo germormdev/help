@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Határ és komp",
-     "text": "A beállításokban kapcsolható be („Határ és komp”), alapból ki van kapcsolva. A vezetési képernyőn a „Határ” és „Komp” gomb. Határ: belépési ország, majd a sor, ellenőrzés, átlépte szakaszok. Komp: indulási és érkezési kikötő, majd várakozás, a fedélzeten, kiszállt. Minden szakasznak saját időzítője van; az idő csak koppintásra rögzül, GPS nem kell. A határ és a komp pontként kerül a fuvarba.",
+     "text": "A beállításokban kapcsolható be → „Sofőrprofil” → „Határ és komp”, alapból ki van kapcsolva. A vezetési képernyőn a „Határ” és „Komp” gomb. Határ: belépési ország, majd a sor, ellenőrzés, átlépte szakaszok. Komp: indulási és érkezési kikötő, majd várakozás, a fedélzeten, kiszállt. Minden szakasznak saját időzítője van; az idő csak koppintásra rögzül, GPS nem kell. A határ és a komp pontként kerül a fuvarba.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Beállítások",
-   "intro": "A beállítások csoportokba vannak rendezve: sofőrprofil, telefon és kapcsolat, dokumentumok (PDF), biztonsági mentés, általános.",
+   "intro": "A beállítások csoportokba vannak rendezve: „Nyelv és megjelenés”, „Sofőrprofil”, „PDF-jelentések”, „Biztonsági mentés”, „Telefon és kapcsolat”.",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Sofőrprofil",
-     "text": "Név a jelentésekhez és a sofőr dokumentumai: jogosítvány, útlevél, ADR-bizonyítvány — lejárati dátumokkal és az oldalak fotóival.",
+     "text": "Név a jelentésekhez és a sofőr dokumentumai: jogosítvány, útlevél, ADR-bizonyítvány — lejárati dátumokkal és az oldalak fotóival.\n\n„Határ és komp”. „Határ” és „Komp” gomb útközben.",
      "image": "img/hu/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Fájl a teljes naplóval: mentés, küldés vagy visszaállítás.",
   "online.device-link": "A telefon csatlakoztatása az online programhoz: QR-kód vagy a képernyőn látható kód.",
   "settings.settings": "Minden beállítás csoportokba rendezve.",
-  "settings.profile": "A sofőr neve és dokumentumai.",
+  "settings.profile": "A sofőr neve és dokumentumai. „Határ és komp”. „Határ” és „Komp” gomb útközben.",
   "settings.language": "A program nyelve, a GPS-címek nyelve, dátumformátum.",
   "settings.theme": "Világos, sötét vagy automatikus; előre beállított és saját témák.",
   "settings.theme-custom": "A saját téma színei.",

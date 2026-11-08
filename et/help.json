@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Piir ja praam",
-     "text": "Lülitatakse sisse seadetes („Piir ja praam”), vaikimisi väljas. Sõiduekraanil nupud „Piir” ja „Praam”. Piir: sisenemisriik, seejärel etapid järjekord, kontroll, ületatud. Praam: lähte- ja saabumissadam, seejärel ootamine, pardal, maale läinud. Igal etapil on oma taimer; aeg salvestatakse ainult vajutusega, GPS-i pole vaja. Piir ja praam salvestatakse reisile punktina.",
+     "text": "Lülitatakse sisse seadetes → „Juhi profiil” → „Piir ja praam”, vaikimisi väljas. Sõiduekraanil nupud „Piir” ja „Praam”. Piir: sisenemisriik, seejärel etapid järjekord, kontroll, ületatud. Praam: lähte- ja saabumissadam, seejärel ootamine, pardal, maale läinud. Igal etapil on oma taimer; aeg salvestatakse ainult vajutusega, GPS-i pole vaja. Piir ja praam salvestatakse reisile punktina.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Seaded",
-   "intro": "Seaded on jagatud rühmadesse: juhi profiil, telefon ja ühendus, dokumendid (PDF), varukoopia, üldised seaded.",
+   "intro": "Seaded on jagatud rühmadesse: „Keel ja välimus”, „Juhi profiil”, „PDF-aruanded”, „Varukoopia”, „Telefon ja ühendus”.",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Juhi profiil",
-     "text": "Nimi aruannete jaoks ja juhi dokumendid: juhiluba, pass, ADR-sertifikaat — koos kehtivusaegade ja lehekülgede fotodega.",
+     "text": "Nimi aruannete jaoks ja juhi dokumendid: juhiluba, pass, ADR-sertifikaat — koos kehtivusaegade ja lehekülgede fotodega.\n\n„Piir ja praam”. Nupud „Piir” ja „Praam” teel.",
      "image": "img/et/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Fail kogu päevikuga: salvesta, saada või taasta.",
   "online.device-link": "Telefoni ühendamine võrguprogrammiga: QR-kood või ekraanikood.",
   "settings.settings": "Kõik seaded rühmade kaupa.",
-  "settings.profile": "Juhi nimi ja tema dokumendid.",
+  "settings.profile": "Juhi nimi ja tema dokumendid. „Piir ja praam”. Nupud „Piir” ja „Praam” teel.",
   "settings.language": "Rakenduse keel, GPS-aadresside keel, kuupäeva vorming.",
   "settings.theme": "Hele, tume või automaatne; valmis- ja oma teemad.",
   "settings.theme-custom": "Oma teema värvid.",

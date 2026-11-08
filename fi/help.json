@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Raja ja lautta",
-     "text": "Otetaan käyttöön asetuksista (”Raja ja lautta”), oletuksena pois. Ajonäytössä painikkeet ”Raja” ja ”Lautta”. Raja: maahantulomaa, sitten vaiheet jono, tarkastus, ylitetty. Lautta: lähtö- ja tulosatama, sitten odotus, laivalla, poistunut. Jokaisella vaiheella on oma ajastin; aika kirjataan vain painamalla, GPS:ää ei tarvita. Raja ja lautta tallentuvat ajoon pisteenä.",
+     "text": "Otetaan käyttöön asetuksista → ”Kuljettajan profiili” → ”Raja ja lautta”, oletuksena pois. Ajonäytössä painikkeet ”Raja” ja ”Lautta”. Raja: maahantulomaa, sitten vaiheet jono, tarkastus, ylitetty. Lautta: lähtö- ja tulosatama, sitten odotus, laivalla, poistunut. Jokaisella vaiheella on oma ajastin; aika kirjataan vain painamalla, GPS:ää ei tarvita. Raja ja lautta tallentuvat ajoon pisteenä.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Asetukset",
-   "intro": "Asetukset on jaettu ryhmiin: kuljettajan profiili, puhelin ja yhteys, asiakirjat (PDF), varmuuskopio ja yleiset asetukset.",
+   "intro": "Asetukset on jaettu ryhmiin: ”Kieli ja ulkoasu”, ”Kuljettajan profiili”, ”PDF-raportit”, ”Varmuuskopio”, ”Puhelin ja yhteys”.",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Kuljettajan profiili",
-     "text": "Nimi raportteihin ja kuljettajan asiakirjat: ajokortti, passi, ADR-todistus — voimassaoloaikoineen ja sivukuvineen.",
+     "text": "Nimi raportteihin ja kuljettajan asiakirjat: ajokortti, passi, ADR-todistus — voimassaoloaikoineen ja sivukuvineen.\n\n”Raja ja lautta”. Painikkeet ”Raja” ja ”Lautta” ajossa.",
      "image": "img/fi/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Koko ajopäiväkirjan tiedosto: tallenna, jaa tai palauta.",
   "online.device-link": "Puhelimen yhdistäminen verkkopalveluun: QR-koodi tai näytöllä näkyvä koodi.",
   "settings.settings": "Kaikki asetukset ryhmittäin.",
-  "settings.profile": "Kuljettajan nimi ja hänen asiakirjansa.",
+  "settings.profile": "Kuljettajan nimi ja hänen asiakirjansa. ”Raja ja lautta”. Painikkeet ”Raja” ja ”Lautta” ajossa.",
   "settings.language": "Sovelluksen kieli, GPS-osoitteiden kieli, päivämäärämuoto.",
   "settings.theme": "Vaalea, tumma tai automaattinen; esiasetetut ja omat teemat.",
   "settings.theme-custom": "Oman teeman värit.",

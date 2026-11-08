@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Hranice a trajekt",
-     "text": "Zapíná se v nastavení („Hranice a trajekt“), výchozí je vypnuto. Na obrazovce jízdy tlačítka „Hranice“ a „Trajekt“. Hranice: země vstupu, pak fáze fronta, kontrola, projel. Trajekt: přístav odjezdu a příjezdu, pak čekání, na palubě, vylodil se. Každá fáze má svůj časovač; čas se zapisuje jen klepnutím, GPS není potřeba. Hranice a trajekt se uloží do jízdy jako zastávka.",
+     "text": "Zapíná se v nastavení → „Profil řidiče“ → „Hranice a trajekt“, výchozí je vypnuto. Na obrazovce jízdy tlačítka „Hranice“ a „Trajekt“. Hranice: země vstupu, pak fáze fronta, kontrola, projel. Trajekt: přístav odjezdu a příjezdu, pak čekání, na palubě, vylodil se. Každá fáze má svůj časovač; čas se zapisuje jen klepnutím, GPS není potřeba. Hranice a trajekt se uloží do jízdy jako zastávka.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Nastavení",
-   "intro": "Nastavení jsou rozdělena do skupin: profil řidiče, telefon a připojení, dokumenty (PDF), záloha a obecná nastavení.",
+   "intro": "Nastavení jsou rozdělena do skupin: „Jazyk a vzhled“, „Profil řidiče“, „Zprávy PDF“, „Záloha“, „Telefon a připojení“.",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Profil řidiče",
-     "text": "Jméno pro výkazy a doklady řidiče: řidičský průkaz, cestovní pas, certifikát ADR — s daty platnosti a fotkami stran.",
+     "text": "Jméno pro výkazy a doklady řidiče: řidičský průkaz, cestovní pas, certifikát ADR — s daty platnosti a fotkami stran.\n\n„Hranice a trajekt“. Tlačítka „Hranice“ a „Trajekt“ na cestě.",
      "image": "img/cs/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Soubor s celým deníkem: uložit, odeslat nebo obnovit.",
   "online.device-link": "Připojení telefonu k programu online: QR kód nebo kód z obrazovky.",
   "settings.settings": "Všechna nastavení přehledně po skupinách.",
-  "settings.profile": "Jméno řidiče a jeho doklady.",
+  "settings.profile": "Jméno řidiče a jeho doklady. „Hranice a trajekt“. Tlačítka „Hranice“ a „Trajekt“ na cestě.",
   "settings.language": "Jazyk aplikace, jazyk GPS adres, formát data.",
   "settings.theme": "Světlý, tmavý nebo automatický; předvolby a vlastní motivy.",
   "settings.theme-custom": "Barvy vlastního motivu.",

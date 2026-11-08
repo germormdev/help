@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Robeža un prāmis",
-     "text": "Ieslēdz iestatījumos (“Robeža un prāmis”), pēc noklusējuma izslēgts. Braukšanas ekrānā pogas “Robeža” un “Prāmis”. Robeža: iebraukšanas valsts, tad posmi rinda, pārbaude, šķērsoja. Prāmis: izbraukšanas un ierašanās osta, tad gaidīšana, uz klāja, izkāpa. Katram posmam ir savs taimeris; laiks tiek ierakstīts tikai ar pieskārienu, GPS nav vajadzīgs. Robeža un prāmis tiek saglabāti braucienā kā punkts.",
+     "text": "Ieslēdz iestatījumos → “Vadītāja profils” → “Robeža un prāmis”, pēc noklusējuma izslēgts. Braukšanas ekrānā pogas “Robeža” un “Prāmis”. Robeža: iebraukšanas valsts, tad posmi rinda, pārbaude, šķērsoja. Prāmis: izbraukšanas un ierašanās osta, tad gaidīšana, uz klāja, izkāpa. Katram posmam ir savs taimeris; laiks tiek ierakstīts tikai ar pieskārienu, GPS nav vajadzīgs. Robeža un prāmis tiek saglabāti braucienā kā punkts.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Iestatījumi",
-   "intro": "Iestatījumi ir sakārtoti grupās: vadītāja profils, tālrunis un savienojums, dokumenti (PDF), rezerves kopija, vispārīgie iestatījumi.",
+   "intro": "Iestatījumi ir sakārtoti grupās: “Valoda un izskats”, “Vadītāja profils”, “PDF atskaites”, “Rezerves kopija”, “Tālrunis un savienojums”.",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Vadītāja profils",
-     "text": "Vārds atskaitēm un vadītāja dokumenti: vadītāja apliecība, pase, ADR sertifikāts — ar termiņiem un lappušu fotoattēliem.",
+     "text": "Vārds atskaitēm un vadītāja dokumenti: vadītāja apliecība, pase, ADR sertifikāts — ar termiņiem un lappušu fotoattēliem.\n\n“Robeža un prāmis”. Pogas “Robeža” un “Prāmis” ceļā.",
      "image": "img/lv/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Fails ar visu žurnālu: saglabāt, nosūtīt vai atjaunot.",
   "online.device-link": "Tālruņa savienošana ar programmu tiešsaistē: QR kods vai ekrānā redzamais kods.",
   "settings.settings": "Visi iestatījumi pa grupām.",
-  "settings.profile": "Vadītāja vārds un viņa dokumenti.",
+  "settings.profile": "Vadītāja vārds un viņa dokumenti. “Robeža un prāmis”. Pogas “Robeža” un “Prāmis” ceļā.",
   "settings.language": "Lietotnes valoda, GPS adrešu valoda, datuma formāts.",
   "settings.theme": "Gaiša, tumša vai automātiska; sagataves un savas tēmas.",
   "settings.theme-custom": "Savas tēmas krāsas.",

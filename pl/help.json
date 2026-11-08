@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Granica i prom",
-     "text": "Włącza się w ustawieniach („Granica i prom”), domyślnie wyłączone. Na ekranie jazdy przyciski „Granica” i „Prom”. Granica: kraj wjazdu, potem etapy kolejka, kontrola, przejechał. Prom: port wyjścia i docelowy, potem oczekiwanie, na pokładzie, zszedł. Każdy etap ma swój licznik; czas zapisuje się tylko przyciśnięciem, GPS niepotrzebny. Granica i prom zapisują się w kursie jako punkt.",
+     "text": "Włącza się w ustawieniach → „Profil kierowcy” → „Granica i prom”, domyślnie wyłączone. Na ekranie jazdy przyciski „Granica” i „Prom”. Granica: kraj wjazdu, potem etapy kolejka, kontrola, przejechał. Prom: port wyjścia i docelowy, potem oczekiwanie, na pokładzie, zszedł. Każdy etap ma swój licznik; czas zapisuje się tylko przyciśnięciem, GPS niepotrzebny. Granica i prom zapisują się w kursie jako punkt.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Ustawienia",
-   "intro": "Ustawienia są podzielone na grupy: profil kierowcy, telefon i połączenie, dokumenty (PDF), kopia zapasowa, ustawienia ogólne.",
+   "intro": "Ustawienia są podzielone na grupy: „Język i wygląd”, „Profil kierowcy”, „Raporty PDF”, „Kopia zapasowa”, „Telefon i połączenie”.",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Profil kierowcy",
-     "text": "Imię do raportów i dokumenty kierowcy: prawo jazdy, paszport, certyfikat ADR — z terminami ważności i zdjęciami stron.",
+     "text": "Imię do raportów i dokumenty kierowcy: prawo jazdy, paszport, certyfikat ADR — z terminami ważności i zdjęciami stron.\n\n„Granica i prom”. Przyciski „Granica” i „Prom” w trasie.",
      "image": "img/pl/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Plik z całym dziennikiem: zapisz, wyślij lub przywróć.",
   "online.device-link": "Łączenie telefonu z programem online: kod QR lub kod z ekranu.",
   "settings.settings": "Wszystkie ustawienia pogrupowane tematycznie.",
-  "settings.profile": "Imię kierowcy i jego dokumenty.",
+  "settings.profile": "Imię kierowcy i jego dokumenty. „Granica i prom”. Przyciski „Granica” i „Prom” w trasie.",
   "settings.language": "Język aplikacji, język adresów GPS, format daty.",
   "settings.theme": "Jasny, ciemny lub automatyczny; motywy gotowe i własne.",
   "settings.theme-custom": "Kolory własnego motywu.",

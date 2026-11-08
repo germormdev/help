@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Grænse og færge",
-     "text": "Slås til i Indstillinger (»Grænse og færge«), slået fra som standard. På køreskærmen knapperne »Grænse« og »Færge«. Grænse: indrejseland, derefter faserne kø, kontrol, passeret. Færge: afgangs- og ankomsthavn, derefter venter, om bord, gået i land. Hver fase har sin egen timer; tiden registreres kun ved tryk, GPS er ikke nødvendig. Grænse og færge gemmes i turen som et stop.",
+     "text": "Slås til i Indstillinger → »Chaufførprofil« → »Grænse og færge«, slået fra som standard. På køreskærmen knapperne »Grænse« og »Færge«. Grænse: indrejseland, derefter faserne kø, kontrol, passeret. Færge: afgangs- og ankomsthavn, derefter venter, om bord, gået i land. Hver fase har sin egen timer; tiden registreres kun ved tryk, GPS er ikke nødvendig. Grænse og færge gemmes i turen som et stop.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Indstillinger",
-   "intro": "Indstillingerne er samlet i grupper: chaufførprofil, telefon og forbindelse, dokumenter (PDF), sikkerhedskopi og generelle indstillinger.",
+   "intro": "Indstillingerne er samlet i grupper: »Sprog og udseende«, »Chaufførprofil«, »PDF-rapporter«, »Sikkerhedskopi«, »Telefon og forbindelse«.",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Chaufførprofil",
-     "text": "Navn til rapporter og chaufførens dokumenter: kørekort, pas og ADR-certifikat — med udløbsdatoer og fotos af siderne.",
+     "text": "Navn til rapporter og chaufførens dokumenter: kørekort, pas og ADR-certifikat — med udløbsdatoer og fotos af siderne.\n\n»Grænse og færge«. Knapperne »Grænse« og »Færge« undervejs.",
      "image": "img/da/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Fil med hele kørebogen: gem, send eller gendan.",
   "online.device-link": "Forbind telefonen til programmet online: QR-kode eller kode fra skærmen.",
   "settings.settings": "Alle indstillinger opdelt i grupper.",
-  "settings.profile": "Chaufførens navn og dokumenter.",
+  "settings.profile": "Chaufførens navn og dokumenter. »Grænse og færge«. Knapperne »Grænse« og »Færge« undervejs.",
   "settings.language": "App-sprog, sprog for GPS-adresser, datoformat.",
   "settings.theme": "Lys, mørk eller automatisk; forudindstillinger og egne temaer.",
   "settings.theme-custom": "Farver i dit eget tema.",

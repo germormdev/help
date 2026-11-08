@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Gräns och färja",
-     "text": "Slås på i Inställningar (”Gräns och färja”), avstängt som standard. På körskärmen knapparna ”Gräns” och ”Färja”. Gräns: inreseland, sedan faserna kö, kontroll, passerat. Färja: avgångs- och ankomsthamn, sedan väntar, ombord, gått i land. Varje fas har egen timer; tiden registreras bara vid tryck, GPS behövs inte. Gräns och färja sparas i resan som ett stopp.",
+     "text": "Slås på i Inställningar → ”Förarprofil” → ”Gräns och färja”, avstängt som standard. På körskärmen knapparna ”Gräns” och ”Färja”. Gräns: inreseland, sedan faserna kö, kontroll, passerat. Färja: avgångs- och ankomsthamn, sedan väntar, ombord, gått i land. Varje fas har egen timer; tiden registreras bara vid tryck, GPS behövs inte. Gräns och färja sparas i resan som ett stopp.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Inställningar",
-   "intro": "Inställningarna är indelade i grupper: förarprofil, telefon och anslutning, dokument (PDF), säkerhetskopia och allmänna inställningar.",
+   "intro": "Inställningarna är indelade i grupper: ”Språk och utseende”, ”Förarprofil”, ”PDF-rapporter”, ”Säkerhetskopia”, ”Telefon och anslutning”.",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Förarprofil",
-     "text": "Namn för rapporter och förarens dokument: körkort, pass och ADR-certifikat — med utgångsdatum och foton på sidorna.",
+     "text": "Namn för rapporter och förarens dokument: körkort, pass och ADR-certifikat — med utgångsdatum och foton på sidorna.\n\n”Gräns och färja”. Knapparna ”Gräns” och ”Färja” under resan.",
      "image": "img/sv/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "En fil med hela journalen: spara, skicka eller återställ.",
   "online.device-link": "Anslut telefonen till programmet online: QR-kod eller kod på skärmen.",
   "settings.settings": "Alla inställningar indelade i grupper.",
-  "settings.profile": "Förarens namn och dokument.",
+  "settings.profile": "Förarens namn och dokument. ”Gräns och färja”. Knapparna ”Gräns” och ”Färja” under resan.",
   "settings.language": "Appspråk, språk för GPS-adresser och datumformat.",
   "settings.theme": "Ljust, mörkt eller automatiskt; förinställningar och egna teman.",
   "settings.theme-custom": "Färger i ditt eget tema.",

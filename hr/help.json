@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Granica i trajekt",
-     "text": "Uključuje se u postavkama („Granica i trajekt”), zadano isključeno. Na zaslonu vožnje gumbi „Granica” i „Trajekt”. Granica: zemlja ulaska, zatim faze red, pregled, prošao. Trajekt: luka polaska i dolaska, zatim čekanje, na brodu, iskrcao se. Svaka faza ima svoj mjerač; vrijeme se upisuje samo dodirom, GPS nije potreban. Granica i trajekt spremaju se u vožnju kao točka.",
+     "text": "Uključuje se u postavkama → „Profil vozača” → „Granica i trajekt”, zadano isključeno. Na zaslonu vožnje gumbi „Granica” i „Trajekt”. Granica: zemlja ulaska, zatim faze red, pregled, prošao. Trajekt: luka polaska i dolaska, zatim čekanje, na brodu, iskrcao se. Svaka faza ima svoj mjerač; vrijeme se upisuje samo dodirom, GPS nije potreban. Granica i trajekt spremaju se u vožnju kao točka.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Postavke",
-   "intro": "Postavke su podijeljene po skupinama: profil vozača, telefon i veza, dokumenti (PDF), sigurnosna kopija i opće postavke.",
+   "intro": "Postavke su podijeljene po skupinama: „Jezik i izgled”, „Profil vozača”, „PDF izvješća”, „Sigurnosna kopija”, „Telefon i veza”.",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Profil vozača",
-     "text": "Ime za izvješća i dokumenti vozača: vozačka dozvola, putovnica, ADR certifikat — s rokovima valjanosti i fotografijama stranica.",
+     "text": "Ime za izvješća i dokumenti vozača: vozačka dozvola, putovnica, ADR certifikat — s rokovima valjanosti i fotografijama stranica.\n\n„Granica i trajekt”. Gumbi „Granica” i „Trajekt” u vožnji.",
      "image": "img/hr/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Datoteka s cijelim dnevnikom: spremite, pošaljite ili vratite.",
   "online.device-link": "Povezivanje telefona s programom na mreži: QR kod ili kod sa zaslona.",
   "settings.settings": "Sve postavke po skupinama.",
-  "settings.profile": "Ime vozača i njegovi dokumenti.",
+  "settings.profile": "Ime vozača i njegovi dokumenti. „Granica i trajekt”. Gumbi „Granica” i „Trajekt” u vožnji.",
   "settings.language": "Jezik aplikacije, jezik GPS adresa, format datuma.",
   "settings.theme": "Svijetla, tamna ili automatski; predlošci i prilagođene teme.",
   "settings.theme-custom": "Boje vaše prilagođene teme.",

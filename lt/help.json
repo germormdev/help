@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Siena ir keltas",
-     "text": "Įjungiama nustatymuose („Siena ir keltas“), pagal nutylėjimą išjungta. Važiavimo ekrane mygtukai „Siena“ ir „Keltas“. Siena: įvažiavimo šalis, tada etapai eilė, patikra, pervažiavo. Keltas: išvykimo ir atvykimo uostas, tada laukimas, laive, išlipo. Kiekvienas etapas turi savo laikmatį; laikas įrašomas tik paspaudus, GPS nereikia. Siena ir keltas išsaugomi reise kaip taškas.",
+     "text": "Įjungiama nustatymuose → „Vairuotojo profilis“ → „Siena ir keltas“, pagal nutylėjimą išjungta. Važiavimo ekrane mygtukai „Siena“ ir „Keltas“. Siena: įvažiavimo šalis, tada etapai eilė, patikra, pervažiavo. Keltas: išvykimo ir atvykimo uostas, tada laukimas, laive, išlipo. Kiekvienas etapas turi savo laikmatį; laikas įrašomas tik paspaudus, GPS nereikia. Siena ir keltas išsaugomi reise kaip taškas.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Nustatymai",
-   "intro": "Nustatymai suskirstyti grupėmis: vairuotojo profilis, telefonas ir ryšys, dokumentai (PDF), atsarginė kopija, bendrieji nustatymai.",
+   "intro": "Nustatymai suskirstyti grupėmis: „Kalba ir išvaizda“, „Vairuotojo profilis“, „PDF ataskaitos“, „Atsarginė kopija“, „Telefonas ir ryšys“.",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Vairuotojo profilis",
-     "text": "Vardas ataskaitoms ir vairuotojo dokumentai: vairuotojo pažymėjimas, pasas, ADR sertifikatas — su terminais ir puslapių nuotraukomis.",
+     "text": "Vardas ataskaitoms ir vairuotojo dokumentai: vairuotojo pažymėjimas, pasas, ADR sertifikatas — su terminais ir puslapių nuotraukomis.\n\n„Siena ir keltas“. Mygtukai „Siena“ ir „Keltas“ kelyje.",
      "image": "img/lt/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Failas su visu žurnalu: išsaugoti, išsiųsti arba atkurti.",
   "online.device-link": "Telefono prijungimas prie programos internete: QR kodas arba kodas iš ekrano.",
   "settings.settings": "Visi nustatymai pagal grupes.",
-  "settings.profile": "Vairuotojo vardas ir jo dokumentai.",
+  "settings.profile": "Vairuotojo vardas ir jo dokumentai. „Siena ir keltas“. Mygtukai „Siena“ ir „Keltas“ kelyje.",
   "settings.language": "Programos kalba, GPS adresų kalba, datos formatas.",
   "settings.theme": "Šviesi, tamsi arba automatinis; šablonai ir pasirinktinės temos.",
   "settings.theme-custom": "Pasirinktinės temos spalvos.",

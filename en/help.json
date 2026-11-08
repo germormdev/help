@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Border and ferry",
-     "text": "Turned on in Settings → “Border and ferry”; off by default. On the driving screen tap “Border” or “Ferry”. Border: enter the country of entry, then mark the stages queue, inspection, crossed. Ferry: enter the departure and arrival ports, then waiting, on board, disembarked. Each stage has its own timer; the time is recorded only by your taps, no GPS is needed. The crossing is saved in the trip as a stop.",
+     "text": "Turned on in Settings → “Driver profile” → “Border and ferry”; off by default. On the driving screen tap “Border” or “Ferry”. Border: enter the country of entry, then mark the stages queue, inspection, crossed. Ferry: enter the departure and arrival ports, then waiting, on board, disembarked. Each stage has its own timer; the time is recorded only by your taps, no GPS is needed. The crossing is saved in the trip as a stop.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Settings",
-   "intro": "Settings are organized into groups: \"Driver profile\", \"Phone & connection\", \"Documents (PDF)\", \"Backup\", and \"General settings\".",
+   "intro": "Settings are organized into groups: “Language and appearance”, “Driver profile”, “PDF reports”, “Backup”, “Phone & connection”.",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Driver profile",
-     "text": "Your name for reports and driver documents: \"Driver's License\", \"Passport\", and \"ADR Certificate\" — with expiry dates and page photos.",
+     "text": "Your name for reports and driver documents: \"Driver's License\", \"Passport\", and \"ADR Certificate\" — with expiry dates and page photos.\n\n“Border and ferry”. Border and Ferry buttons while driving.",
      "image": "img/en/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Single file with your whole logbook: export, share, or restore.",
   "online.device-link": "Connect your phone to the online app: QR code or on-screen code.",
   "settings.settings": "All settings organized by group.",
-  "settings.profile": "Driver name and driver documents.",
+  "settings.profile": "Driver name and driver documents. “Border and ferry”. Border and Ferry buttons while driving.",
   "settings.language": "App language, GPS addresses language, and date format.",
   "settings.theme": "Light, Dark, or Auto; preset and custom themes.",
   "settings.theme-custom": "Colors for your custom theme.",

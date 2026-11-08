@@ -164,7 +164,7 @@
     {
      "id": "crossing",
      "title": "Sınır ve feribot",
-     "text": "Ayarlardan açılır («Sınır ve feribot»), varsayılan olarak kapalıdır. Sürüş ekranında «Sınır» ve «Feribot» düğmeleri. Sınır: giriş ülkesi, ardından kuyruk, kontrol, geçti aşamaları. Feribot: kalkış ve varış limanı, ardından bekleme, gemide, indi. Her aşamanın kendi zamanlayıcısı vardır; saat yalnızca dokunarak kaydedilir, GPS gerekmez. Sınır ve feribot seferde bir nokta olarak saklanır.",
+     "text": "Ayarlardan açılır → «Sürücü profili» → «Sınır ve feribot», varsayılan olarak kapalıdır. Sürüş ekranında «Sınır» ve «Feribot» düğmeleri. Sınır: giriş ülkesi, ardından kuyruk, kontrol, geçti aşamaları. Feribot: kalkış ve varış limanı, ardından bekleme, gemide, indi. Her aşamanın kendi zamanlayıcısı vardır; saat yalnızca dokunarak kaydedilir, GPS gerekmez. Sınır ve feribot seferde bir nokta olarak saklanır.",
      "image": ""
     }
    ]
@@ -501,7 +501,7 @@
   {
    "slug": "settings",
    "title": "Ayarlar",
-   "intro": "Ayarlar gruplar halinde toplanmıştır: sürücü profili, telefon ve bağlantı, belgeler (PDF), yedekleme, genel ayarlar.",
+   "intro": "Ayarlar gruplar halinde toplanmıştır: «Dil ve görünüm», «Sürücü profili», «PDF raporları», «Yedekleme», «Telefon ve bağlantı».",
    "steps": [
     {
      "id": "settings",
@@ -512,7 +512,7 @@
     {
      "id": "profile",
      "title": "Sürücü profili",
-     "text": "Raporlar için ad ve sürücü belgeleri: sürücü belgesi, pasaport, ADR Belgesi — geçerlilik tarihleri ve sayfa fotoğraflarıyla.",
+     "text": "Raporlar için ad ve sürücü belgeleri: sürücü belgesi, pasaport, ADR Belgesi — geçerlilik tarihleri ve sayfa fotoğraflarıyla.\n\n«Sınır ve feribot». Yolda «Sınır» ve «Feribot» düğmeleri.",
      "image": "img/tr/settings-profile.png"
     },
     {
@@ -979,7 +979,7 @@
   "backup.backup": "Tüm defteri içeren dosya: kaydetme, gönderme veya geri yükleme.",
   "online.device-link": "Telefonu çevrimiçi programa bağlama: QR kodu veya ekrandaki kod.",
   "settings.settings": "Gruplar halinde tüm ayarlar.",
-  "settings.profile": "Sürücü adı ve belgeleri.",
+  "settings.profile": "Sürücü adı ve belgeleri. «Sınır ve feribot». Yolda «Sınır» ve «Feribot» düğmeleri.",
   "settings.language": "Uygulama dili, GPS adreslerinin dili, tarih biçimi.",
   "settings.theme": "Açık, koyu veya otomatik; hazır ve özel temalar.",
   "settings.theme-custom": "Özel temanın renkleri.",
