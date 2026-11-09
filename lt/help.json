@@ -494,7 +494,7 @@
      "id": "sync",
      "title": "Sinchronizavimas",
      "text": "Prijungtas telefonas pats siunčia naujus įrašus ir gauna pataisymus iš kitų įrenginių. Būsenos eilutė rodo „Viskas sinchronizuota“ arba kiek įrašų laukia išsiuntimo. Be ryšio įrašai laukia telefone.",
-     "image": ""
+     "image": "img/lt/online-sync.png"
     }
    ]
   },
@@ -543,13 +543,13 @@
      "id": "animations",
      "title": "Animacijos",
      "text": "Judančios iškrovimo ir pylimo scenos. Jas galima išjungti.",
-     "image": ""
+     "image": "img/lt/settings-animations.png"
     },
     {
      "id": "about",
      "title": "Apie",
      "text": "Versija, svetainė, Telegram, Facebook ir galimybė paremti projektą. Anksčiau programa vadinosi CargoLog — pasikeitė tik pavadinimas.",
-     "image": ""
+     "image": "img/lt/settings-about.png"
     },
     {
      "id": "feedback",

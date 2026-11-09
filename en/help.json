@@ -494,7 +494,7 @@
      "id": "sync",
      "title": "Sync",
      "text": "A connected phone automatically sends new entries and receives edits from your other devices. The status line shows \"All synced\" or how many entries are waiting to be sent. When offline, entries wait on your phone.",
-     "image": ""
+     "image": "img/en/online-sync.png"
     }
    ]
   },
@@ -543,13 +543,13 @@
      "id": "animations",
      "title": "Animations",
      "text": "\"Moving scenes for unloading and refuelling\". You can turn them off.",
-     "image": ""
+     "image": "img/en/settings-animations.png"
     },
     {
      "id": "about",
      "title": "About",
      "text": "App version, \"Website\", Telegram, Facebook, and a way to \"Support the project\". The app was formerly called CargoLog — only the name has changed.",
-     "image": ""
+     "image": "img/en/settings-about.png"
     },
     {
      "id": "feedback",

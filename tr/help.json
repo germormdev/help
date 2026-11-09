@@ -494,7 +494,7 @@
      "id": "sync",
      "title": "Senkronizasyon",
      "text": "Bağlı telefon yeni kayıtları kendisi gönderir ve diğer cihazlardan gelen düzenlemeleri alır. Durum satırı “Her şey senkronize” bilgisini veya kaç kaydın gönderilmeyi beklediğini gösterir. Şebeke yokken kayıtlar telefonda bekler.",
-     "image": ""
+     "image": "img/tr/online-sync.png"
     }
    ]
   },
@@ -543,13 +543,13 @@
      "id": "animations",
      "title": "Animasyonlar",
      "text": "Boşaltma ve yakıt alma için hareketli sahneler. Bunları kapatabilirsiniz.",
-     "image": ""
+     "image": "img/tr/settings-animations.png"
     },
     {
      "id": "about",
      "title": "Hakkında",
      "text": "Sürüm, web sitesi, Telegram, Facebook ve projeye destek olma imkanı. Uygulamanın adı eskiden CargoLog idi — yalnızca adı değişti.",
-     "image": ""
+     "image": "img/tr/settings-about.png"
     },
     {
      "id": "feedback",

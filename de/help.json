@@ -494,7 +494,7 @@
      "id": "sync",
      "title": "Synchronisierung",
      "text": "Ein verbundenes Telefon sendet neue Einträge automatisch und empfängt Änderungen von Ihren anderen Geräten. Die Statuszeile zeigt „Alles synchronisiert“ oder wie viele Einträge noch ausstehen. Ohne Netz warten die Einträge auf dem Telefon.",
-     "image": ""
+     "image": "img/de/online-sync.png"
     }
    ]
   },
@@ -543,13 +543,13 @@
      "id": "animations",
      "title": "Animationen",
      "text": "Bewegte Szenen beim Entladen und Tanken. Sie lassen sich ausschalten.",
-     "image": ""
+     "image": "img/de/settings-animations.png"
     },
     {
      "id": "about",
      "title": "Über VecturaBook",
      "text": "Version, Website, Telegram, Facebook und die Möglichkeit, das Projekt zu unterstützen. Früher hieß die App CargoLog — geändert hat sich nur der Name.",
-     "image": ""
+     "image": "img/de/settings-about.png"
     },
     {
      "id": "feedback",

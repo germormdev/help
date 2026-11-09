@@ -494,7 +494,7 @@
      "id": "sync",
      "title": "Sincronizare",
      "text": "Telefonul conectat trimite automat înregistrările noi și primește modificările de pe celelalte dispozitive. Bara de stare arată „Totul este sincronizat” sau câte înregistrări sunt în așteptare. Fără semnal, înregistrările așteaptă pe telefon.",
-     "image": ""
+     "image": "img/ro/online-sync.png"
     }
    ]
   },
@@ -543,13 +543,13 @@
      "id": "animations",
      "title": "Animații",
      "text": "Scene animate la descărcare și alimentare. Le puteți dezactiva.",
-     "image": ""
+     "image": "img/ro/settings-animations.png"
     },
     {
      "id": "about",
      "title": "Despre",
      "text": "Versiunea, site-ul web, Telegram, Facebook și posibilitatea de a susține proiectul. Anterior aplicația se numea CargoLog — s-a schimbat doar numele.",
-     "image": ""
+     "image": "img/ro/settings-about.png"
     },
     {
      "id": "feedback",

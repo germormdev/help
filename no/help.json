@@ -494,7 +494,7 @@
      "id": "sync",
      "title": "Synkronisering",
      "text": "En tilkoblet telefon sender automatisk nye oppføringer og mottar endringer fra andre enheter. Statuslinjen viser «Alt synkronisert» eller hvor mange oppføringer som venter på sending («Venter: %d»). Uten dekning venter oppføringene på telefonen.",
-     "image": ""
+     "image": "img/no/online-sync.png"
     }
    ]
   },
@@ -543,13 +543,13 @@
      "id": "animations",
      "title": "Animasjoner",
      "text": "«Levende scener ved lossing og tanking». De kan slås av.",
-     "image": ""
+     "image": "img/no/settings-animations.png"
     },
     {
      "id": "about",
      "title": "Om",
      "text": "Versjon, «Nettside», Telegram, Facebook og mulighet til å støtte prosjektet («Støtt prosjektet»). Tidligere het appen CargoLog — bare navnet er endret.",
-     "image": ""
+     "image": "img/no/settings-about.png"
     },
     {
      "id": "feedback",

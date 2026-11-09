@@ -494,7 +494,7 @@
      "id": "sync",
      "title": "Sinhronizācija",
      "text": "Savienots tālrunis pats nosūta jaunos ierakstus un saņem labojumus no citām ierīcēm. Statusa rinda rāda «Viss sinhronizēts» vai to, cik ierakstu gaida nosūtīšanu. Bez tīkla ieraksti gaida tālrunī.",
-     "image": ""
+     "image": "img/lv/online-sync.png"
     }
    ]
   },
@@ -543,13 +543,13 @@
      "id": "animations",
      "title": "Animācijas",
      "text": "Kustīgas izkraušanas un uzpildes ainas. Tās var izslēgt.",
-     "image": ""
+     "image": "img/lv/settings-animations.png"
     },
     {
      "id": "about",
      "title": "Par",
      "text": "Versija, tīmekļa vietne, Telegram, Facebook un iespēja atbalstīt projektu. Agrāk lietotni sauca CargoLog — mainījies tikai nosaukums.",
-     "image": ""
+     "image": "img/lv/settings-about.png"
     },
     {
      "id": "feedback",

@@ -494,7 +494,7 @@
      "id": "sync",
      "title": "المزامنة",
      "text": "يرسل الهاتف المتصل السجلات الجديدة تلقائياً ويستقبل التعديلات من الأجهزة الأخرى. يوضح شريط الحالة «تمت مزامنة كل شيء» أو عدد السجلات التي تنتظر الإرسال. وفي حال عدم توفر الشبكة تنتظر السجلات على الهاتف.",
-     "image": ""
+     "image": "img/ar/online-sync.png"
     }
    ]
   },
@@ -543,13 +543,13 @@
      "id": "animations",
      "title": "الرسوم المتحركة",
      "text": "مشاهد متحركة للتفريغ والتزود بالوقود. يمكنك إيقافها.",
-     "image": ""
+     "image": "img/ar/settings-animations.png"
     },
     {
      "id": "about",
      "title": "حول",
      "text": "الإصدار، والموقع الإلكتروني، وTelegram، وFacebook، وإمكانية دعم المشروع. كان البرنامج يسمى سابقاً CargoLog — تغيّر الاسم فقط.",
-     "image": ""
+     "image": "img/ar/settings-about.png"
     },
     {
      "id": "feedback",
@@ -636,49 +636,49 @@
      "id": "hub",
      "title": "مركز الخدمة",
      "text": "معلومات عن التطبيق والهاتف، والدخول إلى شاشات الخدمة وقناة التشخيص، ومعرض الرسوم المتحركة.",
-     "image": "img/ar/service-hub.png"
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "قاعدة البيانات",
      "text": "حالة قاعدة البيانات وإعادة الضبط الكامل للتطبيق. يمسح الضبط كل شيء دون رجعة — احفظ نسخة احتياطية أولاً.",
-     "image": "img/ar/service-database.png"
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "السجلات",
      "text": "سجلات عمل التطبيق لتحليل الأعطال.",
-     "image": "img/ar/service-logs.png"
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "التعرف الضوئي",
      "text": "تشخيص قراءة الأرقام بالكاميرا.",
-     "image": "img/ar/service-ocr.png"
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "النظام",
      "text": "معلومات عن الهاتف وحالات التوقف المفاجئ.",
-     "image": "img/ar/service-system.png"
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "اللغة والبدء الأول",
      "text": "فحص اللغات وإعادة تشغيل خطوات البدء الأول.",
-     "image": "img/ar/service-locale.png"
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "لقطات الكاميرا",
      "text": "التقاط صور لتدريب نظام التعرف — فقط مع الموافقة على إرسال الصور.",
-     "image": "img/ar/service-dataset.png"
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "شاشة البداية",
      "text": "ضبط شاشة البداية عند التشغيل.",
-     "image": "img/ar/service-splash-tuner.png"
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },

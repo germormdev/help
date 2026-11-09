@@ -494,7 +494,7 @@
      "id": "sync",
      "title": "Sincronizzazione",
      "text": "Il telefono collegato invia da solo le nuove voci e riceve le modifiche dagli altri dispositivi. La riga di stato mostra «Tutto sincronizzato» oppure quante voci sono in attesa di invio. Senza rete, le voci restano in attesa sul telefono.",
-     "image": ""
+     "image": "img/it/online-sync.png"
     }
    ]
   },
@@ -543,13 +543,13 @@
      "id": "animations",
      "title": "Animazioni",
      "text": "Scene animate di scarico e rifornimento. Si possono disattivare.",
-     "image": ""
+     "image": "img/it/settings-animations.png"
     },
     {
      "id": "about",
      "title": "Informazioni",
      "text": "Versione, «Sito web», Telegram, Facebook e la possibilità di sostenere il progetto («Sostieni il progetto»). In precedenza l'app si chiamava CargoLog: è cambiato solo il nome.",
-     "image": ""
+     "image": "img/it/settings-about.png"
     },
     {
      "id": "feedback",

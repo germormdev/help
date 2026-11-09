@@ -494,7 +494,7 @@
      "id": "sync",
      "title": "Синхронизация",
      "text": "Подключённый телефон сам отправляет новые записи и получает правки с других устройств. Строка состояния показывает «Всё синхронизировано» или сколько записей ждут отправки. Без сети записи ждут на телефоне.",
-     "image": ""
+     "image": "img/ru/online-sync.png"
     }
    ]
   },
@@ -543,13 +543,13 @@
      "id": "animations",
      "title": "Анимации",
      "text": "Живые сцены разгрузки и заправки. Их можно выключить.",
-     "image": ""
+     "image": "img/ru/settings-animations.png"
     },
     {
      "id": "about",
      "title": "О приложении",
      "text": "Версия, сайт, Telegram, Facebook и возможность поддержать проект. Раньше программа называлась CargoLog — изменилось только имя.",
-     "image": ""
+     "image": "img/ru/settings-about.png"
     },
     {
      "id": "feedback",
@@ -636,49 +636,49 @@
      "id": "hub",
      "title": "Служебный центр",
      "text": "Сведения о программе и телефоне, вход в служебные экраны и в канал диагностики, галерея анимаций.",
-     "image": "img/ru/service-hub.png"
+     "image": "img/en/service-hub.png"
     },
     {
      "id": "database",
      "title": "База",
      "text": "Состояние базы данных и полный сброс программы. Сброс стирает всё без возврата — сначала сделайте бэкап.",
-     "image": "img/ru/service-database.png"
+     "image": "img/en/service-database.png"
     },
     {
      "id": "logs",
      "title": "Журналы",
      "text": "Журналы работы программы для разбора сбоев.",
-     "image": "img/ru/service-logs.png"
+     "image": "img/en/service-logs.png"
     },
     {
      "id": "ocr",
      "title": "Распознавание",
      "text": "Диагностика чтения номеров камерой.",
-     "image": "img/ru/service-ocr.png"
+     "image": "img/en/service-ocr.png"
     },
     {
      "id": "system",
      "title": "Система",
      "text": "Сведения о телефоне и о падениях.",
-     "image": "img/ru/service-system.png"
+     "image": "img/en/service-system.png"
     },
     {
      "id": "locale",
      "title": "Язык и онбординг",
      "text": "Проверка языков и повторный первый запуск.",
-     "image": "img/ru/service-locale.png"
+     "image": "img/en/service-locale.png"
     },
     {
      "id": "dataset",
      "title": "Кадры камеры",
      "text": "Съёмка кадров для обучения распознавания — только с согласием на снимки.",
-     "image": "img/ru/service-dataset.png"
+     "image": "img/en/service-dataset.png"
     },
     {
      "id": "splash-tuner",
      "title": "Заставка",
      "text": "Настройка заставки при запуске.",
-     "image": "img/ru/service-splash-tuner.png"
+     "image": "img/en/service-splash-tuner.png"
     }
    ]
   },

@@ -494,7 +494,7 @@
      "id": "sync",
      "title": "Synkronointi",
      "text": "Yhdistetty puhelin lähettää uudet merkinnät automaattisesti ja vastaanottaa muokkaukset muilta laitteilta. Tilapalkki näyttää ”Kaikki synkronoitu” tai montako merkintää odottaa lähetystä. Ilman verkkoa merkinnät odottavat puhelimessa.",
-     "image": ""
+     "image": "img/fi/online-sync.png"
     }
    ]
   },
@@ -543,13 +543,13 @@
      "id": "animations",
      "title": "Animaatiot",
      "text": "Liikkuvat kohtaukset purussa ja tankkauksessa. Ne voi kytkeä pois päältä.",
-     "image": ""
+     "image": "img/fi/settings-animations.png"
     },
     {
      "id": "about",
      "title": "Tietoja",
      "text": "Versio, verkkosivu, Telegram, Facebook ja mahdollisuus tukea projektia. Aiemmin sovelluksen nimi oli CargoLog — vain nimi muuttui.",
-     "image": ""
+     "image": "img/fi/settings-about.png"
     },
     {
      "id": "feedback",

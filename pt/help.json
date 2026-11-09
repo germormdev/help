@@ -494,7 +494,7 @@
      "id": "sync",
      "title": "Sincronização",
      "text": "O telemóvel ligado envia automaticamente os novos registos e recebe as alterações feitas noutros dispositivos. A linha de estado mostra «Tudo sincronizado» ou quantos registos estão pendentes de envio. Sem rede, os registos aguardam no telemóvel.",
-     "image": ""
+     "image": "img/pt/online-sync.png"
     }
    ]
   },
@@ -543,13 +543,13 @@
      "id": "animations",
      "title": "Animações",
      "text": "Cenas animadas de descarga e abastecimento. Podem ser desativadas.",
-     "image": ""
+     "image": "img/pt/settings-animations.png"
     },
     {
      "id": "about",
      "title": "Acerca de",
      "text": "Versão, site, Telegram, Facebook e opção para apoiar o projeto. Anteriormente a aplicação chamava-se CargoLog — mudou apenas o nome.",
-     "image": ""
+     "image": "img/pt/settings-about.png"
     },
     {
      "id": "feedback",

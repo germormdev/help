@@ -494,7 +494,7 @@
      "id": "sync",
      "title": "Sinkronizacija",
      "text": "Povezani telefon sam šalje nove zapise i prima izmjene s drugih uređaja. Statusna traka prikazuje „Sve sinkronizirano” ili koliko zapisa čeka na slanje. Kada nema mreže, zapisi čekaju na telefonu.",
-     "image": ""
+     "image": "img/hr/online-sync.png"
     }
    ]
   },
@@ -543,13 +543,13 @@
      "id": "animations",
      "title": "Animacije",
      "text": "Pokretne scene istovara i točenja goriva. Možete ih isključiti.",
-     "image": ""
+     "image": "img/hr/settings-animations.png"
     },
     {
      "id": "about",
      "title": "O aplikaciji",
      "text": "Verzija, web stranica, Telegram, Facebook i mogućnost podrške projektu. Prije se aplikacija zvala CargoLog — promijenilo se samo ime.",
-     "image": ""
+     "image": "img/hr/settings-about.png"
     },
     {
      "id": "feedback",

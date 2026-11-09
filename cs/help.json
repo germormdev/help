@@ -494,7 +494,7 @@
      "id": "sync",
      "title": "Synchronizace",
      "text": "Připojený telefon sám odesílá nové záznamy a přijímá úpravy z ostatních zařízení. Stavový řádek ukazuje „Vše synchronizováno“, nebo kolik záznamů čeká na odeslání. Bez sítě záznamy počkají v telefonu.",
-     "image": ""
+     "image": "img/cs/online-sync.png"
     }
    ]
   },
@@ -543,13 +543,13 @@
      "id": "animations",
      "title": "Animace",
      "text": "Pohyblivé scény vykládky a tankování. Můžete je vypnout.",
-     "image": ""
+     "image": "img/cs/settings-animations.png"
     },
     {
      "id": "about",
      "title": "O aplikaci",
      "text": "Verze, web, Telegram, Facebook a možnost podpořit projekt. Dříve se aplikace jmenovala CargoLog — změnil se jen název.",
-     "image": ""
+     "image": "img/cs/settings-about.png"
     },
     {
      "id": "feedback",

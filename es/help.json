@@ -494,7 +494,7 @@
      "id": "sync",
      "title": "Sincronización",
      "text": "El teléfono conectado envía solo los nuevos registros y recibe los cambios hechos en otros dispositivos. La barra de estado muestra «Todo sincronizado» o cuántos registros están pendientes de envío. Sin cobertura, los registros esperan en el teléfono.",
-     "image": ""
+     "image": "img/es/online-sync.png"
     }
    ]
   },
@@ -543,13 +543,13 @@
      "id": "animations",
      "title": "Animaciones",
      "text": "«Escenas en movimiento de descarga y repostaje». Se pueden desactivar.",
-     "image": ""
+     "image": "img/es/settings-animations.png"
     },
     {
      "id": "about",
      "title": "Acerca de",
      "text": "Versión, «Sitio web», Telegram, Facebook y la opción de «Apoyar el proyecto». Antes la aplicación se llamaba CargoLog: solo ha cambiado el nombre.",
-     "image": ""
+     "image": "img/es/settings-about.png"
     },
     {
      "id": "feedback",

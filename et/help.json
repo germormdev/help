@@ -494,7 +494,7 @@
      "id": "sync",
      "title": "Sünkroonimine",
      "text": "Ühendatud telefon saadab uued kirjed ise ja võtab vastu teistes seadmetes tehtud muudatused. Olekuriba näitab „Kõik on sünkroonitud“ või seda, mitu kirjet ootab saatmist. Ilma võrguta ootavad kirjed telefonis.",
-     "image": ""
+     "image": "img/et/online-sync.png"
     }
    ]
   },
@@ -543,13 +543,13 @@
      "id": "animations",
      "title": "Animatsioonid",
      "text": "Liikuvad stseenid mahalaadimisel ja tankimisel. Need saab välja lülitada.",
-     "image": ""
+     "image": "img/et/settings-animations.png"
     },
     {
      "id": "about",
      "title": "Teave",
      "text": "Versioon, veebisait, Telegram, Facebook ja võimalus projekti toetada. Varem kandis rakendus nime CargoLog — muutus ainult nimi.",
-     "image": ""
+     "image": "img/et/settings-about.png"
     },
     {
      "id": "feedback",
