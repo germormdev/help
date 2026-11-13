@@ -61,13 +61,13 @@
      "id": "end-shift",
      "title": "Avsluta pass",
      "text": "Den röda knappen ”Avsluta pass” är den enda röda knappen i appen. Appen frågar en gång till och ber om slutlig mätarställning. Värdet kontrolleras: om det är lägre än det förra eller mycket högre än väntat visar appen det senast kända värdet och ber dig bekräfta eller korrigera.",
-     "image": ""
+     "image": "img/en/shift-end-shift.png"
     },
     {
      "id": "forgotten-shift",
      "title": "Glömt pass",
      "text": "Om passet har varit öppet i mer än ett dygn föreslår appen att stänga det med tiden för den senaste händelsen — på så sätt blir arbetstiden i rapporten inte felaktigt förlängd. Du kan godkänna eller fortsätta passet.",
-     "image": ""
+     "image": "img/en/shift-forgotten-shift.png"
     }
    ]
   },
@@ -104,7 +104,7 @@
      "id": "trip-times",
      "title": "Tider och resans punkter",
      "text": "Den här skärmen visas bara när du redigerar en redan sparad resa från historiken. Här kan du ändra starttid, ankomsttid, start- och sluttid för lastarbete samt punkternas adresser och mätarställningar.\n\nTider som inte fanns under resan visas med ett streck och kan inte ändras: redigeringen lägger inte till händelser som aldrig ägt rum.",
-     "image": ""
+     "image": "img/en/trip-trip-times.png"
     },
     {
      "id": "confirm",
@@ -165,7 +165,7 @@
      "id": "crossing",
      "title": "Gräns och färja",
      "text": "Slås på i Inställningar → ”Förarprofil” → ”Gräns och färja”, avstängt som standard. På körskärmen knapparna ”Gräns” och ”Färja”. Gräns: inreseland, sedan faserna kö, kontroll, passerat. Färja: avgångs- och ankomsthamn, sedan väntar, ombord, gått i land. Varje fas har egen timer; tiden registreras bara vid tryck, GPS behövs inte. Gräns och färja sparas i resan som ett stopp.",
-     "image": ""
+     "image": "img/en/driving-crossing.png"
     }
    ]
   },
@@ -189,7 +189,7 @@
     {
      "id": "unit",
      "title": "Släpets aggregat",
-     "text": "Om släpet har en generator markerar du det i släpvagnsinställningarna. Då visas brytaren ”Aggregatet går” på körskärmen, appen räknar aggregatets drifttimmar och förbrukning i liter per timme, och vid tankning visas ett fält för diesel till aggregatet.",
+     "text": "Om släpet har en generator markerar du det i släpvagnsinställningarna. Då visas brytaren ”Generator” på körskärmen, appen räknar aggregatets drifttimmar och förbrukning i liter per timme, och vid tankning visas ett fält för diesel till aggregatet.",
      "image": ""
     },
     {
@@ -215,13 +215,13 @@
      "id": "places",
      "title": "Platser",
      "text": "Platser är dina egna punkter som inte är kopplade till kunder: parkeringar, hamnar, depåer, mackar. Du kan söka i listan på namn. Platser väljs vid parkering och vid retur av container.",
-     "image": ""
+     "image": "img/en/parking-places.png"
     },
     {
      "id": "place-form",
      "title": "Plats",
      "text": "Namn, anteckning och koordinat. Koordinaten kan sparas från din nuvarande plats, ersättas eller raderas. Knapparna ”Öppna i navigator” och ”Skicka” skickar punkten till navigatorn eller i ett meddelande.",
-     "image": ""
+     "image": "img/en/parking-place-form.png"
     }
    ]
   },
@@ -277,13 +277,13 @@
      "id": "edit",
      "title": "Redigera resa",
      "text": "”Redigera” öppnar samma steg som när du skapar en resa, plus skärmen för tider och punkter. Ändringarna samlas ihop och sparas först på sammanfattningen.\n\nOm en ändring av mätarställningen påverkar andra poster (nästa resa, lastbilens värde, skiftets kilometer) visar appen dem innan ändringen verkställs.",
-     "image": ""
+     "image": "img/en/history-edit.png"
     },
     {
      "id": "delete",
      "title": "Radering",
      "text": "En resa raderas med papperskorgsknappen; flera raderas i val-läget. En aktiv resa kan inte raderas — avsluta den först. Om telefonen är ansluten till programmet online slår raderingen igenom även på dina andra enheter.",
-     "image": ""
+     "image": "img/en/history-delete.png"
     }
    ]
   },
@@ -302,7 +302,7 @@
      "id": "pdf",
      "title": "Innehåll i PDF",
      "text": "I PDF-filen visas för varje pass start och slut, lastbil och släp, resor med kunder, last, lossnings- och väntetider, mätarställningar samt tankningar. Sist visas totalt för perioden: pass, resor, tankningar, total sträcka, total tid, totalt bränsle, snittsträcka per pass och snittförbrukning.",
-     "image": ""
+     "image": "img/en/report-pdf.png"
     }
    ]
   },
@@ -321,13 +321,13 @@
      "id": "truck-form",
      "title": "Lastbil",
      "text": "Registreringsnummer, typ (dragbil eller lastbil) och karosstyp väljs genom en kedja av frågor med bilder, samt om bilen har kran eller manipulator. Två likadana registreringsnummer kan inte finnas i fordonsparken.",
-     "image": ""
+     "image": "img/en/garage-truck-form.png"
     },
     {
      "id": "trailer-form",
      "title": "Släp",
      "text": "Registreringsnummer, släptyp (trailer eller släpvagn) och karosstyp. För tankbilar anges antal sektioner och volym för varje sektion, för biltransport antal fordonsplatser, och för kylsläp om det finns en generator monterad.",
-     "image": ""
+     "image": "img/en/garage-trailer-form.png"
     },
     {
      "id": "vehicle-hub",
@@ -382,19 +382,19 @@
      "id": "form",
      "title": "Dokument",
      "text": "Välj typ eller ”Eget dokument…” och skriv in ett namn (till exempel ADR-tillstånd). ”Giltig till” är utgångsdatumet som styr påminnelserna. För besiktning finns även godkänd datum.",
-     "image": ""
+     "image": "img/en/documents-form.png"
     },
     {
      "id": "pages",
      "title": "Sidor",
      "text": "Fotografera dokumentets sidor med kameran. Sidorna kan öppnas i helskärm, bläddras igenom och raderas en i taget.",
-     "image": ""
+     "image": "img/en/documents-pages.png"
     },
     {
      "id": "expiry",
      "title": "Påminnelser om utgångsdatum",
      "text": "Innan giltighetstiden går ut skickar appen en avisering och visar fönstret ”Dokumentens giltighet” vid start. ”Uppfattat” döljer fönstret till nästa varningsgräns. Förarens dokument (körkort, pass, ADR) finns i profilinställningarna.",
-     "image": ""
+     "image": "img/en/documents-expiry.png"
     }
    ]
   },
@@ -413,7 +413,7 @@
      "id": "new-record",
      "title": "Servicepost",
      "text": "”Registrera service” öppnar en ny post: vägmätare, datum, vad som gjordes och foton. Vägmätaren vid service får inte vara högre än den nuvarande.",
-     "image": ""
+     "image": "img/en/maintenance-new-record.png"
     },
     {
      "id": "tyres",
@@ -438,7 +438,7 @@
      "id": "clients",
      "title": "Kunder",
      "text": "”Ny kund” lägger till en kund. En kund som har resor kan inte raderas — men kan tas bort från valet. Tidigare resor behåller sitt kundnamn.",
-     "image": ""
+     "image": "img/en/address-book-clients.png"
     },
     {
      "id": "client",
@@ -450,7 +450,7 @@
      "id": "add-address",
      "title": "Adress",
      "text": "Adress, etikett och koordinat. Koordinaten kan sparas från din nuvarande plats. ”Öppna i navigator” och ”Skicka” delar punkten. En röd markering lyfter fram en adress som är viktig att komma ihåg (besvärlig infart, särskilda regler).",
-     "image": ""
+     "image": "img/en/address-book-add-address.png"
     }
    ]
   },
@@ -525,7 +525,7 @@
      "id": "units",
      "title": "Enheter",
      "text": "Avstånd, vikt, volym, längd, temperatur och bränsleförbrukning. Förinställningar: metriskt, imperiellt, blandat — eller anpassat.",
-     "image": ""
+     "image": "img/en/settings-units.png"
     },
     {
      "id": "theme",
@@ -537,7 +537,7 @@
      "id": "theme-custom",
      "title": "Eget tema",
      "text": "Färg på bakgrund, text, övre fält, kort, fältkant, bildtexter, knappar samt tanknings- och parkeringsikoner. Temat kan sparas, byta namn och tilldelas ljust eller mörkt läge.",
-     "image": ""
+     "image": "img/en/settings-theme-custom.png"
     },
     {
      "id": "animations",
@@ -555,7 +555,7 @@
      "id": "feedback",
      "title": "Feedback",
      "text": "Rapportera ett fel, skicka ett förslag eller skriv något annat. Du kan bifoga en skärmdump eller ett foto. I menyn finns även ”Sök efter uppdateringar” och ”Betygsätt appen”.",
-     "image": ""
+     "image": "img/en/settings-feedback.png"
     },
     {
      "id": "help",
@@ -611,7 +611,7 @@
      "id": "warning",
      "title": "Varning",
      "text": "När du öppnar serviceskärmarna visas först en varning. Du kan lämna skärmen med knappen ”Få ut mig härifrån”.",
-     "image": ""
+     "image": "img/en/diagnostics-warning.png"
     },
     {
      "id": "server",
@@ -623,7 +623,7 @@
      "id": "import",
      "title": "Kanalbunt",
      "text": "För tjänstetelefoner kan kanalbuntens certifikat installeras med en .p12-fil och lösenord. Lösenordet används en gång och sparas inte.",
-     "image": ""
+     "image": "img/en/diagnostics-import.png"
     }
    ]
   },
@@ -771,7 +771,7 @@
     {
      "id": "trip",
      "title": "Under resan",
-     "text": "Temperaturstyrt: styrt eller ostyrt samt lastens temperatur. På körskärmen finns brytaren ”Aggregatet går”.",
+     "text": "Temperaturstyrt: styrt eller ostyrt samt lastens temperatur. På körskärmen finns brytaren ”Generator” / ”Kylaggregat”.",
      "image": "img/sv/refrigerated-trip.png"
     },
     {
@@ -916,13 +916,13 @@
      "id": "setup",
      "title": "I fordonsparken",
      "text": "Påbyggnad ”Lågbäddstrailer” — endast semitrailer.",
-     "image": ""
+     "image": "img/en/lowbed-setup.png"
     },
     {
      "id": "trip",
      "title": "Under resan",
      "text": "Last: bredtransport, allmän eller tom. Mått och vikt anges som på ett flak.",
-     "image": ""
+     "image": "img/en/lowbed-trip.png"
     }
    ]
   }

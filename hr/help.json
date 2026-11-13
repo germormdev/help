@@ -61,13 +61,13 @@
      "id": "end-shift",
      "title": "Završi smjenu",
      "text": "Crveni gumb „Završi smjenu” jedini je crveni gumb u aplikaciji. Aplikacija će tražiti potvrdu i završno stanje brojača. Broj se provjerava: ako je manji od prethodnog ili znatno veći od očekivanog, aplikacija će prikazati zadnje poznato stanje i zamoliti vas da ga potvrdite ili ispravite.",
-     "image": ""
+     "image": "img/en/shift-end-shift.png"
     },
     {
      "id": "forgotten-shift",
      "title": "Zaboravljena smjena",
      "text": "Ako je smjena otvorena dulje od jednog dana, aplikacija će ponuditi da je zatvori vremenom posljednjeg događaja — tako se radno vrijeme u izvješću neće nepotrebno povećati. Možete prihvatiti ili nastaviti smjenu.",
-     "image": ""
+     "image": "img/en/shift-forgotten-shift.png"
     }
    ]
   },
@@ -104,7 +104,7 @@
      "id": "trip-times",
      "title": "Vremena i točke vožnje",
      "text": "Ovaj se zaslon pojavljuje samo pri uređivanju već spremljene vožnje iz povijesti. Ovdje se uređuju vrijeme polaska, dolaska, početka i završetka rukovanja teretom, adrese i stanja brojača po točkama.\n\nVrijeme kojeg u vožnji nije bilo prikazano je crticom i ne može se uređivati: uređivanje ne dodaje vožnji ono što se nije dogodilo.",
-     "image": ""
+     "image": "img/en/trip-trip-times.png"
     },
     {
      "id": "confirm",
@@ -165,7 +165,7 @@
      "id": "crossing",
      "title": "Granica i trajekt",
      "text": "Uključuje se u postavkama → „Profil vozača” → „Granica i trajekt”, zadano isključeno. Na zaslonu vožnje gumbi „Granica” i „Trajekt”. Granica: zemlja ulaska, zatim faze red, pregled, prošao. Trajekt: luka polaska i dolaska, zatim čekanje, na brodu, iskrcao se. Svaka faza ima svoj mjerač; vrijeme se upisuje samo dodirom, GPS nije potreban. Granica i trajekt spremaju se u vožnju kao točka.",
-     "image": ""
+     "image": "img/en/driving-crossing.png"
     }
    ]
   },
@@ -189,7 +189,7 @@
     {
      "id": "unit",
      "title": "Agregat prikolice",
-     "text": "Ako prikolica ima ugrađen generator, označite to u postavkama prikolice. Tada se na zaslonu vožnje prikazuje prekidač „Agregat radi”, aplikacija broji radne sate agregata i njegovu potrošnju u litrama po satu, a pri točenju se pojavljuje polje za dizel agregata.",
+     "text": "Ako prikolica ima ugrađen generator, označite to u postavkama prikolice. Tada se na zaslonu vožnje prikazuje prekidač „Generator”, aplikacija broji radne sate agregata i njegovu potrošnju u litrama po satu, a pri točenju se pojavljuje polje za dizel agregata.",
      "image": ""
     },
     {
@@ -215,13 +215,13 @@
      "id": "places",
      "title": "Mjesta",
      "text": "Mjesta su vaše vlastite točke koje nisu vezane uz klijente: parkirališta, luke, depoi, benzinske postaje. Popis se pretražuje po nazivu. Mjesta se biraju pri parkiranju i pri povratu kontejnera.",
-     "image": ""
+     "image": "img/en/parking-places.png"
     },
     {
      "id": "place-form",
      "title": "Mjesto",
      "text": "Naziv, bilješka i koordinata. Koordinatu možete spremiti prema trenutnoj lokaciji, zamijeniti ili izbrisati. Gumbi „Otvori u navigaciji” i „Pošalji” šalju točku u navigaciju ili u poruku.",
-     "image": ""
+     "image": "img/en/parking-place-form.png"
     }
    ]
   },
@@ -277,13 +277,13 @@
      "id": "edit",
      "title": "Uređivanje vožnje",
      "text": "Gumb „Uredi” otvara iste korake kao pri unosu vožnje, uz dodatni zaslon za vremena i točke. Izmjene se skupljaju i spremaju tek na sažetku vožnje.\n\nAko izmjena brojača utječe na druge zapise (sljedeću vožnju, stanje vozila, kilometre smjene), aplikacija će ih prikazati prije primjene.",
-     "image": ""
+     "image": "img/en/history-edit.png"
     },
     {
      "id": "delete",
      "title": "Brisanje",
      "text": "Vožnja se briše gumbom koša za smeće, a više njih pomoću načina odabira. Aktivnu vožnju nije moguće izbrisati — najprije je završite. Ako je telefon povezan s programom na mreži, brisanje će se prenijeti i na ostale uređaje.",
-     "image": ""
+     "image": "img/en/history-delete.png"
     }
    ]
   },
@@ -302,7 +302,7 @@
      "id": "pdf",
      "title": "Što je u PDF-u",
      "text": "U PDF-u su za svaku smjenu navedeni početak i kraj, tegljač i poluprikolica, vožnje s klijentima, teretom, vremenima istovara i čekanja, stanjima brojača te točenja goriva. Na kraju je zbroj za razdoblje: smjene, vožnje, točenja, ukupna udaljenost, ukupno vrijeme, ukupno gorivo, prosječna udaljenost po smjeni i prosječna potrošnja.",
-     "image": ""
+     "image": "img/en/report-pdf.png"
     }
    ]
   },
@@ -321,13 +321,13 @@
      "id": "truck-form",
      "title": "Tegljač",
      "text": "Registracija, vrsta (tegljač ili solo) i nadogradnja biraju se kroz niz pitanja sa sličicama, kao i ima li vozilo dizalicu ili manipulator. Dvije iste registracije u voznom parku nisu moguće.",
-     "image": ""
+     "image": "img/en/garage-truck-form.png"
     },
     {
      "id": "trailer-form",
      "title": "Poluprikolica",
      "text": "Registracija, vrsta priključka (poluprikolica ili prikolica) i nadogradnja. Za cisternu se unosi broj komora i obujam svake komore, za autotransporter broj mjesta za vozila, a za hladnjaču ima li ugrađen generator.",
-     "image": ""
+     "image": "img/en/garage-trailer-form.png"
     },
     {
      "id": "vehicle-hub",
@@ -382,19 +382,19 @@
      "id": "form",
      "title": "Dokument",
      "text": "Odaberite vrstu ili „Prilagođeni dokument…” i upišite naziv (na primjer, ADR dozvola). Polje „Vrijedi do” je rok valjanosti prema kojem stižu podsjetnici. Tehnički pregled ima i datum pregleda.",
-     "image": ""
+     "image": "img/en/documents-form.png"
     },
     {
      "id": "pages",
      "title": "Stranice",
      "text": "Fotografirajte stranice dokumenta kamerom. Stranice se otvaraju preko cijelog zaslona, mogu se listati i brisati jedna po jedna.",
-     "image": ""
+     "image": "img/en/documents-pages.png"
     },
     {
      "id": "expiry",
      "title": "Podsjetnici o rokovima",
      "text": "Prije isteka roka aplikacija šalje obavijest i pri pokretanju prikazuje prozor „Rokovi dokumenata”. Gumb „Razumijem” zatvara prozor do sljedećeg praga. Dokumenti vozača (vozačka dozvola, putovnica, ADR) nalaze se u postavkama profila.",
-     "image": ""
+     "image": "img/en/documents-expiry.png"
     }
    ]
   },
@@ -413,7 +413,7 @@
      "id": "new-record",
      "title": "Zapis o servisu",
      "text": "Gumb „Zabilježi servis” otvara unos: kilometraža, datum, što je obavljeno i fotografije. Kilometraža na servisu ne može biti veća od trenutne.",
-     "image": ""
+     "image": "img/en/maintenance-new-record.png"
     },
     {
      "id": "tyres",
@@ -438,7 +438,7 @@
      "id": "clients",
      "title": "Klijenti",
      "text": "Gumb „Novi klijent” dodaje klijenta. Klijenta koji ima vožnje nije moguće izbrisati — možete ga ukloniti iz odabira. Prijašnje vožnje zadržavaju svoje ime klijenta.",
-     "image": ""
+     "image": "img/en/address-book-clients.png"
     },
     {
      "id": "client",
@@ -450,7 +450,7 @@
      "id": "add-address",
      "title": "Adresa",
      "text": "Adresa, oznaka i koordinata. Koordinatu možete spremiti prema trenutnoj lokaciji. Gumbi „Otvori u navigaciji” i „Pošalji” prosljeđuju točku. Crvena oznaka ističe adresu na koju treba paziti (težak prilaz, posebna pravila).",
-     "image": ""
+     "image": "img/en/address-book-add-address.png"
     }
    ]
   },
@@ -525,7 +525,7 @@
      "id": "units",
      "title": "Mjerne jedinice",
      "text": "Udaljenost, težina, obujam, duljina, temperatura i potrošnja goriva. Sustavi jedinica: metrički, imperijalni, mješoviti ili prilagođeno.",
-     "image": ""
+     "image": "img/en/settings-units.png"
     },
     {
      "id": "theme",
@@ -537,7 +537,7 @@
      "id": "theme-custom",
      "title": "Prilagođena tema",
      "text": "Boja pozadine, teksta, gornje trake, kartica, obruba polja, natpisa, gumba te ikona točenja goriva i parkiranja. Temu možete spremiti, preimenovati i dodijeliti svijetlom ili tamnom načinu.",
-     "image": ""
+     "image": "img/en/settings-theme-custom.png"
     },
     {
      "id": "animations",
@@ -555,7 +555,7 @@
      "id": "feedback",
      "title": "Povratne informacije",
      "text": "Prijavite grešku, pošaljite prijedlog ili napišite nešto drugo. Možete priložiti snimku zaslona ili fotografiju. U izborniku se nalaze i opcije „Provjeri ažuriranja” te „Ocijeni aplikaciju”.",
-     "image": ""
+     "image": "img/en/settings-feedback.png"
     },
     {
      "id": "help",
@@ -611,7 +611,7 @@
      "id": "warning",
      "title": "Upozorenje",
      "text": "Ulazak u servisne zaslone počinje upozorenjem. Možete izaći gumbom „Izvedite me odavde”.",
-     "image": ""
+     "image": "img/en/diagnostics-warning.png"
     },
     {
      "id": "server",
@@ -623,7 +623,7 @@
      "id": "import",
      "title": "Svežanj kanala",
      "text": "Za službene telefone svežanj kanala može se instalirati datotekom .p12 s lozinkom. Lozinka se koristi samo jednom i ne sprema se.",
-     "image": ""
+     "image": "img/en/diagnostics-import.png"
     }
    ]
   },
@@ -771,7 +771,7 @@
     {
      "id": "trip",
      "title": "U vožnji",
-     "text": "Kontrolirana temperatura: s kontrolom ili bez kontrole; temperatura tereta. Na zaslonu vožnje nalazi se prekidač „Agregat radi”.",
+     "text": "Kontrolirana temperatura: s kontrolom ili bez kontrole; temperatura tereta. Na zaslonu vožnje nalazi se prekidač „Generator” / „Rashladni uređaj”.",
      "image": "img/hr/refrigerated-trip.png"
     },
     {
@@ -916,13 +916,13 @@
      "id": "setup",
      "title": "U voznom parku",
      "text": "Nadogradnja „Labudica” — samo poluprikolica.",
-     "image": ""
+     "image": "img/en/lowbed-setup.png"
     },
     {
      "id": "trip",
      "title": "U vožnji",
      "text": "Teret: izvanredni, opći ili prazno. Mjere i težina unose se kao kod platforme.",
-     "image": ""
+     "image": "img/en/lowbed-trip.png"
     }
    ]
   }

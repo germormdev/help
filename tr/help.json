@@ -61,13 +61,13 @@
      "id": "end-shift",
      "title": "Vardiya Bitir",
      "text": "Kırmızı “Vardiya Bitir” düğmesi uygulamadaki tek kırmızı düğmedir. Uygulama emin olup olmadığınızı sorar ve son kilometreyi ister. Sayı kontrol edilir: önceki değerden küçükse veya beklenenden çok fazlaysa, uygulama bilinen son değeri gösterir ve onaylamanızı ya da düzeltmenizi ister.",
-     "image": ""
+     "image": "img/en/shift-end-shift.png"
     },
     {
      "id": "forgotten-shift",
      "title": "Unutulan vardiya",
      "text": "Vardiya bir günden uzun süredir açıksa uygulama onu son olayın saatiyle kapatmayı önerir — böylece rapordaki çalışma süresi şişmez. Kabul edebilir veya vardiyaya devam edebilirsiniz.",
-     "image": ""
+     "image": "img/en/shift-forgotten-shift.png"
     }
    ]
   },
@@ -104,7 +104,7 @@
      "id": "trip-times",
      "title": "Sefer saatleri ve noktaları",
      "text": "Bu ekran yalnızca geçmişten kaydedilmiş bir seferi düzenlerken görünür. Burada başlangıç, varış, yük işlemleri başlangıç ve bitiş saatleri ile noktaların adresleri ve kilometreleri düzeltilir.\n\nSeferde olmayan bir saat tire ile gösterilir ve düzenlenemez: düzenleme, seferde yaşanmamış bir şeyi sonradan eklemez.",
-     "image": ""
+     "image": "img/en/trip-trip-times.png"
     },
     {
      "id": "confirm",
@@ -165,7 +165,7 @@
      "id": "crossing",
      "title": "Sınır ve feribot",
      "text": "Ayarlardan açılır → «Sürücü profili» → «Sınır ve feribot», varsayılan olarak kapalıdır. Sürüş ekranında «Sınır» ve «Feribot» düğmeleri. Sınır: giriş ülkesi, ardından kuyruk, kontrol, geçti aşamaları. Feribot: kalkış ve varış limanı, ardından bekleme, gemide, indi. Her aşamanın kendi zamanlayıcısı vardır; saat yalnızca dokunarak kaydedilir, GPS gerekmez. Sınır ve feribot seferde bir nokta olarak saklanır.",
-     "image": ""
+     "image": "img/en/driving-crossing.png"
     }
    ]
   },
@@ -189,7 +189,7 @@
     {
      "id": "unit",
      "title": "Römork ünitesi",
-     "text": "Römorkta jeneratör takılıysa bunu römork ayarlarında işaretleyin. Böylece sürüş ekranında “Ünite çalışıyor” anahtarı çıkar, uygulama ünitenin çalışma saatini ve saatte litre cinsinden tüketimini hesaplar, yakıt alımında ise ünite yakıtı alanı görünür.",
+     "text": "Römorkta jeneratör takılıysa bunu römork ayarlarında işaretleyin. Böylece sürüş ekranında “Jeneratör” anahtarı çıkar, uygulama ünitenin çalışma saatini ve saatte litre cinsinden tüketimini hesaplar, yakıt alımında ise ünite yakıtı alanı görünür.",
      "image": ""
     },
     {
@@ -215,13 +215,13 @@
      "id": "places",
      "title": "Yerler",
      "text": "Yerler, müşterilere bağlı olmayan kendi noktalarınızdır: park yerleri, limanlar, depolar, akaryakıt istasyonları. Liste ada göre aranır. Yerler park ederken ve konteyner iadesinde seçilir.",
-     "image": ""
+     "image": "img/en/parking-places.png"
     },
     {
      "id": "place-form",
      "title": "Yer",
      "text": "Ad, not ve koordinat. Koordinat mevcut konumdan kaydedilebilir, değiştirilebilir veya silinebilir. “Navigasyonda aç” ve “Gönder” düğmeleri noktayı navigasyona veya mesaja aktarır.",
-     "image": ""
+     "image": "img/en/parking-place-form.png"
     }
    ]
   },
@@ -277,13 +277,13 @@
      "id": "edit",
      "title": "Seferi düzenle",
      "text": "“Düzenle”, oluşturma sırasındaki adımların aynısını ve ek olarak saatler ve noktalar ekranını açar. Değişiklikler toplanır ve yalnızca özette kaydedilir.\n\nKilometre düzenlemesi başka kayıtları etkileyecekse (sonraki sefer, araç göstergesi, vardiya kilometresi), uygulama uygulamadan önce bunları gösterir.",
-     "image": ""
+     "image": "img/en/history-edit.png"
     },
     {
      "id": "delete",
      "title": "Silme",
      "text": "Tek sefer çöp kutusu düğmesiyle, birden fazlası seçim moduyla silinir. Aktif sefer silinemez — önce onu tamamlayın. Telefon çevrimiçi programa bağlıysa silme işlemi diğer cihazlara da ulaşır.",
-     "image": ""
+     "image": "img/en/history-delete.png"
     }
    ]
   },
@@ -302,7 +302,7 @@
      "id": "pdf",
      "title": "PDF’te neler var",
      "text": "PDF’te her vardiya için — açılış ve kapanış, çekici ve römork, müşterileri, yükü, boşaltma ve bekleme süreleri, kilometreleriyle seferler ve yakıt alımları yer alır. Sonda dönem toplamları bulunur: vardiyalar, seferler, yakıt almalar, toplam mesafe, toplam süre, toplam yakıt, vardiya başına ortalama mesafe ve ortalama tüketim.",
-     "image": ""
+     "image": "img/en/report-pdf.png"
     }
    ]
   },
@@ -321,13 +321,13 @@
      "id": "truck-form",
      "title": "Çekici",
      "text": "Plaka numarası, tipi (çekici veya kamyon) ve kasa tipi — resimli sorular zinciriyle; vinç veya manipülatör olup olmadığı. Filoda aynı plakadan iki tane olamaz.",
-     "image": ""
+     "image": "img/en/garage-truck-form.png"
     },
     {
      "id": "trailer-form",
      "title": "Römork",
      "text": "Plaka numarası, bağlantı tipi (yarı römork veya kamyon römorku) ve kasa tipi. Akaryakıt tankeri ve tanker için — bölme sayısı ve her birinin hacmi, oto taşıyıcı için — araç yeri sayısı, frigorifik için — jeneratör takılı olup olmadığı.",
-     "image": ""
+     "image": "img/en/garage-trailer-form.png"
     },
     {
      "id": "vehicle-hub",
@@ -382,19 +382,19 @@
      "id": "form",
      "title": "Belge",
      "text": "Tipi veya “Özel belge…” seçeneğini seçin ve adını yazın (örneğin ADR belgesi). “Geçerlilik tarihi” son tarihtir, hatırlatıcılar buna göre gelir. Muayenenin ayrıca muayene tarihi vardır.",
-     "image": ""
+     "image": "img/en/documents-form.png"
     },
     {
      "id": "pages",
      "title": "Sayfalar",
      "text": "Belge sayfalarını kamerayla fotoğraflayın. Sayfalar tam ekranda açılır, kaydırılarak gezilir ve tek tek silinir.",
-     "image": ""
+     "image": "img/en/documents-pages.png"
     },
     {
      "id": "expiry",
      "title": "Süre hatırlatıcıları",
      "text": "Süre dolmadan önce uygulama bildirim gönderir ve açılışta “Belge süreleri” penceresini gösterir. “Anladım” bir sonraki eşiğe kadar pencereyi kapatır. Sürücü belgeleri (sürücü belgesi, pasaport, ADR) profil ayarlarındadır.",
-     "image": ""
+     "image": "img/en/documents-expiry.png"
     }
    ]
   },
@@ -413,7 +413,7 @@
      "id": "new-record",
      "title": "Bakım kaydı",
      "text": "“Bakım kaydet” kaydı açar: kilometre, tarih, ne yapıldı, fotoğraflar. Bakımdaki kilometre mevcut kilometreden yüksek olamaz.",
-     "image": ""
+     "image": "img/en/maintenance-new-record.png"
     },
     {
      "id": "tyres",
@@ -438,7 +438,7 @@
      "id": "clients",
      "title": "Müşteriler",
      "text": "“Yeni müşteri” müşteri ekler. Seferi olan bir müşteri silinemez — seçimden kaldırılabilir. Geçmiş seferler kendi müşteri adını korur.",
-     "image": ""
+     "image": "img/en/address-book-clients.png"
     },
     {
      "id": "client",
@@ -450,7 +450,7 @@
      "id": "add-address",
      "title": "Adres",
      "text": "Adres, etiket ve koordinat. Koordinat mevcut konumdan kaydedilebilir. “Navigasyonda aç” ve “Gönder” noktayı iletir. Kırmızı işaret unutulmaması gereken adresi vurgular (zor giriş, özel kurallar).",
-     "image": ""
+     "image": "img/en/address-book-add-address.png"
     }
    ]
   },
@@ -525,7 +525,7 @@
      "id": "units",
      "title": "Birimler",
      "text": "Mesafe, ağırlık, hacim, uzunluk, sıcaklık ve yakıt tüketimi. Ön ayarlar: metrik, İngiliz, karışık — veya özel.",
-     "image": ""
+     "image": "img/en/settings-units.png"
     },
     {
      "id": "theme",
@@ -537,7 +537,7 @@
      "id": "theme-custom",
      "title": "Özel tema",
      "text": "Arka plan, yazı, üst çubuk, kartlar, alan çerçeveleri, alt yazılar, düğmeler ile yakıt ve park simgelerinin rengi. Temayı kaydedebilir, yeniden adlandırabilir ve açık veya koyu moda atayabilirsiniz.",
-     "image": ""
+     "image": "img/en/settings-theme-custom.png"
     },
     {
      "id": "animations",
@@ -555,7 +555,7 @@
      "id": "feedback",
      "title": "Geri Bildirim",
      "text": "Hata bildirin, öneri sunun veya başka bir şey yazın. Ekran görüntüsü veya fotoğraf ekleyebilirsiniz. Ayrıca menüde: “Güncellemeleri kontrol et” ve “Uygulamayı puanla”.",
-     "image": ""
+     "image": "img/en/settings-feedback.png"
     },
     {
      "id": "help",
@@ -611,7 +611,7 @@
      "id": "warning",
      "title": "Uyarı",
      "text": "Servis ekranlarına giriş bir uyarıyla başlar. “Beni buradan çıkarın” düğmesiyle çıkabilirsiniz.",
-     "image": ""
+     "image": "img/en/diagnostics-warning.png"
     },
     {
      "id": "server",
@@ -623,7 +623,7 @@
      "id": "import",
      "title": "Kanal paketi",
      "text": "Servis telefonları için kanal paketi parolalı bir .p12 dosyasıyla kurulabilir. Parola bir kez kullanılır ve saklanmaz.",
-     "image": ""
+     "image": "img/en/diagnostics-import.png"
     }
    ]
   },
@@ -771,7 +771,7 @@
     {
      "id": "trip",
      "title": "Seferde",
-     "text": "Sıcaklık kontrolü: kontrollü veya kontrolsüz; yük sıcaklığı. Sürüş ekranında — “Ünite çalışıyor” anahtarı.",
+     "text": "Sıcaklık kontrolü: kontrollü veya kontrolsüz; yük sıcaklığı. Sürüş ekranında — “Jeneratör” / “Soğutma ünitesi” anahtarı.",
      "image": "img/tr/refrigerated-trip.png"
     },
     {
@@ -916,13 +916,13 @@
      "id": "setup",
      "title": "Filoda",
      "text": "Kasa «Lowbed dorse» — yalnızca yarı römork.",
-     "image": ""
+     "image": "img/en/lowbed-setup.png"
     },
     {
      "id": "trip",
      "title": "Seferde",
      "text": "Yük: gabari dışı, genel veya boş. Ölçü ve ağırlık platformdaki gibi girilir.",
-     "image": ""
+     "image": "img/en/lowbed-trip.png"
     }
    ]
   }

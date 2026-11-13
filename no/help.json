@@ -61,13 +61,13 @@
      "id": "end-shift",
      "title": "Avslutt skift",
      "text": "Den røde knappen «Avslutt skift» er den eneste røde knappen i appen. Appen spør om bekreftelse og ber om «Sluttkilometerstand». Tallet sjekkes: hvis det er lavere enn sist eller mye høyere enn forventet, viser appen siste kjente verdi og ber deg bekrefte eller rette.",
-     "image": ""
+     "image": "img/en/shift-end-shift.png"
     },
     {
      "id": "forgotten-shift",
      "title": "Glemt skift",
      "text": "Hvis et skift har vært åpent i mer enn ett døgn, foreslår appen å lukke det med tidspunktet for siste hendelse — slik at arbeidstiden i rapporten ikke blir kunstig høy. Du kan godta eller fortsette skiftet.",
-     "image": ""
+     "image": "img/en/shift-forgotten-shift.png"
     }
    ]
   },
@@ -104,7 +104,7 @@
      "id": "trip-times",
      "title": "Tider og punkter for turen",
      "text": "Denne skjermen vises kun når du redigerer en allerede lagret tur fra historikken. Her kan du endre starttid, ankomsttid, start- og sluttid for lastearbeid, adresser og kilometerstand for punktene.\n\nTidspunkter som ikke fantes i turen vises med en strek og kan ikke endres: redigering legger ikke til hendelser som ikke har skjedd.",
-     "image": ""
+     "image": "img/en/trip-trip-times.png"
     },
     {
      "id": "confirm",
@@ -165,7 +165,7 @@
      "id": "crossing",
      "title": "Grense og ferje",
      "text": "Slås på i Innstillinger → «Sjåførprofil» → «Grense og ferje», av som standard. På kjøreskjermen knappene «Grense» og «Ferje». Grense: innreiseland, deretter fasene kø, kontroll, passert. Ferje: avgangs- og ankomsthavn, deretter venter, om bord, gått i land. Hver fase har egen tidtaker; tiden registreres bare ved trykk, GPS trengs ikke. Grense og ferje lagres i turen som et stopp.",
-     "image": ""
+     "image": "img/en/driving-crossing.png"
     }
    ]
   },
@@ -189,7 +189,7 @@
     {
      "id": "unit",
      "title": "Hengerens aggregat",
-     "text": "Hvis det står en generator på tilhengeren, kryss av for «Generator montert» i «Tilhengerinnstillinger». Da får kjøreskjermen bryteren «Aggregatet går», appen teller aggregatets driftstimer og forbruk i liter per time, og ved tanking dukker det opp et felt for diesel til aggregatet.",
+     "text": "Hvis det står en generator på tilhengeren, kryss av for «Generator montert» i «Tilhengerinnstillinger». Da får kjøreskjermen bryteren «Generator», appen teller aggregatets driftstimer og forbruk i liter per time, og ved tanking dukker det opp et felt for diesel til aggregatet.",
      "image": ""
     },
     {
@@ -215,13 +215,13 @@
      "id": "places",
      "title": "Steder",
      "text": "«Steder» er dine egne punkter som ikke er knyttet til kunder: rasteplasser, havner, depoter, bensinstasjoner. Du kan søke i listen etter navn. Steder kan velges ved parkering og ved retur av container.",
-     "image": ""
+     "image": "img/en/parking-places.png"
     },
     {
      "id": "place-form",
      "title": "Sted",
      "text": "«Stedets navn», «Notat» og koordinat. Koordinaten kan lagres fra nåværende posisjon («Lagre koordinat herfra»), erstattes («Erstatt koordinat») eller slettes («Slett koordinat»). Knappene «Åpne i navigasjon» og «Send» sender punktet til navigasjonsappen eller i en melding.",
-     "image": ""
+     "image": "img/en/parking-place-form.png"
     }
    ]
   },
@@ -277,13 +277,13 @@
      "id": "edit",
      "title": "Rediger tur",
      "text": "«Rediger» åpner de samme trinnene som da turen ble opprettet, pluss skjermen for tider og punkter. Endringene samles opp og lagres først på oppsummeringsskjermen.\n\nHvis en endring av kilometerstanden påvirker andre oppføringer (neste tur, lastebilens stand, skiftets kilometer), viser appen dem før du trykker «Bruk».",
-     "image": ""
+     "image": "img/en/history-edit.png"
     },
     {
      "id": "delete",
      "title": "Sletting",
      "text": "En tur slettes med søppelbøtte-knappen; flere turer slettes i «Slettemodus». En aktiv tur kan ikke slettes — avslutt den først. Hvis telefonen er koblet til «Programmet på nett», blir slettingen også overført til de andre enhetene dine.",
-     "image": ""
+     "image": "img/en/history-delete.png"
     }
    ]
   },
@@ -302,7 +302,7 @@
      "id": "pdf",
      "title": "Hva som står i PDF-en",
      "text": "I PDF-en vises det for hvert skift når det ble åpnet og avsluttet, lastebil og tilhenger, turer med kunder, last, losse- og ventetider, kilometerstand og tankinger. Til slutt står «Totalt for perioden»: skift, turer, tankinger, total distanse, total tid, totalt drivstoff, gjennomsnittlig distanse per skift og gjennomsnittlig forbruk.",
-     "image": ""
+     "image": "img/en/report-pdf.png"
     }
    ]
   },
@@ -321,13 +321,13 @@
      "id": "truck-form",
      "title": "Trekkvogn",
      "text": "Registreringsnummer, type («Trekkvogn» eller «Lastebil») og påbygg velges gjennom en rekke spørsmål med bilder; samt om bilen har kran eller manipulator. To like registreringsnumre kan ikke finnes i vognparken.",
-     "image": ""
+     "image": "img/en/garage-truck-form.png"
     },
     {
      "id": "trailer-form",
      "title": "Tilhenger",
      "text": "Registreringsnummer, koblingstype («Semitrailer» eller «Tilhenger») og påbygg. For tankbil oppgis antall seksjoner og volumet for hver av dem, for biltransport — antall kjøretøyplasser, for kjølehenger — om det er «Generator montert».",
-     "image": ""
+     "image": "img/en/garage-trailer-form.png"
     },
     {
      "id": "vehicle-hub",
@@ -382,19 +382,19 @@
      "id": "form",
      "title": "Dokument",
      "text": "Velg type eller «Eget dokument…» og skriv inn navn (for eksempel ADR-tillatelse). «Gyldig til» er utløpsdatoen som styrer påminnelsene. «Kontroll» har også «Godkjent dato».",
-     "image": ""
+     "image": "img/en/documents-form.png"
     },
     {
      "id": "pages",
      "title": "Dokumentsider",
      "text": "Ta bilde av sidene i dokumentet med kameraet. Sidene kan åpnes i fullskjerm, blas gjennom og slettes én etter én.",
-     "image": ""
+     "image": "img/en/documents-pages.png"
     },
     {
      "id": "expiry",
      "title": "Påminnelser om utløpsdatoer",
      "text": "Før et dokument utløper, sender appen et varsel og viser vinduet «Dokumentenes utløp» ved oppstart. «Forstått» skjuler vinduet frem til neste varselgrense. Sjåførens dokumenter («Førerkort», «Pass», «ADR-sertifikat») ligger under «Profilinnstillinger».",
-     "image": ""
+     "image": "img/en/documents-expiry.png"
     }
    ]
   },
@@ -413,7 +413,7 @@
      "id": "new-record",
      "title": "Serviceoppføring",
      "text": "«Registrer service» åpner en ny oppføring: «Kilometerstand», «Dato», «Hva ble gjort (valgfritt)», «Bilder». Kilometerstanden ved service kan ikke være høyere enn dagens.",
-     "image": ""
+     "image": "img/en/maintenance-new-record.png"
     },
     {
      "id": "tyres",
@@ -438,7 +438,7 @@
      "id": "clients",
      "title": "Kunder",
      "text": "«Ny kunde» legger til en kunde. En kunde som har turer kan ikke slettes — men du kan velge «Fjern fra valg». Tidligere turer beholder sitt kundenavn.",
-     "image": ""
+     "image": "img/en/address-book-clients.png"
     },
     {
      "id": "client",
@@ -450,7 +450,7 @@
      "id": "add-address",
      "title": "Adresse",
      "text": "«Adresse», «Etikett (valgfritt)» og koordinat. Koordinaten kan lagres fra nåværende posisjon («Lagre koordinat herfra»). «Åpne i navigasjon» og «Send» deler punktet. Med «Merk rød» kan du fremheve en adresse du må være ekstra obs på (vanskelig innkjøring, egne regler).",
-     "image": ""
+     "image": "img/en/address-book-add-address.png"
     }
    ]
   },
@@ -525,7 +525,7 @@
      "id": "units",
      "title": "Enheter",
      "text": "«Avstand», «Vekt», «Volum», «Lengde / Størrelse», «Temperatur» og «Drivstofforbruk». «Enhetssystem»: «Metrisk», «Imperisk», «Blandet» — eller «Tilpasset».",
-     "image": ""
+     "image": "img/en/settings-units.png"
     },
     {
      "id": "theme",
@@ -537,7 +537,7 @@
      "id": "theme-custom",
      "title": "Egendefinert tema",
      "text": "Farge på «Bakgrunn», «Tekst», «Øvre linje», «Kort», «Feltkant», «Bildetekster», «Knapper og utheving», «Fyllingsikon» og «Parkeringsikon». Temaet kan lagres («Lagre tema»), gis nytt navn («Gi tema nytt navn») og tildeles lyst eller mørkt modus («Tildelt Lyst» / «Tildelt Mørkt»).",
-     "image": ""
+     "image": "img/en/settings-theme-custom.png"
     },
     {
      "id": "animations",
@@ -555,7 +555,7 @@
      "id": "feedback",
      "title": "Tilbakemelding / Feilrapport",
      "text": "«Rapporter feil», send et «Forslag» eller skriv «Annet». Du kan legge ved et skjermbilde eller et bilde. Også i menyen: «Søk etter oppdateringer» og «Vurder appen».",
-     "image": ""
+     "image": "img/en/settings-feedback.png"
     },
     {
      "id": "help",
@@ -611,7 +611,7 @@
      "id": "warning",
      "title": "Advarsel",
      "text": "Inngangen til serviceskjermene starter med en advarsel. Du kan gå ut igjen med knappen «Få meg ut herfra».",
-     "image": ""
+     "image": "img/en/diagnostics-warning.png"
     },
     {
      "id": "server",
@@ -623,7 +623,7 @@
      "id": "import",
      "title": "Kanalbunt",
      "text": "For tjenestetelefoner kan en kanalbunt installeres med en .p12-fil og passord («Importer kanalbunt»). Passordet brukes én gang og lagres aldri.",
-     "image": ""
+     "image": "img/en/diagnostics-import.png"
     }
    ]
   },
@@ -771,7 +771,7 @@
     {
      "id": "trip",
      "title": "På turen",
-     "text": "«Temperaturstyrt?»: «Styrt» eller «Ustyrt»; lastens temperatur. På kjøreskjermen finnes bryteren «Aggregatet går».",
+     "text": "«Temperaturstyrt?»: «Styrt» eller «Ustyrt»; lastens temperatur. På kjøreskjermen finnes bryteren «Generator» / «Kjøleaggregat».",
      "image": "img/no/refrigerated-trip.png"
     },
     {
@@ -916,13 +916,13 @@
      "id": "setup",
      "title": "I vognparken",
      "text": "Påbygg «Blokkvogn» — kun semitrailer.",
-     "image": ""
+     "image": "img/en/lowbed-setup.png"
     },
     {
      "id": "trip",
      "title": "På turen",
      "text": "Last: spesialtransport, vanlig eller tom. Mål og vekt legges inn som på en flatvogn.",
-     "image": ""
+     "image": "img/en/lowbed-trip.png"
     }
    ]
   }

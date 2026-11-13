@@ -61,13 +61,13 @@
      "id": "end-shift",
      "title": "Műszak vége",
      "text": "A piros „Műszak vége” gomb a program egyetlen piros gombja. A program visszakérdez, és kéri a záró kilométeróra-állást. A számot ellenőrzi: ha kisebb az előzőnél, vagy jóval nagyobb a vártnál, a program megmutatja az utolsó ismert állást, és megerősítést vagy javítást kér.",
-     "image": ""
+     "image": "img/en/shift-end-shift.png"
     },
     {
      "id": "forgotten-shift",
      "title": "Elfelejtett műszak",
      "text": "Ha a műszak több mint egy napja nyitva van, a program felajánlja, hogy lezárja az utolsó esemény időpontjával — így a munkaidő a jelentésben nem duzzad fel. Ezt elfogadhatja, vagy folytathatja a műszakot.",
-     "image": ""
+     "image": "img/en/shift-forgotten-shift.png"
     }
    ]
   },
@@ -104,7 +104,7 @@
      "id": "trip-times",
      "title": "A fuvar időpontjai és pontjai",
      "text": "Ez a képernyő csak akkor jelenik meg, amikor egy már rögzített fuvart szerkeszt az előzményekből. Itt javítható a kezdés, az érkezés, a rakodási munkák kezdetének és végének ideje, valamint a pontok címei és kilométeróra-állásai.\n\nAz az időpont, amely a fuvarban nem szerepelt, kötőjellel jelenik meg, és nem szerkeszthető: a szerkesztés nem ad hozzá a fuvarhoz olyat, ami nem történt meg.",
-     "image": ""
+     "image": "img/en/trip-trip-times.png"
     },
     {
      "id": "confirm",
@@ -165,7 +165,7 @@
      "id": "crossing",
      "title": "Határ és komp",
      "text": "A beállításokban kapcsolható be → „Sofőrprofil” → „Határ és komp”, alapból ki van kapcsolva. A vezetési képernyőn a „Határ” és „Komp” gomb. Határ: belépési ország, majd a sor, ellenőrzés, átlépte szakaszok. Komp: indulási és érkezési kikötő, majd várakozás, a fedélzeten, kiszállt. Minden szakasznak saját időzítője van; az idő csak koppintásra rögzül, GPS nem kell. A határ és a komp pontként kerül a fuvarba.",
-     "image": ""
+     "image": "img/en/driving-crossing.png"
     }
    ]
   },
@@ -189,7 +189,7 @@
     {
      "id": "unit",
      "title": "Pótkocsi aggregát",
-     "text": "Ha a pótkocsin generátor van, jelölje be a pótkocsi beállításaiban. Ekkor a vezetési képernyőn megjelenik „Az aggregát jár” kapcsoló, a program számolja az aggregát üzemóráit és liter/óra fogyasztását, a tankolásnál pedig megjelenik az aggregát gázolajának mezője.",
+     "text": "Ha a pótkocsin generátor van, jelölje be a pótkocsi beállításaiban. Ekkor a vezetési képernyőn megjelenik „Generátor” kapcsoló, a program számolja az aggregát üzemóráit és liter/óra fogyasztását, a tankolásnál pedig megjelenik az aggregát gázolajának mezője.",
      "image": ""
     },
     {
@@ -215,13 +215,13 @@
      "id": "places",
      "title": "Helyek",
      "text": "A helyek saját, ügyfelekhez nem kötött pontok: parkolók, kikötők, depók, benzinkutak. A listában név szerint lehet keresni. A helyeket parkoláskor és a konténer visszaadásakor választhatja ki.",
-     "image": ""
+     "image": "img/en/parking-places.png"
     },
     {
      "id": "place-form",
      "title": "Hely",
      "text": "Név, megjegyzés és koordináta. A koordináta elmenthető az aktuális helyzettel, felülírható vagy törölhető. A „Megnyitás navigációban” és a „Küldés” gombok átadják a pontot a navigációnak vagy egy üzenetbe.",
-     "image": ""
+     "image": "img/en/parking-place-form.png"
     }
    ]
   },
@@ -277,13 +277,13 @@
      "id": "edit",
      "title": "Út szerkesztése",
      "text": "A „Szerkesztés” ugyanazokat a lépéseket nyitja meg, mint a létrehozáskor, kiegészítve az időpontok és pontok képernyőjével. A módosítások csak az összegzésnél gyűlnek össze és mentődnek el.\n\nHa a kilométeróra-állás javítása más bejegyzéseket is érint (következő fuvar, a vontató állása, a műszak futásteljesítménye), a program az alkalmazás előtt megmutatja őket.",
-     "image": ""
+     "image": "img/en/history-edit.png"
     },
     {
      "id": "delete",
      "title": "Törlés",
      "text": "Egy fuvart a kuka gombbal, többet pedig a kijelölési móddal lehet törölni. Aktív fuvart nem lehet törölni — előbb fejezze be. Ha a telefon csatlakozik az online programhoz, a törlés a többi eszközre is átkerül.",
-     "image": ""
+     "image": "img/en/history-delete.png"
     }
    ]
   },
@@ -302,7 +302,7 @@
      "id": "pdf",
      "title": "Mi szerepel a PDF-ben",
      "text": "A PDF-ben minden műszaknál szerepel a nyitás és zárás, a vontató és a pótkocsi, a fuvarok az ügyfelekkel, a rakománnyal, a kirakodási és várakozási időkkel, a kilométeróra-állásokkal, valamint a tankolások. A végén az időszak összesítése látható: műszakok, fuvarok, tankolások, futásteljesítmény, idő, üzemanyag, műszakonkénti átlagos táv és átlagfogyasztás.",
-     "image": ""
+     "image": "img/en/report-pdf.png"
     }
    ]
   },
@@ -321,13 +321,13 @@
      "id": "truck-form",
      "title": "Vontató",
      "text": "Rendszám, típus (vontató vagy teherautó) és felépítmény — képes kérdéssorral; van-e rajta daru vagy manipulátor. Két azonos rendszám nem lehet a parkban.",
-     "image": ""
+     "image": "img/en/garage-truck-form.png"
     },
     {
      "id": "trailer-form",
      "title": "Pótkocsi",
      "text": "Rendszám, kapcsolás (félpótkocsi vagy vonórúdas pótkocsi) és felépítmény. Tartálykocsinál — a rekeszek száma és egyenkénti térfogata, autószállítónál — az autóhelyek száma, hűtősnél — van-e rajta generátor.",
-     "image": ""
+     "image": "img/en/garage-trailer-form.png"
     },
     {
      "id": "vehicle-hub",
@@ -382,19 +382,19 @@
      "id": "form",
      "title": "Dokumentum",
      "text": "Válassza ki a típust vagy az „Egyéni dokumentum…” lehetőséget, és írja be a nevet (például ADR-engedély). Az „Érvényes eddig” a lejárati dátum, ez alapján jönnek az emlékeztetők. A műszaki vizsgánál a vizsga dátuma is megadható.",
-     "image": ""
+     "image": "img/en/documents-form.png"
     },
     {
      "id": "pages",
      "title": "Oldalak",
      "text": "Fényképezze le a dokumentum oldalait a kamerával. Az oldalak teljes képernyőn nyithatók meg, lapozhatók és egyesével törölhetők.",
-     "image": ""
+     "image": "img/en/documents-pages.png"
     },
     {
      "id": "expiry",
      "title": "Lejárati emlékeztetők",
      "text": "A lejárat előtt a program értesítést küld, és indításkor megjeleníti a „Dokumentumok lejárata” ablakot. A „Megértettem” eltünteti az ablakot a következő küszöbig. A sofőr dokumentumai (jogosítvány, útlevél, ADR) a profilbeállításokban találhatók.",
-     "image": ""
+     "image": "img/en/documents-expiry.png"
     }
    ]
   },
@@ -413,7 +413,7 @@
      "id": "new-record",
      "title": "Szervizbejegyzés",
      "text": "A „Szerviz rögzítése” megnyitja a bejegyzést: kilométeróra, dátum, mit végeztek el, fotók. A szervizkori kilométeróra-állás nem lehet nagyobb a jelenleginél.",
-     "image": ""
+     "image": "img/en/maintenance-new-record.png"
     },
     {
      "id": "tyres",
@@ -438,7 +438,7 @@
      "id": "clients",
      "title": "Ügyfelek",
      "text": "Az „Új ügyfél” ügyfelet ad hozzá. Olyan ügyfelet, akinek vannak fuvarjai, nem lehet törölni — de eltávolítható a választékból. A korábbi fuvarok megtartják az ügyfél nevét.",
-     "image": ""
+     "image": "img/en/address-book-clients.png"
     },
     {
      "id": "client",
@@ -450,7 +450,7 @@
      "id": "add-address",
      "title": "Cím",
      "text": "Cím, címke és koordináta. A koordináta elmenthető az aktuális helyzettel. A „Megnyitás navigációban” és a „Küldés” továbbítja a pontot. A piros jelölés kiemeli azt a címet, amelyre érdemes odafigyelni (nehéz behajtás, különleges szabályok).",
-     "image": ""
+     "image": "img/en/address-book-add-address.png"
     }
    ]
   },
@@ -525,7 +525,7 @@
      "id": "units",
      "title": "Mértékegységek",
      "text": "Távolság, súly, térfogat, hossz, hőmérséklet és üzemanyag-fogyasztás. Előbeállítások: metrikus, angolszász, vegyes — vagy egyéni.",
-     "image": ""
+     "image": "img/en/settings-units.png"
     },
     {
      "id": "theme",
@@ -537,7 +537,7 @@
      "id": "theme-custom",
      "title": "Saját téma",
      "text": "A háttér, a szöveg, a felső sáv, a kártyák, a mezőkeretek, a feliratok, a gombok, valamint a tankolás és a parkolás ikonjainak színe. A téma elmenthető, átnevezhető, és hozzárendelhető a világos vagy a sötét módhoz.",
-     "image": ""
+     "image": "img/en/settings-theme-custom.png"
     },
     {
      "id": "animations",
@@ -555,7 +555,7 @@
      "id": "feedback",
      "title": "Visszajelzés",
      "text": "Hibabejelentés, ötlet javaslata vagy egyéb üzenet küldése. Képernyőkép vagy fotó is csatolható. Ugyanitt a menüben: „Frissítések keresése” és „Értékeld az alkalmazást”.",
-     "image": ""
+     "image": "img/en/settings-feedback.png"
     },
     {
      "id": "help",
@@ -611,7 +611,7 @@
      "id": "warning",
      "title": "Figyelmeztetés",
      "text": "A szervizképernyőkre való belépés figyelmeztetéssel indul. A „Vigyetek ki innen” gombbal kiléphet.",
-     "image": ""
+     "image": "img/en/diagnostics-warning.png"
     },
     {
      "id": "server",
@@ -623,7 +623,7 @@
      "id": "import",
      "title": "Csatornacsomag",
      "text": "Szolgálati telefonoknál a csatornacsomag jelszavas .p12 fájllal is telepíthető. A jelszót egyszer használja a program, és nem menti el.",
-     "image": ""
+     "image": "img/en/diagnostics-import.png"
     }
    ]
   },
@@ -771,7 +771,7 @@
     {
      "id": "trip",
      "title": "Fuvar közben",
-     "text": "Hűtött szállítás: hűtött vagy nem hűtött; a rakomány hőmérséklete. A vezetési képernyőn — „Az aggregát jár” kapcsoló.",
+     "text": "Hűtött szállítás: hűtött vagy nem hűtött; a rakomány hőmérséklete. A vezetési képernyőn — „Generátor” / „Hűtőaggregát” kapcsoló.",
      "image": "img/hu/refrigerated-trip.png"
     },
     {
@@ -916,13 +916,13 @@
      "id": "setup",
      "title": "A parkban",
      "text": "Felépítmény „Mélyágyas pótkocsi” — csak félpótkocsi.",
-     "image": ""
+     "image": "img/en/lowbed-setup.png"
     },
     {
      "id": "trip",
      "title": "Fuvar közben",
      "text": "Rakomány: túlméretes, általános vagy üres. A méreteket és a tömeget úgy kell megadni, mint platónál.",
-     "image": ""
+     "image": "img/en/lowbed-trip.png"
     }
    ]
   }

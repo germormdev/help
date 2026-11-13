@@ -61,13 +61,13 @@
      "id": "end-shift",
      "title": "Termina turno",
      "text": "Il pulsante rosso «Termina turno» è l'unico pulsante rosso dell'app. L'app chiederà conferma e il «Contachilometri finale». Il numero viene controllato: se è inferiore al precedente o molto più alto del previsto, l'app mostrerà l'ultima lettura nota e chiederà di confermare o correggere.",
-     "image": ""
+     "image": "img/en/shift-end-shift.png"
     },
     {
      "id": "forgotten-shift",
      "title": "Turno dimenticato aperto",
      "text": "Se il turno resta aperto per più di un giorno, l'app proporrà di chiuderlo con l'ora dell'ultimo evento, così le ore di lavoro nel report non si gonfiano. Puoi accettare o continuare il turno.",
-     "image": ""
+     "image": "img/en/shift-forgotten-shift.png"
     }
    ]
   },
@@ -104,7 +104,7 @@
      "id": "trip-times",
      "title": "Orari e punti del viaggio",
      "text": "Questa schermata appare solo quando modifichi dallo storico un viaggio già registrato. Qui si correggono ora di partenza, arrivo, inizio e fine delle operazioni di carico/scarico, indirizzi e contachilometri dei punti.\n\nUn orario che non c'era nel viaggio è indicato con un trattino e non è modificabile: la modifica non aggiunge al viaggio eventi che non ci sono stati.",
-     "image": ""
+     "image": "img/en/trip-trip-times.png"
     },
     {
      "id": "confirm",
@@ -165,7 +165,7 @@
      "id": "crossing",
      "title": "Confine e traghetto",
      "text": "Si attiva nelle Impostazioni → «Profilo del conducente» → «Confine e traghetto», spento di default. Nella schermata di guida, i pulsanti «Confine» e «Traghetto». Confine: Paese di ingresso, poi le fasi coda, controllo, passato. Traghetto: porto di partenza e di arrivo, poi attesa, a bordo, sbarcato. Ogni fase ha il suo timer; l'ora si registra solo toccando, senza GPS. Confine e traghetto restano nel viaggio come una sosta.",
-     "image": ""
+     "image": "img/en/driving-crossing.png"
     }
    ]
   },
@@ -189,7 +189,7 @@
     {
      "id": "unit",
      "title": "Gruppo del rimorchio",
-     "text": "Se sul rimorchio è montato un generatore, spunta «Generatore installato» nelle impostazioni del rimorchio. Così nella schermata di guida apparirà l'interruttore «Gruppo in funzione», l'app conterà le ore motore del gruppo e il suo consumo in litri all'ora, e nel rifornimento comparirà il campo per il gasolio del gruppo.",
+     "text": "Se sul rimorchio è montato un generatore, spunta «Generatore installato» nelle impostazioni del rimorchio. Così nella schermata di guida apparirà l'interruttore «Generatore», l'app conterà le ore motore del gruppo e il suo consumo in litri all'ora, e nel rifornimento comparirà il campo per il gasolio del gruppo.",
      "image": ""
     },
     {
@@ -215,13 +215,13 @@
      "id": "places",
      "title": "Luoghi",
      "text": "I «Luoghi» sono i tuoi punti salvati, non legati ai clienti: aree di sosta, porti, depositi, distributori. L'elenco si cerca per nome. I luoghi si scelgono durante una sosta e alla restituzione del container.",
-     "image": ""
+     "image": "img/en/parking-places.png"
     },
     {
      "id": "place-form",
      "title": "Luogo",
      "text": "Nome, nota e coordinata. La coordinata si può registrare con la posizione attuale, sostituire o cancellare. I pulsanti «Apri nel navigatore» e «Invia» passano il punto al navigatore o in un messaggio.",
-     "image": ""
+     "image": "img/en/parking-place-form.png"
     }
    ]
   },
@@ -277,13 +277,13 @@
      "id": "edit",
      "title": "Modifica viaggio",
      "text": "«Modifica» apre gli stessi passaggi della creazione, più la schermata degli orari e dei punti. Le modifiche vengono raccolte e salvate solo nella schermata di riepilogo.\n\nSe la modifica del contachilometri tocca altre registrazioni (viaggio successivo, contachilometri del camion, chilometri del turno), l'app le mostrerà prima di applicare le modifiche.",
-     "image": ""
+     "image": "img/en/history-edit.png"
     },
     {
      "id": "delete",
      "title": "Eliminazione",
      "text": "Un viaggio si elimina con il pulsante del cestino; per eliminarne più d'uno usa la modalità di selezione. Un viaggio attivo non si può eliminare: prima terminalo. Se il telefono è collegato al programma online, l'eliminazione arriverà anche sugli altri dispositivi.",
-     "image": ""
+     "image": "img/en/history-delete.png"
     }
    ]
   },
@@ -302,7 +302,7 @@
      "id": "pdf",
      "title": "Cosa c'è nel PDF",
      "text": "Nel PDF, per ogni turno ci sono apertura e chiusura, camion e rimorchio, viaggi con clienti, carico, tempi di scarico e di attesa, contachilometri e rifornimenti. Alla fine ci sono i «Totali del periodo»: turni, viaggi, rifornimenti, distanza totale, durata totale, carburante totale, distanza media per turno e consumo medio.",
-     "image": ""
+     "image": "img/en/report-pdf.png"
     }
    ]
   },
@@ -321,13 +321,13 @@
      "id": "truck-form",
      "title": "Camion",
      "text": "Targa, tipo («Trattore» o «Motrice») e carrozzeria tramite una serie di domande illustrate; presenza di gru o manipolatore. Nel parco mezzi non possono esserci due targhe uguali.",
-     "image": ""
+     "image": "img/en/garage-truck-form.png"
     },
     {
      "id": "trailer-form",
      "title": "Rimorchio",
      "text": "Targa, aggancio («Semirimorchio», «Timone» o «Autotreno») e carrozzeria. Per cisterna carburante e cisterna liquidi: numero di scomparti e volume di ciascuno; per la bisarca: numero di posti auto; per il frigorifero: presenza del generatore.",
-     "image": ""
+     "image": "img/en/garage-trailer-form.png"
     },
     {
      "id": "vehicle-hub",
@@ -382,19 +382,19 @@
      "id": "form",
      "title": "Documento",
      "text": "Scegli il tipo oppure «Documento personalizzato…» e scrivi il nome (ad esempio, permesso ADR). «Valido fino al» è la data di scadenza su cui si basano i promemoria. La revisione ha anche la «Data della revisione».",
-     "image": ""
+     "image": "img/en/documents-form.png"
     },
     {
      "id": "pages",
      "title": "Pagine",
      "text": "Fotografa le pagine del documento con la fotocamera. Le pagine si aprono a tutto schermo, si sfogliano e si possono eliminare una per una.",
-     "image": ""
+     "image": "img/en/documents-pages.png"
     },
     {
      "id": "expiry",
      "title": "Promemoria delle scadenze",
      "text": "Prima della scadenza l'app invia una notifica e mostra la finestra «Scadenza dei documenti» all'avvio. «Ho capito» chiude la finestra fino alla soglia di avviso successiva. I documenti dell'autista («Patente di guida», «Passaporto», «Certificato ADR») si trovano in «Impostazioni profilo».",
-     "image": ""
+     "image": "img/en/documents-expiry.png"
     }
    ]
   },
@@ -413,7 +413,7 @@
      "id": "new-record",
      "title": "Intervento di manutenzione",
      "text": "«Registra intervento» apre la scheda: chilometraggio, data, lavori eseguiti, foto. Il chilometraggio al tagliando non può superare quello attuale.",
-     "image": ""
+     "image": "img/en/maintenance-new-record.png"
     },
     {
      "id": "tyres",
@@ -438,7 +438,7 @@
      "id": "clients",
      "title": "Clienti",
      "text": "«Nuovo cliente» aggiunge un cliente. Non è possibile eliminare un cliente che ha dei viaggi registrati, ma puoi scegliere «Rimuovi dalla selezione». I viaggi passati mantengono il nome del cliente.",
-     "image": ""
+     "image": "img/en/address-book-clients.png"
     },
     {
      "id": "client",
@@ -450,7 +450,7 @@
      "id": "add-address",
      "title": "Indirizzo",
      "text": "Indirizzo, etichetta e coordinata. La coordinata può essere salvata usando la posizione attuale. «Apri nel navigatore» e «Invia» condividono il punto. Il segno rosso («Segna in rosso») mette in evidenza un indirizzo da tenere a mente (ingresso difficile, regole particolari).",
-     "image": ""
+     "image": "img/en/address-book-add-address.png"
     }
    ]
   },
@@ -525,7 +525,7 @@
      "id": "units",
      "title": "Unità di misura",
      "text": "«Distanza», «Peso», «Volume», «Lunghezza / Dimensione», «Temperatura» e «Consumo carburante». Preimpostazioni: «Metrico», «Imperiale», «Misto» — oppure «Personalizzato».",
-     "image": ""
+     "image": "img/en/settings-units.png"
     },
     {
      "id": "theme",
@@ -537,7 +537,7 @@
      "id": "theme-custom",
      "title": "Tema personalizzato",
      "text": "Colore di «Sfondo», «Testo», «Barra superiore», «Scheda», «Bordo del campo», «Didascalie», «Pulsanti ed evidenziazione», «Icona rifornimento» e «Icona sosta». Il tema si può salvare, rinominare e assegnare alla modalità chiara o scura.",
-     "image": ""
+     "image": "img/en/settings-theme-custom.png"
     },
     {
      "id": "animations",
@@ -555,7 +555,7 @@
      "id": "feedback",
      "title": "Feedback",
      "text": "Segnala un errore, proponi un'idea o scrivi altro. Puoi allegare uno screenshot o una foto. Inoltre nel menu trovi «Cerca aggiornamenti» e «Valuta l'app».",
-     "image": ""
+     "image": "img/en/settings-feedback.png"
     },
     {
      "id": "help",
@@ -611,7 +611,7 @@
      "id": "warning",
      "title": "Avviso",
      "text": "L'ingresso nelle schermate di servizio inizia con un avviso. Puoi uscire toccando «Tiratemi fuori di qui».",
-     "image": ""
+     "image": "img/en/diagnostics-warning.png"
     },
     {
      "id": "server",
@@ -623,7 +623,7 @@
      "id": "import",
      "title": "Pacchetto del canale",
      "text": "Per i telefoni di servizio il pacchetto del canale si può installare con un file .p12 protetto da password. La password si usa una sola volta e non viene salvata.",
-     "image": ""
+     "image": "img/en/diagnostics-import.png"
     }
    ]
   },
@@ -771,7 +771,7 @@
     {
      "id": "trip",
      "title": "In viaggio",
-     "text": "«Temperatura controllata?»: «Controllata» o «Ambiente»; temperatura del carico. Nella schermata di guida c'è l'interruttore «Gruppo in funzione».",
+     "text": "«Temperatura controllata?»: «Controllata» o «Ambiente»; temperatura del carico. Nella schermata di guida c'è l'interruttore «Generatore» / «Gruppo frigorifero».",
      "image": "img/it/refrigerated-trip.png"
     },
     {
@@ -916,13 +916,13 @@
      "id": "setup",
      "title": "Nel parco mezzi",
      "text": "Carrozzeria «Carrellone ribassato» — solo semirimorchio.",
-     "image": ""
+     "image": "img/en/lowbed-setup.png"
     },
     {
      "id": "trip",
      "title": "In viaggio",
      "text": "Carico: eccezionale, generico o vuoto. Misure e peso si inseriscono come sul pianale.",
-     "image": ""
+     "image": "img/en/lowbed-trip.png"
     }
    ]
   }

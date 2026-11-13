@@ -61,13 +61,13 @@
      "id": "end-shift",
      "title": "Dienst beëindigen",
      "text": "De rode knop „Dienst beëindigen” is de enige rode knop in de app. De app vraagt om bevestiging en om de eindkilometerstand. Het getal wordt gecontroleerd: is het lager dan de vorige stand of veel hoger dan verwacht, dan toont de app de laatst bekende stand en vraagt u om dit te bevestigen of te corrigeren.",
-     "image": ""
+     "image": "img/en/shift-end-shift.png"
     },
     {
      "id": "forgotten-shift",
      "title": "Vergeten dienst",
      "text": "Staat een dienst langer dan een dag open, dan stelt de app voor om deze te sluiten op de tijd van de laatste gebeurtenis — zo loopt de werktijd in het rapport niet onnodig op. U kunt hiermee akkoord gaan of de dienst hervatten.",
-     "image": ""
+     "image": "img/en/shift-forgotten-shift.png"
     }
    ]
   },
@@ -104,7 +104,7 @@
      "id": "trip-times",
      "title": "Tijden en ritpunten",
      "text": "Dit scherm verschijnt alleen wanneer u een al opgeslagen rit uit de historie bewerkt. Hier past u de starttijd, aankomsttijd, begin- en eindtijd van laadwerkzaamheden, adressen en kilometerstanden van de punten aan.\n\nEen tijd die tijdens de rit niet is vastgelegd, staat aangegeven met een streepje en kan niet worden aangepast: bewerken voegt geen gebeurtenissen toe die niet hebben plaatsgevonden.",
-     "image": ""
+     "image": "img/en/trip-trip-times.png"
     },
     {
      "id": "confirm",
@@ -165,7 +165,7 @@
      "id": "crossing",
      "title": "Grens en veerboot",
      "text": "Aan te zetten in Instellingen → „Chauffeursprofiel” → „Grens en veerboot”, standaard uit. Op het rijscherm de knoppen „Grens” en „Veerboot”. Grens: land van binnenkomst, dan de fasen wachtrij, controle, gepasseerd. Veerboot: vertrek- en aankomsthaven, dan wachten, aan boord, van boord. Elke fase heeft een eigen timer; de tijd wordt alleen door tikken vastgelegd, geen gps nodig. Grens en veerboot worden als stop in de rit bewaard.",
-     "image": ""
+     "image": "img/en/driving-crossing.png"
     }
    ]
   },
@@ -189,7 +189,7 @@
     {
      "id": "unit",
      "title": "Aggregaat oplegger",
-     "text": "Zit er een generator op de oplegger, vink dit dan aan bij de oplegger-instellingen. Op het rijscherm verschijnt dan de schakelaar „Aggregaat draait”. De app telt de draaiuren van het aggregaat en berekent het verbruik in liter per uur, en bij het tanken verschijnt een veld voor de diesel van het aggregaat.",
+     "text": "Zit er een generator op de oplegger, vink dit dan aan bij de oplegger-instellingen. Op het rijscherm verschijnt dan de schakelaar „Generator”. De app telt de draaiuren van het aggregaat en berekent het verbruik in liter per uur, en bij het tanken verschijnt een veld voor de diesel van het aggregaat.",
      "image": ""
     },
     {
@@ -215,13 +215,13 @@
      "id": "places",
      "title": "Locaties",
      "text": "Locaties zijn uw eigen plekken die niet aan klanten zijn gekoppeld: parkeerplaatsen, havens, depots, tankstations. U kunt in de lijst zoeken op naam. Locaties kiest u bij het parkeren en bij het inleveren van een container.",
-     "image": ""
+     "image": "img/en/parking-places.png"
     },
     {
      "id": "place-form",
      "title": "Locatie",
      "text": "Naam, notitie en coördinaat. U kunt de coördinaat van uw huidige plek opslaan, vervangen of wissen. De knoppen „Openen in navigatie” en „Verzenden” sturen het punt naar uw navigatie-app of naar een bericht.",
-     "image": ""
+     "image": "img/en/parking-place-form.png"
     }
    ]
   },
@@ -277,13 +277,13 @@
      "id": "edit",
      "title": "Rit bewerken",
      "text": "„Bewerken” opent dezelfde stappen als bij het aanmaken, plus het scherm voor tijden en ritpunten. Wijzigingen worden verzameld en pas opgeslagen op het ritoverzicht.\n\nAls een aanpassing van de kilometerstand gevolgen heeft voor andere registraties (de volgende rit, de truckstand, de kilometers van de dienst), laat de app dit zien voordat u de wijziging toepast.",
-     "image": ""
+     "image": "img/en/history-edit.png"
     },
     {
      "id": "delete",
      "title": "Verwijderen",
      "text": "U verwijdert een rit met het prullenbak-icoon; meerdere ritten tegelijk verwijdert u via de selectiemodus. Een actieve rit kan niet worden verwijderd — rond deze eerst af. Is uw telefoon verbonden met het programma online, dan wordt de verwijdering ook doorgevoerd op uw andere apparaten.",
-     "image": ""
+     "image": "img/en/history-delete.png"
     }
    ]
   },
@@ -302,7 +302,7 @@
      "id": "pdf",
      "title": "Wat staat er in de PDF?",
      "text": "In de PDF staat per dienst: begin en einde, truck en aanhanger, ritten met klanten, lading, los- en wachttijden, kilometerstanden en tankbeurten. Onderaan staan de periodetotalen: diensten, ritten, tankbeurten, totale afstand, totale duur, totale brandstof, gemiddelde afstand per dienst en gemiddeld verbruik.",
-     "image": ""
+     "image": "img/en/report-pdf.png"
     }
    ]
   },
@@ -321,13 +321,13 @@
      "id": "truck-form",
      "title": "Trekker",
      "text": "Kenteken, type (trekker of bakwagen) en carrosserie kiest u via een reeks vragen met plaatjes; geef ook aan of er een kraan of manipulator op zit. Twee dezelfde kentekens in het wagenpark zijn niet mogelijk.",
-     "image": ""
+     "image": "img/en/garage-truck-form.png"
     },
     {
      "id": "trailer-form",
      "title": "Aanhanger",
      "text": "Kenteken, koppeling (oplegger of aanhangwagen) en carrosserie. Voor een tankwagen: het aantal secties en het volume per sectie. Voor een autotransporter: het aantal autoplaatsen. Voor een koeltrailer: of er een generator aanwezig is.",
-     "image": ""
+     "image": "img/en/garage-trailer-form.png"
     },
     {
      "id": "vehicle-hub",
@@ -382,19 +382,19 @@
      "id": "form",
      "title": "Document",
      "text": "Kies het type of „Eigen document…” en vul een naam in (bijvoorbeeld ADR-vergunning). „Geldig tot” is de vervaldatum waarop de herinneringen zijn gebaseerd. Een keuring heeft ook een keuringsdatum.",
-     "image": ""
+     "image": "img/en/documents-form.png"
     },
     {
      "id": "pages",
      "title": "Pagina's",
      "text": "Fotografeer de pagina's van het document met de camera. U kunt de pagina's op het volledige scherm bekijken, doorbladeren en één voor één verwijderen.",
-     "image": ""
+     "image": "img/en/documents-pages.png"
     },
     {
      "id": "expiry",
      "title": "Herinneringen voor vervaldata",
      "text": "Vóór de vervaldatum stuurt de app een melding en toont bij het opstarten het venster „Geldigheid documenten”. Met „Begrepen” sluit u het venster tot de volgende drempel. Chauffeursdocumenten (rijbewijs, paspoort, ADR) staan bij de profielinstellingen.",
-     "image": ""
+     "image": "img/en/documents-expiry.png"
     }
    ]
   },
@@ -413,7 +413,7 @@
      "id": "new-record",
      "title": "Onderhoudsregistratie",
      "text": "„Onderhoud registreren” opent een nieuwe registratie: kilometerstand, datum, wat er is gedaan en foto's. De kilometerstand bij het onderhoud mag niet hoger zijn dan de huidige stand.",
-     "image": ""
+     "image": "img/en/maintenance-new-record.png"
     },
     {
      "id": "tyres",
@@ -438,7 +438,7 @@
      "id": "clients",
      "title": "Klanten",
      "text": "Met „Nieuwe klant” voegt u een klant toe. Een klant met ritten kan niet worden verwijderd — u kunt deze wel uit de keuze halen. Eerdere ritten behouden hun eigen klantnaam.",
-     "image": ""
+     "image": "img/en/address-book-clients.png"
     },
     {
      "id": "client",
@@ -450,7 +450,7 @@
      "id": "add-address",
      "title": "Adres",
      "text": "Adres, label en coördinaat. U kunt de coördinaat van uw huidige locatie opslaan. Met „Openen in navigatie” en „Verzenden” deelt u de locatie. Een rode markering laat een adres opvallen waar u extra op moet letten (lastige inrit, speciale regels).",
-     "image": ""
+     "image": "img/en/address-book-add-address.png"
     }
    ]
   },
@@ -525,7 +525,7 @@
      "id": "units",
      "title": "Eenheden",
      "text": "Afstand, gewicht, volume, lengte, temperatuur en brandstofverbruik. Voorinstellingen: metrisch, imperiaal, gemengd — of handmatig aangepast.",
-     "image": ""
+     "image": "img/en/settings-units.png"
     },
     {
      "id": "theme",
@@ -537,7 +537,7 @@
      "id": "theme-custom",
      "title": "Eigen thema",
      "text": "Kleur van achtergrond, tekst, bovenbalk, kaarten, veldranden, bijschriften, knoppen en de pictogrammen voor tanken en parkeren. U kunt het thema opslaan, hernoemen en toewijzen aan de lichte of donkere modus.",
-     "image": ""
+     "image": "img/en/settings-theme-custom.png"
     },
     {
      "id": "animations",
@@ -555,7 +555,7 @@
      "id": "feedback",
      "title": "Feedback",
      "text": "Een fout melden, een suggestie doen of iets anders sturen. U kunt een schermafbeelding of foto toevoegen. Ook in het menu: „Controleren op updates” en „App beoordelen”.",
-     "image": ""
+     "image": "img/en/settings-feedback.png"
     },
     {
      "id": "help",
@@ -611,7 +611,7 @@
      "id": "warning",
      "title": "Waarschuwing",
      "text": "Het openen van de serviceschermen begint met een waarschuwing. U kunt direct teruggaan met de knop „Haal me hier weg”.",
-     "image": ""
+     "image": "img/en/diagnostics-warning.png"
     },
     {
      "id": "server",
@@ -623,7 +623,7 @@
      "id": "import",
      "title": "Kanaalbundel",
      "text": "Voor bedrijfstelefoons kan een kanaalbundel worden geïnstalleerd met een .p12-bestand en een wachtwoord. Het wachtwoord wordt één keer gebruikt en nooit bewaard.",
-     "image": ""
+     "image": "img/en/diagnostics-import.png"
     }
    ]
   },
@@ -771,7 +771,7 @@
     {
      "id": "trip",
      "title": "Tijdens de rit",
-     "text": "Temperatuurgeregeld: geregeld of ongekoeld, en de temperatuur van de lading. Op het rijscherm staat de schakelaar „Aggregaat draait”.",
+     "text": "Temperatuurgeregeld: geregeld of ongekoeld, en de temperatuur van de lading. Op het rijscherm staat de schakelaar „Generator” / „Koelaggregaat”.",
      "image": "img/nl/refrigerated-trip.png"
     },
     {
@@ -916,13 +916,13 @@
      "id": "setup",
      "title": "In het wagenpark",
      "text": "Opbouw „Dieplader” — alleen oplegger.",
-     "image": ""
+     "image": "img/en/lowbed-setup.png"
     },
     {
      "id": "trip",
      "title": "Tijdens de rit",
      "text": "Lading: exceptioneel, algemeen of leeg. Maten en gewicht worden ingevoerd zoals bij een vlakke oplegger.",
-     "image": ""
+     "image": "img/en/lowbed-trip.png"
     }
    ]
   }
