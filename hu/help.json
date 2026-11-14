@@ -499,6 +499,37 @@
    ]
   },
   {
+   "slug": "fleet",
+   "title": "Flotta",
+   "intro": "A Flotta több vontatóval és sofőrrel rendelkező cégeknek készült. A flottavezető minden sofőrnek egy egyszeri kódot ad. Ezzel a sofőr alkalmazása megkapja a flotta vontatóját és pótkocsiját, és elküldi a műszakok, utak és tankolások másolatát a flottának. A sofőr saját naplója a telefonon marad.",
+   "steps": [
+    {
+     "id": "join",
+     "title": "Csatlakozás flottához kóddal",
+     "text": "Az első indításkor koppintson a „Flottának vezetek — kód megadása” gombra. Később: Beállítások → „Sofőrprofil” → „Csatlakozás flottához kóddal”.\n\nÍrja be a flottavezetőtől kapott kódot, és koppintson a „Csatlakozás a flottához” gombra. Ha a flottavezető linket küldött Önnek (my.vecturabook.com/fleet/join…), egyszerűen nyissa meg a telefonján: az alkalmazás már kitöltött kóddal nyílik meg. A teljes linket be is illesztheti a „Kód” mezőbe.\n\nA kód csak egyszer és korlátozott ideig működik. Ha az alkalmazás azt jelzi, hogy a kód hibás, lejárt vagy már felhasználták, kérjen újat a flottavezetőtől.",
+     "image": ""
+    },
+    {
+     "id": "in-fleet",
+     "title": "Vezetés flottának",
+     "text": "A csatlakozás után a flotta vontatója és pótkocsija megjelenik a Parkban, és az Ön vontatójává és pótkocsijává válik — az első indításkori kérdésekre nincs szükség. A „Sofőrprofil” a „Flotta:” sort mutatja a flotta nevével, az Ön vontatójával és pótkocsijával.\n\nA csatlakozás után megnyitott műszakok a flottához kerülnek; a kód megadása előtt megnyitott műszak az Öné marad. A műszakok, utak és tankolások másolatai automatikusan elküldődnek, amikor van internet; a „Küldés a flottának most” azonnal elküldi őket. A telefonon lévő naplója nem változik.\n\nHa a flottavezető egy út során másik vontatót ad Önnek, a módosítás az út befejezése után lép életbe. Ha egy Önnek szóló új kódot egy másik telefonon használnak fel, ez a telefon kilép a flottából.",
+     "image": ""
+    },
+    {
+     "id": "owner",
+     "title": "Flotta a tulajdonosnak",
+     "text": "A flottavezetőnek. Kapcsolja be a „Tulajdonos / Alkalmazott” opciót a Beállítások → „Sofőrprofil” menüpontban: ott megjelenik a „Flotta” sor.\n\nA flotta az Ön VecturaBook-fiókjához tartozik. Ha nincs bejelentkezve a telefonon, a képernyőn az „Előbb jelentkezzen be a fiókjába:” felirat jelenik meg — koppintson a „Csatlakozás a VecturaBookhoz” gombra, és jelentkezzen be a fiókja e-mail-címével. Ha a képernyőn az „Ehhez a fiókhoz nem tartozik flotta.” felirat látható, írjon nekünk a „Visszajelzés / hibabejelentés” menüponton keresztül a flotta megnyitásához.\n\nA képernyő a „Sofőrök” részt mutatja — mindegyiknél „Összekapcsolva” vagy „Még nincs összekapcsolva”, vontató, pótkocsi, valamint a műszakok, utak és tankolások száma —, valamint a flotta „Park” részét. Alatta: „Sofőr hozzáadása” „A sofőr neve” mezővel, „+ Vontató hozzáadása” („Rendszám”, „Vontató típusa”, „Felépítmény típusa”) és „+ Pótkocsi hozzáadása” („Rendszám”, kompatibilitás, „Felépítmény típusa”). Ugyanez elvégezhető a böngészőben is a my.vecturabook.com oldalon.",
+     "image": ""
+    },
+    {
+     "id": "owner-driver",
+     "title": "Sofőr",
+     "text": "Koppintson egy sofőrre a kártya megnyitásához. „Vontató” és „Pótkocsi”: válasszon a flotta parkjából, és koppintson a „Mentés” gombra. Csak a kiválasztott vontatóhoz illő pótkocsikat ajánlja fel a program. A sofőr telefonja magától átveszi a módosítást; út közben — az út befejezése után.\n\nA „Kód kérése” egy egyszeri kódot ad az érvényességi idejével együtt. A „Kód küldése a sofőrnek” elküldi a kódot és a linket egy üzenetküldőn keresztül. A kód csak egyszer jelenik meg. Egy új kód átviszi a sofőrt egy új telefonra: a régi telefon kilép a flottából.\n\nAlatta a sofőr azon „Műszakok”, „Utak” és „Tankolások” bejegyzései láthatók, amelyek megérkeztek a flottához.",
+     "image": ""
+    }
+   ]
+  },
+  {
    "slug": "settings",
    "title": "Beállítások",
    "intro": "A beállítások csoportokba vannak rendezve: „Nyelv és megjelenés”, „Sofőrprofil”, „PDF-jelentések”, „Biztonsági mentés”, „Telefon és kapcsolat”.",
@@ -512,7 +543,7 @@
     {
      "id": "profile",
      "title": "Sofőrprofil",
-     "text": "Név a jelentésekhez és a sofőr dokumentumai: jogosítvány, útlevél, ADR-bizonyítvány — lejárati dátumokkal és az oldalak fotóival.\n\n„Határ és komp”. „Határ” és „Komp” gomb útközben.",
+     "text": "Név a jelentésekhez és a sofőr dokumentumai: jogosítvány, útlevél, ADR-bizonyítvány — lejárati dátumokkal és az oldalak fotóival.\n\n„Határ és komp”. „Határ” és „Komp” gomb útközben.\n\n„Csatlakozás flottához kóddal” — flottasofőröknek; „Flotta” — tulajdonosoknak (lásd a „Flotta” fejezetet).",
      "image": "img/hu/settings-profile.png"
     },
     {
@@ -978,6 +1009,9 @@
   "address-book.add-address": "Cím, koordináta, navigáció és piros jelölés.",
   "backup.backup": "Fájl a teljes naplóval: mentés, küldés vagy visszaállítás.",
   "online.device-link": "A telefon csatlakoztatása az online programhoz: QR-kód vagy a képernyőn látható kód.",
+  "fleet.join": "Írja be a flottavezetőtől kapott kódot: a flotta vontatója és pótkocsija az Öné lesz, a műszakok másolata pedig a flottához kerül.",
+  "fleet.owner": "Az Ön flottája: sofőrök, a flotta parkja, sofőrök, vontatók és pótkocsik hozzáadása.",
+  "fleet.owner-driver": "Sofőrkártya: vontató és pótkocsi, egyszeri kód a telefonhoz, műszakok, utak és tankolások.",
   "settings.settings": "Minden beállítás csoportokba rendezve.",
   "settings.profile": "A sofőr neve és dokumentumai. „Határ és komp”. „Határ” és „Komp” gomb útközben.",
   "settings.language": "A program nyelve, a GPS-címek nyelve, dátumformátum.",

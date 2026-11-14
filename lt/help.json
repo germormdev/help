@@ -499,6 +499,37 @@
    ]
   },
   {
+   "slug": "fleet",
+   "title": "Autoparkas",
+   "intro": "Autoparkas skirtas įmonėms, turinčioms kelis vilkikus ir vairuotojus. Autoparko vadovas kiekvienam vairuotojui suteikia vienkartinį kodą. Su juo vairuotojo programa gauna autoparko vilkiką bei priekabą ir siunčia pamainų, reisų bei pildymų kopiją į autoparką. Paties vairuotojo žurnalas lieka telefone.",
+   "steps": [
+    {
+     "id": "join",
+     "title": "Prisijungti prie autoparko kodu",
+     "text": "Pirmą kartą paleidus, paspauskite „Vairuoju autoparkui — įvesti kodą“. Vėliau: Nustatymai → „Vairuotojo profilis“ → „Prisijungti prie autoparko kodu“.\n\nĮveskite iš autoparko vadovo gautą kodą ir paspauskite „Prisijungti prie autoparko“. Jei vadovas atsiuntė nuorodą (my.vecturabook.com/fleet/join…), tiesiog atidarykite ją telefone: programa atsidarys su jau įvestu kodu. Taip pat galite įklijuoti visą nuorodą į lauką „Kodas“.\n\nKodas veikia tik vieną kartą ir tik ribotą laiką. Jei programa praneša, kad kodas neteisingas, nebegalioja arba jau panaudotas, paprašykite autoparko vadovo naujo.",
+     "image": ""
+    },
+    {
+     "id": "in-fleet",
+     "title": "Vairavimas autoparkui",
+     "text": "Prisijungus, autoparko vilkikas ir priekaba atsiranda Garaže ir tampa jūsų vilkiku bei priekaba — pirmo paleidimo klausimų nebereikia. „Vairuotojo profilis“ rodo „Autoparkas:“ su autoparko pavadinimu, jūsų vilkiku ir jūsų priekaba.\n\nPamainos, kurias atidarote po prisijungimo, keliauja į autoparką; pamaina, atidaryta prieš įvedant kodą, lieka jūsų. Pamainų, reisų ir pildymų kopijos siunčiamos automatiškai, kai yra internetas; „Siųsti į autoparką dabar“ išsiunčia jas iš karto. Jūsų žurnalas telefone nesikeičia.\n\nJei reiso metu vadovas paskiria kitą vilkiką, pakeitimas įsigalioja pasibaigus reisui. Jei kitame telefone panaudojamas naujas jums skirtas kodas, šis telefonas palieka autoparką.",
+     "image": ""
+    },
+    {
+     "id": "owner",
+     "title": "Autoparkas savininkui",
+     "text": "Autoparko vadovui. Įjunkite „Savininkas / Samdomas“ skiltyje Nustatymai → „Vairuotojo profilis“: ten atsiras eilutė „Autoparkas“.\n\nAutoparkas priklauso jūsų VecturaBook paskyrai. Jei telefone neprisijungta prie paskyros, ekrane rodoma „Pirmiausia prisijunkite prie savo paskyros:“ — paspauskite „Prisijungti prie VecturaBook“ ir prisijunkite su savo paskyros el. paštu. Jei ekrane rodoma „Ši paskyra neturi autoparko.“, parašykite mums per „Atsiliepimas / klaidos pranešimas“, kad atidarytume autoparką.\n\nEkrane rodomi „Vairuotojai“ — kiekvienas su „Susietas“ arba „Dar nesusietas“, vilkiku, priekaba bei pamainų, reisų ir pildymų skaičiumi — ir autoparko „Garažas“. Apačioje: „Pridėti vairuotoją“ su lauku „Vairuotojo vardas“, „+ Pridėti vilkiką“ („Valst. numeris“, „Vilkiko tipas“, „Kėbulo tipas“) ir „+ Pridėti priekabą“ („Valst. numeris“, suderinamumas, „Kėbulo tipas“). Tą patį galima atlikti naršyklėje svetainėje my.vecturabook.com.",
+     "image": ""
+    },
+    {
+     "id": "owner-driver",
+     "title": "Vairuotojas",
+     "text": "Paspauskite vairuotoją, kad atidarytumėte kortelę. „Vilkikas“ ir „Priekaba“: pasirinkite iš autoparko garažo ir paspauskite „Išsaugoti“. Siūlomos tik tos priekabos, kurios tinka pasirinktam vilkikui. Vairuotojo telefonas pakeitimą perima pats; reiso metu — pasibaigus reisui.\n\n„Gauti kodą“ suteikia vienkartinį kodą su laiku, iki kada jis galioja. „Siųsti kodą vairuotojui“ išsiunčia kodą ir nuorodą per susirašinėjimo programėlę. Kodas rodomas tik vieną kartą. Naujas kodas perkelia vairuotoją į naują telefoną: senasis telefonas palieka autoparką.\n\nŽemiau pateikiamos vairuotojo „Pamainos“, „Reisai“ ir „Pildymai“, pasiekę autoparką.",
+     "image": ""
+    }
+   ]
+  },
+  {
    "slug": "settings",
    "title": "Nustatymai",
    "intro": "Nustatymai suskirstyti grupėmis: „Kalba ir išvaizda“, „Vairuotojo profilis“, „PDF ataskaitos“, „Atsarginė kopija“, „Telefonas ir ryšys“.",
@@ -512,7 +543,7 @@
     {
      "id": "profile",
      "title": "Vairuotojo profilis",
-     "text": "Vardas ataskaitoms ir vairuotojo dokumentai: vairuotojo pažymėjimas, pasas, ADR sertifikatas — su terminais ir puslapių nuotraukomis.\n\n„Siena ir keltas“. Mygtukai „Siena“ ir „Keltas“ kelyje.",
+     "text": "Vardas ataskaitoms ir vairuotojo dokumentai: vairuotojo pažymėjimas, pasas, ADR sertifikatas — su terminais ir puslapių nuotraukomis.\n\n„Siena ir keltas“. Mygtukai „Siena“ ir „Keltas“ kelyje.\n\n„Prisijungti prie autoparko kodu“ — autoparko vairuotojams; „Autoparkas“ — savininkams (žr. skyrių „Autoparkas“).",
      "image": "img/lt/settings-profile.png"
     },
     {
@@ -978,6 +1009,9 @@
   "address-book.add-address": "Adresas, koordinatė, navigacija ir raudona žymė.",
   "backup.backup": "Failas su visu žurnalu: išsaugoti, išsiųsti arba atkurti.",
   "online.device-link": "Telefono prijungimas prie programos internete: QR kodas arba kodas iš ekrano.",
+  "fleet.join": "Įveskite iš autoparko vadovo gautą kodą: autoparko vilkikas ir priekaba taps jūsų, o pamainų kopija keliaus į autoparką.",
+  "fleet.owner": "Jūsų autoparkas: vairuotojai, autoparko garažas, vairuotojų, vilkikų ir priekabų pridėjimas.",
+  "fleet.owner-driver": "Vairuotojo kortelė: vilkikas ir priekaba, vienkartinis kodas telefonui, pamainos, reisai ir pildymai.",
   "settings.settings": "Visi nustatymai pagal grupes.",
   "settings.profile": "Vairuotojo vardas ir jo dokumentai. „Siena ir keltas“. Mygtukai „Siena“ ir „Keltas“ kelyje.",
   "settings.language": "Programos kalba, GPS adresų kalba, datos formatas.",

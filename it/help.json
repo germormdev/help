@@ -499,6 +499,37 @@
    ]
   },
   {
+   "slug": "fleet",
+   "title": "Flotta",
+   "intro": "La Flotta è per le aziende con diversi camion e autisti. Il responsabile di flotta fornisce a ciascun autista un codice monouso. Con questo codice, l'app dell'autista ottiene il camion e il rimorchio della flotta e invia alla flotta una copia di turni, viaggi e rifornimenti. Il diario di bordo dell'autista rimane sul telefono.",
+   "steps": [
+    {
+     "id": "join",
+     "title": "Entra in una flotta con un codice",
+     "text": "Al primo avvio, tocca «Guido per una flotta — inserisci il codice». In seguito: Impostazioni → «Profilo del conducente» → «Entra in una flotta con un codice».\n\nInserisci il codice del tuo responsabile di flotta e tocca «Entra nella flotta». Se il responsabile ti ha inviato un link (my.vecturabook.com/fleet/join…), aprilo semplicemente sul telefono: l'app si aprirà con il codice già compilato. Puoi anche incollare l'intero link nel campo «Codice».\n\nIl codice funziona solo una volta e solo per un tempo limitato. Se l'app dice che il codice è errato, scaduto o già usato, chiedine uno nuovo al responsabile di flotta.",
+     "image": ""
+    },
+    {
+     "id": "in-fleet",
+     "title": "Guidare per una flotta",
+     "text": "Dopo essere entrato nella flotta, il camion e il rimorchio della flotta appaiono in Parco mezzi e diventano il tuo camion e il tuo rimorchio — le domande del primo avvio non servono più. «Profilo del conducente» mostra «Flotta:» con il nome della flotta, il tuo camion e il tuo rimorchio.\n\nI turni aperti dopo l'ingresso vanno alla flotta; un turno aperto prima di aver inserito il codice rimane tuo. Le copie di turni, viaggi e rifornimenti vengono inviate automaticamente quando c'è internet; «Invia alla flotta ora» le invia subito. Il tuo diario di bordo sul telefono non cambia.\n\nSe il responsabile ti assegna un altro camion durante un viaggio, la modifica viene applicata al termine del viaggio. Se un nuovo codice per te viene usato su un altro telefono, questo telefono esce dalla flotta.",
+     "image": ""
+    },
+    {
+     "id": "owner",
+     "title": "Flotta per il proprietario",
+     "text": "Per il responsabile di flotta. Attiva «Proprietario / Dipendente» in Impostazioni → «Profilo del conducente»: lì apparirà la riga «Flotta».\n\nLa flotta appartiene al tuo account VecturaBook. Se non hai effettuato l'accesso sul telefono, lo schermo mostra «Accedi prima al tuo account:» — tocca «Collegati a VecturaBook» e accedi con l'email del tuo account. Se lo schermo mostra «Questo account non ha una flotta.», scrivici tramite «Feedback / Segnalazione bug» per aprire una flotta.\n\nLo schermo mostra «Autisti» — ciascuno con «Collegato» o «Non ancora collegato», camion, rimorchio e il numero di turni, viaggi e rifornimenti — e il «Parco mezzi» della flotta. Sotto: «Aggiungi autista» con il campo «Nome dell'autista», «+ Aggiungi camion» («Targa», «Tipo di camion», «Tipo di carrozzeria») e «+ Aggiungi rimorchio» («Targa», compatibilità, «Tipo di carrozzeria»). Lo stesso si può fare nel browser su my.vecturabook.com.",
+     "image": ""
+    },
+    {
+     "id": "owner-driver",
+     "title": "Autista",
+     "text": "Tocca un autista per aprire la scheda. «Camion» e «Rimorchio»: scegli dal parco mezzi della flotta e tocca «Salva». Vengono proposti solo i rimorchi compatibili con il camion scelto. Il telefono dell'autista applica la modifica da solo; durante un viaggio — al termine del viaggio.\n\n«Ottieni codice» fornisce un codice monouso con l'orario fino a cui è valido. «Invia il codice all'autista» invia il codice e il link tramite un'app di messaggistica. Il codice viene mostrato solo una volta. Un nuovo codice trasferisce l'autista su un nuovo telefono: il vecchio telefono esce dalla flotta.\n\nSotto sono mostrati i «Turni», «Viaggi» e «Rifornimenti» dell'autista arrivati alla flotta.",
+     "image": ""
+    }
+   ]
+  },
+  {
    "slug": "settings",
    "title": "Impostazioni",
    "intro": "Le impostazioni sono divise in gruppi: «Lingua e aspetto», «Profilo del conducente», «Report PDF», «Backup», «Telefono e connessione».",
@@ -512,7 +543,7 @@
     {
      "id": "profile",
      "title": "Profilo del conducente",
-     "text": "Il nome per i report e i documenti dell'autista: «Patente di guida», «Passaporto», «Certificato ADR» — con date di scadenza e foto delle pagine.\n\n«Confine e traghetto». Pulsanti «Confine» e «Traghetto» in viaggio.",
+     "text": "Il nome per i report e i documenti dell'autista: «Patente di guida», «Passaporto», «Certificato ADR» — con date di scadenza e foto delle pagine.\n\n«Confine e traghetto». Pulsanti «Confine» e «Traghetto» in viaggio.\n\n«Entra in una flotta con un codice» — per gli autisti di flotta; «Flotta» — per i proprietari (vedi la sezione «Flotta»).",
      "image": "img/it/settings-profile.png"
     },
     {
@@ -978,6 +1009,9 @@
   "address-book.add-address": "Indirizzo, coordinata, navigatore e segno rosso.",
   "backup.backup": "Un file con tutto il registro: salva, condividi o ripristina.",
   "online.device-link": "Collegamento del telefono al programma online: codice QR o codice sullo schermo.",
+  "fleet.join": "Inserisci il codice del tuo responsabile di flotta: il camion e il rimorchio della flotta diventano i tuoi e una copia dei tuoi turni va alla flotta.",
+  "fleet.owner": "La tua flotta: autisti, il parco mezzi della flotta, aggiunta di autisti, camion e rimorchi.",
+  "fleet.owner-driver": "Scheda dell'autista: camion e rimorchio, un codice monouso per il telefono, turni, viaggi e rifornimenti.",
   "settings.settings": "Tutte le impostazioni divise per gruppi.",
   "settings.profile": "Nome dell'autista e suoi documenti. «Confine e traghetto». Pulsanti «Confine» e «Traghetto» in viaggio.",
   "settings.language": "Lingua dell'app, lingua degli indirizzi GPS, formato della data.",

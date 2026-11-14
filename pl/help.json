@@ -499,6 +499,37 @@
    ]
   },
   {
+   "slug": "fleet",
+   "title": "Flota",
+   "intro": "Flota jest dla firm z kilkoma ciężarówkami i kierowcami. Kierownik floty przekazuje każdemu kierowcy jednorazowy kod. Dzięki niemu aplikacja kierowcy pobiera ciężarówkę i naczepę floty oraz wysyła kopię dni, tras i tankowań do floty. Własny dziennik kierowcy zostaje w telefonie.",
+   "steps": [
+    {
+     "id": "join",
+     "title": "Dołącz do floty kodem",
+     "text": "Przy pierwszym uruchomieniu dotknij „Jeżdżę dla floty — wpisz kod”. Później: Ustawienia → „Profil kierowcy” → „Dołącz do floty kodem”.\n\nWpisz kod od kierownika floty i dotknij „Dołącz do floty”. Jeśli kierownik przysłał Ci link (my.vecturabook.com/fleet/join…), po prostu otwórz go w telefonie: aplikacja otworzy się z już wpisanym kodem. Możesz też wkleić cały link w pole „Kod”.\n\nKod działa tylko raz i tylko przez ograniczony czas. Jeśli aplikacja informuje, że kod jest błędny, wygasł lub został już użyty, poproś kierownika floty o nowy.",
+     "image": ""
+    },
+    {
+     "id": "in-fleet",
+     "title": "Jazda dla floty",
+     "text": "Po dołączeniu ciężarówka i naczepa floty pojawiają się w Moim parku i stają się Twoją ciężarówką i naczepą — pytania przy pierwszym uruchomieniu nie są potrzebne. „Profil kierowcy” pokazuje „Flota:” z nazwą floty, Twoją ciężarówką i Twoją naczepą.\n\nDni otwarte po dołączeniu trafiają do floty; dzień otwarty przed wpisaniem kodu pozostaje Twój. Kopie dni, tras i tankowań są wysyłane automatycznie, gdy jest internet; „Wyślij do floty teraz” wysyła je od razu. Twój dziennik w telefonie się nie zmienia.\n\nJeśli kierownik przypisze Ci inną ciężarówkę w trakcie trasy, zmiana nastąpi po zakończeniu trasy. Jeśli nowy kod dla Ciebie zostanie użyty na innym telefonie, ten telefon opuści flotę.",
+     "image": ""
+    },
+    {
+     "id": "owner",
+     "title": "Flota dla właściciela",
+     "text": "Dla kierownika floty. Włącz „Właściciel / Najemny” w Ustawienia → „Profil kierowcy”: pojawi się tam wiersz „Flota”.\n\nFlota należy do Twojego konta VecturaBook. Jeśli telefon nie jest zalogowany, ekran pokazuje „Najpierw zaloguj się na swoje konto:” — dotknij „Połącz z VecturaBook” i zaloguj się adresem e-mail swojego konta. Jeśli ekran pokazuje „To konto nie ma floty.”, napisz do nas przez „Opinia / Błąd”, aby otworzyć flotę.\n\nEkran pokazuje „Kierowcy” — każdy z oznaczeniem „Połączony” lub „Jeszcze niepołączony”, ciężarówką, naczepą oraz liczbą dni, tras i tankowań — oraz „Mój park” floty. Poniżej: „Dodaj kierowcę” z polem „Imię kierowcy”, „+ Dodaj ciężarówkę” („Numer rejestracyjny”, „Typ ciężarówki”, „Typ nadwozia”) i „+ Dodaj naczepę” („Numer rejestracyjny”, zgodność, „Typ nadwozia”). To samo można zrobić w przeglądarce na my.vecturabook.com.",
+     "image": ""
+    },
+    {
+     "id": "owner-driver",
+     "title": "Kierowca",
+     "text": "Dotknij kierowcy, aby otworzyć kartę. „Ciężarówka” i „Naczepa”: wybierz z parku floty i dotknij „Zapisz”. Oferowane są tylko naczepy pasujące do wybranej ciężarówki. Telefon kierowcy sam pobiera zmianę; w trakcie trasy — po zakończeniu trasy.\n\n„Pobierz kod” podaje jednorazowy kod z czasem, do kiedy jest ważny. „Wyślij kod kierowcy” wysyła kod i link przez komunikator. Kod pokazuje się tylko raz. Nowy kod przenosi kierowcę na nowy telefon: stary telefon opuszcza flotę.\n\nPoniżej widoczne są „Dni”, „Trasy” i „Tankowania” kierowcy, które dotarły do floty.",
+     "image": ""
+    }
+   ]
+  },
+  {
    "slug": "settings",
    "title": "Ustawienia",
    "intro": "Ustawienia są podzielone na grupy: „Język i wygląd”, „Profil kierowcy”, „Raporty PDF”, „Kopia zapasowa”, „Telefon i połączenie”.",
@@ -512,7 +543,7 @@
     {
      "id": "profile",
      "title": "Profil kierowcy",
-     "text": "Imię do raportów i dokumenty kierowcy: prawo jazdy, paszport, certyfikat ADR — z terminami ważności i zdjęciami stron.\n\n„Granica i prom”. Przyciski „Granica” i „Prom” w trasie.",
+     "text": "Imię do raportów i dokumenty kierowcy: prawo jazdy, paszport, certyfikat ADR — z terminami ważności i zdjęciami stron.\n\n„Granica i prom”. Przyciski „Granica” i „Prom” w trasie.\n\n„Dołącz do floty kodem” — dla kierowców floty; „Flota” — dla właścicieli (zob. rozdział „Flota”).",
      "image": "img/pl/settings-profile.png"
     },
     {
@@ -978,6 +1009,9 @@
   "address-book.add-address": "Adres, współrzędne, nawigacja i czerwony znacznik.",
   "backup.backup": "Plik z całym dziennikiem: zapisz, wyślij lub przywróć.",
   "online.device-link": "Łączenie telefonu z programem online: kod QR lub kod z ekranu.",
+  "fleet.join": "Wpisz kod od kierownika floty: ciężarówka i naczepa floty staną się Twoje, a kopia Twoich dni trafi do floty.",
+  "fleet.owner": "Twoja flota: kierowcy, Mój park floty, dodawanie kierowców, ciężarówek i naczep.",
+  "fleet.owner-driver": "Karta kierowcy: ciężarówka i naczepa, jednorazowy kod do telefonu, dni, trasy i tankowania.",
   "settings.settings": "Wszystkie ustawienia pogrupowane tematycznie.",
   "settings.profile": "Imię kierowcy i jego dokumenty. „Granica i prom”. Przyciski „Granica” i „Prom” w trasie.",
   "settings.language": "Język aplikacji, język adresów GPS, format daty.",

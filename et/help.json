@@ -499,6 +499,37 @@
    ]
   },
   {
+   "slug": "fleet",
+   "title": "Autopark",
+   "intro": "Autopark on mõeldud ettevõtetele, kus on mitu veokit ja juhti. Autopargi juht annab igale juhile ühekordse koodi. Selle abil saab juhi rakendus autopargi veoki ja haagise ning saadab vahetuste, reiside ja tankimiste koopia autoparki. Juhi enda päevik jääb telefoni.",
+   "steps": [
+    {
+     "id": "join",
+     "title": "Liitu autopargiga koodiga",
+     "text": "Esimesel käivitusel vajutage „Sõidan autopargile — sisesta kood“. Hiljem: Seaded → „Juhi profiil“ → „Liitu autopargiga koodiga“.\n\nSisestage autopargi juhilt saadud kood ja vajutage „Liitu autopargiga“. Kui autopargi juht saatis teile lingi (my.vecturabook.com/fleet/join…), avage see lihtsalt oma telefonis: rakendus avaneb juba sisestatud koodiga. Samuti võite kleepida kogu lingi väljale „Kood“.\n\nKood töötab ainult üks kord ja ainult piiratud aja. Kui rakendus teatab, et kood on vale, aegunud või juba kasutatud, küsige autopargi juhilt uus.",
+     "image": ""
+    },
+    {
+     "id": "in-fleet",
+     "title": "Sõitmine autopargile",
+     "text": "Pärast liitumist ilmuvad autopargi veok ja haagis Garaaži ning neist saavad teie veok ja haagis — esimese käivituse küsimusi pole vaja. „Juhi profiil“ näitab „Autopark:“ koos autopargi nime, teie veoki ja teie haagisega.\n\nVahetused, mille avate pärast liitumist, lähevad autoparki; enne koodi sisestamist avatud vahetus jääb teile. Vahetuste, reiside ja tankimiste koopiad saadetakse internetiühenduse olemasolul automaatselt; „Saada autoparki kohe“ saadab need kohe. Teie päevik telefonis ei muutu.\n\nKui autopargi juht määrab teile reisi ajal teise veoki, jõustub muudatus pärast reisi lõppu. Kui teie jaoks mõeldud uut koodi kasutatakse teises telefonis, lahkub see telefon autopargist.",
+     "image": ""
+    },
+    {
+     "id": "owner",
+     "title": "Autopark omanikule",
+     "text": "Autopargi juhile. Lülitage sisse „Omanik / Palgatöötaja“ jaotises Seaded → „Juhi profiil“: sinna ilmub rida „Autopark“.\n\nAutopark kuulub teie VecturaBooki kontole. Kui telefon pole sisse logitud, kuvatakse ekraanil „Logi esmalt oma kontole sisse:“ — vajutage „Ühenda VecturaBookiga“ ja logige sisse oma konto e-posti aadressiga. Kui ekraanil kuvatakse „Sellel kontol pole autoparki.“, kirjutage meile autopargi avamiseks jaotise „Tagasiside / veateade“ kaudu.\n\nEkraanil kuvatakse „Juhid“ — igaüks märkega „Seotud“ või „Veel sidumata“, veok, haagis ning vahetuste, reiside ja tankimiste arv — ning autopargi „Garaaž“. Allpool: „Lisa juht“ koos väljaga „Juhi nimi“, „+ Lisa veok“ („Numbrimärk“, „Veoki tüüp“, „Keretüüp“) ja „+ Lisa haagis“ („Numbrimärk“, ühilduvus, „Keretüüp“). Seda saab teha ka brauseris aadressil my.vecturabook.com.",
+     "image": ""
+    },
+    {
+     "id": "owner-driver",
+     "title": "Juht",
+     "text": "Puudutage juhti, et avada kaart. „Veok“ ja „Haagis“: valige autopargi garaažist ja vajutage „Salvesta“. Pakutakse ainult valitud veokiga sobivaid haagiseid. Juhi telefon võtab muudatuse ise vastu; reisi ajal — pärast reisi lõppu.\n\n„Hangi kood“ annab ühekordse koodi koos ajaga, milleni see kehtib. „Saada kood juhile“ saadab koodi ja lingi sõnumirakenduse kaudu. Koodi näidatakse ainult üks kord. Uus kood viib juhi uude telefoni: vana telefon lahkub autopargist.\n\nAllpool on juhi „Vahetused“, „Reisid“ ja „Tankimised“, mis on autoparki jõudnud.",
+     "image": ""
+    }
+   ]
+  },
+  {
    "slug": "settings",
    "title": "Seaded",
    "intro": "Seaded on jagatud rühmadesse: „Keel ja välimus”, „Juhi profiil”, „PDF-aruanded”, „Varukoopia”, „Telefon ja ühendus”.",
@@ -512,7 +543,7 @@
     {
      "id": "profile",
      "title": "Juhi profiil",
-     "text": "Nimi aruannete jaoks ja juhi dokumendid: juhiluba, pass, ADR-sertifikaat — koos kehtivusaegade ja lehekülgede fotodega.\n\n„Piir ja praam”. Nupud „Piir” ja „Praam” teel.",
+     "text": "Nimi aruannete jaoks ja juhi dokumendid: juhiluba, pass, ADR-sertifikaat — koos kehtivusaegade ja lehekülgede fotodega.\n\n„Piir ja praam”. Nupud „Piir” ja „Praam” teel.\n\n„Liitu autopargiga koodiga“ — autopargi juhtidele; „Autopark“ — omanikele (vaata jaotist „Autopark“).",
      "image": "img/et/settings-profile.png"
     },
     {
@@ -978,6 +1009,9 @@
   "address-book.add-address": "Aadress, koordinaat, navigaator ja punane märk.",
   "backup.backup": "Fail kogu päevikuga: salvesta, saada või taasta.",
   "online.device-link": "Telefoni ühendamine võrguprogrammiga: QR-kood või ekraanikood.",
+  "fleet.join": "Sisestage oma autopargi juhilt saadud kood: autopargi veok ja haagis saavad teie omaks ning vahetuste koopia läheb autoparki.",
+  "fleet.owner": "Teie autopark: juhid, autopargi garaaž, juhtide, veokite ja haagiste lisamine.",
+  "fleet.owner-driver": "Juhi kaart: veok ja haagis, ühekordne kood telefoni jaoks, vahetused, reisid ja tankimised.",
   "settings.settings": "Kõik seaded rühmade kaupa.",
   "settings.profile": "Juhi nimi ja tema dokumendid. „Piir ja praam”. Nupud „Piir” ja „Praam” teel.",
   "settings.language": "Rakenduse keel, GPS-aadresside keel, kuupäeva vorming.",

@@ -499,6 +499,37 @@
    ]
   },
   {
+   "slug": "fleet",
+   "title": "Autoparks",
+   "intro": "Autoparks ir paredzēts uzņēmumiem ar vairākiem vilcējiem un vadītājiem. Autoparka vadītājs katram vadītājam iedod vienreizēju kodu. Ar to vadītāja lietotne saņem autoparka vilcēju un piekabi un nosūta maiņu, reisu un uzpilžu kopijas autoparkam. Paša vadītāja žurnāls paliek tālrunī.",
+   "steps": [
+    {
+     "id": "join",
+     "title": "Pievienoties autoparkam ar kodu",
+     "text": "Pirmajā palaišanā nospiediet «Braucu autoparkam — ievadīt kodu». Vēlāk: Iestatījumi → «Vadītāja profils» → «Pievienoties autoparkam ar kodu».\n\nIevadiet no autoparka vadītāja saņemto kodu un nospiediet «Pievienoties autoparkam». Ja autoparka vadītājs jums nosūtīja saiti (my.vecturabook.com/fleet/join…), vienkārši atveriet to savā tālrunī: lietotne atvērsies ar jau ievadītu kodu. Visu saiti varat arī ielīmēt laukā «Kods».\n\nKods darbojas tikai vienu reizi un tikai ierobežotu laiku. Ja lietotne ziņo, ka kods ir nepareizs, beidzies vai jau izmantots, palūdziet savam autoparka vadītājam jaunu.",
+     "image": ""
+    },
+    {
+     "id": "in-fleet",
+     "title": "Braukšana autoparkam",
+     "text": "Pēc pievienošanās autoparka vilcējs un piekabe parādās Garāžā un kļūst par jūsu vilcēju un piekabi — pirmās palaišanas jautājumi nav vajadzīgi. «Vadītāja profils» rāda «Autoparks:» ar autoparka nosaukumu, jūsu vilcēju un jūsu piekabi.\n\nMaiņas, kuras atverat pēc pievienošanās, nonāk autoparkā; maiņa, kas atvērta pirms koda ievadīšanas, paliek jūsu. Maiņu, reisu un uzpilžu kopijas tiek nosūtītas automātiski, kad ir internets; «Nosūtīt autoparkam tagad» tās nosūta uzreiz. Jūsu žurnāls tālrunī nemainās.\n\nJa autoparka vadītājs reisa laikā piešķir jums citu vilcēju, izmaiņas stājas spēkā pēc reisa beigām. Ja jauns kods jums tiek izmantots citā tālrunī, šis tālrunis pamet autoparku.",
+     "image": ""
+    },
+    {
+     "id": "owner",
+     "title": "Autoparks īpašniekam",
+     "text": "Autoparka vadītājam. Ieslēdziet «Īpašnieks / Algots» sadaļā Iestatījumi → «Vadītāja profils»: tur parādīsies rinda «Autoparks».\n\nAutoparks pieder jūsu VecturaBook kontam. Ja tālrunī neesat pieteicies, ekrāns rāda «Vispirms piesakieties savā kontā:» — nospiediet «Savienot ar VecturaBook» un piesakieties ar sava konta e-pastu. Ja ekrāns rāda «Šim kontam nav autoparka.», uzrakstiet mums caur «Atsauksme / kļūdas ziņojums», lai atvērtu autoparku.\n\nEkrāns rāda «Vadītāji» — katram «Piesaistīts» vai «Vēl nav piesaistīts», vilcējs, piekabe un maiņu, reisu un uzpilžu skaits — un autoparka «Garāža». Apakšā: «Pievienot vadītāju» ar lauku «Vadītāja vārds», «+ Pievienot vilcēju» («Numura zīme», «Vilcēja tips», «Virsbūves tips») un «+ Pievienot piekabi» («Numura zīme», saderība, «Virsbūves tips»). To pašu var izdarīt savā pārlūkā vietnē my.vecturabook.com.",
+     "image": ""
+    },
+    {
+     "id": "owner-driver",
+     "title": "Vadītājs",
+     "text": "Pieskarieties vadītājam, lai atvērtu kartīti. «Vilcējs» un «Piekabe»: izvēlieties no autoparka garāžas un nospiediet «Saglabāt». Tiek piedāvātas tikai piekabes, kas der izvēlētajam vilcējam. Vadītāja tālrunis pats pārņem izmaiņas; reisa laikā — pēc reisa beigām.\n\n«Saņemt kodu» izveido vienreizēju kodu ar laiku, līdz kuram tas ir derīgs. «Nosūtīt kodu vadītājam» nosūta kodu un saiti caur saziņas lietotni. Kods tiek parādīts tikai vienu reizi. Jauns kods pārceļ vadītāju uz jaunu tālruni: vecais tālrunis pamet autoparku.\n\nZemāk ir vadītāja «Maiņas», «Reisi» un «Uzpildes», kas nonākušas autoparkā.",
+     "image": ""
+    }
+   ]
+  },
+  {
    "slug": "settings",
    "title": "Iestatījumi",
    "intro": "Iestatījumi ir sakārtoti grupās: “Valoda un izskats”, “Vadītāja profils”, “PDF atskaites”, “Rezerves kopija”, “Tālrunis un savienojums”.",
@@ -512,7 +543,7 @@
     {
      "id": "profile",
      "title": "Vadītāja profils",
-     "text": "Vārds atskaitēm un vadītāja dokumenti: vadītāja apliecība, pase, ADR sertifikāts — ar termiņiem un lappušu fotoattēliem.\n\n“Robeža un prāmis”. Pogas “Robeža” un “Prāmis” ceļā.",
+     "text": "Vārds atskaitēm un vadītāja dokumenti: vadītāja apliecība, pase, ADR sertifikāts — ar termiņiem un lappušu fotoattēliem.\n\n“Robeža un prāmis”. Pogas “Robeža” un “Prāmis” ceļā.\n\n«Pievienoties autoparkam ar kodu» — autoparka vadītājiem; «Autoparks» — īpašniekiem (skatiet sadaļu «Autoparks»).",
      "image": "img/lv/settings-profile.png"
     },
     {
@@ -978,6 +1009,9 @@
   "address-book.add-address": "Adrese, koordināta, navigācija un sarkanā atzīme.",
   "backup.backup": "Fails ar visu žurnālu: saglabāt, nosūtīt vai atjaunot.",
   "online.device-link": "Tālruņa savienošana ar programmu tiešsaistē: QR kods vai ekrānā redzamais kods.",
+  "fleet.join": "Ievadiet no autoparka vadītāja saņemto kodu: autoparka vilcējs un piekabe kļūst par jūsu, un maiņu kopija nonāk autoparkā.",
+  "fleet.owner": "Jūsu autoparks: vadītāji, autoparka garāža, vadītāju, vilcēju un piekabju pievienošana.",
+  "fleet.owner-driver": "Vadītāja kartīte: vilcējs un piekabe, vienreizējs kods tālrunim, maiņas, reisi un uzpildes.",
   "settings.settings": "Visi iestatījumi pa grupām.",
   "settings.profile": "Vadītāja vārds un viņa dokumenti. “Robeža un prāmis”. Pogas “Robeža” un “Prāmis” ceļā.",
   "settings.language": "Lietotnes valoda, GPS adrešu valoda, datuma formāts.",

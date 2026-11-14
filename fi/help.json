@@ -499,6 +499,37 @@
    ]
   },
   {
+   "slug": "fleet",
+   "title": "Kalusto",
+   "intro": "Kalusto on tarkoitettu yrityksille, joilla on useita rekkoja ja kuljettajia. Kalustopäällikkö antaa kullekin kuljettajalle kertakäyttöisen koodin. Sen avulla kuljettajan sovellus saa käyttöönsä kaluston rekan ja perävaunun ja lähettää kopion vuoroista, reissuista ja tankkauksista kalustolle. Kuljettajan oma ajopäiväkirja pysyy puhelimessa.",
+   "steps": [
+    {
+     "id": "join",
+     "title": "Liity kalustoon koodilla",
+     "text": "Ensimmäisellä käynnistyksellä napauta ”Ajan kalustolle — syötä koodi”. Myöhemmin: Asetukset → ”Kuljettajan profiili” → ”Liity kalustoon koodilla”.\n\nSyötä kalustopäälliköltä saatu koodi ja napauta ”Liity kalustoon”. Jos kalustopäällikkö lähetti sinulle linkin (my.vecturabook.com/fleet/join…), avaa se vain puhelimessasi: sovellus avautuu koodi valmiiksi syötettynä. Voit myös liittää koko linkin kenttään ”Koodi”.\n\nKoodi toimii vain kerran ja vain rajoitetun ajan. Jos sovellus ilmoittaa, että koodi on väärä, vanhentunut tai jo käytetty, pyydä kalustopäälliköltä uusi.",
+     "image": ""
+    },
+    {
+     "id": "in-fleet",
+     "title": "Ajaminen kalustolle",
+     "text": "Liittymisen jälkeen kaluston rekka ja perävaunu ilmestyvät Halliin ja niistä tulee rekkasi ja perävaunusi — ensimmäisen käynnistyksen kysymyksiä ei tarvita. ”Kuljettajan profiili” näyttää ”Kalusto:” sekä kaluston nimen, rekkasi ja perävaunusi.\n\nLiittymisen jälkeen avaamasi vuorot menevät kalustolle; ennen koodin syöttämistä avattu vuoro pysyy omanasi. Kopiot vuoroista, reissuista ja tankkauksista lähetetään automaattisesti, kun internet-yhteys on käytettävissä; ”Lähetä kalustolle nyt” lähettää ne heti. Oma ajopäiväkirjasi puhelimessa ei muutu.\n\nJos kalustopäällikkö antaa sinulle toisen rekan reissun aikana, muutos tulee voimaan reissun päätyttyä. Jos sinulle luotu uusi koodi käytetään toisessa puhelimessa, tämä puhelin poistuu kalustosta.",
+     "image": ""
+    },
+    {
+     "id": "owner",
+     "title": "Kalusto omistajalle",
+     "text": "Kalustopäällikölle. Ota käyttöön ”Omistaja / Palkattu” kohdassa Asetukset → ”Kuljettajan profiili”: sinne ilmestyy rivi ”Kalusto”.\n\nKalusto kuuluu VecturaBook-tiliisi. Jos puhelimella ei ole kirjauduttu sisään, näytöllä lukee ”Kirjaudu ensin tilillesi:” — napauta ”Yhdistä VecturaBookiin” ja kirjaudu sisään tilisi sähköpostiosoitteella. Jos näytöllä lukee ”Tällä tilillä ei ole kalustoa.”, kirjoita meille kohdasta ”Palaute / virheilmoitus” kaluston avaamiseksi.\n\nNäytöllä näkyy ”Kuljettajat” — kunkin kohdalla ”Yhdistetty” tai ”Ei vielä yhdistetty”, rekka, perävaunu sekä vuorojen, reissujen ja tankkausten määrä — ja kaluston ”Halli”. Alempana: ”Lisää kuljettaja” ja kenttä ”Kuljettajan nimi”, ”+ Lisää rekka” (”Rekisterinumero”, ”Rekan tyyppi”, ”Korityyppi”) sekä ”+ Lisää perävaunu” (”Rekisterinumero”, yhteensopivuus, ”Korityyppi”). Saman voi tehdä selaimessa osoitteessa my.vecturabook.com.",
+     "image": ""
+    },
+    {
+     "id": "owner-driver",
+     "title": "Kuljettaja",
+     "text": "Napauta kuljettajaa avataksesi kortin. ”Rekka” ja ”Perävaunu”: valitse kaluston hallista ja napauta ”Tallenna”. Tarjolla on vain valittuun rekkaan sopivia perävaunuja. Kuljettajan puhelin vastaanottaa muutoksen itsestään; reissun aikana — reissun päätyttyä.\n\n”Hae koodi” antaa kertakäyttöisen koodin sekä tiedon siitä, mihin asti se on voimassa. ”Lähetä koodi kuljettajalle” lähettää koodin ja linkin viestisovelluksen kautta. Koodi näytetään vain kerran. Uusi koodi siirtää kuljettajan uuteen puhelimeen: vanha puhelin poistuu kalustosta.\n\nAlempana näkyvät kuljettajan ”Vuorot”, ”Reissut” ja ”Tankkaukset”, jotka ovat saapuneet kalustolle.",
+     "image": ""
+    }
+   ]
+  },
+  {
    "slug": "settings",
    "title": "Asetukset",
    "intro": "Asetukset on jaettu ryhmiin: ”Kieli ja ulkoasu”, ”Kuljettajan profiili”, ”PDF-raportit”, ”Varmuuskopio”, ”Puhelin ja yhteys”.",
@@ -512,7 +543,7 @@
     {
      "id": "profile",
      "title": "Kuljettajan profiili",
-     "text": "Nimi raportteihin ja kuljettajan asiakirjat: ajokortti, passi, ADR-todistus — voimassaoloaikoineen ja sivukuvineen.\n\n”Raja ja lautta”. Painikkeet ”Raja” ja ”Lautta” ajossa.",
+     "text": "Nimi raportteihin ja kuljettajan asiakirjat: ajokortti, passi, ADR-todistus — voimassaoloaikoineen ja sivukuvineen.\n\n”Raja ja lautta”. Painikkeet ”Raja” ja ”Lautta” ajossa.\n\n”Liity kalustoon koodilla” — kaluston kuljettajille; ”Kalusto” — omistajille (katso osio ”Kalusto”).",
      "image": "img/fi/settings-profile.png"
     },
     {
@@ -978,6 +1009,9 @@
   "address-book.add-address": "Osoite, koordinaatti, navigaattori ja punainen merkki.",
   "backup.backup": "Koko ajopäiväkirjan tiedosto: tallenna, jaa tai palauta.",
   "online.device-link": "Puhelimen yhdistäminen verkkopalveluun: QR-koodi tai näytöllä näkyvä koodi.",
+  "fleet.join": "Syötä kalustopäälliköltä saatu koodi: kaluston rekka ja perävaunu tulevat käyttöösi, ja kopio vuoroistasi menee kalustolle.",
+  "fleet.owner": "Oma kalustosi: kuljettajat, kaluston halli sekä kuljettajien, rekkojen ja perävaunujen lisääminen.",
+  "fleet.owner-driver": "Kuljettajan kortti: rekka ja perävaunu, kertakäyttöinen koodi puhelimeen, vuorot, reissut ja tankkaukset.",
   "settings.settings": "Kaikki asetukset ryhmittäin.",
   "settings.profile": "Kuljettajan nimi ja hänen asiakirjansa. ”Raja ja lautta”. Painikkeet ”Raja” ja ”Lautta” ajossa.",
   "settings.language": "Sovelluksen kieli, GPS-osoitteiden kieli, päivämäärämuoto.",

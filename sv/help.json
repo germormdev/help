@@ -499,6 +499,37 @@
    ]
   },
   {
+   "slug": "fleet",
+   "title": "Fordonsflotta",
+   "intro": "Fordonsflotta är till för företag med flera lastbilar och förare. Den flottansvarige ger varje förare en engångskod. Med den får förarens app fordonsflottans lastbil och släp och skickar en kopia av pass, resor och tankningar till fordonsflottan. Förarens egen körjournal stannar på telefonen.",
+   "steps": [
+    {
+     "id": "join",
+     "title": "Gå med i en fordonsflotta med kod",
+     "text": "Tryck vid första starten på ”Jag kör för en fordonsflotta — ange kod”. Senare: Inställningar → ”Förarprofil” → ”Gå med i en fordonsflotta med kod”.\n\nAnge koden från din flottansvarige och tryck på ”Gå med i fordonsflottan”. Om den flottansvarige skickade en länk till dig (my.vecturabook.com/fleet/join…), öppna den bara på din telefon: appen öppnas med koden redan ifylld. Du kan också klistra in hela länken i fältet ”Kod”.\n\nKoden fungerar bara en gång och endast under en begränsad tid. Om appen säger att koden är fel, har gått ut eller är redan använd, be din flottansvarige om en ny.",
+     "image": ""
+    },
+    {
+     "id": "in-fleet",
+     "title": "Kör för en fordonsflotta",
+     "text": "Efter att du har gått med visas fordonsflottans lastbil och släp i Fordonspark och blir din lastbil och ditt släp — frågorna vid första starten behövs inte. ”Förarprofil” visar ”Fordonsflotta:” med fordonsflottans namn, din lastbil och ditt släp.\n\nPass som du öppnar efter att du har gått med skickas till fordonsflottan; ett pass som öppnats innan du angav koden förblir ditt eget. Kopior av pass, resor och tankningar skickas automatiskt när det finns internet; ”Skicka till fordonsflottan nu” skickar dem direkt. Din körjournal på telefonen ändras inte.\n\nOm den flottansvarige tilldelar dig en annan lastbil under en resa träder ändringen i kraft efter att resan har avslutats. Om en ny kod för dig används på en annan telefon lämnar den här telefonen fordonsflottan.",
+     "image": ""
+    },
+    {
+     "id": "owner",
+     "title": "Fordonsflotta för ägaren",
+     "text": "För den flottansvarige. Aktivera ”Ägare / Anställd” i Inställningar → ”Förarprofil”: raden ”Fordonsflotta” visas där.\n\nFordonsflottan hör till ditt VecturaBook-konto. Om telefonen inte är inloggad visar skärmen ”Logga först in på ditt konto:” — tryck på ”Anslut till VecturaBook” och logga in med ditt kontos e-postadress. Om skärmen visar ”Det här kontot har ingen fordonsflotta.”, skriv till oss via ”Feedback / Felrapport” för att öppna en fordonsflotta.\n\nSkärmen visar ”Förare” — var och en med ”Kopplad” eller ”Inte kopplad än”, lastbil, släp och antalet pass, resor och tankningar — samt fordonsflottans ”Fordonspark”. Nedanför: ”Lägg till förare” med fältet ”Förarens namn”, ”+ Lägg till lastbil” (”Registreringsnummer”, ”Lastbilstyp”, ”Karosstyp”) och ”+ Lägg till släp” (”Registreringsnummer”, kompatibilitet, ”Karosstyp”). Samma sak kan göras i din webbläsare på my.vecturabook.com.",
+     "image": ""
+    },
+    {
+     "id": "owner-driver",
+     "title": "Förare",
+     "text": "Tryck på en förare för att öppna kortet. ”Lastbil” och ”Släp”: välj från fordonsflottans fordonspark och tryck på ”Spara”. Endast släp som passar till den valda lastbilen erbjuds. Förarens telefon hämtar själv ändringen; under en resa — efter att resan har avslutats.\n\n”Hämta kod” ger en engångskod med information om hur länge den är giltig. ”Skicka koden till föraren” skickar koden och länken via en meddelandeapp. Koden visas bara en gång. En ny kod flyttar föraren till en ny telefon: den gamla telefonen lämnar fordonsflottan.\n\nNedanför visas förarens ”Pass”, ”Resor” och ”Tankningar” som har nått fordonsflottan.",
+     "image": ""
+    }
+   ]
+  },
+  {
    "slug": "settings",
    "title": "Inställningar",
    "intro": "Inställningarna är indelade i grupper: ”Språk och utseende”, ”Förarprofil”, ”PDF-rapporter”, ”Säkerhetskopia”, ”Telefon och anslutning”.",
@@ -512,7 +543,7 @@
     {
      "id": "profile",
      "title": "Förarprofil",
-     "text": "Namn för rapporter och förarens dokument: körkort, pass och ADR-certifikat — med utgångsdatum och foton på sidorna.\n\n”Gräns och färja”. Knapparna ”Gräns” och ”Färja” under resan.",
+     "text": "Namn för rapporter och förarens dokument: körkort, pass och ADR-certifikat — med utgångsdatum och foton på sidorna.\n\n”Gräns och färja”. Knapparna ”Gräns” och ”Färja” under resan.\n\n”Gå med i en fordonsflotta med kod” — för fordonsflottans förare; ”Fordonsflotta” — för ägare (se avsnittet ”Fordonsflotta”).",
      "image": "img/sv/settings-profile.png"
     },
     {
@@ -978,6 +1009,9 @@
   "address-book.add-address": "Adress, koordinat, navigator och röd markering.",
   "backup.backup": "En fil med hela journalen: spara, skicka eller återställ.",
   "online.device-link": "Anslut telefonen till programmet online: QR-kod eller kod på skärmen.",
+  "fleet.join": "Ange koden från din flottansvarige: fordonsflottans lastbil och släp blir dina, och en kopia av dina pass skickas till fordonsflottan.",
+  "fleet.owner": "Din fordonsflotta: förare, fordonsflottans fordonspark, lägga till förare, lastbilar och släp.",
+  "fleet.owner-driver": "Förarkort: lastbil och släp, en engångskod för telefonen, pass, resor och tankningar.",
   "settings.settings": "Alla inställningar indelade i grupper.",
   "settings.profile": "Förarens namn och dokument. ”Gräns och färja”. Knapparna ”Gräns” och ”Färja” under resan.",
   "settings.language": "Appspråk, språk för GPS-adresser och datumformat.",

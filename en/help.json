@@ -499,6 +499,37 @@
    ]
   },
   {
+   "slug": "fleet",
+   "title": "Fleet",
+   "intro": "Fleet is for companies with several trucks and drivers. The fleet manager gives each driver a one-time code. With it, the driver's app gets the fleet's truck and trailer and sends a copy of shifts, trips and refuels to the fleet. The driver's own logbook stays on the phone.",
+   "steps": [
+    {
+     "id": "join",
+     "title": "Join a fleet with a code",
+     "text": "On the first launch, tap \"I drive for a fleet — enter code\". Later: Settings → \"Driver profile\" → \"Join a fleet with a code\".\n\nEnter the code from your fleet manager and tap \"Join the fleet\". If the manager sent you a link (my.vecturabook.com/fleet/join…), just open it on your phone: the app opens with the code already filled in. You can also paste the whole link into the \"Code\" field.\n\nThe code works only once and only for a limited time. If the app says the code is wrong, expired or already used, ask your fleet manager for a new one.",
+     "image": ""
+    },
+    {
+     "id": "in-fleet",
+     "title": "Driving for a fleet",
+     "text": "After you join, the fleet's truck and trailer appear in Garage and become your truck and trailer — the first-launch questions are not needed. \"Driver profile\" shows \"Fleet:\" with the fleet's name, your truck and your trailer.\n\nShifts you open after joining go to the fleet; a shift opened before you entered the code stays yours. Copies of shifts, trips and refuels are sent automatically when there is internet; \"Send to the fleet now\" sends them right away. Your logbook on the phone does not change.\n\nIf the manager gives you another truck during a trip, the change comes after the trip ends. If a new code for you is used on another phone, this phone leaves the fleet.",
+     "image": ""
+    },
+    {
+     "id": "owner",
+     "title": "Fleet for the owner",
+     "text": "For the fleet manager. Turn on \"Owner / Hired\" in Settings → \"Driver profile\": the \"Fleet\" row appears there.\n\nThe fleet belongs to your VecturaBook account. If the phone is not signed in, the screen says \"Sign in to your account first:\" — tap \"Connect to VecturaBook\" and sign in with your account's email. If the screen says \"This account has no fleet.\", write to us via \"Feedback / Bug Report\" to open a fleet.\n\nThe screen shows \"Drivers\" — each with \"Linked\" or \"Not linked yet\", truck, trailer and the number of shifts, trips and refuels — and the fleet's \"Garage\". Below: \"Add driver\" with the \"Driver's name\" field, \"+ Add Truck\" (\"Plate Number\", \"Truck Type\", \"Body Type\") and \"+ Add Trailer\" (\"Plate Number\", compatibility, \"Body Type\"). The same can be done in your browser on my.vecturabook.com.",
+     "image": ""
+    },
+    {
+     "id": "owner-driver",
+     "title": "Driver",
+     "text": "Tap a driver to open the card. \"Truck\" and \"Trailer\": choose from the fleet's garage and tap \"Save\". Only trailers that fit the chosen truck are offered. The driver's phone picks up the change by itself; during a trip — after the trip ends.\n\n\"Get code\" gives a one-time code with the time it is valid until. \"Send the code to the driver\" sends the code and the link through a messenger. The code is shown only once. A new code moves the driver to a new phone: the old phone leaves the fleet.\n\nBelow are the driver's \"Shifts\", \"Trips\" and \"Refuels\" that have reached the fleet.",
+     "image": ""
+    }
+   ]
+  },
+  {
    "slug": "settings",
    "title": "Settings",
    "intro": "Settings are organized into groups: “Language and appearance”, “Driver profile”, “PDF reports”, “Backup”, “Phone & connection”.",
@@ -512,7 +543,7 @@
     {
      "id": "profile",
      "title": "Driver profile",
-     "text": "Your name for reports and driver documents: \"Driver's License\", \"Passport\", and \"ADR Certificate\" — with expiry dates and page photos.\n\n“Border and ferry”. Border and Ferry buttons while driving.",
+     "text": "Your name for reports and driver documents: \"Driver's License\", \"Passport\", and \"ADR Certificate\" — with expiry dates and page photos.\n\n“Border and ferry”. Border and Ferry buttons while driving.\n\n\"Join a fleet with a code\" — for fleet drivers; \"Fleet\" — for owners (see the \"Fleet\" section).",
      "image": "img/en/settings-profile.png"
     },
     {
@@ -978,6 +1009,9 @@
   "address-book.add-address": "Address, coordinates, navigator, and red mark.",
   "backup.backup": "Single file with your whole logbook: export, share, or restore.",
   "online.device-link": "Connect your phone to the online app: QR code or on-screen code.",
+  "fleet.join": "Enter the code from your fleet manager: the fleet's truck and trailer become yours, and a copy of your shifts goes to the fleet.",
+  "fleet.owner": "Your fleet: drivers, the fleet's garage, adding drivers, trucks and trailers.",
+  "fleet.owner-driver": "Driver card: truck and trailer, a one-time code for the phone, shifts, trips and refuels.",
   "settings.settings": "All settings organized by group.",
   "settings.profile": "Driver name and driver documents. “Border and ferry”. Border and Ferry buttons while driving.",
   "settings.language": "App language, GPS addresses language, and date format.",

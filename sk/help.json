@@ -499,6 +499,37 @@
    ]
   },
   {
+   "slug": "fleet",
+   "title": "Vozový park",
+   "intro": "Vozový park je určený pre firmy s niekoľkými ťahačmi a vodičmi. Správca vozového parku dá každému vodičovi jednorazový kód. Aplikácia vodiča s ním získa ťahač a náves vozového parku a odosiela do vozového parku kópie zmien, jázd a tankovaní. Vlastný denník vodiča zostáva v telefóne.",
+   "steps": [
+    {
+     "id": "join",
+     "title": "Pripojiť sa k vozovému parku kódom",
+     "text": "Pri prvom spustení klepnite na „Jazdím pre vozový park — zadať kód“. Neskôr: Nastavenia → „Profil vodiča“ → „Pripojiť sa k vozovému parku kódom“.\n\nZadajte kód od správcu vozového parku a klepnite na „Pripojiť sa k vozovému parku“. Ak vám správca poslal odkaz (my.vecturabook.com/fleet/join…), stačí ho otvoriť v telefóne: aplikácia sa otvorí s už vyplneným kódom. Celý odkaz môžete tiež vložiť do poľa „Kód“.\n\nKód funguje iba raz a len obmedzený čas. Ak aplikácia hlási, že kód je nesprávny, vypršal alebo už bol použitý, požiadajte správcu vozového parku o nový.",
+     "image": ""
+    },
+    {
+     "id": "in-fleet",
+     "title": "Jazda pre vozový park",
+     "text": "Po pripojení sa ťahač a náves vozového parku zobrazia v Mojom parku a stanú sa vaším ťahačom a návesom — otázky pri prvom spustení nie sú potrebné. „Profil vodiča“ ukazuje „Vozový park:“ s názvom vozového parku, vaším ťahačom a vaším návesom.\n\nZmeny, ktoré otvoríte po pripojení, idú do vozového parku; zmena otvorená pred zadaním kódu zostáva vaša. Kópie zmien, jázd a tankovaní sa odosielajú automaticky, keď je k dispozícii internet; „Odoslať do vozového parku teraz“ ich odošle ihneď. Váš denník v telefóne sa nemení.\n\nAk vám správca počas jazdy pridelí iný ťahač, zmena sa prejaví po skončení jazdy. Ak sa nový kód pre vás použije na inom telefóne, tento telefón vozový park opustí.",
+     "image": ""
+    },
+    {
+     "id": "owner",
+     "title": "Vozový park pre majiteľa",
+     "text": "Pre správcu vozového parku. Zapnite „Majiteľ / Zamestnanec“ v Nastavenia → „Profil vodiča“: zobrazí sa tam riadok „Vozový park“.\n\nVozový park patrí k vášmu účtu VecturaBook. Ak telefón nie je prihlásený, obrazovka hlási „Najprv sa prihláste do svojho účtu:“ — klepnite na „Pripojiť k VecturaBook“ a prihláste sa e-mailom svojho účtu. Ak obrazovka hlási „Tento účet nemá vozový park.“, napíšte nám cez „Spätná väzba / Chyba“ pre otvorenie vozového parku.\n\nObrazovka ukazuje „Vodiči“ — pri každom „Prepojený“ alebo „Zatiaľ neprepojený“, ťahač, náves a počet zmien, jázd a tankovaní — a „Môj park“ vozového parku. Dole: „Pridať vodiča“ s poľom „Meno vodiča“, „+ Pridať ťahač“ („ŠPZ“, „Typ ťahača“, „Typ nadstavby“) a „+ Pridať náves“ („ŠPZ“, kompatibilita, „Typ nadstavby“). To isté sa dá urobiť v prehliadači na my.vecturabook.com.",
+     "image": ""
+    },
+    {
+     "id": "owner-driver",
+     "title": "Vodič",
+     "text": "Klepnutím na vodiča otvoríte kartu. „Ťahač“ a „Náves“: vyberte z garáže vozového parku a klepnite na „Uložiť“. Ponúkajú sa iba návesy, ktoré sa hodia k vybranému ťahaču. Telefón vodiča prevezme zmenu sám; počas jazdy — po skončení jazdy.\n\n„Získať kód“ vygeneruje jednorazový kód s časom, do kedy platí. „Poslať kód vodičovi“ odošle kód a odkaz cez messenger. Kód sa zobrazí iba raz. Nový kód presunie vodiča na nový telefón: starý telefón vozový park opustí.\n\nNižšie sú „Zmeny“, „Jazdy“ a „Tankovania“ vodiča, ktoré dorazili do vozového parku.",
+     "image": ""
+    }
+   ]
+  },
+  {
    "slug": "settings",
    "title": "Nastavenia",
    "intro": "Nastavenia sú rozdelené do skupín: „Jazyk a vzhľad“, „Profil vodiča“, „Správy PDF“, „Záloha“, „Telefón a pripojenie“.",
@@ -512,7 +543,7 @@
     {
      "id": "profile",
      "title": "Profil vodiča",
-     "text": "Meno pre výkazy a dokumenty vodiča: vodičský preukaz, cestovný pas, certifikát ADR — s dátumami platnosti a fotkami strán.\n\n„Hranica a trajekt“. Tlačidlá „Hranica“ a „Trajekt“ na ceste.",
+     "text": "Meno pre výkazy a dokumenty vodiča: vodičský preukaz, cestovný pas, certifikát ADR — s dátumami platnosti a fotkami strán.\n\n„Hranica a trajekt“. Tlačidlá „Hranica“ a „Trajekt“ na ceste.\n\n„Pripojiť sa k vozovému parku kódom“ — pre vodičov vozového parku; „Vozový park“ — pre majiteľov (pozri časť „Vozový park“).",
      "image": "img/sk/settings-profile.png"
     },
     {
@@ -978,6 +1009,9 @@
   "address-book.add-address": "Adresa, súradnica, navigácia a červená značka.",
   "backup.backup": "Súbor s celým denníkom: uložiť, zdieľať alebo obnoviť.",
   "online.device-link": "Pripojenie telefónu k programu online: QR kód alebo kód z obrazovky.",
+  "fleet.join": "Zadajte kód od správcu vozového parku: ťahač a náves vozového parku sa stanú vašimi a kópia vašich zmien pôjde do vozového parku.",
+  "fleet.owner": "Váš vozový park: vodiči, garáž vozového parku, pridávanie vodičov, ťahačov a návesov.",
+  "fleet.owner-driver": "Karta vodiča: ťahač a náves, jednorazový kód pre telefón, zmeny, jazdy a tankovania.",
   "settings.settings": "Všetky nastavenia rozdelené do skupín.",
   "settings.profile": "Meno vodiča a jeho dokumenty. „Hranica a trajekt“. Tlačidlá „Hranica“ a „Trajekt“ na ceste.",
   "settings.language": "Jazyk aplikácie, jazyk pre GPS adresy, formát dátumu.",

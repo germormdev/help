@@ -499,6 +499,37 @@
    ]
   },
   {
+   "slug": "fleet",
+   "title": "Frota da empresa",
+   "intro": "A Frota da empresa destina-se a empresas com vários camiões e motoristas. O gestor da frota fornece a cada motorista um código de utilização única. Com ele, a aplicação do motorista recebe o camião e o reboque da frota e envia uma cópia das jornadas, viagens e abastecimentos para a frota. O próprio diário de bordo do motorista fica no telemóvel.",
+   "steps": [
+    {
+     "id": "join",
+     "title": "Entrar numa frota da empresa com um código",
+     "text": "Na primeira utilização, toque em «Conduzo para uma frota da empresa — inserir código». Mais tarde: Definições → «Perfil do motorista» → «Entrar numa frota da empresa com um código».\n\nIntroduza o código do seu gestor da frota e toque em «Entrar na frota da empresa». Se o gestor lhe enviou uma ligação (my.vecturabook.com/fleet/join…), basta abri-la no seu telemóvel: a aplicação abre com o código já preenchido. Também pode colar a ligação inteira no campo «Código».\n\nO código funciona apenas uma vez e durante um período limitado. Se a aplicação indicar que o código está errado, expirou ou já foi usado, peça um novo ao seu gestor da frota.",
+     "image": ""
+    },
+    {
+     "id": "in-fleet",
+     "title": "Conduzir para uma frota da empresa",
+     "text": "Depois de entrar, o camião e o reboque da frota aparecem em A minha frota e passam a ser o seu camião e o seu reboque — as perguntas da primeira utilização não são necessárias. «Perfil do motorista» mostra «Frota da empresa:» com o nome da frota, o seu camião e o seu reboque.\n\nAs jornadas que abrir após entrar vão para a frota; uma jornada aberta antes de introduzir o código continua a ser sua. Cópias das jornadas, viagens e abastecimentos são enviadas automaticamente quando há internet; «Enviar para a frota da empresa agora» envia-os de imediato. O seu diário de bordo no telemóvel não muda.\n\nSe o gestor lhe atribuir outro camião durante uma viagem, a alteração é aplicada após o fim da viagem. Se for utilizado um novo código para si noutro telemóvel, este telemóvel sai da frota.",
+     "image": ""
+    },
+    {
+     "id": "owner",
+     "title": "Frota da empresa para o proprietário",
+     "text": "Para o gestor da frota. Ative «Proprietário / Contratado» em Definições → «Perfil do motorista»: aí surge a linha «Frota da empresa».\n\nA frota pertence à sua conta do VecturaBook. Se a sessão não estiver iniciada no telemóvel, o ecrã indica «Inicia primeiro sessão na tua conta:» — toque em «Ligar ao VecturaBook» e inicie sessão com o e-mail da sua conta. Se o ecrã indicar «Esta conta não tem frota da empresa.», escreva-nos através de «Comentário / Erro» para abrir uma frota.\n\nO ecrã mostra «Motoristas» — cada um com «Associado» ou «Ainda não associado», camião, reboque e o número de jornadas, viagens e abastecimentos — e «A minha frota» da frota. Em baixo: «Adicionar motorista» com o campo «Nome do motorista», «+ Adicionar camião» («Matrícula», «Tipo de camião», «Tipo de carroçaria») e «+ Adicionar reboque» («Matrícula», compatibilidade, «Tipo de carroçaria»). O mesmo pode ser feito no navegador em my.vecturabook.com.",
+     "image": ""
+    },
+    {
+     "id": "owner-driver",
+     "title": "Motorista",
+     "text": "Toque num motorista para abrir a ficha. «Camião» e «Reboque»: escolha em A minha frota da frota e toque em «Guardar». Apenas são oferecidos reboques compatíveis com o camião escolhido. O telemóvel do motorista assume a alteração sozinho; durante uma viagem — após o fim da viagem.\n\n«Obter código» gera um código de utilização única com a hora até à qual é válido. «Enviar o código ao motorista» envia o código e a ligação através de uma aplicação de mensagens. O código é mostrado apenas uma vez. Um novo código transfere o motorista para um novo telemóvel: o telemóvel antigo sai da frota.\n\nEm baixo estão as «Jornadas», «Viagens» e «Abastecimentos» do motorista que chegaram à frota.",
+     "image": ""
+    }
+   ]
+  },
+  {
    "slug": "settings",
    "title": "Definições",
    "intro": "As definições estão organizadas por grupos: «Idioma e aspeto», «Perfil do motorista», «Relatórios PDF», «Cópia de segurança», «Telefone e conexão».",
@@ -512,7 +543,7 @@
     {
      "id": "profile",
      "title": "Perfil do motorista",
-     "text": "Nome para os relatórios e documentos do motorista: carta de condução, passaporte e certificado ADR — com datas de validade e fotografias das páginas.\n\n«Fronteira e ferry». Botões «Fronteira» e «Ferry» em viagem.",
+     "text": "Nome para os relatórios e documentos do motorista: carta de condução, passaporte e certificado ADR — com datas de validade e fotografias das páginas.\n\n«Fronteira e ferry». Botões «Fronteira» e «Ferry» em viagem.\n\n«Entrar numa frota da empresa com um código» — para motoristas da frota; «Frota da empresa» — para proprietários (consulte a secção «Frota da empresa»).",
      "image": "img/pt/settings-profile.png"
     },
     {
@@ -978,6 +1009,9 @@
   "address-book.add-address": "Morada, coordenada, navegador GPS e marca vermelha.",
   "backup.backup": "Ficheiro com todo o diário: guardar, partilhar ou restaurar.",
   "online.device-link": "Ligação do telemóvel ao programa online: código QR ou código no ecrã.",
+  "fleet.join": "Introduza o código do seu gestor da frota: o camião e o reboque da frota passam a ser seus e uma cópia das suas jornadas vai para a frota.",
+  "fleet.owner": "A sua frota: motoristas, A minha frota da frota, adicionar motoristas, camiões e reboques.",
+  "fleet.owner-driver": "Ficha do motorista: camião e reboque, código de utilização única para o telemóvel, jornadas, viagens e abastecimentos.",
   "settings.settings": "Todas as definições organizadas por grupos.",
   "settings.profile": "Nome do motorista e os seus documentos. «Fronteira e ferry». Botões «Fronteira» e «Ferry» em viagem.",
   "settings.language": "Idioma da app, idioma das moradas GPS e formato da data.",

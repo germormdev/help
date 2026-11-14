@@ -499,6 +499,37 @@
    ]
   },
   {
+   "slug": "fleet",
+   "title": "Şirket filosu",
+   "intro": "Şirket filosu, birden fazla çekicisi ve sürücüsü olan şirketler içindir. Filo yöneticisi her sürücüye tek kullanımlık bir kod verir. Bununla sürücünün uygulaması şirket filosunun çekici ve römorkunu alır ve vardiyaların, seferlerin ve yakıt almaların bir kopyasını şirket filosuna gönderir. Sürücünün kendi defteri telefonda kalır.",
+   "steps": [
+    {
+     "id": "join",
+     "title": "Kodla bir şirket filosuna katıl",
+     "text": "İlk çalıştırmada “Bir şirket filosunda sürüyorum — kodu gir” düğmesine dokunun. Daha sonra: Ayarlar → “Sürücü profili” → “Kodla bir şirket filosuna katıl”.\n\nFilo yöneticinizin verdiği kodu girin ve “Şirket filosuna katıl” düğmesine dokunun. Yönetici size bir bağlantı gönderdiyse (my.vecturabook.com/fleet/join…), bunu telefonunuzda açmanız yeterlidir: uygulama, kod önceden doldurulmuş olarak açılır. Bağlantının tamamını “Kod” alanına da yapıştırabilirsiniz.\n\nKod yalnızca bir kez ve sınırlı bir süre için geçerlidir. Uygulama kodun yanlış, süresi dolmuş ya da zaten kullanılmış olduğunu bildirirse filo yöneticinizden yeni bir kod isteyin.",
+     "image": ""
+    },
+    {
+     "id": "in-fleet",
+     "title": "Bir şirket filosunda sürme",
+     "text": "Katıldıktan sonra, şirket filosunun çekici ve römorku Filoda görünür ve sizin çekiciniz ve römorkunuz olur — ilk çalıştırma sorularına gerek kalmaz. “Sürücü profili”, şirket filosunun adı, çekiciniz ve römorkunuzla birlikte “Şirket filosu:” satırını gösterir.\n\nKatıldıktan sonra açtığınız vardiyalar şirket filosuna gider; kodu girmeden önce açılan bir vardiya ise sizde kalır. İnternet olduğunda vardiyaların, seferlerin ve yakıt almaların kopyaları otomatik olarak gönderilir; “Şimdi şirket filosuna gönder” bunları hemen gönderir. Telefondaki defteriniz değişmez.\n\nYönetici bir sefer sırasında size başka bir çekici verirse, değişiklik sefer bittikten sonra geçerli olur. Sizin için yeni bir kod başka bir telefonda kullanılırsa, bu telefon şirket filosundan ayrılır.",
+     "image": ""
+    },
+    {
+     "id": "owner",
+     "title": "Sahip için şirket filosu",
+     "text": "Filo yöneticisi için. Ayarlar → “Sürücü profili” bölümünde “Sahip / Ücretli” seçeneğini açın: orada “Şirket filosu” satırı görünür.\n\nŞirket filosu VecturaBook hesabınıza aittir. Telefonda giriş yapılmamışsa ekranda “Önce hesabına giriş yap:” yazar — “VecturaBook’a bağlan” düğmesine dokunun ve hesabınızın e-postasıyla giriş yapın. Ekranda “Bu hesabın şirket filosu yok.” yazıyorsa bir şirket filosu açmak için “Geri Bildirim / Hata Bildir” üzerinden bize yazın.\n\nEkranda “Sürücüler” — her biri “Bağlı” veya “Henüz bağlı değil”, çekici, römork ve vardiya, sefer ve yakıt alma sayısıyla birlikte — ve şirket filosunun “Filo”su görünür. Aşağıda: “Sürücünün adı” alanıyla “Sürücü ekle”, “+ Çekici Ekle” (“Plaka Numarası”, “Çekici Tipi”, “Kasa Tipi”) ve “+ Römork Ekle” (“Plaka Numarası”, uyumluluk, “Kasa Tipi”). Aynısı tarayıcınızda my.vecturabook.com üzerinden de yapılabilir.",
+     "image": ""
+    },
+    {
+     "id": "owner-driver",
+     "title": "Sürücü",
+     "text": "Kartını açmak için bir sürücüye dokunun. “Çekici” ve “Römork”: şirket filosunun filosundan seçin ve “Kaydet” düğmesine dokunun. Yalnızca seçilen çekiciye uyan römorklar sunulur. Sürücünün telefonu değişikliği kendisi alır; sefer sırasındaysa — sefer bittikten sonra.\n\n“Kod al”, ne zamana kadar geçerli olduğu bilgisiyle birlikte tek kullanımlık bir kod verir. “Kodu sürücüye gönder”, kodu ve bağlantıyı bir mesajlaşma uygulaması üzerinden gönderir. Kod yalnızca bir kez gösterilir. Yeni bir kod sürücüyü yeni bir telefona taşır: eski telefon şirket filosundan ayrılır.\n\nAşağıda sürücünün şirket filosuna ulaşan “Vardiyalar”, “Sefer” ve “Yakıt almalar” kayıtları yer alır.",
+     "image": ""
+    }
+   ]
+  },
+  {
    "slug": "settings",
    "title": "Ayarlar",
    "intro": "Ayarlar gruplar halinde toplanmıştır: «Dil ve görünüm», «Sürücü profili», «PDF raporları», «Yedekleme», «Telefon ve bağlantı».",
@@ -512,7 +543,7 @@
     {
      "id": "profile",
      "title": "Sürücü profili",
-     "text": "Raporlar için ad ve sürücü belgeleri: sürücü belgesi, pasaport, ADR Belgesi — geçerlilik tarihleri ve sayfa fotoğraflarıyla.\n\n«Sınır ve feribot». Yolda «Sınır» ve «Feribot» düğmeleri.",
+     "text": "Raporlar için ad ve sürücü belgeleri: sürücü belgesi, pasaport, ADR Belgesi — geçerlilik tarihleri ve sayfa fotoğraflarıyla.\n\n«Sınır ve feribot». Yolda «Sınır» ve «Feribot» düğmeleri.\n\n“Kodla bir şirket filosuna katıl” — şirket filosu sürücüleri için; “Şirket filosu” — sahipler için (“Şirket filosu” bölümüne bakın).",
      "image": "img/tr/settings-profile.png"
     },
     {
@@ -978,6 +1009,9 @@
   "address-book.add-address": "Adres, koordinat, navigasyon ve kırmızı işaret.",
   "backup.backup": "Tüm defteri içeren dosya: kaydetme, gönderme veya geri yükleme.",
   "online.device-link": "Telefonu çevrimiçi programa bağlama: QR kodu veya ekrandaki kod.",
+  "fleet.join": "Filo yöneticinizin verdiği kodu girin: şirket filosunun çekici ve römorku sizin olur ve vardiyalarınızın bir kopyası şirket filosuna gider.",
+  "fleet.owner": "Şirket filonuz: sürücüler, şirket filosunun filosu, sürücü, çekici ve römork ekleme.",
+  "fleet.owner-driver": "Sürücü kartı: çekici ve römork, telefon için tek kullanımlık kod, vardiyalar, seferler ve yakıt almalar.",
   "settings.settings": "Gruplar halinde tüm ayarlar.",
   "settings.profile": "Sürücü adı ve belgeleri. «Sınır ve feribot». Yolda «Sınır» ve «Feribot» düğmeleri.",
   "settings.language": "Uygulama dili, GPS adreslerinin dili, tarih biçimi.",

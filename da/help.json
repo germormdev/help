@@ -499,6 +499,37 @@
    ]
   },
   {
+   "slug": "fleet",
+   "title": "Flåde",
+   "intro": "Flåde er til virksomheder med flere lastbiler og chauffører. Den flådeansvarlige giver hver chauffør en engangskode. Med den får chaufførens app flådens lastbil og anhænger og sender en kopi af vagter, ture og tankninger til flåden. Chaufførens egen kørebog bliver på telefonen.",
+   "steps": [
+    {
+     "id": "join",
+     "title": "Tilslut en flåde med en kode",
+     "text": "Tryk ved første start på \"Jeg kører for en flåde — indtast kode\". Senere: Indstillinger → \"Chaufførprofil\" → \"Tilslut en flåde med en kode\".\n\nIndtast koden fra din flådeansvarlige, og tryk på \"Tilslut flåden\". Hvis den flådeansvarlige har sendt dig et link (my.vecturabook.com/fleet/join…), skal du bare åbne det på din telefon: appen åbner med koden allerede udfyldt. Du kan også indsætte hele linket i feltet \"Kode\".\n\nKoden virker kun én gang og kun i begrænset tid. Hvis appen melder, at koden er forkert, udløbet eller allerede brugt, så bed din flådeansvarlige om en ny.",
+     "image": ""
+    },
+    {
+     "id": "in-fleet",
+     "title": "Kør for en flåde",
+     "text": "Efter tilslutning vises flådens lastbil og anhænger i Vognpark og bliver til din lastbil og anhænger — spørgsmålene ved første start er ikke nødvendige. \"Chaufførprofil\" viser \"Flåde:\" med flådens navn, din lastbil og din anhænger.\n\nVagter, du åbner efter tilslutning, sendes til flåden; en vagt, der er åbnet før du indtastede koden, forbliver din egen. Kopier af vagter, ture og tankninger sendes automatisk, når der er internetforbindelse; \"Send til flåden nu\" sender dem med det samme. Din kørebog på telefonen ændres ikke.\n\nHvis den flådeansvarlige tildeler dig en anden lastbil under en tur, træder ændringen i kraft, når turen afsluttes. Hvis en ny kode til dig bruges på en anden telefon, forlader denne telefon flåden.",
+     "image": ""
+    },
+    {
+     "id": "owner",
+     "title": "Flåde for ejeren",
+     "text": "Til den flådeansvarlige. Slå \"Ejer / Ansat\" til under Indstillinger → \"Chaufførprofil\": rækken \"Flåde\" vises der.\n\nFlåden hører til din VecturaBook-konto. Hvis telefonen ikke er logget ind, viser skærmen \"Log først ind på din konto:\" — tryk på \"Forbind til VecturaBook\", og log ind med din kontos e-mail. Hvis skærmen viser \"Denne konto har ingen flåde.\", så skriv til os via \"Feedback / Fejlrapport\" for at få oprettet en flåde.\n\nSkærmen viser \"Chauffører\" — hver med \"Tilknyttet\" eller \"Ikke tilknyttet endnu\", lastbil, anhænger og antallet af vagter, ture og tankninger — samt flådens \"Vognpark\". Nedenfor: \"Tilføj chauffør\" med feltet \"Chaufførens navn\", \"+ Tilføj lastbil\" (\"Nummerplade\", \"Lastbiltype\", \"Opbygningstype\") og \"+ Tilføj anhænger\" (\"Nummerplade\", kompatibilitet, \"Opbygningstype\"). Det samme kan gøres i din browser på my.vecturabook.com.",
+     "image": ""
+    },
+    {
+     "id": "owner-driver",
+     "title": "Chauffør",
+     "text": "Tryk på en chauffør for at åbne kortet. \"Lastbil\" og \"Anhænger\": vælg fra flådens vognpark, og tryk på \"Gem\". Der tilbydes kun anhængere, som passer til den valgte lastbil. Chaufførens telefon opfanger selv ændringen; under en tur — når turen er slut.\n\n\"Hent kode\" giver en engangskode med oplysning om, hvor længe den er gyldig. \"Send koden til chaufføren\" sender koden og linket via en beskedapp. Koden vises kun én gang. En ny kode flytter chaufføren til en ny telefon: den gamle telefon forlader flåden.\n\nNedenfor ses chaufførens \"Vagter\", \"Ture\" og \"Tankninger\", som er nået frem til flåden.",
+     "image": ""
+    }
+   ]
+  },
+  {
    "slug": "settings",
    "title": "Indstillinger",
    "intro": "Indstillingerne er samlet i grupper: »Sprog og udseende«, »Chaufførprofil«, »PDF-rapporter«, »Sikkerhedskopi«, »Telefon og forbindelse«.",
@@ -512,7 +543,7 @@
     {
      "id": "profile",
      "title": "Chaufførprofil",
-     "text": "Navn til rapporter og chaufførens dokumenter: kørekort, pas og ADR-certifikat — med udløbsdatoer og fotos af siderne.\n\n»Grænse og færge«. Knapperne »Grænse« og »Færge« undervejs.",
+     "text": "Navn til rapporter og chaufførens dokumenter: kørekort, pas og ADR-certifikat — med udløbsdatoer og fotos af siderne.\n\n»Grænse og færge«. Knapperne »Grænse« og »Færge« undervejs.\n\n\"Tilslut en flåde med en kode\" — for flådechauffører; \"Flåde\" — for ejere (se afsnittet \"Flåde\").",
      "image": "img/da/settings-profile.png"
     },
     {
@@ -978,6 +1009,9 @@
   "address-book.add-address": "Adresse, koordinat, navigation og rød markering.",
   "backup.backup": "Fil med hele kørebogen: gem, send eller gendan.",
   "online.device-link": "Forbind telefonen til programmet online: QR-kode eller kode fra skærmen.",
+  "fleet.join": "Indtast koden fra din flådeansvarlige: flådens lastbil og anhænger bliver dine, og en kopi af dine vagter sendes til flåden.",
+  "fleet.owner": "Din flåde: chauffører, flådens vognpark, tilføjelse af chauffører, lastbiler og anhængere.",
+  "fleet.owner-driver": "Chaufførkort: lastbil og anhænger, en engangskode til telefonen, vagter, ture og tankninger.",
   "settings.settings": "Alle indstillinger opdelt i grupper.",
   "settings.profile": "Chaufførens navn og dokumenter. »Grænse og færge«. Knapperne »Grænse« og »Færge« undervejs.",
   "settings.language": "App-sprog, sprog for GPS-adresser, datoformat.",

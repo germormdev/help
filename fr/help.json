@@ -499,6 +499,37 @@
    ]
   },
   {
+   "slug": "fleet",
+   "title": "Flotte",
+   "intro": "Flotte s'adresse aux entreprises comptant plusieurs camions et chauffeurs. Le responsable de flotte remet à chaque chauffeur un code à usage unique. Grâce à lui, l'application du chauffeur récupère le camion et la remorque de la flotte et envoie une copie des journées, trajets et pleins à la flotte. Le propre carnet de bord du chauffeur reste sur le téléphone.",
+   "steps": [
+    {
+     "id": "join",
+     "title": "Rejoindre une flotte avec un code",
+     "text": "Au premier lancement, appuyez sur « Je conduis pour une flotte — saisir le code ». Plus tard : Paramètres → « Profil du conducteur » → « Rejoindre une flotte avec un code ».\n\nSaisissez le code fourni par votre responsable de flotte et appuyez sur « Rejoindre la flotte ». Si le responsable vous a envoyé un lien (my.vecturabook.com/fleet/join…), ouvrez-le simplement sur votre téléphone : l'application s'ouvre avec le code déjà rempli. Vous pouvez aussi coller l'ensemble du lien dans le champ « Code ».\n\nLe code ne fonctionne qu'une seule fois et pour une durée limitée. Si l'application indique que le code est faux, expiré ou déjà utilisé, demandez-en un nouveau à votre responsable de flotte.",
+     "image": ""
+    },
+    {
+     "id": "in-fleet",
+     "title": "Conduire pour une flotte",
+     "text": "Après avoir rejoint la flotte, le camion et la remorque de la flotte apparaissent dans Mon parc et deviennent votre camion et votre remorque — les questions du premier lancement ne sont pas nécessaires. « Profil du conducteur » affiche « Flotte : » avec le nom de la flotte, votre camion et votre remorque.\n\nLes journées que vous ouvrez après avoir rejoint la flotte vont à la flotte ; une journée ouverte avant d'avoir saisi le code reste la vôtre. Les copies des journées, trajets et pleins sont envoyées automatiquement lorsqu'il y a une connexion Internet ; « Envoyer à la flotte maintenant » les envoie immédiatement. Votre carnet de bord sur le téléphone ne change pas.\n\nSi le responsable vous attribue un autre camion pendant un trajet, le changement s'applique à la fin du trajet. Si un nouveau code vous concernant est utilisé sur un autre téléphone, ce téléphone quitte la flotte.",
+     "image": ""
+    },
+    {
+     "id": "owner",
+     "title": "Flotte pour le propriétaire",
+     "text": "Pour le responsable de flotte. Activez « Propriétaire / Salarié » dans Paramètres → « Profil du conducteur » : la ligne « Flotte » y apparaît.\n\nLa flotte appartient à votre compte VecturaBook. Si le téléphone n'est pas connecté, l'écran indique « Connecte-toi d'abord à ton compte : » — appuyez sur « Se connecter à VecturaBook » et connectez-vous avec l'adresse e-mail de votre compte. Si l'écran affiche « Ce compte n'a pas de flotte. », écrivez-nous via « Retour / Bug » pour ouvrir une flotte.\n\nL'écran affiche « Chauffeurs » — chacun avec « Associé » ou « Pas encore associé », camion, remorque et le nombre de journées, trajets et pleins — ainsi que « Mon parc » de la flotte. En dessous : « Ajouter un chauffeur » avec le champ « Nom du chauffeur », « + Ajouter un camion » (« Immatriculation », « Type de camion », « Type de carrosserie ») et « + Ajouter une remorque » (« Immatriculation », compatibilité, « Type de carrosserie »). Vous pouvez faire de même dans votre navigateur sur my.vecturabook.com.",
+     "image": ""
+    },
+    {
+     "id": "owner-driver",
+     "title": "Chauffeur",
+     "text": "Appuyez sur un chauffeur pour ouvrir sa fiche. « Camion » et « Remorque » : choisissez dans Mon parc de la flotte et appuyez sur « Enregistrer ». Seules les remorques compatibles avec le camion choisi sont proposées. Le téléphone du chauffeur applique la modification de lui-même ; pendant un trajet — après la fin du trajet.\n\n« Obtenir un code » donne un code à usage unique avec l'heure jusqu'à laquelle il est valide. « Envoyer le code au chauffeur » envoie le code et le lien par messagerie. Le code n'est affiché qu'une seule fois. Un nouveau code transfère le chauffeur sur un nouveau téléphone : l'ancien téléphone quitte la flotte.\n\nEn dessous figurent les « Journées », « Trajets » et « Pleins » du chauffeur qui sont parvenus à la flotte.",
+     "image": ""
+    }
+   ]
+  },
+  {
    "slug": "settings",
    "title": "Paramètres",
    "intro": "Les paramètres sont regroupés par rubriques : « Langue et apparence », « Profil du conducteur », « Rapports PDF », « Sauvegarde », « Téléphone et connexion ».",
@@ -512,7 +543,7 @@
     {
      "id": "profile",
      "title": "Profil du conducteur",
-     "text": "Nom pour les rapports et documents du chauffeur : permis de conduire, passeport, certificat ADR — avec dates d'échéance et photos des pages.\n\n« Frontière et ferry ». Boutons « Frontière » et « Ferry » en route.",
+     "text": "Nom pour les rapports et documents du chauffeur : permis de conduire, passeport, certificat ADR — avec dates d'échéance et photos des pages.\n\n« Frontière et ferry ». Boutons « Frontière » et « Ferry » en route.\n\n« Rejoindre une flotte avec un code » — pour les chauffeurs de flotte ; « Flotte » — pour les propriétaires (voir la rubrique « Flotte »).",
      "image": "img/fr/settings-profile.png"
     },
     {
@@ -978,6 +1009,9 @@
   "address-book.add-address": "Adresse, coordonnée, navigateur GPS et marque rouge.",
   "backup.backup": "Fichier contenant tout le carnet : enregistrer, partager ou restaurer.",
   "online.device-link": "Connexion du téléphone au programme en ligne : code QR ou code affiché à l'écran.",
+  "fleet.join": "Saisissez le code de votre responsable de flotte : le camion et la remorque de la flotte deviennent les vôtres, et une copie de vos journées est envoyée à la flotte.",
+  "fleet.owner": "Votre flotte : chauffeurs, Mon parc de la flotte, ajout de chauffeurs, de camions et de remorques.",
+  "fleet.owner-driver": "Fiche du chauffeur : camion et remorque, code à usage unique pour le téléphone, journées, trajets et pleins.",
   "settings.settings": "Tous les paramètres regroupés par rubriques.",
   "settings.profile": "Nom du conducteur et ses documents. « Frontière et ferry ». Boutons « Frontière » et « Ferry » en route.",
   "settings.language": "Langue de l'application, langue des adresses GPS, format de date.",

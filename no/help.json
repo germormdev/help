@@ -499,6 +499,37 @@
    ]
   },
   {
+   "slug": "fleet",
+   "title": "Bilpark",
+   "intro": "Bilpark er for bedrifter med flere lastebiler og sjåfører. Bilparkansvarlig gir hver sjåfør en engangskode. Med den får sjåførens app bilparkens lastebil og tilhenger og sender en kopi av skift, turer og tankinger til bilparken. Sjåførens egen kjørebok blir på telefonen.",
+   "steps": [
+    {
+     "id": "join",
+     "title": "Bli med i en bilpark med kode",
+     "text": "Ved første oppstart trykker du på «Jeg kjører for en bilpark — skriv inn kode». Senere: Innstillinger → «Sjåførprofil» → «Bli med i en bilpark med kode».\n\nSkriv inn koden fra bilparkansvarlig og trykk «Bli med i bilparken». Hvis bilparkansvarlig har sendt deg en lenke (my.vecturabook.com/fleet/join…), åpner du den bare på telefonen: appen åpnes med koden ferdig utfylt. Du kan også lime inn hele lenken i feltet «Kode».\n\nKoden virker bare én gang og kun i begrenset tid. Hvis appen sier at koden er feil, utløpt eller allerede brukt, ber du bilparkansvarlig om en ny.",
+     "image": ""
+    },
+    {
+     "id": "in-fleet",
+     "title": "Kjøre for en bilpark",
+     "text": "Etter at du har blitt med, vises bilparkens lastebil og tilhenger i Vognpark og blir din lastebil og tilhenger — spørsmålene ved første oppstart trengs ikke. «Sjåførprofil» viser «Bilpark:» med bilparkens navn, din lastebil og din tilhenger.\n\nSkift du åpner etter at du ble med, går til bilparken; et skift som ble åpnet før du skrev inn koden, forblir ditt. Kopier av skift, turer og tankinger sendes automatisk når det er internettforbindelse; «Send til bilparken nå» sender dem med en gang. Kjøreboken din på telefonen endres ikke.\n\nHvis bilparkansvarlig gir deg en annen lastebil under en tur, trer endringen i kraft etter at turen er avsluttet. Hvis en ny kode for deg brukes på en annen telefon, forlater denne telefonen bilparken.",
+     "image": ""
+    },
+    {
+     "id": "owner",
+     "title": "Bilpark for eieren",
+     "text": "For bilparkansvarlig. Slå på «Eier / Ansatt» i Innstillinger → «Sjåførprofil»: raden «Bilpark» vises der.\n\nBilparken tilhører din VecturaBook-konto. Hvis telefonen ikke er logget inn, viser skjermen «Logg først inn på kontoen din:» — trykk «Koble til VecturaBook» og logg inn med e-postadressen til kontoen din. Hvis skjermen viser «Denne kontoen har ingen bilpark.», skriver du til oss via «Tilbakemelding / Feilrapport» for å opprette en bilpark.\n\nSkjermen viser «Sjåfører» — hver med «Koblet» eller «Ikke koblet ennå», lastebil, tilhenger og antall skift, turer og tankinger — og bilparkens «Vognpark». Nedenfor: «Legg til sjåfør» med feltet «Sjåførens navn», «+ Legg til lastebil» («Registreringsnummer», «Lastebiltype», «Påbyggtype») og «+ Legg til tilhenger» («Registreringsnummer», kompatibilitet, «Påbyggtype»). Det samme kan gjøres i nettleseren på my.vecturabook.com.",
+     "image": ""
+    },
+    {
+     "id": "owner-driver",
+     "title": "Sjåfør",
+     "text": "Trykk på en sjåfør for å åpne kortet. «Lastebil» og «Tilhenger»: velg fra bilparkens vognpark og trykk «Lagre». Bare tilhengere som passer til den valgte lastebilen tilbys. Sjåførens telefon fanger opp endringen av seg selv; under en tur — etter at turen er avsluttet.\n\n«Hent kode» gir en engangskode med tidspunktet den er gyldig til. «Send koden til sjåføren» sender koden og lenken via en meldingstjeneste. Koden vises bare én gang. En ny kode flytter sjåføren til en ny telefon: den gamle telefonen forlater bilparken.\n\nNedenfor vises sjåførens «Skift», «Turer» og «Tankinger» som har nådd bilparken.",
+     "image": ""
+    }
+   ]
+  },
+  {
    "slug": "settings",
    "title": "Innstillinger",
    "intro": "Innstillingene er samlet i grupper: «Språk og utseende», «Sjåførprofil», «PDF-rapporter», «Sikkerhetskopi», «Telefon og tilkobling».",
@@ -512,7 +543,7 @@
     {
      "id": "profile",
      "title": "Sjåførprofil",
-     "text": "Navn til rapporter og sjåførens dokumenter: «Førerkort», «Pass», «ADR-sertifikat» — med utløpsdatoer og bilder av sidene.\n\n«Grense og ferje». Knappene «Grense» og «Ferje» underveis.",
+     "text": "Navn til rapporter og sjåførens dokumenter: «Førerkort», «Pass», «ADR-sertifikat» — med utløpsdatoer og bilder av sidene.\n\n«Grense og ferje». Knappene «Grense» og «Ferje» underveis.\n\n«Bli med i en bilpark med kode» — for bilparksjåfører; «Bilpark» — for eiere (se delen «Bilpark»).",
      "image": "img/no/settings-profile.png"
     },
     {
@@ -978,6 +1009,9 @@
   "address-book.add-address": "Adresse, koordinat, navigasjon og rød merking.",
   "backup.backup": "Fil med hele kjøreboken: lagre, del eller gjenopprett.",
   "online.device-link": "Koble telefonen til programmet på nett: QR-kode eller kode fra skjermen.",
+  "fleet.join": "Skriv inn koden fra din bilparkansvarlig: bilparkens lastebil og tilhenger blir dine, og en kopi av skiftene dine sendes til bilparken.",
+  "fleet.owner": "Din bilpark: sjåfører, bilparkens vognpark, legge til sjåfører, lastebiler og tilhengere.",
+  "fleet.owner-driver": "Sjåførkort: lastebil og tilhenger, en engangskode til telefonen, skift, turer og tankinger.",
   "settings.settings": "Alle innstillinger delt inn i grupper.",
   "settings.profile": "Sjåførens navn og dokumenter. «Grense og ferje». Knappene «Grense» og «Ferje» underveis.",
   "settings.language": "App-språk, språk for GPS-adresser, datoformat.",

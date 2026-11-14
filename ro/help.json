@@ -499,6 +499,37 @@
    ]
   },
   {
+   "slug": "fleet",
+   "title": "Flotă",
+   "intro": "Flota este destinată companiilor cu mai multe camioane și șoferi. Managerul flotei îi oferă fiecărui șofer un cod de unică folosință. Cu acesta, aplicația șoferului preia camionul și remorca flotei și trimite o copie a turelor, curselor și alimentărilor către flotă. Jurnalul propriu al șoferului rămâne pe telefon.",
+   "steps": [
+    {
+     "id": "join",
+     "title": "Intră într-o flotă cu un cod",
+     "text": "La prima pornire, apăsați „Conduc pentru o flotă — introdu codul”. Mai târziu: Setări → „Profilul șoferului” → „Intră într-o flotă cu un cod”.\n\nIntroduceți codul primit de la managerul flotei și apăsați „Intră în flotă”. Dacă managerul v-a trimis un link (my.vecturabook.com/fleet/join…), deschideți-l pur și simplu pe telefon: aplicația se deschide cu codul deja completat. De asemenea, puteți lipi întregul link în câmpul „Cod”.\n\nCodul funcționează o singură dată și doar pentru un timp limitat. Dacă aplicația spune că acest cod este greșit, expirat sau deja folosit, cereți unul nou managerului flotei.",
+     "image": ""
+    },
+    {
+     "id": "in-fleet",
+     "title": "Conducerea pentru o flotă",
+     "text": "După ce intrați în flotă, camionul și remorca flotei apar în Parcul meu și devin camionul și remorca dumneavoastră — întrebările de la prima pornire nu mai sunt necesare. „Profilul șoferului” arată „Flotă:” cu numele flotei, camionul și remorca dumneavoastră.\n\nTurele pe care le deschideți după intrarea în flotă merg la flotă; o tură deschisă înainte de a introduce codul rămâne a dumneavoastră. Copiile turelor, curselor și alimentărilor sunt trimise automat atunci când există internet; „Trimite la flotă acum” le trimite imediat. Jurnalul dumneavoastră de pe telefon nu se modifică.\n\nDacă managerul vă atribuie un alt camion în timpul unei curse, modificarea se aplică după încheierea cursei. Dacă un cod nou pentru dumneavoastră este folosit pe un alt telefon, acest telefon părăsește flota.",
+     "image": ""
+    },
+    {
+     "id": "owner",
+     "title": "Flota pentru proprietar",
+     "text": "Pentru managerul flotei. Activați „Proprietar / Angajat” în Setări → „Profilul șoferului”: acolo apare rândul „Flotă”.\n\nFlota aparține contului dumneavoastră VecturaBook. Dacă pe telefon nu sunteți conectat, pe ecran apare „Mai întâi conectați-vă la contul dvs.:” — apăsați „Conectare la VecturaBook” și conectați-vă cu adresa de e-mail a contului dumneavoastră. Dacă pe ecran scrie „Acest cont nu are flotă.”, scrieți-ne prin „Feedback / Raportare eroare” pentru a deschide o flotă.\n\nPe ecran apar „Șoferi” — fiecare cu „Conectat” sau „Încă neconectat”, camion, remorcă și numărul de ture, curse și alimentări — și „Parcul meu” al flotei. Dedesubt: „Adaugă șofer” cu câmpul „Numele șoferului”, „+ Adaugă camion” („Număr de înmatriculare”, „Tip de camion”, „Tip de caroserie”) și „+ Adaugă remorcă” („Număr de înmatriculare”, compatibilitate, „Tip de caroserie”). Același lucru se poate face în browser pe my.vecturabook.com.",
+     "image": ""
+    },
+    {
+     "id": "owner-driver",
+     "title": "Șofer",
+     "text": "Apăsați pe un șofer pentru a deschide cardul. „Camion” și „Remorcă”: alegeți din parcul flotei și apăsați „Salvează”. Sunt propuse doar remorcile care se potrivesc cu camionul ales. Telefonul șoferului preia modificarea de la sine; în timpul unei curse — după încheierea cursei.\n\n„Obține cod” generează un cod de unică folosință cu ora până la care este valabil. „Trimite codul șoferului” trimite codul și linkul printr-o aplicație de mesagerie. Codul este afișat o singură dată. Un cod nou transferă șoferul pe un telefon nou: vechiul telefon părăsește flota.\n\nDedesubt se află „Ture”, „Curse” și „Alimentări” ale șoferului care au ajuns la flotă.",
+     "image": ""
+    }
+   ]
+  },
+  {
    "slug": "settings",
    "title": "Setări",
    "intro": "Setările sunt împărțite pe grupuri: „Limbă și aspect”, „Profilul șoferului”, „Rapoarte PDF”, „Copie de rezervă”, „Telefon și conexiune”.",
@@ -512,7 +543,7 @@
     {
      "id": "profile",
      "title": "Profilul șoferului",
-     "text": "Numele pentru rapoarte și documentele șoferului: „Permis de conducere”, „Pașaport”, „Certificat ADR” — cu date de expirare și fotografiile paginilor.\n\n„Frontieră și feribot”. Butoanele „Frontieră” și „Feribot” pe drum.",
+     "text": "Numele pentru rapoarte și documentele șoferului: „Permis de conducere”, „Pașaport”, „Certificat ADR” — cu date de expirare și fotografiile paginilor.\n\n„Frontieră și feribot”. Butoanele „Frontieră” și „Feribot” pe drum.\n\n„Intră într-o flotă cu un cod” — pentru șoferii de flotă; „Flotă” — pentru proprietari (vedeți capitolul „Flotă”).",
      "image": "img/ro/settings-profile.png"
     },
     {
@@ -978,6 +1009,9 @@
   "address-book.add-address": "Adresa, coordonata, navigația și marcajul roșu.",
   "backup.backup": "Fișierul cu întregul jurnal: salvare, trimitere sau restaurare.",
   "online.device-link": "Conectarea telefonului la programul online: cod QR sau cod de pe ecran.",
+  "fleet.join": "Introduceți codul primit de la managerul flotei: camionul și remorca flotei devin ale dumneavoastră, iar o copie a turelor merge la flotă.",
+  "fleet.owner": "Flota dumneavoastră: șoferi, parcul flotei, adăugarea de șoferi, camioane și remorci.",
+  "fleet.owner-driver": "Cardul șoferului: camion și remorcă, un cod de unică folosință pentru telefon, ture, curse și alimentări.",
   "settings.settings": "Toate setările grupate pe categorii.",
   "settings.profile": "Numele șoferului și documentele sale. „Frontieră și feribot”. Butoanele „Frontieră” și „Feribot” pe drum.",
   "settings.language": "Limba aplicației, limba adreselor GPS, formatul datei.",
