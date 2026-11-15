@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "et",
- "revision": "2026-10-26",
+ "revision": "2026-11-15",
  "sections": [
   {
    "slug": "getting-started",
@@ -501,30 +501,42 @@
   {
    "slug": "fleet",
    "title": "Autopark",
-   "intro": "Autopark on mõeldud ettevõtetele, kus on mitu veokit ja juhti. Autopargi juht annab igale juhile ühekordse koodi. Selle abil saab juhi rakendus autopargi veoki ja haagise ning saadab vahetuste, reiside ja tankimiste koopia autoparki. Juhi enda päevik jääb telefoni.",
+   "intro": "Autopark on mitme sõiduki ja juhiga ettevõtetele. Autopargi juht annab igale juhile ühekordse koodi. Sellega tekib telefoni eraldi autopargi päevik autopargi veoki ja haagisega; mida sinna kirja panete, läheb autoparki. „Minu päevik“ — teie enda päevik — jääb, nagu oli, ja jääb teie omaks.",
    "steps": [
     {
      "id": "join",
      "title": "Liitu autopargiga koodiga",
-     "text": "Esimesel käivitusel vajutage „Sõidan autopargile — sisesta kood“. Hiljem: Seaded → „Juhi profiil“ → „Liitu autopargiga koodiga“.\n\nSisestage autopargi juhilt saadud kood ja vajutage „Liitu autopargiga“. Kui autopargi juht saatis teile lingi (my.vecturabook.com/fleet/join…), avage see lihtsalt oma telefonis: rakendus avaneb juba sisestatud koodiga. Samuti võite kleepida kogu lingi väljale „Kood“.\n\nKood töötab ainult üks kord ja ainult piiratud aja. Kui rakendus teatab, et kood on vale, aegunud või juba kasutatud, küsige autopargi juhilt uus.",
+     "text": "Esimesel käivitusel vajutage „Sõidan autopargile — sisesta kood“. Hiljem: Seaded → „Juhi profiil“ → „Liitu autopargiga koodiga“.\n\nSisestage autopargi juhilt saadud kood ja vajutage „Liitu autopargiga“. Kui autopargi juht saatis teile lingi (my.vecturabook.com/fleet/join…), avage see lihtsalt oma telefonis: rakendus avaneb juba sisestatud koodiga. Samuti võite kleepida kogu lingi väljale „Kood“.\n\nKood töötab ainult üks kord ja ainult piiratud aja. Kui rakendus teatab, et kood on vale, aegunud või juba kasutatud, küsige autopargi juhilt uus.\n\nKui telefon on juba teises autopargis, küsib rakendus kõigepealt: uus kood saadab viimased sissekanded sellesse autoparki ja lahkub sealt ning selle päevik jääb telefoni ainult vaatamiseks. Lõpetage seal esmalt sõit ja vahetus, muidu ütleb rakendus „Lõpeta esmalt praegune reis.“ või „Lõpeta esmalt autopargi vahetus.“ Ilma internetita ei muutu midagi.",
      "image": ""
     },
     {
      "id": "in-fleet",
-     "title": "Sõitmine autopargile",
-     "text": "Pärast liitumist ilmuvad autopargi veok ja haagis Garaaži ning neist saavad teie veok ja haagis — esimese käivituse küsimusi pole vaja. „Juhi profiil“ näitab „Autopark:“ koos autopargi nime, teie veoki ja teie haagisega.\n\nVahetused, mille avate pärast liitumist, lähevad autoparki; enne koodi sisestamist avatud vahetus jääb teile. Vahetuste, reiside ja tankimiste koopiad saadetakse internetiühenduse olemasolul automaatselt; „Saada autoparki kohe“ saadab need kohe. Teie päevik telefonis ei muutu.\n\nKui autopargi juht määrab teile reisi ajal teise veoki, jõustub muudatus pärast reisi lõppu. Kui teie jaoks mõeldud uut koodi kasutatakse teises telefonis, lahkub see telefon autopargist.",
+     "title": "Kaks päevikut",
+     "text": "Pärast liitumist on telefonis kaks päevikut: „Minu päevik“ ja autopargi päevik. Iga ekraani ülaosas olev riba näitab, kumb on avatud: sinakashall „Minu päevik“ või lilla autopargi nimega. Puudutage riba, et valida teine („Milline päevik?“). Vahetada saab ainult siis, kui sõit pole alanud, muidu „Lõpeta esmalt praegune reis.“\n\nAutopargi päeviku vahetused, sõidud ja tankimised lähevad autoparki ise, kui internet on olemas; „Saada autoparki kohe“ jaotises „Juhi profiil“ saadab need kohe. „Minu päevik“ ei lähe kunagi autoparki — ainult teie enda kontole. Igal päevikul on oma vahetus, mustandid ja taimerid.\n\nKui juht annab teile sõidu ajal teise veoki, jõuab muudatus pärale pärast sõidu lõppu.",
+     "image": ""
+    },
+    {
+     "id": "own-truck",
+     "title": "Oma veok",
+     "text": "Kui sõidate autopargile oma veokiga, puudutage „Sõidan autopargile oma veokiga“ jaotises „Juhi profiil“ ja valige oma veok („Garaaž“, „Minu päevik“). Sellest saab autopargi päevikus veok ja autopark näeb selle numbrit teie sõitudes.\n\nOma veoki kütus on teie kulu: selle tankimised lähevad alati „Minu päevik“, isegi kui autopargi päevik on avatud. Kui oma vahetus pole avatud, saab „Minu päevik“ lühikese suletud vahetuse autopargile töötamise ajaks — nii on tankimine nii teie aruannetes kui ka teie kontol. Autopargi veoki ja autopargi haagise seadme kütus läheb autoparki. Peatus mõlemaga salvestub tervikuna: kui üks osa ei salvestu, ei salvestu midagi.\n\nOma veoki odomeeter jookseb edasi läbi mõlema päeviku.",
+     "image": ""
+    },
+    {
+     "id": "leave",
+     "title": "Autopargist lahkumine",
+     "text": "„Juhi profiil“ → „Lahku autopargist“. Lõpetage esmalt autopargi vahetus („Lõpeta esmalt autopargi vahetus.“). Rakendus saadab kõigepealt viimased sissekanded, siis lahkub. Ilma internetita: „Serveriga puudub ühendus. Proovi uuesti, kui oled võrgus.“ — midagi ei muutu.\n\nPärast lahkumist jääb autopargi päevik telefoni ainult vaatamiseks: riba muutub halliks ja näitab „… · ainult vaatamiseks“. „Reiside ajalugu“, tankimised, dokumendid ja PDF-aruanded on alles; muutmisnupud on peidetud ja vahetust alustada ei saa. Autoparki ei lähe enam midagi. Tagasi tulemiseks küsige juhilt uus kood.",
      "image": ""
     },
     {
      "id": "owner",
      "title": "Autopark omanikule",
-     "text": "Autopargi juhile. Lülitage sisse „Omanik / Palgatöötaja“ jaotises Seaded → „Juhi profiil“: sinna ilmub rida „Autopark“.\n\nAutopark kuulub teie VecturaBooki kontole. Kui telefon pole sisse logitud, kuvatakse ekraanil „Logi esmalt oma kontole sisse:“ — vajutage „Ühenda VecturaBookiga“ ja logige sisse oma konto e-posti aadressiga. Kui ekraanil kuvatakse „Sellel kontol pole autoparki.“, kirjutage meile autopargi avamiseks jaotise „Tagasiside / veateade“ kaudu.\n\nEkraanil kuvatakse „Juhid“ — igaüks märkega „Seotud“ või „Veel sidumata“, veok, haagis ning vahetuste, reiside ja tankimiste arv — ning autopargi „Garaaž“. Allpool: „Lisa juht“ koos väljaga „Juhi nimi“, „+ Lisa veok“ („Numbrimärk“, „Veoki tüüp“, „Keretüüp“) ja „+ Lisa haagis“ („Numbrimärk“, ühilduvus, „Keretüüp“). Seda saab teha ka brauseris aadressil my.vecturabook.com.",
+     "text": "Autopargi juhile. Lülitage sisse „Omanik / Palgatöötaja“ jaotises Seaded → „Juhi profiil“: sinna ilmub rida „Autopark“.\n\nAutopark kuulub teie VecturaBooki kontole. Kui telefon pole sisse logitud, kuvatakse ekraanil „Logi esmalt oma kontole sisse:“ — vajutage „Ühenda VecturaBookiga“ ja logige sisse oma konto e-posti aadressiga. Kui ekraanil kuvatakse „Sellel kontol pole autoparki.“, kirjutage meile autopargi avamiseks jaotise „Tagasiside / veateade“ kaudu.\n\nEkraanil kuvatakse „Juhid“ — igaüks märkega „Seotud“ või „Veel sidumata“, veok, haagis ning vahetuste, reiside ja tankimiste arv — ning autopargi „Garaaž“. Allpool: „Lisa juht“ koos väljaga „Juhi nimi“, „+ Lisa veok“ („Numbrimärk“, „Veoki tüüp“, „Keretüüp“) ja „+ Lisa haagis“ („Numbrimärk“, ühilduvus, „Keretüüp“). Seda saab teha ka brauseris aadressil my.vecturabook.com.\n\nLahkunud juhi juures on „Seotud“ asemel „Lahkus autopargist“ ja kellaaeg.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Juht",
-     "text": "Puudutage juhti, et avada kaart. „Veok“ ja „Haagis“: valige autopargi garaažist ja vajutage „Salvesta“. Pakutakse ainult valitud veokiga sobivaid haagiseid. Juhi telefon võtab muudatuse ise vastu; reisi ajal — pärast reisi lõppu.\n\n„Hangi kood“ annab ühekordse koodi koos ajaga, milleni see kehtib. „Saada kood juhile“ saadab koodi ja lingi sõnumirakenduse kaudu. Koodi näidatakse ainult üks kord. Uus kood viib juhi uude telefoni: vana telefon lahkub autopargist.\n\nAllpool on juhi „Vahetused“, „Reisid“ ja „Tankimised“, mis on autoparki jõudnud.",
+     "text": "Puudutage juhti, et avada kaart. „Veok“ ja „Haagis“: valige autopargi garaažist ja vajutage „Salvesta“. Pakutakse ainult valitud veokiga sobivaid haagiseid. Juhi telefon võtab muudatuse ise vastu; reisi ajal — pärast reisi lõppu.\n\n„Hangi kood“ annab ühekordse koodi koos ajaga, milleni see kehtib. „Saada kood juhile“ saadab koodi ja lingi sõnumirakenduse kaudu. Koodi näidatakse ainult üks kord. Uus kood viib juhi uude telefoni: vana telefon lahkub autopargist.\n\nAllpool on juhi „Vahetused“, „Reisid“ ja „Tankimised“, mis on autoparki jõudnud.\n\nLahkunud juhi kaardil on „Lahkus autopargist“ ja kellaaeg. Teie uus kood toob juhi tagasi.",
      "image": ""
     }
    ]
@@ -1009,7 +1021,7 @@
   "address-book.add-address": "Aadress, koordinaat, navigaator ja punane märk.",
   "backup.backup": "Fail kogu päevikuga: salvesta, saada või taasta.",
   "online.device-link": "Telefoni ühendamine võrguprogrammiga: QR-kood või ekraanikood.",
-  "fleet.join": "Sisestage oma autopargi juhilt saadud kood: autopargi veok ja haagis saavad teie omaks ning vahetuste koopia läheb autoparki.",
+  "fleet.join": "Sisestage autopargi juhilt saadud kood: telefoni tekib eraldi autopargi päevik selle veoki ja haagisega; „Minu päevik“ jääb, nagu oli.",
   "fleet.owner": "Teie autopark: juhid, autopargi garaaž, juhtide, veokite ja haagiste lisamine.",
   "fleet.owner-driver": "Juhi kaart: veok ja haagis, ühekordne kood telefoni jaoks, vahetused, reisid ja tankimised.",
   "settings.settings": "Kõik seaded rühmade kaupa.",

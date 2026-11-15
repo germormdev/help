@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "lt",
- "revision": "2026-10-26",
+ "revision": "2026-11-15",
  "sections": [
   {
    "slug": "getting-started",
@@ -501,30 +501,42 @@
   {
    "slug": "fleet",
    "title": "Autoparkas",
-   "intro": "Autoparkas skirtas įmonėms, turinčioms kelis vilkikus ir vairuotojus. Autoparko vadovas kiekvienam vairuotojui suteikia vienkartinį kodą. Su juo vairuotojo programa gauna autoparko vilkiką bei priekabą ir siunčia pamainų, reisų bei pildymų kopiją į autoparką. Paties vairuotojo žurnalas lieka telefone.",
+   "intro": "Autoparkas skirtas įmonėms su keliomis transporto priemonėmis ir vairuotojais. Autoparko vadovas kiekvienam vairuotojui duoda vienkartinį kodą. Su juo telefone atsiranda atskiras autoparko žurnalas su autoparko vilkiku ir priekaba; ką ten įrašote, keliauja į autoparką. „Mano žurnalas“ — jūsų asmeninis žurnalas — lieka toks, koks buvo, ir lieka jūsų.",
    "steps": [
     {
      "id": "join",
      "title": "Prisijungti prie autoparko kodu",
-     "text": "Pirmą kartą paleidus, paspauskite „Vairuoju autoparkui — įvesti kodą“. Vėliau: Nustatymai → „Vairuotojo profilis“ → „Prisijungti prie autoparko kodu“.\n\nĮveskite iš autoparko vadovo gautą kodą ir paspauskite „Prisijungti prie autoparko“. Jei vadovas atsiuntė nuorodą (my.vecturabook.com/fleet/join…), tiesiog atidarykite ją telefone: programa atsidarys su jau įvestu kodu. Taip pat galite įklijuoti visą nuorodą į lauką „Kodas“.\n\nKodas veikia tik vieną kartą ir tik ribotą laiką. Jei programa praneša, kad kodas neteisingas, nebegalioja arba jau panaudotas, paprašykite autoparko vadovo naujo.",
+     "text": "Pirmą kartą paleidus, paspauskite „Vairuoju autoparkui — įvesti kodą“. Vėliau: Nustatymai → „Vairuotojo profilis“ → „Prisijungti prie autoparko kodu“.\n\nĮveskite iš autoparko vadovo gautą kodą ir paspauskite „Prisijungti prie autoparko“. Jei vadovas atsiuntė nuorodą (my.vecturabook.com/fleet/join…), tiesiog atidarykite ją telefone: programa atsidarys su jau įvestu kodu. Taip pat galite įklijuoti visą nuorodą į lauką „Kodas“.\n\nKodas veikia tik vieną kartą ir tik ribotą laiką. Jei programa praneša, kad kodas neteisingas, nebegalioja arba jau panaudotas, paprašykite autoparko vadovo naujo.\n\nJei telefonas jau yra kitame autoparke, programa pirmiausia paklausia: naujas kodas išsiunčia paskutinius įrašus į tą autoparką ir jį palieka, o jo žurnalas lieka telefone tik peržiūrai. Pirmiausia ten baikite reisą ir pamainą, kitaip programa pasakys „Pirmiausia baik dabartinį reisą.“ arba „Pirmiausia baik autoparko pamainą.“ Be interneto niekas nesikeičia.",
      "image": ""
     },
     {
      "id": "in-fleet",
-     "title": "Vairavimas autoparkui",
-     "text": "Prisijungus, autoparko vilkikas ir priekaba atsiranda Garaže ir tampa jūsų vilkiku bei priekaba — pirmo paleidimo klausimų nebereikia. „Vairuotojo profilis“ rodo „Autoparkas:“ su autoparko pavadinimu, jūsų vilkiku ir jūsų priekaba.\n\nPamainos, kurias atidarote po prisijungimo, keliauja į autoparką; pamaina, atidaryta prieš įvedant kodą, lieka jūsų. Pamainų, reisų ir pildymų kopijos siunčiamos automatiškai, kai yra internetas; „Siųsti į autoparką dabar“ išsiunčia jas iš karto. Jūsų žurnalas telefone nesikeičia.\n\nJei reiso metu vadovas paskiria kitą vilkiką, pakeitimas įsigalioja pasibaigus reisui. Jei kitame telefone panaudojamas naujas jums skirtas kodas, šis telefonas palieka autoparką.",
+     "title": "Du žurnalai",
+     "text": "Prisijungus telefone yra du žurnalai: „Mano žurnalas“ ir autoparko žurnalas. Juosta kiekvieno ekrano viršuje rodo, kuris atidarytas: melsvai pilka „Mano žurnalas“ arba violetinė su autoparko pavadinimu. Bakstelėkite juostą, kad pasirinktumėte kitą („Kuris žurnalas?“). Perjungti galima tik tada, kai reisas nepradėtas, kitaip „Pirmiausia baik dabartinį reisą.“\n\nAutoparko žurnalo pamainos, reisai ir pildymai keliauja į autoparką patys, kai yra internetas; „Siųsti į autoparką dabar“ skiltyje „Vairuotojo profilis“ išsiunčia iškart. „Mano žurnalas“ niekada nekeliauja į autoparką — tik į jūsų asmeninę paskyrą. Kiekvienas žurnalas turi savo pamainą, juodraščius ir laikmačius.\n\nJei vadovas reiso metu duos jums kitą vilkiką, pakeitimas ateis pasibaigus reisui.",
+     "image": ""
+    },
+    {
+     "id": "own-truck",
+     "title": "Savas vilkikas",
+     "text": "Jei autoparkui vežate savo vilkiku, bakstelėkite „Vežu autoparkui savo vilkiku“ skiltyje „Vairuotojo profilis“ ir pasirinkite savo vilkiką („Garažas“, „Mano žurnalas“). Jis tampa vilkiku autoparko žurnale, o autoparkas mato jo numerį jūsų reisuose.\n\nSavo vilkiko kuras — jūsų išlaidos: jo pildymai visada keliauja į „Mano žurnalas“, net kai atidarytas autoparko žurnalas. Jei sava pamaina neatidaryta, „Mano žurnalas“ gauna trumpą uždarytą pamainą darbo autoparkui laikui — taip pildymas yra ir jūsų ataskaitose, ir jūsų paskyroje. Autoparko vilkiko ir autoparko priekabos įrenginio kuras keliauja į autoparką. Sustojimas su abiem įrašomas visas: neįsirašė viena dalis — neįrašyta nieko.\n\nSavo vilkiko odometras eina toliau per abu žurnalus.",
+     "image": ""
+    },
+    {
+     "id": "leave",
+     "title": "Autoparko palikimas",
+     "text": "„Vairuotojo profilis“ → „Palikti autoparką“. Pirmiausia baikite autoparko pamainą („Pirmiausia baik autoparko pamainą.“). Programa pirmiausia išsiunčia paskutinius įrašus, tada išeina. Be interneto: „Nėra ryšio su serveriu. Bandyk dar kartą, kai būsi prisijungęs.“ — niekas nesikeičia.\n\nIšėjus autoparko žurnalas lieka telefone tik peržiūrai: juosta tampa pilka ir rodo „… · tik peržiūra“. „Reisų istorija“, pildymai, dokumentai ir PDF ataskaitos yra vietoje; keitimo mygtukai paslėpti, pamainos pradėti negalima. Į autoparką daugiau niekas nekeliauja. Norėdami grįžti, paprašykite vadovo naujo kodo.",
      "image": ""
     },
     {
      "id": "owner",
      "title": "Autoparkas savininkui",
-     "text": "Autoparko vadovui. Įjunkite „Savininkas / Samdomas“ skiltyje Nustatymai → „Vairuotojo profilis“: ten atsiras eilutė „Autoparkas“.\n\nAutoparkas priklauso jūsų VecturaBook paskyrai. Jei telefone neprisijungta prie paskyros, ekrane rodoma „Pirmiausia prisijunkite prie savo paskyros:“ — paspauskite „Prisijungti prie VecturaBook“ ir prisijunkite su savo paskyros el. paštu. Jei ekrane rodoma „Ši paskyra neturi autoparko.“, parašykite mums per „Atsiliepimas / klaidos pranešimas“, kad atidarytume autoparką.\n\nEkrane rodomi „Vairuotojai“ — kiekvienas su „Susietas“ arba „Dar nesusietas“, vilkiku, priekaba bei pamainų, reisų ir pildymų skaičiumi — ir autoparko „Garažas“. Apačioje: „Pridėti vairuotoją“ su lauku „Vairuotojo vardas“, „+ Pridėti vilkiką“ („Valst. numeris“, „Vilkiko tipas“, „Kėbulo tipas“) ir „+ Pridėti priekabą“ („Valst. numeris“, suderinamumas, „Kėbulo tipas“). Tą patį galima atlikti naršyklėje svetainėje my.vecturabook.com.",
+     "text": "Autoparko vadovui. Įjunkite „Savininkas / Samdomas“ skiltyje Nustatymai → „Vairuotojo profilis“: ten atsiras eilutė „Autoparkas“.\n\nAutoparkas priklauso jūsų VecturaBook paskyrai. Jei telefone neprisijungta prie paskyros, ekrane rodoma „Pirmiausia prisijunkite prie savo paskyros:“ — paspauskite „Prisijungti prie VecturaBook“ ir prisijunkite su savo paskyros el. paštu. Jei ekrane rodoma „Ši paskyra neturi autoparko.“, parašykite mums per „Atsiliepimas / klaidos pranešimas“, kad atidarytume autoparką.\n\nEkrane rodomi „Vairuotojai“ — kiekvienas su „Susietas“ arba „Dar nesusietas“, vilkiku, priekaba bei pamainų, reisų ir pildymų skaičiumi — ir autoparko „Garažas“. Apačioje: „Pridėti vairuotoją“ su lauku „Vairuotojo vardas“, „+ Pridėti vilkiką“ („Valst. numeris“, „Vilkiko tipas“, „Kėbulo tipas“) ir „+ Pridėti priekabą“ („Valst. numeris“, suderinamumas, „Kėbulo tipas“). Tą patį galima atlikti naršyklėje svetainėje my.vecturabook.com.\n\nPrie išėjusio vairuotojo vietoj „Susietas“ rodoma „Paliko autoparką“ ir laikas.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Vairuotojas",
-     "text": "Paspauskite vairuotoją, kad atidarytumėte kortelę. „Vilkikas“ ir „Priekaba“: pasirinkite iš autoparko garažo ir paspauskite „Išsaugoti“. Siūlomos tik tos priekabos, kurios tinka pasirinktam vilkikui. Vairuotojo telefonas pakeitimą perima pats; reiso metu — pasibaigus reisui.\n\n„Gauti kodą“ suteikia vienkartinį kodą su laiku, iki kada jis galioja. „Siųsti kodą vairuotojui“ išsiunčia kodą ir nuorodą per susirašinėjimo programėlę. Kodas rodomas tik vieną kartą. Naujas kodas perkelia vairuotoją į naują telefoną: senasis telefonas palieka autoparką.\n\nŽemiau pateikiamos vairuotojo „Pamainos“, „Reisai“ ir „Pildymai“, pasiekę autoparką.",
+     "text": "Paspauskite vairuotoją, kad atidarytumėte kortelę. „Vilkikas“ ir „Priekaba“: pasirinkite iš autoparko garažo ir paspauskite „Išsaugoti“. Siūlomos tik tos priekabos, kurios tinka pasirinktam vilkikui. Vairuotojo telefonas pakeitimą perima pats; reiso metu — pasibaigus reisui.\n\n„Gauti kodą“ suteikia vienkartinį kodą su laiku, iki kada jis galioja. „Siųsti kodą vairuotojui“ išsiunčia kodą ir nuorodą per susirašinėjimo programėlę. Kodas rodomas tik vieną kartą. Naujas kodas perkelia vairuotoją į naują telefoną: senasis telefonas palieka autoparką.\n\nŽemiau pateikiamos vairuotojo „Pamainos“, „Reisai“ ir „Pildymai“, pasiekę autoparką.\n\nIšėjusio vairuotojo kortelėje rodoma „Paliko autoparką“ ir laikas. Naujas jūsų kodas vairuotoją sugrąžina.",
      "image": ""
     }
    ]
@@ -1009,7 +1021,7 @@
   "address-book.add-address": "Adresas, koordinatė, navigacija ir raudona žymė.",
   "backup.backup": "Failas su visu žurnalu: išsaugoti, išsiųsti arba atkurti.",
   "online.device-link": "Telefono prijungimas prie programos internete: QR kodas arba kodas iš ekrano.",
-  "fleet.join": "Įveskite iš autoparko vadovo gautą kodą: autoparko vilkikas ir priekaba taps jūsų, o pamainų kopija keliaus į autoparką.",
+  "fleet.join": "Įveskite autoparko vadovo kodą: telefone atsiras atskiras autoparko žurnalas su jo vilkiku ir priekaba; „Mano žurnalas“ liks toks, koks buvo.",
   "fleet.owner": "Jūsų autoparkas: vairuotojai, autoparko garažas, vairuotojų, vilkikų ir priekabų pridėjimas.",
   "fleet.owner-driver": "Vairuotojo kortelė: vilkikas ir priekaba, vienkartinis kodas telefonui, pamainos, reisai ir pildymai.",
   "settings.settings": "Visi nustatymai pagal grupes.",

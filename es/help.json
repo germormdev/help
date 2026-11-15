@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "es",
- "revision": "2026-10-26",
+ "revision": "2026-11-15",
  "sections": [
   {
    "slug": "getting-started",
@@ -501,30 +501,42 @@
   {
    "slug": "fleet",
    "title": "Flota",
-   "intro": "Flota está pensada para empresas con varios camiones y conductores. El responsable de flota entrega a cada conductor un código de un solo uso. Con él, la aplicación del conductor recibe el camión y el remolque de la flota y envía una copia de las jornadas, viajes y repostajes a la flota. El propio cuaderno de ruta del conductor permanece en el teléfono.",
+   "intro": "La flota es para empresas con varios vehículos y conductores. El responsable de flota da a cada conductor un código de un solo uso. Con él, el teléfono recibe un cuaderno aparte de la flota con el camión y el remolque de la flota; lo que registre allí va a la flota. «Mi cuaderno» — su propio cuaderno — sigue como está y sigue siendo suyo.",
    "steps": [
     {
      "id": "join",
      "title": "Unirse a una flota con un código",
-     "text": "En el primer inicio, pulse «Conduzco para una flota — introducir código». Más tarde: Ajustes → «Perfil del conductor» → «Unirse a una flota con un código».\n\nIntroduzca el código facilitado por su responsable de flota y pulse «Unirse a la flota». Si el responsable le envió un enlace (my.vecturabook.com/fleet/join…), simplemente ábralo en su teléfono: la aplicación se abrirá con el código ya introducido. También puede pegar el enlace completo en el campo «Código».\n\nEl código funciona solo una vez y por tiempo limitado. Si la aplicación indica que el código es incorrecto, ha caducado o ya se ha usado, pida uno nuevo a su responsable de flota.",
+     "text": "En el primer inicio, pulse «Conduzco para una flota — introducir código». Más tarde: Ajustes → «Perfil del conductor» → «Unirse a una flota con un código».\n\nIntroduzca el código facilitado por su responsable de flota y pulse «Unirse a la flota». Si el responsable le envió un enlace (my.vecturabook.com/fleet/join…), simplemente ábralo en su teléfono: la aplicación se abrirá con el código ya introducido. También puede pegar el enlace completo en el campo «Código».\n\nEl código funciona solo una vez y por tiempo limitado. Si la aplicación indica que el código es incorrecto, ha caducado o ya se ha usado, pida uno nuevo a su responsable de flota.\n\nSi el teléfono ya está en otra flota, la aplicación pregunta primero: el código nuevo envía los últimos registros a esa flota y sale de ella, y su cuaderno queda en el teléfono solo para consulta. Termine primero allí el viaje y el turno; si no, la aplicación dice «Termina primero el viaje actual.» o «Termina primero el turno de la flota.» Sin internet no cambia nada.",
      "image": ""
     },
     {
      "id": "in-fleet",
-     "title": "Conducir para una flota",
-     "text": "Tras unirse, el camión y el remolque de la flota aparecen en Mi parque y pasan a ser su camión y su remolque — las preguntas del primer inicio ya no son necesarias. «Perfil del conductor» muestra «Flota:» con el nombre de la flota, su camión y su remolque.\n\nLas jornadas que abra después de unirse se envían a la flota; la jornada abierta antes de introducir el código seguirá siendo suya. Las copias de las jornadas, viajes y repostajes se envían automáticamente cuando hay internet; «Enviar a la flota ahora» las envía de inmediato. Su cuaderno de ruta en el teléfono no cambia.\n\nSi el responsable le asigna otro camión durante un viaje, el cambio se aplica una vez terminado el viaje. Si se usa un nuevo código para usted en otro teléfono, este teléfono abandona la flota.",
+     "title": "Dos cuadernos",
+     "text": "Tras unirse, el teléfono tiene dos cuadernos: «Mi cuaderno» y el de la flota. Una franja arriba de cada pantalla muestra cuál está abierto: gris azulado «Mi cuaderno» o morado con el nombre de la flota. Toque la franja para elegir el otro («¿Qué cuaderno?»). Solo se puede cambiar cuando no hay viaje empezado; si no, «Termina primero el viaje actual.»\n\nLos turnos, viajes y repostajes del cuaderno de la flota van solos a la flota cuando hay internet; «Enviar a la flota ahora» en «Perfil del conductor» los envía al momento. «Mi cuaderno» nunca va a la flota — solo a su propia cuenta. Cada cuaderno tiene su propio turno, sus borradores y temporizadores.\n\nSi el responsable le da otro camión durante un viaje, el cambio llega al terminar el viaje.",
+     "image": ""
+    },
+    {
+     "id": "own-truck",
+     "title": "Su propio camión",
+     "text": "Si trabaja para la flota con su propio camión, toque «Conducir para la flota con mi propio camión» en «Perfil del conductor» y elija su camión («Mi parque», «Mi cuaderno»). Pasa a ser el camión del cuaderno de la flota, y la flota ve su matrícula en sus viajes.\n\nEl combustible de su propio camión es su gasto: sus repostajes van siempre a «Mi cuaderno», incluso con el cuaderno de la flota abierto. Si no hay un turno propio abierto, «Mi cuaderno» recibe un turno corto cerrado por el tiempo que trabaja para la flota — así el repostaje está en sus informes y en su cuenta. El combustible del camión de la flota y del equipo del remolque de la flota va a la flota. Una parada con ambos se guarda entera: si falla una parte, no se guarda nada.\n\nEl cuentakilómetros de su propio camión sigue a través de los dos cuadernos.",
+     "image": ""
+    },
+    {
+     "id": "leave",
+     "title": "Salir de la flota",
+     "text": "«Perfil del conductor» → «Salir de la flota». Termine primero el turno de la flota («Termina primero el turno de la flota.»). La aplicación envía primero los últimos registros y luego sale. Sin internet: «Sin conexión con el servidor. Inténtalo de nuevo cuando tengas conexión.» — no cambia nada.\n\nDespués, el cuaderno de la flota queda en el teléfono solo para consulta: la franja se vuelve gris y muestra «… · solo lectura». «Historial de viajes», repostajes, documentos e informes PDF siguen ahí; los botones de cambios están ocultos y no se puede empezar un turno. A la flota ya no va nada. Para volver, pida al responsable un código nuevo.",
      "image": ""
     },
     {
      "id": "owner",
      "title": "Flota para el propietario",
-     "text": "Para el responsable de flota. Active «Propietario / Asalariado» en Ajustes → «Perfil del conductor»: allí aparecerá la fila «Flota».\n\nLa flota pertenece a su cuenta de VecturaBook. Si no ha iniciado sesión en el teléfono, la pantalla mostrará «Primero inicia sesión en tu cuenta:» — pulse «Conectar con VecturaBook» e inicie sesión con el correo electrónico de su cuenta. Si la pantalla muestra «Esta cuenta no tiene flota.», escríbanos a través de «Comentario / Fallo» para abrir una flota.\n\nLa pantalla muestra «Conductores» —cada uno con «Vinculado» o «Aún no vinculado», camión, remolque y el número de jornadas, viajes y repostajes— y «Mi parque» de la flota. Debajo: «Añadir conductor» con el campo «Nombre del conductor», «+ Añadir camión» («Matrícula», «Tipo de camión», «Tipo de carrocería») y «+ Añadir remolque» («Matrícula», compatibilidad, «Tipo de carrocería»). Lo mismo puede hacerse en el navegador en my.vecturabook.com.",
+     "text": "Para el responsable de flota. Active «Propietario / Asalariado» en Ajustes → «Perfil del conductor»: allí aparecerá la fila «Flota».\n\nLa flota pertenece a su cuenta de VecturaBook. Si no ha iniciado sesión en el teléfono, la pantalla mostrará «Primero inicia sesión en tu cuenta:» — pulse «Conectar con VecturaBook» e inicie sesión con el correo electrónico de su cuenta. Si la pantalla muestra «Esta cuenta no tiene flota.», escríbanos a través de «Comentario / Fallo» para abrir una flota.\n\nLa pantalla muestra «Conductores» —cada uno con «Vinculado» o «Aún no vinculado», camión, remolque y el número de jornadas, viajes y repostajes— y «Mi parque» de la flota. Debajo: «Añadir conductor» con el campo «Nombre del conductor», «+ Añadir camión» («Matrícula», «Tipo de camión», «Tipo de carrocería») y «+ Añadir remolque» («Matrícula», compatibilidad, «Tipo de carrocería»). Lo mismo puede hacerse en el navegador en my.vecturabook.com.\n\nUn conductor que se fue muestra «Salió de la flota» con la hora en lugar de «Vinculado».",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Conductor",
-     "text": "Pulse sobre un conductor para abrir la ficha. «Camión» y «Remolque»: elija en Mi parque de la flota y pulse «Guardar». Solo se ofrecen remolques compatibles con el camión elegido. El teléfono del conductor aplica el cambio por sí solo; durante un viaje — tras finalizar el viaje.\n\n«Obtener código» genera un código de un solo uso con la hora hasta la que es válido. «Enviar el código al conductor» envía el código y el enlace a través de una aplicación de mensajería. El código se muestra una sola vez. Un nuevo código transfiere al conductor a un teléfono nuevo: el teléfono antiguo abandona la flota.\n\nDebajo se muestran las «Jornadas», «Viajes» y «Repostajes» del conductor que han llegado a la flota.",
+     "text": "Pulse sobre un conductor para abrir la ficha. «Camión» y «Remolque»: elija en Mi parque de la flota y pulse «Guardar». Solo se ofrecen remolques compatibles con el camión elegido. El teléfono del conductor aplica el cambio por sí solo; durante un viaje — tras finalizar el viaje.\n\n«Obtener código» genera un código de un solo uso con la hora hasta la que es válido. «Enviar el código al conductor» envía el código y el enlace a través de una aplicación de mensajería. El código se muestra una sola vez. Un nuevo código transfiere al conductor a un teléfono nuevo: el teléfono antiguo abandona la flota.\n\nDebajo se muestran las «Jornadas», «Viajes» y «Repostajes» del conductor que han llegado a la flota.\n\nLa ficha de un conductor que se fue muestra «Salió de la flota» con la hora. Un código nuevo suyo trae de vuelta al conductor.",
      "image": ""
     }
    ]
@@ -1009,7 +1021,7 @@
   "address-book.add-address": "Dirección, coordenada, navegador GPS y marca roja.",
   "backup.backup": "Archivo con todo el cuaderno: guardar, compartir o restaurar.",
   "online.device-link": "Conexión del teléfono al programa en línea: código QR o código en pantalla.",
-  "fleet.join": "Introduzca el código facilitado por su responsable de flota: el camión y el remolque de la flota pasan a ser suyos y se envía una copia de sus jornadas a la flota.",
+  "fleet.join": "Introduzca el código del responsable de flota: el teléfono recibe un cuaderno aparte de la flota con su camión y su remolque; «Mi cuaderno» sigue como está.",
   "fleet.owner": "Su flota: conductores, Mi parque de la flota, añadir conductores, camiones y remolques.",
   "fleet.owner-driver": "Ficha del conductor: camión y remolque, código de un solo uso para el teléfono, jornadas, viajes y repostajes.",
   "settings.settings": "Todos los ajustes organizados por grupos.",

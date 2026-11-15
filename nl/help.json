@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "nl",
- "revision": "2026-10-26",
+ "revision": "2026-11-15",
  "sections": [
   {
    "slug": "getting-started",
@@ -501,30 +501,42 @@
   {
    "slug": "fleet",
    "title": "Vloot",
-   "intro": "Vloot is bedoeld voor bedrijven met meerdere trucks en chauffeurs. De vlootbeheerder geeft elke chauffeur een eenmalige code. Daarmee ontvangt de app van de chauffeur de truck en aanhanger van de vloot en verstuurt een kopie van diensten, ritten en tankbeurten naar de vloot. Het eigen rittenboek van de chauffeur blijft op de telefoon.",
+   "intro": "De vloot is voor bedrijven met meerdere voertuigen en chauffeurs. De vlootbeheerder geeft elke chauffeur een eenmalige code. Daarmee krijgt de telefoon een apart logboek van de vloot met de truck en aanhanger van de vloot; wat u daar vastlegt, gaat naar de vloot. „Mijn logboek” — uw eigen logboek — blijft zoals het is en blijft van u.",
    "steps": [
     {
      "id": "join",
      "title": "Met een code lid worden van een vloot",
-     "text": "Tik bij de eerste start op „Ik rijd voor een vloot — code invoeren”. Later: Instellingen → „Chauffeursprofiel” → „Met een code lid worden van een vloot”.\n\nVoer de code van uw vlootbeheerder in en tik op „Lid worden van de vloot”. Als de beheerder u een link heeft gestuurd (my.vecturabook.com/fleet/join…), open deze dan gewoon op uw telefoon: de app opent met de code al ingevuld. U kunt ook de hele link in het veld „Code” plakken.\n\nDe code werkt slechts één keer en voor een beperkte tijd. Als de app meldt dat de code onjuist, verlopen of al gebruikt is, vraag uw vlootbeheerder dan om een nieuwe.",
+     "text": "Tik bij de eerste start op „Ik rijd voor een vloot — code invoeren”. Later: Instellingen → „Chauffeursprofiel” → „Met een code lid worden van een vloot”.\n\nVoer de code van uw vlootbeheerder in en tik op „Lid worden van de vloot”. Als de beheerder u een link heeft gestuurd (my.vecturabook.com/fleet/join…), open deze dan gewoon op uw telefoon: de app opent met de code al ingevuld. U kunt ook de hele link in het veld „Code” plakken.\n\nDe code werkt slechts één keer en voor een beperkte tijd. Als de app meldt dat de code onjuist, verlopen of al gebruikt is, vraag uw vlootbeheerder dan om een nieuwe.\n\nZit de telefoon al in een andere vloot, dan vraagt de app eerst: de nieuwe code stuurt de laatste registraties naar die vloot en verlaat die, en het logboek ervan blijft op de telefoon alleen ter inzage. Rond daar eerst de rit en de dienst af, anders zegt de app „Rond eerst de huidige rit af.” of „Beëindig eerst de dienst van de vloot.” Zonder internet verandert er niets.",
      "image": ""
     },
     {
      "id": "in-fleet",
-     "title": "Rijden voor een vloot",
-     "text": "Nadat u lid bent geworden, verschijnen de truck en aanhanger van de vloot in het Wagenpark en worden dit uw truck en aanhanger — de vragen bij de eerste start zijn niet nodig. „Chauffeursprofiel” toont „Vloot:” met de naam van de vloot, uw truck en uw aanhanger.\n\nDiensten die u opent nadat u lid bent geworden, gaan naar de vloot; een dienst die is geopend voordat u de code invoerde, blijft van uzelf. Kopieën van diensten, ritten en tankbeurten worden automatisch verzonden als er internet is; „Nu naar de vloot sturen” verstuurt ze direct. Uw rittenboek op de telefoon verandert niet.\n\nAls de beheerder u tijdens een rit een andere truck toewijst, wordt de wijziging na afloop van de rit doorgevoerd. Als er op een andere telefoon een nieuwe code voor u wordt gebruikt, verlaat deze telefoon de vloot.",
+     "title": "Twee logboeken",
+     "text": "Na het lid worden heeft de telefoon twee logboeken: „Mijn logboek” en het logboek van de vloot. Een strook bovenaan elk scherm toont welk open is: blauwgrijs „Mijn logboek” of paars met de naam van de vloot. Tik op de strook om het andere te kiezen („Welk logboek?”). Wisselen kan alleen als er geen rit is begonnen, anders „Rond eerst de huidige rit af.”\n\nDiensten, ritten en tankbeurten uit het logboek van de vloot gaan vanzelf naar de vloot als er internet is; „Nu naar de vloot sturen” in „Chauffeursprofiel” stuurt ze meteen. „Mijn logboek” gaat nooit naar de vloot — alleen naar uw eigen account. Elk logboek heeft een eigen dienst, eigen concepten en timers.\n\nGeeft de beheerder u tijdens een rit een andere truck, dan komt de wijziging na het einde van de rit.",
+     "image": ""
+    },
+    {
+     "id": "own-truck",
+     "title": "Eigen truck",
+     "text": "Rijdt u voor de vloot met uw eigen truck, tik dan op „Met mijn eigen truck voor de vloot rijden” in „Chauffeursprofiel” en kies uw truck („Wagenpark”, „Mijn logboek”). Hij wordt de truck in het logboek van de vloot, en de vloot ziet zijn kenteken bij uw ritten.\n\nBrandstof voor uw eigen truck zijn uw kosten: de tankbeurten gaan altijd naar „Mijn logboek”, ook als het logboek van de vloot open is. Is er geen eigen dienst open, dan krijgt „Mijn logboek” een korte gesloten dienst voor de tijd dat u voor de vloot werkt — zo staat de tankbeurt in uw rapporten en in uw account. Brandstof voor de truck van de vloot en voor de unit van de aanhanger van de vloot gaat naar de vloot. Een stop met beide wordt in zijn geheel opgeslagen: mislukt één deel, dan wordt niets opgeslagen.\n\nDe kilometerstand van uw eigen truck loopt door beide logboeken door.",
+     "image": ""
+    },
+    {
+     "id": "leave",
+     "title": "De vloot verlaten",
+     "text": "„Chauffeursprofiel” → „De vloot verlaten”. Beëindig eerst de dienst van de vloot („Beëindig eerst de dienst van de vloot.”). De app stuurt eerst de laatste registraties, daarna vertrekt hij. Zonder internet: „Geen verbinding met de server. Probeer het opnieuw als je online bent.” — er verandert niets.\n\nDaarna blijft het logboek van de vloot op de telefoon alleen ter inzage: de strook wordt grijs en toont „… · alleen-lezen”. „Rithistorie”, tankbeurten, documenten en pdf-rapporten zijn er; knoppen om te wijzigen zijn verborgen en een dienst kan niet beginnen. Er gaat niets meer naar de vloot. Om terug te komen, vraagt u de beheerder om een nieuwe code.",
      "image": ""
     },
     {
      "id": "owner",
      "title": "Vloot voor de eigenaar",
-     "text": "Voor de vlootbeheerder. Schakel „Eigenaar / In loondienst” in onder Instellingen → „Chauffeursprofiel”: daar verschijnt de regel „Vloot”.\n\nDe vloot hoort bij uw VecturaBook-account. Als de telefoon niet is ingelogd, toont het scherm „Log eerst in op je account:” — tik op „Verbinden met VecturaBook” en log in met het e-mailadres van uw account. Als het scherm „Dit account heeft geen vloot.” toont, schrijf ons dan via „Feedback / foutmelding” om een vloot te openen.\n\nHet scherm toont „Chauffeurs” — elk met „Gekoppeld” of „Nog niet gekoppeld”, truck, aanhanger en het aantal diensten, ritten en tankbeurten — en het „Wagenpark” van de vloot. Daaronder: „Chauffeur toevoegen” met het veld „Naam van de chauffeur”, „+ Truck toevoegen” („Kenteken”, „Trucktype”, „Carrosserietype”) en „+ Aanhanger toevoegen” („Kenteken”, compatibiliteit, „Carrosserietype”). Ditzelfde kan in uw browser op my.vecturabook.com worden gedaan.",
+     "text": "Voor de vlootbeheerder. Schakel „Eigenaar / In loondienst” in onder Instellingen → „Chauffeursprofiel”: daar verschijnt de regel „Vloot”.\n\nDe vloot hoort bij uw VecturaBook-account. Als de telefoon niet is ingelogd, toont het scherm „Log eerst in op je account:” — tik op „Verbinden met VecturaBook” en log in met het e-mailadres van uw account. Als het scherm „Dit account heeft geen vloot.” toont, schrijf ons dan via „Feedback / foutmelding” om een vloot te openen.\n\nHet scherm toont „Chauffeurs” — elk met „Gekoppeld” of „Nog niet gekoppeld”, truck, aanhanger en het aantal diensten, ritten en tankbeurten — en het „Wagenpark” van de vloot. Daaronder: „Chauffeur toevoegen” met het veld „Naam van de chauffeur”, „+ Truck toevoegen” („Kenteken”, „Trucktype”, „Carrosserietype”) en „+ Aanhanger toevoegen” („Kenteken”, compatibiliteit, „Carrosserietype”). Ditzelfde kan in uw browser op my.vecturabook.com worden gedaan.\n\nBij een chauffeur die is vertrokken staat in plaats van „Gekoppeld” „Heeft de vloot verlaten” met de tijd.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Chauffeur",
-     "text": "Tik op een chauffeur om de kaart te openen. „Truck” en „Aanhanger”: kies uit het wagenpark van de vloot en tik op „Opslaan”. Alleen aanhangers die bij de gekozen truck passen, worden aangeboden. De telefoon van de chauffeur neemt de wijziging vanzelf over; tijdens een rit — na afloop van de rit.\n\n„Code ophalen” geeft een eenmalige code met de tijd tot wanneer deze geldig is. „Code naar de chauffeur sturen” verstuurt de code en de link via een messenger. De code wordt slechts één keer getoond. Een nieuwe code verplaatst de chauffeur naar een nieuwe telefoon: de oude telefoon verlaat de vloot.\n\nDaaronder staan de „Diensten”, „Ritten” en „Tankbeurten” van de chauffeur die de vloot hebben bereikt.",
+     "text": "Tik op een chauffeur om de kaart te openen. „Truck” en „Aanhanger”: kies uit het wagenpark van de vloot en tik op „Opslaan”. Alleen aanhangers die bij de gekozen truck passen, worden aangeboden. De telefoon van de chauffeur neemt de wijziging vanzelf over; tijdens een rit — na afloop van de rit.\n\n„Code ophalen” geeft een eenmalige code met de tijd tot wanneer deze geldig is. „Code naar de chauffeur sturen” verstuurt de code en de link via een messenger. De code wordt slechts één keer getoond. Een nieuwe code verplaatst de chauffeur naar een nieuwe telefoon: de oude telefoon verlaat de vloot.\n\nDaaronder staan de „Diensten”, „Ritten” en „Tankbeurten” van de chauffeur die de vloot hebben bereikt.\n\nDe kaart van een chauffeur die is vertrokken toont „Heeft de vloot verlaten” met de tijd. Een nieuwe code van u haalt de chauffeur terug.",
      "image": ""
     }
    ]
@@ -1009,7 +1021,7 @@
   "address-book.add-address": "Adres, coördinaat, navigatie en rode markering.",
   "backup.backup": "Bestand met het hele rittenboek: opslaan, delen of herstellen.",
   "online.device-link": "Telefoon verbinden met het programma online: via QR-code of schermcode.",
-  "fleet.join": "Voer de code van uw vlootbeheerder in: de truck en aanhanger van de vloot worden van u, en een kopie van uw diensten gaat naar de vloot.",
+  "fleet.join": "Voer de code van de vlootbeheerder in: de telefoon krijgt een apart logboek van de vloot met haar truck en aanhanger; „Mijn logboek” blijft zoals het is.",
   "fleet.owner": "Uw vloot: chauffeurs, het wagenpark van de vloot, toevoegen van chauffeurs, trucks en aanhangers.",
   "fleet.owner-driver": "Chauffeurskaart: truck en aanhanger, een eenmalige code voor de telefoon, diensten, ritten en tankbeurten.",
   "settings.settings": "Alle instellingen per groep.",

@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "cs",
- "revision": "2026-10-26",
+ "revision": "2026-11-15",
  "sections": [
   {
    "slug": "getting-started",
@@ -501,30 +501,42 @@
   {
    "slug": "fleet",
    "title": "Vozový park",
-   "intro": "Vozový park je určen pro firmy s několika tahači a řidiči. Správce vozového parku předá každému řidiči jednorázový kód. Aplikace řidiče s ním získá tahač a návěs vozového parku a odesílá do vozového parku kopie směn, jízd a tankování. Vlastní deník řidiče zůstává v telefonu.",
+   "intro": "Vozový park je pro firmy s více vozidly a řidiči. Správce vozového parku dá každému řidiči jednorázový kód. Díky němu telefon dostane samostatný deník vozového parku s tahačem a návěsem vozového parku; co tam zapíšete, jde do vozového parku. „Můj deník“ — váš vlastní deník — zůstává, jak byl, a zůstává váš.",
    "steps": [
     {
      "id": "join",
      "title": "Připojit se k vozovému parku kódem",
-     "text": "Při prvním spuštění klepněte na „Jezdím pro vozový park — zadat kód“. Později: Nastavení → „Profil řidiče“ → „Připojit se k vozovému parku kódem“.\n\nZadejte kód od správce vozového parku a klepněte na „Připojit se k vozovému parku“. Pokud vám správce poslal odkaz (my.vecturabook.com/fleet/join…), stačí jej otevřít v telefonu: aplikace se otevře s již vyplněným kódem. Celý odkaz můžete také vložit do pole „Kód“.\n\nKód funguje pouze jednou a jen po omezenou dobu. Pokud aplikace hlásí, že kód je chybný, propadlý nebo už použitý, požádejte správce vozového parku o nový.",
+     "text": "Při prvním spuštění klepněte na „Jezdím pro vozový park — zadat kód“. Později: Nastavení → „Profil řidiče“ → „Připojit se k vozovému parku kódem“.\n\nZadejte kód od správce vozového parku a klepněte na „Připojit se k vozovému parku“. Pokud vám správce poslal odkaz (my.vecturabook.com/fleet/join…), stačí jej otevřít v telefonu: aplikace se otevře s již vyplněným kódem. Celý odkaz můžete také vložit do pole „Kód“.\n\nKód funguje pouze jednou a jen po omezenou dobu. Pokud aplikace hlásí, že kód je chybný, propadlý nebo už použitý, požádejte správce vozového parku o nový.\n\nPokud je telefon už v jiném vozovém parku, aplikace se nejprve zeptá: nový kód pošle poslední záznamy do toho vozového parku a opustí ho a jeho deník zůstane v telefonu jen pro čtení. Nejprve tam dokončete jízdu a směnu, jinak aplikace řekne „Nejprve ukonči aktuální jízdu.“ nebo „Nejprve ukonči směnu vozového parku.“ Bez internetu se nic nemění.",
      "image": ""
     },
     {
      "id": "in-fleet",
-     "title": "Jízda pro vozový park",
-     "text": "Po připojení se tahač a návěs vozového parku zobrazí v Mém parku a stanou se vaším tahačem a návěsem — otázky při prvním spuštění nejsou potřeba. „Profil řidiče“ ukazuje „Vozový park:“ s názvem vozového parku, vaším tahačem a vaším návěsem.\n\nSměny, které otevřete po připojení, jdou do vozového parku; směna otevřená před zadáním kódu zůstává vaše. Kopie směn, jízd a tankování se odesílají automaticky, když je k dispozici internet; „Odeslat do vozového parku teď“ je odešle ihned. Váš deník v telefonu se nemění.\n\nPokud vám správce během jízdy přiřadí jiný tahač, změna se projeví po skončení jízdy. Pokud se nový kód pro vás použije na jiném telefonu, tento telefon vozový park opustí.",
+     "title": "Dva deníky",
+     "text": "Po připojení má telefon dva deníky: „Můj deník“ a deník vozového parku. Pruh nahoře na každé obrazovce ukazuje, který je otevřený: modrošedý „Můj deník“ nebo fialový s názvem vozového parku. Klepnutím na pruh vyberete druhý („Který deník?“). Přepnout lze, jen když jízda nezačala, jinak „Nejprve ukonči aktuální jízdu.“\n\nSměny, jízdy a tankování z deníku vozového parku jdou do vozového parku samy, když je internet; „Odeslat do vozového parku teď“ v „Profil řidiče“ je pošle hned. „Můj deník“ nikdy nejde do vozového parku — jen do vašeho vlastního účtu. Každý deník má svou směnu, své koncepty a časovače.\n\nKdyž vám správce během jízdy dá jiný tahač, změna přijde po konci jízdy.",
+     "image": ""
+    },
+    {
+     "id": "own-truck",
+     "title": "Vlastní tahač",
+     "text": "Pokud jezdíte pro vozový park vlastním tahačem, klepněte na „Jezdím pro vozový park vlastním tahačem“ v „Profil řidiče“ a vyberte svůj tahač („Můj park“, „Můj deník“). Stane se tahačem v deníku vozového parku a vozový park uvidí jeho SPZ ve vašich jízdách.\n\nPalivo vlastního tahače je váš výdaj: jeho tankování jdou vždy do „Můj deník“, i když je otevřený deník vozového parku. Když vlastní směna není otevřená, „Můj deník“ dostane krátkou uzavřenou směnu na dobu práce pro vozový park — tankování je tak ve vašich přehledech i ve vašem účtu. Palivo tahače vozového parku a agregátu návěsu vozového parku jde do vozového parku. Zastávka s obojím se uloží celá: neuloží-li se jedna část, neuloží se nic.\n\nTachometr vlastního tahače běží dál přes oba deníky.",
+     "image": ""
+    },
+    {
+     "id": "leave",
+     "title": "Opuštění vozového parku",
+     "text": "„Profil řidiče“ → „Opustit vozový park“. Nejprve ukončete směnu vozového parku („Nejprve ukonči směnu vozového parku.“). Aplikace nejprve pošle poslední záznamy, pak odejde. Bez internetu: „Žádné připojení k serveru. Zkus to znovu, až budeš online.“ — nic se nemění.\n\nPo odchodu zůstane deník vozového parku v telefonu jen pro čtení: pruh zešedne a ukazuje „… · pouze pro čtení“. „Historie jízd“, tankování, dokumenty a PDF přehledy jsou k dispozici; tlačítka změn jsou skrytá a směnu nelze začít. Do vozového parku už nic nejde. Pro návrat požádejte správce o nový kód.",
      "image": ""
     },
     {
      "id": "owner",
      "title": "Vozový park pro majitele",
-     "text": "Pro správce vozového parku. Zapněte „Majitel / Zaměstnanec“ v Nastavení → „Profil řidiče“: zobrazí se tam řádek „Vozový park“.\n\nVozový park patří k vašemu účtu VecturaBook. Pokud telefon není přihlášen, obrazovka hlásí „Nejprve se přihlaste ke svému účtu:“ — klepněte na „Připojit k VecturaBook“ a přihlaste se e-mailem svého účtu. Pokud obrazovka hlásí „Tento účet nemá vozový park.“, napište nám přes „Zpětná vazba / Chyba“ pro otevření vozového parku.\n\nObrazovka ukazuje „Řidiči“ — u každého „Propojen“ nebo „Zatím nepropojen“, tahač, návěs a počet směn, jízd a tankování — a „Můj park“ vozového parku. Dole: „Přidat řidiče“ s polem „Jméno řidiče“, „+ Přidat tahač“ („SPZ“, „Typ tahače“, „Typ nástavby“) a „+ Přidat návěs“ („SPZ“, kompatibilita, „Typ nástavby“). Totéž lze provést v prohlížeči na my.vecturabook.com.",
+     "text": "Pro správce vozového parku. Zapněte „Majitel / Zaměstnanec“ v Nastavení → „Profil řidiče“: zobrazí se tam řádek „Vozový park“.\n\nVozový park patří k vašemu účtu VecturaBook. Pokud telefon není přihlášen, obrazovka hlásí „Nejprve se přihlaste ke svému účtu:“ — klepněte na „Připojit k VecturaBook“ a přihlaste se e-mailem svého účtu. Pokud obrazovka hlásí „Tento účet nemá vozový park.“, napište nám přes „Zpětná vazba / Chyba“ pro otevření vozového parku.\n\nObrazovka ukazuje „Řidiči“ — u každého „Propojen“ nebo „Zatím nepropojen“, tahač, návěs a počet směn, jízd a tankování — a „Můj park“ vozového parku. Dole: „Přidat řidiče“ s polem „Jméno řidiče“, „+ Přidat tahač“ („SPZ“, „Typ tahače“, „Typ nástavby“) a „+ Přidat návěs“ („SPZ“, kompatibilita, „Typ nástavby“). Totéž lze provést v prohlížeči na my.vecturabook.com.\n\nU řidiče, který odešel, je místo „Propojen“ uvedeno „Opustil vozový park“ s časem.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Řidič",
-     "text": "Klepnutím na řidiče otevřete kartu. „Tahač“ a „Návěs“: vyberte z garáže vozového parku a klepněte na „Uložit“. Nabízejí se pouze návěsy, které se hodí k vybranému tahači. Telefon řidiče převezme změnu sám; během jízdy — po skončení jízdy.\n\n„Získat kód“ vygeneruje jednorázový kód s časem, do kdy platí. „Poslat kód řidiči“ odešle kód a odkaz přes messenger. Kód se zobrazí pouze jednou. Nový kód přesune řidiče na nový telefon: starý telefon vozový park opustí.\n\nNíže jsou „Směny“, „Jízdy“ a „Tankování“ řidiče, které dorazily do vozového parku.",
+     "text": "Klepnutím na řidiče otevřete kartu. „Tahač“ a „Návěs“: vyberte z garáže vozového parku a klepněte na „Uložit“. Nabízejí se pouze návěsy, které se hodí k vybranému tahači. Telefon řidiče převezme změnu sám; během jízdy — po skončení jízdy.\n\n„Získat kód“ vygeneruje jednorázový kód s časem, do kdy platí. „Poslat kód řidiči“ odešle kód a odkaz přes messenger. Kód se zobrazí pouze jednou. Nový kód přesune řidiče na nový telefon: starý telefon vozový park opustí.\n\nNíže jsou „Směny“, „Jízdy“ a „Tankování“ řidiče, které dorazily do vozového parku.\n\nKarta řidiče, který odešel, ukazuje „Opustil vozový park“ s časem. Nový kód od vás řidiče vrátí.",
      "image": ""
     }
    ]
@@ -1009,7 +1021,7 @@
   "address-book.add-address": "Adresa, souřadnice, navigace a červená značka.",
   "backup.backup": "Soubor s celým deníkem: uložit, odeslat nebo obnovit.",
   "online.device-link": "Připojení telefonu k programu online: QR kód nebo kód z obrazovky.",
-  "fleet.join": "Zadejte kód od správce vozového parku: tahač a návěs vozového parku se stanou vašimi a kopie vašich směn půjde do vozového parku.",
+  "fleet.join": "Zadejte kód od správce vozového parku: telefon dostane samostatný deník vozového parku s jeho tahačem a návěsem; „Můj deník“ zůstane, jak byl.",
   "fleet.owner": "Váš vozový park: řidiči, garáž vozového parku, přidávání řidičů, tahačů a návěsů.",
   "fleet.owner-driver": "Karta řidiče: tahač a návěs, jednorázový kód pro telefon, směny, jízdy a tankování.",
   "settings.settings": "Všechna nastavení přehledně po skupinách.",

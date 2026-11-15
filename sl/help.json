@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "sl",
- "revision": "2026-10-26",
+ "revision": "2026-11-15",
  "sections": [
   {
    "slug": "getting-started",
@@ -501,30 +501,42 @@
   {
    "slug": "fleet",
    "title": "Vozni park podjetja",
-   "intro": "Vozni park podjetja je namenjen podjetjem z več vlačilci in vozniki. Vodja voznega parka da vsakemu vozniku enkratno kodo. Z njo aplikacija voznika pridobi vlačilec in polpriklopnik voznega parka ter v vozni park podjetja pošilja kopijo izmen, voženj in točenj. Voznikov lastni dnevnik ostane v telefonu.",
+   "intro": "Vozni park podjetja je za podjetja z več vozili in vozniki. Vodja voznega parka da vsakemu vozniku enkratno kodo. Z njo telefon dobi ločen dnevnik voznega parka z vlačilcem in polpriklopnikom voznega parka; kar zapišete tam, gre v vozni park. »Moj dnevnik« — vaš lastni dnevnik — ostane, kot je bil, in ostane vaš.",
    "steps": [
     {
      "id": "join",
      "title": "Pridruži se voznemu parku podjetja s kodo",
-     "text": "Ob prvem zagonu tapnite »Vozim za vozni park podjetja — vnesi kodo«. Pozneje: Nastavitve → »Profil voznika« → »Pridruži se voznemu parku podjetja s kodo«.\n\nVnesite kodo svojega vodje voznega parka in tapnite »Pridruži se voznemu parku podjetja«. Če vam je vodja poslal povezavo (my.vecturabook.com/fleet/join…), jo preprosto odprite v telefonu: aplikacija se odpre z že vneseno kodo. V polje »Koda« lahko prilepite tudi celotno povezavo.\n\nKoda deluje le enkrat in samo omejen čas. Če aplikacija sporoči, da je koda napačna, potekla ali že uporabljena, prosite vodjo voznega parka za novo.",
+     "text": "Ob prvem zagonu tapnite »Vozim za vozni park podjetja — vnesi kodo«. Pozneje: Nastavitve → »Profil voznika« → »Pridruži se voznemu parku podjetja s kodo«.\n\nVnesite kodo svojega vodje voznega parka in tapnite »Pridruži se voznemu parku podjetja«. Če vam je vodja poslal povezavo (my.vecturabook.com/fleet/join…), jo preprosto odprite v telefonu: aplikacija se odpre z že vneseno kodo. V polje »Koda« lahko prilepite tudi celotno povezavo.\n\nKoda deluje le enkrat in samo omejen čas. Če aplikacija sporoči, da je koda napačna, potekla ali že uporabljena, prosite vodjo voznega parka za novo.\n\nČe je telefon že v drugem voznem parku, aplikacija najprej vpraša: nova koda pošlje zadnje vnose v tisti vozni park in ga zapusti, njegov dnevnik pa ostane na telefonu samo za ogled. Najprej tam končajte vožnjo in izmeno, sicer aplikacija reče »Najprej zaključi trenutno vožnjo.« ali »Najprej zaključi izmeno voznega parka podjetja.« Brez interneta se nič ne spremeni.",
      "image": ""
     },
     {
      "id": "in-fleet",
-     "title": "Vožnja za vozni park podjetja",
-     "text": "Po pridružitvi se vlačilec in polpriklopnik voznega parka prikažeta v Mojem voznem parku in postaneta vaš vlačilec in polpriklopnik — vprašanja ob prvem zagonu niso potrebna. »Profil voznika« prikazuje »Vozni park podjetja:« z imenom voznega parka, vašim vlačilcem in vašim polpriklopnikom.\n\nIzmene, ki jih odprete po pridružitvi, gredo v vozni park podjetja; izmena, odprta pred vnosom kode, ostane vaša. Kopije izmen, voženj in točenj se samodejno pošljejo, ko je na voljo internet; »Pošlji v vozni park podjetja zdaj« jih pošlje takoj. Vaš dnevnik v telefonu se ne spremeni.\n\nČe vam vodja med vožnjo dodeli drug vlačilec, se sprememba uveljavi po končani vožnji. Če se nova koda za vas uporabi v drugem telefonu, ta telefon zapusti vozni park podjetja.",
+     "title": "Dva dnevnika",
+     "text": "Po pridružitvi ima telefon dva dnevnika: »Moj dnevnik« in dnevnik voznega parka. Trak na vrhu vsakega zaslona kaže, kateri je odprt: modrosiv »Moj dnevnik« ali vijoličen z imenom voznega parka. Tapnite trak, da izberete drugega (»Kateri dnevnik?«). Preklopiti je mogoče le, ko vožnja ni začeta, sicer »Najprej zaključi trenutno vožnjo.«\n\nIzmene, vožnje in točenja iz dnevnika voznega parka gredo v vozni park sama, ko je internet; »Pošlji v vozni park podjetja zdaj« v »Profil voznika« jih pošlje takoj. »Moj dnevnik« nikoli ne gre v vozni park — samo v vaš lastni račun. Vsak dnevnik ima svojo izmeno, svoje osnutke in časovnike.\n\nČe vam vodja med vožnjo da drug vlačilec, sprememba pride po koncu vožnje.",
+     "image": ""
+    },
+    {
+     "id": "own-truck",
+     "title": "Lastni vlačilec",
+     "text": "Če vozite za vozni park s svojim vlačilcem, tapnite »Vozim za vozni park podjetja s svojim vlačilcem« v »Profil voznika« in izberite svoj vlačilec (»Moj vozni park«, »Moj dnevnik«). Postane vlačilec v dnevniku voznega parka, vozni park pa vidi njegovo registrsko številko v vaših vožnjah.\n\nGorivo lastnega vlačilca je vaš strošek: njegova točenja gredo vedno v »Moj dnevnik«, tudi ko je odprt dnevnik voznega parka. Če lastna izmena ni odprta, »Moj dnevnik« dobi kratko zaprto izmeno za čas dela za vozni park — tako je točenje v vaših poročilih in v vašem računu. Gorivo vlačilca voznega parka in agregata polpriklopnika voznega parka gre v vozni park. Postanek z obojim se shrani v celoti: če se en del ne shrani, se ne shrani nič.\n\nŠtevec kilometrov lastnega vlačilca teče naprej skozi oba dnevnika.",
+     "image": ""
+    },
+    {
+     "id": "leave",
+     "title": "Izstop iz voznega parka",
+     "text": "»Profil voznika« → »Zapusti vozni park podjetja«. Najprej končajte izmeno voznega parka (»Najprej zaključi izmeno voznega parka podjetja.«). Aplikacija najprej pošlje zadnje vnose, nato izstopi. Brez interneta: »Ni povezave s strežnikom. Poskusi znova, ko boš na spletu.« — nič se ne spremeni.\n\nPo izstopu dnevnik voznega parka ostane na telefonu samo za ogled: trak postane siv in kaže »… · samo za ogled«. »Zgodovina voženj«, točenja, dokumenti in poročila PDF so na voljo; gumbi za spremembe so skriti in izmene ni mogoče začeti. V vozni park nič več ne gre. Za vrnitev prosite vodjo za novo kodo.",
      "image": ""
     },
     {
      "id": "owner",
      "title": "Vozni park podjetja za lastnika",
-     "text": "Za vodjo voznega parka. Vklopite »Lastnik / Zaposlen« v Nastavitve → »Profil voznika«: tam se prikaže vrstica »Vozni park podjetja«.\n\nVozni park podjetja pripada vašemu računu VecturaBook. Če telefon ni prijavljen, na zaslonu piše »Najprej se prijavite v svoj račun:« — tapnite »Poveži z VecturaBook« in se prijavite z e-pošto svojega računa. Če na zaslonu piše »Ta račun nima voznega parka podjetja.«, nam pišite prek »Povratne informacije / Napaka« za odprtje voznega parka podjetja.\n\nZaslon prikazuje »Vozniki« — pri vsakem »Povezan« ali »Še ni povezan«, vlačilec, polpriklopnik in število izmen, voženj in točenj — ter »Moj vozni park« voznega parka podjetja. Spodaj: »Dodaj voznika« s poljem »Ime voznika«, »+ Dodaj vlačilec« (»Registrska«, »Vrsta vlačilca«, »Vrsta nadgradnje«) in »+ Dodaj polpriklopnik« (»Registrska«, združljivost, »Vrsta nadgradnje«). Enako lahko storite v svojem brskalniku na my.vecturabook.com.",
+     "text": "Za vodjo voznega parka. Vklopite »Lastnik / Zaposlen« v Nastavitve → »Profil voznika«: tam se prikaže vrstica »Vozni park podjetja«.\n\nVozni park podjetja pripada vašemu računu VecturaBook. Če telefon ni prijavljen, na zaslonu piše »Najprej se prijavite v svoj račun:« — tapnite »Poveži z VecturaBook« in se prijavite z e-pošto svojega računa. Če na zaslonu piše »Ta račun nima voznega parka podjetja.«, nam pišite prek »Povratne informacije / Napaka« za odprtje voznega parka podjetja.\n\nZaslon prikazuje »Vozniki« — pri vsakem »Povezan« ali »Še ni povezan«, vlačilec, polpriklopnik in število izmen, voženj in točenj — ter »Moj vozni park« voznega parka podjetja. Spodaj: »Dodaj voznika« s poljem »Ime voznika«, »+ Dodaj vlačilec« (»Registrska«, »Vrsta vlačilca«, »Vrsta nadgradnje«) in »+ Dodaj polpriklopnik« (»Registrska«, združljivost, »Vrsta nadgradnje«). Enako lahko storite v svojem brskalniku na my.vecturabook.com.\n\nPri vozniku, ki je odšel, namesto »Povezan« piše »Zapustil vozni park podjetja« s časom.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Voznik",
-     "text": "Tapnite voznika, da odprete kartico. »Vlačilec« in »Polpriklopnik«: izberite iz garaže voznega parka in tapnite »Shrani«. Na voljo so le polpriklopniki, ki ustrezajo izbranemu vlačilcu. Voznikov telefon spremembo prevzame sam; med vožnjo — po končani vožnji.\n\n»Pridobi kodo« izda enkratno kodo s časom, do kdaj je veljavna. »Pošlji kodo vozniku« pošlje kodo in povezavo prek sporočilnika. Koda je prikazana le enkrat. Nova koda voznika prestavi na nov telefon: stari telefon zapusti vozni park podjetja.\n\nSpodaj so voznikove »Izmene«, »Vožnje« in »Točenja«, ki so prispele v vozni park podjetja.",
+     "text": "Tapnite voznika, da odprete kartico. »Vlačilec« in »Polpriklopnik«: izberite iz garaže voznega parka in tapnite »Shrani«. Na voljo so le polpriklopniki, ki ustrezajo izbranemu vlačilcu. Voznikov telefon spremembo prevzame sam; med vožnjo — po končani vožnji.\n\n»Pridobi kodo« izda enkratno kodo s časom, do kdaj je veljavna. »Pošlji kodo vozniku« pošlje kodo in povezavo prek sporočilnika. Koda je prikazana le enkrat. Nova koda voznika prestavi na nov telefon: stari telefon zapusti vozni park podjetja.\n\nSpodaj so voznikove »Izmene«, »Vožnje« in »Točenja«, ki so prispele v vozni park podjetja.\n\nKartica voznika, ki je odšel, kaže »Zapustil vozni park podjetja« s časom. Nova koda od vas voznika vrne.",
      "image": ""
     }
    ]
@@ -1009,7 +1021,7 @@
   "address-book.add-address": "Naslov, koordinata, navigacija in rdeča oznaka.",
   "backup.backup": "Datoteka s celotnim dnevnikom: shranite, pošljite ali obnovite.",
   "online.device-link": "Povezava telefona s programom na spletu: koda QR ali koda z zaslona.",
-  "fleet.join": "Vnesite kodo vodje voznega parka: vlačilec in polpriklopnik voznega parka postaneta vaša, kopija vaših izmen pa se pošlje v vozni park podjetja.",
+  "fleet.join": "Vnesite kodo od vodje voznega parka: telefon dobi ločen dnevnik voznega parka z njegovim vlačilcem in polpriklopnikom; »Moj dnevnik« ostane, kot je bil.",
   "fleet.owner": "Vaš vozni park podjetja: vozniki, garaža voznega parka, dodajanje voznikov, vlačilcev in polpriklopnikov.",
   "fleet.owner-driver": "Kartica voznika: vlačilec in polpriklopnik, enkratna koda za telefon, izmene, vožnje in točenja.",
   "settings.settings": "Vse nastavitve po skupinah.",

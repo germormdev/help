@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "en",
- "revision": "2026-10-26",
+ "revision": "2026-11-15",
  "sections": [
   {
    "slug": "getting-started",
@@ -501,30 +501,42 @@
   {
    "slug": "fleet",
    "title": "Fleet",
-   "intro": "Fleet is for companies with several trucks and drivers. The fleet manager gives each driver a one-time code. With it, the driver's app gets the fleet's truck and trailer and sends a copy of shifts, trips and refuels to the fleet. The driver's own logbook stays on the phone.",
+   "intro": "Fleet is for companies with several trucks and drivers. The fleet manager gives each driver a one-time code. With it, the phone gets a separate journal of the fleet with the fleet's truck and trailer; what you record there goes to the fleet. \"My journal\" — your own journal — stays as it is and stays yours.",
    "steps": [
     {
      "id": "join",
      "title": "Join a fleet with a code",
-     "text": "On the first launch, tap \"I drive for a fleet — enter code\". Later: Settings → \"Driver profile\" → \"Join a fleet with a code\".\n\nEnter the code from your fleet manager and tap \"Join the fleet\". If the manager sent you a link (my.vecturabook.com/fleet/join…), just open it on your phone: the app opens with the code already filled in. You can also paste the whole link into the \"Code\" field.\n\nThe code works only once and only for a limited time. If the app says the code is wrong, expired or already used, ask your fleet manager for a new one.",
+     "text": "On the first launch, tap \"I drive for a fleet — enter code\". Later: Settings → \"Driver profile\" → \"Join a fleet with a code\".\n\nEnter the code from your fleet manager and tap \"Join the fleet\". If the manager sent you a link (my.vecturabook.com/fleet/join…), just open it on your phone: the app opens with the code already filled in. You can also paste the whole link into the \"Code\" field.\n\nThe code works only once and only for a limited time. If the app says the code is wrong, expired or already used, ask your fleet manager for a new one.\n\nIf the phone is already in another fleet, the app asks first: the new code sends the last records to that fleet and leaves it, and its journal stays on the phone for viewing only. Finish the trip and end the shift there first, otherwise the app says \"Finish the current trip first.\" or \"End the fleet shift first.\" Without internet nothing changes.",
      "image": ""
     },
     {
      "id": "in-fleet",
-     "title": "Driving for a fleet",
-     "text": "After you join, the fleet's truck and trailer appear in Garage and become your truck and trailer — the first-launch questions are not needed. \"Driver profile\" shows \"Fleet:\" with the fleet's name, your truck and your trailer.\n\nShifts you open after joining go to the fleet; a shift opened before you entered the code stays yours. Copies of shifts, trips and refuels are sent automatically when there is internet; \"Send to the fleet now\" sends them right away. Your logbook on the phone does not change.\n\nIf the manager gives you another truck during a trip, the change comes after the trip ends. If a new code for you is used on another phone, this phone leaves the fleet.",
+     "title": "Two journals",
+     "text": "After you join, the phone has two journals: \"My journal\" and the journal of the fleet. A strip at the top of every screen shows which one is open: blue-grey \"My journal\" or purple with the fleet's name. Tap the strip to pick the other one (\"Which journal?\"). You can switch only when no trip is started, otherwise \"Finish the current trip first.\"\n\nShifts, trips and refuels of the fleet's journal go to the fleet automatically when there is internet; \"Send to the fleet now\" in \"Driver profile\" sends them right away. \"My journal\" never goes to the fleet — only to your own account. Each journal has its own shift, drafts and timers.\n\nIf the manager gives you another truck during a trip, the change comes after the trip ends.",
+     "image": ""
+    },
+    {
+     "id": "own-truck",
+     "title": "Your own truck",
+     "text": "If you drive for the fleet on your own truck, tap \"Drive my own truck for the fleet\" in \"Driver profile\" and choose your truck (\"Garage\", \"My journal\"). It becomes the truck in the fleet's journal, and the fleet sees its plate on your trips.\n\nFuel for your own truck is your expense: its refuels always go to \"My journal\", even when the fleet's journal is open. If no shift of your own is open, \"My journal\" gets a short closed shift for the time you work for the fleet, so the refuel is in your reports and in your own account. Fuel for the fleet's truck and for the fleet trailer's unit goes to the fleet. A stop with both is saved as one: if one part fails, nothing is saved.\n\nThe odometer of your own truck runs on through both journals.",
+     "image": ""
+    },
+    {
+     "id": "leave",
+     "title": "Leave the fleet",
+     "text": "\"Driver profile\" → \"Leave the fleet\". End the fleet's shift first (\"End the fleet shift first.\"). The app first sends the last records, then leaves. Without internet: \"No connection to the server. Try again when you are online.\" — nothing changes.\n\nAfter you leave, the fleet's journal stays on the phone for viewing only: the strip turns grey and says \"… · view only\". \"Trip History\", refuels, documents and PDF reports are there; buttons for changes are hidden and a shift cannot be started. Nothing more goes to the fleet. To come back, ask the manager for a new code.",
      "image": ""
     },
     {
      "id": "owner",
      "title": "Fleet for the owner",
-     "text": "For the fleet manager. Turn on \"Owner / Hired\" in Settings → \"Driver profile\": the \"Fleet\" row appears there.\n\nThe fleet belongs to your VecturaBook account. If the phone is not signed in, the screen says \"Sign in to your account first:\" — tap \"Connect to VecturaBook\" and sign in with your account's email. If the screen says \"This account has no fleet.\", write to us via \"Feedback / Bug Report\" to open a fleet.\n\nThe screen shows \"Drivers\" — each with \"Linked\" or \"Not linked yet\", truck, trailer and the number of shifts, trips and refuels — and the fleet's \"Garage\". Below: \"Add driver\" with the \"Driver's name\" field, \"+ Add Truck\" (\"Plate Number\", \"Truck Type\", \"Body Type\") and \"+ Add Trailer\" (\"Plate Number\", compatibility, \"Body Type\"). The same can be done in your browser on my.vecturabook.com.",
+     "text": "For the fleet manager. Turn on \"Owner / Hired\" in Settings → \"Driver profile\": the \"Fleet\" row appears there.\n\nThe fleet belongs to your VecturaBook account. If the phone is not signed in, the screen says \"Sign in to your account first:\" — tap \"Connect to VecturaBook\" and sign in with your account's email. If the screen says \"This account has no fleet.\", write to us via \"Feedback / Bug Report\" to open a fleet.\n\nThe screen shows \"Drivers\" — each with \"Linked\" or \"Not linked yet\", truck, trailer and the number of shifts, trips and refuels — and the fleet's \"Garage\". Below: \"Add driver\" with the \"Driver's name\" field, \"+ Add Truck\" (\"Plate Number\", \"Truck Type\", \"Body Type\") and \"+ Add Trailer\" (\"Plate Number\", compatibility, \"Body Type\"). The same can be done in your browser on my.vecturabook.com.\n\nA driver who left shows \"Left the fleet\" with the time instead of \"Linked\".",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Driver",
-     "text": "Tap a driver to open the card. \"Truck\" and \"Trailer\": choose from the fleet's garage and tap \"Save\". Only trailers that fit the chosen truck are offered. The driver's phone picks up the change by itself; during a trip — after the trip ends.\n\n\"Get code\" gives a one-time code with the time it is valid until. \"Send the code to the driver\" sends the code and the link through a messenger. The code is shown only once. A new code moves the driver to a new phone: the old phone leaves the fleet.\n\nBelow are the driver's \"Shifts\", \"Trips\" and \"Refuels\" that have reached the fleet.",
+     "text": "Tap a driver to open the card. \"Truck\" and \"Trailer\": choose from the fleet's garage and tap \"Save\". Only trailers that fit the chosen truck are offered. The driver's phone picks up the change by itself; during a trip — after the trip ends.\n\n\"Get code\" gives a one-time code with the time it is valid until. \"Send the code to the driver\" sends the code and the link through a messenger. The code is shown only once. A new code moves the driver to a new phone: the old phone leaves the fleet.\n\nBelow are the driver's \"Shifts\", \"Trips\" and \"Refuels\" that have reached the fleet.\n\nThe card of a driver who left says \"Left the fleet\" with the time. A new code from you brings the driver back.",
      "image": ""
     }
    ]
@@ -1009,7 +1021,7 @@
   "address-book.add-address": "Address, coordinates, navigator, and red mark.",
   "backup.backup": "Single file with your whole logbook: export, share, or restore.",
   "online.device-link": "Connect your phone to the online app: QR code or on-screen code.",
-  "fleet.join": "Enter the code from your fleet manager: the fleet's truck and trailer become yours, and a copy of your shifts goes to the fleet.",
+  "fleet.join": "Enter the code from your fleet manager: the phone gets a separate journal of the fleet with its truck and trailer; \"My journal\" stays as it is.",
   "fleet.owner": "Your fleet: drivers, the fleet's garage, adding drivers, trucks and trailers.",
   "fleet.owner-driver": "Driver card: truck and trailer, a one-time code for the phone, shifts, trips and refuels.",
   "settings.settings": "All settings organized by group.",

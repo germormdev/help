@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "sv",
- "revision": "2026-10-26",
+ "revision": "2026-11-15",
  "sections": [
   {
    "slug": "getting-started",
@@ -501,30 +501,42 @@
   {
    "slug": "fleet",
    "title": "Fordonsflotta",
-   "intro": "Fordonsflotta är till för företag med flera lastbilar och förare. Den flottansvarige ger varje förare en engångskod. Med den får förarens app fordonsflottans lastbil och släp och skickar en kopia av pass, resor och tankningar till fordonsflottan. Förarens egen körjournal stannar på telefonen.",
+   "intro": "Fordonsflottan är för företag med flera fordon och förare. Den flottansvarige ger varje förare en engångskod. Med den får telefonen en egen körjournal för fordonsflottan med flottans lastbil och släp; det du registrerar där går till fordonsflottan. ”Min körjournal” — din egen körjournal — förblir som den är och förblir din.",
    "steps": [
     {
      "id": "join",
      "title": "Gå med i en fordonsflotta med kod",
-     "text": "Tryck vid första starten på ”Jag kör för en fordonsflotta — ange kod”. Senare: Inställningar → ”Förarprofil” → ”Gå med i en fordonsflotta med kod”.\n\nAnge koden från din flottansvarige och tryck på ”Gå med i fordonsflottan”. Om den flottansvarige skickade en länk till dig (my.vecturabook.com/fleet/join…), öppna den bara på din telefon: appen öppnas med koden redan ifylld. Du kan också klistra in hela länken i fältet ”Kod”.\n\nKoden fungerar bara en gång och endast under en begränsad tid. Om appen säger att koden är fel, har gått ut eller är redan använd, be din flottansvarige om en ny.",
+     "text": "Tryck vid första starten på ”Jag kör för en fordonsflotta — ange kod”. Senare: Inställningar → ”Förarprofil” → ”Gå med i en fordonsflotta med kod”.\n\nAnge koden från din flottansvarige och tryck på ”Gå med i fordonsflottan”. Om den flottansvarige skickade en länk till dig (my.vecturabook.com/fleet/join…), öppna den bara på din telefon: appen öppnas med koden redan ifylld. Du kan också klistra in hela länken i fältet ”Kod”.\n\nKoden fungerar bara en gång och endast under en begränsad tid. Om appen säger att koden är fel, har gått ut eller är redan använd, be din flottansvarige om en ny.\n\nÄr telefonen redan i en annan fordonsflotta frågar appen först: den nya koden skickar de sista posterna till den flottan och lämnar den, och dess körjournal stannar på telefonen endast för visning. Avsluta först körningen och passet där, annars säger appen ”Avsluta den pågående resan först.” eller ”Avsluta fordonsflottans pass först.” Utan internet ändras ingenting.",
      "image": ""
     },
     {
      "id": "in-fleet",
-     "title": "Kör för en fordonsflotta",
-     "text": "Efter att du har gått med visas fordonsflottans lastbil och släp i Fordonspark och blir din lastbil och ditt släp — frågorna vid första starten behövs inte. ”Förarprofil” visar ”Fordonsflotta:” med fordonsflottans namn, din lastbil och ditt släp.\n\nPass som du öppnar efter att du har gått med skickas till fordonsflottan; ett pass som öppnats innan du angav koden förblir ditt eget. Kopior av pass, resor och tankningar skickas automatiskt när det finns internet; ”Skicka till fordonsflottan nu” skickar dem direkt. Din körjournal på telefonen ändras inte.\n\nOm den flottansvarige tilldelar dig en annan lastbil under en resa träder ändringen i kraft efter att resan har avslutats. Om en ny kod för dig används på en annan telefon lämnar den här telefonen fordonsflottan.",
+     "title": "Två körjournaler",
+     "text": "Efter att du gått med har telefonen två körjournaler: ”Min körjournal” och fordonsflottans körjournal. En remsa överst på varje skärm visar vilken som är öppen: blågrå ”Min körjournal” eller lila med flottans namn. Tryck på remsan för att välja den andra (”Vilken körjournal?”). Du kan bara byta när ingen körning har startat, annars ”Avsluta den pågående resan först.”\n\nPass, körningar och tankningar i fordonsflottans körjournal går själva till flottan när det finns internet; ”Skicka till fordonsflottan nu” i ”Förarprofil” skickar dem direkt. ”Min körjournal” går aldrig till fordonsflottan — bara till ditt eget konto. Varje körjournal har sitt eget pass, egna utkast och timers.\n\nGer den flottansvarige dig en annan lastbil under en körning kommer ändringen efter att körningen är slut.",
+     "image": ""
+    },
+    {
+     "id": "own-truck",
+     "title": "Egen lastbil",
+     "text": "Kör du för fordonsflottan med din egen lastbil, tryck på ”Kör för fordonsflottan med min egen lastbil” i ”Förarprofil” och välj din lastbil (”Fordonspark”, ”Min körjournal”). Den blir lastbilen i fordonsflottans körjournal, och flottan ser dess registreringsnummer på dina körningar.\n\nBränsle till din egen lastbil är din kostnad: dess tankningar går alltid till ”Min körjournal”, även när fordonsflottans körjournal är öppen. Är inget eget pass öppet får ”Min körjournal” ett kort stängt pass för tiden du arbetar för flottan — så finns tankningen både i dina rapporter och på ditt konto. Bränsle till flottans lastbil och till aggregatet på flottans släp går till fordonsflottan. Ett stopp med båda sparas i sin helhet: misslyckas en del sparas ingenting.\n\nMätarställningen på din egen lastbil löper vidare genom båda körjournalerna.",
+     "image": ""
+    },
+    {
+     "id": "leave",
+     "title": "Lämna fordonsflottan",
+     "text": "”Förarprofil” → ”Lämna fordonsflottan”. Avsluta först flottans pass (”Avsluta fordonsflottans pass först.”). Appen skickar först de sista posterna och lämnar sedan flottan. Utan internet: ”Ingen anslutning till servern. Försök igen när du är online.” — ingenting ändras.\n\nEfteråt stannar fordonsflottans körjournal på telefonen endast för visning: remsan blir grå och visar ”… · endast visning”. ”Reshistorik”, tankningar, dokument och PDF-rapporter finns kvar; knappar för ändringar är dolda och ett pass kan inte startas. Inget mer går till fordonsflottan. För att komma tillbaka ber du den flottansvarige om en ny kod.",
      "image": ""
     },
     {
      "id": "owner",
      "title": "Fordonsflotta för ägaren",
-     "text": "För den flottansvarige. Aktivera ”Ägare / Anställd” i Inställningar → ”Förarprofil”: raden ”Fordonsflotta” visas där.\n\nFordonsflottan hör till ditt VecturaBook-konto. Om telefonen inte är inloggad visar skärmen ”Logga först in på ditt konto:” — tryck på ”Anslut till VecturaBook” och logga in med ditt kontos e-postadress. Om skärmen visar ”Det här kontot har ingen fordonsflotta.”, skriv till oss via ”Feedback / Felrapport” för att öppna en fordonsflotta.\n\nSkärmen visar ”Förare” — var och en med ”Kopplad” eller ”Inte kopplad än”, lastbil, släp och antalet pass, resor och tankningar — samt fordonsflottans ”Fordonspark”. Nedanför: ”Lägg till förare” med fältet ”Förarens namn”, ”+ Lägg till lastbil” (”Registreringsnummer”, ”Lastbilstyp”, ”Karosstyp”) och ”+ Lägg till släp” (”Registreringsnummer”, kompatibilitet, ”Karosstyp”). Samma sak kan göras i din webbläsare på my.vecturabook.com.",
+     "text": "För den flottansvarige. Aktivera ”Ägare / Anställd” i Inställningar → ”Förarprofil”: raden ”Fordonsflotta” visas där.\n\nFordonsflottan hör till ditt VecturaBook-konto. Om telefonen inte är inloggad visar skärmen ”Logga först in på ditt konto:” — tryck på ”Anslut till VecturaBook” och logga in med ditt kontos e-postadress. Om skärmen visar ”Det här kontot har ingen fordonsflotta.”, skriv till oss via ”Feedback / Felrapport” för att öppna en fordonsflotta.\n\nSkärmen visar ”Förare” — var och en med ”Kopplad” eller ”Inte kopplad än”, lastbil, släp och antalet pass, resor och tankningar — samt fordonsflottans ”Fordonspark”. Nedanför: ”Lägg till förare” med fältet ”Förarens namn”, ”+ Lägg till lastbil” (”Registreringsnummer”, ”Lastbilstyp”, ”Karosstyp”) och ”+ Lägg till släp” (”Registreringsnummer”, kompatibilitet, ”Karosstyp”). Samma sak kan göras i din webbläsare på my.vecturabook.com.\n\nHos en förare som har lämnat står ”Lämnade fordonsflottan” med tiden i stället för ”Kopplad”.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Förare",
-     "text": "Tryck på en förare för att öppna kortet. ”Lastbil” och ”Släp”: välj från fordonsflottans fordonspark och tryck på ”Spara”. Endast släp som passar till den valda lastbilen erbjuds. Förarens telefon hämtar själv ändringen; under en resa — efter att resan har avslutats.\n\n”Hämta kod” ger en engångskod med information om hur länge den är giltig. ”Skicka koden till föraren” skickar koden och länken via en meddelandeapp. Koden visas bara en gång. En ny kod flyttar föraren till en ny telefon: den gamla telefonen lämnar fordonsflottan.\n\nNedanför visas förarens ”Pass”, ”Resor” och ”Tankningar” som har nått fordonsflottan.",
+     "text": "Tryck på en förare för att öppna kortet. ”Lastbil” och ”Släp”: välj från fordonsflottans fordonspark och tryck på ”Spara”. Endast släp som passar till den valda lastbilen erbjuds. Förarens telefon hämtar själv ändringen; under en resa — efter att resan har avslutats.\n\n”Hämta kod” ger en engångskod med information om hur länge den är giltig. ”Skicka koden till föraren” skickar koden och länken via en meddelandeapp. Koden visas bara en gång. En ny kod flyttar föraren till en ny telefon: den gamla telefonen lämnar fordonsflottan.\n\nNedanför visas förarens ”Pass”, ”Resor” och ”Tankningar” som har nått fordonsflottan.\n\nKortet för en förare som har lämnat visar ”Lämnade fordonsflottan” med tiden. En ny kod från dig tar tillbaka föraren.",
      "image": ""
     }
    ]
@@ -1009,7 +1021,7 @@
   "address-book.add-address": "Adress, koordinat, navigator och röd markering.",
   "backup.backup": "En fil med hela journalen: spara, skicka eller återställ.",
   "online.device-link": "Anslut telefonen till programmet online: QR-kod eller kod på skärmen.",
-  "fleet.join": "Ange koden från din flottansvarige: fordonsflottans lastbil och släp blir dina, och en kopia av dina pass skickas till fordonsflottan.",
+  "fleet.join": "Ange koden från den flottansvarige: telefonen får en egen körjournal för flottan med dess lastbil och släp; ”Min körjournal” förblir som den är.",
   "fleet.owner": "Din fordonsflotta: förare, fordonsflottans fordonspark, lägga till förare, lastbilar och släp.",
   "fleet.owner-driver": "Förarkort: lastbil och släp, en engångskod för telefonen, pass, resor och tankningar.",
   "settings.settings": "Alla inställningar indelade i grupper.",

@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "tr",
- "revision": "2026-10-26",
+ "revision": "2026-11-15",
  "sections": [
   {
    "slug": "getting-started",
@@ -501,30 +501,42 @@
   {
    "slug": "fleet",
    "title": "Şirket filosu",
-   "intro": "Şirket filosu, birden fazla çekicisi ve sürücüsü olan şirketler içindir. Filo yöneticisi her sürücüye tek kullanımlık bir kod verir. Bununla sürücünün uygulaması şirket filosunun çekici ve römorkunu alır ve vardiyaların, seferlerin ve yakıt almaların bir kopyasını şirket filosuna gönderir. Sürücünün kendi defteri telefonda kalır.",
+   "intro": "Şirket filosu, birden çok aracı ve sürücüsü olan firmalar içindir. Filo yöneticisi her sürücüye tek kullanımlık bir kod verir. Bu kodla telefona, filonun çekicisi ve dorsesiyle ayrı bir filo seyir defteri gelir; oraya kaydettikleriniz filoya gider. “Seyir defterim” — kendi seyir defteriniz — olduğu gibi kalır ve sizin olarak kalır.",
    "steps": [
     {
      "id": "join",
      "title": "Kodla bir şirket filosuna katıl",
-     "text": "İlk çalıştırmada “Bir şirket filosunda sürüyorum — kodu gir” düğmesine dokunun. Daha sonra: Ayarlar → “Sürücü profili” → “Kodla bir şirket filosuna katıl”.\n\nFilo yöneticinizin verdiği kodu girin ve “Şirket filosuna katıl” düğmesine dokunun. Yönetici size bir bağlantı gönderdiyse (my.vecturabook.com/fleet/join…), bunu telefonunuzda açmanız yeterlidir: uygulama, kod önceden doldurulmuş olarak açılır. Bağlantının tamamını “Kod” alanına da yapıştırabilirsiniz.\n\nKod yalnızca bir kez ve sınırlı bir süre için geçerlidir. Uygulama kodun yanlış, süresi dolmuş ya da zaten kullanılmış olduğunu bildirirse filo yöneticinizden yeni bir kod isteyin.",
+     "text": "İlk çalıştırmada “Bir şirket filosunda sürüyorum — kodu gir” düğmesine dokunun. Daha sonra: Ayarlar → “Sürücü profili” → “Kodla bir şirket filosuna katıl”.\n\nFilo yöneticinizin verdiği kodu girin ve “Şirket filosuna katıl” düğmesine dokunun. Yönetici size bir bağlantı gönderdiyse (my.vecturabook.com/fleet/join…), bunu telefonunuzda açmanız yeterlidir: uygulama, kod önceden doldurulmuş olarak açılır. Bağlantının tamamını “Kod” alanına da yapıştırabilirsiniz.\n\nKod yalnızca bir kez ve sınırlı bir süre için geçerlidir. Uygulama kodun yanlış, süresi dolmuş ya da zaten kullanılmış olduğunu bildirirse filo yöneticinizden yeni bir kod isteyin.\n\nTelefon zaten başka bir filodaysa uygulama önce sorar: yeni kod son kayıtları o filoya gönderir ve ondan ayrılır, onun seyir defteri de telefonda yalnızca görüntüleme için kalır. Önce orada seferi ve vardiyayı bitirin, yoksa uygulama “Önce mevcut seferi tamamla.” ya da “Önce şirket filosunun vardiyasını bitir.” der. İnternet yoksa hiçbir şey değişmez.",
      "image": ""
     },
     {
      "id": "in-fleet",
-     "title": "Bir şirket filosunda sürme",
-     "text": "Katıldıktan sonra, şirket filosunun çekici ve römorku Filoda görünür ve sizin çekiciniz ve römorkunuz olur — ilk çalıştırma sorularına gerek kalmaz. “Sürücü profili”, şirket filosunun adı, çekiciniz ve römorkunuzla birlikte “Şirket filosu:” satırını gösterir.\n\nKatıldıktan sonra açtığınız vardiyalar şirket filosuna gider; kodu girmeden önce açılan bir vardiya ise sizde kalır. İnternet olduğunda vardiyaların, seferlerin ve yakıt almaların kopyaları otomatik olarak gönderilir; “Şimdi şirket filosuna gönder” bunları hemen gönderir. Telefondaki defteriniz değişmez.\n\nYönetici bir sefer sırasında size başka bir çekici verirse, değişiklik sefer bittikten sonra geçerli olur. Sizin için yeni bir kod başka bir telefonda kullanılırsa, bu telefon şirket filosundan ayrılır.",
+     "title": "İki seyir defteri",
+     "text": "Katıldıktan sonra telefonda iki seyir defteri olur: “Seyir defterim” ve filonun seyir defteri. Her ekranın üstündeki şerit hangisinin açık olduğunu gösterir: mavi-gri “Seyir defterim” ya da filo adıyla mor. Diğerini seçmek için şeride dokunun (“Hangi seyir defteri?”). Yalnızca başlamış bir sefer yokken geçilebilir, yoksa “Önce mevcut seferi tamamla.”\n\nFilo seyir defterinin vardiyaları, seferleri ve yakıt alımları internet olduğunda kendiliğinden filoya gider; “Sürücü profili” içindeki “Şimdi şirket filosuna gönder” hemen gönderir. “Seyir defterim” hiçbir zaman filoya gitmez — yalnızca kendi hesabınıza. Her seyir defterinin kendi vardiyası, taslakları ve zamanlayıcıları vardır.\n\nYönetici sefer sırasında size başka bir çekici verirse değişiklik sefer bittikten sonra gelir.",
+     "image": ""
+    },
+    {
+     "id": "own-truck",
+     "title": "Kendi çekiciniz",
+     "text": "Filo için kendi çekicinizle çalışıyorsanız “Sürücü profili” içinde “Şirket filosu için kendi çekicimle çalışıyorum” düğmesine dokunun ve çekicinizi seçin (“Filo”, “Seyir defterim”). Filo seyir defterindeki çekici o olur ve filo seferlerinizde plakasını görür.\n\nKendi çekicinizin yakıtı sizin giderinizdir: yakıt alımları, filo seyir defteri açıkken bile her zaman “Seyir defterim” içine gider. Kendi vardiyanız açık değilse “Seyir defterim”, filo için çalıştığınız süre kadar kısa, kapalı bir vardiya alır — böylece yakıt alımı hem raporlarınızda hem hesabınızda olur. Filonun çekicisinin ve filo dorsesinin ünitesinin yakıtı filoya gider. İkisini de içeren bir durak bütün olarak kaydedilir: bir kısmı başarısız olursa hiçbir şey kaydedilmez.\n\nKendi çekicinizin kilometre sayacı iki seyir defteri boyunca kesintisiz devam eder.",
+     "image": ""
+    },
+    {
+     "id": "leave",
+     "title": "Şirket filosundan ayrılma",
+     "text": "“Sürücü profili” → “Şirket filosundan ayrıl”. Önce filonun vardiyasını bitirin (“Önce şirket filosunun vardiyasını bitir.”). Uygulama önce son kayıtları gönderir, sonra ayrılır. İnternet yoksa: “Sunucuya bağlantı yok. Çevrimiçi olduğunda tekrar dene.” — hiçbir şey değişmez.\n\nAyrıldıktan sonra filo seyir defteri telefonda yalnızca görüntüleme için kalır: şerit griye döner ve “… · salt okunur” yazar. “Sefer Geçmişi”, yakıt alımları, belgeler ve PDF raporları yerinde kalır; değişiklik düğmeleri gizlenir ve vardiya başlatılamaz. Filoya artık hiçbir şey gitmez. Geri dönmek için yöneticiden yeni bir kod isteyin.",
      "image": ""
     },
     {
      "id": "owner",
      "title": "Sahip için şirket filosu",
-     "text": "Filo yöneticisi için. Ayarlar → “Sürücü profili” bölümünde “Sahip / Ücretli” seçeneğini açın: orada “Şirket filosu” satırı görünür.\n\nŞirket filosu VecturaBook hesabınıza aittir. Telefonda giriş yapılmamışsa ekranda “Önce hesabına giriş yap:” yazar — “VecturaBook’a bağlan” düğmesine dokunun ve hesabınızın e-postasıyla giriş yapın. Ekranda “Bu hesabın şirket filosu yok.” yazıyorsa bir şirket filosu açmak için “Geri Bildirim / Hata Bildir” üzerinden bize yazın.\n\nEkranda “Sürücüler” — her biri “Bağlı” veya “Henüz bağlı değil”, çekici, römork ve vardiya, sefer ve yakıt alma sayısıyla birlikte — ve şirket filosunun “Filo”su görünür. Aşağıda: “Sürücünün adı” alanıyla “Sürücü ekle”, “+ Çekici Ekle” (“Plaka Numarası”, “Çekici Tipi”, “Kasa Tipi”) ve “+ Römork Ekle” (“Plaka Numarası”, uyumluluk, “Kasa Tipi”). Aynısı tarayıcınızda my.vecturabook.com üzerinden de yapılabilir.",
+     "text": "Filo yöneticisi için. Ayarlar → “Sürücü profili” bölümünde “Sahip / Ücretli” seçeneğini açın: orada “Şirket filosu” satırı görünür.\n\nŞirket filosu VecturaBook hesabınıza aittir. Telefonda giriş yapılmamışsa ekranda “Önce hesabına giriş yap:” yazar — “VecturaBook’a bağlan” düğmesine dokunun ve hesabınızın e-postasıyla giriş yapın. Ekranda “Bu hesabın şirket filosu yok.” yazıyorsa bir şirket filosu açmak için “Geri Bildirim / Hata Bildir” üzerinden bize yazın.\n\nEkranda “Sürücüler” — her biri “Bağlı” veya “Henüz bağlı değil”, çekici, römork ve vardiya, sefer ve yakıt alma sayısıyla birlikte — ve şirket filosunun “Filo”su görünür. Aşağıda: “Sürücünün adı” alanıyla “Sürücü ekle”, “+ Çekici Ekle” (“Plaka Numarası”, “Çekici Tipi”, “Kasa Tipi”) ve “+ Römork Ekle” (“Plaka Numarası”, uyumluluk, “Kasa Tipi”). Aynısı tarayıcınızda my.vecturabook.com üzerinden de yapılabilir.\n\nAyrılan sürücüde “Bağlı” yerine “Şirket filosundan ayrıldı” ve saat görünür.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Sürücü",
-     "text": "Kartını açmak için bir sürücüye dokunun. “Çekici” ve “Römork”: şirket filosunun filosundan seçin ve “Kaydet” düğmesine dokunun. Yalnızca seçilen çekiciye uyan römorklar sunulur. Sürücünün telefonu değişikliği kendisi alır; sefer sırasındaysa — sefer bittikten sonra.\n\n“Kod al”, ne zamana kadar geçerli olduğu bilgisiyle birlikte tek kullanımlık bir kod verir. “Kodu sürücüye gönder”, kodu ve bağlantıyı bir mesajlaşma uygulaması üzerinden gönderir. Kod yalnızca bir kez gösterilir. Yeni bir kod sürücüyü yeni bir telefona taşır: eski telefon şirket filosundan ayrılır.\n\nAşağıda sürücünün şirket filosuna ulaşan “Vardiyalar”, “Sefer” ve “Yakıt almalar” kayıtları yer alır.",
+     "text": "Kartını açmak için bir sürücüye dokunun. “Çekici” ve “Römork”: şirket filosunun filosundan seçin ve “Kaydet” düğmesine dokunun. Yalnızca seçilen çekiciye uyan römorklar sunulur. Sürücünün telefonu değişikliği kendisi alır; sefer sırasındaysa — sefer bittikten sonra.\n\n“Kod al”, ne zamana kadar geçerli olduğu bilgisiyle birlikte tek kullanımlık bir kod verir. “Kodu sürücüye gönder”, kodu ve bağlantıyı bir mesajlaşma uygulaması üzerinden gönderir. Kod yalnızca bir kez gösterilir. Yeni bir kod sürücüyü yeni bir telefona taşır: eski telefon şirket filosundan ayrılır.\n\nAşağıda sürücünün şirket filosuna ulaşan “Vardiyalar”, “Sefer” ve “Yakıt almalar” kayıtları yer alır.\n\nAyrılan sürücünün kartında “Şirket filosundan ayrıldı” ve saat görünür. Sizden gelen yeni bir kod sürücüyü geri getirir.",
      "image": ""
     }
    ]
@@ -1009,7 +1021,7 @@
   "address-book.add-address": "Adres, koordinat, navigasyon ve kırmızı işaret.",
   "backup.backup": "Tüm defteri içeren dosya: kaydetme, gönderme veya geri yükleme.",
   "online.device-link": "Telefonu çevrimiçi programa bağlama: QR kodu veya ekrandaki kod.",
-  "fleet.join": "Filo yöneticinizin verdiği kodu girin: şirket filosunun çekici ve römorku sizin olur ve vardiyalarınızın bir kopyası şirket filosuna gider.",
+  "fleet.join": "Filo yöneticisinden aldığınız kodu girin: telefona, filonun çekicisi ve dorsesiyle ayrı bir filo seyir defteri gelir; “Seyir defterim” olduğu gibi kalır.",
   "fleet.owner": "Şirket filonuz: sürücüler, şirket filosunun filosu, sürücü, çekici ve römork ekleme.",
   "fleet.owner-driver": "Sürücü kartı: çekici ve römork, telefon için tek kullanımlık kod, vardiyalar, seferler ve yakıt almalar.",
   "settings.settings": "Gruplar halinde tüm ayarlar.",

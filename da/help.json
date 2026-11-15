@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "da",
- "revision": "2026-10-26",
+ "revision": "2026-11-15",
  "sections": [
   {
    "slug": "getting-started",
@@ -501,30 +501,42 @@
   {
    "slug": "fleet",
    "title": "Flåde",
-   "intro": "Flåde er til virksomheder med flere lastbiler og chauffører. Den flådeansvarlige giver hver chauffør en engangskode. Med den får chaufførens app flådens lastbil og anhænger og sender en kopi af vagter, ture og tankninger til flåden. Chaufførens egen kørebog bliver på telefonen.",
+   "intro": "Flåden er til firmaer med flere køretøjer og chauffører. Den flådeansvarlige giver hver chauffør en engangskode. Med den får telefonen en separat logbog for flåden med flådens lastbil og anhænger; det, du registrerer der, går til flåden. \"Min logbog\" — din egen logbog — forbliver som den er og forbliver din.",
    "steps": [
     {
      "id": "join",
      "title": "Tilslut en flåde med en kode",
-     "text": "Tryk ved første start på \"Jeg kører for en flåde — indtast kode\". Senere: Indstillinger → \"Chaufførprofil\" → \"Tilslut en flåde med en kode\".\n\nIndtast koden fra din flådeansvarlige, og tryk på \"Tilslut flåden\". Hvis den flådeansvarlige har sendt dig et link (my.vecturabook.com/fleet/join…), skal du bare åbne det på din telefon: appen åbner med koden allerede udfyldt. Du kan også indsætte hele linket i feltet \"Kode\".\n\nKoden virker kun én gang og kun i begrænset tid. Hvis appen melder, at koden er forkert, udløbet eller allerede brugt, så bed din flådeansvarlige om en ny.",
+     "text": "Tryk ved første start på \"Jeg kører for en flåde — indtast kode\". Senere: Indstillinger → \"Chaufførprofil\" → \"Tilslut en flåde med en kode\".\n\nIndtast koden fra din flådeansvarlige, og tryk på \"Tilslut flåden\". Hvis den flådeansvarlige har sendt dig et link (my.vecturabook.com/fleet/join…), skal du bare åbne det på din telefon: appen åbner med koden allerede udfyldt. Du kan også indsætte hele linket i feltet \"Kode\".\n\nKoden virker kun én gang og kun i begrænset tid. Hvis appen melder, at koden er forkert, udløbet eller allerede brugt, så bed din flådeansvarlige om en ny.\n\nEr telefonen allerede i en anden flåde, spørger appen først: den nye kode sender de sidste registreringer til den flåde og forlader den, og dens logbog bliver på telefonen kun til visning. Afslut først turen og vagten der, ellers siger appen \"Afslut den aktuelle tur først.\" eller \"Afslut flådens vagt først.\" Uden internet ændres intet.",
      "image": ""
     },
     {
      "id": "in-fleet",
-     "title": "Kør for en flåde",
-     "text": "Efter tilslutning vises flådens lastbil og anhænger i Vognpark og bliver til din lastbil og anhænger — spørgsmålene ved første start er ikke nødvendige. \"Chaufførprofil\" viser \"Flåde:\" med flådens navn, din lastbil og din anhænger.\n\nVagter, du åbner efter tilslutning, sendes til flåden; en vagt, der er åbnet før du indtastede koden, forbliver din egen. Kopier af vagter, ture og tankninger sendes automatisk, når der er internetforbindelse; \"Send til flåden nu\" sender dem med det samme. Din kørebog på telefonen ændres ikke.\n\nHvis den flådeansvarlige tildeler dig en anden lastbil under en tur, træder ændringen i kraft, når turen afsluttes. Hvis en ny kode til dig bruges på en anden telefon, forlader denne telefon flåden.",
+     "title": "To logbøger",
+     "text": "Efter tilslutning har telefonen to logbøger: \"Min logbog\" og flådens logbog. En stribe øverst på hver skærm viser, hvilken der er åben: blågrå \"Min logbog\" eller lilla med flådens navn. Tryk på striben for at vælge den anden (\"Hvilken logbog?\"). Du kan kun skifte, når ingen tur er startet, ellers \"Afslut den aktuelle tur først.\"\n\nVagter, ture og tankninger fra flådens logbog går selv til flåden, når der er internet; \"Send til flåden nu\" i \"Chaufførprofil\" sender dem med det samme. \"Min logbog\" går aldrig til flåden — kun til din egen konto. Hver logbog har sin egen vagt, egne kladder og timere.\n\nGiver den flådeansvarlige dig en anden lastbil under en tur, kommer ændringen efter turens slutning.",
+     "image": ""
+    },
+    {
+     "id": "own-truck",
+     "title": "Egen lastbil",
+     "text": "Kører du for flåden i din egen lastbil, så tryk på \"Kør for flåden i min egen lastbil\" i \"Chaufførprofil\" og vælg din lastbil (\"Vognpark\", \"Min logbog\"). Den bliver lastbilen i flådens logbog, og flåden ser dens nummerplade på dine ture.\n\nBrændstof til din egen lastbil er din udgift: dens tankninger går altid til \"Min logbog\", også når flådens logbog er åben. Er ingen egen vagt åben, får \"Min logbog\" en kort lukket vagt for den tid, du arbejder for flåden — så tankningen er i dine rapporter og på din konto. Brændstof til flådens lastbil og til aggregatet på flådens anhænger går til flåden. Et stop med begge dele gemmes samlet: fejler én del, gemmes intet.\n\nKilometertælleren på din egen lastbil fortsætter gennem begge logbøger.",
+     "image": ""
+    },
+    {
+     "id": "leave",
+     "title": "Forlad flåden",
+     "text": "\"Chaufførprofil\" → \"Forlad flåden\". Afslut først flådens vagt (\"Afslut flådens vagt først.\"). Appen sender først de sidste registreringer og forlader derefter flåden. Uden internet: \"Ingen forbindelse til serveren. Prøv igen, når du er online.\" — intet ændres.\n\nBagefter bliver flådens logbog på telefonen kun til visning: striben bliver grå og viser \"… · kun visning\". \"Turhistorik\", tankninger, dokumenter og PDF-rapporter er der; knapper til ændringer er skjult, og en vagt kan ikke startes. Intet mere går til flåden. For at komme tilbage beder du den flådeansvarlige om en ny kode.",
      "image": ""
     },
     {
      "id": "owner",
      "title": "Flåde for ejeren",
-     "text": "Til den flådeansvarlige. Slå \"Ejer / Ansat\" til under Indstillinger → \"Chaufførprofil\": rækken \"Flåde\" vises der.\n\nFlåden hører til din VecturaBook-konto. Hvis telefonen ikke er logget ind, viser skærmen \"Log først ind på din konto:\" — tryk på \"Forbind til VecturaBook\", og log ind med din kontos e-mail. Hvis skærmen viser \"Denne konto har ingen flåde.\", så skriv til os via \"Feedback / Fejlrapport\" for at få oprettet en flåde.\n\nSkærmen viser \"Chauffører\" — hver med \"Tilknyttet\" eller \"Ikke tilknyttet endnu\", lastbil, anhænger og antallet af vagter, ture og tankninger — samt flådens \"Vognpark\". Nedenfor: \"Tilføj chauffør\" med feltet \"Chaufførens navn\", \"+ Tilføj lastbil\" (\"Nummerplade\", \"Lastbiltype\", \"Opbygningstype\") og \"+ Tilføj anhænger\" (\"Nummerplade\", kompatibilitet, \"Opbygningstype\"). Det samme kan gøres i din browser på my.vecturabook.com.",
+     "text": "Til den flådeansvarlige. Slå \"Ejer / Ansat\" til under Indstillinger → \"Chaufførprofil\": rækken \"Flåde\" vises der.\n\nFlåden hører til din VecturaBook-konto. Hvis telefonen ikke er logget ind, viser skærmen \"Log først ind på din konto:\" — tryk på \"Forbind til VecturaBook\", og log ind med din kontos e-mail. Hvis skærmen viser \"Denne konto har ingen flåde.\", så skriv til os via \"Feedback / Fejlrapport\" for at få oprettet en flåde.\n\nSkærmen viser \"Chauffører\" — hver med \"Tilknyttet\" eller \"Ikke tilknyttet endnu\", lastbil, anhænger og antallet af vagter, ture og tankninger — samt flådens \"Vognpark\". Nedenfor: \"Tilføj chauffør\" med feltet \"Chaufførens navn\", \"+ Tilføj lastbil\" (\"Nummerplade\", \"Lastbiltype\", \"Opbygningstype\") og \"+ Tilføj anhænger\" (\"Nummerplade\", kompatibilitet, \"Opbygningstype\"). Det samme kan gøres i din browser på my.vecturabook.com.\n\nVed en chauffør, der er gået, står \"Forlod flåden\" med tidspunktet i stedet for \"Tilknyttet\".",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Chauffør",
-     "text": "Tryk på en chauffør for at åbne kortet. \"Lastbil\" og \"Anhænger\": vælg fra flådens vognpark, og tryk på \"Gem\". Der tilbydes kun anhængere, som passer til den valgte lastbil. Chaufførens telefon opfanger selv ændringen; under en tur — når turen er slut.\n\n\"Hent kode\" giver en engangskode med oplysning om, hvor længe den er gyldig. \"Send koden til chaufføren\" sender koden og linket via en beskedapp. Koden vises kun én gang. En ny kode flytter chaufføren til en ny telefon: den gamle telefon forlader flåden.\n\nNedenfor ses chaufførens \"Vagter\", \"Ture\" og \"Tankninger\", som er nået frem til flåden.",
+     "text": "Tryk på en chauffør for at åbne kortet. \"Lastbil\" og \"Anhænger\": vælg fra flådens vognpark, og tryk på \"Gem\". Der tilbydes kun anhængere, som passer til den valgte lastbil. Chaufførens telefon opfanger selv ændringen; under en tur — når turen er slut.\n\n\"Hent kode\" giver en engangskode med oplysning om, hvor længe den er gyldig. \"Send koden til chaufføren\" sender koden og linket via en beskedapp. Koden vises kun én gang. En ny kode flytter chaufføren til en ny telefon: den gamle telefon forlader flåden.\n\nNedenfor ses chaufførens \"Vagter\", \"Ture\" og \"Tankninger\", som er nået frem til flåden.\n\nKortet for en chauffør, der er gået, viser \"Forlod flåden\" med tidspunktet. En ny kode fra dig henter chaufføren tilbage.",
      "image": ""
     }
    ]
@@ -1009,7 +1021,7 @@
   "address-book.add-address": "Adresse, koordinat, navigation og rød markering.",
   "backup.backup": "Fil med hele kørebogen: gem, send eller gendan.",
   "online.device-link": "Forbind telefonen til programmet online: QR-kode eller kode fra skærmen.",
-  "fleet.join": "Indtast koden fra din flådeansvarlige: flådens lastbil og anhænger bliver dine, og en kopi af dine vagter sendes til flåden.",
+  "fleet.join": "Indtast koden fra den flådeansvarlige: telefonen får en separat logbog for flåden med dens lastbil og anhænger; \"Min logbog\" forbliver som den er.",
   "fleet.owner": "Din flåde: chauffører, flådens vognpark, tilføjelse af chauffører, lastbiler og anhængere.",
   "fleet.owner-driver": "Chaufførkort: lastbil og anhænger, en engangskode til telefonen, vagter, ture og tankninger.",
   "settings.settings": "Alle indstillinger opdelt i grupper.",

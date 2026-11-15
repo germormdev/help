@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "it",
- "revision": "2026-10-26",
+ "revision": "2026-11-15",
  "sections": [
   {
    "slug": "getting-started",
@@ -501,30 +501,42 @@
   {
    "slug": "fleet",
    "title": "Flotta",
-   "intro": "La Flotta è per le aziende con diversi camion e autisti. Il responsabile di flotta fornisce a ciascun autista un codice monouso. Con questo codice, l'app dell'autista ottiene il camion e il rimorchio della flotta e invia alla flotta una copia di turni, viaggi e rifornimenti. Il diario di bordo dell'autista rimane sul telefono.",
+   "intro": "La flotta è per le aziende con più mezzi e autisti. Il responsabile della flotta dà a ogni autista un codice monouso. Con esso il telefono riceve un registro separato della flotta con il camion e il rimorchio della flotta; ciò che registri lì va alla flotta. «Il mio registro» — il tuo registro personale — resta com'è e resta tuo.",
    "steps": [
     {
      "id": "join",
      "title": "Entra in una flotta con un codice",
-     "text": "Al primo avvio, tocca «Guido per una flotta — inserisci il codice». In seguito: Impostazioni → «Profilo del conducente» → «Entra in una flotta con un codice».\n\nInserisci il codice del tuo responsabile di flotta e tocca «Entra nella flotta». Se il responsabile ti ha inviato un link (my.vecturabook.com/fleet/join…), aprilo semplicemente sul telefono: l'app si aprirà con il codice già compilato. Puoi anche incollare l'intero link nel campo «Codice».\n\nIl codice funziona solo una volta e solo per un tempo limitato. Se l'app dice che il codice è errato, scaduto o già usato, chiedine uno nuovo al responsabile di flotta.",
+     "text": "Al primo avvio, tocca «Guido per una flotta — inserisci il codice». In seguito: Impostazioni → «Profilo del conducente» → «Entra in una flotta con un codice».\n\nInserisci il codice del tuo responsabile di flotta e tocca «Entra nella flotta». Se il responsabile ti ha inviato un link (my.vecturabook.com/fleet/join…), aprilo semplicemente sul telefono: l'app si aprirà con il codice già compilato. Puoi anche incollare l'intero link nel campo «Codice».\n\nIl codice funziona solo una volta e solo per un tempo limitato. Se l'app dice che il codice è errato, scaduto o già usato, chiedine uno nuovo al responsabile di flotta.\n\nSe il telefono è già in un'altra flotta, l'app chiede prima: il nuovo codice invia le ultime registrazioni a quella flotta e la lascia, e il suo registro resta sul telefono solo per la visualizzazione. Prima chiudi lì il viaggio e il turno, altrimenti l'app dice «Termina prima il viaggio in corso.» oppure «Termina prima il turno della flotta.» Senza internet non cambia nulla.",
      "image": ""
     },
     {
      "id": "in-fleet",
-     "title": "Guidare per una flotta",
-     "text": "Dopo essere entrato nella flotta, il camion e il rimorchio della flotta appaiono in Parco mezzi e diventano il tuo camion e il tuo rimorchio — le domande del primo avvio non servono più. «Profilo del conducente» mostra «Flotta:» con il nome della flotta, il tuo camion e il tuo rimorchio.\n\nI turni aperti dopo l'ingresso vanno alla flotta; un turno aperto prima di aver inserito il codice rimane tuo. Le copie di turni, viaggi e rifornimenti vengono inviate automaticamente quando c'è internet; «Invia alla flotta ora» le invia subito. Il tuo diario di bordo sul telefono non cambia.\n\nSe il responsabile ti assegna un altro camion durante un viaggio, la modifica viene applicata al termine del viaggio. Se un nuovo codice per te viene usato su un altro telefono, questo telefono esce dalla flotta.",
+     "title": "Due registri",
+     "text": "Dopo l'ingresso il telefono ha due registri: «Il mio registro» e il registro della flotta. Una striscia in alto su ogni schermata mostra quale è aperto: grigio-blu «Il mio registro» o viola con il nome della flotta. Tocca la striscia per scegliere l'altro («Quale registro?»). Puoi cambiare solo quando nessun viaggio è iniziato, altrimenti «Termina prima il viaggio in corso.»\n\nTurni, viaggi e rifornimenti del registro della flotta vanno alla flotta da soli quando c'è internet; «Invia alla flotta ora» in «Profilo del conducente» li invia subito. «Il mio registro» non va mai alla flotta — solo al tuo account personale. Ogni registro ha il proprio turno, le proprie bozze e i propri timer.\n\nSe il responsabile ti dà un altro camion durante un viaggio, la modifica arriva alla fine del viaggio.",
+     "image": ""
+    },
+    {
+     "id": "own-truck",
+     "title": "Il tuo camion",
+     "text": "Se guidi per la flotta con il tuo camion, tocca «Guidare per la flotta con il mio camion» in «Profilo del conducente» e scegli il tuo camion («Parco mezzi», «Il mio registro»). Diventa il camion del registro della flotta, e la flotta vede la sua targa nei tuoi viaggi.\n\nIl carburante del tuo camion è una tua spesa: i suoi rifornimenti vanno sempre in «Il mio registro», anche quando è aperto il registro della flotta. Se non c'è un tuo turno aperto, «Il mio registro» riceve un breve turno chiuso per il tempo di lavoro per la flotta — così il rifornimento è nei tuoi report e nel tuo account. Il carburante del camion della flotta e del gruppo del rimorchio della flotta va alla flotta. Una sosta con entrambi viene salvata per intero: se una parte non riesce, non si salva nulla.\n\nIl contachilometri del tuo camion prosegue attraverso entrambi i registri.",
+     "image": ""
+    },
+    {
+     "id": "leave",
+     "title": "Lasciare la flotta",
+     "text": "«Profilo del conducente» → «Lascia la flotta». Prima chiudi il turno della flotta («Termina prima il turno della flotta.»). L'app invia prima le ultime registrazioni, poi esce. Senza internet: «Nessuna connessione al server. Riprova quando sei online.» — non cambia nulla.\n\nDopo l'uscita il registro della flotta resta sul telefono solo per la visualizzazione: la striscia diventa grigia e mostra «… · sola lettura». «Storico viaggi», rifornimenti, documenti e report PDF restano; i pulsanti di modifica sono nascosti e non si può iniziare un turno. Alla flotta non va più nulla. Per tornare, chiedi al responsabile un nuovo codice.",
      "image": ""
     },
     {
      "id": "owner",
      "title": "Flotta per il proprietario",
-     "text": "Per il responsabile di flotta. Attiva «Proprietario / Dipendente» in Impostazioni → «Profilo del conducente»: lì apparirà la riga «Flotta».\n\nLa flotta appartiene al tuo account VecturaBook. Se non hai effettuato l'accesso sul telefono, lo schermo mostra «Accedi prima al tuo account:» — tocca «Collegati a VecturaBook» e accedi con l'email del tuo account. Se lo schermo mostra «Questo account non ha una flotta.», scrivici tramite «Feedback / Segnalazione bug» per aprire una flotta.\n\nLo schermo mostra «Autisti» — ciascuno con «Collegato» o «Non ancora collegato», camion, rimorchio e il numero di turni, viaggi e rifornimenti — e il «Parco mezzi» della flotta. Sotto: «Aggiungi autista» con il campo «Nome dell'autista», «+ Aggiungi camion» («Targa», «Tipo di camion», «Tipo di carrozzeria») e «+ Aggiungi rimorchio» («Targa», compatibilità, «Tipo di carrozzeria»). Lo stesso si può fare nel browser su my.vecturabook.com.",
+     "text": "Per il responsabile di flotta. Attiva «Proprietario / Dipendente» in Impostazioni → «Profilo del conducente»: lì apparirà la riga «Flotta».\n\nLa flotta appartiene al tuo account VecturaBook. Se non hai effettuato l'accesso sul telefono, lo schermo mostra «Accedi prima al tuo account:» — tocca «Collegati a VecturaBook» e accedi con l'email del tuo account. Se lo schermo mostra «Questo account non ha una flotta.», scrivici tramite «Feedback / Segnalazione bug» per aprire una flotta.\n\nLo schermo mostra «Autisti» — ciascuno con «Collegato» o «Non ancora collegato», camion, rimorchio e il numero di turni, viaggi e rifornimenti — e il «Parco mezzi» della flotta. Sotto: «Aggiungi autista» con il campo «Nome dell'autista», «+ Aggiungi camion» («Targa», «Tipo di camion», «Tipo di carrozzeria») e «+ Aggiungi rimorchio» («Targa», compatibilità, «Tipo di carrozzeria»). Lo stesso si può fare nel browser su my.vecturabook.com.\n\nUn autista che è uscito mostra «Ha lasciato la flotta» con l'ora al posto di «Collegato».",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Autista",
-     "text": "Tocca un autista per aprire la scheda. «Camion» e «Rimorchio»: scegli dal parco mezzi della flotta e tocca «Salva». Vengono proposti solo i rimorchi compatibili con il camion scelto. Il telefono dell'autista applica la modifica da solo; durante un viaggio — al termine del viaggio.\n\n«Ottieni codice» fornisce un codice monouso con l'orario fino a cui è valido. «Invia il codice all'autista» invia il codice e il link tramite un'app di messaggistica. Il codice viene mostrato solo una volta. Un nuovo codice trasferisce l'autista su un nuovo telefono: il vecchio telefono esce dalla flotta.\n\nSotto sono mostrati i «Turni», «Viaggi» e «Rifornimenti» dell'autista arrivati alla flotta.",
+     "text": "Tocca un autista per aprire la scheda. «Camion» e «Rimorchio»: scegli dal parco mezzi della flotta e tocca «Salva». Vengono proposti solo i rimorchi compatibili con il camion scelto. Il telefono dell'autista applica la modifica da solo; durante un viaggio — al termine del viaggio.\n\n«Ottieni codice» fornisce un codice monouso con l'orario fino a cui è valido. «Invia il codice all'autista» invia il codice e il link tramite un'app di messaggistica. Il codice viene mostrato solo una volta. Un nuovo codice trasferisce l'autista su un nuovo telefono: il vecchio telefono esce dalla flotta.\n\nSotto sono mostrati i «Turni», «Viaggi» e «Rifornimenti» dell'autista arrivati alla flotta.\n\nLa scheda di un autista uscito mostra «Ha lasciato la flotta» con l'ora. Un tuo nuovo codice riporta l'autista.",
      "image": ""
     }
    ]
@@ -1009,7 +1021,7 @@
   "address-book.add-address": "Indirizzo, coordinata, navigatore e segno rosso.",
   "backup.backup": "Un file con tutto il registro: salva, condividi o ripristina.",
   "online.device-link": "Collegamento del telefono al programma online: codice QR o codice sullo schermo.",
-  "fleet.join": "Inserisci il codice del tuo responsabile di flotta: il camion e il rimorchio della flotta diventano i tuoi e una copia dei tuoi turni va alla flotta.",
+  "fleet.join": "Inserisci il codice del responsabile della flotta: il telefono riceve un registro separato della flotta con il suo camion e rimorchio; «Il mio registro» resta com'è.",
   "fleet.owner": "La tua flotta: autisti, il parco mezzi della flotta, aggiunta di autisti, camion e rimorchi.",
   "fleet.owner-driver": "Scheda dell'autista: camion e rimorchio, un codice monouso per il telefono, turni, viaggi e rifornimenti.",
   "settings.settings": "Tutte le impostazioni divise per gruppi.",

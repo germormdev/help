@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "pl",
- "revision": "2026-10-26",
+ "revision": "2026-11-15",
  "sections": [
   {
    "slug": "getting-started",
@@ -501,30 +501,42 @@
   {
    "slug": "fleet",
    "title": "Flota",
-   "intro": "Flota jest dla firm z kilkoma ciężarówkami i kierowcami. Kierownik floty przekazuje każdemu kierowcy jednorazowy kod. Dzięki niemu aplikacja kierowcy pobiera ciężarówkę i naczepę floty oraz wysyła kopię dni, tras i tankowań do floty. Własny dziennik kierowcy zostaje w telefonie.",
+   "intro": "Flota jest dla firm z kilkoma pojazdami i kierowcami. Kierownik floty daje każdemu kierowcy jednorazowy kod. Dzięki niemu w telefonie pojawia się osobny dziennik floty z ciężarówką i naczepą floty; to, co tam zapisujesz, trafia do floty. „Mój dziennik” — Twój własny dziennik — zostaje taki, jaki był, i zostaje Twój.",
    "steps": [
     {
      "id": "join",
      "title": "Dołącz do floty kodem",
-     "text": "Przy pierwszym uruchomieniu dotknij „Jeżdżę dla floty — wpisz kod”. Później: Ustawienia → „Profil kierowcy” → „Dołącz do floty kodem”.\n\nWpisz kod od kierownika floty i dotknij „Dołącz do floty”. Jeśli kierownik przysłał Ci link (my.vecturabook.com/fleet/join…), po prostu otwórz go w telefonie: aplikacja otworzy się z już wpisanym kodem. Możesz też wkleić cały link w pole „Kod”.\n\nKod działa tylko raz i tylko przez ograniczony czas. Jeśli aplikacja informuje, że kod jest błędny, wygasł lub został już użyty, poproś kierownika floty o nowy.",
+     "text": "Przy pierwszym uruchomieniu dotknij „Jeżdżę dla floty — wpisz kod”. Później: Ustawienia → „Profil kierowcy” → „Dołącz do floty kodem”.\n\nWpisz kod od kierownika floty i dotknij „Dołącz do floty”. Jeśli kierownik przysłał Ci link (my.vecturabook.com/fleet/join…), po prostu otwórz go w telefonie: aplikacja otworzy się z już wpisanym kodem. Możesz też wkleić cały link w pole „Kod”.\n\nKod działa tylko raz i tylko przez ograniczony czas. Jeśli aplikacja informuje, że kod jest błędny, wygasł lub został już użyty, poproś kierownika floty o nowy.\n\nJeśli telefon jest już w innej flocie, aplikacja najpierw pyta: nowy kod wysyła ostatnie wpisy do tamtej floty i ją opuszcza, a jej dziennik zostaje w telefonie tylko do wglądu. Najpierw zakończ tam kurs i zmianę, inaczej aplikacja powie „Najpierw zakończ bieżący kurs.” albo „Najpierw zakończ zmianę floty.” Bez internetu nic się nie zmienia.",
      "image": ""
     },
     {
      "id": "in-fleet",
-     "title": "Jazda dla floty",
-     "text": "Po dołączeniu ciężarówka i naczepa floty pojawiają się w Moim parku i stają się Twoją ciężarówką i naczepą — pytania przy pierwszym uruchomieniu nie są potrzebne. „Profil kierowcy” pokazuje „Flota:” z nazwą floty, Twoją ciężarówką i Twoją naczepą.\n\nDni otwarte po dołączeniu trafiają do floty; dzień otwarty przed wpisaniem kodu pozostaje Twój. Kopie dni, tras i tankowań są wysyłane automatycznie, gdy jest internet; „Wyślij do floty teraz” wysyła je od razu. Twój dziennik w telefonie się nie zmienia.\n\nJeśli kierownik przypisze Ci inną ciężarówkę w trakcie trasy, zmiana nastąpi po zakończeniu trasy. Jeśli nowy kod dla Ciebie zostanie użyty na innym telefonie, ten telefon opuści flotę.",
+     "title": "Dwa dzienniki",
+     "text": "Po dołączeniu telefon ma dwa dzienniki: „Mój dziennik” i dziennik floty. Pasek u góry każdego ekranu pokazuje, który jest otwarty: niebieskoszary „Mój dziennik” albo fioletowy z nazwą floty. Dotknij paska, aby wybrać drugi („Który dziennik?”). Przełączyć się można tylko wtedy, gdy kurs nie jest rozpoczęty, inaczej „Najpierw zakończ bieżący kurs.”\n\nZmiany, kursy i tankowania z dziennika floty trafiają do floty same, gdy jest internet; „Wyślij do floty teraz” w „Profil kierowcy” wysyła je od razu. „Mój dziennik” nigdy nie trafia do floty — tylko na Twoje własne konto. Każdy dziennik ma własną zmianę, szkice i liczniki czasu.\n\nJeśli kierownik da Ci inną ciężarówkę w trakcie kursu, zmiana przyjdzie po końcu kursu.",
+     "image": ""
+    },
+    {
+     "id": "own-truck",
+     "title": "Własna ciężarówka",
+     "text": "Jeśli jeździsz dla floty własną ciężarówką, dotknij „Jeżdżę dla floty własną ciężarówką” w „Profil kierowcy” i wybierz swoją ciężarówkę („Mój park”, „Mój dziennik”). Staje się ona ciężarówką w dzienniku floty, a flota widzi jej numer w Twoich kursach.\n\nPaliwo własnej ciężarówki to Twój wydatek: jej tankowania zawsze trafiają do „Mój dziennik”, nawet gdy otwarty jest dziennik floty. Jeśli Twoja zmiana nie jest otwarta, „Mój dziennik” dostaje krótką zamkniętą zmianę na czas pracy dla floty — dzięki temu tankowanie jest i w Twoich raportach, i na Twoim koncie. Paliwo ciężarówki floty i agregatu naczepy floty trafia do floty. Postój z jednym i drugim zapisuje się w całości: nie zapisała się jedna część — nie zapisano nic.\n\nLicznik własnej ciężarówki biegnie dalej przez oba dzienniki.",
+     "image": ""
+    },
+    {
+     "id": "leave",
+     "title": "Opuszczenie floty",
+     "text": "„Profil kierowcy” → „Opuść flotę”. Najpierw zakończ zmianę floty („Najpierw zakończ zmianę floty.”). Aplikacja najpierw wysyła ostatnie wpisy, potem wychodzi. Bez internetu: „Brak połączenia z serwerem. Spróbuj ponownie, gdy będziesz online.” — nic się nie zmienia.\n\nPo wyjściu dziennik floty zostaje w telefonie tylko do wglądu: pasek robi się szary i pokazuje „… · tylko do odczytu”. „Historia tras”, tankowania, dokumenty i raporty PDF są na miejscu; przyciski zmian są ukryte, zmiany nie da się rozpocząć. Do floty nic więcej nie trafia. Aby wrócić, poproś kierownika o nowy kod.",
      "image": ""
     },
     {
      "id": "owner",
      "title": "Flota dla właściciela",
-     "text": "Dla kierownika floty. Włącz „Właściciel / Najemny” w Ustawienia → „Profil kierowcy”: pojawi się tam wiersz „Flota”.\n\nFlota należy do Twojego konta VecturaBook. Jeśli telefon nie jest zalogowany, ekran pokazuje „Najpierw zaloguj się na swoje konto:” — dotknij „Połącz z VecturaBook” i zaloguj się adresem e-mail swojego konta. Jeśli ekran pokazuje „To konto nie ma floty.”, napisz do nas przez „Opinia / Błąd”, aby otworzyć flotę.\n\nEkran pokazuje „Kierowcy” — każdy z oznaczeniem „Połączony” lub „Jeszcze niepołączony”, ciężarówką, naczepą oraz liczbą dni, tras i tankowań — oraz „Mój park” floty. Poniżej: „Dodaj kierowcę” z polem „Imię kierowcy”, „+ Dodaj ciężarówkę” („Numer rejestracyjny”, „Typ ciężarówki”, „Typ nadwozia”) i „+ Dodaj naczepę” („Numer rejestracyjny”, zgodność, „Typ nadwozia”). To samo można zrobić w przeglądarce na my.vecturabook.com.",
+     "text": "Dla kierownika floty. Włącz „Właściciel / Najemny” w Ustawienia → „Profil kierowcy”: pojawi się tam wiersz „Flota”.\n\nFlota należy do Twojego konta VecturaBook. Jeśli telefon nie jest zalogowany, ekran pokazuje „Najpierw zaloguj się na swoje konto:” — dotknij „Połącz z VecturaBook” i zaloguj się adresem e-mail swojego konta. Jeśli ekran pokazuje „To konto nie ma floty.”, napisz do nas przez „Opinia / Błąd”, aby otworzyć flotę.\n\nEkran pokazuje „Kierowcy” — każdy z oznaczeniem „Połączony” lub „Jeszcze niepołączony”, ciężarówką, naczepą oraz liczbą dni, tras i tankowań — oraz „Mój park” floty. Poniżej: „Dodaj kierowcę” z polem „Imię kierowcy”, „+ Dodaj ciężarówkę” („Numer rejestracyjny”, „Typ ciężarówki”, „Typ nadwozia”) i „+ Dodaj naczepę” („Numer rejestracyjny”, zgodność, „Typ nadwozia”). To samo można zrobić w przeglądarce na my.vecturabook.com.\n\nKierowca, który odszedł, ma zamiast „Połączony” napis „Opuścił flotę” z godziną.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Kierowca",
-     "text": "Dotknij kierowcy, aby otworzyć kartę. „Ciężarówka” i „Naczepa”: wybierz z parku floty i dotknij „Zapisz”. Oferowane są tylko naczepy pasujące do wybranej ciężarówki. Telefon kierowcy sam pobiera zmianę; w trakcie trasy — po zakończeniu trasy.\n\n„Pobierz kod” podaje jednorazowy kod z czasem, do kiedy jest ważny. „Wyślij kod kierowcy” wysyła kod i link przez komunikator. Kod pokazuje się tylko raz. Nowy kod przenosi kierowcę na nowy telefon: stary telefon opuszcza flotę.\n\nPoniżej widoczne są „Dni”, „Trasy” i „Tankowania” kierowcy, które dotarły do floty.",
+     "text": "Dotknij kierowcy, aby otworzyć kartę. „Ciężarówka” i „Naczepa”: wybierz z parku floty i dotknij „Zapisz”. Oferowane są tylko naczepy pasujące do wybranej ciężarówki. Telefon kierowcy sam pobiera zmianę; w trakcie trasy — po zakończeniu trasy.\n\n„Pobierz kod” podaje jednorazowy kod z czasem, do kiedy jest ważny. „Wyślij kod kierowcy” wysyła kod i link przez komunikator. Kod pokazuje się tylko raz. Nowy kod przenosi kierowcę na nowy telefon: stary telefon opuszcza flotę.\n\nPoniżej widoczne są „Dni”, „Trasy” i „Tankowania” kierowcy, które dotarły do floty.\n\nKarta kierowcy, który odszedł, pokazuje „Opuścił flotę” z godziną. Nowy kod od Ciebie przywraca kierowcę.",
      "image": ""
     }
    ]
@@ -1009,7 +1021,7 @@
   "address-book.add-address": "Adres, współrzędne, nawigacja i czerwony znacznik.",
   "backup.backup": "Plik z całym dziennikiem: zapisz, wyślij lub przywróć.",
   "online.device-link": "Łączenie telefonu z programem online: kod QR lub kod z ekranu.",
-  "fleet.join": "Wpisz kod od kierownika floty: ciężarówka i naczepa floty staną się Twoje, a kopia Twoich dni trafi do floty.",
+  "fleet.join": "Wpisz kod od kierownika floty: w telefonie pojawi się osobny dziennik floty z jej ciężarówką i naczepą; „Mój dziennik” zostaje taki, jaki był.",
   "fleet.owner": "Twoja flota: kierowcy, Mój park floty, dodawanie kierowców, ciężarówek i naczep.",
   "fleet.owner-driver": "Karta kierowcy: ciężarówka i naczepa, jednorazowy kod do telefonu, dni, trasy i tankowania.",
   "settings.settings": "Wszystkie ustawienia pogrupowane tematycznie.",

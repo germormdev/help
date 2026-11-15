@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "hr",
- "revision": "2026-10-26",
+ "revision": "2026-11-15",
  "sections": [
   {
    "slug": "getting-started",
@@ -501,30 +501,42 @@
   {
    "slug": "fleet",
    "title": "Vozni park tvrtke",
-   "intro": "Vozni park tvrtke namijenjen je tvrtkama s nekoliko tegljača i vozača. Voditelj voznog parka daje svakom vozaču jednokratni kod. Pomoću njega aplikacija vozača preuzima tegljač i poluprikolicu voznog parka te šalje kopiju smjena, vožnji i točenja u vozni park tvrtke. Vlastiti dnevnik vozača ostaje na telefonu.",
+   "intro": "Vozni park tvrtke namijenjen je tvrtkama s više vozila i vozača. Voditelj voznog parka daje svakom vozaču jednokratni kôd. S njim telefon dobiva zaseban dnevnik voznog parka s tegljačem i poluprikolicom voznog parka; što ondje zapišete, ide u vozni park. „Moj dnevnik” — vaš vlastiti dnevnik — ostaje kakav je bio i ostaje vaš.",
    "steps": [
     {
      "id": "join",
      "title": "Pridruži se voznom parku tvrtke kodom",
-     "text": "Pri prvom pokretanju dodirnite „Vozim za vozni park tvrtke — unesi kod”. Kasnije: Postavke → „Profil vozača” → „Pridruži se voznom parku tvrtke kodom”.\n\nUnesite kod od svog voditelja voznog parka i dodirnite „Pridruži se voznom parku tvrtke”. Ako vam je voditelj poslao poveznicu (my.vecturabook.com/fleet/join…), samo je otvorite na telefonu: aplikacija se otvara s već upisanim kodom. Cijelu poveznicu možete i zalijepiti u polje „Kod”.\n\nKod vrijedi samo jednom i samo ograničeno vrijeme. Ako aplikacija javi da je kod pogrešan, istekao ili već iskorišten, zatražite novi od svog voditelja voznog parka.",
+     "text": "Pri prvom pokretanju dodirnite „Vozim za vozni park tvrtke — unesi kod”. Kasnije: Postavke → „Profil vozača” → „Pridruži se voznom parku tvrtke kodom”.\n\nUnesite kod od svog voditelja voznog parka i dodirnite „Pridruži se voznom parku tvrtke”. Ako vam je voditelj poslao poveznicu (my.vecturabook.com/fleet/join…), samo je otvorite na telefonu: aplikacija se otvara s već upisanim kodom. Cijelu poveznicu možete i zalijepiti u polje „Kod”.\n\nKod vrijedi samo jednom i samo ograničeno vrijeme. Ako aplikacija javi da je kod pogrešan, istekao ili već iskorišten, zatražite novi od svog voditelja voznog parka.\n\nAko je telefon već u drugom voznom parku, aplikacija najprije pita: novi kôd šalje zadnje zapise u taj vozni park i izlazi iz njega, a njegov dnevnik ostaje na telefonu samo za pregled. Najprije ondje završite vožnju i smjenu, inače aplikacija kaže „Prvo završi trenutnu vožnju.” ili „Prvo završi smjenu voznog parka tvrtke.” Bez interneta se ništa ne mijenja.",
      "image": ""
     },
     {
      "id": "in-fleet",
-     "title": "Vožnja za vozni park tvrtke",
-     "text": "Nakon što se pridružite, tegljač i poluprikolica voznog parka pojavljuju se u Mojem voznom parku i postaju vaš tegljač i poluprikolica — pitanja pri prvom pokretanju nisu potrebna. „Profil vozača” prikazuje „Vozni park tvrtke:” s nazivom voznog parka, vašim tegljačem i vašom poluprikolicom.\n\nSmjene koje otvorite nakon pridruživanja idu u vozni park tvrtke; smjena otvorena prije unosa koda ostaje vaša. Kopije smjena, vožnji i točenja šalju se automatski kada postoji internetska veza; „Pošalji u vozni park tvrtke sada” šalje ih odmah. Vaš dnevnik na telefonu se ne mijenja.\n\nAko vam voditelj dodijeli drugi tegljač tijekom vožnje, promjena se primjenjuje nakon završetka vožnje. Ako se novi kod za vas upotrijebi na drugom telefonu, ovaj telefon napušta vozni park tvrtke.",
+     "title": "Dva dnevnika",
+     "text": "Nakon pridruživanja telefon ima dva dnevnika: „Moj dnevnik” i dnevnik voznog parka. Traka na vrhu svakog zaslona pokazuje koji je otvoren: plavosiva „Moj dnevnik” ili ljubičasta s nazivom voznog parka. Dodirnite traku da odaberete drugi („Koji dnevnik?”). Prebaciti se može samo kad vožnja nije započeta, inače „Prvo završi trenutnu vožnju.”\n\nSmjene, vožnje i točenja iz dnevnika voznog parka idu u vozni park sami kad ima interneta; „Pošalji u vozni park tvrtke sada” u „Profil vozača” šalje ih odmah. „Moj dnevnik” nikad ne ide u vozni park — samo na vaš vlastiti račun. Svaki dnevnik ima svoju smjenu, svoje skice i mjerače vremena.\n\nAko vam voditelj tijekom vožnje da drugi tegljač, promjena stiže nakon kraja vožnje.",
+     "image": ""
+    },
+    {
+     "id": "own-truck",
+     "title": "Vlastiti tegljač",
+     "text": "Ako vozite za vozni park vlastitim tegljačem, dodirnite „Vozim za vozni park tvrtke svojim tegljačem” u „Profil vozača” i odaberite svoj tegljač („Moj vozni park”, „Moj dnevnik”). On postaje tegljač u dnevniku voznog parka, a vozni park vidi njegovu registraciju u vašim vožnjama.\n\nGorivo vlastitog tegljača vaš je trošak: njegova točenja uvijek idu u „Moj dnevnik”, čak i kad je otvoren dnevnik voznog parka. Ako vaša smjena nije otvorena, „Moj dnevnik” dobiva kratku zatvorenu smjenu za vrijeme rada za vozni park — tako je točenje i u vašim izvještajima i na vašem računu. Gorivo tegljača voznog parka i agregata poluprikolice voznog parka ide u vozni park. Stajanje s oboje sprema se cijelo: ne spremi li se jedan dio, ništa nije spremljeno.\n\nKilometraža vlastitog tegljača teče dalje kroz oba dnevnika.",
+     "image": ""
+    },
+    {
+     "id": "leave",
+     "title": "Izlazak iz voznog parka",
+     "text": "„Profil vozača” → „Napusti vozni park tvrtke”. Najprije završite smjenu voznog parka („Prvo završi smjenu voznog parka tvrtke.”). Aplikacija najprije šalje zadnje zapise, zatim izlazi. Bez interneta: „Nema veze s poslužiteljem. Pokušaj ponovno kada budeš na mreži.” — ništa se ne mijenja.\n\nNakon izlaska dnevnik voznog parka ostaje na telefonu samo za pregled: traka postaje siva i piše „… · samo za pregled”. „Povijest vožnji”, točenja, dokumenti i PDF izvještaji su tu; gumbi za izmjene su skriveni i smjena se ne može započeti. U vozni park više ništa ne ide. Za povratak zatražite od voditelja novi kôd.",
      "image": ""
     },
     {
      "id": "owner",
      "title": "Vozni park tvrtke za vlasnika",
-     "text": "Za voditelja voznog parka. Uključite „Vlasnik / Zaposlen” u Postavke → „Profil vozača”: tamo se pojavljuje redak „Vozni park tvrtke”.\n\nVozni park tvrtke pripada vašem VecturaBook računu. Ako telefon nije prijavljen, na zaslonu piše „Najprije se prijavite na svoj račun:” — dodirnite „Poveži s VecturaBook” i prijavite se e-poštom svog računa. Ako na zaslonu piše „Ovaj račun nema vozni park tvrtke.”, pišite nam putem „Povratne informacije / Greška” za otvaranje voznog parka tvrtke.\n\nZaslon prikazuje „Vozači” — uz svakog „Povezan” ili „Još nije povezan”, tegljač, poluprikolicu i broj smjena, vožnji i točenja — i „Moj vozni park” voznog parka tvrtke. Ispod: „Dodaj vozača” s poljem „Ime vozača”, „+ Dodaj tegljač” („Registracija”, „Vrsta tegljača”, „Vrsta nadogradnje”) i „+ Dodaj poluprikolicu” („Registracija”, kompatibilnost, „Vrsta nadogradnje”). Isto možete učiniti u pregledniku na my.vecturabook.com.",
+     "text": "Za voditelja voznog parka. Uključite „Vlasnik / Zaposlen” u Postavke → „Profil vozača”: tamo se pojavljuje redak „Vozni park tvrtke”.\n\nVozni park tvrtke pripada vašem VecturaBook računu. Ako telefon nije prijavljen, na zaslonu piše „Najprije se prijavite na svoj račun:” — dodirnite „Poveži s VecturaBook” i prijavite se e-poštom svog računa. Ako na zaslonu piše „Ovaj račun nema vozni park tvrtke.”, pišite nam putem „Povratne informacije / Greška” za otvaranje voznog parka tvrtke.\n\nZaslon prikazuje „Vozači” — uz svakog „Povezan” ili „Još nije povezan”, tegljač, poluprikolicu i broj smjena, vožnji i točenja — i „Moj vozni park” voznog parka tvrtke. Ispod: „Dodaj vozača” s poljem „Ime vozača”, „+ Dodaj tegljač” („Registracija”, „Vrsta tegljača”, „Vrsta nadogradnje”) i „+ Dodaj poluprikolicu” („Registracija”, kompatibilnost, „Vrsta nadogradnje”). Isto možete učiniti u pregledniku na my.vecturabook.com.\n\nKod vozača koji je otišao umjesto „Povezan” stoji „Napustio vozni park tvrtke” i vrijeme.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Vozač",
-     "text": "Dodirnite vozača da biste otvorili karticu. „Tegljač” i „Poluprikolica”: odaberite iz garaže voznog parka i dodirnite „Spremi”. Nude se samo poluprikolice koje odgovaraju odabranom tegljaču. Telefon vozača sam preuzima promjenu; tijekom vožnje — nakon završetka vožnje.\n\n„Dohvati kod” daje jednokratni kod s vremenom do kojeg vrijedi. „Pošalji kod vozaču” šalje kod i poveznicu putem messengera. Kod se prikazuje samo jednom. Novi kod premješta vozača na novi telefon: stari telefon napušta vozni park tvrtke.\n\nIspod se nalaze vozačeve „Smjene”, „Vožnje” i „Točenja” koji su stigli u vozni park tvrtke.",
+     "text": "Dodirnite vozača da biste otvorili karticu. „Tegljač” i „Poluprikolica”: odaberite iz garaže voznog parka i dodirnite „Spremi”. Nude se samo poluprikolice koje odgovaraju odabranom tegljaču. Telefon vozača sam preuzima promjenu; tijekom vožnje — nakon završetka vožnje.\n\n„Dohvati kod” daje jednokratni kod s vremenom do kojeg vrijedi. „Pošalji kod vozaču” šalje kod i poveznicu putem messengera. Kod se prikazuje samo jednom. Novi kod premješta vozača na novi telefon: stari telefon napušta vozni park tvrtke.\n\nIspod se nalaze vozačeve „Smjene”, „Vožnje” i „Točenja” koji su stigli u vozni park tvrtke.\n\nNa kartici vozača koji je otišao stoji „Napustio vozni park tvrtke” i vrijeme. Novi kôd od vas vraća vozača.",
      "image": ""
     }
    ]
@@ -1009,7 +1021,7 @@
   "address-book.add-address": "Adresa, koordinata, navigacija i crvena oznaka.",
   "backup.backup": "Datoteka s cijelim dnevnikom: spremite, pošaljite ili vratite.",
   "online.device-link": "Povezivanje telefona s programom na mreži: QR kod ili kod sa zaslona.",
-  "fleet.join": "Unesite kod od voditelja voznog parka: tegljač i poluprikolica voznog parka postaju vaši, a kopija vaših smjena šalje se u vozni park tvrtke.",
+  "fleet.join": "Unesite kôd od voditelja voznog parka: telefon dobiva zaseban dnevnik voznog parka s njegovim tegljačem i poluprikolicom; „Moj dnevnik” ostaje kakav je bio.",
   "fleet.owner": "Vaš vozni park tvrtke: vozači, garaža voznog parka, dodavanje vozača, tegljača i poluprikolica.",
   "fleet.owner-driver": "Kartica vozača: tegljač i poluprikolica, jednokratni kod za telefon, smjene, vožnje i točenja.",
   "settings.settings": "Sve postavke po skupinama.",

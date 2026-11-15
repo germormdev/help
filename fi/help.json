@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "fi",
- "revision": "2026-10-26",
+ "revision": "2026-11-15",
  "sections": [
   {
    "slug": "getting-started",
@@ -501,30 +501,42 @@
   {
    "slug": "fleet",
    "title": "Kalusto",
-   "intro": "Kalusto on tarkoitettu yrityksille, joilla on useita rekkoja ja kuljettajia. Kalustopäällikkö antaa kullekin kuljettajalle kertakäyttöisen koodin. Sen avulla kuljettajan sovellus saa käyttöönsä kaluston rekan ja perävaunun ja lähettää kopion vuoroista, reissuista ja tankkauksista kalustolle. Kuljettajan oma ajopäiväkirja pysyy puhelimessa.",
+   "intro": "Kalusto on yrityksille, joilla on useita ajoneuvoja ja kuljettajia. Kalustopäällikkö antaa jokaiselle kuljettajalle kertakäyttöisen koodin. Sen avulla puhelimeen tulee erillinen kaluston ajopäiväkirja kaluston rekalla ja perävaunulla; mitä kirjaat sinne, menee kalustolle. ”Oma ajopäiväkirja” — oma ajopäiväkirjasi — pysyy ennallaan ja pysyy sinun.",
    "steps": [
     {
      "id": "join",
      "title": "Liity kalustoon koodilla",
-     "text": "Ensimmäisellä käynnistyksellä napauta ”Ajan kalustolle — syötä koodi”. Myöhemmin: Asetukset → ”Kuljettajan profiili” → ”Liity kalustoon koodilla”.\n\nSyötä kalustopäälliköltä saatu koodi ja napauta ”Liity kalustoon”. Jos kalustopäällikkö lähetti sinulle linkin (my.vecturabook.com/fleet/join…), avaa se vain puhelimessasi: sovellus avautuu koodi valmiiksi syötettynä. Voit myös liittää koko linkin kenttään ”Koodi”.\n\nKoodi toimii vain kerran ja vain rajoitetun ajan. Jos sovellus ilmoittaa, että koodi on väärä, vanhentunut tai jo käytetty, pyydä kalustopäälliköltä uusi.",
+     "text": "Ensimmäisellä käynnistyksellä napauta ”Ajan kalustolle — syötä koodi”. Myöhemmin: Asetukset → ”Kuljettajan profiili” → ”Liity kalustoon koodilla”.\n\nSyötä kalustopäälliköltä saatu koodi ja napauta ”Liity kalustoon”. Jos kalustopäällikkö lähetti sinulle linkin (my.vecturabook.com/fleet/join…), avaa se vain puhelimessasi: sovellus avautuu koodi valmiiksi syötettynä. Voit myös liittää koko linkin kenttään ”Koodi”.\n\nKoodi toimii vain kerran ja vain rajoitetun ajan. Jos sovellus ilmoittaa, että koodi on väärä, vanhentunut tai jo käytetty, pyydä kalustopäälliköltä uusi.\n\nJos puhelin on jo toisessa kalustossa, sovellus kysyy ensin: uusi koodi lähettää viimeiset kirjaukset sille kalustolle ja poistuu siitä, ja sen ajopäiväkirja jää puhelimeen vain katseltavaksi. Lopeta siellä ensin ajo ja vuoro, muuten sovellus sanoo ”Lopeta nykyinen ajo ensin.” tai ”Lopeta kaluston vuoro ensin.” Ilman internetiä mikään ei muutu.",
      "image": ""
     },
     {
      "id": "in-fleet",
-     "title": "Ajaminen kalustolle",
-     "text": "Liittymisen jälkeen kaluston rekka ja perävaunu ilmestyvät Halliin ja niistä tulee rekkasi ja perävaunusi — ensimmäisen käynnistyksen kysymyksiä ei tarvita. ”Kuljettajan profiili” näyttää ”Kalusto:” sekä kaluston nimen, rekkasi ja perävaunusi.\n\nLiittymisen jälkeen avaamasi vuorot menevät kalustolle; ennen koodin syöttämistä avattu vuoro pysyy omanasi. Kopiot vuoroista, reissuista ja tankkauksista lähetetään automaattisesti, kun internet-yhteys on käytettävissä; ”Lähetä kalustolle nyt” lähettää ne heti. Oma ajopäiväkirjasi puhelimessa ei muutu.\n\nJos kalustopäällikkö antaa sinulle toisen rekan reissun aikana, muutos tulee voimaan reissun päätyttyä. Jos sinulle luotu uusi koodi käytetään toisessa puhelimessa, tämä puhelin poistuu kalustosta.",
+     "title": "Kaksi ajopäiväkirjaa",
+     "text": "Liittymisen jälkeen puhelimessa on kaksi ajopäiväkirjaa: ”Oma ajopäiväkirja” ja kaluston ajopäiväkirja. Jokaisen näytön yläosan raita näyttää, kumpi on auki: siniharmaa ”Oma ajopäiväkirja” tai violetti kaluston nimellä. Napauta raitaa valitaksesi toisen (”Mikä ajopäiväkirja?”). Vaihtaa voi vain, kun ajoa ei ole aloitettu, muuten ”Lopeta nykyinen ajo ensin.”\n\nKaluston ajopäiväkirjan vuorot, ajot ja tankkaukset menevät kalustolle itsestään, kun internet on käytössä; ”Lähetä kalustolle nyt” kohdassa ”Kuljettajan profiili” lähettää ne heti. ”Oma ajopäiväkirja” ei koskaan mene kalustolle — vain omalle tilillesi. Kummallakin ajopäiväkirjalla on oma vuoronsa, omat luonnoksensa ja ajastimensa.\n\nJos kalustopäällikkö antaa sinulle ajon aikana toisen rekan, muutos tulee ajon päätyttyä.",
+     "image": ""
+    },
+    {
+     "id": "own-truck",
+     "title": "Oma rekka",
+     "text": "Jos ajat kalustolle omalla rekallasi, napauta ”Ajan kalustolle omalla rekallani” kohdassa ”Kuljettajan profiili” ja valitse rekkasi (”Halli”, ”Oma ajopäiväkirja”). Siitä tulee rekka kaluston ajopäiväkirjassa, ja kalusto näkee sen rekisterinumeron ajoissasi.\n\nOman rekan polttoaine on sinun kulusi: sen tankkaukset menevät aina kohteeseen ”Oma ajopäiväkirja”, myös kun kaluston ajopäiväkirja on auki. Jos omaa vuoroa ei ole auki, ”Oma ajopäiväkirja” saa lyhyen suljetun vuoron kalustolle tehdyn työn ajalle — näin tankkaus on sekä raporteissasi että tililläsi. Kaluston rekan ja kaluston perävaunun laitteen polttoaine menee kalustolle. Pysähdys, jossa on molempia, tallentuu kokonaan: jos yksi osa epäonnistuu, mitään ei tallenneta.\n\nOman rekan matkamittari jatkuu kummankin ajopäiväkirjan läpi.",
+     "image": ""
+    },
+    {
+     "id": "leave",
+     "title": "Kalustosta poistuminen",
+     "text": "”Kuljettajan profiili” → ”Poistu kalustosta”. Lopeta ensin kaluston vuoro (”Lopeta kaluston vuoro ensin.”). Sovellus lähettää ensin viimeiset kirjaukset ja poistuu sitten. Ilman internetiä: ”Ei yhteyttä palvelimeen. Yritä uudelleen, kun olet verkossa.” — mikään ei muutu.\n\nPoistumisen jälkeen kaluston ajopäiväkirja jää puhelimeen vain katseltavaksi: raita muuttuu harmaaksi ja näyttää ”… · vain luku”. ”Reissuhistoria”, tankkaukset, asiakirjat ja PDF-raportit ovat tallessa; muutospainikkeet on piilotettu, eikä vuoroa voi aloittaa. Kalustolle ei mene enää mitään. Palataksesi pyydä kalustopäälliköltä uusi koodi.",
      "image": ""
     },
     {
      "id": "owner",
      "title": "Kalusto omistajalle",
-     "text": "Kalustopäällikölle. Ota käyttöön ”Omistaja / Palkattu” kohdassa Asetukset → ”Kuljettajan profiili”: sinne ilmestyy rivi ”Kalusto”.\n\nKalusto kuuluu VecturaBook-tiliisi. Jos puhelimella ei ole kirjauduttu sisään, näytöllä lukee ”Kirjaudu ensin tilillesi:” — napauta ”Yhdistä VecturaBookiin” ja kirjaudu sisään tilisi sähköpostiosoitteella. Jos näytöllä lukee ”Tällä tilillä ei ole kalustoa.”, kirjoita meille kohdasta ”Palaute / virheilmoitus” kaluston avaamiseksi.\n\nNäytöllä näkyy ”Kuljettajat” — kunkin kohdalla ”Yhdistetty” tai ”Ei vielä yhdistetty”, rekka, perävaunu sekä vuorojen, reissujen ja tankkausten määrä — ja kaluston ”Halli”. Alempana: ”Lisää kuljettaja” ja kenttä ”Kuljettajan nimi”, ”+ Lisää rekka” (”Rekisterinumero”, ”Rekan tyyppi”, ”Korityyppi”) sekä ”+ Lisää perävaunu” (”Rekisterinumero”, yhteensopivuus, ”Korityyppi”). Saman voi tehdä selaimessa osoitteessa my.vecturabook.com.",
+     "text": "Kalustopäällikölle. Ota käyttöön ”Omistaja / Palkattu” kohdassa Asetukset → ”Kuljettajan profiili”: sinne ilmestyy rivi ”Kalusto”.\n\nKalusto kuuluu VecturaBook-tiliisi. Jos puhelimella ei ole kirjauduttu sisään, näytöllä lukee ”Kirjaudu ensin tilillesi:” — napauta ”Yhdistä VecturaBookiin” ja kirjaudu sisään tilisi sähköpostiosoitteella. Jos näytöllä lukee ”Tällä tilillä ei ole kalustoa.”, kirjoita meille kohdasta ”Palaute / virheilmoitus” kaluston avaamiseksi.\n\nNäytöllä näkyy ”Kuljettajat” — kunkin kohdalla ”Yhdistetty” tai ”Ei vielä yhdistetty”, rekka, perävaunu sekä vuorojen, reissujen ja tankkausten määrä — ja kaluston ”Halli”. Alempana: ”Lisää kuljettaja” ja kenttä ”Kuljettajan nimi”, ”+ Lisää rekka” (”Rekisterinumero”, ”Rekan tyyppi”, ”Korityyppi”) sekä ”+ Lisää perävaunu” (”Rekisterinumero”, yhteensopivuus, ”Korityyppi”). Saman voi tehdä selaimessa osoitteessa my.vecturabook.com.\n\nPoistuneen kuljettajan kohdalla on ”Yhdistetty” sijaan ”Poistui kalustosta” ja aika.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Kuljettaja",
-     "text": "Napauta kuljettajaa avataksesi kortin. ”Rekka” ja ”Perävaunu”: valitse kaluston hallista ja napauta ”Tallenna”. Tarjolla on vain valittuun rekkaan sopivia perävaunuja. Kuljettajan puhelin vastaanottaa muutoksen itsestään; reissun aikana — reissun päätyttyä.\n\n”Hae koodi” antaa kertakäyttöisen koodin sekä tiedon siitä, mihin asti se on voimassa. ”Lähetä koodi kuljettajalle” lähettää koodin ja linkin viestisovelluksen kautta. Koodi näytetään vain kerran. Uusi koodi siirtää kuljettajan uuteen puhelimeen: vanha puhelin poistuu kalustosta.\n\nAlempana näkyvät kuljettajan ”Vuorot”, ”Reissut” ja ”Tankkaukset”, jotka ovat saapuneet kalustolle.",
+     "text": "Napauta kuljettajaa avataksesi kortin. ”Rekka” ja ”Perävaunu”: valitse kaluston hallista ja napauta ”Tallenna”. Tarjolla on vain valittuun rekkaan sopivia perävaunuja. Kuljettajan puhelin vastaanottaa muutoksen itsestään; reissun aikana — reissun päätyttyä.\n\n”Hae koodi” antaa kertakäyttöisen koodin sekä tiedon siitä, mihin asti se on voimassa. ”Lähetä koodi kuljettajalle” lähettää koodin ja linkin viestisovelluksen kautta. Koodi näytetään vain kerran. Uusi koodi siirtää kuljettajan uuteen puhelimeen: vanha puhelin poistuu kalustosta.\n\nAlempana näkyvät kuljettajan ”Vuorot”, ”Reissut” ja ”Tankkaukset”, jotka ovat saapuneet kalustolle.\n\nPoistuneen kuljettajan kortissa on ”Poistui kalustosta” ja aika. Uusi koodi sinulta tuo kuljettajan takaisin.",
      "image": ""
     }
    ]
@@ -1009,7 +1021,7 @@
   "address-book.add-address": "Osoite, koordinaatti, navigaattori ja punainen merkki.",
   "backup.backup": "Koko ajopäiväkirjan tiedosto: tallenna, jaa tai palauta.",
   "online.device-link": "Puhelimen yhdistäminen verkkopalveluun: QR-koodi tai näytöllä näkyvä koodi.",
-  "fleet.join": "Syötä kalustopäälliköltä saatu koodi: kaluston rekka ja perävaunu tulevat käyttöösi, ja kopio vuoroistasi menee kalustolle.",
+  "fleet.join": "Syötä kalustopäälliköltä saatu koodi: puhelimeen tulee erillinen kaluston ajopäiväkirja sen rekalla ja perävaunulla; ”Oma ajopäiväkirja” pysyy ennallaan.",
   "fleet.owner": "Oma kalustosi: kuljettajat, kaluston halli sekä kuljettajien, rekkojen ja perävaunujen lisääminen.",
   "fleet.owner-driver": "Kuljettajan kortti: rekka ja perävaunu, kertakäyttöinen koodi puhelimeen, vuorot, reissut ja tankkaukset.",
   "settings.settings": "Kaikki asetukset ryhmittäin.",

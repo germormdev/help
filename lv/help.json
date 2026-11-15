@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "lv",
- "revision": "2026-10-26",
+ "revision": "2026-11-15",
  "sections": [
   {
    "slug": "getting-started",
@@ -501,30 +501,42 @@
   {
    "slug": "fleet",
    "title": "Autoparks",
-   "intro": "Autoparks ir paredzēts uzņēmumiem ar vairākiem vilcējiem un vadītājiem. Autoparka vadītājs katram vadītājam iedod vienreizēju kodu. Ar to vadītāja lietotne saņem autoparka vilcēju un piekabi un nosūta maiņu, reisu un uzpilžu kopijas autoparkam. Paša vadītāja žurnāls paliek tālrunī.",
+   "intro": "Autoparks ir uzņēmumiem ar vairākiem transportlīdzekļiem un vadītājiem. Autoparka vadītājs katram vadītājam dod vienreizēju kodu. Ar to tālrunī parādās atsevišķs autoparka žurnāls ar autoparka vilcēju un piekabi; ko tur ierakstāt, nonāk autoparkā. «Mans žurnāls» — jūsu paša žurnāls — paliek, kāds bija, un paliek jūsu.",
    "steps": [
     {
      "id": "join",
      "title": "Pievienoties autoparkam ar kodu",
-     "text": "Pirmajā palaišanā nospiediet «Braucu autoparkam — ievadīt kodu». Vēlāk: Iestatījumi → «Vadītāja profils» → «Pievienoties autoparkam ar kodu».\n\nIevadiet no autoparka vadītāja saņemto kodu un nospiediet «Pievienoties autoparkam». Ja autoparka vadītājs jums nosūtīja saiti (my.vecturabook.com/fleet/join…), vienkārši atveriet to savā tālrunī: lietotne atvērsies ar jau ievadītu kodu. Visu saiti varat arī ielīmēt laukā «Kods».\n\nKods darbojas tikai vienu reizi un tikai ierobežotu laiku. Ja lietotne ziņo, ka kods ir nepareizs, beidzies vai jau izmantots, palūdziet savam autoparka vadītājam jaunu.",
+     "text": "Pirmajā palaišanā nospiediet «Braucu autoparkam — ievadīt kodu». Vēlāk: Iestatījumi → «Vadītāja profils» → «Pievienoties autoparkam ar kodu».\n\nIevadiet no autoparka vadītāja saņemto kodu un nospiediet «Pievienoties autoparkam». Ja autoparka vadītājs jums nosūtīja saiti (my.vecturabook.com/fleet/join…), vienkārši atveriet to savā tālrunī: lietotne atvērsies ar jau ievadītu kodu. Visu saiti varat arī ielīmēt laukā «Kods».\n\nKods darbojas tikai vienu reizi un tikai ierobežotu laiku. Ja lietotne ziņo, ka kods ir nepareizs, beidzies vai jau izmantots, palūdziet savam autoparka vadītājam jaunu.\n\nJa tālrunis jau ir citā autoparkā, lietotne vispirms jautā: jaunais kods nosūta pēdējos ierakstus uz to autoparku un to pamet, bet tā žurnāls paliek tālrunī tikai skatīšanai. Vispirms tur pabeidziet braucienu un maiņu, citādi lietotne saka «Vispirms pabeidz pašreizējo reisu.» vai «Vispirms pabeidz autoparka maiņu.» Bez interneta nekas nemainās.",
      "image": ""
     },
     {
      "id": "in-fleet",
-     "title": "Braukšana autoparkam",
-     "text": "Pēc pievienošanās autoparka vilcējs un piekabe parādās Garāžā un kļūst par jūsu vilcēju un piekabi — pirmās palaišanas jautājumi nav vajadzīgi. «Vadītāja profils» rāda «Autoparks:» ar autoparka nosaukumu, jūsu vilcēju un jūsu piekabi.\n\nMaiņas, kuras atverat pēc pievienošanās, nonāk autoparkā; maiņa, kas atvērta pirms koda ievadīšanas, paliek jūsu. Maiņu, reisu un uzpilžu kopijas tiek nosūtītas automātiski, kad ir internets; «Nosūtīt autoparkam tagad» tās nosūta uzreiz. Jūsu žurnāls tālrunī nemainās.\n\nJa autoparka vadītājs reisa laikā piešķir jums citu vilcēju, izmaiņas stājas spēkā pēc reisa beigām. Ja jauns kods jums tiek izmantots citā tālrunī, šis tālrunis pamet autoparku.",
+     "title": "Divi žurnāli",
+     "text": "Pēc pievienošanās tālrunī ir divi žurnāli: «Mans žurnāls» un autoparka žurnāls. Josla katra ekrāna augšā rāda, kurš ir atvērts: zilganpelēka «Mans žurnāls» vai violeta ar autoparka nosaukumu. Pieskarieties joslai, lai izvēlētos otru («Kurš žurnāls?»). Pārslēgties var tikai tad, kad brauciens nav sākts, citādi «Vispirms pabeidz pašreizējo reisu.»\n\nAutoparka žurnāla maiņas, braucieni un uzpildes nonāk autoparkā pašas, kad ir internets; «Nosūtīt autoparkam tagad» sadaļā «Vadītāja profils» tās nosūta uzreiz. «Mans žurnāls» nekad nenonāk autoparkā — tikai jūsu paša kontā. Katram žurnālam ir sava maiņa, savi melnraksti un taimeri.\n\nJa vadītājs brauciena laikā jums dos citu vilcēju, izmaiņa pienāks pēc brauciena beigām.",
+     "image": ""
+    },
+    {
+     "id": "own-truck",
+     "title": "Savs vilcējs",
+     "text": "Ja braucat autoparkam ar savu vilcēju, pieskarieties «Braucu autoparkam ar savu vilcēju» sadaļā «Vadītāja profils» un izvēlieties savu vilcēju («Garāža», «Mans žurnāls»). Tas kļūst par vilcēju autoparka žurnālā, un autoparks redz tā numuru jūsu braucienos.\n\nSava vilcēja degviela ir jūsu izdevumi: tā uzpildes vienmēr nonāk «Mans žurnāls», pat ja atvērts autoparka žurnāls. Ja sava maiņa nav atvērta, «Mans žurnāls» saņem īsu slēgtu maiņu uz darba laiku autoparkam — tā uzpilde ir gan jūsu pārskatos, gan jūsu kontā. Autoparka vilcēja un autoparka piekabes iekārtas degviela nonāk autoparkā. Pietura ar abiem saglabājas pilnībā: ja viena daļa nesaglabājas, nekas nav saglabāts.\n\nSava vilcēja odometrs turpinās cauri abiem žurnāliem.",
+     "image": ""
+    },
+    {
+     "id": "leave",
+     "title": "Autoparka pamešana",
+     "text": "«Vadītāja profils» → «Pamest autoparku». Vispirms pabeidziet autoparka maiņu («Vispirms pabeidz autoparka maiņu.»). Lietotne vispirms nosūta pēdējos ierakstus, tad iziet. Bez interneta: «Nav savienojuma ar serveri. Mēģini vēlreiz, kad būsi tiešsaistē.» — nekas nemainās.\n\nPēc iziešanas autoparka žurnāls paliek tālrunī tikai skatīšanai: josla kļūst pelēka un rāda «… · tikai skatīšanai». «Reisu vēsture», uzpildes, dokumenti un PDF pārskati ir vietā; izmaiņu pogas ir paslēptas, maiņu sākt nevar. Uz autoparku vairs nekas nenonāk. Lai atgrieztos, palūdziet vadītājam jaunu kodu.",
      "image": ""
     },
     {
      "id": "owner",
      "title": "Autoparks īpašniekam",
-     "text": "Autoparka vadītājam. Ieslēdziet «Īpašnieks / Algots» sadaļā Iestatījumi → «Vadītāja profils»: tur parādīsies rinda «Autoparks».\n\nAutoparks pieder jūsu VecturaBook kontam. Ja tālrunī neesat pieteicies, ekrāns rāda «Vispirms piesakieties savā kontā:» — nospiediet «Savienot ar VecturaBook» un piesakieties ar sava konta e-pastu. Ja ekrāns rāda «Šim kontam nav autoparka.», uzrakstiet mums caur «Atsauksme / kļūdas ziņojums», lai atvērtu autoparku.\n\nEkrāns rāda «Vadītāji» — katram «Piesaistīts» vai «Vēl nav piesaistīts», vilcējs, piekabe un maiņu, reisu un uzpilžu skaits — un autoparka «Garāža». Apakšā: «Pievienot vadītāju» ar lauku «Vadītāja vārds», «+ Pievienot vilcēju» («Numura zīme», «Vilcēja tips», «Virsbūves tips») un «+ Pievienot piekabi» («Numura zīme», saderība, «Virsbūves tips»). To pašu var izdarīt savā pārlūkā vietnē my.vecturabook.com.",
+     "text": "Autoparka vadītājam. Ieslēdziet «Īpašnieks / Algots» sadaļā Iestatījumi → «Vadītāja profils»: tur parādīsies rinda «Autoparks».\n\nAutoparks pieder jūsu VecturaBook kontam. Ja tālrunī neesat pieteicies, ekrāns rāda «Vispirms piesakieties savā kontā:» — nospiediet «Savienot ar VecturaBook» un piesakieties ar sava konta e-pastu. Ja ekrāns rāda «Šim kontam nav autoparka.», uzrakstiet mums caur «Atsauksme / kļūdas ziņojums», lai atvērtu autoparku.\n\nEkrāns rāda «Vadītāji» — katram «Piesaistīts» vai «Vēl nav piesaistīts», vilcējs, piekabe un maiņu, reisu un uzpilžu skaits — un autoparka «Garāža». Apakšā: «Pievienot vadītāju» ar lauku «Vadītāja vārds», «+ Pievienot vilcēju» («Numura zīme», «Vilcēja tips», «Virsbūves tips») un «+ Pievienot piekabi» («Numura zīme», saderība, «Virsbūves tips»). To pašu var izdarīt savā pārlūkā vietnē my.vecturabook.com.\n\nPie vadītāja, kurš aizgājis, «Piesaistīts» vietā ir «Pameta autoparku» un laiks.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Vadītājs",
-     "text": "Pieskarieties vadītājam, lai atvērtu kartīti. «Vilcējs» un «Piekabe»: izvēlieties no autoparka garāžas un nospiediet «Saglabāt». Tiek piedāvātas tikai piekabes, kas der izvēlētajam vilcējam. Vadītāja tālrunis pats pārņem izmaiņas; reisa laikā — pēc reisa beigām.\n\n«Saņemt kodu» izveido vienreizēju kodu ar laiku, līdz kuram tas ir derīgs. «Nosūtīt kodu vadītājam» nosūta kodu un saiti caur saziņas lietotni. Kods tiek parādīts tikai vienu reizi. Jauns kods pārceļ vadītāju uz jaunu tālruni: vecais tālrunis pamet autoparku.\n\nZemāk ir vadītāja «Maiņas», «Reisi» un «Uzpildes», kas nonākušas autoparkā.",
+     "text": "Pieskarieties vadītājam, lai atvērtu kartīti. «Vilcējs» un «Piekabe»: izvēlieties no autoparka garāžas un nospiediet «Saglabāt». Tiek piedāvātas tikai piekabes, kas der izvēlētajam vilcējam. Vadītāja tālrunis pats pārņem izmaiņas; reisa laikā — pēc reisa beigām.\n\n«Saņemt kodu» izveido vienreizēju kodu ar laiku, līdz kuram tas ir derīgs. «Nosūtīt kodu vadītājam» nosūta kodu un saiti caur saziņas lietotni. Kods tiek parādīts tikai vienu reizi. Jauns kods pārceļ vadītāju uz jaunu tālruni: vecais tālrunis pamet autoparku.\n\nZemāk ir vadītāja «Maiņas», «Reisi» un «Uzpildes», kas nonākušas autoparkā.\n\nAizgājuša vadītāja kartītē ir «Pameta autoparku» un laiks. Jauns jūsu kods vadītāju atgriež.",
      "image": ""
     }
    ]
@@ -1009,7 +1021,7 @@
   "address-book.add-address": "Adrese, koordināta, navigācija un sarkanā atzīme.",
   "backup.backup": "Fails ar visu žurnālu: saglabāt, nosūtīt vai atjaunot.",
   "online.device-link": "Tālruņa savienošana ar programmu tiešsaistē: QR kods vai ekrānā redzamais kods.",
-  "fleet.join": "Ievadiet no autoparka vadītāja saņemto kodu: autoparka vilcējs un piekabe kļūst par jūsu, un maiņu kopija nonāk autoparkā.",
+  "fleet.join": "Ievadiet kodu no autoparka vadītāja: tālrunī parādās atsevišķs autoparka žurnāls ar tā vilcēju un piekabi; «Mans žurnāls» paliek, kāds bija.",
   "fleet.owner": "Jūsu autoparks: vadītāji, autoparka garāža, vadītāju, vilcēju un piekabju pievienošana.",
   "fleet.owner-driver": "Vadītāja kartīte: vilcējs un piekabe, vienreizējs kods tālrunim, maiņas, reisi un uzpildes.",
   "settings.settings": "Visi iestatījumi pa grupām.",

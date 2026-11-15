@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "de",
- "revision": "2026-10-26",
+ "revision": "2026-11-15",
  "sections": [
   {
    "slug": "getting-started",
@@ -501,30 +501,42 @@
   {
    "slug": "fleet",
    "title": "Flotte",
-   "intro": "Die Flotte ist für Unternehmen mit mehreren LKW und Fahrern gedacht. Der Flottenleiter gibt jedem Fahrer einen einmaligen Code. Damit übernimmt die App des Fahrers den LKW und Anhänger der Flotte und sendet eine Kopie von Schichten, Fahrten und Tankvorgängen an die Flotte. Das eigene Fahrtenbuch des Fahrers bleibt auf dem Telefon.",
+   "intro": "Die Flotte ist für Firmen mit mehreren Fahrzeugen und Fahrern. Der Flottenleiter gibt jedem Fahrer einen Einmal-Code. Damit bekommt das Telefon ein eigenes Fahrtenbuch der Flotte mit dem LKW und dem Anhänger der Flotte; was Sie dort eintragen, geht an die Flotte. „Mein Fahrtenbuch“ — Ihr eigenes Fahrtenbuch — bleibt, wie es ist, und bleibt Ihres.",
    "steps": [
     {
      "id": "join",
      "title": "Mit Code einer Flotte beitreten",
-     "text": "Tippen Sie beim ersten Start auf „Ich fahre für eine Flotte — Code eingeben“. Später: Einstellungen → „Fahrerprofil“ → „Mit Code einer Flotte beitreten“.\n\nGeben Sie den Code Ihres Flottenleiters ein und tippen Sie auf „Der Flotte beitreten“. Wenn der Flottenleiter Ihnen einen Link gesendet hat (my.vecturabook.com/fleet/join…), öffnen Sie ihn einfach auf Ihrem Telefon: Die App öffnet sich mit bereits eingetragenem Code. Sie können auch den gesamten Link in das Feld „Code“ einfügen.\n\nDer Code funktioniert nur einmal und nur für eine begrenzte Zeit. Wenn die App meldet, dass der Code falsch, abgelaufen oder schon benutzt ist, bitten Sie Ihren Flottenleiter um einen neuen.",
+     "text": "Tippen Sie beim ersten Start auf „Ich fahre für eine Flotte — Code eingeben“. Später: Einstellungen → „Fahrerprofil“ → „Mit Code einer Flotte beitreten“.\n\nGeben Sie den Code Ihres Flottenleiters ein und tippen Sie auf „Der Flotte beitreten“. Wenn der Flottenleiter Ihnen einen Link gesendet hat (my.vecturabook.com/fleet/join…), öffnen Sie ihn einfach auf Ihrem Telefon: Die App öffnet sich mit bereits eingetragenem Code. Sie können auch den gesamten Link in das Feld „Code“ einfügen.\n\nDer Code funktioniert nur einmal und nur für eine begrenzte Zeit. Wenn die App meldet, dass der Code falsch, abgelaufen oder schon benutzt ist, bitten Sie Ihren Flottenleiter um einen neuen.\n\nIst das Telefon schon in einer anderen Flotte, fragt die App zuerst: Der neue Code schickt die letzten Einträge an diese Flotte und verlässt sie, ihr Fahrtenbuch bleibt nur zur Ansicht auf dem Telefon. Beenden Sie dort zuerst Fahrt und Schicht, sonst sagt die App „Beende zuerst die aktuelle Fahrt.“ oder „Beende zuerst die Schicht der Flotte.“ Ohne Internet ändert sich nichts.",
      "image": ""
     },
     {
      "id": "in-fleet",
-     "title": "Für eine Flotte fahren",
-     "text": "Nach dem Beitritt erscheinen LKW und Anhänger der Flotte im Fuhrpark und werden zu Ihrem LKW und Anhänger — die Fragen beim ersten Start entfallen. „Fahrerprofil“ zeigt „Flotte:“ mit dem Namen der Flotte, Ihrem LKW und Ihrem Anhänger.\n\nSchichten, die Sie nach dem Beitritt öffnen, gehen an die Flotte; eine vor Eingabe des Codes geöffnete Schicht bleibt Ihre eigene. Kopien von Schichten, Fahrten und Tankvorgängen werden automatisch gesendet, wenn eine Internetverbindung besteht; „Jetzt an die Flotte senden“ überträgt sie sofort. Ihr Fahrtenbuch auf dem Telefon ändert sich nicht.\n\nWenn der Flottenleiter Ihnen während einer Fahrt einen anderen LKW zuweist, wird die Änderung nach Ende der Fahrt übernommen. Wenn ein neuer Code für Sie auf einem anderen Telefon verwendet wird, verlässt dieses Telefon die Flotte.",
+     "title": "Zwei Fahrtenbücher",
+     "text": "Nach dem Beitritt hat das Telefon zwei Fahrtenbücher: „Mein Fahrtenbuch“ und das Fahrtenbuch der Flotte. Ein Streifen oben auf jedem Bildschirm zeigt, welches offen ist: blaugrau „Mein Fahrtenbuch“ oder lila mit dem Namen der Flotte. Tippen Sie auf den Streifen, um das andere zu wählen („Welches Fahrtenbuch?“). Wechseln geht nur, wenn keine Fahrt begonnen ist, sonst „Beende zuerst die aktuelle Fahrt.“\n\nSchichten, Fahrten und Tankvorgänge aus dem Fahrtenbuch der Flotte gehen von selbst an die Flotte, sobald Internet da ist; „Jetzt an die Flotte senden“ in „Fahrerprofil“ sendet sofort. „Mein Fahrtenbuch“ geht nie an die Flotte — nur in Ihr eigenes Konto. Jedes Fahrtenbuch hat seine eigene Schicht, eigene Entwürfe und Timer.\n\nGibt Ihnen der Flottenleiter während einer Fahrt einen anderen LKW, kommt die Änderung nach dem Ende der Fahrt.",
+     "image": ""
+    },
+    {
+     "id": "own-truck",
+     "title": "Eigener LKW",
+     "text": "Fahren Sie mit Ihrem eigenen LKW für die Flotte, tippen Sie in „Fahrerprofil“ auf „Mit meinem eigenen LKW für die Flotte fahren“ und wählen Sie Ihren LKW („Fuhrpark“, „Mein Fahrtenbuch“). Er wird zum LKW im Fahrtenbuch der Flotte, und die Flotte sieht sein Kennzeichen bei Ihren Fahrten.\n\nKraftstoff für den eigenen LKW sind Ihre Kosten: Seine Tankvorgänge gehen immer in „Mein Fahrtenbuch“, auch wenn das Fahrtenbuch der Flotte offen ist. Ist keine eigene Schicht offen, bekommt „Mein Fahrtenbuch“ eine kurze abgeschlossene Schicht für die Zeit der Arbeit für die Flotte — so steht der Tankvorgang in Ihren Berichten und in Ihrem Konto. Kraftstoff für den LKW der Flotte und das Aggregat des Flotten-Anhängers geht an die Flotte. Ein Halt mit beidem wird als Ganzes gespeichert: Scheitert ein Teil, wird nichts gespeichert.\n\nDer Kilometerstand des eigenen LKW läuft durch beide Fahrtenbücher weiter.",
+     "image": ""
+    },
+    {
+     "id": "leave",
+     "title": "Flotte verlassen",
+     "text": "„Fahrerprofil“ → „Flotte verlassen“. Beenden Sie zuerst die Schicht der Flotte („Beende zuerst die Schicht der Flotte.“). Die App sendet zuerst die letzten Einträge, dann verlässt sie die Flotte. Ohne Internet: „Keine Verbindung zum Server. Versuche es erneut, wenn du online bist.“ — es ändert sich nichts.\n\nDanach bleibt das Fahrtenbuch der Flotte nur zur Ansicht auf dem Telefon: Der Streifen wird grau und zeigt „… · nur Ansicht“. „Fahrtenverlauf“, Tankvorgänge, Dokumente und PDF-Berichte sind da; Schaltflächen für Änderungen sind ausgeblendet, eine Schicht lässt sich nicht beginnen. An die Flotte geht nichts mehr. Um zurückzukommen, bitten Sie den Flottenleiter um einen neuen Code.",
      "image": ""
     },
     {
      "id": "owner",
      "title": "Flotte für den Eigentümer",
-     "text": "Für den Flottenleiter. Aktivieren Sie „Eigentümer / Angestellt“ unter Einstellungen → „Fahrerprofil“: Dort erscheint die Zeile „Flotte“.\n\nDie Flotte gehört zu Ihrem VecturaBook-Konto. Wenn das Telefon nicht angemeldet ist, zeigt der Bildschirm „Melde dich zuerst in deinem Konto an:“ — tippen Sie auf „Mit VecturaBook verbinden“ und melden Sie sich mit der E-Mail Ihres Kontos an. Wenn der Bildschirm „Dieses Konto hat keine Flotte.“ anzeigt, schreiben Sie uns über „Feedback / Fehler melden“, um eine Flotte eröffnen zu lassen.\n\nDer Bildschirm zeigt „Fahrer“ — jeweils mit „Verbunden“ oder „Noch nicht verbunden“, LKW, Anhänger und der Anzahl von Schichten, Fahrten und Tankvorgängen — sowie den „Fuhrpark“ der Flotte. Darunter: „Fahrer hinzufügen“ mit dem Feld „Name des Fahrers“, „+ LKW hinzufügen“ („Kennzeichen“, „LKW-Typ“, „Aufbauart“) und „+ Anhänger hinzufügen“ („Kennzeichen“, Kompatibilität, „Aufbauart“). Dasselbe können Sie auch im Browser auf my.vecturabook.com tun.",
+     "text": "Für den Flottenleiter. Aktivieren Sie „Eigentümer / Angestellt“ unter Einstellungen → „Fahrerprofil“: Dort erscheint die Zeile „Flotte“.\n\nDie Flotte gehört zu Ihrem VecturaBook-Konto. Wenn das Telefon nicht angemeldet ist, zeigt der Bildschirm „Melde dich zuerst in deinem Konto an:“ — tippen Sie auf „Mit VecturaBook verbinden“ und melden Sie sich mit der E-Mail Ihres Kontos an. Wenn der Bildschirm „Dieses Konto hat keine Flotte.“ anzeigt, schreiben Sie uns über „Feedback / Fehler melden“, um eine Flotte eröffnen zu lassen.\n\nDer Bildschirm zeigt „Fahrer“ — jeweils mit „Verbunden“ oder „Noch nicht verbunden“, LKW, Anhänger und der Anzahl von Schichten, Fahrten und Tankvorgängen — sowie den „Fuhrpark“ der Flotte. Darunter: „Fahrer hinzufügen“ mit dem Feld „Name des Fahrers“, „+ LKW hinzufügen“ („Kennzeichen“, „LKW-Typ“, „Aufbauart“) und „+ Anhänger hinzufügen“ („Kennzeichen“, Kompatibilität, „Aufbauart“). Dasselbe können Sie auch im Browser auf my.vecturabook.com tun.\n\nBei einem Fahrer, der gegangen ist, steht statt „Verbunden“ „Flotte verlassen“ mit der Uhrzeit.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Fahrer",
-     "text": "Tippen Sie auf einen Fahrer, um die Karte zu öffnen. „LKW“ und „Anhänger“: Wählen Sie aus dem Fuhrpark der Flotte und tippen Sie auf „Speichern“. Es werden nur Anhänger angeboten, die zum gewählten LKW passen. Das Telefon des Fahrers übernimmt die Änderung von selbst; während einer Fahrt — nach Ende der Fahrt.\n\n„Code erstellen“ liefert einen einmaligen Code mit der Zeit, bis zu der er gültig ist. „Code an den Fahrer senden“ sendet den Code und den Link über einen Messenger. Der Code wird nur einmal angezeigt. Ein neuer Code überträgt den Fahrer auf ein neues Telefon: Das alte Telefon verlässt die Flotte.\n\nDarunter stehen die „Schichten“, „Fahrten“ und „Tankvorgänge“ des Fahrers, die bei der Flotte eingegangen sind.",
+     "text": "Tippen Sie auf einen Fahrer, um die Karte zu öffnen. „LKW“ und „Anhänger“: Wählen Sie aus dem Fuhrpark der Flotte und tippen Sie auf „Speichern“. Es werden nur Anhänger angeboten, die zum gewählten LKW passen. Das Telefon des Fahrers übernimmt die Änderung von selbst; während einer Fahrt — nach Ende der Fahrt.\n\n„Code erstellen“ liefert einen einmaligen Code mit der Zeit, bis zu der er gültig ist. „Code an den Fahrer senden“ sendet den Code und den Link über einen Messenger. Der Code wird nur einmal angezeigt. Ein neuer Code überträgt den Fahrer auf ein neues Telefon: Das alte Telefon verlässt die Flotte.\n\nDarunter stehen die „Schichten“, „Fahrten“ und „Tankvorgänge“ des Fahrers, die bei der Flotte eingegangen sind.\n\nDie Karte eines Fahrers, der gegangen ist, zeigt „Flotte verlassen“ mit der Uhrzeit. Ein neuer Code von Ihnen holt den Fahrer zurück.",
      "image": ""
     }
    ]
@@ -1009,7 +1021,7 @@
   "address-book.add-address": "Adresse, Koordinate, Navigation und rote Markierung.",
   "backup.backup": "Datei mit dem gesamten Fahrtenbuch: speichern, teilen oder wiederherstellen.",
   "online.device-link": "Telefon mit dem Online-Programm verbinden: per QR-Code oder Bildschirmcode.",
-  "fleet.join": "Geben Sie den Code Ihres Flottenleiters ein: LKW und Anhänger der Flotte werden zu Ihren, und eine Kopie Ihrer Schichten geht an die Flotte.",
+  "fleet.join": "Geben Sie den Code des Flottenleiters ein: Das Telefon bekommt ein eigenes Fahrtenbuch der Flotte mit ihrem LKW und Anhänger; „Mein Fahrtenbuch“ bleibt, wie es ist.",
   "fleet.owner": "Ihre Flotte: Fahrer, der Fuhrpark der Flotte, Hinzufügen von Fahrern, LKW und Anhängern.",
   "fleet.owner-driver": "Fahrerkarte: LKW und Anhänger, ein einmaliger Code für das Telefon, Schichten, Fahrten und Tankvorgänge.",
   "settings.settings": "Alle Einstellungen nach Gruppen geordnet.",
