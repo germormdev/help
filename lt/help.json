@@ -501,24 +501,24 @@
   {
    "slug": "fleet",
    "title": "Autoparkas",
-   "intro": "Autoparkas skirtas įmonėms su keliomis transporto priemonėmis ir vairuotojais. Autoparko vadovas kiekvienam vairuotojui duoda vienkartinį kodą. Su juo telefone atsiranda atskiras autoparko žurnalas su autoparko vilkiku ir priekaba; ką ten įrašote, keliauja į autoparką. „Mano žurnalas“ — jūsų asmeninis žurnalas — lieka toks, koks buvo, ir lieka jūsų.",
+   "intro": "Autoparkas skirtas įmonėms su keliomis transporto priemonėmis ir vairuotojais. Autoparko vadovas kiekvienam vairuotojui duoda vienkartinį kodą. Su juo telefone atsiranda atskiras autoparko žurnalas su autoparko sunkvežimiu ir priekaba; ką ten įrašote, keliauja į autoparką. „Mano žurnalas“ — jūsų asmeninis žurnalas — lieka toks, koks buvo, ir lieka jūsų.",
    "steps": [
     {
      "id": "join",
      "title": "Prisijungti prie autoparko kodu",
-     "text": "Pirmą kartą paleidus, paspauskite „Vairuoju autoparkui — įvesti kodą“. Vėliau: Nustatymai → „Vairuotojo profilis“ → „Prisijungti prie autoparko kodu“.\n\nĮveskite iš autoparko vadovo gautą kodą ir paspauskite „Prisijungti prie autoparko“. Jei vadovas atsiuntė nuorodą (my.vecturabook.com/fleet/join…), tiesiog atidarykite ją telefone: programa atsidarys su jau įvestu kodu. Taip pat galite įklijuoti visą nuorodą į lauką „Kodas“.\n\nKodas veikia tik vieną kartą ir tik ribotą laiką. Jei programa praneša, kad kodas neteisingas, nebegalioja arba jau panaudotas, paprašykite autoparko vadovo naujo.\n\nJei telefonas jau yra kitame autoparke, programa pirmiausia paklausia: naujas kodas išsiunčia paskutinius įrašus į tą autoparką ir jį palieka, o jo žurnalas lieka telefone tik peržiūrai. Pirmiausia ten baikite reisą ir pamainą, kitaip programa pasakys „Pirmiausia baik dabartinį reisą.“ arba „Pirmiausia baik autoparko pamainą.“ Be interneto niekas nesikeičia.",
+     "text": "Pirmą kartą paleidus, paspauskite „Vairuoju autoparke — įvesk kodą“. Vėliau: Nustatymai → „Vairuotojo profilis“ → „Prisijungti prie autoparko kodu“.\n\nĮveskite iš autoparko vadovo gautą kodą ir paspauskite „Prisijungti prie autoparko“. Jei vadovas atsiuntė nuorodą (my.vecturabook.com/fleet/join…), tiesiog atidarykite ją telefone: programa atsidarys su jau įvestu kodu. Taip pat galite įklijuoti visą nuorodą į lauką „Kodas“.\n\nKodas veikia tik vieną kartą ir tik ribotą laiką. Jei programa praneša, kad kodas neteisingas, nebegalioja arba jau panaudotas, paprašykite autoparko vadovo naujo.\n\nJei telefonas jau yra kitame autoparke, programa pirmiausia paklausia: naujas kodas išsiunčia paskutinius įrašus į tą autoparką ir jį palieka, o jo žurnalas lieka telefone tik peržiūrai. Pirmiausia ten baikite reisą ir pamainą, kitaip programa pasakys „Pirmiausia baik dabartinį reisą.“ arba „Pirmiausia baik autoparko pamainą.“ Be interneto niekas nesikeičia.",
      "image": ""
     },
     {
      "id": "in-fleet",
      "title": "Du žurnalai",
-     "text": "Prisijungus telefone yra du žurnalai: „Mano žurnalas“ ir autoparko žurnalas. Juosta kiekvieno ekrano viršuje rodo, kuris atidarytas: melsvai pilka „Mano žurnalas“ arba violetinė su autoparko pavadinimu. Bakstelėkite juostą, kad pasirinktumėte kitą („Kuris žurnalas?“). Perjungti galima tik tada, kai reisas nepradėtas, kitaip „Pirmiausia baik dabartinį reisą.“\n\nAutoparko žurnalo pamainos, reisai ir pildymai keliauja į autoparką patys, kai yra internetas; „Siųsti į autoparką dabar“ skiltyje „Vairuotojo profilis“ išsiunčia iškart. „Mano žurnalas“ niekada nekeliauja į autoparką — tik į jūsų asmeninę paskyrą. Kiekvienas žurnalas turi savo pamainą, juodraščius ir laikmačius.\n\nJei vadovas reiso metu duos jums kitą vilkiką, pakeitimas ateis pasibaigus reisui.",
+     "text": "Prisijungus telefone yra du žurnalai: „Mano žurnalas“ ir autoparko žurnalas. Juosta kiekvieno ekrano viršuje rodo, kuris atidarytas: melsvai pilka „Mano žurnalas“ arba violetinė su autoparko pavadinimu. Bakstelėkite juostą, kad pasirinktumėte kitą („Kuris žurnalas?“). Perjungti galima tik tada, kai reisas nepradėtas, kitaip „Pirmiausia baik dabartinį reisą.“\n\nAutoparko žurnalo pamainos, reisai ir pildymai keliauja į autoparką patys, kai yra internetas; „Siųsti į autoparką dabar“ skiltyje „Vairuotojo profilis“ išsiunčia iškart. „Mano žurnalas“ niekada nekeliauja į autoparką — tik į jūsų asmeninę paskyrą. Kiekvienas žurnalas turi savo pamainą, juodraščius ir laikmačius.\n\nJei vadovas reiso metu duos jums kitą sunkvežimį, pakeitimas ateis pasibaigus reisui.",
      "image": ""
     },
     {
      "id": "own-truck",
-     "title": "Savas vilkikas",
-     "text": "Jei autoparkui vežate savo vilkiku, bakstelėkite „Vežu autoparkui savo vilkiku“ skiltyje „Vairuotojo profilis“ ir pasirinkite savo vilkiką („Garažas“, „Mano žurnalas“). Jis tampa vilkiku autoparko žurnale, o autoparkas mato jo numerį jūsų reisuose.\n\nSavo vilkiko kuras — jūsų išlaidos: jo pildymai visada keliauja į „Mano žurnalas“, net kai atidarytas autoparko žurnalas. Jei sava pamaina neatidaryta, „Mano žurnalas“ gauna trumpą uždarytą pamainą darbo autoparkui laikui — taip pildymas yra ir jūsų ataskaitose, ir jūsų paskyroje. Autoparko vilkiko ir autoparko priekabos įrenginio kuras keliauja į autoparką. Sustojimas su abiem įrašomas visas: neįsirašė viena dalis — neįrašyta nieko.\n\nSavo vilkiko odometras eina toliau per abu žurnalus.",
+     "title": "Savas sunkvežimis",
+     "text": "Jei autoparkui vežate savo sunkvežimiu, bakstelėkite „Naudoti savo sunkvežimį autoparke“ skiltyje „Vairuotojo profilis“ ir pasirinkite savo sunkvežimį („Garažas“, „Mano žurnalas“). Jis tampa sunkvežimiu autoparko žurnale, o autoparkas mato jo numerį jūsų reisuose.\n\nSavo sunkvežimio kuras — jūsų išlaidos: jo pildymai visada keliauja į „Mano žurnalas“, net kai atidarytas autoparko žurnalas. Jei sava pamaina neatidaryta, „Mano žurnalas“ gauna trumpą uždarytą pamainą darbo autoparkui laikui — taip pildymas yra ir jūsų ataskaitose, ir jūsų paskyroje. Autoparko sunkvežimio ir autoparko priekabos įrenginio kuras keliauja į autoparką. Sustojimas su abiem įrašomas visas: neįsirašė viena dalis — neįrašyta nieko.\n\nSavo sunkvežimio odometras eina toliau per abu žurnalus.",
      "image": ""
     },
     {
@@ -530,13 +530,13 @@
     {
      "id": "owner",
      "title": "Autoparkas savininkui",
-     "text": "Autoparko vadovui. Įjunkite „Savininkas / Samdomas“ skiltyje Nustatymai → „Vairuotojo profilis“: ten atsiras eilutė „Autoparkas“.\n\nAutoparkas priklauso jūsų VecturaBook paskyrai. Jei telefone neprisijungta prie paskyros, ekrane rodoma „Pirmiausia prisijunkite prie savo paskyros:“ — paspauskite „Prisijungti prie VecturaBook“ ir prisijunkite su savo paskyros el. paštu. Jei ekrane rodoma „Ši paskyra neturi autoparko.“, parašykite mums per „Atsiliepimas / klaidos pranešimas“, kad atidarytume autoparką.\n\nEkrane rodomi „Vairuotojai“ — kiekvienas su „Susietas“ arba „Dar nesusietas“, vilkiku, priekaba bei pamainų, reisų ir pildymų skaičiumi — ir autoparko „Garažas“. Apačioje: „Pridėti vairuotoją“ su lauku „Vairuotojo vardas“, „+ Pridėti vilkiką“ („Valst. numeris“, „Vilkiko tipas“, „Kėbulo tipas“) ir „+ Pridėti priekabą“ („Valst. numeris“, suderinamumas, „Kėbulo tipas“). Tą patį galima atlikti naršyklėje svetainėje my.vecturabook.com.\n\nPrie išėjusio vairuotojo vietoj „Susietas“ rodoma „Paliko autoparką“ ir laikas.",
+     "text": "Autoparko vadovui. Įjunkite „Savininkas / Samdomas“ skiltyje Nustatymai → „Vairuotojo profilis“: ten atsiras eilutė „Autoparkas“.\n\nAutoparkas priklauso jūsų VecturaBook paskyrai. Jei telefone neprisijungta prie paskyros, ekrane rodoma „Pirmiausia prisijunkite prie savo paskyros:“ — paspauskite „Prisijungti prie VecturaBook“ ir prisijunkite su savo paskyros el. paštu. Jei paskyra neturi autoparko, ekrane siūloma „Sukurti autoparką“: įveskite „Autoparko pavadinimas“ ir paspauskite „Sukurti autoparką“ — nemokamas bandomasis laikotarpis prasideda iš karto.\n\nEkrane rodomi „Vairuotojai“ — kiekvienas su „Susietas“ arba „Dar nesusietas“, sunkvežimiu, priekaba bei pamainų, reisų ir pildymų skaičiumi — ir autoparko „Garažas“. Apačioje: „Pridėti vairuotoją“ su lauku „Vairuotojo vardas“, „+ Pridėti sunkvežimį“ („Valst. numeris“, „Sunkvežimio tipas“, „Kėbulo tipas“) ir „+ Pridėti priekabą“ („Valst. numeris“, suderinamumas, „Kėbulo tipas“). Tą patį galima atlikti naršyklėje svetainėje my.vecturabook.com.\n\nBe prenumeratos ekrane rodoma „Autoparko prenumerata“ ir „Vairuotojai“: paspauskite vairuotoją, kad matytumėte „Gauti kodą“ ir „Siųsti kodą vairuotojui“ — naujo vairuotojo telefonas prisijungia prie autoparko ir be prenumeratos.\n\nPrie išėjusio vairuotojo vietoj „Susietas“ rodoma „Paliko autoparką“ ir laikas.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Vairuotojas",
-     "text": "Paspauskite vairuotoją, kad atidarytumėte kortelę. „Vilkikas“ ir „Priekaba“: pasirinkite iš autoparko garažo ir paspauskite „Išsaugoti“. Siūlomos tik tos priekabos, kurios tinka pasirinktam vilkikui. Vairuotojo telefonas pakeitimą perima pats; reiso metu — pasibaigus reisui.\n\n„Gauti kodą“ suteikia vienkartinį kodą su laiku, iki kada jis galioja. „Siųsti kodą vairuotojui“ išsiunčia kodą ir nuorodą per susirašinėjimo programėlę. Kodas rodomas tik vieną kartą. Naujas kodas perkelia vairuotoją į naują telefoną: senasis telefonas palieka autoparką.\n\nŽemiau pateikiamos vairuotojo „Pamainos“, „Reisai“ ir „Pildymai“, pasiekę autoparką.\n\nIšėjusio vairuotojo kortelėje rodoma „Paliko autoparką“ ir laikas. Naujas jūsų kodas vairuotoją sugrąžina.",
+     "text": "Paspauskite vairuotoją, kad atidarytumėte kortelę. „Sunkvežimis“ ir „Priekaba“: pasirinkite iš autoparko garažo ir paspauskite „Išsaugoti“. Siūlomos tik tos priekabos, kurios tinka pasirinktam sunkvežimiui. Vairuotojo telefonas pakeitimą perima pats; reiso metu — pasibaigus reisui.\n\n„Gauti kodą“ suteikia vienkartinį kodą su laiku, iki kada jis galioja. „Siųsti kodą vairuotojui“ išsiunčia kodą ir nuorodą per susirašinėjimo programėlę. Kodas rodomas tik vieną kartą. Naujas kodas perkelia vairuotoją į naują telefoną: senasis telefonas palieka autoparką.\n\nŽemiau pateikiamos vairuotojo „Pamainos“, „Reisai“ ir „Pildymai“, pasiekę autoparką.\n\nIšėjusio vairuotojo kortelėje rodoma „Paliko autoparką“ ir laikas. Naujas jūsų kodas vairuotoją sugrąžina.",
      "image": ""
     }
    ]
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Tentas",
+   "title": "Tentas / Furgonas",
    "intro": "Tentinė priekaba veža vienetinį krovinį ant padėklų.",
    "steps": [
     {
      "id": "setup",
      "title": "Garaže",
-     "text": "Kėbulas „Tentas“.",
+     "text": "Kėbulas „Tentas / Furgonas“.",
      "image": "img/lt/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Kadrų fotografavimas atpažinimui.",
   "service.splash-tuner": "Pradinio ekrano nustatymas.",
   "driving.crossing": "Siena ar keltas reiso metu: etapai su laikmačiais, paspaudus."
+ },
+ "video": {
+  "language": "lt",
+  "chapters": {
+   "getting-started": {
+    "id": "-KUpcRGu_tg",
+    "t": 0
+   },
+   "shift": {
+    "id": "-KUpcRGu_tg",
+    "t": 156
+   },
+   "trip": {
+    "id": "-KUpcRGu_tg",
+    "t": 247
+   },
+   "driving": {
+    "id": "-KUpcRGu_tg",
+    "t": 485
+   },
+   "refuel": {
+    "id": "-KUpcRGu_tg",
+    "t": 611
+   },
+   "parking": {
+    "id": "-KUpcRGu_tg",
+    "t": 696
+   },
+   "camera": {
+    "id": "-KUpcRGu_tg",
+    "t": 757
+   },
+   "history": {
+    "id": "-KUpcRGu_tg",
+    "t": 841
+   },
+   "report": {
+    "id": "-KUpcRGu_tg",
+    "t": 909
+   },
+   "garage": {
+    "id": "-KUpcRGu_tg",
+    "t": 959
+   },
+   "documents": {
+    "id": "-KUpcRGu_tg",
+    "t": 1096
+   },
+   "maintenance": {
+    "id": "-KUpcRGu_tg",
+    "t": 1172
+   },
+   "address-book": {
+    "id": "-KUpcRGu_tg",
+    "t": 1213
+   },
+   "backup": {
+    "id": "-KUpcRGu_tg",
+    "t": 1278
+   },
+   "online": {
+    "id": "-KUpcRGu_tg",
+    "t": 1333
+   },
+   "settings": {
+    "id": "-KUpcRGu_tg",
+    "t": 1376
+   },
+   "notifications": {
+    "id": "-KUpcRGu_tg",
+    "t": 1501
+   },
+   "diagnostics": {
+    "id": "-KUpcRGu_tg",
+    "t": 1536
+   },
+   "service": {
+    "id": "-KUpcRGu_tg",
+    "t": 1612
+   },
+   "flatbed": {
+    "id": "-KUpcRGu_tg",
+    "t": 1675
+   },
+   "container": {
+    "id": "-KUpcRGu_tg",
+    "t": 1709
+   },
+   "sidelifter": {
+    "id": "-KUpcRGu_tg",
+    "t": 1751
+   },
+   "refrigerated": {
+    "id": "-KUpcRGu_tg",
+    "t": 1778
+   },
+   "curtainsider": {
+    "id": "-KUpcRGu_tg",
+    "t": 1817
+   },
+   "tipper": {
+    "id": "-KUpcRGu_tg",
+    "t": 1841
+   },
+   "fuel-tanker": {
+    "id": "-KUpcRGu_tg",
+    "t": 1864
+   },
+   "tanker": {
+    "id": "-KUpcRGu_tg",
+    "t": 1900
+   },
+   "car-transporter": {
+    "id": "-KUpcRGu_tg",
+    "t": 1926
+   },
+   "lowbed": {
+    "id": "-KUpcRGu_tg",
+    "t": 1962
+   }
+  }
  }
 }

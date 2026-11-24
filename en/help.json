@@ -320,7 +320,7 @@
     {
      "id": "truck-form",
      "title": "Truck",
-     "text": "Plate number, truck type (\"Semi Truck\" or \"Rigid\"), and body type — chosen through a chain of picture questions — plus whether the truck has a crane or manipulator. You cannot have two vehicles with the same plate number in Garage.",
+     "text": "Plate number, truck type (\"Semi Truck\" or \"Rigid\"), and body type — chosen through a chain of picture questions — plus whether the truck has a loader crane. You cannot have two vehicles with the same plate number in Garage.",
      "image": "img/en/garage-truck-form.png"
     },
     {
@@ -518,7 +518,7 @@
     {
      "id": "own-truck",
      "title": "Your own truck",
-     "text": "If you drive for the fleet on your own truck, tap \"Drive my own truck for the fleet\" in \"Driver profile\" and choose your truck (\"Garage\", \"My journal\"). It becomes the truck in the fleet's journal, and the fleet sees its plate on your trips.\n\nFuel for your own truck is your expense: its refuels always go to \"My journal\", even when the fleet's journal is open. If no shift of your own is open, \"My journal\" gets a short closed shift for the time you work for the fleet, so the refuel is in your reports and in your own account. Fuel for the fleet's truck and for the fleet trailer's unit goes to the fleet. A stop with both is saved as one: if one part fails, nothing is saved.\n\nThe odometer of your own truck runs on through both journals.",
+     "text": "If you drive for the fleet on your own truck, tap \"Use my own truck in the fleet\" in \"Driver profile\" and choose your truck (\"Garage\", \"My journal\"). It becomes the truck in the fleet's journal, and the fleet sees its plate on your trips.\n\nFuel for your own truck is your expense: its refuels always go to \"My journal\", even when the fleet's journal is open. If no shift of your own is open, \"My journal\" gets a short closed shift for the time you work for the fleet, so the refuel is in your reports and in your own account. Fuel for the fleet's truck and for the fleet trailer's unit goes to the fleet. A stop with both is saved as one: if one part fails, nothing is saved.\n\nThe odometer of your own truck runs on through both journals.",
      "image": ""
     },
     {
@@ -530,7 +530,7 @@
     {
      "id": "owner",
      "title": "Fleet for the owner",
-     "text": "For the fleet manager. Turn on \"Owner / Hired\" in Settings → \"Driver profile\": the \"Fleet\" row appears there.\n\nThe fleet belongs to your VecturaBook account. If the phone is not signed in, the screen says \"Sign in to your account first:\" — tap \"Connect to VecturaBook\" and sign in with your account's email. If the screen says \"This account has no fleet.\", write to us via \"Feedback / Bug Report\" to open a fleet.\n\nThe screen shows \"Drivers\" — each with \"Linked\" or \"Not linked yet\", truck, trailer and the number of shifts, trips and refuels — and the fleet's \"Garage\". Below: \"Add driver\" with the \"Driver's name\" field, \"+ Add Truck\" (\"Plate Number\", \"Truck Type\", \"Body Type\") and \"+ Add Trailer\" (\"Plate Number\", compatibility, \"Body Type\"). The same can be done in your browser on my.vecturabook.com.\n\nA driver who left shows \"Left the fleet\" with the time instead of \"Linked\".",
+     "text": "For the fleet manager. Turn on \"Owner / Hired\" in Settings → \"Driver profile\": the \"Fleet\" row appears there.\n\nThe fleet belongs to your VecturaBook account. If the phone is not signed in, the screen says \"Sign in to your account first:\" — tap \"Connect to VecturaBook\" and sign in with your account's email. If the account has no fleet, the screen offers \"Create a fleet\": enter \"Fleet name\" and tap \"Create a fleet\" — the free trial starts at once.\n\nThe screen shows \"Drivers\" — each with \"Linked\" or \"Not linked yet\", truck, trailer and the number of shifts, trips and refuels — and the fleet's \"Garage\". Below: \"Add driver\" with the \"Driver's name\" field, \"+ Add Truck\" (\"Plate Number\", \"Truck Type\", \"Body Type\") and \"+ Add Trailer\" (\"Plate Number\", compatibility, \"Body Type\"). The same can be done in your browser on my.vecturabook.com.\n\nWithout a subscription the screen shows \"Fleet subscription\" and \"Drivers\": tap a driver for \"Get code\" and \"Send the code to the driver\" — a new driver's phone joins the fleet without a subscription too.\n\nA driver who left shows \"Left the fleet\" with the time instead of \"Linked\".",
      "image": ""
     },
     {
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Curtainsider",
+   "title": "Curtainsider / Box van",
    "intro": "A curtainsider carries general cargo on pallets.",
    "steps": [
     {
      "id": "setup",
      "title": "In Garage",
-     "text": "Body type \"Curtainsider\".",
+     "text": "Body type \"Curtainsider / Box van\".",
      "image": "img/en/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Capturing camera frames for recognition training.",
   "service.splash-tuner": "Startup splash screen settings.",
   "driving.crossing": "Border or ferry inside a trip: stages with timers, by your taps."
+ },
+ "video": {
+  "language": "en",
+  "chapters": {
+   "getting-started": {
+    "id": "ir1I_EYDAv8",
+    "t": 0
+   },
+   "shift": {
+    "id": "ir1I_EYDAv8",
+    "t": 149
+   },
+   "trip": {
+    "id": "ir1I_EYDAv8",
+    "t": 232
+   },
+   "driving": {
+    "id": "ir1I_EYDAv8",
+    "t": 466
+   },
+   "refuel": {
+    "id": "ir1I_EYDAv8",
+    "t": 586
+   },
+   "parking": {
+    "id": "ir1I_EYDAv8",
+    "t": 669
+   },
+   "camera": {
+    "id": "ir1I_EYDAv8",
+    "t": 731
+   },
+   "history": {
+    "id": "ir1I_EYDAv8",
+    "t": 800
+   },
+   "report": {
+    "id": "ir1I_EYDAv8",
+    "t": 863
+   },
+   "garage": {
+    "id": "ir1I_EYDAv8",
+    "t": 907
+   },
+   "documents": {
+    "id": "ir1I_EYDAv8",
+    "t": 1049
+   },
+   "maintenance": {
+    "id": "ir1I_EYDAv8",
+    "t": 1120
+   },
+   "address-book": {
+    "id": "ir1I_EYDAv8",
+    "t": 1163
+   },
+   "backup": {
+    "id": "ir1I_EYDAv8",
+    "t": 1225
+   },
+   "online": {
+    "id": "ir1I_EYDAv8",
+    "t": 1276
+   },
+   "settings": {
+    "id": "ir1I_EYDAv8",
+    "t": 1318
+   },
+   "notifications": {
+    "id": "ir1I_EYDAv8",
+    "t": 1433
+   },
+   "diagnostics": {
+    "id": "ir1I_EYDAv8",
+    "t": 1468
+   },
+   "service": {
+    "id": "ir1I_EYDAv8",
+    "t": 1532
+   },
+   "flatbed": {
+    "id": "ir1I_EYDAv8",
+    "t": 1588
+   },
+   "container": {
+    "id": "ir1I_EYDAv8",
+    "t": 1617
+   },
+   "sidelifter": {
+    "id": "ir1I_EYDAv8",
+    "t": 1658
+   },
+   "refrigerated": {
+    "id": "ir1I_EYDAv8",
+    "t": 1686
+   },
+   "curtainsider": {
+    "id": "ir1I_EYDAv8",
+    "t": 1722
+   },
+   "tipper": {
+    "id": "ir1I_EYDAv8",
+    "t": 1745
+   },
+   "fuel-tanker": {
+    "id": "ir1I_EYDAv8",
+    "t": 1769
+   },
+   "tanker": {
+    "id": "ir1I_EYDAv8",
+    "t": 1803
+   },
+   "car-transporter": {
+    "id": "ir1I_EYDAv8",
+    "t": 1829
+   },
+   "lowbed": {
+    "id": "ir1I_EYDAv8",
+    "t": 1863
+   }
+  }
  }
 }

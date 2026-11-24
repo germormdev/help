@@ -530,7 +530,7 @@
     {
      "id": "owner",
      "title": "Vloot voor de eigenaar",
-     "text": "Voor de vlootbeheerder. Schakel „Eigenaar / In loondienst” in onder Instellingen → „Chauffeursprofiel”: daar verschijnt de regel „Vloot”.\n\nDe vloot hoort bij uw VecturaBook-account. Als de telefoon niet is ingelogd, toont het scherm „Log eerst in op je account:” — tik op „Verbinden met VecturaBook” en log in met het e-mailadres van uw account. Als het scherm „Dit account heeft geen vloot.” toont, schrijf ons dan via „Feedback / foutmelding” om een vloot te openen.\n\nHet scherm toont „Chauffeurs” — elk met „Gekoppeld” of „Nog niet gekoppeld”, truck, aanhanger en het aantal diensten, ritten en tankbeurten — en het „Wagenpark” van de vloot. Daaronder: „Chauffeur toevoegen” met het veld „Naam van de chauffeur”, „+ Truck toevoegen” („Kenteken”, „Trucktype”, „Carrosserietype”) en „+ Aanhanger toevoegen” („Kenteken”, compatibiliteit, „Carrosserietype”). Ditzelfde kan in uw browser op my.vecturabook.com worden gedaan.\n\nBij een chauffeur die is vertrokken staat in plaats van „Gekoppeld” „Heeft de vloot verlaten” met de tijd.",
+     "text": "Voor de vlootbeheerder. Schakel „Eigenaar / In loondienst” in onder Instellingen → „Chauffeursprofiel”: daar verschijnt de regel „Vloot”.\n\nDe vloot hoort bij uw VecturaBook-account. Als de telefoon niet is ingelogd, toont het scherm „Log eerst in op je account:” — tik op „Verbinden met VecturaBook” en log in met het e-mailadres van uw account. Als het account geen vloot heeft, biedt het scherm „Vloot aanmaken” aan: vul „Naam van de vloot” in en tik op „Vloot aanmaken” — de gratis proefperiode begint meteen.\n\nHet scherm toont „Chauffeurs” — elk met „Gekoppeld” of „Nog niet gekoppeld”, truck, aanhanger en het aantal diensten, ritten en tankbeurten — en het „Wagenpark” van de vloot. Daaronder: „Chauffeur toevoegen” met het veld „Naam van de chauffeur”, „+ Truck toevoegen” („Kenteken”, „Trucktype”, „Carrosserietype”) en „+ Aanhanger toevoegen” („Kenteken”, compatibiliteit, „Carrosserietype”). Ditzelfde kan in uw browser op my.vecturabook.com worden gedaan.\n\nZonder abonnement toont het scherm „Vloot-abonnement” en „Chauffeurs”: tik op een chauffeur voor „Code ophalen” en „Code naar de chauffeur sturen” — de telefoon van een nieuwe chauffeur komt ook zonder abonnement in de vloot.\n\nBij een chauffeur die is vertrokken staat in plaats van „Gekoppeld” „Heeft de vloot verlaten” met de tijd.",
      "image": ""
     },
     {
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Huifoplegger",
+   "title": "Schuifzeil / Gesloten",
    "intro": "Een huifoplegger vervoert stukgoed op pallets.",
    "steps": [
     {
      "id": "setup",
      "title": "In het wagenpark",
-     "text": "Carrosserietype „Huifoplegger”.",
+     "text": "Carrosserietype „Schuifzeil / Gesloten”.",
      "image": "img/nl/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Camerabeelden opnemen voor herkenning.",
   "service.splash-tuner": "Opstartscherm instellen.",
   "driving.crossing": "Grens of veerboot tijdens de rit: fasen met timers, door tikken."
+ },
+ "video": {
+  "language": "nl",
+  "chapters": {
+   "getting-started": {
+    "id": "6tyxdGdrRwk",
+    "t": 0
+   },
+   "shift": {
+    "id": "6tyxdGdrRwk",
+    "t": 156
+   },
+   "trip": {
+    "id": "6tyxdGdrRwk",
+    "t": 258
+   },
+   "driving": {
+    "id": "6tyxdGdrRwk",
+    "t": 516
+   },
+   "refuel": {
+    "id": "6tyxdGdrRwk",
+    "t": 674
+   },
+   "parking": {
+    "id": "6tyxdGdrRwk",
+    "t": 770
+   },
+   "camera": {
+    "id": "6tyxdGdrRwk",
+    "t": 837
+   },
+   "history": {
+    "id": "6tyxdGdrRwk",
+    "t": 917
+   },
+   "report": {
+    "id": "6tyxdGdrRwk",
+    "t": 992
+   },
+   "garage": {
+    "id": "6tyxdGdrRwk",
+    "t": 1043
+   },
+   "documents": {
+    "id": "6tyxdGdrRwk",
+    "t": 1211
+   },
+   "maintenance": {
+    "id": "6tyxdGdrRwk",
+    "t": 1297
+   },
+   "address-book": {
+    "id": "6tyxdGdrRwk",
+    "t": 1345
+   },
+   "backup": {
+    "id": "6tyxdGdrRwk",
+    "t": 1420
+   },
+   "online": {
+    "id": "6tyxdGdrRwk",
+    "t": 1476
+   },
+   "settings": {
+    "id": "6tyxdGdrRwk",
+    "t": 1524
+   },
+   "notifications": {
+    "id": "6tyxdGdrRwk",
+    "t": 1660
+   },
+   "diagnostics": {
+    "id": "6tyxdGdrRwk",
+    "t": 1699
+   },
+   "service": {
+    "id": "6tyxdGdrRwk",
+    "t": 1786
+   },
+   "flatbed": {
+    "id": "6tyxdGdrRwk",
+    "t": 1858
+   },
+   "container": {
+    "id": "6tyxdGdrRwk",
+    "t": 1892
+   },
+   "sidelifter": {
+    "id": "6tyxdGdrRwk",
+    "t": 1941
+   },
+   "refrigerated": {
+    "id": "6tyxdGdrRwk",
+    "t": 1970
+   },
+   "curtainsider": {
+    "id": "6tyxdGdrRwk",
+    "t": 2014
+   },
+   "tipper": {
+    "id": "6tyxdGdrRwk",
+    "t": 2039
+   },
+   "fuel-tanker": {
+    "id": "6tyxdGdrRwk",
+    "t": 2066
+   },
+   "tanker": {
+    "id": "6tyxdGdrRwk",
+    "t": 2106
+   },
+   "car-transporter": {
+    "id": "6tyxdGdrRwk",
+    "t": 2138
+   },
+   "lowbed": {
+    "id": "6tyxdGdrRwk",
+    "t": 2176
+   }
+  }
  }
 }

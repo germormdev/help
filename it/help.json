@@ -530,7 +530,7 @@
     {
      "id": "owner",
      "title": "Flotta per il proprietario",
-     "text": "Per il responsabile di flotta. Attiva «Proprietario / Dipendente» in Impostazioni → «Profilo del conducente»: lì apparirà la riga «Flotta».\n\nLa flotta appartiene al tuo account VecturaBook. Se non hai effettuato l'accesso sul telefono, lo schermo mostra «Accedi prima al tuo account:» — tocca «Collegati a VecturaBook» e accedi con l'email del tuo account. Se lo schermo mostra «Questo account non ha una flotta.», scrivici tramite «Feedback / Segnalazione bug» per aprire una flotta.\n\nLo schermo mostra «Autisti» — ciascuno con «Collegato» o «Non ancora collegato», camion, rimorchio e il numero di turni, viaggi e rifornimenti — e il «Parco mezzi» della flotta. Sotto: «Aggiungi autista» con il campo «Nome dell'autista», «+ Aggiungi camion» («Targa», «Tipo di camion», «Tipo di carrozzeria») e «+ Aggiungi rimorchio» («Targa», compatibilità, «Tipo di carrozzeria»). Lo stesso si può fare nel browser su my.vecturabook.com.\n\nUn autista che è uscito mostra «Ha lasciato la flotta» con l'ora al posto di «Collegato».",
+     "text": "Per il responsabile di flotta. Attiva «Proprietario / Dipendente» in Impostazioni → «Profilo del conducente»: lì apparirà la riga «Flotta».\n\nLa flotta appartiene al tuo account VecturaBook. Se non hai effettuato l'accesso sul telefono, lo schermo mostra «Accedi prima al tuo account:» — tocca «Collegati a VecturaBook» e accedi con l'email del tuo account. Se l'account non ha una flotta, lo schermo offre «Crea una flotta»: inserisci «Nome della flotta» e tocca «Crea una flotta» — la prova gratuita inizia subito.\n\nLo schermo mostra «Autisti» — ciascuno con «Collegato» o «Non ancora collegato», camion, rimorchio e il numero di turni, viaggi e rifornimenti — e il «Parco mezzi» della flotta. Sotto: «Aggiungi autista» con il campo «Nome dell'autista», «+ Aggiungi camion» («Targa», «Tipo di camion», «Tipo di carrozzeria») e «+ Aggiungi rimorchio» («Targa», compatibilità, «Tipo di carrozzeria»). Lo stesso si può fare nel browser su my.vecturabook.com.\n\nSenza abbonamento lo schermo mostra «Abbonamento Flotta» e «Autisti»: tocca un autista per «Ottieni codice» e «Invia il codice all'autista» — il telefono di un nuovo autista entra nella flotta anche senza abbonamento.\n\nUn autista che è uscito mostra «Ha lasciato la flotta» con l'ora al posto di «Collegato».",
      "image": ""
     },
     {
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Centinato",
+   "title": "Centinato / Furgonato",
    "intro": "Il rimorchio centinato trasporta merce generica su pallet.",
    "steps": [
     {
      "id": "setup",
      "title": "Nel parco mezzi",
-     "text": "Carrozzeria «Centinato».",
+     "text": "Carrozzeria «Centinato / Furgonato».",
      "image": "img/it/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Acquisizione di immagini per il riconoscimento.",
   "service.splash-tuner": "Configurazione della schermata di avvio.",
   "driving.crossing": "Confine o traghetto nel viaggio: fasi con timer, a tocco."
+ },
+ "video": {
+  "language": "it",
+  "chapters": {
+   "getting-started": {
+    "id": "SskhCx_qiaI",
+    "t": 0
+   },
+   "shift": {
+    "id": "SskhCx_qiaI",
+    "t": 166
+   },
+   "trip": {
+    "id": "SskhCx_qiaI",
+    "t": 255
+   },
+   "driving": {
+    "id": "SskhCx_qiaI",
+    "t": 507
+   },
+   "refuel": {
+    "id": "SskhCx_qiaI",
+    "t": 656
+   },
+   "parking": {
+    "id": "SskhCx_qiaI",
+    "t": 750
+   },
+   "camera": {
+    "id": "SskhCx_qiaI",
+    "t": 815
+   },
+   "history": {
+    "id": "SskhCx_qiaI",
+    "t": 896
+   },
+   "report": {
+    "id": "SskhCx_qiaI",
+    "t": 975
+   },
+   "garage": {
+    "id": "SskhCx_qiaI",
+    "t": 1020
+   },
+   "documents": {
+    "id": "SskhCx_qiaI",
+    "t": 1170
+   },
+   "maintenance": {
+    "id": "SskhCx_qiaI",
+    "t": 1254
+   },
+   "address-book": {
+    "id": "SskhCx_qiaI",
+    "t": 1303
+   },
+   "backup": {
+    "id": "SskhCx_qiaI",
+    "t": 1387
+   },
+   "online": {
+    "id": "SskhCx_qiaI",
+    "t": 1437
+   },
+   "settings": {
+    "id": "SskhCx_qiaI",
+    "t": 1483
+   },
+   "notifications": {
+    "id": "SskhCx_qiaI",
+    "t": 1618
+   },
+   "diagnostics": {
+    "id": "SskhCx_qiaI",
+    "t": 1652
+   },
+   "service": {
+    "id": "SskhCx_qiaI",
+    "t": 1732
+   },
+   "flatbed": {
+    "id": "SskhCx_qiaI",
+    "t": 1803
+   },
+   "container": {
+    "id": "SskhCx_qiaI",
+    "t": 1837
+   },
+   "sidelifter": {
+    "id": "SskhCx_qiaI",
+    "t": 1887
+   },
+   "refrigerated": {
+    "id": "SskhCx_qiaI",
+    "t": 1917
+   },
+   "curtainsider": {
+    "id": "SskhCx_qiaI",
+    "t": 1957
+   },
+   "tipper": {
+    "id": "SskhCx_qiaI",
+    "t": 1985
+   },
+   "fuel-tanker": {
+    "id": "SskhCx_qiaI",
+    "t": 2012
+   },
+   "tanker": {
+    "id": "SskhCx_qiaI",
+    "t": 2054
+   },
+   "car-transporter": {
+    "id": "SskhCx_qiaI",
+    "t": 2082
+   },
+   "lowbed": {
+    "id": "SskhCx_qiaI",
+    "t": 2127
+   }
+  }
  }
 }

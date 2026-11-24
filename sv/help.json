@@ -530,13 +530,13 @@
     {
      "id": "owner",
      "title": "Fordonsflotta för ägaren",
-     "text": "För den flottansvarige. Aktivera ”Ägare / Anställd” i Inställningar → ”Förarprofil”: raden ”Fordonsflotta” visas där.\n\nFordonsflottan hör till ditt VecturaBook-konto. Om telefonen inte är inloggad visar skärmen ”Logga först in på ditt konto:” — tryck på ”Anslut till VecturaBook” och logga in med ditt kontos e-postadress. Om skärmen visar ”Det här kontot har ingen fordonsflotta.”, skriv till oss via ”Feedback / Felrapport” för att öppna en fordonsflotta.\n\nSkärmen visar ”Förare” — var och en med ”Kopplad” eller ”Inte kopplad än”, lastbil, släp och antalet pass, resor och tankningar — samt fordonsflottans ”Fordonspark”. Nedanför: ”Lägg till förare” med fältet ”Förarens namn”, ”+ Lägg till lastbil” (”Registreringsnummer”, ”Lastbilstyp”, ”Karosstyp”) och ”+ Lägg till släp” (”Registreringsnummer”, kompatibilitet, ”Karosstyp”). Samma sak kan göras i din webbläsare på my.vecturabook.com.\n\nHos en förare som har lämnat står ”Lämnade fordonsflottan” med tiden i stället för ”Kopplad”.",
+     "text": "För den flottansvarige. Aktivera ”Ägare / Anställd” i Inställningar → ”Förarprofil”: raden ”Fordonsflotta” visas där.\n\nFordonsflottan hör till ditt VecturaBook-konto. Om telefonen inte är inloggad visar skärmen ”Logga först in på ditt konto:” — tryck på ”Anslut till VecturaBook” och logga in med ditt kontos e-postadress. Om kontot saknar fordonsflotta erbjuder skärmen ”Skapa fordonsflotta”: skriv ”Fordonsflottans namn” och tryck på ”Skapa fordonsflotta” — den kostnadsfria provperioden börjar direkt.\n\nSkärmen visar ”Förare” — var och en med ”Kopplad” eller ”Inte kopplad än”, lastbil, släp och antalet pass, resor och tankningar — samt fordonsflottans ”Fordonspark”. Nedanför: ”Lägg till förare” med fältet ”Förarens namn”, ”+ Lägg till lastbil” (”Registreringsnummer”, ”Lastbilstyp”, ”Karosstyp”) och ”+ Lägg till släp” (”Registreringsnummer”, kompatibilitet, ”Karosstyp”). Samma sak kan göras i din webbläsare på my.vecturabook.com.\n\nUtan prenumeration visar skärmen ”Prenumeration för fordonsflotta” och ”Förare”: tryck på en förare för ”Hämta kod” och ”Skicka koden till föraren” — en ny förares telefon går med i fordonsflottan även utan prenumeration.\n\nHos en förare som har lämnat står ”Lämnat fordonsflottan” med tiden i stället för ”Kopplad”.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Förare",
-     "text": "Tryck på en förare för att öppna kortet. ”Lastbil” och ”Släp”: välj från fordonsflottans fordonspark och tryck på ”Spara”. Endast släp som passar till den valda lastbilen erbjuds. Förarens telefon hämtar själv ändringen; under en resa — efter att resan har avslutats.\n\n”Hämta kod” ger en engångskod med information om hur länge den är giltig. ”Skicka koden till föraren” skickar koden och länken via en meddelandeapp. Koden visas bara en gång. En ny kod flyttar föraren till en ny telefon: den gamla telefonen lämnar fordonsflottan.\n\nNedanför visas förarens ”Pass”, ”Resor” och ”Tankningar” som har nått fordonsflottan.\n\nKortet för en förare som har lämnat visar ”Lämnade fordonsflottan” med tiden. En ny kod från dig tar tillbaka föraren.",
+     "text": "Tryck på en förare för att öppna kortet. ”Lastbil” och ”Släp”: välj från fordonsflottans fordonspark och tryck på ”Spara”. Endast släp som passar till den valda lastbilen erbjuds. Förarens telefon hämtar själv ändringen; under en resa — efter att resan har avslutats.\n\n”Hämta kod” ger en engångskod med information om hur länge den är giltig. ”Skicka koden till föraren” skickar koden och länken via en meddelandeapp. Koden visas bara en gång. En ny kod flyttar föraren till en ny telefon: den gamla telefonen lämnar fordonsflottan.\n\nNedanför visas förarens ”Pass”, ”Resor” och ”Tankningar” som har nått fordonsflottan.\n\nKortet för en förare som har lämnat visar ”Lämnat fordonsflottan” med tiden. En ny kod från dig tar tillbaka föraren.",
      "image": ""
     }
    ]
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Kapell",
+   "title": "Kapell / Skåp",
    "intro": "Ett kapellsläp transporterar styckegods på pallar.",
    "steps": [
     {
      "id": "setup",
      "title": "I fordonsparken",
-     "text": "Karosstypen ”Kapell”.",
+     "text": "Karosstypen ”Kapell / Skåp”.",
      "image": "img/sv/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Insamling av bilder för avläsning.",
   "service.splash-tuner": "Inställning av startbild.",
   "driving.crossing": "Gräns eller färja under resan: faser med timer, vid tryck."
+ },
+ "video": {
+  "language": "sv",
+  "chapters": {
+   "getting-started": {
+    "id": "JOvJHgNfSWw",
+    "t": 0
+   },
+   "shift": {
+    "id": "JOvJHgNfSWw",
+    "t": 152
+   },
+   "trip": {
+    "id": "JOvJHgNfSWw",
+    "t": 239
+   },
+   "driving": {
+    "id": "JOvJHgNfSWw",
+    "t": 492
+   },
+   "refuel": {
+    "id": "JOvJHgNfSWw",
+    "t": 626
+   },
+   "parking": {
+    "id": "JOvJHgNfSWw",
+    "t": 709
+   },
+   "camera": {
+    "id": "JOvJHgNfSWw",
+    "t": 765
+   },
+   "history": {
+    "id": "JOvJHgNfSWw",
+    "t": 838
+   },
+   "report": {
+    "id": "JOvJHgNfSWw",
+    "t": 913
+   },
+   "garage": {
+    "id": "JOvJHgNfSWw",
+    "t": 956
+   },
+   "documents": {
+    "id": "JOvJHgNfSWw",
+    "t": 1095
+   },
+   "maintenance": {
+    "id": "JOvJHgNfSWw",
+    "t": 1168
+   },
+   "address-book": {
+    "id": "JOvJHgNfSWw",
+    "t": 1215
+   },
+   "backup": {
+    "id": "JOvJHgNfSWw",
+    "t": 1284
+   },
+   "online": {
+    "id": "JOvJHgNfSWw",
+    "t": 1341
+   },
+   "settings": {
+    "id": "JOvJHgNfSWw",
+    "t": 1387
+   },
+   "notifications": {
+    "id": "JOvJHgNfSWw",
+    "t": 1511
+   },
+   "diagnostics": {
+    "id": "JOvJHgNfSWw",
+    "t": 1547
+   },
+   "service": {
+    "id": "JOvJHgNfSWw",
+    "t": 1625
+   },
+   "flatbed": {
+    "id": "JOvJHgNfSWw",
+    "t": 1691
+   },
+   "container": {
+    "id": "JOvJHgNfSWw",
+    "t": 1725
+   },
+   "sidelifter": {
+    "id": "JOvJHgNfSWw",
+    "t": 1768
+   },
+   "refrigerated": {
+    "id": "JOvJHgNfSWw",
+    "t": 1797
+   },
+   "curtainsider": {
+    "id": "JOvJHgNfSWw",
+    "t": 1836
+   },
+   "tipper": {
+    "id": "JOvJHgNfSWw",
+    "t": 1861
+   },
+   "fuel-tanker": {
+    "id": "JOvJHgNfSWw",
+    "t": 1885
+   },
+   "tanker": {
+    "id": "JOvJHgNfSWw",
+    "t": 1922
+   },
+   "car-transporter": {
+    "id": "JOvJHgNfSWw",
+    "t": 1949
+   },
+   "lowbed": {
+    "id": "JOvJHgNfSWw",
+    "t": 1992
+   }
+  }
  }
 }

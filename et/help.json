@@ -506,7 +506,7 @@
     {
      "id": "join",
      "title": "Liitu autopargiga koodiga",
-     "text": "Esimesel käivitusel vajutage „Sõidan autopargile — sisesta kood“. Hiljem: Seaded → „Juhi profiil“ → „Liitu autopargiga koodiga“.\n\nSisestage autopargi juhilt saadud kood ja vajutage „Liitu autopargiga“. Kui autopargi juht saatis teile lingi (my.vecturabook.com/fleet/join…), avage see lihtsalt oma telefonis: rakendus avaneb juba sisestatud koodiga. Samuti võite kleepida kogu lingi väljale „Kood“.\n\nKood töötab ainult üks kord ja ainult piiratud aja. Kui rakendus teatab, et kood on vale, aegunud või juba kasutatud, küsige autopargi juhilt uus.\n\nKui telefon on juba teises autopargis, küsib rakendus kõigepealt: uus kood saadab viimased sissekanded sellesse autoparki ja lahkub sealt ning selle päevik jääb telefoni ainult vaatamiseks. Lõpetage seal esmalt sõit ja vahetus, muidu ütleb rakendus „Lõpeta esmalt praegune reis.“ või „Lõpeta esmalt autopargi vahetus.“ Ilma internetita ei muutu midagi.",
+     "text": "Esimesel käivitusel vajutage „Sõidan autopargis — sisesta kood“. Hiljem: Seaded → „Juhi profiil“ → „Liitu autopargiga koodiga“.\n\nSisestage autopargi juhilt saadud kood ja vajutage „Liitu autopargiga“. Kui autopargi juht saatis teile lingi (my.vecturabook.com/fleet/join…), avage see lihtsalt oma telefonis: rakendus avaneb juba sisestatud koodiga. Samuti võite kleepida kogu lingi väljale „Kood“.\n\nKood töötab ainult üks kord ja ainult piiratud aja. Kui rakendus teatab, et kood on vale, aegunud või juba kasutatud, küsige autopargi juhilt uus.\n\nKui telefon on juba teises autopargis, küsib rakendus kõigepealt: uus kood saadab viimased sissekanded sellesse autoparki ja lahkub sealt ning selle päevik jääb telefoni ainult vaatamiseks. Lõpetage seal esmalt sõit ja vahetus, muidu ütleb rakendus „Lõpeta esmalt praegune reis.“ või „Lõpeta esmalt autopargi vahetus.“ Ilma internetita ei muutu midagi.",
      "image": ""
     },
     {
@@ -530,7 +530,7 @@
     {
      "id": "owner",
      "title": "Autopark omanikule",
-     "text": "Autopargi juhile. Lülitage sisse „Omanik / Palgatöötaja“ jaotises Seaded → „Juhi profiil“: sinna ilmub rida „Autopark“.\n\nAutopark kuulub teie VecturaBooki kontole. Kui telefon pole sisse logitud, kuvatakse ekraanil „Logi esmalt oma kontole sisse:“ — vajutage „Ühenda VecturaBookiga“ ja logige sisse oma konto e-posti aadressiga. Kui ekraanil kuvatakse „Sellel kontol pole autoparki.“, kirjutage meile autopargi avamiseks jaotise „Tagasiside / veateade“ kaudu.\n\nEkraanil kuvatakse „Juhid“ — igaüks märkega „Seotud“ või „Veel sidumata“, veok, haagis ning vahetuste, reiside ja tankimiste arv — ning autopargi „Garaaž“. Allpool: „Lisa juht“ koos väljaga „Juhi nimi“, „+ Lisa veok“ („Numbrimärk“, „Veoki tüüp“, „Keretüüp“) ja „+ Lisa haagis“ („Numbrimärk“, ühilduvus, „Keretüüp“). Seda saab teha ka brauseris aadressil my.vecturabook.com.\n\nLahkunud juhi juures on „Seotud“ asemel „Lahkus autopargist“ ja kellaaeg.",
+     "text": "Autopargi juhile. Lülitage sisse „Omanik / Palgatöötaja“ jaotises Seaded → „Juhi profiil“: sinna ilmub rida „Autopark“.\n\nAutopark kuulub teie VecturaBooki kontole. Kui telefon pole sisse logitud, kuvatakse ekraanil „Logi esmalt oma kontole sisse:“ — vajutage „Ühenda VecturaBookiga“ ja logige sisse oma konto e-posti aadressiga. Kui kontol pole autoparki, pakub ekraan „Loo autopark“: sisestage „Autopargi nimi“ ja vajutage „Loo autopark“ — tasuta prooviperiood algab kohe.\n\nEkraanil kuvatakse „Juhid“ — igaüks märkega „Seotud“ või „Veel sidumata“, veok, haagis ning vahetuste, reiside ja tankimiste arv — ning autopargi „Garaaž“. Allpool: „Lisa juht“ koos väljaga „Juhi nimi“, „+ Lisa veok“ („Numbrimärk“, „Veoki tüüp“, „Keretüüp“) ja „+ Lisa haagis“ („Numbrimärk“, ühilduvus, „Keretüüp“). Seda saab teha ka brauseris aadressil my.vecturabook.com.\n\nIlma tellimuseta näitab ekraan „Autopargi tellimus“ ja „Juhid“: vajutage juhile, et kasutada „Hangi kood“ ja „Saada kood juhile“ — uue juhi telefon liitub autopargiga ka ilma tellimuseta.\n\nLahkunud juhi juures on „Seotud“ asemel „Lahkus autopargist“ ja kellaaeg.",
      "image": ""
     },
     {
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Tentveok",
+   "title": "Kardin / Furgoon",
    "intro": "Tenthaagis veab tükikaupa alustel.",
    "steps": [
     {
      "id": "setup",
      "title": "Garaažis",
-     "text": "Keretüüp „Tentveok“.",
+     "text": "Keretüüp „Kardin / Furgoon“.",
      "image": "img/et/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Kaadrite pildistamine tuvastamise jaoks.",
   "service.splash-tuner": "Käivituskuva seadistamine.",
   "driving.crossing": "Piir või praam reisi ajal: etapid taimeritega, vajutusega."
+ },
+ "video": {
+  "language": "et",
+  "chapters": {
+   "getting-started": {
+    "id": "WyPMHWcn2VE",
+    "t": 0
+   },
+   "shift": {
+    "id": "WyPMHWcn2VE",
+    "t": 149
+   },
+   "trip": {
+    "id": "WyPMHWcn2VE",
+    "t": 239
+   },
+   "driving": {
+    "id": "WyPMHWcn2VE",
+    "t": 476
+   },
+   "refuel": {
+    "id": "WyPMHWcn2VE",
+    "t": 601
+   },
+   "parking": {
+    "id": "WyPMHWcn2VE",
+    "t": 682
+   },
+   "camera": {
+    "id": "WyPMHWcn2VE",
+    "t": 744
+   },
+   "history": {
+    "id": "WyPMHWcn2VE",
+    "t": 822
+   },
+   "report": {
+    "id": "WyPMHWcn2VE",
+    "t": 891
+   },
+   "garage": {
+    "id": "WyPMHWcn2VE",
+    "t": 939
+   },
+   "documents": {
+    "id": "WyPMHWcn2VE",
+    "t": 1080
+   },
+   "maintenance": {
+    "id": "WyPMHWcn2VE",
+    "t": 1152
+   },
+   "address-book": {
+    "id": "WyPMHWcn2VE",
+    "t": 1192
+   },
+   "backup": {
+    "id": "WyPMHWcn2VE",
+    "t": 1257
+   },
+   "online": {
+    "id": "WyPMHWcn2VE",
+    "t": 1312
+   },
+   "settings": {
+    "id": "WyPMHWcn2VE",
+    "t": 1353
+   },
+   "notifications": {
+    "id": "WyPMHWcn2VE",
+    "t": 1477
+   },
+   "diagnostics": {
+    "id": "WyPMHWcn2VE",
+    "t": 1515
+   },
+   "service": {
+    "id": "WyPMHWcn2VE",
+    "t": 1593
+   },
+   "flatbed": {
+    "id": "WyPMHWcn2VE",
+    "t": 1659
+   },
+   "container": {
+    "id": "WyPMHWcn2VE",
+    "t": 1691
+   },
+   "sidelifter": {
+    "id": "WyPMHWcn2VE",
+    "t": 1735
+   },
+   "refrigerated": {
+    "id": "WyPMHWcn2VE",
+    "t": 1764
+   },
+   "curtainsider": {
+    "id": "WyPMHWcn2VE",
+    "t": 1802
+   },
+   "tipper": {
+    "id": "WyPMHWcn2VE",
+    "t": 1825
+   },
+   "fuel-tanker": {
+    "id": "WyPMHWcn2VE",
+    "t": 1848
+   },
+   "tanker": {
+    "id": "WyPMHWcn2VE",
+    "t": 1884
+   },
+   "car-transporter": {
+    "id": "WyPMHWcn2VE",
+    "t": 1912
+   },
+   "lowbed": {
+    "id": "WyPMHWcn2VE",
+    "t": 1949
+   }
+  }
  }
 }

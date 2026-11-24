@@ -17,7 +17,7 @@
     {
      "id": "onboarding",
      "title": "Nom, camion, remorque, autorisations",
-     "text": "Étape 1 — votre nom. Il apparaît sur les rapports. Vous pouvez le laisser vide et le remplir plus tard.\n\nÉtape 2 — tracteur ou porteur : immatriculation, type et carrosserie. Le type et la carrosserie se choisissent en images à l'aide d'une série de questions : chaque réponse affiche la question suivante.\n\nÉtape 3 — la remorque. Vous pouvez passer cette étape avec le bouton « Passer la remorque » et l'ajouter plus tard dans le parc.\n\nÉtape 4 — les autorisations : caméra (numéros de conteneurs, plombs, compteur), localisation (ville au début du service, uniquement à votre demande) et notifications (minuteurs d'attente, de plein et de déchargement). Vous pouvez en refuser une : l'application fonctionnera quand même, simplement sans cette fonction.",
+     "text": "Étape 1 — votre nom. Il apparaît sur les rapports. Vous pouvez le laisser vide et le remplir plus tard.\n\nÉtape 2 — tracteur ou porteur : immatriculation, type et carrosserie. Le type et la carrosserie se choisissent en images à l'aide d'une série de questions : chaque réponse affiche la question suivante.\n\nÉtape 3 — la remorque. Vous pouvez passer cette étape avec le bouton « Ignorer la remorque » et l'ajouter plus tard dans le parc.\n\nÉtape 4 — les autorisations : caméra (numéros de conteneurs, plombs, compteur), localisation (ville au début du service, uniquement à votre demande) et notifications (minuteurs d'attente, de plein et de déchargement). Vous pouvez en refuser une : l'application fonctionnera quand même, simplement sans cette fonction.",
      "image": "img/fr/getting-started-onboarding.png"
     },
     {
@@ -530,7 +530,7 @@
     {
      "id": "owner",
      "title": "Flotte pour le propriétaire",
-     "text": "Pour le responsable de flotte. Activez « Propriétaire / Salarié » dans Paramètres → « Profil du conducteur » : la ligne « Flotte » y apparaît.\n\nLa flotte appartient à votre compte VecturaBook. Si le téléphone n'est pas connecté, l'écran indique « Connecte-toi d'abord à ton compte : » — appuyez sur « Se connecter à VecturaBook » et connectez-vous avec l'adresse e-mail de votre compte. Si l'écran affiche « Ce compte n'a pas de flotte. », écrivez-nous via « Retour / Bug » pour ouvrir une flotte.\n\nL'écran affiche « Chauffeurs » — chacun avec « Associé » ou « Pas encore associé », camion, remorque et le nombre de journées, trajets et pleins — ainsi que « Mon parc » de la flotte. En dessous : « Ajouter un chauffeur » avec le champ « Nom du chauffeur », « + Ajouter un camion » (« Immatriculation », « Type de camion », « Type de carrosserie ») et « + Ajouter une remorque » (« Immatriculation », compatibilité, « Type de carrosserie »). Vous pouvez faire de même dans votre navigateur sur my.vecturabook.com.\n\nPour un chauffeur parti, « A quitté la flotte » avec l'heure remplace « Associé ».",
+     "text": "Pour le responsable de flotte. Activez « Propriétaire / Salarié » dans Paramètres → « Profil du conducteur » : la ligne « Flotte » y apparaît.\n\nLa flotte appartient à votre compte VecturaBook. Si le téléphone n'est pas connecté, l'écran indique « Connecte-toi d'abord à ton compte : » — appuyez sur « Se connecter à VecturaBook » et connectez-vous avec l'adresse e-mail de votre compte. Si le compte n'a pas de flotte, l'écran propose « Créer une flotte » : saisissez « Nom de la flotte » et appuyez sur « Créer une flotte » — l'essai gratuit commence aussitôt.\n\nL'écran affiche « Chauffeurs » — chacun avec « Associé » ou « Pas encore associé », camion, remorque et le nombre de journées, trajets et pleins — ainsi que « Mon parc » de la flotte. En dessous : « Ajouter un chauffeur » avec le champ « Nom du chauffeur », « + Ajouter un camion » (« Immatriculation », « Type de camion », « Type de carrosserie ») et « + Ajouter une remorque » (« Immatriculation », compatibilité, « Type de carrosserie »). Vous pouvez faire de même dans votre navigateur sur my.vecturabook.com.\n\nSans abonnement, l'écran affiche « Abonnement Flotte » et « Chauffeurs » : appuyez sur un chauffeur pour « Obtenir un code » et « Envoyer le code au chauffeur » — le téléphone d'un nouveau chauffeur rejoint la flotte même sans abonnement.\n\nPour un chauffeur parti, « A quitté la flotte » avec l'heure remplace « Associé ».",
      "image": ""
     },
     {
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Bâché",
+   "title": "Tautliner / Fourgon",
    "intro": "La remorque bâchée transporte de la marchandise générale sur palettes.",
    "steps": [
     {
      "id": "setup",
      "title": "Dans le parc",
-     "text": "Carrosserie « Bâché ».",
+     "text": "Carrosserie « Tautliner / Fourgon ».",
      "image": "img/fr/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Prise d'images pour la reconnaissance.",
   "service.splash-tuner": "Réglage de l'écran de démarrage.",
   "driving.crossing": "Frontière ou ferry pendant le voyage : étapes avec minuteurs, par appui."
+ },
+ "video": {
+  "language": "fr",
+  "chapters": {
+   "getting-started": {
+    "id": "tDjLAL2EmhE",
+    "t": 0
+   },
+   "shift": {
+    "id": "tDjLAL2EmhE",
+    "t": 157
+   },
+   "trip": {
+    "id": "tDjLAL2EmhE",
+    "t": 268
+   },
+   "driving": {
+    "id": "tDjLAL2EmhE",
+    "t": 539
+   },
+   "refuel": {
+    "id": "tDjLAL2EmhE",
+    "t": 675
+   },
+   "parking": {
+    "id": "tDjLAL2EmhE",
+    "t": 767
+   },
+   "camera": {
+    "id": "tDjLAL2EmhE",
+    "t": 833
+   },
+   "history": {
+    "id": "tDjLAL2EmhE",
+    "t": 921
+   },
+   "report": {
+    "id": "tDjLAL2EmhE",
+    "t": 990
+   },
+   "garage": {
+    "id": "tDjLAL2EmhE",
+    "t": 1040
+   },
+   "documents": {
+    "id": "tDjLAL2EmhE",
+    "t": 1193
+   },
+   "maintenance": {
+    "id": "tDjLAL2EmhE",
+    "t": 1270
+   },
+   "address-book": {
+    "id": "tDjLAL2EmhE",
+    "t": 1317
+   },
+   "backup": {
+    "id": "tDjLAL2EmhE",
+    "t": 1389
+   },
+   "online": {
+    "id": "tDjLAL2EmhE",
+    "t": 1446
+   },
+   "settings": {
+    "id": "tDjLAL2EmhE",
+    "t": 1498
+   },
+   "notifications": {
+    "id": "tDjLAL2EmhE",
+    "t": 1630
+   },
+   "diagnostics": {
+    "id": "tDjLAL2EmhE",
+    "t": 1668
+   },
+   "service": {
+    "id": "tDjLAL2EmhE",
+    "t": 1771
+   },
+   "flatbed": {
+    "id": "tDjLAL2EmhE",
+    "t": 1842
+   },
+   "container": {
+    "id": "tDjLAL2EmhE",
+    "t": 1874
+   },
+   "sidelifter": {
+    "id": "tDjLAL2EmhE",
+    "t": 1915
+   },
+   "refrigerated": {
+    "id": "tDjLAL2EmhE",
+    "t": 1946
+   },
+   "curtainsider": {
+    "id": "tDjLAL2EmhE",
+    "t": 1986
+   },
+   "tipper": {
+    "id": "tDjLAL2EmhE",
+    "t": 2012
+   },
+   "fuel-tanker": {
+    "id": "tDjLAL2EmhE",
+    "t": 2035
+   },
+   "tanker": {
+    "id": "tDjLAL2EmhE",
+    "t": 2076
+   },
+   "car-transporter": {
+    "id": "tDjLAL2EmhE",
+    "t": 2104
+   },
+   "lowbed": {
+    "id": "tDjLAL2EmhE",
+    "t": 2142
+   }
+  }
  }
 }

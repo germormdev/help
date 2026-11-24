@@ -530,7 +530,7 @@
     {
      "id": "owner",
      "title": "Kalusto omistajalle",
-     "text": "Kalustopäällikölle. Ota käyttöön ”Omistaja / Palkattu” kohdassa Asetukset → ”Kuljettajan profiili”: sinne ilmestyy rivi ”Kalusto”.\n\nKalusto kuuluu VecturaBook-tiliisi. Jos puhelimella ei ole kirjauduttu sisään, näytöllä lukee ”Kirjaudu ensin tilillesi:” — napauta ”Yhdistä VecturaBookiin” ja kirjaudu sisään tilisi sähköpostiosoitteella. Jos näytöllä lukee ”Tällä tilillä ei ole kalustoa.”, kirjoita meille kohdasta ”Palaute / virheilmoitus” kaluston avaamiseksi.\n\nNäytöllä näkyy ”Kuljettajat” — kunkin kohdalla ”Yhdistetty” tai ”Ei vielä yhdistetty”, rekka, perävaunu sekä vuorojen, reissujen ja tankkausten määrä — ja kaluston ”Halli”. Alempana: ”Lisää kuljettaja” ja kenttä ”Kuljettajan nimi”, ”+ Lisää rekka” (”Rekisterinumero”, ”Rekan tyyppi”, ”Korityyppi”) sekä ”+ Lisää perävaunu” (”Rekisterinumero”, yhteensopivuus, ”Korityyppi”). Saman voi tehdä selaimessa osoitteessa my.vecturabook.com.\n\nPoistuneen kuljettajan kohdalla on ”Yhdistetty” sijaan ”Poistui kalustosta” ja aika.",
+     "text": "Kalustopäällikölle. Ota käyttöön ”Omistaja / Palkattu” kohdassa Asetukset → ”Kuljettajan profiili”: sinne ilmestyy rivi ”Kalusto”.\n\nKalusto kuuluu VecturaBook-tiliisi. Jos puhelimella ei ole kirjauduttu sisään, näytöllä lukee ”Kirjaudu ensin tilillesi:” — napauta ”Yhdistä VecturaBookiin” ja kirjaudu sisään tilisi sähköpostiosoitteella. Jos tilillä ei ole kalustoa, näyttö tarjoaa ”Luo kalusto”: kirjoita ”Kaluston nimi” ja napauta ”Luo kalusto” — ilmainen kokeilujakso alkaa heti.\n\nNäytöllä näkyy ”Kuljettajat” — kunkin kohdalla ”Yhdistetty” tai ”Ei vielä yhdistetty”, rekka, perävaunu sekä vuorojen, reissujen ja tankkausten määrä — ja kaluston ”Halli”. Alempana: ”Lisää kuljettaja” ja kenttä ”Kuljettajan nimi”, ”+ Lisää rekka” (”Rekisterinumero”, ”Rekan tyyppi”, ”Korityyppi”) sekä ”+ Lisää perävaunu” (”Rekisterinumero”, yhteensopivuus, ”Korityyppi”). Saman voi tehdä selaimessa osoitteessa my.vecturabook.com.\n\nIlman tilausta näytöllä on ”Kaluston tilaus” ja ”Kuljettajat”: napauta kuljettajaa, niin saat ”Hae koodi” ja ”Lähetä koodi kuljettajalle” — uuden kuljettajan puhelin liittyy kalustoon myös ilman tilausta.\n\nPoistuneen kuljettajan kohdalla on ”Yhdistetty” sijaan ”Poistui kalustosta” ja aika.",
      "image": ""
     },
     {
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Kapelli",
-   "intro": "Kapelliperävaunu kuljettaa kappaletavaraa lavoilla.",
+   "title": "Kapelli / Umpikori",
+   "intro": "Kori ”Kapelli / Umpikori” kuljettaa kappaletavaraa lavoilla.",
    "steps": [
     {
      "id": "setup",
      "title": "Hallissa",
-     "text": "Korityyppi ”Kapelli”.",
+     "text": "Korityyppi ”Kapelli / Umpikori”.",
      "image": "img/fi/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Kuvien ottaminen tunnistusta varten.",
   "service.splash-tuner": "Aloitusnäytön säätö.",
   "driving.crossing": "Raja tai lautta ajon aikana: vaiheet ajastimin, painamalla."
+ },
+ "video": {
+  "language": "fi",
+  "chapters": {
+   "getting-started": {
+    "id": "6FC9wWkAbMI",
+    "t": 0
+   },
+   "shift": {
+    "id": "6FC9wWkAbMI",
+    "t": 178
+   },
+   "trip": {
+    "id": "6FC9wWkAbMI",
+    "t": 270
+   },
+   "driving": {
+    "id": "6FC9wWkAbMI",
+    "t": 542
+   },
+   "refuel": {
+    "id": "6FC9wWkAbMI",
+    "t": 679
+   },
+   "parking": {
+    "id": "6FC9wWkAbMI",
+    "t": 763
+   },
+   "camera": {
+    "id": "6FC9wWkAbMI",
+    "t": 837
+   },
+   "history": {
+    "id": "6FC9wWkAbMI",
+    "t": 911
+   },
+   "report": {
+    "id": "6FC9wWkAbMI",
+    "t": 980
+   },
+   "garage": {
+    "id": "6FC9wWkAbMI",
+    "t": 1028
+   },
+   "documents": {
+    "id": "6FC9wWkAbMI",
+    "t": 1184
+   },
+   "maintenance": {
+    "id": "6FC9wWkAbMI",
+    "t": 1265
+   },
+   "address-book": {
+    "id": "6FC9wWkAbMI",
+    "t": 1307
+   },
+   "backup": {
+    "id": "6FC9wWkAbMI",
+    "t": 1384
+   },
+   "online": {
+    "id": "6FC9wWkAbMI",
+    "t": 1446
+   },
+   "settings": {
+    "id": "6FC9wWkAbMI",
+    "t": 1497
+   },
+   "notifications": {
+    "id": "6FC9wWkAbMI",
+    "t": 1629
+   },
+   "diagnostics": {
+    "id": "6FC9wWkAbMI",
+    "t": 1664
+   },
+   "service": {
+    "id": "6FC9wWkAbMI",
+    "t": 1748
+   },
+   "flatbed": {
+    "id": "6FC9wWkAbMI",
+    "t": 1826
+   },
+   "container": {
+    "id": "6FC9wWkAbMI",
+    "t": 1864
+   },
+   "sidelifter": {
+    "id": "6FC9wWkAbMI",
+    "t": 1903
+   },
+   "refrigerated": {
+    "id": "6FC9wWkAbMI",
+    "t": 1935
+   },
+   "curtainsider": {
+    "id": "6FC9wWkAbMI",
+    "t": 1975
+   },
+   "tipper": {
+    "id": "6FC9wWkAbMI",
+    "t": 1999
+   },
+   "fuel-tanker": {
+    "id": "6FC9wWkAbMI",
+    "t": 2025
+   },
+   "tanker": {
+    "id": "6FC9wWkAbMI",
+    "t": 2068
+   },
+   "car-transporter": {
+    "id": "6FC9wWkAbMI",
+    "t": 2097
+   },
+   "lowbed": {
+    "id": "6FC9wWkAbMI",
+    "t": 2137
+   }
+  }
  }
 }

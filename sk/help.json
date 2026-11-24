@@ -501,7 +501,7 @@
   {
    "slug": "fleet",
    "title": "Vozový park",
-   "intro": "Vozový park je pre firmy s viacerými vozidlami a vodičmi. Správca vozového parku dá každému vodičovi jednorazový kód. Vďaka nemu telefón dostane samostatný denník vozového parku s ťahačom a návesom vozového parku; čo tam zapíšete, ide do vozového parku. „Môj denník“ — váš vlastný denník — zostáva, aký bol, a zostáva váš.",
+   "intro": "Vozový park je pre firmy s viacerými vozidlami a vodičmi. Správca vozového parku dá každému vodičovi jednorazový kód. Vďaka nemu telefón dostane samostatný denník vozového parku s vozidlom a návesom vozového parku; čo tam zapíšete, ide do vozového parku. „Môj denník“ — váš vlastný denník — zostáva, aký bol, a zostáva váš.",
    "steps": [
     {
      "id": "join",
@@ -512,13 +512,13 @@
     {
      "id": "in-fleet",
      "title": "Dva denníky",
-     "text": "Po pripojení má telefón dva denníky: „Môj denník“ a denník vozového parku. Pás hore na každej obrazovke ukazuje, ktorý je otvorený: modrosivý „Môj denník“ alebo fialový s názvom vozového parku. Ťuknutím na pás vyberiete druhý („Ktorý denník?“). Prepnúť sa dá, len keď jazda nezačala, inak „Najprv ukonči aktuálnu jazdu.“\n\nZmeny, jazdy a tankovania z denníka vozového parku idú do vozového parku samy, keď je internet; „Odoslať do vozového parku teraz“ v „Profil vodiča“ ich pošle hneď. „Môj denník“ nikdy nejde do vozového parku — iba do vášho vlastného účtu. Každý denník má svoju zmenu, svoje koncepty a časovače.\n\nAk vám správca počas jazdy dá iný ťahač, zmena príde po konci jazdy.",
+     "text": "Po pripojení má telefón dva denníky: „Môj denník“ a denník vozového parku. Pás hore na každej obrazovke ukazuje, ktorý je otvorený: modrosivý „Môj denník“ alebo fialový s názvom vozového parku. Ťuknutím na pás vyberiete druhý („Ktorý denník?“). Prepnúť sa dá, len keď jazda nezačala, inak „Najprv ukonči aktuálnu jazdu.“\n\nZmeny, jazdy a tankovania z denníka vozového parku idú do vozového parku samy, keď je internet; „Odoslať do vozového parku teraz“ v „Profil vodiča“ ich pošle hneď. „Môj denník“ nikdy nejde do vozového parku — iba do vášho vlastného účtu. Každý denník má svoju zmenu, svoje koncepty a časovače.\n\nAk vám správca počas jazdy dá iné vozidlo, zmena príde po konci jazdy.",
      "image": ""
     },
     {
      "id": "own-truck",
-     "title": "Vlastný ťahač",
-     "text": "Ak jazdíte pre vozový park vlastným ťahačom, ťuknite na „Jazdím pre vozový park vlastným ťahačom“ v „Profil vodiča“ a vyberte svoj ťahač („Môj park“, „Môj denník“). Stane sa ťahačom v denníku vozového parku a vozový park uvidí jeho EČV vo vašich jazdách.\n\nPalivo vlastného ťahača je váš výdavok: jeho tankovania idú vždy do „Môj denník“, aj keď je otvorený denník vozového parku. Keď vlastná zmena nie je otvorená, „Môj denník“ dostane krátku uzavretú zmenu na čas práce pre vozový park — tankovanie je tak vo vašich reportoch aj vo vašom účte. Palivo ťahača vozového parku a agregátu návesu vozového parku ide do vozového parku. Zastávka s oboma sa uloží celá: neuloží sa jedna časť — neuloží sa nič.\n\nTachometer vlastného ťahača beží ďalej cez oba denníky.",
+     "title": "Vlastné vozidlo",
+     "text": "Ak jazdíte pre vozový park vlastným vozidlom, ťuknite na „Jazdím pre vozový park vlastným vozidlom“ v „Profil vodiča“ a vyberte svoje vozidlo („Môj park“, „Môj denník“). Stane sa vozidlom v denníku vozového parku a vozový park uvidí jeho EČV vo vašich jazdách.\n\nPalivo vlastného vozidla je váš výdavok: jeho tankovania idú vždy do „Môj denník“, aj keď je otvorený denník vozového parku. Keď vlastná zmena nie je otvorená, „Môj denník“ dostane krátku uzavretú zmenu na čas práce pre vozový park — tankovanie je tak vo vašich reportoch aj vo vašom účte. Palivo vozidla vozového parku a agregátu návesu vozového parku ide do vozového parku. Zastávka s oboma sa uloží celá: neuloží sa jedna časť — neuloží sa nič.\n\nTachometer vlastného vozidla beží ďalej cez oba denníky.",
      "image": ""
     },
     {
@@ -530,13 +530,13 @@
     {
      "id": "owner",
      "title": "Vozový park pre majiteľa",
-     "text": "Pre správcu vozového parku. Zapnite „Majiteľ / Zamestnanec“ v Nastavenia → „Profil vodiča“: zobrazí sa tam riadok „Vozový park“.\n\nVozový park patrí k vášmu účtu VecturaBook. Ak telefón nie je prihlásený, obrazovka hlási „Najprv sa prihláste do svojho účtu:“ — klepnite na „Pripojiť k VecturaBook“ a prihláste sa e-mailom svojho účtu. Ak obrazovka hlási „Tento účet nemá vozový park.“, napíšte nám cez „Spätná väzba / Chyba“ pre otvorenie vozového parku.\n\nObrazovka ukazuje „Vodiči“ — pri každom „Prepojený“ alebo „Zatiaľ neprepojený“, ťahač, náves a počet zmien, jázd a tankovaní — a „Môj park“ vozového parku. Dole: „Pridať vodiča“ s poľom „Meno vodiča“, „+ Pridať ťahač“ („ŠPZ“, „Typ ťahača“, „Typ nadstavby“) a „+ Pridať náves“ („ŠPZ“, kompatibilita, „Typ nadstavby“). To isté sa dá urobiť v prehliadači na my.vecturabook.com.\n\nPri vodičovi, ktorý odišiel, je namiesto „Prepojený“ uvedené „Opustil vozový park“ s časom.",
+     "text": "Pre správcu vozového parku. Zapnite „Majiteľ / Zamestnanec“ v Nastavenia → „Profil vodiča“: zobrazí sa tam riadok „Vozový park“.\n\nVozový park patrí k vášmu účtu VecturaBook. Ak telefón nie je prihlásený, obrazovka hlási „Najprv sa prihláste do svojho účtu:“ — klepnite na „Pripojiť k VecturaBook“ a prihláste sa e-mailom svojho účtu. Ak účet nemá vozový park, obrazovka ponúkne „Založiť vozový park“: zadajte „Názov vozového parku“ a klepnite na „Založiť vozový park“ — hneď začne bezplatné skúšobné obdobie.\n\nObrazovka ukazuje „Vodiči“ — pri každom „Prepojený“ alebo „Zatiaľ neprepojený“, vozidlo, náves a počet zmien, jázd a tankovaní — a „Môj park“ vozového parku. Dole: „Pridať vodiča“ s poľom „Meno vodiča“, „+ Pridať vozidlo“ („ŠPZ“, „Typ vozidla“, „Typ nadstavby“) a „+ Pridať náves“ („ŠPZ“, kompatibilita, „Typ nadstavby“). To isté sa dá urobiť v prehliadači na my.vecturabook.com.\n\nBez predplatného obrazovka ukazuje „Predplatné pre Vozový park“ a „Vodiči“: klepnite na vodiča pre „Získať kód“ a „Poslať kód vodičovi“ — telefón nového vodiča sa k vozovému parku pripojí aj bez predplatného.\n\nPri vodičovi, ktorý odišiel, je namiesto „Prepojený“ uvedené „Opustil vozový park“ s časom.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Vodič",
-     "text": "Klepnutím na vodiča otvoríte kartu. „Ťahač“ a „Náves“: vyberte z garáže vozového parku a klepnite na „Uložiť“. Ponúkajú sa iba návesy, ktoré sa hodia k vybranému ťahaču. Telefón vodiča prevezme zmenu sám; počas jazdy — po skončení jazdy.\n\n„Získať kód“ vygeneruje jednorazový kód s časom, do kedy platí. „Poslať kód vodičovi“ odošle kód a odkaz cez messenger. Kód sa zobrazí iba raz. Nový kód presunie vodiča na nový telefón: starý telefón vozový park opustí.\n\nNižšie sú „Zmeny“, „Jazdy“ a „Tankovania“ vodiča, ktoré dorazili do vozového parku.\n\nKarta vodiča, ktorý odišiel, ukazuje „Opustil vozový park“ s časom. Nový kód od vás vodiča vráti.",
+     "text": "Klepnutím na vodiča otvoríte kartu. „Vozidlo“ a „Náves“: vyberte z garáže vozového parku a klepnite na „Uložiť“. Ponúkajú sa iba návesy, ktoré sa hodia k vybranému vozidlu. Telefón vodiča prevezme zmenu sám; počas jazdy — po skončení jazdy.\n\n„Získať kód“ vygeneruje jednorazový kód s časom, do kedy platí. „Poslať kód vodičovi“ odošle kód a odkaz cez messenger. Kód sa zobrazí iba raz. Nový kód presunie vodiča na nový telefón: starý telefón vozový park opustí.\n\nNižšie sú „Zmeny“, „Jazdy“ a „Tankovania“ vodiča, ktoré dorazili do vozového parku.\n\nKarta vodiča, ktorý odišiel, ukazuje „Opustil vozový park“ s časom. Nový kód od vás vodiča vráti.",
      "image": ""
     }
    ]
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Plachta",
+   "title": "Plachta / Skriňa",
    "intro": "Plachtový náves vozí všeobecný náklad na paletách.",
    "steps": [
     {
      "id": "setup",
      "title": "V parku",
-     "text": "Nadstavba „Plachta“.",
+     "text": "Nadstavba „Plachta / Skriňa“.",
      "image": "img/sk/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Zhotovovanie snímok pre rozpoznávanie.",
   "service.splash-tuner": "Nastavenie úvodnej obrazovky.",
   "driving.crossing": "Hranica alebo trajekt počas jazdy: fázy s časovačmi, ťuknutím."
+ },
+ "video": {
+  "language": "sk",
+  "chapters": {
+   "getting-started": {
+    "id": "o-k4puOI46A",
+    "t": 0
+   },
+   "shift": {
+    "id": "o-k4puOI46A",
+    "t": 162
+   },
+   "trip": {
+    "id": "o-k4puOI46A",
+    "t": 261
+   },
+   "driving": {
+    "id": "o-k4puOI46A",
+    "t": 523
+   },
+   "refuel": {
+    "id": "o-k4puOI46A",
+    "t": 661
+   },
+   "parking": {
+    "id": "o-k4puOI46A",
+    "t": 751
+   },
+   "camera": {
+    "id": "o-k4puOI46A",
+    "t": 818
+   },
+   "history": {
+    "id": "o-k4puOI46A",
+    "t": 901
+   },
+   "report": {
+    "id": "o-k4puOI46A",
+    "t": 976
+   },
+   "garage": {
+    "id": "o-k4puOI46A",
+    "t": 1030
+   },
+   "documents": {
+    "id": "o-k4puOI46A",
+    "t": 1182
+   },
+   "maintenance": {
+    "id": "o-k4puOI46A",
+    "t": 1261
+   },
+   "address-book": {
+    "id": "o-k4puOI46A",
+    "t": 1311
+   },
+   "backup": {
+    "id": "o-k4puOI46A",
+    "t": 1381
+   },
+   "online": {
+    "id": "o-k4puOI46A",
+    "t": 1435
+   },
+   "settings": {
+    "id": "o-k4puOI46A",
+    "t": 1480
+   },
+   "notifications": {
+    "id": "o-k4puOI46A",
+    "t": 1619
+   },
+   "diagnostics": {
+    "id": "o-k4puOI46A",
+    "t": 1659
+   },
+   "service": {
+    "id": "o-k4puOI46A",
+    "t": 1740
+   },
+   "flatbed": {
+    "id": "o-k4puOI46A",
+    "t": 1813
+   },
+   "container": {
+    "id": "o-k4puOI46A",
+    "t": 1847
+   },
+   "sidelifter": {
+    "id": "o-k4puOI46A",
+    "t": 1894
+   },
+   "refrigerated": {
+    "id": "o-k4puOI46A",
+    "t": 1921
+   },
+   "curtainsider": {
+    "id": "o-k4puOI46A",
+    "t": 1961
+   },
+   "tipper": {
+    "id": "o-k4puOI46A",
+    "t": 1986
+   },
+   "fuel-tanker": {
+    "id": "o-k4puOI46A",
+    "t": 2012
+   },
+   "tanker": {
+    "id": "o-k4puOI46A",
+    "t": 2050
+   },
+   "car-transporter": {
+    "id": "o-k4puOI46A",
+    "t": 2078
+   },
+   "lowbed": {
+    "id": "o-k4puOI46A",
+    "t": 2118
+   }
+  }
  }
 }

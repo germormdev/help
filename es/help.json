@@ -17,7 +17,7 @@
     {
      "id": "onboarding",
      "title": "Nombre, camión, remolque, permisos",
-     "text": "Paso 1 — nombre. Se imprime en los informes. Puede dejarlo en blanco y escribirlo más tarde.\n\nPaso 2 — cabeza tractora o camión rígido: matrícula, tipo y carrocería. El tipo y la carrocería se eligen con imágenes paso a paso: según cada respuesta, la aplicación muestra la siguiente pregunta.\n\nPaso 3 — remolque. Puede omitirlo con el botón «Saltar remolque» y añadirlo después en «Mi parque».\n\nPaso 4 — permisos: «Cámara» (números de contenedor, precintos, cuentakilómetros), «Ubicación» (ciudad al inicio del turno, solo cuando usted lo pide) y «Notificaciones» (temporizadores de espera, repostaje y descarga). Puede rechazar cualquiera de ellos: la aplicación funcionará igual, solo que sin esa función.",
+     "text": "Paso 1 — nombre. Se imprime en los informes. Puede dejarlo en blanco y escribirlo más tarde.\n\nPaso 2 — cabeza tractora o camión rígido: matrícula, tipo y carrocería. El tipo y la carrocería se eligen con imágenes paso a paso: según cada respuesta, la aplicación muestra la siguiente pregunta.\n\nPaso 3 — remolque. Puede omitirlo con el botón «Omitir remolque» y añadirlo después en «Mi parque».\n\nPaso 4 — permisos: «Cámara» (números de contenedor, precintos, cuentakilómetros), «Ubicación» (ciudad al inicio del turno, solo cuando usted lo pide) y «Notificaciones» (temporizadores de espera, repostaje y descarga). Puede rechazar cualquiera de ellos: la aplicación funcionará igual, solo que sin esa función.",
      "image": "img/es/getting-started-onboarding.png"
     },
     {
@@ -530,7 +530,7 @@
     {
      "id": "owner",
      "title": "Flota para el propietario",
-     "text": "Para el responsable de flota. Active «Propietario / Asalariado» en Ajustes → «Perfil del conductor»: allí aparecerá la fila «Flota».\n\nLa flota pertenece a su cuenta de VecturaBook. Si no ha iniciado sesión en el teléfono, la pantalla mostrará «Primero inicia sesión en tu cuenta:» — pulse «Conectar con VecturaBook» e inicie sesión con el correo electrónico de su cuenta. Si la pantalla muestra «Esta cuenta no tiene flota.», escríbanos a través de «Comentario / Fallo» para abrir una flota.\n\nLa pantalla muestra «Conductores» —cada uno con «Vinculado» o «Aún no vinculado», camión, remolque y el número de jornadas, viajes y repostajes— y «Mi parque» de la flota. Debajo: «Añadir conductor» con el campo «Nombre del conductor», «+ Añadir camión» («Matrícula», «Tipo de camión», «Tipo de carrocería») y «+ Añadir remolque» («Matrícula», compatibilidad, «Tipo de carrocería»). Lo mismo puede hacerse en el navegador en my.vecturabook.com.\n\nUn conductor que se fue muestra «Salió de la flota» con la hora en lugar de «Vinculado».",
+     "text": "Para el responsable de flota. Active «Propietario / Asalariado» en Ajustes → «Perfil del conductor»: allí aparecerá la fila «Flota».\n\nLa flota pertenece a su cuenta de VecturaBook. Si no ha iniciado sesión en el teléfono, la pantalla mostrará «Primero inicia sesión en tu cuenta:» — pulse «Conectar con VecturaBook» e inicie sesión con el correo electrónico de su cuenta. Si la cuenta no tiene flota, la pantalla ofrece «Crear flota»: escriba «Nombre de la flota» y pulse «Crear flota» — la prueba gratuita empieza enseguida.\n\nLa pantalla muestra «Conductores» —cada uno con «Vinculado» o «Aún no vinculado», camión, remolque y el número de jornadas, viajes y repostajes— y «Mi parque» de la flota. Debajo: «Añadir conductor» con el campo «Nombre del conductor», «+ Añadir camión» («Matrícula», «Tipo de camión», «Tipo de carrocería») y «+ Añadir remolque» («Matrícula», compatibilidad, «Tipo de carrocería»). Lo mismo puede hacerse en el navegador en my.vecturabook.com.\n\nSin suscripción, la pantalla muestra «Suscripción de Flota» y «Conductores»: pulse en un conductor para «Obtener código» y «Enviar el código al conductor» — el teléfono de un conductor nuevo se une a la flota también sin suscripción.\n\nUn conductor que se fue muestra «Salió de la flota» con la hora en lugar de «Vinculado».",
      "image": ""
     },
     {
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Lona",
+   "title": "Lona / Furgón",
    "intro": "El remolque de lona transporta mercancía general en palés.",
    "steps": [
     {
      "id": "setup",
      "title": "En el parque",
-     "text": "Carrocería «Lona».",
+     "text": "Carrocería «Lona / Furgón».",
      "image": "img/es/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Captura de imágenes para el reconocimiento.",
   "service.splash-tuner": "Configuración de la pantalla de presentación.",
   "driving.crossing": "Frontera o ferry dentro del viaje: etapas con temporizadores, al pulsar."
+ },
+ "video": {
+  "language": "es",
+  "chapters": {
+   "getting-started": {
+    "id": "tbPwUQGHcQw",
+    "t": 0
+   },
+   "shift": {
+    "id": "tbPwUQGHcQw",
+    "t": 169
+   },
+   "trip": {
+    "id": "tbPwUQGHcQw",
+    "t": 266
+   },
+   "driving": {
+    "id": "tbPwUQGHcQw",
+    "t": 542
+   },
+   "refuel": {
+    "id": "tbPwUQGHcQw",
+    "t": 689
+   },
+   "parking": {
+    "id": "tbPwUQGHcQw",
+    "t": 796
+   },
+   "camera": {
+    "id": "tbPwUQGHcQw",
+    "t": 864
+   },
+   "history": {
+    "id": "tbPwUQGHcQw",
+    "t": 951
+   },
+   "report": {
+    "id": "tbPwUQGHcQw",
+    "t": 1027
+   },
+   "garage": {
+    "id": "tbPwUQGHcQw",
+    "t": 1075
+   },
+   "documents": {
+    "id": "tbPwUQGHcQw",
+    "t": 1254
+   },
+   "maintenance": {
+    "id": "tbPwUQGHcQw",
+    "t": 1347
+   },
+   "address-book": {
+    "id": "tbPwUQGHcQw",
+    "t": 1396
+   },
+   "backup": {
+    "id": "tbPwUQGHcQw",
+    "t": 1478
+   },
+   "online": {
+    "id": "tbPwUQGHcQw",
+    "t": 1543
+   },
+   "settings": {
+    "id": "tbPwUQGHcQw",
+    "t": 1594
+   },
+   "notifications": {
+    "id": "tbPwUQGHcQw",
+    "t": 1741
+   },
+   "diagnostics": {
+    "id": "tbPwUQGHcQw",
+    "t": 1781
+   },
+   "service": {
+    "id": "tbPwUQGHcQw",
+    "t": 1862
+   },
+   "flatbed": {
+    "id": "tbPwUQGHcQw",
+    "t": 1938
+   },
+   "container": {
+    "id": "tbPwUQGHcQw",
+    "t": 1977
+   },
+   "sidelifter": {
+    "id": "tbPwUQGHcQw",
+    "t": 2038
+   },
+   "refrigerated": {
+    "id": "tbPwUQGHcQw",
+    "t": 2071
+   },
+   "curtainsider": {
+    "id": "tbPwUQGHcQw",
+    "t": 2115
+   },
+   "tipper": {
+    "id": "tbPwUQGHcQw",
+    "t": 2146
+   },
+   "fuel-tanker": {
+    "id": "tbPwUQGHcQw",
+    "t": 2174
+   },
+   "tanker": {
+    "id": "tbPwUQGHcQw",
+    "t": 2220
+   },
+   "car-transporter": {
+    "id": "tbPwUQGHcQw",
+    "t": 2250
+   },
+   "lowbed": {
+    "id": "tbPwUQGHcQw",
+    "t": 2291
+   }
+  }
  }
 }

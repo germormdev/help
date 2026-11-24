@@ -501,24 +501,24 @@
   {
    "slug": "fleet",
    "title": "Autoparks",
-   "intro": "Autoparks ir uzņēmumiem ar vairākiem transportlīdzekļiem un vadītājiem. Autoparka vadītājs katram vadītājam dod vienreizēju kodu. Ar to tālrunī parādās atsevišķs autoparka žurnāls ar autoparka vilcēju un piekabi; ko tur ierakstāt, nonāk autoparkā. «Mans žurnāls» — jūsu paša žurnāls — paliek, kāds bija, un paliek jūsu.",
+   "intro": "Autoparks ir uzņēmumiem ar vairākiem transportlīdzekļiem un vadītājiem. Autoparka vadītājs katram vadītājam dod vienreizēju kodu. Ar to tālrunī parādās atsevišķs autoparka žurnāls ar autoparka kravas auto un piekabi; ko tur ierakstāt, nonāk autoparkā. «Mans žurnāls» — jūsu paša žurnāls — paliek, kāds bija, un paliek jūsu.",
    "steps": [
     {
      "id": "join",
      "title": "Pievienoties autoparkam ar kodu",
-     "text": "Pirmajā palaišanā nospiediet «Braucu autoparkam — ievadīt kodu». Vēlāk: Iestatījumi → «Vadītāja profils» → «Pievienoties autoparkam ar kodu».\n\nIevadiet no autoparka vadītāja saņemto kodu un nospiediet «Pievienoties autoparkam». Ja autoparka vadītājs jums nosūtīja saiti (my.vecturabook.com/fleet/join…), vienkārši atveriet to savā tālrunī: lietotne atvērsies ar jau ievadītu kodu. Visu saiti varat arī ielīmēt laukā «Kods».\n\nKods darbojas tikai vienu reizi un tikai ierobežotu laiku. Ja lietotne ziņo, ka kods ir nepareizs, beidzies vai jau izmantots, palūdziet savam autoparka vadītājam jaunu.\n\nJa tālrunis jau ir citā autoparkā, lietotne vispirms jautā: jaunais kods nosūta pēdējos ierakstus uz to autoparku un to pamet, bet tā žurnāls paliek tālrunī tikai skatīšanai. Vispirms tur pabeidziet braucienu un maiņu, citādi lietotne saka «Vispirms pabeidz pašreizējo reisu.» vai «Vispirms pabeidz autoparka maiņu.» Bez interneta nekas nemainās.",
+     "text": "Pirmajā palaišanā nospiediet «Braucu autoparkā — ievadīt kodu». Vēlāk: Iestatījumi → «Vadītāja profils» → «Pievienoties autoparkam ar kodu».\n\nIevadiet no autoparka vadītāja saņemto kodu un nospiediet «Pievienoties autoparkam». Ja autoparka vadītājs jums nosūtīja saiti (my.vecturabook.com/fleet/join…), vienkārši atveriet to savā tālrunī: lietotne atvērsies ar jau ievadītu kodu. Visu saiti varat arī ielīmēt laukā «Kods».\n\nKods darbojas tikai vienu reizi un tikai ierobežotu laiku. Ja lietotne ziņo, ka kods ir nepareizs, beidzies vai jau izmantots, palūdziet savam autoparka vadītājam jaunu.\n\nJa tālrunis jau ir citā autoparkā, lietotne vispirms jautā: jaunais kods nosūta pēdējos ierakstus uz to autoparku un to pamet, bet tā žurnāls paliek tālrunī tikai skatīšanai. Vispirms tur pabeidziet braucienu un maiņu, citādi lietotne saka «Vispirms pabeidz pašreizējo reisu.» vai «Vispirms pabeidz autoparka maiņu.» Bez interneta nekas nemainās.",
      "image": ""
     },
     {
      "id": "in-fleet",
      "title": "Divi žurnāli",
-     "text": "Pēc pievienošanās tālrunī ir divi žurnāli: «Mans žurnāls» un autoparka žurnāls. Josla katra ekrāna augšā rāda, kurš ir atvērts: zilganpelēka «Mans žurnāls» vai violeta ar autoparka nosaukumu. Pieskarieties joslai, lai izvēlētos otru («Kurš žurnāls?»). Pārslēgties var tikai tad, kad brauciens nav sākts, citādi «Vispirms pabeidz pašreizējo reisu.»\n\nAutoparka žurnāla maiņas, braucieni un uzpildes nonāk autoparkā pašas, kad ir internets; «Nosūtīt autoparkam tagad» sadaļā «Vadītāja profils» tās nosūta uzreiz. «Mans žurnāls» nekad nenonāk autoparkā — tikai jūsu paša kontā. Katram žurnālam ir sava maiņa, savi melnraksti un taimeri.\n\nJa vadītājs brauciena laikā jums dos citu vilcēju, izmaiņa pienāks pēc brauciena beigām.",
+     "text": "Pēc pievienošanās tālrunī ir divi žurnāli: «Mans žurnāls» un autoparka žurnāls. Josla katra ekrāna augšā rāda, kurš ir atvērts: zilganpelēka «Mans žurnāls» vai violeta ar autoparka nosaukumu. Pieskarieties joslai, lai izvēlētos otru («Kurš žurnāls?»). Pārslēgties var tikai tad, kad brauciens nav sākts, citādi «Vispirms pabeidz pašreizējo reisu.»\n\nAutoparka žurnāla maiņas, braucieni un uzpildes nonāk autoparkā pašas, kad ir internets; «Nosūtīt autoparkam tagad» sadaļā «Vadītāja profils» tās nosūta uzreiz. «Mans žurnāls» nekad nenonāk autoparkā — tikai jūsu paša kontā. Katram žurnālam ir sava maiņa, savi melnraksti un taimeri.\n\nJa vadītājs brauciena laikā jums dos citu kravas auto, izmaiņa pienāks pēc brauciena beigām.",
      "image": ""
     },
     {
      "id": "own-truck",
-     "title": "Savs vilcējs",
-     "text": "Ja braucat autoparkam ar savu vilcēju, pieskarieties «Braucu autoparkam ar savu vilcēju» sadaļā «Vadītāja profils» un izvēlieties savu vilcēju («Garāža», «Mans žurnāls»). Tas kļūst par vilcēju autoparka žurnālā, un autoparks redz tā numuru jūsu braucienos.\n\nSava vilcēja degviela ir jūsu izdevumi: tā uzpildes vienmēr nonāk «Mans žurnāls», pat ja atvērts autoparka žurnāls. Ja sava maiņa nav atvērta, «Mans žurnāls» saņem īsu slēgtu maiņu uz darba laiku autoparkam — tā uzpilde ir gan jūsu pārskatos, gan jūsu kontā. Autoparka vilcēja un autoparka piekabes iekārtas degviela nonāk autoparkā. Pietura ar abiem saglabājas pilnībā: ja viena daļa nesaglabājas, nekas nav saglabāts.\n\nSava vilcēja odometrs turpinās cauri abiem žurnāliem.",
+     "title": "Savs kravas auto",
+     "text": "Ja braucat autoparkam ar savu kravas auto, pieskarieties «Izmantot savu kravas auto autoparkā» sadaļā «Vadītāja profils» un izvēlieties savu kravas auto («Garāža», «Mans žurnāls»). Tas kļūst par kravas auto autoparka žurnālā, un autoparks redz tā numuru jūsu braucienos.\n\nSava kravas auto degviela ir jūsu izdevumi: tā uzpildes vienmēr nonāk «Mans žurnāls», pat ja atvērts autoparka žurnāls. Ja sava maiņa nav atvērta, «Mans žurnāls» saņem īsu slēgtu maiņu uz darba laiku autoparkam — tā uzpilde ir gan jūsu pārskatos, gan jūsu kontā. Autoparka kravas auto un autoparka piekabes iekārtas degviela nonāk autoparkā. Pietura ar abiem saglabājas pilnībā: ja viena daļa nesaglabājas, nekas nav saglabāts.\n\nSava kravas auto odometrs turpinās cauri abiem žurnāliem.",
      "image": ""
     },
     {
@@ -530,13 +530,13 @@
     {
      "id": "owner",
      "title": "Autoparks īpašniekam",
-     "text": "Autoparka vadītājam. Ieslēdziet «Īpašnieks / Algots» sadaļā Iestatījumi → «Vadītāja profils»: tur parādīsies rinda «Autoparks».\n\nAutoparks pieder jūsu VecturaBook kontam. Ja tālrunī neesat pieteicies, ekrāns rāda «Vispirms piesakieties savā kontā:» — nospiediet «Savienot ar VecturaBook» un piesakieties ar sava konta e-pastu. Ja ekrāns rāda «Šim kontam nav autoparka.», uzrakstiet mums caur «Atsauksme / kļūdas ziņojums», lai atvērtu autoparku.\n\nEkrāns rāda «Vadītāji» — katram «Piesaistīts» vai «Vēl nav piesaistīts», vilcējs, piekabe un maiņu, reisu un uzpilžu skaits — un autoparka «Garāža». Apakšā: «Pievienot vadītāju» ar lauku «Vadītāja vārds», «+ Pievienot vilcēju» («Numura zīme», «Vilcēja tips», «Virsbūves tips») un «+ Pievienot piekabi» («Numura zīme», saderība, «Virsbūves tips»). To pašu var izdarīt savā pārlūkā vietnē my.vecturabook.com.\n\nPie vadītāja, kurš aizgājis, «Piesaistīts» vietā ir «Pameta autoparku» un laiks.",
+     "text": "Autoparka vadītājam. Ieslēdziet «Īpašnieks / Algots» sadaļā Iestatījumi → «Vadītāja profils»: tur parādīsies rinda «Autoparks».\n\nAutoparks pieder jūsu VecturaBook kontam. Ja tālrunī neesat pieteicies, ekrāns rāda «Vispirms piesakieties savā kontā:» — nospiediet «Savienot ar VecturaBook» un piesakieties ar sava konta e-pastu. Ja kontam nav autoparka, ekrāns piedāvā «Izveidot autoparku»: ievadiet «Autoparka nosaukums» un nospiediet «Izveidot autoparku» — bezmaksas izmēģinājuma periods sākas uzreiz.\n\nEkrāns rāda «Vadītāji» — katram «Piesaistīts» vai «Vēl nav piesaistīts», kravas auto, piekabe un maiņu, reisu un uzpilžu skaits — un autoparka «Garāža». Apakšā: «Pievienot vadītāju» ar lauku «Vadītāja vārds», «+ Pievienot kravas auto» («Numura zīme», «Kravas auto tips», «Virsbūves tips») un «+ Pievienot piekabi» («Numura zīme», saderība, «Virsbūves tips»). To pašu var izdarīt savā pārlūkā vietnē my.vecturabook.com.\n\nBez abonementa ekrāns rāda «Autoparka abonements» un «Vadītāji»: nospiediet uz vadītāja, lai redzētu «Saņemt kodu» un «Nosūtīt kodu vadītājam» — jauna vadītāja tālrunis pievienojas autoparkam arī bez abonementa.\n\nPie vadītāja, kurš aizgājis, «Piesaistīts» vietā ir «Pameta autoparku» un laiks.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Vadītājs",
-     "text": "Pieskarieties vadītājam, lai atvērtu kartīti. «Vilcējs» un «Piekabe»: izvēlieties no autoparka garāžas un nospiediet «Saglabāt». Tiek piedāvātas tikai piekabes, kas der izvēlētajam vilcējam. Vadītāja tālrunis pats pārņem izmaiņas; reisa laikā — pēc reisa beigām.\n\n«Saņemt kodu» izveido vienreizēju kodu ar laiku, līdz kuram tas ir derīgs. «Nosūtīt kodu vadītājam» nosūta kodu un saiti caur saziņas lietotni. Kods tiek parādīts tikai vienu reizi. Jauns kods pārceļ vadītāju uz jaunu tālruni: vecais tālrunis pamet autoparku.\n\nZemāk ir vadītāja «Maiņas», «Reisi» un «Uzpildes», kas nonākušas autoparkā.\n\nAizgājuša vadītāja kartītē ir «Pameta autoparku» un laiks. Jauns jūsu kods vadītāju atgriež.",
+     "text": "Pieskarieties vadītājam, lai atvērtu kartīti. «Kravas auto» un «Piekabe»: izvēlieties no autoparka garāžas un nospiediet «Saglabāt». Tiek piedāvātas tikai piekabes, kas der izvēlētajam kravas auto. Vadītāja tālrunis pats pārņem izmaiņas; reisa laikā — pēc reisa beigām.\n\n«Saņemt kodu» izveido vienreizēju kodu ar laiku, līdz kuram tas ir derīgs. «Nosūtīt kodu vadītājam» nosūta kodu un saiti caur saziņas lietotni. Kods tiek parādīts tikai vienu reizi. Jauns kods pārceļ vadītāju uz jaunu tālruni: vecais tālrunis pamet autoparku.\n\nZemāk ir vadītāja «Maiņas», «Reisi» un «Uzpildes», kas nonākušas autoparkā.\n\nAizgājuša vadītāja kartītē ir «Pameta autoparku» un laiks. Jauns jūsu kods vadītāju atgriež.",
      "image": ""
     }
    ]
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Tents",
+   "title": "Tents / Furgons",
    "intro": "Tenta piekabe ved gabala kravu uz paletēm.",
    "steps": [
     {
      "id": "setup",
      "title": "Garāžā",
-     "text": "Virsbūve «Tents».",
+     "text": "Virsbūve «Tents / Furgons».",
      "image": "img/lv/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Kadru uzņemšana atpazīšanai.",
   "service.splash-tuner": "Sākuma ekrāna pielāgošana.",
   "driving.crossing": "Robeža vai prāmis brauciena laikā: posmi ar taimeriem, ar pieskārienu."
+ },
+ "video": {
+  "language": "lv",
+  "chapters": {
+   "getting-started": {
+    "id": "aTkuRuEGNm4",
+    "t": 0
+   },
+   "shift": {
+    "id": "aTkuRuEGNm4",
+    "t": 171
+   },
+   "trip": {
+    "id": "aTkuRuEGNm4",
+    "t": 269
+   },
+   "driving": {
+    "id": "aTkuRuEGNm4",
+    "t": 537
+   },
+   "refuel": {
+    "id": "aTkuRuEGNm4",
+    "t": 682
+   },
+   "parking": {
+    "id": "aTkuRuEGNm4",
+    "t": 776
+   },
+   "camera": {
+    "id": "aTkuRuEGNm4",
+    "t": 844
+   },
+   "history": {
+    "id": "aTkuRuEGNm4",
+    "t": 936
+   },
+   "report": {
+    "id": "aTkuRuEGNm4",
+    "t": 1014
+   },
+   "garage": {
+    "id": "aTkuRuEGNm4",
+    "t": 1065
+   },
+   "documents": {
+    "id": "aTkuRuEGNm4",
+    "t": 1221
+   },
+   "maintenance": {
+    "id": "aTkuRuEGNm4",
+    "t": 1304
+   },
+   "address-book": {
+    "id": "aTkuRuEGNm4",
+    "t": 1346
+   },
+   "backup": {
+    "id": "aTkuRuEGNm4",
+    "t": 1420
+   },
+   "online": {
+    "id": "aTkuRuEGNm4",
+    "t": 1482
+   },
+   "settings": {
+    "id": "aTkuRuEGNm4",
+    "t": 1525
+   },
+   "notifications": {
+    "id": "aTkuRuEGNm4",
+    "t": 1661
+   },
+   "diagnostics": {
+    "id": "aTkuRuEGNm4",
+    "t": 1700
+   },
+   "service": {
+    "id": "aTkuRuEGNm4",
+    "t": 1781
+   },
+   "flatbed": {
+    "id": "aTkuRuEGNm4",
+    "t": 1849
+   },
+   "container": {
+    "id": "aTkuRuEGNm4",
+    "t": 1886
+   },
+   "sidelifter": {
+    "id": "aTkuRuEGNm4",
+    "t": 1934
+   },
+   "refrigerated": {
+    "id": "aTkuRuEGNm4",
+    "t": 1966
+   },
+   "curtainsider": {
+    "id": "aTkuRuEGNm4",
+    "t": 2012
+   },
+   "tipper": {
+    "id": "aTkuRuEGNm4",
+    "t": 2037
+   },
+   "fuel-tanker": {
+    "id": "aTkuRuEGNm4",
+    "t": 2064
+   },
+   "tanker": {
+    "id": "aTkuRuEGNm4",
+    "t": 2105
+   },
+   "car-transporter": {
+    "id": "aTkuRuEGNm4",
+    "t": 2135
+   },
+   "lowbed": {
+    "id": "aTkuRuEGNm4",
+    "t": 2173
+   }
+  }
  }
 }

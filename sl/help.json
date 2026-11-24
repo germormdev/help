@@ -501,7 +501,7 @@
   {
    "slug": "fleet",
    "title": "Vozni park podjetja",
-   "intro": "Vozni park podjetja je za podjetja z več vozili in vozniki. Vodja voznega parka da vsakemu vozniku enkratno kodo. Z njo telefon dobi ločen dnevnik voznega parka z vlačilcem in polpriklopnikom voznega parka; kar zapišete tam, gre v vozni park. »Moj dnevnik« — vaš lastni dnevnik — ostane, kot je bil, in ostane vaš.",
+   "intro": "Vozni park podjetja je za podjetja z več vozili in vozniki. Vodja voznega parka da vsakemu vozniku enkratno kodo. Z njo telefon dobi ločen dnevnik voznega parka z vozilom in polpriklopnikom voznega parka; kar zapišete tam, gre v vozni park. »Moj dnevnik« — vaš lastni dnevnik — ostane, kot je bil, in ostane vaš.",
    "steps": [
     {
      "id": "join",
@@ -512,13 +512,13 @@
     {
      "id": "in-fleet",
      "title": "Dva dnevnika",
-     "text": "Po pridružitvi ima telefon dva dnevnika: »Moj dnevnik« in dnevnik voznega parka. Trak na vrhu vsakega zaslona kaže, kateri je odprt: modrosiv »Moj dnevnik« ali vijoličen z imenom voznega parka. Tapnite trak, da izberete drugega (»Kateri dnevnik?«). Preklopiti je mogoče le, ko vožnja ni začeta, sicer »Najprej zaključi trenutno vožnjo.«\n\nIzmene, vožnje in točenja iz dnevnika voznega parka gredo v vozni park sama, ko je internet; »Pošlji v vozni park podjetja zdaj« v »Profil voznika« jih pošlje takoj. »Moj dnevnik« nikoli ne gre v vozni park — samo v vaš lastni račun. Vsak dnevnik ima svojo izmeno, svoje osnutke in časovnike.\n\nČe vam vodja med vožnjo da drug vlačilec, sprememba pride po koncu vožnje.",
+     "text": "Po pridružitvi ima telefon dva dnevnika: »Moj dnevnik« in dnevnik voznega parka. Trak na vrhu vsakega zaslona kaže, kateri je odprt: modrosiv »Moj dnevnik« ali vijoličen z imenom voznega parka. Tapnite trak, da izberete drugega (»Kateri dnevnik?«). Preklopiti je mogoče le, ko vožnja ni začeta, sicer »Najprej zaključi trenutno vožnjo.«\n\nIzmene, vožnje in točenja iz dnevnika voznega parka gredo v vozni park sama, ko je internet; »Pošlji v vozni park podjetja zdaj« v »Profil voznika« jih pošlje takoj. »Moj dnevnik« nikoli ne gre v vozni park — samo v vaš lastni račun. Vsak dnevnik ima svojo izmeno, svoje osnutke in časovnike.\n\nČe vam vodja med vožnjo da drugo vozilo, sprememba pride po koncu vožnje.",
      "image": ""
     },
     {
      "id": "own-truck",
-     "title": "Lastni vlačilec",
-     "text": "Če vozite za vozni park s svojim vlačilcem, tapnite »Vozim za vozni park podjetja s svojim vlačilcem« v »Profil voznika« in izberite svoj vlačilec (»Moj vozni park«, »Moj dnevnik«). Postane vlačilec v dnevniku voznega parka, vozni park pa vidi njegovo registrsko številko v vaših vožnjah.\n\nGorivo lastnega vlačilca je vaš strošek: njegova točenja gredo vedno v »Moj dnevnik«, tudi ko je odprt dnevnik voznega parka. Če lastna izmena ni odprta, »Moj dnevnik« dobi kratko zaprto izmeno za čas dela za vozni park — tako je točenje v vaših poročilih in v vašem računu. Gorivo vlačilca voznega parka in agregata polpriklopnika voznega parka gre v vozni park. Postanek z obojim se shrani v celoti: če se en del ne shrani, se ne shrani nič.\n\nŠtevec kilometrov lastnega vlačilca teče naprej skozi oba dnevnika.",
+     "title": "Lastno vozilo",
+     "text": "Če vozite za vozni park s svojim vozilom, tapnite »Vozim za vozni park podjetja s svojim vozilom« v »Profil voznika« in izberite svoje vozilo (»Moj vozni park«, »Moj dnevnik«). Postane vozilo v dnevniku voznega parka, vozni park pa vidi njegovo registrsko številko v vaših vožnjah.\n\nGorivo lastnega vozila je vaš strošek: njegova točenja gredo vedno v »Moj dnevnik«, tudi ko je odprt dnevnik voznega parka. Če lastna izmena ni odprta, »Moj dnevnik« dobi kratko zaprto izmeno za čas dela za vozni park — tako je točenje v vaših poročilih in v vašem računu. Gorivo vozila voznega parka in agregata polpriklopnika voznega parka gre v vozni park. Postanek z obojim se shrani v celoti: če se en del ne shrani, se ne shrani nič.\n\nŠtevec kilometrov lastnega vozila teče naprej skozi oba dnevnika.",
      "image": ""
     },
     {
@@ -530,13 +530,13 @@
     {
      "id": "owner",
      "title": "Vozni park podjetja za lastnika",
-     "text": "Za vodjo voznega parka. Vklopite »Lastnik / Zaposlen« v Nastavitve → »Profil voznika«: tam se prikaže vrstica »Vozni park podjetja«.\n\nVozni park podjetja pripada vašemu računu VecturaBook. Če telefon ni prijavljen, na zaslonu piše »Najprej se prijavite v svoj račun:« — tapnite »Poveži z VecturaBook« in se prijavite z e-pošto svojega računa. Če na zaslonu piše »Ta račun nima voznega parka podjetja.«, nam pišite prek »Povratne informacije / Napaka« za odprtje voznega parka podjetja.\n\nZaslon prikazuje »Vozniki« — pri vsakem »Povezan« ali »Še ni povezan«, vlačilec, polpriklopnik in število izmen, voženj in točenj — ter »Moj vozni park« voznega parka podjetja. Spodaj: »Dodaj voznika« s poljem »Ime voznika«, »+ Dodaj vlačilec« (»Registrska«, »Vrsta vlačilca«, »Vrsta nadgradnje«) in »+ Dodaj polpriklopnik« (»Registrska«, združljivost, »Vrsta nadgradnje«). Enako lahko storite v svojem brskalniku na my.vecturabook.com.\n\nPri vozniku, ki je odšel, namesto »Povezan« piše »Zapustil vozni park podjetja« s časom.",
+     "text": "Za vodjo voznega parka. Vklopite »Lastnik / Zaposlen« v Nastavitve → »Profil voznika«: tam se prikaže vrstica »Vozni park podjetja«.\n\nVozni park podjetja pripada vašemu računu VecturaBook. Če telefon ni prijavljen, na zaslonu piše »Najprej se prijavite v svoj račun:« — tapnite »Poveži z VecturaBook« in se prijavite z e-pošto svojega računa. Če račun nima voznega parka podjetja, zaslon ponudi »Ustvari vozni park podjetja«: vnesite »Ime voznega parka podjetja« in tapnite »Ustvari vozni park podjetja« — brezplačno preizkusno obdobje se začne takoj.\n\nZaslon prikazuje »Vozniki« — pri vsakem »Povezan« ali »Še ni povezan«, vozilo, polpriklopnik in število izmen, voženj in točenj — ter »Moj vozni park« voznega parka podjetja. Spodaj: »Dodaj voznika« s poljem »Ime voznika«, »+ Dodaj vozilo« (»Registrska«, »Vrsta vozila«, »Vrsta nadgradnje«) in »+ Dodaj polpriklopnik« (»Registrska«, združljivost, »Vrsta nadgradnje«). Enako lahko storite v svojem brskalniku na my.vecturabook.com.\n\nBrez naročnine zaslon prikaže »Naročnina za vozni park podjetja« in »Vozniki«: tapnite voznika za »Pridobi kodo« in »Pošlji kodo vozniku« — telefon novega voznika se pridruži voznemu parku tudi brez naročnine.\n\nPri vozniku, ki je odšel, namesto »Povezan« piše »Zapustil vozni park podjetja« s časom.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Voznik",
-     "text": "Tapnite voznika, da odprete kartico. »Vlačilec« in »Polpriklopnik«: izberite iz garaže voznega parka in tapnite »Shrani«. Na voljo so le polpriklopniki, ki ustrezajo izbranemu vlačilcu. Voznikov telefon spremembo prevzame sam; med vožnjo — po končani vožnji.\n\n»Pridobi kodo« izda enkratno kodo s časom, do kdaj je veljavna. »Pošlji kodo vozniku« pošlje kodo in povezavo prek sporočilnika. Koda je prikazana le enkrat. Nova koda voznika prestavi na nov telefon: stari telefon zapusti vozni park podjetja.\n\nSpodaj so voznikove »Izmene«, »Vožnje« in »Točenja«, ki so prispele v vozni park podjetja.\n\nKartica voznika, ki je odšel, kaže »Zapustil vozni park podjetja« s časom. Nova koda od vas voznika vrne.",
+     "text": "Tapnite voznika, da odprete kartico. »Vozilo« in »Polpriklopnik«: izberite iz garaže voznega parka in tapnite »Shrani«. Na voljo so le polpriklopniki, ki ustrezajo izbranemu vozilu. Voznikov telefon spremembo prevzame sam; med vožnjo — po končani vožnji.\n\n»Pridobi kodo« izda enkratno kodo s časom, do kdaj je veljavna. »Pošlji kodo vozniku« pošlje kodo in povezavo prek sporočilnika. Koda je prikazana le enkrat. Nova koda voznika prestavi na nov telefon: stari telefon zapusti vozni park podjetja.\n\nSpodaj so voznikove »Izmene«, »Vožnje« in »Točenja«, ki so prispele v vozni park podjetja.\n\nKartica voznika, ki je odšel, kaže »Zapustil vozni park podjetja« s časom. Nova koda od vas voznika vrne.",
      "image": ""
     }
    ]
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Ponjava",
+   "title": "Ponjava / Furgon",
    "intro": "Priklopnik s ponjavo prevaža splošni tovor na paletah.",
    "steps": [
     {
      "id": "setup",
      "title": "V voznem parku",
-     "text": "Nadgradnja »Ponjava«.",
+     "text": "Nadgradnja »Ponjava / Furgon«.",
      "image": "img/sl/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Zajemanje posnetkov za prepoznavanje.",
   "service.splash-tuner": "Nastavitev pozdravnega zaslona.",
   "driving.crossing": "Meja ali trajekt med vožnjo: faze s časovniki, z dotikom."
+ },
+ "video": {
+  "language": "sl",
+  "chapters": {
+   "getting-started": {
+    "id": "9fCP9e4jcl8",
+    "t": 0
+   },
+   "shift": {
+    "id": "9fCP9e4jcl8",
+    "t": 187
+   },
+   "trip": {
+    "id": "9fCP9e4jcl8",
+    "t": 295
+   },
+   "driving": {
+    "id": "9fCP9e4jcl8",
+    "t": 580
+   },
+   "refuel": {
+    "id": "9fCP9e4jcl8",
+    "t": 736
+   },
+   "parking": {
+    "id": "9fCP9e4jcl8",
+    "t": 834
+   },
+   "camera": {
+    "id": "9fCP9e4jcl8",
+    "t": 906
+   },
+   "history": {
+    "id": "9fCP9e4jcl8",
+    "t": 995
+   },
+   "report": {
+    "id": "9fCP9e4jcl8",
+    "t": 1073
+   },
+   "garage": {
+    "id": "9fCP9e4jcl8",
+    "t": 1135
+   },
+   "documents": {
+    "id": "9fCP9e4jcl8",
+    "t": 1308
+   },
+   "maintenance": {
+    "id": "9fCP9e4jcl8",
+    "t": 1394
+   },
+   "address-book": {
+    "id": "9fCP9e4jcl8",
+    "t": 1442
+   },
+   "backup": {
+    "id": "9fCP9e4jcl8",
+    "t": 1512
+   },
+   "online": {
+    "id": "9fCP9e4jcl8",
+    "t": 1576
+   },
+   "settings": {
+    "id": "9fCP9e4jcl8",
+    "t": 1623
+   },
+   "notifications": {
+    "id": "9fCP9e4jcl8",
+    "t": 1770
+   },
+   "diagnostics": {
+    "id": "9fCP9e4jcl8",
+    "t": 1813
+   },
+   "service": {
+    "id": "9fCP9e4jcl8",
+    "t": 1901
+   },
+   "flatbed": {
+    "id": "9fCP9e4jcl8",
+    "t": 1973
+   },
+   "container": {
+    "id": "9fCP9e4jcl8",
+    "t": 2009
+   },
+   "sidelifter": {
+    "id": "9fCP9e4jcl8",
+    "t": 2060
+   },
+   "refrigerated": {
+    "id": "9fCP9e4jcl8",
+    "t": 2090
+   },
+   "curtainsider": {
+    "id": "9fCP9e4jcl8",
+    "t": 2133
+   },
+   "tipper": {
+    "id": "9fCP9e4jcl8",
+    "t": 2160
+   },
+   "fuel-tanker": {
+    "id": "9fCP9e4jcl8",
+    "t": 2186
+   },
+   "tanker": {
+    "id": "9fCP9e4jcl8",
+    "t": 2228
+   },
+   "car-transporter": {
+    "id": "9fCP9e4jcl8",
+    "t": 2257
+   },
+   "lowbed": {
+    "id": "9fCP9e4jcl8",
+    "t": 2300
+   }
+  }
  }
 }

@@ -530,13 +530,13 @@
     {
      "id": "owner",
      "title": "Flotte für den Eigentümer",
-     "text": "Für den Flottenleiter. Aktivieren Sie „Eigentümer / Angestellt“ unter Einstellungen → „Fahrerprofil“: Dort erscheint die Zeile „Flotte“.\n\nDie Flotte gehört zu Ihrem VecturaBook-Konto. Wenn das Telefon nicht angemeldet ist, zeigt der Bildschirm „Melde dich zuerst in deinem Konto an:“ — tippen Sie auf „Mit VecturaBook verbinden“ und melden Sie sich mit der E-Mail Ihres Kontos an. Wenn der Bildschirm „Dieses Konto hat keine Flotte.“ anzeigt, schreiben Sie uns über „Feedback / Fehler melden“, um eine Flotte eröffnen zu lassen.\n\nDer Bildschirm zeigt „Fahrer“ — jeweils mit „Verbunden“ oder „Noch nicht verbunden“, LKW, Anhänger und der Anzahl von Schichten, Fahrten und Tankvorgängen — sowie den „Fuhrpark“ der Flotte. Darunter: „Fahrer hinzufügen“ mit dem Feld „Name des Fahrers“, „+ LKW hinzufügen“ („Kennzeichen“, „LKW-Typ“, „Aufbauart“) und „+ Anhänger hinzufügen“ („Kennzeichen“, Kompatibilität, „Aufbauart“). Dasselbe können Sie auch im Browser auf my.vecturabook.com tun.\n\nBei einem Fahrer, der gegangen ist, steht statt „Verbunden“ „Flotte verlassen“ mit der Uhrzeit.",
+     "text": "Für den Flottenleiter. Aktivieren Sie „Eigentümer / Angestellt“ unter Einstellungen → „Fahrerprofil“: Dort erscheint die Zeile „Flotte“.\n\nDie Flotte gehört zu Ihrem VecturaBook-Konto. Wenn das Telefon nicht angemeldet ist, zeigt der Bildschirm „Melde dich zuerst in deinem Konto an:“ — tippen Sie auf „Mit VecturaBook verbinden“ und melden Sie sich mit der E-Mail Ihres Kontos an. Hat das Konto keine Flotte, bietet der Bildschirm „Flotte anlegen“ an: Geben Sie „Name der Flotte“ ein und tippen Sie auf „Flotte anlegen“ — die kostenlose Testphase beginnt sofort.\n\nDer Bildschirm zeigt „Fahrer“ — jeweils mit „Verbunden“ oder „Noch nicht verbunden“, LKW, Anhänger und der Anzahl von Schichten, Fahrten und Tankvorgängen — sowie den „Fuhrpark“ der Flotte. Darunter: „Fahrer hinzufügen“ mit dem Feld „Name des Fahrers“, „+ LKW hinzufügen“ („Kennzeichen“, „LKW-Typ“, „Aufbauart“) und „+ Anhänger hinzufügen“ („Kennzeichen“, Kompatibilität, „Aufbauart“). Dasselbe können Sie auch im Browser auf my.vecturabook.com tun.\n\nOhne Abo zeigt der Bildschirm „Flotten-Abo“ und „Fahrer“: Tippen Sie auf einen Fahrer für „Code erstellen“ und „Code an den Fahrer senden“ — das Telefon eines neuen Fahrers tritt der Flotte auch ohne Abo bei.\n\nBei einem Fahrer, der gegangen ist, steht statt „Verbunden“ „Hat die Flotte verlassen“ mit der Uhrzeit.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Fahrer",
-     "text": "Tippen Sie auf einen Fahrer, um die Karte zu öffnen. „LKW“ und „Anhänger“: Wählen Sie aus dem Fuhrpark der Flotte und tippen Sie auf „Speichern“. Es werden nur Anhänger angeboten, die zum gewählten LKW passen. Das Telefon des Fahrers übernimmt die Änderung von selbst; während einer Fahrt — nach Ende der Fahrt.\n\n„Code erstellen“ liefert einen einmaligen Code mit der Zeit, bis zu der er gültig ist. „Code an den Fahrer senden“ sendet den Code und den Link über einen Messenger. Der Code wird nur einmal angezeigt. Ein neuer Code überträgt den Fahrer auf ein neues Telefon: Das alte Telefon verlässt die Flotte.\n\nDarunter stehen die „Schichten“, „Fahrten“ und „Tankvorgänge“ des Fahrers, die bei der Flotte eingegangen sind.\n\nDie Karte eines Fahrers, der gegangen ist, zeigt „Flotte verlassen“ mit der Uhrzeit. Ein neuer Code von Ihnen holt den Fahrer zurück.",
+     "text": "Tippen Sie auf einen Fahrer, um die Karte zu öffnen. „LKW“ und „Anhänger“: Wählen Sie aus dem Fuhrpark der Flotte und tippen Sie auf „Speichern“. Es werden nur Anhänger angeboten, die zum gewählten LKW passen. Das Telefon des Fahrers übernimmt die Änderung von selbst; während einer Fahrt — nach Ende der Fahrt.\n\n„Code erstellen“ liefert einen einmaligen Code mit der Zeit, bis zu der er gültig ist. „Code an den Fahrer senden“ sendet den Code und den Link über einen Messenger. Der Code wird nur einmal angezeigt. Ein neuer Code überträgt den Fahrer auf ein neues Telefon: Das alte Telefon verlässt die Flotte.\n\nDarunter stehen die „Schichten“, „Fahrten“ und „Tankvorgänge“ des Fahrers, die bei der Flotte eingegangen sind.\n\nDie Karte eines Fahrers, der gegangen ist, zeigt „Hat die Flotte verlassen“ mit der Uhrzeit. Ein neuer Code von Ihnen holt den Fahrer zurück.",
      "image": ""
     }
    ]
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Planenauflieger",
-   "intro": "Der Planenauflieger transportiert Stückgut auf Paletten.",
+   "title": "Gardine / Koffer",
+   "intro": "Der Aufbau „Gardine / Koffer“ transportiert Stückgut auf Paletten.",
    "steps": [
     {
      "id": "setup",
      "title": "Im Fuhrpark",
-     "text": "Aufbauart „Planenauflieger“.",
+     "text": "Aufbauart „Gardine / Koffer“.",
      "image": "img/de/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Kamerabilder für die Texterkennung aufnehmen.",
   "service.splash-tuner": "Einstellungen für den Startbildschirm.",
   "driving.crossing": "Grenze oder Fähre innerhalb der Fahrt: Etappen mit Timern, per Tippen."
+ },
+ "video": {
+  "language": "de",
+  "chapters": {
+   "getting-started": {
+    "id": "BXjfeLOR7WU",
+    "t": 0
+   },
+   "shift": {
+    "id": "BXjfeLOR7WU",
+    "t": 172
+   },
+   "trip": {
+    "id": "BXjfeLOR7WU",
+    "t": 276
+   },
+   "driving": {
+    "id": "BXjfeLOR7WU",
+    "t": 561
+   },
+   "refuel": {
+    "id": "BXjfeLOR7WU",
+    "t": 724
+   },
+   "parking": {
+    "id": "BXjfeLOR7WU",
+    "t": 826
+   },
+   "camera": {
+    "id": "BXjfeLOR7WU",
+    "t": 895
+   },
+   "history": {
+    "id": "BXjfeLOR7WU",
+    "t": 989
+   },
+   "report": {
+    "id": "BXjfeLOR7WU",
+    "t": 1073
+   },
+   "garage": {
+    "id": "BXjfeLOR7WU",
+    "t": 1125
+   },
+   "documents": {
+    "id": "BXjfeLOR7WU",
+    "t": 1296
+   },
+   "maintenance": {
+    "id": "BXjfeLOR7WU",
+    "t": 1380
+   },
+   "address-book": {
+    "id": "BXjfeLOR7WU",
+    "t": 1424
+   },
+   "backup": {
+    "id": "BXjfeLOR7WU",
+    "t": 1502
+   },
+   "online": {
+    "id": "BXjfeLOR7WU",
+    "t": 1562
+   },
+   "settings": {
+    "id": "BXjfeLOR7WU",
+    "t": 1609
+   },
+   "notifications": {
+    "id": "BXjfeLOR7WU",
+    "t": 1750
+   },
+   "diagnostics": {
+    "id": "BXjfeLOR7WU",
+    "t": 1802
+   },
+   "service": {
+    "id": "BXjfeLOR7WU",
+    "t": 1898
+   },
+   "flatbed": {
+    "id": "BXjfeLOR7WU",
+    "t": 1970
+   },
+   "container": {
+    "id": "BXjfeLOR7WU",
+    "t": 2007
+   },
+   "sidelifter": {
+    "id": "BXjfeLOR7WU",
+    "t": 2050
+   },
+   "refrigerated": {
+    "id": "BXjfeLOR7WU",
+    "t": 2078
+   },
+   "curtainsider": {
+    "id": "BXjfeLOR7WU",
+    "t": 2124
+   },
+   "tipper": {
+    "id": "BXjfeLOR7WU",
+    "t": 2153
+   },
+   "fuel-tanker": {
+    "id": "BXjfeLOR7WU",
+    "t": 2180
+   },
+   "tanker": {
+    "id": "BXjfeLOR7WU",
+    "t": 2227
+   },
+   "car-transporter": {
+    "id": "BXjfeLOR7WU",
+    "t": 2257
+   },
+   "lowbed": {
+    "id": "BXjfeLOR7WU",
+    "t": 2297
+   }
+  }
  }
 }

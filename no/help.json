@@ -518,7 +518,7 @@
     {
      "id": "own-truck",
      "title": "Egen lastebil",
-     "text": "Kjører du for bilparken med din egen lastebil, trykk på «Kjør for bilparken med min egen lastebil» i «Sjåførprofil» og velg lastebilen din («Vognpark», «Min loggbok»). Den blir lastebilen i bilparkens loggbok, og bilparken ser skiltnummeret på turene dine.\n\nDrivstoff til din egen lastebil er din utgift: fyllingene går alltid til «Min loggbok», også når bilparkens loggbok er åpen. Er ikke noe eget skift åpent, får «Min loggbok» et kort lukket skift for tiden du jobber for bilparken — slik er fyllingen både i rapportene dine og på kontoen din. Drivstoff til bilparkens lastebil og til aggregatet på bilparkens tilhenger går til bilparken. Et stopp med begge deler lagres samlet: feiler én del, lagres ingenting.\n\nKilometertelleren på din egen lastebil går videre gjennom begge loggbøkene.",
+     "text": "Kjører du for bilparken med din egen lastebil, trykk på «Kjør for bilparken med egen lastebil» i «Sjåførprofil» og velg lastebilen din («Vognpark», «Min loggbok»). Den blir lastebilen i bilparkens loggbok, og bilparken ser skiltnummeret på turene dine.\n\nDrivstoff til din egen lastebil er din utgift: fyllingene går alltid til «Min loggbok», også når bilparkens loggbok er åpen. Er ikke noe eget skift åpent, får «Min loggbok» et kort lukket skift for tiden du jobber for bilparken — slik er fyllingen både i rapportene dine og på kontoen din. Drivstoff til bilparkens lastebil og til aggregatet på bilparkens tilhenger går til bilparken. Et stopp med begge deler lagres samlet: feiler én del, lagres ingenting.\n\nKilometertelleren på din egen lastebil går videre gjennom begge loggbøkene.",
      "image": ""
     },
     {
@@ -530,7 +530,7 @@
     {
      "id": "owner",
      "title": "Bilpark for eieren",
-     "text": "For bilparkansvarlig. Slå på «Eier / Ansatt» i Innstillinger → «Sjåførprofil»: raden «Bilpark» vises der.\n\nBilparken tilhører din VecturaBook-konto. Hvis telefonen ikke er logget inn, viser skjermen «Logg først inn på kontoen din:» — trykk «Koble til VecturaBook» og logg inn med e-postadressen til kontoen din. Hvis skjermen viser «Denne kontoen har ingen bilpark.», skriver du til oss via «Tilbakemelding / Feilrapport» for å opprette en bilpark.\n\nSkjermen viser «Sjåfører» — hver med «Koblet» eller «Ikke koblet ennå», lastebil, tilhenger og antall skift, turer og tankinger — og bilparkens «Vognpark». Nedenfor: «Legg til sjåfør» med feltet «Sjåførens navn», «+ Legg til lastebil» («Registreringsnummer», «Lastebiltype», «Påbyggtype») og «+ Legg til tilhenger» («Registreringsnummer», kompatibilitet, «Påbyggtype»). Det samme kan gjøres i nettleseren på my.vecturabook.com.\n\nHos en sjåfør som har gått, står «Forlot bilparken» med tidspunktet i stedet for «Koblet».",
+     "text": "For bilparkansvarlig. Slå på «Eier / Ansatt» i Innstillinger → «Sjåførprofil»: raden «Bilpark» vises der.\n\nBilparken tilhører din VecturaBook-konto. Hvis telefonen ikke er logget inn, viser skjermen «Logg først inn på kontoen din:» — trykk «Koble til VecturaBook» og logg inn med e-postadressen til kontoen din. Hvis kontoen ikke har en bilpark, tilbyr skjermen «Opprett bilpark»: skriv inn «Navn på bilparken» og trykk «Opprett bilpark» — den gratis prøveperioden starter med en gang.\n\nSkjermen viser «Sjåfører» — hver med «Koblet» eller «Ikke koblet ennå», lastebil, tilhenger og antall skift, turer og tankinger — og bilparkens «Vognpark». Nedenfor: «Legg til sjåfør» med feltet «Sjåførens navn», «+ Legg til lastebil» («Registreringsnummer», «Lastebiltype», «Påbyggtype») og «+ Legg til tilhenger» («Registreringsnummer», kompatibilitet, «Påbyggtype»). Det samme kan gjøres i nettleseren på my.vecturabook.com.\n\nUten abonnement viser skjermen «Abonnement for bilpark» og «Sjåfører»: trykk på en sjåfør for «Hent kode» og «Send koden til sjåføren» — telefonen til en ny sjåfør blir med i bilparken også uten abonnement.\n\nHos en sjåfør som har gått, står «Forlot bilparken» med tidspunktet i stedet for «Koblet».",
      "image": ""
     },
     {
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Presenning",
+   "title": "Gardin / Skap",
    "intro": "En presenningshenger frakter stykkgods på paller.",
    "steps": [
     {
      "id": "setup",
      "title": "I vognparken",
-     "text": "Påbygg «Presenning».",
+     "text": "Påbygg «Gardin / Skap».",
      "image": "img/no/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Opptak av bilder for nummergjenkjenning.",
   "service.splash-tuner": "Innstillinger for oppstartsbilde.",
   "driving.crossing": "Grense eller ferje under turen: faser med tidtakere, ved trykk."
+ },
+ "video": {
+  "language": "no",
+  "chapters": {
+   "getting-started": {
+    "id": "zVcyhOLXF8U",
+    "t": 0
+   },
+   "shift": {
+    "id": "zVcyhOLXF8U",
+    "t": 147
+   },
+   "trip": {
+    "id": "zVcyhOLXF8U",
+    "t": 230
+   },
+   "driving": {
+    "id": "zVcyhOLXF8U",
+    "t": 463
+   },
+   "refuel": {
+    "id": "zVcyhOLXF8U",
+    "t": 586
+   },
+   "parking": {
+    "id": "zVcyhOLXF8U",
+    "t": 667
+   },
+   "camera": {
+    "id": "zVcyhOLXF8U",
+    "t": 729
+   },
+   "history": {
+    "id": "zVcyhOLXF8U",
+    "t": 805
+   },
+   "report": {
+    "id": "zVcyhOLXF8U",
+    "t": 873
+   },
+   "garage": {
+    "id": "zVcyhOLXF8U",
+    "t": 923
+   },
+   "documents": {
+    "id": "zVcyhOLXF8U",
+    "t": 1071
+   },
+   "maintenance": {
+    "id": "zVcyhOLXF8U",
+    "t": 1142
+   },
+   "address-book": {
+    "id": "zVcyhOLXF8U",
+    "t": 1184
+   },
+   "backup": {
+    "id": "zVcyhOLXF8U",
+    "t": 1250
+   },
+   "online": {
+    "id": "zVcyhOLXF8U",
+    "t": 1304
+   },
+   "settings": {
+    "id": "zVcyhOLXF8U",
+    "t": 1346
+   },
+   "notifications": {
+    "id": "zVcyhOLXF8U",
+    "t": 1481
+   },
+   "diagnostics": {
+    "id": "zVcyhOLXF8U",
+    "t": 1519
+   },
+   "service": {
+    "id": "zVcyhOLXF8U",
+    "t": 1587
+   },
+   "flatbed": {
+    "id": "zVcyhOLXF8U",
+    "t": 1648
+   },
+   "container": {
+    "id": "zVcyhOLXF8U",
+    "t": 1679
+   },
+   "sidelifter": {
+    "id": "zVcyhOLXF8U",
+    "t": 1729
+   },
+   "refrigerated": {
+    "id": "zVcyhOLXF8U",
+    "t": 1754
+   },
+   "curtainsider": {
+    "id": "zVcyhOLXF8U",
+    "t": 1793
+   },
+   "tipper": {
+    "id": "zVcyhOLXF8U",
+    "t": 1818
+   },
+   "fuel-tanker": {
+    "id": "zVcyhOLXF8U",
+    "t": 1840
+   },
+   "tanker": {
+    "id": "zVcyhOLXF8U",
+    "t": 1877
+   },
+   "car-transporter": {
+    "id": "zVcyhOLXF8U",
+    "t": 1901
+   },
+   "lowbed": {
+    "id": "zVcyhOLXF8U",
+    "t": 1936
+   }
+  }
  }
 }

@@ -530,7 +530,7 @@
     {
      "id": "owner",
      "title": "Frota da empresa para o proprietário",
-     "text": "Para o gestor da frota. Ative «Proprietário / Contratado» em Definições → «Perfil do motorista»: aí surge a linha «Frota da empresa».\n\nA frota pertence à sua conta do VecturaBook. Se a sessão não estiver iniciada no telemóvel, o ecrã indica «Inicia primeiro sessão na tua conta:» — toque em «Ligar ao VecturaBook» e inicie sessão com o e-mail da sua conta. Se o ecrã indicar «Esta conta não tem frota da empresa.», escreva-nos através de «Comentário / Erro» para abrir uma frota.\n\nO ecrã mostra «Motoristas» — cada um com «Associado» ou «Ainda não associado», camião, reboque e o número de jornadas, viagens e abastecimentos — e «A minha frota» da frota. Em baixo: «Adicionar motorista» com o campo «Nome do motorista», «+ Adicionar camião» («Matrícula», «Tipo de camião», «Tipo de carroçaria») e «+ Adicionar reboque» («Matrícula», compatibilidade, «Tipo de carroçaria»). O mesmo pode ser feito no navegador em my.vecturabook.com.\n\nUm motorista que saiu mostra «Saiu da frota da empresa» com a hora em vez de «Associado».",
+     "text": "Para o gestor da frota. Ative «Proprietário / Contratado» em Definições → «Perfil do motorista»: aí surge a linha «Frota da empresa».\n\nA frota pertence à sua conta do VecturaBook. Se a sessão não estiver iniciada no telemóvel, o ecrã indica «Inicia primeiro sessão na tua conta:» — toque em «Ligar ao VecturaBook» e inicie sessão com o e-mail da sua conta. Se a conta não tiver frota, o ecrã oferece «Criar frota da empresa»: escreva «Nome da frota da empresa» e toque em «Criar frota da empresa» — o período de teste gratuito começa logo.\n\nO ecrã mostra «Motoristas» — cada um com «Associado» ou «Ainda não associado», camião, reboque e o número de jornadas, viagens e abastecimentos — e «A minha frota» da frota. Em baixo: «Adicionar motorista» com o campo «Nome do motorista», «+ Adicionar camião» («Matrícula», «Tipo de camião», «Tipo de carroçaria») e «+ Adicionar reboque» («Matrícula», compatibilidade, «Tipo de carroçaria»). O mesmo pode ser feito no navegador em my.vecturabook.com.\n\nSem subscrição, o ecrã mostra «Subscrição da frota da empresa» e «Motoristas»: toque num motorista para «Obter código» e «Enviar o código ao motorista» — o telemóvel de um motorista novo entra na frota também sem subscrição.\n\nUm motorista que saiu mostra «Saiu da frota da empresa» com a hora em vez de «Associado».",
      "image": ""
     },
     {
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Lona",
+   "title": "Cortina / Furgão",
    "intro": "O reboque de lona transporta carga geral em paletes.",
    "steps": [
     {
      "id": "setup",
      "title": "Na frota",
-     "text": "Carroçaria «Lona».",
+     "text": "Carroçaria «Cortina / Furgão».",
      "image": "img/pt/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Captura de fotogramas para treinar o reconhecimento.",
   "service.splash-tuner": "Configuração do ecrã de arranque.",
   "driving.crossing": "Fronteira ou ferry dentro da viagem: etapas com temporizadores, ao tocar."
+ },
+ "video": {
+  "language": "pt",
+  "chapters": {
+   "getting-started": {
+    "id": "GLJAmt9ojGg",
+    "t": 0
+   },
+   "shift": {
+    "id": "GLJAmt9ojGg",
+    "t": 174
+   },
+   "trip": {
+    "id": "GLJAmt9ojGg",
+    "t": 274
+   },
+   "driving": {
+    "id": "GLJAmt9ojGg",
+    "t": 545
+   },
+   "refuel": {
+    "id": "GLJAmt9ojGg",
+    "t": 686
+   },
+   "parking": {
+    "id": "GLJAmt9ojGg",
+    "t": 780
+   },
+   "camera": {
+    "id": "GLJAmt9ojGg",
+    "t": 860
+   },
+   "history": {
+    "id": "GLJAmt9ojGg",
+    "t": 948
+   },
+   "report": {
+    "id": "GLJAmt9ojGg",
+    "t": 1024
+   },
+   "garage": {
+    "id": "GLJAmt9ojGg",
+    "t": 1074
+   },
+   "documents": {
+    "id": "GLJAmt9ojGg",
+    "t": 1229
+   },
+   "maintenance": {
+    "id": "GLJAmt9ojGg",
+    "t": 1314
+   },
+   "address-book": {
+    "id": "GLJAmt9ojGg",
+    "t": 1361
+   },
+   "backup": {
+    "id": "GLJAmt9ojGg",
+    "t": 1439
+   },
+   "online": {
+    "id": "GLJAmt9ojGg",
+    "t": 1499
+   },
+   "settings": {
+    "id": "GLJAmt9ojGg",
+    "t": 1548
+   },
+   "notifications": {
+    "id": "GLJAmt9ojGg",
+    "t": 1689
+   },
+   "diagnostics": {
+    "id": "GLJAmt9ojGg",
+    "t": 1732
+   },
+   "service": {
+    "id": "GLJAmt9ojGg",
+    "t": 1812
+   },
+   "flatbed": {
+    "id": "GLJAmt9ojGg",
+    "t": 1888
+   },
+   "container": {
+    "id": "GLJAmt9ojGg",
+    "t": 1922
+   },
+   "sidelifter": {
+    "id": "GLJAmt9ojGg",
+    "t": 1967
+   },
+   "refrigerated": {
+    "id": "GLJAmt9ojGg",
+    "t": 1997
+   },
+   "curtainsider": {
+    "id": "GLJAmt9ojGg",
+    "t": 2041
+   },
+   "tipper": {
+    "id": "GLJAmt9ojGg",
+    "t": 2064
+   },
+   "fuel-tanker": {
+    "id": "GLJAmt9ojGg",
+    "t": 2090
+   },
+   "tanker": {
+    "id": "GLJAmt9ojGg",
+    "t": 2138
+   },
+   "car-transporter": {
+    "id": "GLJAmt9ojGg",
+    "t": 2167
+   },
+   "lowbed": {
+    "id": "GLJAmt9ojGg",
+    "t": 2208
+   }
+  }
  }
 }

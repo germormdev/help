@@ -501,7 +501,7 @@
   {
    "slug": "fleet",
    "title": "Flotta",
-   "intro": "A flotta több járművel és sofőrrel dolgozó cégeknek szól. A flottavezető minden sofőrnek egyszer használatos kódot ad. Ezzel a telefon külön flottanaplót kap a flotta vontatójával és pótkocsijával; amit oda rögzít, az a flottához kerül. A(z) „Saját napló” — az Ön saját naplója — marad, ahogy volt, és az Öné marad.",
+   "intro": "A flotta több járművel és sofőrrel dolgozó cégeknek szól. A flottavezető minden sofőrnek egyszer használatos kódot ad. Ezzel a telefon külön flottanaplót kap a flotta járművével és pótkocsijával; amit oda rögzít, az a flottához kerül. A(z) „Saját napló” — az Ön saját naplója — marad, ahogy volt, és az Öné marad.",
    "steps": [
     {
      "id": "join",
@@ -512,13 +512,13 @@
     {
      "id": "in-fleet",
      "title": "Két napló",
-     "text": "A csatlakozás után a telefonon két napló van: „Saját napló” és a flotta naplója. Minden képernyő tetején egy sáv mutatja, melyik van nyitva: kékesszürke „Saját napló” vagy lila a flotta nevével. Koppintson a sávra a másik kiválasztásához („Melyik napló?”). Váltani csak akkor lehet, ha nincs elkezdett fuvar, különben „Először fejezd be a jelenlegi fuvart.”\n\nA flotta naplójának műszakjai, fuvarjai és tankolásai maguktól a flottához kerülnek, ha van internet; a(z) „Küldés a flottának most” itt: „Sofőrprofil” azonnal elküldi őket. A(z) „Saját napló” soha nem kerül a flottához — csak az Ön saját fiókjába. Mindkét naplónak saját műszakja, piszkozatai és időzítői vannak.\n\nHa a flottavezető fuvar közben másik vontatót ad Önnek, a változás a fuvar vége után érkezik.",
+     "text": "A csatlakozás után a telefonon két napló van: „Saját napló” és a flotta naplója. Minden képernyő tetején egy sáv mutatja, melyik van nyitva: kékesszürke „Saját napló” vagy lila a flotta nevével. Koppintson a sávra a másik kiválasztásához („Melyik napló?”). Váltani csak akkor lehet, ha nincs elkezdett fuvar, különben „Először fejezd be a jelenlegi fuvart.”\n\nA flotta naplójának műszakjai, fuvarjai és tankolásai maguktól a flottához kerülnek, ha van internet; a(z) „Küldés a flottának most” itt: „Sofőrprofil” azonnal elküldi őket. A(z) „Saját napló” soha nem kerül a flottához — csak az Ön saját fiókjába. Mindkét naplónak saját műszakja, piszkozatai és időzítői vannak.\n\nHa a flottavezető fuvar közben másik járművet ad Önnek, a változás a fuvar vége után érkezik.",
      "image": ""
     },
     {
      "id": "own-truck",
-     "title": "Saját vontató",
-     "text": "Ha a saját vontatójával fuvarozik a flottának, koppintson erre: „A flottának a saját vontatómmal fuvarozok” itt: „Sofőrprofil”, és válassza ki a vontatóját („Park”, „Saját napló”). Ez lesz a vontató a flotta naplójában, a flotta pedig látja a rendszámát az Ön fuvarjaiban.\n\nA saját vontató üzemanyaga az Ön költsége: a tankolásai mindig a(z) „Saját napló” naplóba kerülnek, akkor is, ha a flotta naplója van nyitva. Ha nincs nyitott saját műszak, a(z) „Saját napló” rövid, lezárt műszakot kap a flottának végzett munka idejére — így a tankolás az Ön jelentéseiben és fiókjában is ott van. A flotta vontatójának és a flotta pótkocsija egységének üzemanyaga a flottához kerül. A mindkettőt tartalmazó megálló egyben mentődik: ha egy rész nem sikerül, semmi sem mentődik.\n\nA saját vontató kilométer-számlálója mindkét naplón át folytatódik.",
+     "title": "Saját jármű",
+     "text": "Ha a saját járművével fuvarozik a flottának, koppintson erre: „A flottának a saját járművemmel fuvarozok” itt: „Sofőrprofil”, és válassza ki a járművét („Park”, „Saját napló”). Ez lesz a jármű a flotta naplójában, a flotta pedig látja a rendszámát az Ön fuvarjaiban.\n\nA saját jármű üzemanyaga az Ön költsége: a tankolásai mindig a(z) „Saját napló” naplóba kerülnek, akkor is, ha a flotta naplója van nyitva. Ha nincs nyitott saját műszak, a(z) „Saját napló” rövid, lezárt műszakot kap a flottának végzett munka idejére — így a tankolás az Ön jelentéseiben és fiókjában is ott van. A flotta járművének és a flotta pótkocsija egységének üzemanyaga a flottához kerül. A mindkettőt tartalmazó megálló egyben mentődik: ha egy rész nem sikerül, semmi sem mentődik.\n\nA saját jármű kilométer-számlálója mindkét naplón át folytatódik.",
      "image": ""
     },
     {
@@ -530,13 +530,13 @@
     {
      "id": "owner",
      "title": "Flotta a tulajdonosnak",
-     "text": "A flottavezetőnek. Kapcsolja be a „Tulajdonos / Alkalmazott” opciót a Beállítások → „Sofőrprofil” menüpontban: ott megjelenik a „Flotta” sor.\n\nA flotta az Ön VecturaBook-fiókjához tartozik. Ha nincs bejelentkezve a telefonon, a képernyőn az „Előbb jelentkezzen be a fiókjába:” felirat jelenik meg — koppintson a „Csatlakozás a VecturaBookhoz” gombra, és jelentkezzen be a fiókja e-mail-címével. Ha a képernyőn az „Ehhez a fiókhoz nem tartozik flotta.” felirat látható, írjon nekünk a „Visszajelzés / hibabejelentés” menüponton keresztül a flotta megnyitásához.\n\nA képernyő a „Sofőrök” részt mutatja — mindegyiknél „Összekapcsolva” vagy „Még nincs összekapcsolva”, vontató, pótkocsi, valamint a műszakok, utak és tankolások száma —, valamint a flotta „Park” részét. Alatta: „Sofőr hozzáadása” „A sofőr neve” mezővel, „+ Vontató hozzáadása” („Rendszám”, „Vontató típusa”, „Felépítmény típusa”) és „+ Pótkocsi hozzáadása” („Rendszám”, kompatibilitás, „Felépítmény típusa”). Ugyanez elvégezhető a böngészőben is a my.vecturabook.com oldalon.\n\nA kilépett sofőrnél „Összekapcsolva” helyett „Kilépett a flottából” és az időpont látható.",
+     "text": "A flottavezetőnek. Kapcsolja be a „Tulajdonos / Alkalmazott” opciót a Beállítások → „Sofőrprofil” menüpontban: ott megjelenik a „Flotta” sor.\n\nA flotta az Ön VecturaBook-fiókjához tartozik. Ha nincs bejelentkezve a telefonon, a képernyőn az „Előbb jelentkezzen be a fiókjába:” felirat jelenik meg — koppintson a „Csatlakozás a VecturaBookhoz” gombra, és jelentkezzen be a fiókja e-mail-címével. Ha a fiókhoz nem tartozik flotta, a képernyő felkínálja a „Flotta létrehozása” lehetőséget: írja be a „A flotta neve” mezőbe, és koppintson a „Flotta létrehozása” gombra — az ingyenes próbaidőszak azonnal elindul.\n\nA képernyő a „Sofőrök” részt mutatja — mindegyiknél „Összekapcsolva” vagy „Még nincs összekapcsolva”, jármű, pótkocsi, valamint a műszakok, utak és tankolások száma —, valamint a flotta „Park” részét. Alatta: „Sofőr hozzáadása” „A sofőr neve” mezővel, „+ Jármű hozzáadása” („Rendszám”, „Jármű típusa”, „Felépítmény típusa”) és „+ Pótkocsi hozzáadása” („Rendszám”, kompatibilitás, „Felépítmény típusa”). Ugyanez elvégezhető a böngészőben is a my.vecturabook.com oldalon.\n\nElőfizetés nélkül a képernyő a „Flotta előfizetés” és a „Sofőrök” részt mutatja: koppintson egy sofőrre a „Kód kérése” és a „Kód küldése a sofőrnek” gombért — új sofőr telefonja előfizetés nélkül is csatlakozik a flottához.\n\nA kilépett sofőrnél „Összekapcsolva” helyett „Kilépett a flottából” és az időpont látható.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Sofőr",
-     "text": "Koppintson egy sofőrre a kártya megnyitásához. „Vontató” és „Pótkocsi”: válasszon a flotta parkjából, és koppintson a „Mentés” gombra. Csak a kiválasztott vontatóhoz illő pótkocsikat ajánlja fel a program. A sofőr telefonja magától átveszi a módosítást; út közben — az út befejezése után.\n\nA „Kód kérése” egy egyszeri kódot ad az érvényességi idejével együtt. A „Kód küldése a sofőrnek” elküldi a kódot és a linket egy üzenetküldőn keresztül. A kód csak egyszer jelenik meg. Egy új kód átviszi a sofőrt egy új telefonra: a régi telefon kilép a flottából.\n\nAlatta a sofőr azon „Műszakok”, „Utak” és „Tankolások” bejegyzései láthatók, amelyek megérkeztek a flottához.\n\nA kilépett sofőr kártyáján „Kilépett a flottából” és az időpont látható. Egy új kód Öntől visszahozza a sofőrt.",
+     "text": "Koppintson egy sofőrre a kártya megnyitásához. „Jármű” és „Pótkocsi”: válasszon a flotta parkjából, és koppintson a „Mentés” gombra. Csak a kiválasztott járműhöz illő pótkocsikat ajánlja fel a program. A sofőr telefonja magától átveszi a módosítást; út közben — az út befejezése után.\n\nA „Kód kérése” egy egyszeri kódot ad az érvényességi idejével együtt. A „Kód küldése a sofőrnek” elküldi a kódot és a linket egy üzenetküldőn keresztül. A kód csak egyszer jelenik meg. Egy új kód átviszi a sofőrt egy új telefonra: a régi telefon kilép a flottából.\n\nAlatta a sofőr azon „Műszakok”, „Utak” és „Tankolások” bejegyzései láthatók, amelyek megérkeztek a flottához.\n\nA kilépett sofőr kártyáján „Kilépett a flottából” és az időpont látható. Egy új kód Öntől visszahozza a sofőrt.",
      "image": ""
     }
    ]
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Ponyvás",
+   "title": "Ponyvás / Dobozos",
    "intro": "A ponyvás pótkocsi raklapos darabárut szállít.",
    "steps": [
     {
      "id": "setup",
      "title": "A parkban",
-     "text": "„Ponyvás” felépítmény.",
+     "text": "„Ponyvás / Dobozos” felépítmény.",
      "image": "img/hu/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Képkockák rögzítése a felismeréshez.",
   "service.splash-tuner": "A nyitóképernyő beállítása.",
   "driving.crossing": "Határ vagy komp a fuvar közben: szakaszok időzítővel, koppintásra."
+ },
+ "video": {
+  "language": "hu",
+  "chapters": {
+   "getting-started": {
+    "id": "V3Z_NVUMxbc",
+    "t": 0
+   },
+   "shift": {
+    "id": "V3Z_NVUMxbc",
+    "t": 186
+   },
+   "trip": {
+    "id": "V3Z_NVUMxbc",
+    "t": 296
+   },
+   "driving": {
+    "id": "V3Z_NVUMxbc",
+    "t": 597
+   },
+   "refuel": {
+    "id": "V3Z_NVUMxbc",
+    "t": 755
+   },
+   "parking": {
+    "id": "V3Z_NVUMxbc",
+    "t": 862
+   },
+   "camera": {
+    "id": "V3Z_NVUMxbc",
+    "t": 938
+   },
+   "history": {
+    "id": "V3Z_NVUMxbc",
+    "t": 1029
+   },
+   "report": {
+    "id": "V3Z_NVUMxbc",
+    "t": 1117
+   },
+   "garage": {
+    "id": "V3Z_NVUMxbc",
+    "t": 1186
+   },
+   "documents": {
+    "id": "V3Z_NVUMxbc",
+    "t": 1355
+   },
+   "maintenance": {
+    "id": "V3Z_NVUMxbc",
+    "t": 1446
+   },
+   "address-book": {
+    "id": "V3Z_NVUMxbc",
+    "t": 1497
+   },
+   "backup": {
+    "id": "V3Z_NVUMxbc",
+    "t": 1573
+   },
+   "online": {
+    "id": "V3Z_NVUMxbc",
+    "t": 1642
+   },
+   "settings": {
+    "id": "V3Z_NVUMxbc",
+    "t": 1697
+   },
+   "notifications": {
+    "id": "V3Z_NVUMxbc",
+    "t": 1849
+   },
+   "diagnostics": {
+    "id": "V3Z_NVUMxbc",
+    "t": 1897
+   },
+   "service": {
+    "id": "V3Z_NVUMxbc",
+    "t": 1989
+   },
+   "flatbed": {
+    "id": "V3Z_NVUMxbc",
+    "t": 2066
+   },
+   "container": {
+    "id": "V3Z_NVUMxbc",
+    "t": 2102
+   },
+   "sidelifter": {
+    "id": "V3Z_NVUMxbc",
+    "t": 2150
+   },
+   "refrigerated": {
+    "id": "V3Z_NVUMxbc",
+    "t": 2183
+   },
+   "curtainsider": {
+    "id": "V3Z_NVUMxbc",
+    "t": 2230
+   },
+   "tipper": {
+    "id": "V3Z_NVUMxbc",
+    "t": 2256
+   },
+   "fuel-tanker": {
+    "id": "V3Z_NVUMxbc",
+    "t": 2284
+   },
+   "tanker": {
+    "id": "V3Z_NVUMxbc",
+    "t": 2327
+   },
+   "car-transporter": {
+    "id": "V3Z_NVUMxbc",
+    "t": 2359
+   },
+   "lowbed": {
+    "id": "V3Z_NVUMxbc",
+    "t": 2401
+   }
+  }
  }
 }

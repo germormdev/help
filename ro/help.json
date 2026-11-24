@@ -320,7 +320,7 @@
     {
      "id": "truck-form",
      "title": "Cap tractor",
-     "text": "Numărul de înmatriculare, tipul („Cap tractor” sau „Autoportant”) și caroseria — printr-un șir de întrebări cu imagini; de asemenea, dacă are macara sau manipulator. Nu pot exista două numere de înmatriculare identice în parc.",
+     "text": "Numărul de înmatriculare, tipul („Cap tractor” sau „Camion”) și caroseria — printr-un șir de întrebări cu imagini; de asemenea, dacă are macara sau manipulator. Nu pot exista două numere de înmatriculare identice în parc.",
      "image": "img/en/garage-truck-form.png"
     },
     {
@@ -530,7 +530,7 @@
     {
      "id": "owner",
      "title": "Flota pentru proprietar",
-     "text": "Pentru managerul flotei. Activați „Proprietar / Angajat” în Setări → „Profilul șoferului”: acolo apare rândul „Flotă”.\n\nFlota aparține contului dumneavoastră VecturaBook. Dacă pe telefon nu sunteți conectat, pe ecran apare „Mai întâi conectați-vă la contul dvs.:” — apăsați „Conectare la VecturaBook” și conectați-vă cu adresa de e-mail a contului dumneavoastră. Dacă pe ecran scrie „Acest cont nu are flotă.”, scrieți-ne prin „Feedback / Raportare eroare” pentru a deschide o flotă.\n\nPe ecran apar „Șoferi” — fiecare cu „Conectat” sau „Încă neconectat”, camion, remorcă și numărul de ture, curse și alimentări — și „Parcul meu” al flotei. Dedesubt: „Adaugă șofer” cu câmpul „Numele șoferului”, „+ Adaugă camion” („Număr de înmatriculare”, „Tip de camion”, „Tip de caroserie”) și „+ Adaugă remorcă” („Număr de înmatriculare”, compatibilitate, „Tip de caroserie”). Același lucru se poate face în browser pe my.vecturabook.com.\n\nLa un șofer care a plecat apare „A părăsit flota” cu ora în loc de „Conectat”.",
+     "text": "Pentru managerul flotei. Activați „Proprietar / Angajat” în Setări → „Profilul șoferului”: acolo apare rândul „Flotă”.\n\nFlota aparține contului dumneavoastră VecturaBook. Dacă pe telefon nu sunteți conectat, pe ecran apare „Mai întâi conectați-vă la contul dvs.:” — apăsați „Conectare la VecturaBook” și conectați-vă cu adresa de e-mail a contului dumneavoastră. Dacă contul nu are flotă, ecranul oferă „Creează o flotă”: introduceți „Numele flotei” și apăsați „Creează o flotă” — perioada de probă gratuită începe imediat.\n\nPe ecran apar „Șoferi” — fiecare cu „Conectat” sau „Încă neconectat”, camion, remorcă și numărul de ture, curse și alimentări — și „Parcul meu” al flotei. Dedesubt: „Adaugă șofer” cu câmpul „Numele șoferului”, „+ Adaugă camion” („Număr de înmatriculare”, „Tip de camion”, „Tip de caroserie”) și „+ Adaugă remorcă” („Număr de înmatriculare”, compatibilitate, „Tip de caroserie”). Același lucru se poate face în browser pe my.vecturabook.com.\n\nFără abonament, ecranul arată „Abonament Flotă” și „Șoferi”: apăsați pe un șofer pentru „Obține cod” și „Trimite codul șoferului” — telefonul unui șofer nou intră în flotă și fără abonament.\n\nLa un șofer care a plecat apare „A părăsit flota” cu ora în loc de „Conectat”.",
      "image": ""
     },
     {
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Prelată",
+   "title": "Prelată / Dubă",
    "intro": "Remorca cu prelată transportă marfă generală pe paleți.",
    "steps": [
     {
      "id": "setup",
      "title": "În parc",
-     "text": "Caroseria „Prelată”.",
+     "text": "Caroseria „Prelată / Dubă”.",
      "image": "img/ro/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Capturarea cadrelor pentru recunoaștere.",
   "service.splash-tuner": "Reglarea ecranului de pornire.",
   "driving.crossing": "Frontieră sau feribot în cursă: etape cu cronometre, la atingere."
+ },
+ "video": {
+  "language": "ro",
+  "chapters": {
+   "getting-started": {
+    "id": "Wifaso0PLZg",
+    "t": 0
+   },
+   "shift": {
+    "id": "Wifaso0PLZg",
+    "t": 198
+   },
+   "trip": {
+    "id": "Wifaso0PLZg",
+    "t": 309
+   },
+   "driving": {
+    "id": "Wifaso0PLZg",
+    "t": 623
+   },
+   "refuel": {
+    "id": "Wifaso0PLZg",
+    "t": 794
+   },
+   "parking": {
+    "id": "Wifaso0PLZg",
+    "t": 905
+   },
+   "camera": {
+    "id": "Wifaso0PLZg",
+    "t": 982
+   },
+   "history": {
+    "id": "Wifaso0PLZg",
+    "t": 1077
+   },
+   "report": {
+    "id": "Wifaso0PLZg",
+    "t": 1165
+   },
+   "garage": {
+    "id": "Wifaso0PLZg",
+    "t": 1225
+   },
+   "documents": {
+    "id": "Wifaso0PLZg",
+    "t": 1412
+   },
+   "maintenance": {
+    "id": "Wifaso0PLZg",
+    "t": 1509
+   },
+   "address-book": {
+    "id": "Wifaso0PLZg",
+    "t": 1565
+   },
+   "backup": {
+    "id": "Wifaso0PLZg",
+    "t": 1643
+   },
+   "online": {
+    "id": "Wifaso0PLZg",
+    "t": 1714
+   },
+   "settings": {
+    "id": "Wifaso0PLZg",
+    "t": 1766
+   },
+   "notifications": {
+    "id": "Wifaso0PLZg",
+    "t": 1923
+   },
+   "diagnostics": {
+    "id": "Wifaso0PLZg",
+    "t": 1969
+   },
+   "service": {
+    "id": "Wifaso0PLZg",
+    "t": 2064
+   },
+   "flatbed": {
+    "id": "Wifaso0PLZg",
+    "t": 2149
+   },
+   "container": {
+    "id": "Wifaso0PLZg",
+    "t": 2187
+   },
+   "sidelifter": {
+    "id": "Wifaso0PLZg",
+    "t": 2241
+   },
+   "refrigerated": {
+    "id": "Wifaso0PLZg",
+    "t": 2272
+   },
+   "curtainsider": {
+    "id": "Wifaso0PLZg",
+    "t": 2320
+   },
+   "tipper": {
+    "id": "Wifaso0PLZg",
+    "t": 2347
+   },
+   "fuel-tanker": {
+    "id": "Wifaso0PLZg",
+    "t": 2374
+   },
+   "tanker": {
+    "id": "Wifaso0PLZg",
+    "t": 2422
+   },
+   "car-transporter": {
+    "id": "Wifaso0PLZg",
+    "t": 2453
+   },
+   "lowbed": {
+    "id": "Wifaso0PLZg",
+    "t": 2496
+   }
+  }
  }
 }

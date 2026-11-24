@@ -501,7 +501,7 @@
   {
    "slug": "fleet",
    "title": "Vozový park",
-   "intro": "Vozový park je pro firmy s více vozidly a řidiči. Správce vozového parku dá každému řidiči jednorázový kód. Díky němu telefon dostane samostatný deník vozového parku s tahačem a návěsem vozového parku; co tam zapíšete, jde do vozového parku. „Můj deník“ — váš vlastní deník — zůstává, jak byl, a zůstává váš.",
+   "intro": "Vozový park je pro firmy s více vozidly a řidiči. Správce vozového parku dá každému řidiči jednorázový kód. Díky němu telefon dostane samostatný deník vozového parku s vozidlem a návěsem vozového parku; co tam zapíšete, jde do vozového parku. „Můj deník“ — váš vlastní deník — zůstává, jak byl, a zůstává váš.",
    "steps": [
     {
      "id": "join",
@@ -512,13 +512,13 @@
     {
      "id": "in-fleet",
      "title": "Dva deníky",
-     "text": "Po připojení má telefon dva deníky: „Můj deník“ a deník vozového parku. Pruh nahoře na každé obrazovce ukazuje, který je otevřený: modrošedý „Můj deník“ nebo fialový s názvem vozového parku. Klepnutím na pruh vyberete druhý („Který deník?“). Přepnout lze, jen když jízda nezačala, jinak „Nejprve ukonči aktuální jízdu.“\n\nSměny, jízdy a tankování z deníku vozového parku jdou do vozového parku samy, když je internet; „Odeslat do vozového parku teď“ v „Profil řidiče“ je pošle hned. „Můj deník“ nikdy nejde do vozového parku — jen do vašeho vlastního účtu. Každý deník má svou směnu, své koncepty a časovače.\n\nKdyž vám správce během jízdy dá jiný tahač, změna přijde po konci jízdy.",
+     "text": "Po připojení má telefon dva deníky: „Můj deník“ a deník vozového parku. Pruh nahoře na každé obrazovce ukazuje, který je otevřený: modrošedý „Můj deník“ nebo fialový s názvem vozového parku. Klepnutím na pruh vyberete druhý („Který deník?“). Přepnout lze, jen když jízda nezačala, jinak „Nejprve ukonči aktuální jízdu.“\n\nSměny, jízdy a tankování z deníku vozového parku jdou do vozového parku samy, když je internet; „Odeslat do vozového parku teď“ v „Profil řidiče“ je pošle hned. „Můj deník“ nikdy nejde do vozového parku — jen do vašeho vlastního účtu. Každý deník má svou směnu, své koncepty a časovače.\n\nKdyž vám správce během jízdy dá jiné vozidlo, změna přijde po konci jízdy.",
      "image": ""
     },
     {
      "id": "own-truck",
-     "title": "Vlastní tahač",
-     "text": "Pokud jezdíte pro vozový park vlastním tahačem, klepněte na „Jezdím pro vozový park vlastním tahačem“ v „Profil řidiče“ a vyberte svůj tahač („Můj park“, „Můj deník“). Stane se tahačem v deníku vozového parku a vozový park uvidí jeho SPZ ve vašich jízdách.\n\nPalivo vlastního tahače je váš výdaj: jeho tankování jdou vždy do „Můj deník“, i když je otevřený deník vozového parku. Když vlastní směna není otevřená, „Můj deník“ dostane krátkou uzavřenou směnu na dobu práce pro vozový park — tankování je tak ve vašich přehledech i ve vašem účtu. Palivo tahače vozového parku a agregátu návěsu vozového parku jde do vozového parku. Zastávka s obojím se uloží celá: neuloží-li se jedna část, neuloží se nic.\n\nTachometr vlastního tahače běží dál přes oba deníky.",
+     "title": "Vlastní vozidlo",
+     "text": "Pokud jezdíte pro vozový park vlastním vozidlem, klepněte na „Jezdím pro vozový park vlastním vozidlem“ v „Profil řidiče“ a vyberte své vozidlo („Můj park“, „Můj deník“). Stane se vozidlem v deníku vozového parku a vozový park uvidí jeho SPZ ve vašich jízdách.\n\nPalivo vlastního vozidla je váš výdaj: jeho tankování jdou vždy do „Můj deník“, i když je otevřený deník vozového parku. Když vlastní směna není otevřená, „Můj deník“ dostane krátkou uzavřenou směnu na dobu práce pro vozový park — tankování je tak ve vašich přehledech i ve vašem účtu. Palivo vozidla vozového parku a agregátu návěsu vozového parku jde do vozového parku. Zastávka s obojím se uloží celá: neuloží-li se jedna část, neuloží se nic.\n\nTachometr vlastního vozidla běží dál přes oba deníky.",
      "image": ""
     },
     {
@@ -530,13 +530,13 @@
     {
      "id": "owner",
      "title": "Vozový park pro majitele",
-     "text": "Pro správce vozového parku. Zapněte „Majitel / Zaměstnanec“ v Nastavení → „Profil řidiče“: zobrazí se tam řádek „Vozový park“.\n\nVozový park patří k vašemu účtu VecturaBook. Pokud telefon není přihlášen, obrazovka hlásí „Nejprve se přihlaste ke svému účtu:“ — klepněte na „Připojit k VecturaBook“ a přihlaste se e-mailem svého účtu. Pokud obrazovka hlásí „Tento účet nemá vozový park.“, napište nám přes „Zpětná vazba / Chyba“ pro otevření vozového parku.\n\nObrazovka ukazuje „Řidiči“ — u každého „Propojen“ nebo „Zatím nepropojen“, tahač, návěs a počet směn, jízd a tankování — a „Můj park“ vozového parku. Dole: „Přidat řidiče“ s polem „Jméno řidiče“, „+ Přidat tahač“ („SPZ“, „Typ tahače“, „Typ nástavby“) a „+ Přidat návěs“ („SPZ“, kompatibilita, „Typ nástavby“). Totéž lze provést v prohlížeči na my.vecturabook.com.\n\nU řidiče, který odešel, je místo „Propojen“ uvedeno „Opustil vozový park“ s časem.",
+     "text": "Pro správce vozového parku. Zapněte „Majitel / Zaměstnanec“ v Nastavení → „Profil řidiče“: zobrazí se tam řádek „Vozový park“.\n\nVozový park patří k vašemu účtu VecturaBook. Pokud telefon není přihlášen, obrazovka hlásí „Nejprve se přihlaste ke svému účtu:“ — klepněte na „Připojit k VecturaBook“ a přihlaste se e-mailem svého účtu. Pokud účet nemá vozový park, obrazovka nabídne „Založit vozový park“: zadejte „Název vozového parku“ a klepněte na „Založit vozový park“ — hned začne bezplatná zkušební doba.\n\nObrazovka ukazuje „Řidiči“ — u každého „Propojen“ nebo „Zatím nepropojen“, vozidlo, návěs a počet směn, jízd a tankování — a „Můj park“ vozového parku. Dole: „Přidat řidiče“ s polem „Jméno řidiče“, „+ Přidat vozidlo“ („SPZ“, „Typ vozidla“, „Typ nástavby“) a „+ Přidat návěs“ („SPZ“, kompatibilita, „Typ nástavby“). Totéž lze provést v prohlížeči na my.vecturabook.com.\n\nBez předplatného obrazovka ukazuje „Předplatné pro Vozový park“ a „Řidiči“: klepněte na řidiče pro „Získat kód“ a „Poslat kód řidiči“ — telefon nového řidiče se k vozovému parku připojí i bez předplatného.\n\nU řidiče, který odešel, je místo „Propojen“ uvedeno „Opustil vozový park“ s časem.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Řidič",
-     "text": "Klepnutím na řidiče otevřete kartu. „Tahač“ a „Návěs“: vyberte z garáže vozového parku a klepněte na „Uložit“. Nabízejí se pouze návěsy, které se hodí k vybranému tahači. Telefon řidiče převezme změnu sám; během jízdy — po skončení jízdy.\n\n„Získat kód“ vygeneruje jednorázový kód s časem, do kdy platí. „Poslat kód řidiči“ odešle kód a odkaz přes messenger. Kód se zobrazí pouze jednou. Nový kód přesune řidiče na nový telefon: starý telefon vozový park opustí.\n\nNíže jsou „Směny“, „Jízdy“ a „Tankování“ řidiče, které dorazily do vozového parku.\n\nKarta řidiče, který odešel, ukazuje „Opustil vozový park“ s časem. Nový kód od vás řidiče vrátí.",
+     "text": "Klepnutím na řidiče otevřete kartu. „Vozidlo“ a „Návěs“: vyberte z garáže vozového parku a klepněte na „Uložit“. Nabízejí se pouze návěsy, které se hodí k vybranému vozidlu. Telefon řidiče převezme změnu sám; během jízdy — po skončení jízdy.\n\n„Získat kód“ vygeneruje jednorázový kód s časem, do kdy platí. „Poslat kód řidiči“ odešle kód a odkaz přes messenger. Kód se zobrazí pouze jednou. Nový kód přesune řidiče na nový telefon: starý telefon vozový park opustí.\n\nNíže jsou „Směny“, „Jízdy“ a „Tankování“ řidiče, které dorazily do vozového parku.\n\nKarta řidiče, který odešel, ukazuje „Opustil vozový park“ s časem. Nový kód od vás řidiče vrátí.",
      "image": ""
     }
    ]
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Plachta",
+   "title": "Plachta / Skříň",
    "intro": "Plachtový návěs vozí obecný náklad na paletách.",
    "steps": [
     {
      "id": "setup",
      "title": "V garáži",
-     "text": "Nástavba „Plachta“.",
+     "text": "Nástavba „Plachta / Skříň“.",
      "image": "img/cs/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Pořizování snímků pro rozpoznávání.",
   "service.splash-tuner": "Nastavení úvodní obrazovky.",
   "driving.crossing": "Hranice nebo trajekt během jízdy: fáze s časovači, klepnutím."
+ },
+ "video": {
+  "language": "cs",
+  "chapters": {
+   "getting-started": {
+    "id": "SiTQSt33FQk",
+    "t": 0
+   },
+   "shift": {
+    "id": "SiTQSt33FQk",
+    "t": 175
+   },
+   "trip": {
+    "id": "SiTQSt33FQk",
+    "t": 282
+   },
+   "driving": {
+    "id": "SiTQSt33FQk",
+    "t": 569
+   },
+   "refuel": {
+    "id": "SiTQSt33FQk",
+    "t": 715
+   },
+   "parking": {
+    "id": "SiTQSt33FQk",
+    "t": 811
+   },
+   "camera": {
+    "id": "SiTQSt33FQk",
+    "t": 883
+   },
+   "history": {
+    "id": "SiTQSt33FQk",
+    "t": 969
+   },
+   "report": {
+    "id": "SiTQSt33FQk",
+    "t": 1051
+   },
+   "garage": {
+    "id": "SiTQSt33FQk",
+    "t": 1106
+   },
+   "documents": {
+    "id": "SiTQSt33FQk",
+    "t": 1266
+   },
+   "maintenance": {
+    "id": "SiTQSt33FQk",
+    "t": 1348
+   },
+   "address-book": {
+    "id": "SiTQSt33FQk",
+    "t": 1399
+   },
+   "backup": {
+    "id": "SiTQSt33FQk",
+    "t": 1474
+   },
+   "online": {
+    "id": "SiTQSt33FQk",
+    "t": 1534
+   },
+   "settings": {
+    "id": "SiTQSt33FQk",
+    "t": 1582
+   },
+   "notifications": {
+    "id": "SiTQSt33FQk",
+    "t": 1719
+   },
+   "diagnostics": {
+    "id": "SiTQSt33FQk",
+    "t": 1760
+   },
+   "service": {
+    "id": "SiTQSt33FQk",
+    "t": 1845
+   },
+   "flatbed": {
+    "id": "SiTQSt33FQk",
+    "t": 1917
+   },
+   "container": {
+    "id": "SiTQSt33FQk",
+    "t": 1953
+   },
+   "sidelifter": {
+    "id": "SiTQSt33FQk",
+    "t": 1997
+   },
+   "refrigerated": {
+    "id": "SiTQSt33FQk",
+    "t": 2027
+   },
+   "curtainsider": {
+    "id": "SiTQSt33FQk",
+    "t": 2068
+   },
+   "tipper": {
+    "id": "SiTQSt33FQk",
+    "t": 2093
+   },
+   "fuel-tanker": {
+    "id": "SiTQSt33FQk",
+    "t": 2119
+   },
+   "tanker": {
+    "id": "SiTQSt33FQk",
+    "t": 2161
+   },
+   "car-transporter": {
+    "id": "SiTQSt33FQk",
+    "t": 2190
+   },
+   "lowbed": {
+    "id": "SiTQSt33FQk",
+    "t": 2230
+   }
+  }
  }
 }

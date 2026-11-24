@@ -505,8 +505,8 @@
    "steps": [
     {
      "id": "join",
-     "title": "Tilslut en flåde med en kode",
-     "text": "Tryk ved første start på \"Jeg kører for en flåde — indtast kode\". Senere: Indstillinger → \"Chaufførprofil\" → \"Tilslut en flåde med en kode\".\n\nIndtast koden fra din flådeansvarlige, og tryk på \"Tilslut flåden\". Hvis den flådeansvarlige har sendt dig et link (my.vecturabook.com/fleet/join…), skal du bare åbne det på din telefon: appen åbner med koden allerede udfyldt. Du kan også indsætte hele linket i feltet \"Kode\".\n\nKoden virker kun én gang og kun i begrænset tid. Hvis appen melder, at koden er forkert, udløbet eller allerede brugt, så bed din flådeansvarlige om en ny.\n\nEr telefonen allerede i en anden flåde, spørger appen først: den nye kode sender de sidste registreringer til den flåde og forlader den, og dens logbog bliver på telefonen kun til visning. Afslut først turen og vagten der, ellers siger appen \"Afslut den aktuelle tur først.\" eller \"Afslut flådens vagt først.\" Uden internet ændres intet.",
+     "title": "Slut dig til en flåde med en kode",
+     "text": "Tryk ved første start på \"Jeg kører for en flåde — indtast kode\". Senere: Indstillinger → \"Chaufførprofil\" → \"Slut dig til en flåde med en kode\".\n\nIndtast koden fra din flådeansvarlige, og tryk på \"Slut dig til flåden\". Hvis den flådeansvarlige har sendt dig et link (my.vecturabook.com/fleet/join…), skal du bare åbne det på din telefon: appen åbner med koden allerede udfyldt. Du kan også indsætte hele linket i feltet \"Kode\".\n\nKoden virker kun én gang og kun i begrænset tid. Hvis appen melder, at koden er forkert, udløbet eller allerede brugt, så bed din flådeansvarlige om en ny.\n\nEr telefonen allerede i en anden flåde, spørger appen først: den nye kode sender de sidste registreringer til den flåde og forlader den, og dens logbog bliver på telefonen kun til visning. Afslut først turen og vagten der, ellers siger appen \"Afslut den aktuelle tur først.\" eller \"Afslut flådevagten først.\" Uden internet ændres intet.",
      "image": ""
     },
     {
@@ -524,13 +524,13 @@
     {
      "id": "leave",
      "title": "Forlad flåden",
-     "text": "\"Chaufførprofil\" → \"Forlad flåden\". Afslut først flådens vagt (\"Afslut flådens vagt først.\"). Appen sender først de sidste registreringer og forlader derefter flåden. Uden internet: \"Ingen forbindelse til serveren. Prøv igen, når du er online.\" — intet ændres.\n\nBagefter bliver flådens logbog på telefonen kun til visning: striben bliver grå og viser \"… · kun visning\". \"Turhistorik\", tankninger, dokumenter og PDF-rapporter er der; knapper til ændringer er skjult, og en vagt kan ikke startes. Intet mere går til flåden. For at komme tilbage beder du den flådeansvarlige om en ny kode.",
+     "text": "\"Chaufførprofil\" → \"Forlad flåden\". Afslut først flådens vagt (\"Afslut flådevagten først.\"). Appen sender først de sidste registreringer og forlader derefter flåden. Uden internet: \"Ingen forbindelse til serveren. Prøv igen, når du er online.\" — intet ændres.\n\nBagefter bliver flådens logbog på telefonen kun til visning: striben bliver grå og viser \"… · kun visning\". \"Turhistorik\", tankninger, dokumenter og PDF-rapporter er der; knapper til ændringer er skjult, og en vagt kan ikke startes. Intet mere går til flåden. For at komme tilbage beder du den flådeansvarlige om en ny kode.",
      "image": ""
     },
     {
      "id": "owner",
      "title": "Flåde for ejeren",
-     "text": "Til den flådeansvarlige. Slå \"Ejer / Ansat\" til under Indstillinger → \"Chaufførprofil\": rækken \"Flåde\" vises der.\n\nFlåden hører til din VecturaBook-konto. Hvis telefonen ikke er logget ind, viser skærmen \"Log først ind på din konto:\" — tryk på \"Forbind til VecturaBook\", og log ind med din kontos e-mail. Hvis skærmen viser \"Denne konto har ingen flåde.\", så skriv til os via \"Feedback / Fejlrapport\" for at få oprettet en flåde.\n\nSkærmen viser \"Chauffører\" — hver med \"Tilknyttet\" eller \"Ikke tilknyttet endnu\", lastbil, anhænger og antallet af vagter, ture og tankninger — samt flådens \"Vognpark\". Nedenfor: \"Tilføj chauffør\" med feltet \"Chaufførens navn\", \"+ Tilføj lastbil\" (\"Nummerplade\", \"Lastbiltype\", \"Opbygningstype\") og \"+ Tilføj anhænger\" (\"Nummerplade\", kompatibilitet, \"Opbygningstype\"). Det samme kan gøres i din browser på my.vecturabook.com.\n\nVed en chauffør, der er gået, står \"Forlod flåden\" med tidspunktet i stedet for \"Tilknyttet\".",
+     "text": "Til den flådeansvarlige. Slå \"Ejer / Ansat\" til under Indstillinger → \"Chaufførprofil\": rækken \"Flåde\" vises der.\n\nFlåden hører til din VecturaBook-konto. Hvis telefonen ikke er logget ind, viser skærmen \"Log først ind på din konto:\" — tryk på \"Forbind til VecturaBook\", og log ind med din kontos e-mail. Hvis kontoen ikke har en flåde, tilbyder skærmen \"Opret flåde\": skriv \"Flådens navn\" og tryk på \"Opret flåde\" — den gratis prøveperiode starter med det samme.\n\nSkærmen viser \"Chauffører\" — hver med \"Tilknyttet\" eller \"Ikke tilknyttet endnu\", lastbil, anhænger og antallet af vagter, ture og tankninger — samt flådens \"Vognpark\". Nedenfor: \"Tilføj chauffør\" med feltet \"Chaufførens navn\", \"+ Tilføj lastbil\" (\"Nummerplade\", \"Lastbiltype\", \"Opbygningstype\") og \"+ Tilføj anhænger\" (\"Nummerplade\", kompatibilitet, \"Opbygningstype\"). Det samme kan gøres i din browser på my.vecturabook.com.\n\nUden abonnement viser skærmen \"Flåde-abonnement\" og \"Chauffører\": tryk på en chauffør for \"Hent kode\" og \"Send koden til chaufføren\" — en ny chaufførs telefon kommer med i flåden også uden abonnement.\n\nVed en chauffør, der er gået, står \"Forlod flåden\" med tidspunktet i stedet for \"Tilknyttet\".",
      "image": ""
     },
     {
@@ -555,7 +555,7 @@
     {
      "id": "profile",
      "title": "Chaufførprofil",
-     "text": "Navn til rapporter og chaufførens dokumenter: kørekort, pas og ADR-certifikat — med udløbsdatoer og fotos af siderne.\n\n»Grænse og færge«. Knapperne »Grænse« og »Færge« undervejs.\n\n\"Tilslut en flåde med en kode\" — for flådechauffører; \"Flåde\" — for ejere (se afsnittet \"Flåde\").",
+     "text": "Navn til rapporter og chaufførens dokumenter: kørekort, pas og ADR-certifikat — med udløbsdatoer og fotos af siderne.\n\n»Grænse og færge«. Knapperne »Grænse« og »Færge« undervejs.\n\n\"Slut dig til en flåde med en kode\" — for flådechauffører; \"Flåde\" — for ejere (se afsnittet \"Flåde\").",
      "image": "img/da/settings-profile.png"
     },
     {
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Gardintrailer",
+   "title": "Gardin / Kasse",
    "intro": "En gardintrailer transporterer stykgods på paller.",
    "steps": [
     {
      "id": "setup",
      "title": "I vognparken",
-     "text": "Opbygningen \"Gardintrailer\".",
+     "text": "Opbygningen \"Gardin / Kasse\".",
      "image": "img/da/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Optagelse af billeder til genkendelse.",
   "service.splash-tuner": "Indstilling af opstartsskærm.",
   "driving.crossing": "Grænse eller færge under turen: faser med timere, ved tryk."
+ },
+ "video": {
+  "language": "da",
+  "chapters": {
+   "getting-started": {
+    "id": "Peo5DtIQtEU",
+    "t": 0
+   },
+   "shift": {
+    "id": "Peo5DtIQtEU",
+    "t": 151
+   },
+   "trip": {
+    "id": "Peo5DtIQtEU",
+    "t": 243
+   },
+   "driving": {
+    "id": "Peo5DtIQtEU",
+    "t": 478
+   },
+   "refuel": {
+    "id": "Peo5DtIQtEU",
+    "t": 596
+   },
+   "parking": {
+    "id": "Peo5DtIQtEU",
+    "t": 677
+   },
+   "camera": {
+    "id": "Peo5DtIQtEU",
+    "t": 736
+   },
+   "history": {
+    "id": "Peo5DtIQtEU",
+    "t": 806
+   },
+   "report": {
+    "id": "Peo5DtIQtEU",
+    "t": 870
+   },
+   "garage": {
+    "id": "Peo5DtIQtEU",
+    "t": 914
+   },
+   "documents": {
+    "id": "Peo5DtIQtEU",
+    "t": 1057
+   },
+   "maintenance": {
+    "id": "Peo5DtIQtEU",
+    "t": 1130
+   },
+   "address-book": {
+    "id": "Peo5DtIQtEU",
+    "t": 1173
+   },
+   "backup": {
+    "id": "Peo5DtIQtEU",
+    "t": 1235
+   },
+   "online": {
+    "id": "Peo5DtIQtEU",
+    "t": 1286
+   },
+   "settings": {
+    "id": "Peo5DtIQtEU",
+    "t": 1326
+   },
+   "notifications": {
+    "id": "Peo5DtIQtEU",
+    "t": 1454
+   },
+   "diagnostics": {
+    "id": "Peo5DtIQtEU",
+    "t": 1490
+   },
+   "service": {
+    "id": "Peo5DtIQtEU",
+    "t": 1565
+   },
+   "flatbed": {
+    "id": "Peo5DtIQtEU",
+    "t": 1632
+   },
+   "container": {
+    "id": "Peo5DtIQtEU",
+    "t": 1666
+   },
+   "sidelifter": {
+    "id": "Peo5DtIQtEU",
+    "t": 1707
+   },
+   "refrigerated": {
+    "id": "Peo5DtIQtEU",
+    "t": 1734
+   },
+   "curtainsider": {
+    "id": "Peo5DtIQtEU",
+    "t": 1771
+   },
+   "tipper": {
+    "id": "Peo5DtIQtEU",
+    "t": 1797
+   },
+   "fuel-tanker": {
+    "id": "Peo5DtIQtEU",
+    "t": 1818
+   },
+   "tanker": {
+    "id": "Peo5DtIQtEU",
+    "t": 1855
+   },
+   "car-transporter": {
+    "id": "Peo5DtIQtEU",
+    "t": 1881
+   },
+   "lowbed": {
+    "id": "Peo5DtIQtEU",
+    "t": 1914
+   }
+  }
  }
 }

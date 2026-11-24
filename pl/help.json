@@ -505,8 +505,8 @@
    "steps": [
     {
      "id": "join",
-     "title": "Dołącz do floty kodem",
-     "text": "Przy pierwszym uruchomieniu dotknij „Jeżdżę dla floty — wpisz kod”. Później: Ustawienia → „Profil kierowcy” → „Dołącz do floty kodem”.\n\nWpisz kod od kierownika floty i dotknij „Dołącz do floty”. Jeśli kierownik przysłał Ci link (my.vecturabook.com/fleet/join…), po prostu otwórz go w telefonie: aplikacja otworzy się z już wpisanym kodem. Możesz też wkleić cały link w pole „Kod”.\n\nKod działa tylko raz i tylko przez ograniczony czas. Jeśli aplikacja informuje, że kod jest błędny, wygasł lub został już użyty, poproś kierownika floty o nowy.\n\nJeśli telefon jest już w innej flocie, aplikacja najpierw pyta: nowy kod wysyła ostatnie wpisy do tamtej floty i ją opuszcza, a jej dziennik zostaje w telefonie tylko do wglądu. Najpierw zakończ tam kurs i zmianę, inaczej aplikacja powie „Najpierw zakończ bieżący kurs.” albo „Najpierw zakończ zmianę floty.” Bez internetu nic się nie zmienia.",
+     "title": "Dołącz do floty za pomocą kodu",
+     "text": "Przy pierwszym uruchomieniu dotknij „Jeżdżę dla floty — wpisz kod”. Później: Ustawienia → „Profil kierowcy” → „Dołącz do floty za pomocą kodu”.\n\nWpisz kod od kierownika floty i dotknij „Dołącz do floty”. Jeśli kierownik przysłał Ci link (my.vecturabook.com/fleet/join…), po prostu otwórz go w telefonie: aplikacja otworzy się z już wpisanym kodem. Możesz też wkleić cały link w pole „Kod”.\n\nKod działa tylko raz i tylko przez ograniczony czas. Jeśli aplikacja informuje, że kod jest błędny, wygasł lub został już użyty, poproś kierownika floty o nowy.\n\nJeśli telefon jest już w innej flocie, aplikacja najpierw pyta: nowy kod wysyła ostatnie wpisy do tamtej floty i ją opuszcza, a jej dziennik zostaje w telefonie tylko do wglądu. Najpierw zakończ tam kurs i zmianę, inaczej aplikacja powie „Najpierw zakończ bieżący kurs.” albo „Najpierw zakończ zmianę floty.” Bez internetu nic się nie zmienia.",
      "image": ""
     },
     {
@@ -530,13 +530,13 @@
     {
      "id": "owner",
      "title": "Flota dla właściciela",
-     "text": "Dla kierownika floty. Włącz „Właściciel / Najemny” w Ustawienia → „Profil kierowcy”: pojawi się tam wiersz „Flota”.\n\nFlota należy do Twojego konta VecturaBook. Jeśli telefon nie jest zalogowany, ekran pokazuje „Najpierw zaloguj się na swoje konto:” — dotknij „Połącz z VecturaBook” i zaloguj się adresem e-mail swojego konta. Jeśli ekran pokazuje „To konto nie ma floty.”, napisz do nas przez „Opinia / Błąd”, aby otworzyć flotę.\n\nEkran pokazuje „Kierowcy” — każdy z oznaczeniem „Połączony” lub „Jeszcze niepołączony”, ciężarówką, naczepą oraz liczbą dni, tras i tankowań — oraz „Mój park” floty. Poniżej: „Dodaj kierowcę” z polem „Imię kierowcy”, „+ Dodaj ciężarówkę” („Numer rejestracyjny”, „Typ ciężarówki”, „Typ nadwozia”) i „+ Dodaj naczepę” („Numer rejestracyjny”, zgodność, „Typ nadwozia”). To samo można zrobić w przeglądarce na my.vecturabook.com.\n\nKierowca, który odszedł, ma zamiast „Połączony” napis „Opuścił flotę” z godziną.",
+     "text": "Dla kierownika floty. Włącz „Właściciel / Najemny” w Ustawienia → „Profil kierowcy”: pojawi się tam wiersz „Flota”.\n\nFlota należy do Twojego konta VecturaBook. Jeśli telefon nie jest zalogowany, ekran pokazuje „Najpierw zaloguj się na swoje konto:” — dotknij „Połącz z VecturaBook” i zaloguj się adresem e-mail swojego konta. Jeśli konto nie ma floty, ekran proponuje „Utwórz flotę”: wpisz „Nazwa floty” i dotknij „Utwórz flotę” — od razu zaczyna się bezpłatny okres próbny.\n\nEkran pokazuje „Kierowcy” — każdy z oznaczeniem „Połączony” lub „Jeszcze niepołączony”, ciężarówką, naczepą oraz liczbą dni, tras i tankowań — oraz „Mój park” floty. Poniżej: „Dodaj kierowcę” z polem „Imię kierowcy”, „+ Dodaj ciężarówkę” („Numer rejestracyjny”, „Typ ciężarówki”, „Typ nadwozia”) i „+ Dodaj naczepę” („Numer rejestracyjny”, zgodność, „Typ nadwozia”). To samo można zrobić w przeglądarce na my.vecturabook.com.\n\nBez subskrypcji ekran pokazuje „Subskrypcja dla Floty” i „Kierowcy”: dotknij kierowcy, aby użyć „Pobierz kod” i „Wyślij kod kierowcy” — telefon nowego kierowcy dołącza do floty także bez subskrypcji.\n\nKierowca, który odszedł, ma zamiast „Połączony” napis „Opuścił flotę” z godziną.",
      "image": ""
     },
     {
      "id": "owner-driver",
      "title": "Kierowca",
-     "text": "Dotknij kierowcy, aby otworzyć kartę. „Ciężarówka” i „Naczepa”: wybierz z parku floty i dotknij „Zapisz”. Oferowane są tylko naczepy pasujące do wybranej ciężarówki. Telefon kierowcy sam pobiera zmianę; w trakcie trasy — po zakończeniu trasy.\n\n„Pobierz kod” podaje jednorazowy kod z czasem, do kiedy jest ważny. „Wyślij kod kierowcy” wysyła kod i link przez komunikator. Kod pokazuje się tylko raz. Nowy kod przenosi kierowcę na nowy telefon: stary telefon opuszcza flotę.\n\nPoniżej widoczne są „Dni”, „Trasy” i „Tankowania” kierowcy, które dotarły do floty.\n\nKarta kierowcy, który odszedł, pokazuje „Opuścił flotę” z godziną. Nowy kod od Ciebie przywraca kierowcę.",
+     "text": "Dotknij kierowcy, aby otworzyć kartę. „Ciężarówka” i „Naczepa”: wybierz z parku floty i dotknij „Zapisz”. Oferowane są tylko naczepy pasujące do wybranej ciężarówki. Telefon kierowcy sam pobiera zmianę; w trakcie trasy — po zakończeniu trasy.\n\n„Pobierz kod” podaje jednorazowy kod z czasem, do kiedy jest ważny. „Wyślij kod kierowcy” wysyła kod i link przez komunikator. Kod pokazuje się tylko raz. Nowy kod przenosi kierowcę na nowy telefon: stary telefon opuszcza flotę.\n\nPoniżej widoczne są „Zmiany”, „Trasy” i „Tankowania” kierowcy, które dotarły do floty.\n\nKarta kierowcy, który odszedł, pokazuje „Opuścił flotę” z godziną. Nowy kod od Ciebie przywraca kierowcę.",
      "image": ""
     }
    ]
@@ -555,7 +555,7 @@
     {
      "id": "profile",
      "title": "Profil kierowcy",
-     "text": "Imię do raportów i dokumenty kierowcy: prawo jazdy, paszport, certyfikat ADR — z terminami ważności i zdjęciami stron.\n\n„Granica i prom”. Przyciski „Granica” i „Prom” w trasie.\n\n„Dołącz do floty kodem” — dla kierowców floty; „Flota” — dla właścicieli (zob. rozdział „Flota”).",
+     "text": "Imię do raportów i dokumenty kierowcy: prawo jazdy, paszport, certyfikat ADR — z terminami ważności i zdjęciami stron.\n\n„Granica i prom”. Przyciski „Granica” i „Prom” w trasie.\n\n„Dołącz do floty za pomocą kodu” — dla kierowców floty; „Flota” — dla właścicieli (zob. rozdział „Flota”).",
      "image": "img/pl/settings-profile.png"
     },
     {
@@ -827,13 +827,13 @@
   },
   {
    "slug": "curtainsider",
-   "title": "Plandeka",
+   "title": "Firanka / Furgon",
    "intro": "Naczepa plandeka przewozi towar ogólny na paletach.",
    "steps": [
     {
      "id": "setup",
      "title": "W parku",
-     "text": "Nadwozie „Plandeka”.",
+     "text": "Nadwozie „Firanka / Furgon”.",
      "image": "img/pl/curtainsider-setup.png"
     },
     {
@@ -1046,5 +1046,126 @@
   "service.dataset": "Zapisywanie klatek do rozpoznawania.",
   "service.splash-tuner": "Ustawienia ekranu startowego.",
   "driving.crossing": "Granica lub prom w trakcie kursu: etapy z licznikami, przyciskiem."
+ },
+ "video": {
+  "language": "pl",
+  "chapters": {
+   "getting-started": {
+    "id": "9vuYjveQeMg",
+    "t": 0
+   },
+   "shift": {
+    "id": "9vuYjveQeMg",
+    "t": 162
+   },
+   "trip": {
+    "id": "9vuYjveQeMg",
+    "t": 257
+   },
+   "driving": {
+    "id": "9vuYjveQeMg",
+    "t": 504
+   },
+   "refuel": {
+    "id": "9vuYjveQeMg",
+    "t": 642
+   },
+   "parking": {
+    "id": "9vuYjveQeMg",
+    "t": 729
+   },
+   "camera": {
+    "id": "9vuYjveQeMg",
+    "t": 794
+   },
+   "history": {
+    "id": "9vuYjveQeMg",
+    "t": 872
+   },
+   "report": {
+    "id": "9vuYjveQeMg",
+    "t": 946
+   },
+   "garage": {
+    "id": "9vuYjveQeMg",
+    "t": 993
+   },
+   "documents": {
+    "id": "9vuYjveQeMg",
+    "t": 1152
+   },
+   "maintenance": {
+    "id": "9vuYjveQeMg",
+    "t": 1231
+   },
+   "address-book": {
+    "id": "9vuYjveQeMg",
+    "t": 1276
+   },
+   "backup": {
+    "id": "9vuYjveQeMg",
+    "t": 1343
+   },
+   "online": {
+    "id": "9vuYjveQeMg",
+    "t": 1397
+   },
+   "settings": {
+    "id": "9vuYjveQeMg",
+    "t": 1440
+   },
+   "notifications": {
+    "id": "9vuYjveQeMg",
+    "t": 1569
+   },
+   "diagnostics": {
+    "id": "9vuYjveQeMg",
+    "t": 1610
+   },
+   "service": {
+    "id": "9vuYjveQeMg",
+    "t": 1687
+   },
+   "flatbed": {
+    "id": "9vuYjveQeMg",
+    "t": 1762
+   },
+   "container": {
+    "id": "9vuYjveQeMg",
+    "t": 1799
+   },
+   "sidelifter": {
+    "id": "9vuYjveQeMg",
+    "t": 1842
+   },
+   "refrigerated": {
+    "id": "9vuYjveQeMg",
+    "t": 1878
+   },
+   "curtainsider": {
+    "id": "9vuYjveQeMg",
+    "t": 1922
+   },
+   "tipper": {
+    "id": "9vuYjveQeMg",
+    "t": 1948
+   },
+   "fuel-tanker": {
+    "id": "9vuYjveQeMg",
+    "t": 1975
+   },
+   "tanker": {
+    "id": "9vuYjveQeMg",
+    "t": 2016
+   },
+   "car-transporter": {
+    "id": "9vuYjveQeMg",
+    "t": 2043
+   },
+   "lowbed": {
+    "id": "9vuYjveQeMg",
+    "t": 2081
+   }
+  }
  }
 }
