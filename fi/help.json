@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Avolava",
+   "title": "Tasolava / Avolava",
    "intro": "Avolava kuljettaa kappaletavaraa ja ylimittaista lastia.",
    "steps": [
     {
      "id": "setup",
      "title": "Hallissa",
-     "text": "Valitse korityypiksi ”Avolava” ja anna lavan pituus.",
+     "text": "Valitse korityypiksi ”Tasolava / Avolava” ja anna lavan pituus.",
      "image": "img/fi/flatbed-setup.png"
     },
     {

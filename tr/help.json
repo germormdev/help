@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Platform",
+   "title": "Platform / Açık kasa",
    "intro": "Platform parça yük ve gabari dışı yük taşır.",
    "steps": [
     {
      "id": "setup",
      "title": "Filoda",
-     "text": "Kasa tipini “Platform” olarak ve platform uzunluğunu belirtin.",
+     "text": "Kasa tipini “Platform / Açık kasa” olarak ve platform uzunluğunu belirtin.",
      "image": "img/tr/flatbed-setup.png"
     },
     {

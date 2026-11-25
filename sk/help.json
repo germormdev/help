@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Plošina",
+   "title": "Plošina / Valník",
    "intro": "Plošina vozí všeobecný a nadrozmerný náklad.",
    "steps": [
     {
      "id": "setup",
      "title": "V parku",
-     "text": "Nastavte nadstavbu „Plošina“ a dĺžku plošiny.",
+     "text": "Nastavte nadstavbu „Plošina / Valník“ a dĺžku plošiny.",
      "image": "img/sk/flatbed-setup.png"
     },
     {

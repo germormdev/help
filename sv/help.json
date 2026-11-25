@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Flak",
+   "title": "Plattform / Flak",
    "intro": "Ett flak transporterar styckegods och skrymmande last.",
    "steps": [
     {
      "id": "setup",
      "title": "I fordonsparken",
-     "text": "Välj karosstypen ”Flak” och ange flaklängden.",
+     "text": "Välj karosstypen ”Plattform / Flak” och ange flaklängden.",
      "image": "img/sv/flatbed-setup.png"
     },
     {

@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Plošina",
+   "title": "Plošina / Valník",
    "intro": "Plošina vozí obecný a nadrozměrný náklad.",
    "steps": [
     {
      "id": "setup",
      "title": "V garáži",
-     "text": "Zvolte nástavbu „Plošina“ a zadejte délku plošiny.",
+     "text": "Zvolte nástavbu „Plošina / Valník“ a zadejte délku plošiny.",
      "image": "img/cs/flatbed-setup.png"
     },
     {

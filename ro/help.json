@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Platformă",
+   "title": "Platformă / Cu obloane",
    "intro": "Platforma transportă marfă generală și marfă agabaritică.",
    "steps": [
     {
      "id": "setup",
      "title": "În parc",
-     "text": "Alegeți caroseria „Platformă” și introduceți lungimea platformei.",
+     "text": "Alegeți caroseria „Platformă / Cu obloane” și introduceți lungimea platformei.",
      "image": "img/ro/flatbed-setup.png"
     },
     {

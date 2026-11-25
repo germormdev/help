@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Plataforma",
+   "title": "Plataforma / Caja abierta",
    "intro": "La plataforma transporta mercancía general y mercancía especial.",
    "steps": [
     {
      "id": "setup",
      "title": "En el parque",
-     "text": "Elija la carrocería «Plataforma» e indique la «Longitud de la plataforma».",
+     "text": "Elija la carrocería «Plataforma / Caja abierta» e indique la «Longitud de la plataforma».",
      "image": "img/es/flatbed-setup.png"
     },
     {

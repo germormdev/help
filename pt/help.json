@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Plataforma",
+   "title": "Plataforma / Caixa aberta",
    "intro": "A plataforma transporta carga geral e carga especial.",
    "steps": [
     {
      "id": "setup",
      "title": "Na frota",
-     "text": "Indique a carroçaria «Plataforma» e o comprimento da plataforma.",
+     "text": "Indique a carroçaria «Plataforma / Caixa aberta» e o comprimento da plataforma.",
      "image": "img/pt/flatbed-setup.png"
     },
     {

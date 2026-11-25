@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Platforma",
+   "title": "Platforma / Ar bortiem",
    "intro": "Platforma ved gabala kravu un negabarītu.",
    "steps": [
     {
      "id": "setup",
      "title": "Garāžā",
-     "text": "Norādiet virsbūvi «Platforma» un platformas garumu.",
+     "text": "Norādiet virsbūvi «Platforma / Ar bortiem» un platformas garumu.",
      "image": "img/lv/flatbed-setup.png"
     },
     {

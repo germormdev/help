@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Plan",
+   "title": "Plan / Lemmeplan",
    "intro": "En planbil frakter stykkgods og overdimensjonert last.",
    "steps": [
     {
      "id": "setup",
      "title": "I vognparken",
-     "text": "Velg påbygget «Plan» og oppgi «Planlengde».",
+     "text": "Velg påbygget «Plan / Lemmeplan» og oppgi «Planlengde».",
      "image": "img/no/flatbed-setup.png"
     },
     {

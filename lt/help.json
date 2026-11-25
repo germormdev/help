@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Platforma",
+   "title": "Platforma / Bortinis",
    "intro": "Platforma veža vienetinį ir negabaritinį krovinį.",
    "steps": [
     {
      "id": "setup",
      "title": "Garaže",
-     "text": "Nurodykite kėbulą „Platforma“ ir platformos ilgį.",
+     "text": "Nurodykite kėbulą „Platforma / Bortinis“ ir platformos ilgį.",
      "image": "img/lt/flatbed-setup.png"
     },
     {

@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Lad",
+   "title": "Fladvogn / Lad",
    "intro": "Et lad transporterer stykgods og overdimensioneret last.",
    "steps": [
     {
      "id": "setup",
      "title": "I vognparken",
-     "text": "Vælg opbygningen \"Lad\" og angiv ladlængden.",
+     "text": "Vælg opbygningen \"Fladvogn / Lad\" og angiv ladlængden.",
      "image": "img/da/flatbed-setup.png"
     },
     {

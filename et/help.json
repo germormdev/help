@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Madelveok",
+   "title": "Madelveok / Pooridega",
    "intro": "Madelveok veab tükikaupa ja gabariidivälist veost.",
    "steps": [
     {
      "id": "setup",
      "title": "Garaažis",
-     "text": "Määrake keretüübiks „Madelveok“ ja sisestage madeli pikkus.",
+     "text": "Määrake keretüübiks „Madelveok / Pooridega“ ja sisestage madeli pikkus.",
      "image": "img/et/flatbed-setup.png"
     },
     {

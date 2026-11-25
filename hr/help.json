@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Platforma",
+   "title": "Platforma / Sa stranicama",
    "intro": "Platforma prevozi opći i izvangabaritni teret.",
    "steps": [
     {
      "id": "setup",
      "title": "U voznom parku",
-     "text": "Odaberite nadogradnju „Platforma” i unesite duljinu platforme.",
+     "text": "Odaberite nadogradnju „Platforma / Sa stranicama” i unesite duljinu platforme.",
      "image": "img/hr/flatbed-setup.png"
     },
     {

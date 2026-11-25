@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Plató",
+   "title": "Plató / Oldalfalas",
    "intro": "A platós jármű darabárut és túlméretes rakományt szállít.",
    "steps": [
     {
      "id": "setup",
      "title": "A parkban",
-     "text": "Adja meg a „Plató” felépítményt és a platóhosszt.",
+     "text": "Adja meg a „Plató / Oldalfalas” felépítményt és a platóhosszt.",
      "image": "img/hu/flatbed-setup.png"
     },
     {

@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Platform",
+   "title": "Platform / Open bak",
    "intro": "Een platform vervoert stukgoed en buitenmaatse lading.",
    "steps": [
     {
      "id": "setup",
      "title": "In het wagenpark",
-     "text": "Kies het carrosserietype „Platform” en voer de lengte van de oplegger in.",
+     "text": "Kies het carrosserietype „Platform / Open bak” en voer de lengte van de oplegger in.",
      "image": "img/nl/flatbed-setup.png"
     },
     {

@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Pritsche",
+   "title": "Plattform / Pritsche",
    "intro": "Die Pritsche transportiert Stückgut und Sperrgut.",
    "steps": [
     {
      "id": "setup",
      "title": "Im Fuhrpark",
-     "text": "Wählen Sie die Aufbauart „Pritsche“ und geben Sie die „Pritschenlänge“ an.",
+     "text": "Wählen Sie die Aufbauart „Plattform / Pritsche“ und geben Sie die „Pritschenlänge“ an.",
      "image": "img/de/flatbed-setup.png"
     },
     {

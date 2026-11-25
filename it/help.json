@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Pianale",
+   "title": "Pianale / Cassonato",
    "intro": "Il pianale trasporta merce generica e carichi fuori sagoma.",
    "steps": [
     {
      "id": "setup",
      "title": "Nel parco mezzi",
-     "text": "Indica la carrozzeria «Pianale» e la «Lunghezza del pianale».",
+     "text": "Indica la carrozzeria «Pianale / Cassonato» e la «Lunghezza del pianale».",
      "image": "img/it/flatbed-setup.png"
     },
     {

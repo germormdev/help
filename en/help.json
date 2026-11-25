@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Flatbed",
+   "title": "Flatbed / Dropside",
    "intro": "A flatbed carries general and oversized cargo.",
    "steps": [
     {
      "id": "setup",
      "title": "In Garage",
-     "text": "Select the \"Flatbed\" body type and enter the \"Flatbed length\".",
+     "text": "Select the \"Flatbed / Dropside\" body type and enter the \"Flatbed length\".",
      "image": "img/en/flatbed-setup.png"
     },
     {

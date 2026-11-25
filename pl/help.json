@@ -727,13 +727,13 @@
   },
   {
    "slug": "flatbed",
-   "title": "Platforma",
+   "title": "Platforma / Skrzyniowy",
    "intro": "Platforma przewozi towar ogólny i ładunki ponadgabarytowe.",
    "steps": [
     {
      "id": "setup",
      "title": "W parku",
-     "text": "Wybierz nadwozie „Platforma” i podaj długość platformy.",
+     "text": "Wybierz nadwozie „Platforma / Skrzyniowy” i podaj długość platformy.",
      "image": "img/pl/flatbed-setup.png"
     },
     {
