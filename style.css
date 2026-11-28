@@ -9,3 +9,5 @@ ul.toc li{border-bottom:1px solid var(--line)}ul.toc a{display:block;padding:10p
 nav.top{display:flex;gap:12px;flex-wrap:wrap;font-size:.9em;color:var(--muted)}.langs a{display:inline-block;margin-block:4px;
 margin-inline-end:8px}nav.pager{display:flex;justify-content:space-between;gap:16px;margin:28px 0 8px}
 nav.pager a{text-decoration:none}nav.pager .next{margin-inline-start:auto;text-align:end}
+@media print{:root{--bg:#fff;--fg:#000;--muted:#444;--card:#fff;--line:#bbb}nav.top,nav.pager,p.pdf,p.video{display:none!important}main{max-width:none;padding:0}
+.step{break-inside:avoid}}

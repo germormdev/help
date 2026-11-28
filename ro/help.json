@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "ro",
- "revision": "2026-11-15",
+ "revision": "2026-11-28",
  "sections": [
   {
    "slug": "getting-started",
@@ -537,6 +537,61 @@
      "id": "owner-driver",
      "title": "Șofer",
      "text": "Apăsați pe un șofer pentru a deschide cardul. „Camion” și „Remorcă”: alegeți din parcul flotei și apăsați „Salvează”. Sunt propuse doar remorcile care se potrivesc cu camionul ales. Telefonul șoferului preia modificarea de la sine; în timpul unei curse — după încheierea cursei.\n\n„Obține cod” generează un cod de unică folosință cu ora până la care este valabil. „Trimite codul șoferului” trimite codul și linkul printr-o aplicație de mesagerie. Codul este afișat o singură dată. Un cod nou transferă șoferul pe un telefon nou: vechiul telefon părăsește flota.\n\nDedesubt se află „Ture”, „Curse” și „Alimentări” ale șoferului care au ajuns la flotă.\n\nFișa unui șofer care a plecat arată „A părăsit flota” cu ora. Un cod nou de la dumneavoastră îl aduce înapoi.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fleet-company",
+   "title": "Flotă pentru o companie de transport",
+   "intro": "Ghid pentru proprietarul firmei: cum să creați o flotă, să adăugați camioane și șoferi, să conectați telefoanele șoferilor și ce vedeți apoi în aplicație și pe my.vecturabook.com/fleet.html. Șoferii o folosesc gratuit; plătește doar proprietarul flotei, primele 30 de zile sunt gratuite.",
+   "steps": [
+    {
+     "id": "start",
+     "title": "De ce aveți nevoie",
+     "text": "Proprietarul are nevoie de un cont VecturaBook (o adresă de e-mail) și de aplicația VecturaBook pe telefon sau de un browser. Flota este aceeași în aplicație și pe my.vecturabook.com/fleet.html: camioanele, șoferii și codurile pot fi adăugate în ambele locuri. Cumpărarea abonamentului și trimiterea codului printr-o aplicație de mesagerie sunt posibile doar în aplicație.\n\nȘoferul are nevoie doar de aplicația VecturaBook pe telefon și de un cod de la dumneavoastră. Șoferul nu are nevoie de un cont propriu pentru flotă.\n\nUn cont — o flotă. Plătește doar proprietarul; șoferii nu plătesc niciodată, iar abonamentul nu le oprește activitatea.",
+     "image": ""
+    },
+    {
+     "id": "create",
+     "title": "Creează o flotă",
+     "text": "În aplicație: Setări → „Profilul șoferului” → activați „Proprietar / Angajat”. Mai jos apare rândul „Flotă” — apăsați-l. (Același comutator adaugă în cursă câmpul „Preț”.)\n\nDacă pe telefon nu sunteți conectat, ecranul arată „Mai întâi conectați-vă la contul dvs.:” — apăsați „Conectare la VecturaBook” și conectați-vă cu adresa de e-mail a contului dumneavoastră.\n\nEcranul „Creează o flotă”: introduceți „Numele flotei” și apăsați „Creează o flotă”. Rândul de deasupra butonului vă spune ce urmează: „Probă gratuită: 30 zile.” sau „Acest cont a avut deja o probă gratuită: noua flotă necesită un abonament din prima zi.”\n\nÎn browser: conectați-vă pe my.vecturabook.com, deschideți „Setări” și apăsați „Creează o flotă” — se deschide același formular pe my.vecturabook.com/fleet.html. După ce flota este creată, acest rând se numește „Flotă” și duce la pagina acesteia.",
+     "image": ""
+    },
+    {
+     "id": "garage",
+     "title": "Camioane și remorci",
+     "text": "„Parcul meu” al flotei — camioanele și remorcile pe care le conduc șoferii dumneavoastră.\n\n„+ Adaugă camion”: „Număr de înmatriculare”, „Tipul vehiculului” — „Cap tractor” sau „Camion”, iar la camion și „Tip de caroserie”. „+ Adaugă remorcă”: „Număr de înmatriculare”, compatibilitate — „Semiremorcă” sau „Remorcă rigidă” — și „Tip de caroserie”.\n\nAbonamentul se calculează după numărul de camioane din parcul flotei; remorcile nu se numără. Un camion nu poate fi șters din parcul flotei, de aceea adăugați doar camioanele care lucrează efectiv.",
+     "image": ""
+    },
+    {
+     "id": "drivers",
+     "title": "Șoferi",
+     "text": "În partea de jos a ecranului „Flotă”: introduceți „Numele șoferului” și apăsați „Adaugă șofer” — se deschide fișa șoferului.\n\nÎn fișă alegeți „Camion” și „Remorcă” din parcul flotei și apăsați „Salvează”. Sunt propuse doar remorcile care se potrivesc cu camionul ales. Pe my.vecturabook.com/fleet.html camionul și remorca se aleg direct în rândul șoferului și se salvează imediat.\n\nCamionul și remorca pot fi schimbate în orice moment: telefonul șoferului preia modificarea de la sine, iar în timpul unei curse — după încheierea cursei.",
+     "image": ""
+    },
+    {
+     "id": "link",
+     "title": "Conectarea telefonului șoferului",
+     "text": "În fișa șoferului apăsați „Obține cod”. Codul de 8 caractere este valabil 72 de ore și o singură dată; este afișat o singură dată. „Trimite codul șoferului” trimite codul și linkul printr-o aplicație de mesagerie. Pe my.vecturabook.com/fleet.html — butonul „Obține cod” se află în rândul șoferului, iar codul și linkul sunt afișate sub listă.\n\nȘoferul instalează VecturaBook și la prima pornire apasă „Conduc pentru o flotă — introdu codul” (mai târziu: Setări → „Profilul șoferului” → „Intră într-o flotă cu un cod”), introduce codul și apasă „Intră în flotă”. Se poate și deschide pur și simplu linkul pe telefon — codul se va completa automat. Pe telefon apare jurnalul flotei cu camionul și remorca pe care le-ați atribuit; „Jurnalul meu” al șoferului rămâne al lui și nu ajunge la flotă.\n\nÎn listă, șoferul are „Conectat” sau „Încă neconectat”. Dacă a expirat codul sau s-a pierdut — apăsați „Obține cod” din nou: un cod nou îl anulează pe cel vechi. Un telefon nou al șoferului necesită tot un cod nou; vechiul telefon părăsește atunci flota.",
+     "image": ""
+    },
+    {
+     "id": "watch",
+     "title": "Ce vede proprietarul",
+     "text": "Lista „Șoferi”: pentru fiecare șofer apare „Conectat”, „Încă neconectat” sau „A părăsit flota” și ora, camionul și remorca sa și câte „Ture”, „Curse” și „Alimentări” au ajuns la flotă. Apăsați pe un șofer — în fișă se văd turele, cursele și alimentările lui.\n\nPe my.vecturabook.com/fleet.html — aceleași informații, sub formă de tabele: ture (început și sfârșit), curse (plecare, destinație, început, sosire, așteptare, marfă, camion și remorcă), alimentări (oră, litri, combustibil — motorină, AdBlue sau agregatul remorcii, kilometraj, camion).\n\nÎnregistrările sosesc atunci când telefonul șoferului are internet: aplicația le trimite de la sine, iar „Trimite la flotă acum” din „Profilul șoferului” le trimite imediat. Un șofer care a părăsit flota rămâne în listă cu mențiunea „A părăsit flota”; tot ce a trimis rămâne în flotă. Un cod nou de la dumneavoastră îl aduce înapoi.",
+     "image": ""
+    },
+    {
+     "id": "subscription",
+     "title": "Perioadă de probă și abonament",
+     "text": "O flotă nouă funcționează gratuit timp de 30 de zile; în perioada de probă pot exista oricâte camioane. În partea de sus a ecranului „Flotă” și a paginii flotei se vede starea: „Probă gratuită până la … · zile rămase: …”, iar după plată — „Activ până la … · zile rămase: …”.\n\nCumpărare: pe ecranul „Flotă” apăsați „Abonament Flotă” → „Alegeți un plan”: „Până la 3 camioane”, „Până la 5 camioane” sau „Până la 10 camioane” pentru „1 lună”, „6 luni” sau „1 an”. Planurile mai mici decât numărul de camioane din parcul flotei nu sunt oferite. Prețul este afișat în rândul planului, direct de magazin; prețurile în euro sunt pe vecturabook.com. Plătiți în aplicație din Google Play pe Android sau din App Store pe iPhone. În versiunea din RuStore: „Abonamentul Flotă îl puteți cumpăra în versiunea din Google Play sau App Store.” Pe my.vecturabook.com abonamentul este vizibil, dar nu poate fi cumpărat de acolo.\n\nMai mult de 10 camioane — scrieți la support@vecturabook.com. Abonamentul este cumpărat, dar telefonul este nou — „Restaurați achizițiile”. Anularea abonamentului — în Google Play sau App Store, de unde a fost cumpărat.",
+     "image": ""
+    },
+    {
+     "id": "unpaid",
+     "title": "Dacă abonamentul a expirat",
+     "text": "Fără abonament, ecranul arată „Ecranele pentru flotă necesită un abonament. Șoferii nu sunt blocați niciodată: ei continuă să lucreze.” sau „Abonament expirat · ultima zi …”. Sunt vizibile doar „Abonament Flotă” și „Șoferi” cu „Obține cod” — astfel încât telefonul nou al unui șofer să poată intra în flotă și fără plată.\n\nȘoferii continuă să lucreze ca de obicei, iar turele, cursele și alimentările lor continuă să sosească la flotă. După plată, ecranele flotei se deschid din nou.\n\nMai multe camioane decât acoperă planul: „Flota are … camioane, planul acoperă până la …. Alegeți un plan mai mare.”",
      "image": ""
     }
    ]

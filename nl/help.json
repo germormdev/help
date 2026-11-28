@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "nl",
- "revision": "2026-11-15",
+ "revision": "2026-11-28",
  "sections": [
   {
    "slug": "getting-started",
@@ -537,6 +537,61 @@
      "id": "owner-driver",
      "title": "Chauffeur",
      "text": "Tik op een chauffeur om de kaart te openen. „Truck” en „Aanhanger”: kies uit het wagenpark van de vloot en tik op „Opslaan”. Alleen aanhangers die bij de gekozen truck passen, worden aangeboden. De telefoon van de chauffeur neemt de wijziging vanzelf over; tijdens een rit — na afloop van de rit.\n\n„Code ophalen” geeft een eenmalige code met de tijd tot wanneer deze geldig is. „Code naar de chauffeur sturen” verstuurt de code en de link via een messenger. De code wordt slechts één keer getoond. Een nieuwe code verplaatst de chauffeur naar een nieuwe telefoon: de oude telefoon verlaat de vloot.\n\nDaaronder staan de „Diensten”, „Ritten” en „Tankbeurten” van de chauffeur die de vloot hebben bereikt.\n\nDe kaart van een chauffeur die is vertrokken toont „Heeft de vloot verlaten” met de tijd. Een nieuwe code van u haalt de chauffeur terug.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fleet-company",
+   "title": "Vloot voor een transportbedrijf",
+   "intro": "Handleiding voor de bedrijfseigenaar: hoe u een vloot aanmaakt, trucks en chauffeurs toevoegt, de telefoons van chauffeurs koppelt en wat u daarna ziet in de app en op my.vecturabook.com/fleet.html. Chauffeurs gebruiken het gratis; alleen de vlooteigenaar betaalt, en de eerste 30 dagen zijn gratis.",
+   "steps": [
+    {
+     "id": "start",
+     "title": "Wat u nodig hebt",
+     "text": "Voor de eigenaar: een VecturaBook-account (een e-mailadres) en de VecturaBook-app op een telefoon, of een browser. De vloot is hetzelfde in de app en op my.vecturabook.com/fleet.html: trucks, chauffeurs en codes kunnen op beide plekken worden toegevoegd. Een abonnement kopen en een code via een messenger versturen kan alleen in de app.\n\nVoor de chauffeur: alleen de VecturaBook-app op de telefoon en een code van u. De chauffeur heeft voor de vloot geen eigen account nodig.\n\nEén account — één vloot. Alleen de eigenaar betaalt; chauffeurs betalen nooit, en het abonnement legt hun werk nooit stil.",
+     "image": ""
+    },
+    {
+     "id": "create",
+     "title": "Vloot aanmaken",
+     "text": "In de app: Instellingen → „Chauffeursprofiel” → schakel „Eigenaar / In loondienst” in. Daaronder verschijnt de regel „Vloot” — tik erop. (Dezelfde schakelaar voegt bij de rit het veld „Prijs” toe.)\n\nAls de telefoon niet is ingelogd, toont het scherm „Log eerst in op je account:” — tik op „Verbinden met VecturaBook” en log in met het e-mailadres van uw account.\n\nHet scherm „Vloot aanmaken”: vul de „Naam van de vloot” in en tik op „Vloot aanmaken”. De regel boven de knop geeft aan wat er gebeurt: „Gratis proefperiode: 30 dagen.” of „Dit account had al een gratis proefperiode: de nieuwe vloot heeft vanaf de eerste dag een abonnement nodig.”\n\nIn een browser: log in op my.vecturabook.com, open „Instellingen” en tik op „Vloot aanmaken” — hetzelfde formulier opent op my.vecturabook.com/fleet.html. Zodra de vloot is aangemaakt, heet deze regel „Vloot” en leidt deze naar de pagina ervan.",
+     "image": ""
+    },
+    {
+     "id": "garage",
+     "title": "Trucks en aanhangers",
+     "text": "Het „Wagenpark” van de vloot bevat de trucks en aanhangers waarmee uw chauffeurs rijden.\n\n„+ Truck toevoegen”: „Kenteken”, „Voertuigtype” — „Trekker” of „Bakwagen”, en bij een bakwagen ook „Carrosserietype”. „+ Aanhanger toevoegen”: „Kenteken”, compatibiliteit — „Oplegger” of „Aanhangwagen” — en „Carrosserietype”.\n\nHet abonnement telt het aantal trucks in het wagenpark van de vloot; aanhangers worden niet meegeteld. Een truck kan niet worden verwijderd uit het wagenpark van de vloot, voeg daarom alleen trucks toe die daadwerkelijk werken.",
+     "image": ""
+    },
+    {
+     "id": "drivers",
+     "title": "Chauffeurs",
+     "text": "Onderaan het scherm „Vloot”: vul de „Naam van de chauffeur” in en tik op „Chauffeur toevoegen” — de kaart van de chauffeur opent.\n\nKies in de kaart de „Truck” en de „Aanhanger” uit het wagenpark van de vloot en tik op „Opslaan”. Alleen aanhangers die bij de gekozen truck passen, worden aangeboden. Op my.vecturabook.com/fleet.html worden de truck en aanhanger direct in de regel van de chauffeur gekozen en meteen opgeslagen.\n\nU kunt de truck en aanhanger op elk moment wijzigen: de telefoon van de chauffeur neemt de wijziging vanzelf over, en tijdens een rit — na afloop van de rit.",
+     "image": ""
+    },
+    {
+     "id": "link",
+     "title": "Telefoon van de chauffeur koppelen",
+     "text": "Tik in de kaart van de chauffeur op „Code ophalen”. De code van 8 tekens is 72 uur geldig en slechts één keer bruikbaar; deze wordt maar één keer getoond. „Code naar de chauffeur sturen” verstuurt de code en een link via een messenger. Op my.vecturabook.com/fleet.html staat de knop „Code ophalen” in de regel van de chauffeur; de code en link worden onder de lijst getoond.\n\nDe chauffeur installeert VecturaBook en tikt bij de eerste start op „Ik rijd voor een vloot — code invoeren” (later: Instellingen → „Chauffeursprofiel” → „Met een code lid worden van een vloot”), voert de code in en tikt op „Lid worden van de vloot”. U kunt ook gewoon de link op de telefoon openen — de code wordt dan vanzelf ingevuld. Op de telefoon verschijnt het vlootlogboek met de truck en aanhanger die u hebt toegewezen; „Mijn logboek” van de chauffeur blijft van hemzelf en gaat nooit naar de vloot.\n\nIn de lijst staat bij de chauffeur „Gekoppeld” of „Nog niet gekoppeld”. Is de code verlopen of kwijtgeraakt, tik dan nogmaals op „Code ophalen”: een nieuwe code maakt de oude ongeldig. Een nieuwe telefoon voor de chauffeur werkt ook met een nieuwe code; de oude telefoon verlaat daarbij de vloot.",
+     "image": ""
+    },
+    {
+     "id": "watch",
+     "title": "Wat de eigenaar ziet",
+     "text": "De lijst „Chauffeurs”: bij elke chauffeur „Gekoppeld”, „Nog niet gekoppeld” of „Heeft de vloot verlaten” met het tijdstip, zijn truck en aanhanger en hoeveel „Diensten”, „Ritten” en „Tankbeurten” de vloot hebben bereikt. Tik op een chauffeur — de kaart toont zijn diensten, ritten en tankbeurten.\n\nOp my.vecturabook.com/fleet.html — hetzelfde, in tabellen: diensten (begin en einde), ritten (vertrek, bestemming, begin, aankomst, wachten, lading, truck en aanhanger), tankbeurten (tijd, liters, brandstof — diesel, AdBlue of de aanhangerunit, kilometerstand, truck).\n\nRegistraties komen binnen zodra de telefoon van de chauffeur internet heeft: de app verstuurt ze vanzelf, en „Nu naar de vloot sturen” in „Chauffeursprofiel” verstuurt ze meteen. Een chauffeur die de vloot heeft verlaten, blijft in de lijst staan met de vermelding „Heeft de vloot verlaten”; alles wat hij heeft verstuurd, blijft in de vloot. Een nieuwe code van u haalt hem weer terug.",
+     "image": ""
+    },
+    {
+     "id": "subscription",
+     "title": "Proefperiode en abonnement",
+     "text": "Een nieuwe vloot werkt 30 dagen gratis; tijdens de proefperiode kan er een onbeperkt aantal trucks zijn. Bovenaan het scherm „Vloot” en de vlootpagina staat de status: „Gratis proefperiode tot … · resterende dagen: …”, na betaling — „Actief tot … · resterende dagen: …”.\n\nKopen: tik op het scherm „Vloot” op „Vloot-abonnement” → „Kies een abonnement”: „Tot 3 trucks”, „Tot 5 trucks” of „Tot 10 trucks” voor „1 maand”, „6 maanden” of „1 jaar”. Abonnementen die kleiner zijn dan het aantal trucks in het wagenpark van de vloot worden niet aangeboden. De prijs staat in de regel van het abonnement en wordt getoond door de store; prijzen in euro's staan op vecturabook.com. U betaalt in de app via Google Play op Android of via de App Store op de iPhone. In de versie uit RuStore: „Het vlootabonnement koop je in de versie uit Google Play of de App Store.” Op my.vecturabook.com is het abonnement te zien, maar u kunt het daar niet kopen.\n\nMeer dan 10 trucks — mail naar support@vecturabook.com. Abonnement gekocht maar de telefoon is nieuw — „Aankopen herstellen”. Het abonnement opzeggen — in Google Play of de App Store, waar het gekocht is.",
+     "image": ""
+    },
+    {
+     "id": "unpaid",
+     "title": "Als het abonnement is verlopen",
+     "text": "Zonder abonnement toont het scherm „Voor de vlootfuncties is een abonnement vereist. Chauffeurs worden nooit geblokkeerd: ze blijven doorwerken.” of „Abonnement verlopen · laatste dag …”. Alleen „Vloot-abonnement” en „Chauffeurs” met „Code ophalen” zijn zichtbaar — zodat een nieuwe telefoon van een chauffeur ook zonder betaling lid kan worden van de vloot.\n\nChauffeurs blijven gewoon doorwerken en hun diensten, ritten en tankbeurten blijven binnenkomen in de vloot. Na betaling zijn de schermen van de vloot weer geopend.\n\nMeer trucks dan het abonnement dekt: „De vloot heeft … trucks, het abonnement dekt maximaal …. Kies een groter abonnement.”",
      "image": ""
     }
    ]

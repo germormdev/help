@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "lt",
- "revision": "2026-11-15",
+ "revision": "2026-11-28",
  "sections": [
   {
    "slug": "getting-started",
@@ -537,6 +537,61 @@
      "id": "owner-driver",
      "title": "Vairuotojas",
      "text": "Paspauskite vairuotoją, kad atidarytumėte kortelę. „Sunkvežimis“ ir „Priekaba“: pasirinkite iš autoparko garažo ir paspauskite „Išsaugoti“. Siūlomos tik tos priekabos, kurios tinka pasirinktam sunkvežimiui. Vairuotojo telefonas pakeitimą perima pats; reiso metu — pasibaigus reisui.\n\n„Gauti kodą“ suteikia vienkartinį kodą su laiku, iki kada jis galioja. „Siųsti kodą vairuotojui“ išsiunčia kodą ir nuorodą per susirašinėjimo programėlę. Kodas rodomas tik vieną kartą. Naujas kodas perkelia vairuotoją į naują telefoną: senasis telefonas palieka autoparką.\n\nŽemiau pateikiamos vairuotojo „Pamainos“, „Reisai“ ir „Pildymai“, pasiekę autoparką.\n\nIšėjusio vairuotojo kortelėje rodoma „Paliko autoparką“ ir laikas. Naujas jūsų kodas vairuotoją sugrąžina.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fleet-company",
+   "title": "Autoparkas transporto įmonei",
+   "intro": "Vadovas įmonės savininkui: kaip sukurti autoparką, pridėti sunkvežimius ir vairuotojus, susieti vairuotojų telefonus ir ką po to matote programoje bei adresu my.vecturabook.com/fleet.html. Vairuotojai dirba nemokamai; moka tik autoparko savininkas, pirmos 30 dienų — nemokamai.",
+   "steps": [
+    {
+     "id": "start",
+     "title": "Ko reikia",
+     "text": "Savininkui — VecturaBook paskyra (el. pašto adresas) ir programa VecturaBook telefone arba naršyklė. Autoparkas yra tas pats programoje ir adresu my.vecturabook.com/fleet.html: sunkvežimius, vairuotojus ir kodus galima kurti ir ten, ir ten. Įsigyti prenumeratą ir išsiųsti kodą per susirašinėjimo programėlę — tik programoje.\n\nVairuotojui — tik programa VecturaBook telefone ir kodas iš jūsų. Savo paskyros autoparkui vairuotojui nereikia.\n\nViena paskyra — vienas autoparkas. Moka tik savininkas; vairuotojai nemoka niekada, ir prenumerata jų darbo nestabdo.",
+     "image": ""
+    },
+    {
+     "id": "create",
+     "title": "Sukurti autoparką",
+     "text": "Programoje: Nustatymai → „Vairuotojo profilis“ → įjunkite „Savininkas / Samdomas“. Žemiau atsiras eilutė „Autoparkas“ — paspauskite ją. (Tas pats jungiklis reise prideda lauką „Kaina“.)\n\nJei telefone neprisijungta, ekrane rodoma „Pirmiausia prisijunkite prie savo paskyros:“ — paspauskite „Prisijungti prie VecturaBook“ ir prisijunkite su savo paskyros el. pašto adresu.\n\nEkranas „Sukurti autoparką“: įveskite „Autoparko pavadinimas“ ir paspauskite „Sukurti autoparką“. Eilutė virš mygtuko nurodo, kas bus: „Nemokamas bandomasis laikotarpis: 30 d.“ arba „Ši paskyra jau turėjo nemokamą bandomąjį laikotarpį: naujam autoparkui prenumerata reikalinga nuo pirmos dienos.“\n\nNaršyklėje: prisijunkite adresu my.vecturabook.com, atidarykite „Nustatymai“ ir paspauskite „Sukurti autoparką“ — atsidarys ta pati forma adresu my.vecturabook.com/fleet.html. Sukūrus autoparką, ši eilutė vadinasi „Autoparkas“ ir veda į jo puslapį.",
+     "image": ""
+    },
+    {
+     "id": "garage",
+     "title": "Sunkvežimiai ir priekabos",
+     "text": "Autoparko „Garažas“ — sunkvežimiai ir priekabos, kuriais važinėja jūsų vairuotojai.\n\n„+ Pridėti sunkvežimį“: „Valst. numeris“, „Transporto priemonės tipas“ — „Vilkikas“ arba „Sunkvežimis“, sunkvežimiui dar ir „Kėbulo tipas“. „+ Pridėti priekabą“: „Valst. numeris“, suderinamumas — „Puspriekabė“ arba „Priekaba“ — bei „Kėbulo tipas“.\n\nPrenumerata skaičiuojama pagal sunkvežimių skaičių autoparko garaže; priekabos neskaičiuojamos. Pašalinti sunkvežimio iš autoparko garažo negalima, todėl pridėkite tik tuos sunkvežimius, kurie dirba.",
+     "image": ""
+    },
+    {
+     "id": "drivers",
+     "title": "Vairuotojai",
+     "text": "Ekrano „Autoparkas“ apačioje: įveskite „Vairuotojo vardas“ ir paspauskite „Pridėti vairuotoją“ — atsidarys vairuotojo kortelė.\n\nKortelėje pasirinkite „Sunkvežimis“ ir „Priekaba“ iš autoparko garažo ir paspauskite „Išsaugoti“. Siūlomos tik priekabos, tinkančios pasirinktam sunkvežimiui. Svetainėje my.vecturabook.com/fleet.html sunkvežimis ir priekaba pasirenkami tiesiai vairuotojo eilutėje ir iškart išsaugomi.\n\nSunkvežimį ir priekabą galima pakeisti bet kuriuo metu: vairuotojo telefonas pakeitimą perims pats, o reiso metu — pasibaigus reisui.",
+     "image": ""
+    },
+    {
+     "id": "link",
+     "title": "Susieti vairuotojo telefoną",
+     "text": "Vairuotojo kortelėje paspauskite „Gauti kodą“. 8 simbolių kodas galioja 72 valandas ir tik vieną kartą; jis rodomas tik vieną kartą. „Siųsti kodą vairuotojui“ išsiunčia kodą ir nuorodą per susirašinėjimo programėlę. Svetainėje my.vecturabook.com/fleet.html — mygtukas „Gauti kodą“ vairuotojo eilutėje, kodas ir nuoroda rodomi po sąrašu.\n\nVairuotojas įdiegia VecturaBook ir pirmo paleidimo metu paspaudžia „Vairuoju autoparke — įvesk kodą“ (vėliau: Nustatymai → „Vairuotojo profilis“ → „Prisijungti prie autoparko kodu“), įveda kodą ir paspaudžia „Prisijungti prie autoparko“. Galima tiesiog atidaryti nuorodą telefone — kodas įsirašys pats. Telefone atsiranda autoparko žurnalas su jūsų priskirtu sunkvežimiu ir priekaba; vairuotojo „Mano žurnalas“ lieka jo paties ir į autoparką nepatenka.\n\nSąraše prie vairuotojo rodoma „Susietas“ arba „Dar nesusietas“. Kodas baigė galioti arba pasimetė — paspauskite „Gauti kodą“ dar kartą: naujas kodas panaikina ankstesnį. Naujam vairuotojo telefonui — taip pat naujas kodas; senasis telefonas tuo metu palieka autoparką.",
+     "image": ""
+    },
+    {
+     "id": "watch",
+     "title": "Ką mato savininkas",
+     "text": "Sąrašas „Vairuotojai“: prie kiekvieno — „Susietas“, „Dar nesusietas“ arba „Paliko autoparką“ ir laikas, jo sunkvežimis ir priekaba bei kiek „Pamainos“, „Reisai“ ir „Pildymai“ atkeliavo į autoparką. Paspauskite ant vairuotojo — kortelėje bus jo pamainos, reisai ir pildymai.\n\nSvetainėje my.vecturabook.com/fleet.html — tas pats, lentelėmis: pamainos (pradžia ir pabaiga), reisai (iš kur, į kur, pradžia, atvykimas, laukimas, krovinys, sunkvežimis ir priekaba), pildymai (laikas, litrai, degalai — dyzelinas, AdBlue arba priekabos agregatas, odometras, sunkvežimis).\n\nĮrašai ateina, kai vairuotojo telefone yra internetas: programa siunčia juos pati, o „Siųsti į autoparką dabar“ skiltyje „Vairuotojo profilis“ — iš karto. Vairuotojas, palikęs autoparką, lieka sąraše su žyma „Paliko autoparką“; viskas, ką jis atsiuntė, lieka autoparke. Naujas jūsų kodas jį sugrąžina.",
+     "image": ""
+    },
+    {
+     "id": "subscription",
+     "title": "Bandomasis laikotarpis ir prenumerata",
+     "text": "Naujas autoparkas 30 dienų veikia nemokamai; bandomuoju laikotarpiu sunkvežimių gali būti kiek norite. Ekrano „Autoparkas“ viršuje ir autoparko puslapyje — būsena: „Nemokamas bandomasis laikotarpis iki … · liko dienų: …“, po apmokėjimo — „Aktyvu iki … · liko dienų: …“.\n\nNorėdami įsigyti: ekrane „Autoparkas“ paspauskite „Autoparko prenumerata“ → „Pasirinkite planą“: „Iki 3 sunkvežimių“, „Iki 5 sunkvežimių“ arba „Iki 10 sunkvežimių“ laikotarpiui „1 mėnuo“, „6 mėnesiai“ arba „1 metai“. Planai, mažesni už sunkvežimių skaičių autoparko garaže, nesiūlomi. Kaina — plano eilutėje, ją rodo parduotuvė; kainos eurais — svetainėje vecturabook.com. Mokėkite programoje iš Google Play sistemoje Android arba iš App Store sistemoje iPhone. Versijoje iš RuStore: „Autoparko prenumeratą galite įsigyti versijoje iš Google Play arba App Store.“ Svetainėje my.vecturabook.com prenumerata matoma, bet nusipirkti jos ten negalima.\n\nDaugiau nei 10 sunkvežimių — parašykite adresu support@vecturabook.com. Prenumerata nupirkta, o telefonas naujas — „Atkurti pirkimus“. Atšaukti prenumeratą — Google Play arba App Store, ten pat, kur pirkta.",
+     "image": ""
+    },
+    {
+     "id": "unpaid",
+     "title": "Jei prenumerata baigėsi",
+     "text": "Be prenumeratos ekrane rodoma „Autoparko ekranams reikalinga prenumerata. Vairuotojai niekada neblokuojami: jie tęsia darbą.“ arba „Prenumerata baigėsi · paskutinė diena: …“. Matomi tik „Autoparko prenumerata“ ir „Vairuotojai“ su „Gauti kodą“ — kad naujas vairuotojo telefonas galėtų prisijungti prie autoparko ir be apmokėjimo.\n\nVairuotojai toliau dirba kaip įprasta, o jų pamainos, reisai ir pildymai toliau keliauja į autoparką. Po apmokėjimo autoparko ekranai vėl atidaryti.\n\nSunkvežimių daugiau, nei apima planas: „Autoparke yra … sunkvežimių, planas apima iki …. Pasirinkite didesnį planą.“",
      "image": ""
     }
    ]

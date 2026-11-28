@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "lv",
- "revision": "2026-11-15",
+ "revision": "2026-11-28",
  "sections": [
   {
    "slug": "getting-started",
@@ -537,6 +537,61 @@
      "id": "owner-driver",
      "title": "Vadītājs",
      "text": "Pieskarieties vadītājam, lai atvērtu kartīti. «Kravas auto» un «Piekabe»: izvēlieties no autoparka garāžas un nospiediet «Saglabāt». Tiek piedāvātas tikai piekabes, kas der izvēlētajam kravas auto. Vadītāja tālrunis pats pārņem izmaiņas; reisa laikā — pēc reisa beigām.\n\n«Saņemt kodu» izveido vienreizēju kodu ar laiku, līdz kuram tas ir derīgs. «Nosūtīt kodu vadītājam» nosūta kodu un saiti caur saziņas lietotni. Kods tiek parādīts tikai vienu reizi. Jauns kods pārceļ vadītāju uz jaunu tālruni: vecais tālrunis pamet autoparku.\n\nZemāk ir vadītāja «Maiņas», «Reisi» un «Uzpildes», kas nonākušas autoparkā.\n\nAizgājuša vadītāja kartītē ir «Pameta autoparku» un laiks. Jauns jūsu kods vadītāju atgriež.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fleet-company",
+   "title": "Autoparks transporta uzņēmumam",
+   "intro": "Rokasgrāmata uzņēmuma īpašniekam: kā izveidot autoparku, pievienot kravas auto un vadītājus, piesaistīt vadītāju tālruņus un ko jūs pēc tam redzat lietotnē un vietnē my.vecturabook.com/fleet.html. Vadītāji strādā bez maksas; maksā tikai autoparka īpašnieks, pirmās 30 dienas — bez maksas.",
+   "steps": [
+    {
+     "id": "start",
+     "title": "Kas nepieciešams",
+     "text": "Īpašniekam — VecturaBook konts (e-pasta adrese) un lietotne VecturaBook tālrunī vai pārlūks. Autoparks ir viens un tas pats lietotnē un vietnē my.vecturabook.com/fleet.html: kravas auto, vadītājus un kodus var pievienot gan tur, gan tur. Iegādāties abonementu un nosūtīt kodu caur saziņas lietotni — tikai lietotnē.\n\nVadītājam — tikai lietotne VecturaBook tālrunī un kods no jums. Savs konts vadītājam autoparkam nav vajadzīgs.\n\nViens konts — viens autoparks. Maksā tikai īpašnieks; vadītāji nemaksā nekad, un abonements viņu darbu neaptur.",
+     "image": ""
+    },
+    {
+     "id": "create",
+     "title": "Izveidot autoparku",
+     "text": "Lietotnē: Iestatījumi → «Vadītāja profils» → ieslēdziet «Īpašnieks / Algots». Zemāk parādīsies rinda «Autoparks» — nospiediet to. (Šis pats slēdzis reisā pievieno lauku «Cena».)\n\nJa tālrunī neesat pieteicies, ekrāns rāda «Vispirms piesakieties savā kontā:» — nospiediet «Savienot ar VecturaBook» un piesakieties ar sava konta e-pasta adresi.\n\nEkrāns «Izveidot autoparku»: ievadiet «Autoparka nosaukums» un nospiediet «Izveidot autoparku». Rinda virs pogas pasaka, kas gaidāms: «Bezmaksas izmēģinājums: 30 dienas.» vai «Šim kontam jau ir bijis bezmaksas izmēģinājums: jaunajam autoparkam abonements nepieciešams no pirmās dienas.»\n\nPārlūkā: piesakieties vietnē my.vecturabook.com, atveriet «Iestatījumi» un nospiediet «Izveidot autoparku» — atvērsies tā pati veidlapa vietnē my.vecturabook.com/fleet.html. Kad autoparks ir izveidots, šī rinda saucas «Autoparks» un ved uz tā lapu.",
+     "image": ""
+    },
+    {
+     "id": "garage",
+     "title": "Kravas auto un piekabes",
+     "text": "Autoparka «Garāža» — kravas auto un piekabes, ar kurām brauc jūsu vadītāji.\n\n«+ Pievienot kravas auto»: «Numura zīme», «Transportlīdzekļa tips» — «Vilcējs» vai «Kravas auto», kravas auto arī «Virsbūves tips». «+ Pievienot piekabi»: «Numura zīme», saderība — «Puspiekabe» vai «Piekabe» — un «Virsbūves tips».\n\nAbonements tiek aprēķināts pēc kravas auto skaita autoparka garāžā; piekabes netiek skaitītas. Dzēst kravas auto no autoparka garāžas nevar, tāpēc pievienojiet tikai tos kravas auto, kas patiešām strādā.",
+     "image": ""
+    },
+    {
+     "id": "drivers",
+     "title": "Vadītāji",
+     "text": "Ekrāna «Autoparks» apakšā: ievadiet «Vadītāja vārds» un nospiediet «Pievienot vadītāju» — atvērsies vadītāja kartīte.\n\nKartītē izvēlieties «Kravas auto» un «Piekabe» no autoparka garāžas un nospiediet «Saglabāt». Tiek piedāvātas tikai piekabes, kas der izvēlētajam kravas auto. Vietnē my.vecturabook.com/fleet.html kravas auto un piekabe tiek izvēlēti tieši vadītāja rindā un saglabāti uzreiz.\n\nKravas auto un piekabi var nomainīt jebkurā brīdī: vadītāja tālrunis pats pārņem izmaiņas, bet reisa laikā — pēc reisa beigām.",
+     "image": ""
+    },
+    {
+     "id": "link",
+     "title": "Piesaistīt vadītāja tālruni",
+     "text": "Vadītāja kartītē nospiediet «Saņemt kodu». Kods no 8 zīmēm darbojas 72 stundas un tikai vienu reizi; tas tiek parādīts tikai vienu reizi. «Nosūtīt kodu vadītājam» nosūta kodu un saiti caur saziņas lietotni. Vietnē my.vecturabook.com/fleet.html — poga «Saņemt kodu» vadītāja rindā, kods un saite tiek parādīti zem saraksta.\n\nVadītājs uzstāda VecturaBook un pirmajā palaišanā nospiež «Braucu autoparkā — ievadīt kodu» (vēlāk: Iestatījumi → «Vadītāja profils» → «Pievienoties autoparkam ar kodu»), ievada kodu un nospiež «Pievienoties autoparkam». Var vienkārši atvērt saiti tālrunī — kods tiks ievietots pats. Tālrunī parādās autoparka žurnāls ar kravas auto un piekabi, ko esat nozīmējis; vadītāja «Mans žurnāls» paliek viņa paša un uz autoparku nenonāk.\n\nSarakstā pie vadītāja ir «Piesaistīts» vai «Vēl nav piesaistīts». Kods beidzies vai pazaudēts — nospiediet «Saņemt kodu» vēlreiz: jaunais kods atceļ iepriekšējo. Jauns vadītāja tālrunis — arī ar jaunu kodu; vecais tālrunis līdz ar to pamet autoparku.",
+     "image": ""
+    },
+    {
+     "id": "watch",
+     "title": "Ko redz īpašnieks",
+     "text": "Saraksts «Vadītāji»: katram «Piesaistīts», «Vēl nav piesaistīts» vai «Pameta autoparku» un laiks, viņa kravas auto un piekabe un cik «Maiņas», «Reisi» un «Uzpildes» nonācis autoparkā. Nospiediet uz vadītāja — kartītē ir viņa maiņas, reisi un uzpildes.\n\nVietnē my.vecturabook.com/fleet.html — tas pats tabulās: maiņas (sākums un beigas), reisi (no kurienes, uz kurieni, sākums, ierašanās, gaidīšana, krava, kravas auto un piekabe), uzpildes (laiks, litri, degviela — dīzelis, AdBlue vai piekabes iekārta, odometrs, kravas auto).\n\nIeraksti pienāk, kad vadītāja tālrunim ir internets: lietotne tos nosūta pati, bet «Nosūtīt autoparkam tagad» sadaļā «Vadītāja profils» — uzreiz. Vadītājs, kurš pametis autoparku, paliek sarakstā ar atzīmi «Pameta autoparku»; viss, ko viņš atsūtījis, paliek autoparkā. Jauns kods no jums viņu atgriež.",
+     "image": ""
+    },
+    {
+     "id": "subscription",
+     "title": "Izmēģinājuma periods un abonements",
+     "text": "Jauns autoparks 30 dienas strādā bez maksas; izmēģinājuma periodā kravas auto var būt cik vien vēlaties. Ekrāna «Autoparks» un autoparka lapas augšā — statuss: «Bezmaksas izmēģinājums līdz … · atlikušas dienas: …», pēc apmaksas — «Aktīvs līdz … · atlikušas dienas: …».\n\nIegāde: ekrānā «Autoparks» nospiediet «Autoparka abonements» → «Izvēlieties plānu»: «Līdz 3 kravas auto», «Līdz 5 kravas auto» vai «Līdz 10 kravas auto» uz «1 mēnesis», «6 mēneši» vai «1 gads». Plāni, kas ir mazāki par kravas auto skaitu autoparka garāžā, netiek piedāvāti. Cena ir plāna rindā, to rāda veikals; cenas eiro ir vietnē vecturabook.com. Maksājiet lietotnē no Google Play operētājsistēmā Android vai no App Store operētājsistēmā iPhone. Versijā no RuStore: «Autoparka abonementu var iegādāties versijā no Google Play vai App Store.» Vietnē my.vecturabook.com abonements ir redzams, bet iegādāties to tur nevar.\n\nVairāk nekā 10 kravas auto — rakstiet uz support@vecturabook.com. Abonements ir iegādāts, bet tālrunis jauns — «Atjaunot pirkumus». Atcelt abonementu — pakalpojumā Google Play vai App Store, turpat, kur tas iegādāts.",
+     "image": ""
+    },
+    {
+     "id": "unpaid",
+     "title": "Ja abonements beidzies",
+     "text": "Bez abonementa ekrānā redzams «Autoparka ekrāniem nepieciešams abonements. Vadītāji nekad netiek bloķēti: viņi turpina strādāt.» vai «Abonements beidzies · pēdējā diena: …». Redzams tikai «Autoparka abonements» un «Vadītāji» ar «Saņemt kodu» — lai jauns vadītāja tālrunis varētu pievienoties autoparkam arī bez apmaksas.\n\nVadītāji turpina strādāt kā parasti, viņu maiņas, reisi un uzpildes turpina nonākt autoparkā. Pēc apmaksas autoparka ekrāni atkal ir atvērti.\n\nKravas auto ir vairāk, nekā sedz plāns: «Autoparkā ir … kravas auto, plāns sedz līdz …. Izvēlieties lielāku plānu.»",
      "image": ""
     }
    ]

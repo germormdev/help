@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "en",
- "revision": "2026-11-15",
+ "revision": "2026-11-28",
  "sections": [
   {
    "slug": "getting-started",
@@ -537,6 +537,61 @@
      "id": "owner-driver",
      "title": "Driver",
      "text": "Tap a driver to open the card. \"Truck\" and \"Trailer\": choose from the fleet's garage and tap \"Save\". Only trailers that fit the chosen truck are offered. The driver's phone picks up the change by itself; during a trip — after the trip ends.\n\n\"Get code\" gives a one-time code with the time it is valid until. \"Send the code to the driver\" sends the code and the link through a messenger. The code is shown only once. A new code moves the driver to a new phone: the old phone leaves the fleet.\n\nBelow are the driver's \"Shifts\", \"Trips\" and \"Refuels\" that have reached the fleet.\n\nThe card of a driver who left says \"Left the fleet\" with the time. A new code from you brings the driver back.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fleet-company",
+   "title": "Fleet for a transport company",
+   "intro": "A guide for the company owner: how to create a fleet, add trucks and drivers, link the drivers' phones, and what you then see in the app and on my.vecturabook.com/fleet.html. Drivers use it for free; only the fleet owner pays, and the first 30 days are free.",
+   "steps": [
+    {
+     "id": "start",
+     "title": "What you need",
+     "text": "The owner needs a VecturaBook account (an email address) and the VecturaBook app on a phone, or a browser. It is the same fleet in the app and on my.vecturabook.com/fleet.html: trucks, drivers and codes can be added in either place. Buying the subscription and sending a code through a messenger are only in the app.\n\nThe driver needs only the VecturaBook app on the phone and a code from you. The driver does not need an account of their own for the fleet.\n\nOne account — one fleet. Only the owner pays; drivers never pay, and the subscription never stops their work.",
+     "image": ""
+    },
+    {
+     "id": "create",
+     "title": "Create a fleet",
+     "text": "In the app: Settings → \"Driver profile\" → turn on \"Owner / Hired\". The \"Fleet\" row appears below it — tap it. (The same switch adds the \"Price\" field to the trip.)\n\nIf the phone is not signed in, the screen says \"Sign in to your account first:\" — tap \"Connect to VecturaBook\" and sign in with the email address of your account.\n\nThe \"Create a fleet\" screen: enter the \"Fleet name\" and tap \"Create a fleet\". The line above the button tells you what happens: \"Free trial: 30 days.\" or \"This account has already had a free trial: the new fleet needs a subscription from the first day.\"\n\nIn a browser: sign in at my.vecturabook.com, open \"Settings\" and tap \"Create a fleet\" — the same form opens at my.vecturabook.com/fleet.html. Once the fleet exists, this row is called \"Fleet\" and leads to its page.",
+     "image": ""
+    },
+    {
+     "id": "garage",
+     "title": "Trucks and trailers",
+     "text": "The fleet's \"Garage\" holds the trucks and trailers your drivers drive.\n\n\"+ Add truck\": \"Plate Number\", \"Vehicle type\" — \"Semi Truck\" or \"Rigid\", and for a rigid also \"Body Type\". \"+ Add Trailer\": \"Plate Number\", compatibility — \"Semi-trailer\" or \"Rigid trailer\" — and \"Body Type\".\n\nThe subscription counts the trucks in the fleet's garage; trailers are not counted. A truck cannot be removed from the fleet's garage, so add only the trucks that actually work.",
+     "image": ""
+    },
+    {
+     "id": "drivers",
+     "title": "Drivers",
+     "text": "At the bottom of the \"Fleet\" screen: enter the \"Driver's name\" and tap \"Add driver\" — the driver's card opens.\n\nIn the card, pick the \"Truck\" and the \"Trailer\" from the fleet's garage and tap \"Save\". Only trailers that fit the chosen truck are offered. On my.vecturabook.com/fleet.html the truck and trailer are picked right in the driver's row and saved at once.\n\nYou can change the truck and trailer at any time: the driver's phone picks up the change by itself, and during a trip — after the trip ends.",
+     "image": ""
+    },
+    {
+     "id": "link",
+     "title": "Link the driver's phone",
+     "text": "In the driver's card, tap \"Get code\". The 8-character code is valid for 72 hours and only once; it is shown only once. \"Send the code to the driver\" sends the code and a link through a messenger. On my.vecturabook.com/fleet.html the \"Get code\" button is in the driver's row, and the code and link appear under the list.\n\nThe driver installs VecturaBook and on first start taps \"I drive for a fleet — enter code\" (later: Settings → \"Driver profile\" → \"Join a fleet with a code\"), enters the code and taps \"Join the fleet\". Opening the link on the phone also works — the code fills in by itself. A fleet journal appears on the phone with the truck and trailer you assigned; the driver's \"My journal\" stays their own and never goes to the fleet.\n\nIn the list the driver is \"Linked\" or \"Not linked yet\". The code expired or got lost — tap \"Get code\" again: a new code cancels the old one. A driver's new phone also needs a new code; the old phone then leaves the fleet.",
+     "image": ""
+    },
+    {
+     "id": "watch",
+     "title": "What the owner sees",
+     "text": "The \"Drivers\" list: for each driver \"Linked\", \"Not linked yet\" or \"Left the fleet\" with the time, their truck and trailer, and how many \"Shifts\", \"Trips\" and \"Refuels\" have reached the fleet. Tap a driver — the card shows their shifts, trips and refuels.\n\nOn my.vecturabook.com/fleet.html — the same, as tables: shifts (start and end), trips (from, to, start, arrival, waiting, cargo, truck and trailer), refuels (time, litres, fuel — diesel, AdBlue or the trailer unit, odometer, truck).\n\nRecords arrive when the driver's phone has internet: the app sends them by itself, and \"Send to the fleet now\" in \"Driver profile\" sends them at once. A driver who left the fleet stays in the list marked \"Left the fleet\"; everything they sent stays in the fleet. A new code from you brings them back.",
+     "image": ""
+    },
+    {
+     "id": "subscription",
+     "title": "Free trial and subscription",
+     "text": "A new fleet runs free for 30 days; during the trial there can be any number of trucks. At the top of the \"Fleet\" screen and the fleet page you see the state: \"Free trial until … · days left: …\", after payment — \"Active until … · days left: …\".\n\nTo buy: on the \"Fleet\" screen tap \"Fleet subscription\" → \"Choose a plan\": \"Up to 3 trucks\", \"Up to 5 trucks\" or \"Up to 10 trucks\" for \"1 month\", \"6 months\" or \"1 year\". Plans smaller than the number of trucks in the fleet's garage are not offered. The price is in the plan's row, shown by the store; prices in euros are on vecturabook.com. You pay in the app from Google Play on Android or from the App Store on iPhone. In the RuStore version: \"You can buy the fleet subscription in the version from Google Play or the App Store.\" On my.vecturabook.com the subscription is shown, but it cannot be bought there.\n\nMore than 10 trucks — write to support@vecturabook.com. The subscription is bought but the phone is new — \"Restore purchases\". To cancel the subscription — in Google Play or the App Store, where it was bought.",
+     "image": ""
+    },
+    {
+     "id": "unpaid",
+     "title": "If the subscription has ended",
+     "text": "Without a subscription the screen shows \"Fleet management needs a subscription. Drivers are never blocked: they keep working.\" or \"Subscription expired · last day …\". Only \"Fleet subscription\" and \"Drivers\" with \"Get code\" are shown — so that a driver's new phone can join the fleet even without payment.\n\nDrivers keep working as usual, and their shifts, trips and refuels keep arriving in the fleet. After payment the fleet screens are open again.\n\nMore trucks than the plan covers: \"The fleet has … trucks, the plan covers up to …. Choose a bigger plan.\"",
      "image": ""
     }
    ]

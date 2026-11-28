@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "et",
- "revision": "2026-11-15",
+ "revision": "2026-11-28",
  "sections": [
   {
    "slug": "getting-started",
@@ -537,6 +537,61 @@
      "id": "owner-driver",
      "title": "Juht",
      "text": "Puudutage juhti, et avada kaart. „Veok“ ja „Haagis“: valige autopargi garaažist ja vajutage „Salvesta“. Pakutakse ainult valitud veokiga sobivaid haagiseid. Juhi telefon võtab muudatuse ise vastu; reisi ajal — pärast reisi lõppu.\n\n„Hangi kood“ annab ühekordse koodi koos ajaga, milleni see kehtib. „Saada kood juhile“ saadab koodi ja lingi sõnumirakenduse kaudu. Koodi näidatakse ainult üks kord. Uus kood viib juhi uude telefoni: vana telefon lahkub autopargist.\n\nAllpool on juhi „Vahetused“, „Reisid“ ja „Tankimised“, mis on autoparki jõudnud.\n\nLahkunud juhi kaardil on „Lahkus autopargist“ ja kellaaeg. Teie uus kood toob juhi tagasi.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fleet-company",
+   "title": "Autopark transpordiettevõttele",
+   "intro": "Juhend ettevõtte omanikule: kuidas luua autopark, lisada veokid ja juhid, siduda juhtide telefonid ning mida te hiljem näete rakenduses ja aadressil my.vecturabook.com/fleet.html. Juhid töötavad tasuta; maksab ainult autopargi omanik, esimesed 30 päeva on tasuta.",
+   "steps": [
+    {
+     "id": "start",
+     "title": "Mida on vaja",
+     "text": "Omanikule — VecturaBooki konto (e-posti aadress) ja rakendus VecturaBook telefonis või brauser. Autopark on rakenduses ja aadressil my.vecturabook.com/fleet.html üks ja seesama: veokeid, juhte ja koode saab lisada nii ühes kui ka teises. Tellimuse ostmine ja koodi saatmine sõnumirakenduse kaudu — ainult rakenduses.\n\nJuhile — ainult rakendus VecturaBook telefonis ja kood teilt. Oma kontot pole juhil autopargi jaoks vaja.\n\nÜks konto — üks autopark. Maksab ainult omanik; juhid ei maksa kunagi ja tellimus ei peata nende tööd.",
+     "image": ""
+    },
+    {
+     "id": "create",
+     "title": "Loo autopark",
+     "text": "Rakenduses: Seaded → „Juhi profiil“ → lülitage sisse „Omanik / Palgatöötaja“. Allpool ilmub rida „Autopark“ — vajutage seda. (See sama lüliti lisab reisile välja „Hind“.)\n\nKui telefonis pole sisse logitud, kuvatakse ekraanil „Logi esmalt oma kontole sisse:“ — vajutage „Ühenda VecturaBookiga“ ja logige sisse oma konto e-posti aadressiga.\n\nEkraan „Loo autopark“: sisestage „Autopargi nimi“ ja vajutage „Loo autopark“. Nupu kohal olev rida annab teada, mis saab: „Tasuta prooviperiood: 30 päeva.“ või „Sellel kontol on tasuta prooviperiood juba olnud: uus autopark vajab tellimust esimesest päevast.“\n\nBrauseris: logige sisse aadressil my.vecturabook.com, avage „Seaded“ ja vajutage „Loo autopark“ — avaneb sama vorm aadressil my.vecturabook.com/fleet.html. Kui autopark on loodud, kannab see rida nime „Autopark“ ja viib selle lehele.",
+     "image": ""
+    },
+    {
+     "id": "garage",
+     "title": "Veokid ja haagised",
+     "text": "Autopargi „Garaaž“ — veokid ja haagised, millega teie juhid sõidavad.\n\n„+ Lisa veok“: „Numbrimärk“, „Sõiduki tüüp“ — „Sadulveok“ või „Veoauto“, veoautol ka „Keretüüp“. „+ Lisa haagis“: „Numbrimärk“, ühilduvus — „Poolhaagis“ või „Täishaagis“ — ja „Keretüüp“.\n\nTellimust arvestatakse autopargi garaažis olevate veokite arvu järgi; haagiseid ei arvestata. Veokit autopargi garaažist eemaldada ei saa, seetõttu lisage ainult need veokid, mis töötavad.",
+     "image": ""
+    },
+    {
+     "id": "drivers",
+     "title": "Juhid",
+     "text": "Ekraani „Autopark“ allosas: sisestage „Juhi nimi“ ja vajutage „Lisa juht“ — avaneb juhi kaart.\n\nKaardil valige autopargi garaažist „Veok“ ja „Haagis“ ning vajutage „Salvesta“. Pakutakse ainult valitud veokiga sobivaid haagiseid. Aadressil my.vecturabook.com/fleet.html valitakse veok ja haagis otse juhi real ning salvestatakse kohe.\n\nVeokit ja haagist saab igal ajal muuta: juhi telefon võtab muudatuse ise vastu, reisi ajal aga pärast reisi lõppu.",
+     "image": ""
+    },
+    {
+     "id": "link",
+     "title": "Juhi telefoni sidumine",
+     "text": "Juhi kaardil vajutage „Hangi kood“. 8-kohaline kood kehtib 72 tundi ja ainult ühe korra; seda näidatakse ainult üks kord. „Saada kood juhile“ saadab koodi ja lingi sõnumirakenduse kaudu. Aadressil my.vecturabook.com/fleet.html on nupp „Hangi kood“ juhi real ning kood ja link kuvatakse nimekirja all.\n\nJuht paigaldab VecturaBooki ja vajutab esmasel käivitamisel „Sõidan autopargis — sisesta kood“ (hiljem: Seaded → „Juhi profiil“ → „Liitu autopargiga koodiga“), sisestab koodi ja vajutab „Liitu autopargiga“. Võib ka lihtsalt avada lingi telefonis — kood sisestub ise. Telefoni ilmub autopargi päevik teie määratud veoki ja haagisega; juhi „Minu päevik“ jääb tema enda omaks ega lähe kunagi autoparki.\n\nNimekirjas on juhi juures „Seotud“ või „Veel sidumata“. Kui kood aegus või läks kaduma, vajutage uuesti „Hangi kood“: uus kood tühistab eelmise. Juhi uus telefon vajab samuti uut koodi; vana telefon lahkub seejuures autopargist.",
+     "image": ""
+    },
+    {
+     "id": "watch",
+     "title": "Mida omanik näeb",
+     "text": "Nimekiri „Juhid“: igaühe juures „Seotud“, „Veel sidumata“ või „Lahkus autopargist“ ja aeg, tema veok ja haagis ning kui palju „Vahetused“, „Reisid“ ja „Tankimised“ on autoparki jõudnud. Vajutage juhile — kaardil on tema vahetused, reisid ja tankimised.\n\nAadressil my.vecturabook.com/fleet.html — sama tabelitena: vahetused (algus ja lõpp), reisid (kust, kuhu, algus, saabumine, ootamine, last, veok ja haagis), tankimised (aeg, liitrid, kütus — diisel, AdBlue või haagise agregaat, odomeeter, veok).\n\nKirjed jõuavad kohale, kui juhi telefonil on internet: rakendus saadab need ise, „Saada autoparki kohe“ jaotises „Juhi profiil“ aga kohe. Autopargist lahkunud juht jääb nimekirja märkega „Lahkus autopargist“; kõik tema saadetud andmed jäävad autoparki. Teie uus kood toob ta tagasi.",
+     "image": ""
+    },
+    {
+     "id": "subscription",
+     "title": "Prooviperiood ja tellimus",
+     "text": "Uus autopark töötab 30 päeva tasuta; prooviperioodil võib veokeid olla kui tahes palju. Ekraani „Autopark“ ja autopargi lehe ülaosas on olek: „Tasuta prooviperiood kuni … · päevi jäänud: …“, pärast maksmist — „Aktiivne kuni … · päevi jäänud: …“.\n\nOstmine: ekraanil „Autopark“ vajutage „Autopargi tellimus“ → „Vali pakett“: „Kuni 3 veokit“, „Kuni 5 veokit“ või „Kuni 10 veokit“ perioodiks „1 kuu“, „6 kuud“ või „1 aasta“. Pakette, mis on väiksemad kui veokite arv autopargi garaažis, ei pakuta. Hind on paketi real, seda näitab pood; hinnad eurodes on aadressil vecturabook.com. Makske rakenduses Google Play kaudu Androidis või App Store'i kaudu iPhone'is. RuStore'i versioonis: „Autopargi tellimuse saab osta Google Play või App Store'i versioonis.“ Veebisaidil my.vecturabook.com on tellimus näha, kuid osta seda sealt ei saa.\n\nRohkem kui 10 veokit — kirjutage aadressil support@vecturabook.com. Kui tellimus on ostetud, kuid telefon on uus — „Taasta ostud“. Tellimuse tühistamine — teenuses Google Play või App Store, samas kohas, kust see osteti.",
+     "image": ""
+    },
+    {
+     "id": "unpaid",
+     "title": "Kui tellimus on lõppenud",
+     "text": "Ilma tellimuseta kuvab ekraan „Autopargi vaated vajavad tellimust. Juhid ei ole kunagi blokeeritud: nad töötavad edasi.“ või „Tellimus aegus · viimane päev …“. Nähtavad on ainult „Autopargi tellimus“ ja „Juhid“ koos „Hangi kood“ — et juhi uus telefon saaks autopargiga liituda ka ilma makseta.\n\nJuhid töötavad tavapäraselt edasi ning nende vahetused, reisid ja tankimised jõuavad jätkuvalt autoparki. Pärast maksmist on autopargi ekraanid taas avatud.\n\nVeokeid on rohkem, kui pakett katab: „Autopargis on … veokit, pakett katab kuni …. Vali suurem pakett.“",
      "image": ""
     }
    ]

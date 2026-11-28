@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "da",
- "revision": "2026-11-15",
+ "revision": "2026-11-28",
  "sections": [
   {
    "slug": "getting-started",
@@ -537,6 +537,61 @@
      "id": "owner-driver",
      "title": "Chauffør",
      "text": "Tryk på en chauffør for at åbne kortet. \"Lastbil\" og \"Anhænger\": vælg fra flådens vognpark, og tryk på \"Gem\". Der tilbydes kun anhængere, som passer til den valgte lastbil. Chaufførens telefon opfanger selv ændringen; under en tur — når turen er slut.\n\n\"Hent kode\" giver en engangskode med oplysning om, hvor længe den er gyldig. \"Send koden til chaufføren\" sender koden og linket via en beskedapp. Koden vises kun én gang. En ny kode flytter chaufføren til en ny telefon: den gamle telefon forlader flåden.\n\nNedenfor ses chaufførens \"Vagter\", \"Ture\" og \"Tankninger\", som er nået frem til flåden.\n\nKortet for en chauffør, der er gået, viser \"Forlod flåden\" med tidspunktet. En ny kode fra dig henter chaufføren tilbage.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fleet-company",
+   "title": "Flåde til et transportfirma",
+   "intro": "En vejledning til firmaets ejer: hvordan du opretter en flåde, tilføjer lastbiler og chauffører, tilknytter chaufførernes telefoner, og hvad du derefter ser i appen og på my.vecturabook.com/fleet.html. Chauffører bruger den gratis; kun flådens ejer betaler, og de første 30 dage er gratis.",
+   "steps": [
+    {
+     "id": "start",
+     "title": "Hvad du skal bruge",
+     "text": "Til ejeren — en VecturaBook-konto (en e-mailadresse) og VecturaBook-appen på telefonen eller en browser. Flåden er den samme i appen og på my.vecturabook.com/fleet.html: lastbiler, chauffører og koder kan oprettes begge steder. Køb af abonnement og afsendelse af en kode via en beskedapp kan kun gøres i appen.\n\nTil chaufføren — kun VecturaBook-appen på telefonen og en kode fra dig. Chaufføren har ikke brug for sin egen konto til flåden.\n\nÉn konto — én flåde. Kun ejeren betaler; chauffører betaler aldrig, og abonnementet standser aldrig deres arbejde.",
+     "image": ""
+    },
+    {
+     "id": "create",
+     "title": "Opret flåde",
+     "text": "I appen: Indstillinger → \"Chaufførprofil\" → slå \"Ejer / Ansat\" til. Nedenunder vises rækken \"Flåde\" — tryk på den. (Den samme kontakt giver feltet \"Pris\" på en tur.)\n\nHvis telefonen ikke er logget ind, viser skærmen \"Log først ind på din konto:\" — tryk på \"Forbind til VecturaBook\", og log ind med din kontos e-mailadresse.\n\nSkærmen \"Opret flåde\": indtast \"Flådens navn\", og tryk på \"Opret flåde\". Linjen over knappen fortæller, hvad der sker: \"Gratis prøveperiode: 30 dage.\" eller \"Denne konto har allerede haft en gratis prøveperiode: den nye flåde kræver et abonnement fra første dag.\"\n\nI en browser: log ind på my.vecturabook.com, åbn \"Indstillinger\", og tryk på \"Opret flåde\" — den samme formular åbnes på my.vecturabook.com/fleet.html. Når flåden er oprettet, hedder denne række \"Flåde\" og fører til dens side.",
+     "image": ""
+    },
+    {
+     "id": "garage",
+     "title": "Lastbiler og anhængere",
+     "text": "Flådens \"Vognpark\" er de lastbiler og anhængere, som dine chauffører kører i.\n\n\"+ Tilføj lastbil\": \"Nummerplade\", \"Køretøjstype\" — \"Trækker\" eller \"Lastbil\", og for en lastbil desuden \"Opbygningstype\". \"+ Tilføj anhænger\": \"Nummerplade\", kompatibilitet — \"Sættevogn\" eller \"Anhænger\" — og \"Opbygningstype\".\n\nAbonnementet opgøres efter antallet af lastbiler i flådens vognpark; anhængere tælles ikke med. En lastbil kan ikke fjernes fra flådens vognpark, så opret kun de lastbiler, der arbejder.",
+     "image": ""
+    },
+    {
+     "id": "drivers",
+     "title": "Chauffører",
+     "text": "Nederst på skærmen \"Flåde\": indtast \"Chaufførens navn\", og tryk på \"Tilføj chauffør\" — chaufførens kort åbnes.\n\nPå kortet vælger du \"Lastbil\" og \"Anhænger\" fra flådens vognpark og trykker på \"Gem\". Der tilbydes kun anhængere, som passer til den valgte lastbil. På my.vecturabook.com/fleet.html vælges lastbil og anhænger direkte i chaufførens række og gemmes med det samme.\n\nLastbil og anhænger kan ændres når som helst: chaufførens telefon opfanger selv ændringen, og under en tur — når turen er slut.",
+     "image": ""
+    },
+    {
+     "id": "link",
+     "title": "Tilknyt chaufførens telefon",
+     "text": "På chaufførens kort trykker du på \"Hent kode\". Koden på 8 tegn gælder i 72 timer og kun én gang; den vises kun én gang. \"Send koden til chaufføren\" sender koden og et link via en beskedapp. På my.vecturabook.com/fleet.html er knappen \"Hent kode\" i chaufførens række, og koden og linket vises under listen.\n\nChaufføren installerer VecturaBook og trykker ved første start på \"Jeg kører for en flåde — indtast kode\" (senere: Indstillinger → \"Chaufførprofil\" → \"Slut dig til en flåde med en kode\"), indtaster koden og trykker på \"Slut dig til flåden\". Man kan også bare åbne linket på telefonen — koden udfyldes automatisk. På telefonen vises flådens logbog med den lastbil og anhænger, som du har tildelt; chaufførens \"Min logbog\" forbliver chaufførens egen og går aldrig til flåden.\n\nPå listen står chaufføren som \"Tilknyttet\" eller \"Ikke tilknyttet endnu\". Er koden udløbet eller blevet væk — tryk på \"Hent kode\" igen: en ny kode annullerer den forrige. En ny telefon til chaufføren klares også med en ny kode; den gamle telefon forlader samtidig flåden.",
+     "image": ""
+    },
+    {
+     "id": "watch",
+     "title": "Hvad ejeren ser",
+     "text": "Listen \"Chauffører\": for hver chauffør \"Tilknyttet\", \"Ikke tilknyttet endnu\" eller \"Forlod flåden\" og tidspunktet, chaufførens lastbil og anhænger samt hvor mange \"Vagter\", \"Ture\" og \"Tankninger\", der er nået frem til flåden. Tryk på en chauffør — kortet viser chaufførens vagter, ture og tankninger.\n\nPå my.vecturabook.com/fleet.html — det samme, i tabeller: vagter (start og slut), ture (fra, til, start, ankomst, ventetid, last, lastbil og anhænger), tankninger (tidspunkt, liter, brændstof — diesel, AdBlue eller anhængerens aggregat, kilometertæller, lastbil).\n\nRegistreringerne kommer ind, når chaufførens telefon har internetforbindelse: appen sender dem af sig selv, og \"Send til flåden nu\" i \"Chaufførprofil\" sender dem med det samme. En chauffør, som har forladt flåden, bliver stående på listen med markeringen \"Forlod flåden\"; alt, hvad chaufføren har indsendt, bliver i flåden. En ny kode fra dig henter chaufføren tilbage.",
+     "image": ""
+    },
+    {
+     "id": "subscription",
+     "title": "Prøveperiode og abonnement",
+     "text": "En ny flåde fungerer gratis i 30 dage; i prøveperioden kan der være et vilkårligt antal lastbiler. Øverst på skærmen \"Flåde\" og på flådesiden ses status: \"Gratis prøveperiode indtil … · dage tilbage: …\", efter betaling — \"Aktiv indtil … · dage tilbage: …\".\n\nKøb: tryk på skærmen \"Flåde\" på \"Flåde-abonnement\" → \"Vælg en plan\": \"Op til 3 lastbiler\", \"Op til 5 lastbiler\" eller \"Op til 10 lastbiler\" i \"1 måned\", \"6 måneder\" eller \"1 år\". Planer, der er mindre end antallet af lastbiler i flådens vognpark, tilbydes ikke. Prisen står i planens række og vises af butikken; priser i euro findes på vecturabook.com. Du betaler i appen via Google Play på Android eller via App Store på iPhone. I versionen fra RuStore: \"Flåde-abonnementet kan købes i versionen fra Google Play eller App Store.\" På my.vecturabook.com kan abonnementet ses, men det kan ikke købes der.\n\nFlere end 10 lastbiler — skriv til support@vecturabook.com. Er abonnementet købt, men telefonen ny — \"Gendan køb\". Opsigelse af abonnement — i Google Play eller App Store, samme sted som det blev købt.",
+     "image": ""
+    },
+    {
+     "id": "unpaid",
+     "title": "Hvis abonnementet er udløbet",
+     "text": "Uden abonnement viser skærmen \"Flådefunktioner kræver et abonnement. Chauffører blokeres aldrig: de arbejder videre.\" eller \"Abonnement udløbet · sidste dag …\". Kun \"Flåde-abonnement\" og \"Chauffører\" med \"Hent kode\" er synlige — så en chaufførs nye telefon kan komme med i flåden også uden betaling.\n\nChaufførerne arbejder videre som normalt, og deres vagter, ture og tankninger bliver ved med at komme ind til flåden. Efter betaling er flådens skærme åbne igen.\n\nFlere lastbiler, end planen dækker: \"Flåden har … lastbiler, planen dækker op til …. Vælg en større plan.\"",
      "image": ""
     }
    ]

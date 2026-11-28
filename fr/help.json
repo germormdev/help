@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "fr",
- "revision": "2026-11-15",
+ "revision": "2026-11-28",
  "sections": [
   {
    "slug": "getting-started",
@@ -537,6 +537,61 @@
      "id": "owner-driver",
      "title": "Chauffeur",
      "text": "Appuyez sur un chauffeur pour ouvrir sa fiche. « Camion » et « Remorque » : choisissez dans Mon parc de la flotte et appuyez sur « Enregistrer ». Seules les remorques compatibles avec le camion choisi sont proposées. Le téléphone du chauffeur applique la modification de lui-même ; pendant un trajet — après la fin du trajet.\n\n« Obtenir un code » donne un code à usage unique avec l'heure jusqu'à laquelle il est valide. « Envoyer le code au chauffeur » envoie le code et le lien par messagerie. Le code n'est affiché qu'une seule fois. Un nouveau code transfère le chauffeur sur un nouveau téléphone : l'ancien téléphone quitte la flotte.\n\nEn dessous figurent les « Journées », « Trajets » et « Pleins » du chauffeur qui sont parvenus à la flotte.\n\nLa fiche d'un chauffeur parti affiche « A quitté la flotte » avec l'heure. Un nouveau code de votre part ramène le chauffeur.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fleet-company",
+   "title": "Flotte pour une entreprise de transport",
+   "intro": "Guide pour le propriétaire de l'entreprise : comment créer une flotte, ajouter des camions et des chauffeurs, associer les téléphones des chauffeurs et ce que vous voyez ensuite dans l'application et sur my.vecturabook.com/fleet.html. Les chauffeurs l'utilisent gratuitement ; seul le propriétaire de la flotte paie, et les 30 premiers jours sont gratuits.",
+   "steps": [
+    {
+     "id": "start",
+     "title": "Ce qu'il vous faut",
+     "text": "Pour le propriétaire — un compte VecturaBook (une adresse e-mail) et l'application VecturaBook sur un téléphone ou un navigateur. La flotte est la même dans l'application et sur my.vecturabook.com/fleet.html : les camions, les chauffeurs et les codes peuvent être ajoutés dans l'une comme dans l'autre. Acheter l'abonnement et envoyer un code par messagerie se font uniquement dans l'application.\n\nPour le chauffeur — seulement l'application VecturaBook sur le téléphone et un code de votre part. Le chauffeur n'a pas besoin de son propre compte pour la flotte.\n\nUn compte — une flotte. Seul le propriétaire paie ; les chauffeurs ne paient jamais, et l'abonnement n'arrête jamais leur travail.",
+     "image": ""
+    },
+    {
+     "id": "create",
+     "title": "Créer une flotte",
+     "text": "Dans l'application : Paramètres → « Profil du conducteur » → activez « Propriétaire / Salarié ». La ligne « Flotte » apparaît en dessous — appuyez dessus. (Ce même interrupteur ajoute le champ « Prix » dans le trajet.)\n\nSi le téléphone n'est pas connecté, l'écran indique « Connecte-toi d'abord à ton compte : » — appuyez sur « Se connecter à VecturaBook » et connectez-vous avec l'adresse e-mail de votre compte.\n\nÉcran « Créer une flotte » : saisissez « Nom de la flotte » et appuyez sur « Créer une flotte ». La ligne au-dessus du bouton indique ce qui se passe : « Essai gratuit : 30 jours. » ou « Ce compte a déjà eu un essai gratuit : la nouvelle flotte nécessite un abonnement dès le premier jour. »\n\nDans un navigateur : connectez-vous sur my.vecturabook.com, ouvrez « Paramètres » et appuyez sur « Créer une flotte » — le même formulaire s'ouvre sur my.vecturabook.com/fleet.html. Une fois la flotte créée, cette ligne s'appelle « Flotte » et mène à sa page.",
+     "image": ""
+    },
+    {
+     "id": "garage",
+     "title": "Camions et remorques",
+     "text": "« Mon parc » de la flotte regroupe les camions et les remorques que conduisent vos chauffeurs.\n\n« + Ajouter un camion » : « Immatriculation », « Type de véhicule » — « Tracteur » ou « Porteur », et pour un porteur également « Type de carrosserie ». « + Ajouter une remorque » : « Immatriculation », compatibilité — « Semi-remorque » ou « Remorque rigide » — et « Type de carrosserie ».\n\nL'abonnement est calculé d'après le nombre de camions dans le parc de la flotte ; les remorques ne sont pas comptées. Un camion ne peut pas être supprimé du parc de la flotte, n'ajoutez donc que les camions qui travaillent.",
+     "image": ""
+    },
+    {
+     "id": "drivers",
+     "title": "Chauffeurs",
+     "text": "En bas de l'écran « Flotte » : saisissez « Nom du chauffeur » et appuyez sur « Ajouter un chauffeur » — la fiche du chauffeur s'ouvre.\n\nDans la fiche, choisissez « Camion » et « Remorque » dans le parc de la flotte et appuyez sur « Enregistrer ». Seules les remorques compatibles avec le camion choisi sont proposées. Sur my.vecturabook.com/fleet.html, le camion et la remorque se choisissent directement dans la ligne du chauffeur et sont enregistrés aussitôt.\n\nVous pouvez changer de camion et de remorque à tout moment : le téléphone du chauffeur applique la modification de lui-même, et pendant un trajet — après la fin du trajet.",
+     "image": ""
+    },
+    {
+     "id": "link",
+     "title": "Associer le téléphone du chauffeur",
+     "text": "Dans la fiche du chauffeur, appuyez sur « Obtenir un code ». Le code à 8 caractères est valable 72 heures et une seule fois ; il n'est affiché qu'une seule fois. « Envoyer le code au chauffeur » envoie le code et un lien par messagerie. Sur my.vecturabook.com/fleet.html — bouton « Obtenir un code » dans la ligne du chauffeur, le code et le lien s'affichent sous la liste.\n\nLe chauffeur installe VecturaBook et, au premier lancement, appuie sur « Je conduis pour une flotte — saisir le code » (plus tard : Paramètres → « Profil du conducteur » → « Rejoindre une flotte avec un code »), saisit le code et appuie sur « Rejoindre la flotte ». Il peut aussi simplement ouvrir le lien sur le téléphone — le code est renseigné automatiquement. Le carnet de bord de la flotte apparaît sur le téléphone avec le camion et la remorque que vous avez attribués ; « Mon carnet de bord » du chauffeur reste le sien et ne part jamais à la flotte.\n\nDans la liste, le chauffeur est « Associé » ou « Pas encore associé ». Si le code a expiré ou a été perdu, appuyez à nouveau sur « Obtenir un code » : le nouveau code annule le précédent. Pour un nouveau téléphone du chauffeur, utilisez également un nouveau code ; l'ancien téléphone quitte alors la flotte.",
+     "image": ""
+    },
+    {
+     "id": "watch",
+     "title": "Ce que voit le propriétaire",
+     "text": "La liste « Chauffeurs » : pour chacun, « Associé », « Pas encore associé » ou « A quitté la flotte » avec l'heure, son camion et sa remorque, et combien de « Journées », « Trajets » et « Pleins » sont parvenus à la flotte. Appuyez sur un chauffeur — sa fiche affiche ses journées, trajets et pleins.\n\nSur my.vecturabook.com/fleet.html — la même chose, sous forme de tableaux : journées (début et fin), trajets (origine, destination, départ, arrivée, attente, cargaison, camion et remorque), pleins (heure, litres, carburant — gazole, AdBlue ou groupe de la remorque, compteur, camion).\n\nLes enregistrements arrivent lorsque le téléphone du chauffeur a Internet : l'application les envoie d'elle-même, et « Envoyer à la flotte maintenant » dans « Profil du conducteur » les transmet immédiatement. Un chauffeur ayant quitté la flotte reste dans la liste avec la mention « A quitté la flotte » ; tout ce qu'il a envoyé reste dans la flotte. Un nouveau code de votre part le fait revenir.",
+     "image": ""
+    },
+    {
+     "id": "subscription",
+     "title": "Essai gratuit et abonnement",
+     "text": "Une nouvelle flotte fonctionne gratuitement pendant 30 jours ; pendant la période d'essai, il peut y avoir autant de camions que vous le souhaitez. En haut de l'écran « Flotte » et de la page de la flotte s'affiche l'état : « Essai gratuit jusqu'au … · jours restants : … », et après paiement — « Actif jusqu'au … · jours restants : … ».\n\nPour acheter : sur l'écran « Flotte », appuyez sur « Abonnement Flotte » → « Choisir une formule » : « Jusqu'à 3 camions », « Jusqu'à 5 camions » ou « Jusqu'à 10 camions » pour « 1 mois », « 6 mois » ou « 1 an ». Les formules inférieures au nombre de camions dans le parc de la flotte ne sont pas proposées. Le prix figure sur la ligne de la formule, affiché par la boutique ; les prix en euros sont sur vecturabook.com. Le paiement s'effectue dans l'application via Google Play sur Android ou via l'App Store sur iPhone. Dans la version RuStore : « Vous pouvez acheter l'abonnement Flotte dans la version Google Play ou App Store. » Sur my.vecturabook.com, l'abonnement est visible, mais ne peut pas y être acheté.\n\nPlus de 10 camions — écrivez à support@vecturabook.com. Si l'abonnement est acheté mais que le téléphone est nouveau — « Restaurer les achats ». Pour résilier l'abonnement — dans Google Play ou l'App Store, là où il a été acheté.",
+     "image": ""
+    },
+    {
+     "id": "unpaid",
+     "title": "Si l'abonnement a pris fin",
+     "text": "Sans abonnement, l'écran affiche « Les écrans de la flotte nécessitent un abonnement. Les chauffeurs ne sont jamais bloqués : ils continuent de travailler. » ou « Abonnement expiré · dernier jour … ». Seuls « Abonnement Flotte » et « Chauffeurs » avec « Obtenir un code » sont visibles — afin que le nouveau téléphone d'un chauffeur puisse rejoindre la flotte même sans paiement.\n\nLes chauffeurs continuent de travailler comme d'habitude, et leurs journées, trajets et pleins continuent d'arriver à la flotte. Après le paiement, les écrans de la flotte sont de nouveau accessibles.\n\nPlus de camions que ne couvre la formule : « La flotte compte … camions, la formule en couvre jusqu'à …. Choisissez une formule supérieure. »",
      "image": ""
     }
    ]

@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "no",
- "revision": "2026-11-15",
+ "revision": "2026-11-28",
  "sections": [
   {
    "slug": "getting-started",
@@ -537,6 +537,61 @@
      "id": "owner-driver",
      "title": "Sjåfør",
      "text": "Trykk på en sjåfør for å åpne kortet. «Lastebil» og «Tilhenger»: velg fra bilparkens vognpark og trykk «Lagre». Bare tilhengere som passer til den valgte lastebilen tilbys. Sjåførens telefon fanger opp endringen av seg selv; under en tur — etter at turen er avsluttet.\n\n«Hent kode» gir en engangskode med tidspunktet den er gyldig til. «Send koden til sjåføren» sender koden og lenken via en meldingstjeneste. Koden vises bare én gang. En ny kode flytter sjåføren til en ny telefon: den gamle telefonen forlater bilparken.\n\nNedenfor vises sjåførens «Skift», «Turer» og «Tankinger» som har nådd bilparken.\n\nKortet til en sjåfør som har gått, viser «Forlot bilparken» med tidspunktet. En ny kode fra deg henter sjåføren tilbake.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fleet-company",
+   "title": "Bilpark for transportfirma",
+   "intro": "Veiledning for firmaeieren: hvordan du oppretter en bilpark, legger til lastebiler og sjåfører, kobler til sjåførenes telefoner, og hva du deretter ser i appen og på my.vecturabook.com/fleet.html. Sjåførene bruker den gratis; bare bilparkeieren betaler, og de første 30 dagene er gratis.",
+   "steps": [
+    {
+     "id": "start",
+     "title": "Hva du trenger",
+     "text": "For eieren — en VecturaBook-konto (en e-postadresse) og VecturaBook-appen på telefonen, eller en nettleser. Bilparken er den samme i appen og på my.vecturabook.com/fleet.html: lastebiler, sjåfører og koder kan legges inn begge steder. Å kjøpe abonnement og sende koden via en meldingstjeneste gjøres bare i appen.\n\nFor sjåføren — bare VecturaBook-appen på telefonen og en kode fra deg. Sjåføren trenger ingen egen konto for bilparken.\n\nÉn konto — én bilpark. Bare eieren betaler; sjåfører betaler aldri, og abonnementet stopper aldri arbeidet deres.",
+     "image": ""
+    },
+    {
+     "id": "create",
+     "title": "Opprett bilpark",
+     "text": "I appen: Innstillinger → «Sjåførprofil» → slå på «Eier / Ansatt». Raden «Bilpark» vises nedenfor — trykk på den. (Den samme bryteren gir feltet «Pris» på turen.)\n\nHvis telefonen ikke er logget inn, viser skjermen «Logg først inn på kontoen din:» — trykk «Koble til VecturaBook» og logg inn med e-postadressen til kontoen din.\n\nSkjermen «Opprett bilpark»: skriv inn «Navn på bilparken» og trykk «Opprett bilpark». Linjen over knappen forteller hva som skjer: «Gratis prøveperiode: 30 dager.» eller «Denne kontoen har allerede hatt en gratis prøveperiode: den nye bilparken krever abonnement fra første dag.»\n\nI nettleseren: logg inn på my.vecturabook.com, åpne «Innstillinger» og trykk «Opprett bilpark» — det samme skjemaet åpnes på my.vecturabook.com/fleet.html. Når bilparken er opprettet, heter denne raden «Bilpark» og fører til siden dens.",
+     "image": ""
+    },
+    {
+     "id": "garage",
+     "title": "Lastebiler og tilhengere",
+     "text": "Bilparkens «Vognpark» inneholder lastebilene og tilhengerne som sjåførene dine kjører.\n\n«+ Legg til lastebil»: «Registreringsnummer», «Kjøretøytype» — «Trekkvogn» eller «Lastebil», og for en lastebil også «Påbyggtype». «+ Legg til tilhenger»: «Registreringsnummer», kompatibilitet — «Semitrailer» eller «Tilhenger» — og «Påbyggtype».\n\nAbonnementet regnes ut fra antall lastebiler i bilparkens vognpark; tilhengere telles ikke med. En lastebil kan ikke fjernes fra bilparkens vognpark, så legg bare inn de lastebilene som faktisk er i drift.",
+     "image": ""
+    },
+    {
+     "id": "drivers",
+     "title": "Sjåfører",
+     "text": "Nederst på skjermen «Bilpark»: skriv inn «Sjåførens navn» og trykk «Legg til sjåfør» — sjåførkortet åpnes.\n\nI kortet velger du «Lastebil» og «Tilhenger» fra bilparkens vognpark og trykker «Lagre». Bare tilhengere som passer til den valgte lastebilen tilbys. På my.vecturabook.com/fleet.html velges lastebil og tilhenger rett i sjåførens rad og lagres med en gang.\n\nLastebil og tilhenger kan endres når som helst: sjåførens telefon fanger opp endringen av seg selv, og under en tur — etter at turen er avsluttet.",
+     "image": ""
+    },
+    {
+     "id": "link",
+     "title": "Koble til sjåførens telefon",
+     "text": "I sjåførkortet trykker du «Hent kode». Koden på 8 tegn er gyldig i 72 timer og bare én gang; den vises bare én gang. «Send koden til sjåføren» sender koden og en lenke via en meldingstjeneste. På my.vecturabook.com/fleet.html er knappen «Hent kode» i sjåførens rad, og koden og lenken vises under listen.\n\nSjåføren installerer VecturaBook og trykker ved første oppstart på «Jeg kjører for en bilpark — skriv inn kode» (senere: Innstillinger → «Sjåførprofil» → «Bli med i en bilpark med kode»), skriver inn koden og trykker «Bli med i bilparken». Det går også an å bare åpne lenken på telefonen — da fylles koden inn av seg selv. På telefonen dukker det opp en loggbok for bilparken med lastebilen og tilhengeren du tildelte; sjåførens «Min loggbok» forblir sjåførens egen og sendes aldri til bilparken.\n\nI listen står sjåføren som «Koblet» eller «Ikke koblet ennå». Hvis koden har utløpt eller gått tapt — trykk «Hent kode» igjen: en ny kode ugyldiggjør den forrige. En ny telefon til sjåføren krever også en ny kode; den gamle telefonen forlater da bilparken.",
+     "image": ""
+    },
+    {
+     "id": "watch",
+     "title": "Hva eieren ser",
+     "text": "Listen «Sjåfører»: for hver sjåfør vises «Koblet», «Ikke koblet ennå» eller «Forlot bilparken» og tidspunkt, sjåførens lastebil og tilhenger, og hvor mange «Skift», «Turer» og «Tankinger» som har kommet inn til bilparken. Trykk på en sjåfør — kortet viser sjåførens skift, turer og tankinger.\n\nPå my.vecturabook.com/fleet.html — det samme, som tabeller: skift (start og slutt), turer (fra, til, start, ankomst, venting, last, lastebil og tilhenger), tankinger (tid, liter, drivstoff — diesel, AdBlue eller hengerens aggregat, kilometerstand, lastebil).\n\nRegistreringene kommer inn når sjåførens telefon har internett: appen sender dem av seg selv, og «Send til bilparken nå» i «Sjåførprofil» sender dem med en gang. En sjåfør som har forlatt bilparken, blir stående i listen merket «Forlot bilparken»; alt sjåføren har sendt inn, blir værende i bilparken. En ny kode fra deg henter sjåføren tilbake.",
+     "image": ""
+    },
+    {
+     "id": "subscription",
+     "title": "Prøveperiode og abonnement",
+     "text": "En ny bilpark fungerer gratis i 30 dager; i prøveperioden kan det være så mange lastebiler du vil. Øverst på skjermen «Bilpark» og på siden for bilparken vises statusen: «Gratis prøveperiode til … · dager igjen: …», og etter betaling — «Aktivt til … · dager igjen: …».\n\nFor å kjøpe: på skjermen «Bilpark» trykker du «Abonnement for bilpark» → «Velg et abonnement»: «Opptil 3 lastebiler», «Opptil 5 lastebiler» eller «Opptil 10 lastebiler» for «1 måned», «6 måneder» eller «1 år». Abonnementer som dekker færre enn antall lastebiler i bilparkens vognpark, tilbys ikke. Prisen står i raden for abonnementet og vises av butikken; priser i euro finnes på vecturabook.com. Du betaler i appen via Google Play på Android eller via App Store på iPhone. I versjonen fra RuStore: «Abonnement for bilpark kan kjøpes i versjonen fra Google Play eller App Store.» På my.vecturabook.com vises abonnementet, men det kan ikke kjøpes der.\n\nMer enn 10 lastebiler — skriv til support@vecturabook.com. Er abonnementet kjøpt, men telefonen er ny — «Gjenopprett kjøp». Avbryt abonnementet — i Google Play eller App Store, der det ble kjøpt.",
+     "image": ""
+    },
+    {
+     "id": "unpaid",
+     "title": "Hvis abonnementet er utløpt",
+     "text": "Uten abonnement viser skjermen «Bilparkfunksjonene krever et abonnement. Sjåfører blokkeres aldri: de fortsetter å jobbe.» eller «Abonnementet er utløpt · siste dag …». Bare «Abonnement for bilpark» og «Sjåfører» med «Hent kode» er synlige — slik at en ny telefon for en sjåfør kan bli med i bilparken også uten betaling.\n\nSjåførene fortsetter å jobbe som vanlig, og skiftene, turene og tankingene deres fortsetter å komme inn til bilparken. Etter betaling er bilparkskjermene åpne igjen.\n\nFlere lastebiler enn abonnementet dekker: «Bilparken har … lastebiler, abonnementet dekker opptil …. Velg et større abonnement.»",
      "image": ""
     }
    ]

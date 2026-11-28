@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "tr",
- "revision": "2026-11-15",
+ "revision": "2026-11-28",
  "sections": [
   {
    "slug": "getting-started",
@@ -537,6 +537,61 @@
      "id": "owner-driver",
      "title": "Sürücü",
      "text": "Kartını açmak için bir sürücüye dokunun. “Araç” ve “Römork”: şirket filosunun filosundan seçin ve “Kaydet” düğmesine dokunun. Yalnızca seçilen araca uyan römorklar sunulur. Sürücünün telefonu değişikliği kendisi alır; sefer sırasındaysa — sefer bittikten sonra.\n\n“Kod al”, ne zamana kadar geçerli olduğu bilgisiyle birlikte tek kullanımlık bir kod verir. “Kodu sürücüye gönder”, kodu ve bağlantıyı bir mesajlaşma uygulaması üzerinden gönderir. Kod yalnızca bir kez gösterilir. Yeni bir kod sürücüyü yeni bir telefona taşır: eski telefon şirket filosundan ayrılır.\n\nAşağıda sürücünün şirket filosuna ulaşan “Vardiyalar”, “Sefer” ve “Yakıt almalar” kayıtları yer alır.\n\nAyrılan sürücünün kartında “Şirket filosundan ayrıldı” ve saat görünür. Sizden gelen yeni bir kod sürücüyü geri getirir.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fleet-company",
+   "title": "Nakliye şirketi için şirket filosu",
+   "intro": "Firma sahibi için kılavuz: şirket filosu nasıl oluşturulur, araçlar ve sürücüler nasıl eklenir, sürücülerin telefonları nasıl bağlanır ve ardından uygulamada ve my.vecturabook.com/fleet.html adresinde neleri görürsünüz. Sürücüler ücretsiz kullanır; yalnızca şirket filosu sahibi öder, ilk 30 gün — ücretsizdir.",
+   "steps": [
+    {
+     "id": "start",
+     "title": "Neler gerekli",
+     "text": "Sahip için — bir VecturaBook hesabı (e-posta adresi) ve telefonda VecturaBook uygulaması veya bir tarayıcı. Şirket filosu uygulamada ve my.vecturabook.com/fleet.html adresinde aynıdır: araçlar, sürücüler ve kodlar her iki yerde de eklenebilir. Abonelik satın almak ve bir mesajlaşma uygulaması üzerinden kod göndermek — yalnızca uygulamada mümkündür.\n\nSürücü için — yalnızca telefonda VecturaBook uygulaması ve sizden gelecek bir kod. Şirket filosu için sürücünün kendi hesabına ihtiyacı yoktur.\n\nBir hesap — bir şirket filosu. Yalnızca sahip öder; sürücüler asla ödeme yapmaz ve abonelik onların çalışmasını durdurmaz.",
+     "image": ""
+    },
+    {
+     "id": "create",
+     "title": "Şirket filosu oluştur",
+     "text": "Uygulamada: Ayarlar → “Sürücü profili” → “Sahip / Ücretli” seçeneğini açın. Aşağıda “Şirket filosu” satırı görünür — ona dokunun. (Aynı anahtar sefere “Fiyat” alanını ekler.)\n\nTelefonda giriş yapılmamışsa ekran “Önce hesabına giriş yap:” yazar — “VecturaBook’a bağlan” düğmesine dokunun ve hesabınızın e-posta adresiyle giriş yapın.\n\n“Şirket filosu oluştur” ekranı: “Şirket filosunun adı” alanını doldurun ve “Şirket filosu oluştur” düğmesine dokunun. Düğmenin üzerindeki satır ne olacağını belirtir: “Ücretsiz deneme: 30 gün.” veya “Bu hesap ücretsiz denemeyi zaten kullandı: yeni şirket filosu ilk günden abonelik gerektirir.”\n\nTarayıcıda: my.vecturabook.com adresinde oturum açın, “Ayarlar”ı açın ve “Şirket filosu oluştur”a tıklayın — my.vecturabook.com/fleet.html adresinde aynı form açılır. Şirket filosu oluşturulduğunda bu satır “Şirket filosu” adını alır ve sayfasına yönlendirir.",
+     "image": ""
+    },
+    {
+     "id": "garage",
+     "title": "Araçlar ve römorklar",
+     "text": "Şirket filosunun “Filo”su — sürücülerinizin kullandığı araçlar ve römorklardır.\n\n“+ Araç Ekle”: “Plaka Numarası”, “Araç tipi” — “Çekici” veya “Kamyon”, kamyon için ayrıca “Kasa Tipi”. “+ Römork Ekle”: “Plaka Numarası”, uyumluluk — “Yarı römork” veya “Rigid römork” — ve “Kasa Tipi”.\n\nAbonelik, şirket filosunun filosundaki araç sayısına göre hesaplanır; römorklar hesaba katılmaz. Şirket filosunun filosundan bir araç kaldırılamaz, bu nedenle yalnızca gerçekten çalışan araçları ekleyin.",
+     "image": ""
+    },
+    {
+     "id": "drivers",
+     "title": "Sürücüler",
+     "text": "“Şirket filosu” ekranının altında: “Sürücünün adı” alanını doldurun ve “Sürücü ekle”ye dokunun — sürücünün kartı açılır.\n\nKartta, şirket filosunun filosundan “Araç” ve “Römork” seçin ve “Kaydet”e dokunun. Yalnızca seçilen araca uygun römorklar sunulur. my.vecturabook.com/fleet.html adresinde araç ve römork doğrudan sürücü satırında seçilir ve hemen kaydedilir.\n\nAracı ve römorku istediğiniz zaman değiştirebilirsiniz: sürücünün telefonu değişikliği kendiliğinden alır, sefer sırasındaysa — sefer sona erdikten sonra.",
+     "image": ""
+    },
+    {
+     "id": "link",
+     "title": "Sürücünün telefonunu bağlama",
+     "text": "Sürücünün kartında “Kod al”a dokunun. 8 karakterli kod 72 saat ve yalnızca bir kez geçerlidir; sadece bir kez gösterilir. “Kodu sürücüye gönder”, kodu ve bağlantıyı bir mesajlaşma uygulaması üzerinden gönderir. my.vecturabook.com/fleet.html adresinde — sürücü satırındaki “Kod al” düğmesi, kod ve bağlantı listenin altında gösterilir.\n\nSürücü VecturaBook uygulamasını yükler ve ilk çalıştırmada “Bir şirket filosunda sürüyorum — kodu gir” seçeneğine dokunur (daha sonra: Ayarlar → “Sürücü profili” → “Kodla bir şirket filosuna katıl”), kodu girer ve “Şirket filosuna katıl”a dokunur. Bağlantıyı telefonda açmak da yeterlidir — kod kendiliğinden doldurulur. Telefonda, atadığınız araç ve römorkla birlikte filo seyir defteri görünür; sürücünün “Seyir defterim” kaydı kendisine ait kalır ve şirket filosuna gitmez.\n\nListede sürücü “Bağlı” veya “Henüz bağlı değil” olarak görünür. Kodun süresi dolduysa veya kaybolduysa — tekrar “Kod al”a dokunun: yeni kod eskisini geçersiz kılar. Sürücünün yeni telefonu da yeni bir kodla bağlanır; bu durumda eski telefon şirket filosundan ayrılır.",
+     "image": ""
+    },
+    {
+     "id": "watch",
+     "title": "Sahip neleri görür",
+     "text": "“Sürücüler” listesi: her biri için “Bağlı”, “Henüz bağlı değil” veya “Şirket filosundan ayrıldı” durumu ve zaman, aracı ve römorku ve şirket filosuna kaç “Vardiyalar”, “Sefer” ve “Yakıt almalar” ulaştığı görünür. Bir sürücüye dokunun — kartında vardiyaları, seferleri ve yakıt alımları yer alır.\n\nmy.vecturabook.com/fleet.html adresinde — aynı bilgiler tablolar halindedir: vardiyalar (başlangıç ve bitiş), seferler (nereden, nereye, başlangıç, varış, bekleme, yük, araç ve römork), yakıt alımları (zaman, litre, yakıt — dizel, AdBlue veya römork ünitesi, kilometre sayacı, araç).\n\nKayıtlar, sürücünün telefonunda internet olduğunda ulaşır: uygulama bunları kendiliğinden gönderir, “Sürücü profili” içindeki “Şimdi şirket filosuna gönder” ise hemen gönderir. Şirket filosundan ayrılan bir sürücü, listede “Şirket filosundan ayrıldı” işaretiyle kalır; gönderdiği her şey şirket filosunda kalır. Sizden gelen yeni bir kod onu geri getirir.",
+     "image": ""
+    },
+    {
+     "id": "subscription",
+     "title": "Ücretsiz deneme ve abonelik",
+     "text": "Yeni bir şirket filosu 30 gün boyunca ücretsiz çalışır; deneme süresince istenen sayıda araç bulunabilir. “Şirket filosu” ekranının ve şirket filosu sayfasının üst kısmında durum yer alır: “… tarihine kadar ücretsiz deneme · kalan gün: …”, ödemeden sonra ise — “… tarihine kadar aktif · kalan gün: …”.\n\nSatın almak için: “Şirket filosu” ekranında “Şirket filosu aboneliği” → “Bir plan seçin” seçeneğine dokunun: “1 ay”, “6 ay” veya “1 yıl” için “3 adede kadar araç”, “5 adede kadar araç” veya “10 adede kadar araç”. Şirket filosunun filosundaki araç sayısından daha küçük planlar sunulmaz. Fiyat plan satırındadır ve mağaza tarafından gösterilir; avro cinsinden fiyatlar vecturabook.com adresindedir. Ödemeyi uygulama içinden Android’de Google Play üzerinden veya iPhone’da App Store üzerinden yapın. RuStore sürümünde: “Şirket filosu aboneliğini Google Play veya App Store sürümünden satın alabilirsiniz.” my.vecturabook.com adresinde abonelik görünür, ancak oradan satın alınamaz.\n\n10 araçtan fazlası için — support@vecturabook.com adresine yazın. Abonelik satın alındı ama telefon yeni — “Satın alımları geri yükle”. Aboneliği iptal etmek — Google Play veya App Store içinde, nereden satın alındıysa oradadır.",
+     "image": ""
+    },
+    {
+     "id": "unpaid",
+     "title": "Abonelik biterse",
+     "text": "Abonelik olmadan ekran “Şirket filosu ekranları abonelik gerektirir. Sürücüler asla engellenmez: çalışmaya devam ederler.” veya “Abonelik süresi doldu · son gün …” gösterir. Yalnızca “Şirket filosu aboneliği” ve “Kod al” seçeneğiyle “Sürücüler” görünür — böylece bir sürücünün yeni telefonu ödeme yapılmadan da şirket filosuna katılabilir.\n\nSürücüler her zamanki gibi çalışmaya devam eder, vardiyaları, seferleri ve yakıt alımları şirket filosuna ulaşmayı sürdürür. Ödemeden sonra şirket filosu ekranları yeniden açılır.\n\nPlanın kapsadığından daha fazla araç varsa: “Şirket filosunda … araç var, plan en fazla … aracı kapsıyor. Daha büyük bir plan seçin.”",
      "image": ""
     }
    ]

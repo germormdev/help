@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "pt",
- "revision": "2026-11-15",
+ "revision": "2026-11-28",
  "sections": [
   {
    "slug": "getting-started",
@@ -537,6 +537,61 @@
      "id": "owner-driver",
      "title": "Motorista",
      "text": "Toque num motorista para abrir a ficha. «Camião» e «Reboque»: escolha em A minha frota da frota e toque em «Guardar». Apenas são oferecidos reboques compatíveis com o camião escolhido. O telemóvel do motorista assume a alteração sozinho; durante uma viagem — após o fim da viagem.\n\n«Obter código» gera um código de utilização única com a hora até à qual é válido. «Enviar o código ao motorista» envia o código e a ligação através de uma aplicação de mensagens. O código é mostrado apenas uma vez. Um novo código transfere o motorista para um novo telemóvel: o telemóvel antigo sai da frota.\n\nEm baixo estão as «Jornadas», «Viagens» e «Abastecimentos» do motorista que chegaram à frota.\n\nO cartão de um motorista que saiu mostra «Saiu da frota da empresa» com a hora. Um novo código seu traz o motorista de volta.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fleet-company",
+   "title": "Frota da empresa para uma empresa de transportes",
+   "intro": "Guia para o proprietário da empresa: como criar uma frota da empresa, adicionar camiões e motoristas, associar os telemóveis dos motoristas e o que depois vê na aplicação e em my.vecturabook.com/fleet.html. Os motoristas trabalham gratuitamente; apenas o proprietário da frota da empresa paga, os primeiros 30 dias são gratuitos.",
+   "steps": [
+    {
+     "id": "start",
+     "title": "O que é necessário",
+     "text": "Para o proprietário — uma conta do VecturaBook (endereço de e-mail) e a aplicação VecturaBook no telemóvel ou um navegador. A frota da empresa é a mesma na aplicação e em my.vecturabook.com/fleet.html: camiões, motoristas e códigos podem ser adicionados em qualquer um dos dois. Comprar a subscrição e enviar o código através de uma aplicação de mensagens — apenas na aplicação.\n\nPara o motorista — apenas a aplicação VecturaBook no telemóvel e um código seu. O motorista não precisa de uma conta própria para a frota da empresa.\n\nUma conta — uma frota da empresa. Apenas o proprietário paga; os motoristas nunca pagam e a subscrição não interrompe o seu trabalho.",
+     "image": ""
+    },
+    {
+     "id": "create",
+     "title": "Criar frota da empresa",
+     "text": "Na aplicação: Definições → «Perfil do motorista» → ative «Proprietário / Contratado». Abaixo surge a linha «Frota da empresa» — toque nela. (Este mesmo interruptor adiciona na viagem o campo «Preço».)\n\nSe a sessão não estiver iniciada no telemóvel, o ecrã indica «Inicia primeiro sessão na tua conta:» — toque em «Ligar ao VecturaBook» e inicie sessão com o endereço de e-mail da sua conta.\n\nEcrã «Criar frota da empresa»: introduza o «Nome da frota da empresa» e toque em «Criar frota da empresa». A linha acima do botão indica o que irá acontecer: «Avaliação gratuita: 30 dias.» ou «Esta conta já teve uma avaliação gratuita: a nova frota da empresa requer uma subscrição desde o primeiro dia.»\n\nNo navegador: inicie sessão em my.vecturabook.com, abra as «Definições» e toque em «Criar frota da empresa» — abre-se o mesmo formulário em my.vecturabook.com/fleet.html. Quando a frota da empresa estiver criada, esta linha passa a chamar-se «Frota da empresa» e leva à sua página.",
+     "image": ""
+    },
+    {
+     "id": "garage",
+     "title": "Camiões e reboques",
+     "text": "«A minha frota» da frota da empresa — os camiões e reboques que os seus motoristas conduzem.\n\n«+ Adicionar camião»: «Matrícula», «Tipo de veículo» — «Tractor» ou «Rígido», e no rígido também o «Tipo de carroçaria». «+ Adicionar reboque»: «Matrícula», compatibilidade — «Semirreboque» ou «Reboque rígido» — e «Tipo de carroçaria».\n\nA subscrição é calculada pelo número de camiões na frota da empresa; os reboques não são contabilizados. Não é possível remover um camião da frota da empresa, por isso adicione apenas os camiões que trabalham.",
+     "image": ""
+    },
+    {
+     "id": "drivers",
+     "title": "Motoristas",
+     "text": "Na parte inferior do ecrã «Frota da empresa»: introduza o «Nome do motorista» e toque em «Adicionar motorista» — abre-se a ficha do motorista.\n\nNa ficha, escolha o «Camião» e o «Reboque» da frota da empresa e toque em «Guardar». Apenas são oferecidos reboques compatíveis com o camião escolhido. Em my.vecturabook.com/fleet.html, o camião e o reboque são escolhidos diretamente na linha do motorista e guardados de imediato.\n\nO camião e o reboque podem ser alterados a qualquer momento: o telemóvel do motorista assume a alteração sozinho; durante uma viagem — após o fim da viagem.",
+     "image": ""
+    },
+    {
+     "id": "link",
+     "title": "Associar o telemóvel do motorista",
+     "text": "Na ficha do motorista, toque em «Obter código». O código de 8 caracteres é válido durante 72 horas e apenas uma vez; é mostrado apenas uma vez. «Enviar o código ao motorista» envia o código e a ligação através de uma aplicação de mensagens. Em my.vecturabook.com/fleet.html — o botão «Obter código» encontra-se na linha do motorista, e o código e a ligação são apresentados por baixo da lista.\n\nO motorista instala o VecturaBook e, na primeira utilização, toca em «Conduzo para uma frota da empresa — inserir código» (mais tarde: Definições → «Perfil do motorista» → «Entrar numa frota da empresa com um código»), introduz o código e toca em «Entrar na frota da empresa». Também pode simplesmente abrir a ligação no telemóvel — o código é preenchido sozinho. No telemóvel surge o diário da frota com o camião e o reboque atribuídos; «O meu diário» do motorista continua a ser seu e nunca vai para a frota da empresa.\n\nNa lista, o motorista surge como «Associado» ou «Ainda não associado». Se o código tiver expirado ou se tiver perdido — toque em «Obter código» novamente: um código novo anula o anterior. Um telemóvel novo do motorista também requer um código novo; o telemóvel antigo sai, nessa altura, da frota da empresa.",
+     "image": ""
+    },
+    {
+     "id": "watch",
+     "title": "O que o proprietário vê",
+     "text": "Lista «Motoristas»: para cada um, «Associado», «Ainda não associado» ou «Saiu da frota da empresa» com a hora, o seu camião e reboque e quantas «Jornadas», «Viagens» e «Abastecimentos» chegaram à frota da empresa. Toque num motorista — a ficha mostra as suas jornadas, viagens e abastecimentos.\n\nEm my.vecturabook.com/fleet.html — o mesmo, em tabelas: jornadas (início e fim), viagens (origem, destino, início, chegada, espera, carga, camião e reboque), abastecimentos (hora, litros, combustível — gasóleo, AdBlue ou unidade do reboque, conta-quilómetros, camião).\n\nOs registos chegam quando o telemóvel do motorista tem internet: a aplicação envia-os sozinha, e «Enviar para a frota da empresa agora» em «Perfil do motorista» envia-os de imediato. Um motorista que tenha saído da frota permanece na lista com a indicação «Saiu da frota da empresa»; tudo o que ele enviou permanece na frota da empresa. Um novo código seu trá-lo de volta.",
+     "image": ""
+    },
+    {
+     "id": "subscription",
+     "title": "Avaliação gratuita e subscrição",
+     "text": "Uma nova frota da empresa funciona gratuitamente durante 30 dias; durante o período experimental pode ter qualquer número de camiões. No topo do ecrã «Frota da empresa» e da página da frota da empresa vê-se o estado: «Avaliação gratuita até … · dias restantes: …», após o pagamento — «Ativa até … · dias restantes: …».\n\nPara comprar: no ecrã «Frota da empresa», toque em «Subscrição da frota da empresa» → «Escolha um plano»: «Até 3 camiões», «Até 5 camiões» ou «Até 10 camiões» por «1 mês», «6 meses» ou «1 ano». Planos inferiores ao número de camiões na frota da empresa não são disponibilizados. O preço está na linha do plano, apresentado pela loja; os preços em euros estão em vecturabook.com. Paga-se na aplicação a partir do Google Play no Android ou da App Store no iPhone. Na versão da RuStore: «Pode comprar a subscrição da frota da empresa na versão do Google Play ou da App Store.» Em my.vecturabook.com a subscrição é visível, mas não pode ser comprada aí.\n\nMais de 10 camiões — escreva para support@vecturabook.com. Se a subscrição foi comprada mas o telemóvel é novo — «Restaurar compras». Para cancelar a subscrição — no Google Play ou na App Store, onde foi comprada.",
+     "image": ""
+    },
+    {
+     "id": "unpaid",
+     "title": "Se a subscrição terminar",
+     "text": "Sem subscrição, o ecrã mostra «Os ecrãs da frota da empresa requerem uma subscrição. Os motoristas nunca são bloqueados: continuam a trabalhar.» ou «Subscrição expirada · último dia …». Apenas são visíveis «Subscrição da frota da empresa» e «Motoristas» com «Obter código» — para que o telemóvel novo de um motorista possa entrar na frota da empresa mesmo sem pagamento.\n\nOs motoristas continuam a trabalhar normalmente, e as suas jornadas, viagens e abastecimentos continuam a chegar à frota da empresa. Após o pagamento, os ecrãs da frota da empresa voltam a ficar abertos.\n\nMais camiões do que o plano cobre: «A frota da empresa tem … camiões, o plano cobre até …. Escolha um plano maior.»",
      "image": ""
     }
    ]

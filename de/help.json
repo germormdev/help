@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "de",
- "revision": "2026-11-15",
+ "revision": "2026-11-28",
  "sections": [
   {
    "slug": "getting-started",
@@ -537,6 +537,61 @@
      "id": "owner-driver",
      "title": "Fahrer",
      "text": "Tippen Sie auf einen Fahrer, um die Karte zu öffnen. „LKW“ und „Anhänger“: Wählen Sie aus dem Fuhrpark der Flotte und tippen Sie auf „Speichern“. Es werden nur Anhänger angeboten, die zum gewählten LKW passen. Das Telefon des Fahrers übernimmt die Änderung von selbst; während einer Fahrt — nach Ende der Fahrt.\n\n„Code erstellen“ liefert einen einmaligen Code mit der Zeit, bis zu der er gültig ist. „Code an den Fahrer senden“ sendet den Code und den Link über einen Messenger. Der Code wird nur einmal angezeigt. Ein neuer Code überträgt den Fahrer auf ein neues Telefon: Das alte Telefon verlässt die Flotte.\n\nDarunter stehen die „Schichten“, „Fahrten“ und „Tankvorgänge“ des Fahrers, die bei der Flotte eingegangen sind.\n\nDie Karte eines Fahrers, der gegangen ist, zeigt „Hat die Flotte verlassen“ mit der Uhrzeit. Ein neuer Code von Ihnen holt den Fahrer zurück.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fleet-company",
+   "title": "Flotte für ein Transportunternehmen",
+   "intro": "Leitfaden für den Firmeninhaber: wie Sie eine Flotte anlegen, LKW und Fahrer hinzufügen, die Telefone der Fahrer verbinden und was Sie danach in der App und auf my.vecturabook.com/fleet.html sehen. Fahrer arbeiten kostenlos; nur der Flotteninhaber zahlt, und die ersten 30 Tage sind kostenlos.",
+   "steps": [
+    {
+     "id": "start",
+     "title": "Was Sie brauchen",
+     "text": "Für den Inhaber — ein VecturaBook-Konto (E-Mail-Adresse) und die VecturaBook-App auf dem Telefon oder ein Browser. Es ist dieselbe Flotte in der App und auf my.vecturabook.com/fleet.html: LKW, Fahrer und Codes können an beiden Stellen angelegt werden. Ein Abonnement kaufen und einen Code über einen Messenger senden geht nur in der App.\n\nFür den Fahrer — nur die VecturaBook-App auf dem Telefon und ein Code von Ihnen. Ein eigenes Konto braucht der Fahrer für die Flotte nicht.\n\nEin Konto — eine Flotte. Nur der Inhaber zahlt; Fahrer zahlen nie, und das Abonnement unterbricht ihre Arbeit nicht.",
+     "image": ""
+    },
+    {
+     "id": "create",
+     "title": "Flotte anlegen",
+     "text": "In der App: Einstellungen → „Fahrerprofil“ → aktivieren Sie „Eigentümer / Angestellt“. Darunter erscheint die Zeile „Flotte“ — tippen Sie darauf. (Derselbe Schalter fügt der Fahrt das Feld „Preis“ hinzu.)\n\nWenn das Telefon nicht angemeldet ist, zeigt der Bildschirm „Melde dich zuerst in deinem Konto an:“ — tippen Sie auf „Mit VecturaBook verbinden“ und melden Sie sich mit der E-Mail-Adresse Ihres Kontos an.\n\nBildschirm „Flotte anlegen“: Geben Sie „Name der Flotte“ ein und tippen Sie auf „Flotte anlegen“. Die Zeile über der Schaltfläche zeigt, was gilt: „Kostenlose Testphase: 30 Tage.“ oder „Dieses Konto hatte bereits eine kostenlose Testphase: Die neue Flotte braucht ab dem ersten Tag ein Abonnement.“\n\nIm Browser: Melden Sie sich auf my.vecturabook.com an, öffnen Sie „Einstellungen“ und tippen Sie auf „Flotte anlegen“ — dasselbe Formular öffnet sich auf my.vecturabook.com/fleet.html. Sobald die Flotte angelegt ist, heißt diese Zeile „Flotte“ und führt zu deren Seite.",
+     "image": ""
+    },
+    {
+     "id": "garage",
+     "title": "LKW und Anhänger",
+     "text": "Der „Fuhrpark“ der Flotte umfasst die LKW und Anhänger, die Ihre Fahrer fahren.\n\n„+ LKW hinzufügen“: „Kennzeichen“, „Fahrzeugtyp“ — „Sattelzugmaschine“ oder „LKW“, beim LKW zusätzlich „Aufbauart“. „+ Anhänger hinzufügen“: „Kennzeichen“, Kompatibilität — „Sattelauflieger“ oder „Anhänger“ — und „Aufbauart“.\n\nDas Abonnement richtet sich nach der Anzahl der LKW im Fuhrpark der Flotte; Anhänger zählen nicht mit. Ein LKW kann nicht aus dem Fuhrpark der Flotte gelöscht werden, legen Sie daher nur die LKW an, die tatsächlich im Einsatz sind.",
+     "image": ""
+    },
+    {
+     "id": "drivers",
+     "title": "Fahrer",
+     "text": "Unten auf dem Bildschirm „Flotte“: Geben Sie „Name des Fahrers“ ein und tippen Sie auf „Fahrer hinzufügen“ — die Karte des Fahrers öffnet sich.\n\nWählen Sie in der Karte „LKW“ und „Anhänger“ aus dem Fuhrpark der Flotte und tippen Sie auf „Speichern“. Es werden nur Anhänger angeboten, die zum gewählten LKW passen. Auf my.vecturabook.com/fleet.html werden LKW und Anhänger direkt in der Zeile des Fahrers ausgewählt und sofort gespeichert.\n\nLKW und Anhänger können Sie jederzeit ändern: Das Telefon des Fahrers übernimmt die Änderung von selbst, und während einer Fahrt — nach Ende der Fahrt.",
+     "image": ""
+    },
+    {
+     "id": "link",
+     "title": "Telefon des Fahrers verbinden",
+     "text": "Tippen Sie in der Karte des Fahrers auf „Code erstellen“. Der 8-stellige Code ist 72 Stunden und nur einmal gültig; er wird nur einmal angezeigt. „Code an den Fahrer senden“ sendet den Code und einen Link über einen Messenger. Auf my.vecturabook.com/fleet.html befindet sich die Schaltfläche „Code erstellen“ in der Zeile des Fahrers; Code und Link werden unter der Liste angezeigt.\n\nDer Fahrer installiert VecturaBook und tippt beim ersten Start auf „Ich fahre für eine Flotte — Code eingeben“ (später: Einstellungen → „Fahrerprofil“ → „Mit Code einer Flotte beitreten“), gibt den Code ein und tippt auf „Der Flotte beitreten“. Man kann auch einfach den Link auf dem Telefon öffnen — der Code wird automatisch eingefügt. Auf dem Telefon erscheint das Fahrtenbuch der Flotte mit dem LKW und dem Anhänger, die Sie zugewiesen haben; „Mein Fahrtenbuch“ des Fahrers bleibt sein eigenes und geht nicht an die Flotte.\n\nIn der Liste steht beim Fahrer „Verbunden“ oder „Noch nicht verbunden“. Ist der Code abgelaufen oder verloren gegangen — tippen Sie noch einmal auf „Code erstellen“: Ein neuer Code hebt den bisherigen auf. Ein neues Telefon des Fahrers erfordert ebenfalls einen neuen Code; das alte Telefon verlässt dabei die Flotte.",
+     "image": ""
+    },
+    {
+     "id": "watch",
+     "title": "Was der Inhaber sieht",
+     "text": "Liste „Fahrer“: Bei jedem steht „Verbunden“, „Noch nicht verbunden“ oder „Hat die Flotte verlassen“ samt Uhrzeit, dazu sein LKW und Anhänger und wie viele „Schichten“, „Fahrten“ und „Tankvorgänge“ bei der Flotte eingegangen sind. Tippen Sie auf einen Fahrer — in der Karte sehen Sie seine Schichten, Fahrten und Tankvorgänge.\n\nAuf my.vecturabook.com/fleet.html — dasselbe als Tabellen: Schichten (Beginn und Ende), Fahrten (Start, Ziel, Beginn, Ankunft, Warten, Ladung, LKW und Anhänger), Tankvorgänge (Zeit, Liter, Kraftstoff — Diesel, AdBlue oder Aggregat des Anhängers, Kilometerstand, LKW).\n\nEinträge gehen ein, sobald das Telefon des Fahrers Internet hat: Die App sendet sie automatisch, und „Jetzt an die Flotte senden“ im „Fahrerprofil“ sendet sie sofort. Ein Fahrer, der die Flotte verlassen hat, bleibt mit dem Vermerk „Hat die Flotte verlassen“ in der Liste; alles, was er übermittelt hat, bleibt in der Flotte. Ein neuer Code von Ihnen holt ihn zurück.",
+     "image": ""
+    },
+    {
+     "id": "subscription",
+     "title": "Testphase und Abonnement",
+     "text": "Eine neue Flotte läuft 30 Tage lang kostenlos; während der Testphase kann es beliebig viele LKW geben. Oben auf dem Bildschirm „Flotte“ und auf der Flottenseite sehen Sie den Status: „Kostenlose Testphase bis … · verbleibende Tage: …“, nach der Zahlung — „Aktiv bis … · verbleibende Tage: …“.\n\nKaufen: Tippen Sie auf dem Bildschirm „Flotte“ auf „Flotten-Abo“ → „Plan wählen“: „Bis zu 3 LKW“, „Bis zu 5 LKW“ oder „Bis zu 10 LKW“ für „1 Monat“, „6 Monate“ oder „1 Jahr“. Pläne für weniger LKW als die Anzahl im Fuhrpark der Flotte werden nicht angeboten. Der Preis steht in der Zeile des Plans und wird vom Store angezeigt; Preise in Euro finden Sie auf vecturabook.com. Sie zahlen in der App über Google Play auf Android oder über den App Store auf dem iPhone. In der Version aus dem RuStore: „Das Flotten-Abo können Sie in der Version aus Google Play oder dem App Store kaufen.“ Auf my.vecturabook.com ist das Abonnement sichtbar, kann dort aber nicht gekauft werden.\n\nMehr als 10 LKW — schreiben Sie an support@vecturabook.com. Das Abonnement wurde gekauft, aber das Telefon ist neu — „Käufe wiederherstellen“. Das Abonnement kündigen — in Google Play oder im App Store, genau dort, wo es gekauft wurde.",
+     "image": ""
+    },
+    {
+     "id": "unpaid",
+     "title": "Wenn das Abonnement abgelaufen ist",
+     "text": "Ohne Abonnement zeigt der Bildschirm „Flotten-Bereiche erfordern ein Abonnement. Fahrer werden nie blockiert: sie arbeiten weiter.“ oder „Abonnement abgelaufen · letzter Tag …“. Es sind nur „Flotten-Abo“ sowie „Fahrer“ mit „Code erstellen“ sichtbar — damit das neue Telefon eines Fahrers der Flotte auch ohne Bezahlung beitreten kann.\n\nFahrer arbeiten wie gewohnt weiter, und ihre Schichten, Fahrten und Tankvorgänge gehen weiterhin in der Flotte ein. Nach der Bezahlung sind die Flotten-Bereiche wieder geöffnet.\n\nMehr LKW, als der Plan abdeckt: „Die Flotte umfasst … LKW, der Plan deckt bis zu … ab. Wählen Sie einen größeren Plan.“",
      "image": ""
     }
    ]

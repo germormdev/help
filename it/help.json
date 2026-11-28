@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "it",
- "revision": "2026-11-15",
+ "revision": "2026-11-28",
  "sections": [
   {
    "slug": "getting-started",
@@ -537,6 +537,61 @@
      "id": "owner-driver",
      "title": "Autista",
      "text": "Tocca un autista per aprire la scheda. «Camion» e «Rimorchio»: scegli dal parco mezzi della flotta e tocca «Salva». Vengono proposti solo i rimorchi compatibili con il camion scelto. Il telefono dell'autista applica la modifica da solo; durante un viaggio — al termine del viaggio.\n\n«Ottieni codice» fornisce un codice monouso con l'orario fino a cui è valido. «Invia il codice all'autista» invia il codice e il link tramite un'app di messaggistica. Il codice viene mostrato solo una volta. Un nuovo codice trasferisce l'autista su un nuovo telefono: il vecchio telefono esce dalla flotta.\n\nSotto sono mostrati i «Turni», «Viaggi» e «Rifornimenti» dell'autista arrivati alla flotta.\n\nLa scheda di un autista uscito mostra «Ha lasciato la flotta» con l'ora. Un tuo nuovo codice riporta l'autista.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fleet-company",
+   "title": "Flotta per un'azienda di trasporti",
+   "intro": "Guida per il titolare dell'azienda: come creare una flotta, aggiungere camion e autisti, collegare i telefoni degli autisti e cosa vedi dopo nell'app e su my.vecturabook.com/fleet.html. Gli autisti lavorano gratis; paga solo il titolare della flotta, i primi 30 giorni sono gratuiti.",
+   "steps": [
+    {
+     "id": "start",
+     "title": "Cosa serve",
+     "text": "Al titolare servono un account VecturaBook (un indirizzo email) e l'app VecturaBook sul telefono o un browser. La flotta è la stessa nell'app e su my.vecturabook.com/fleet.html: camion, autisti e codici si possono inserire in entrambi i posti. Acquistare l'abbonamento e inviare il codice tramite un'app di messaggistica si può fare solo nell'app.\n\nAll'autista servono solo l'app VecturaBook sul telefono e un codice da parte tua. All'autista non serve un proprio account per la flotta.\n\nUn account — una flotta. Paga solo il titolare; gli autisti non pagano mai e l'abbonamento non interrompe il loro lavoro.",
+     "image": ""
+    },
+    {
+     "id": "create",
+     "title": "Creare una flotta",
+     "text": "Nell'app: Impostazioni → «Profilo del conducente» → attiva «Proprietario / Dipendente». Sotto comparirà la riga «Flotta» — toccala. (Lo stesso interruttore aggiunge al viaggio il campo «Prezzo».)\n\nSe sul telefono non hai effettuato l'accesso, lo schermo dice «Accedi prima al tuo account:» — tocca «Collegati a VecturaBook» e accedi con l'indirizzo email del tuo account.\n\nSchermata «Crea una flotta»: inserisci «Nome della flotta» e tocca «Crea una flotta». La riga sopra il pulsante dice cosa succede: «Prova gratuita: 30 giorni.» oppure «Questo account ha già avuto una prova gratuita: la nuova flotta richiede un abbonamento dal primo giorno.»\n\nNel browser: accedi a my.vecturabook.com, apri «Impostazioni» e tocca «Crea una flotta» — si apre lo stesso modulo su my.vecturabook.com/fleet.html. Quando la flotta è creata, questa riga si chiama «Flotta» e porta alla sua pagina.",
+     "image": ""
+    },
+    {
+     "id": "garage",
+     "title": "Camion e rimorchi",
+     "text": "Il «Parco mezzi» della flotta comprende i camion e i rimorchi guidati dai tuoi autisti.\n\n«+ Aggiungi camion»: «Targa», «Tipo di veicolo» — «Trattore» o «Motrice», per la motrice anche «Tipo di carrozzeria». «+ Aggiungi rimorchio»: «Targa», compatibilità — «Semirimorchio» o «Rimorchio rigido» — e «Tipo di carrozzeria».\n\nL'abbonamento viene calcolato in base al numero di camion nel parco mezzi della flotta; i rimorchi non vengono conteggiati. Non è possibile rimuovere un camion dal parco mezzi della flotta, perciò inserisci solo i camion che lavorano effettivamente.",
+     "image": ""
+    },
+    {
+     "id": "drivers",
+     "title": "Autisti",
+     "text": "In basso nella schermata «Flotta»: inserisci «Nome dell'autista» e tocca «Aggiungi autista» — si apre la scheda dell'autista.\n\nNella scheda scegli «Camion» e «Rimorchio» dal parco mezzi della flotta e tocca «Salva». Vengono proposti solo i rimorchi compatibili con il camion scelto. Su my.vecturabook.com/fleet.html il camion e il rimorchio si scelgono direttamente nella riga dell'autista e si salvano subito.\n\nIl camion e il rimorchio si possono cambiare in qualsiasi momento: il telefono dell'autista applica la modifica da solo, e durante un viaggio — al termine del viaggio.",
+     "image": ""
+    },
+    {
+     "id": "link",
+     "title": "Collegare il telefono dell'autista",
+     "text": "Nella scheda dell'autista tocca «Ottieni codice». Il codice di 8 caratteri è valido per 72 ore e solo una volta; viene mostrato una sola volta. «Invia il codice all'autista» invia il codice e il link tramite un'app di messaggistica. Su my.vecturabook.com/fleet.html il pulsante «Ottieni codice» si trova nella riga dell'autista, e il codice e il link vengono mostrati sotto l'elenco.\n\nL'autista installa VecturaBook e al primo avvio tocca «Guido per una flotta — inserisci il codice» (in seguito: Impostazioni → «Profilo del conducente» → «Entra in una flotta con un codice»), inserisce il codice e tocca «Entra nella flotta». Si può anche semplicemente aprire il link sul telefono — il codice si inserisce da solo. Sul telefono compare il registro della flotta con il camion e il rimorchio che hai assegnato; «Il mio registro» dell'autista resta suo personale e non va alla flotta.\n\nNell'elenco l'autista risulta «Collegato» o «Non ancora collegato». Se il codice è scaduto o è andato perso — tocca «Ottieni codice» un'altra volta: il nuovo codice annulla quello precedente. Anche per un nuovo telefono dell'autista serve un nuovo codice; il vecchio telefono in questo modo lascia la flotta.",
+     "image": ""
+    },
+    {
+     "id": "watch",
+     "title": "Cosa vede il proprietario",
+     "text": "Elenco «Autisti»: per ciascuno «Collegato», «Non ancora collegato» o «Ha lasciato la flotta» e l'orario, il suo camion e rimorchio e quanti «Turni», «Viaggi» e «Rifornimenti» sono arrivati alla flotta. Tocca un autista — la scheda mostra i suoi turni, viaggi e rifornimenti.\n\nSu my.vecturabook.com/fleet.html — le stesse informazioni, in tabelle: turni (inizio e fine), viaggi (origine, destinazione, partenza, arrivo, attesa, carico, camion e rimorchio), rifornimenti (ora, litri, carburante — gasolio, AdBlue o gruppo del rimorchio, contachilometri, camion).\n\nLe registrazioni arrivano quando il telefono dell'autista ha internet: l'app le invia da sola, mentre «Invia alla flotta ora» in «Profilo del conducente» le invia subito. Un autista che ha lasciato la flotta rimane nell'elenco con la dicitura «Ha lasciato la flotta»; tutto ciò che ha inviato rimane nella flotta. Un nuovo codice da parte tua lo fa rientrare.",
+     "image": ""
+    },
+    {
+     "id": "subscription",
+     "title": "Periodo di prova e abbonamento",
+     "text": "Una nuova flotta funziona gratis per 30 giorni; durante il periodo di prova i camion possono essere quanti si vuole. In alto nella schermata «Flotta» e nella pagina della flotta trovi lo stato: «Prova gratuita fino al … · giorni rimasti: …», dopo il pagamento — «Attivo fino al … · giorni rimasti: …».\n\nPer acquistare: nella schermata «Flotta» tocca «Abbonamento Flotta» → «Scegli un piano»: «Fino a 3 camion», «Fino a 5 camion» o «Fino a 10 camion» per «1 mese», «6 mesi» o «1 anno». I piani inferiori al numero di camion nel parco mezzi della flotta non vengono proposti. Il prezzo è nella riga del piano, mostrato dallo store; i prezzi in euro sono su vecturabook.com. Paga nell'app da Google Play su Android o da App Store su iPhone. Nella versione da RuStore: «Puoi acquistare l'abbonamento Flotta nella versione da Google Play o App Store.» Su my.vecturabook.com l'abbonamento si vede, ma non si può acquistare da lì.\n\nPiù di 10 camion — scrivi a support@vecturabook.com. L'abbonamento è stato acquistato ma il telefono è nuovo — «Ripristina acquisti». Per annullare l'abbonamento — in Google Play o App Store, dove è stato acquistato.",
+     "image": ""
+    },
+    {
+     "id": "unpaid",
+     "title": "Se l'abbonamento è scaduto",
+     "text": "Senza abbonamento lo schermo mostra «Le funzionalità della flotta richiedono un abbonamento. Gli autisti non vengono mai bloccati: continuano a lavorare.» oppure «Abbonamento scaduto · ultimo giorno …». Sono visibili solo «Abbonamento Flotta» e «Autisti» con «Ottieni codice» — affinché il nuovo telefono di un autista possa entrare nella flotta anche senza pagamento.\n\nGli autisti continuano a lavorare come al solito, e i loro turni, viaggi e rifornimenti continuano ad arrivare alla flotta. Dopo il pagamento le schermate della flotta sono di nuovo aperte.\n\nPiù camion di quanti ne copre il piano: «La flotta ha … camion, il piano ne copre fino a …. Scegli un piano superiore.»",
      "image": ""
     }
    ]

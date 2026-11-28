@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "pl",
- "revision": "2026-11-15",
+ "revision": "2026-11-28",
  "sections": [
   {
    "slug": "getting-started",
@@ -537,6 +537,61 @@
      "id": "owner-driver",
      "title": "Kierowca",
      "text": "Dotknij kierowcy, aby otworzyć kartę. „Ciężarówka” i „Naczepa”: wybierz z parku floty i dotknij „Zapisz”. Oferowane są tylko naczepy pasujące do wybranej ciężarówki. Telefon kierowcy sam pobiera zmianę; w trakcie trasy — po zakończeniu trasy.\n\n„Pobierz kod” podaje jednorazowy kod z czasem, do kiedy jest ważny. „Wyślij kod kierowcy” wysyła kod i link przez komunikator. Kod pokazuje się tylko raz. Nowy kod przenosi kierowcę na nowy telefon: stary telefon opuszcza flotę.\n\nPoniżej widoczne są „Zmiany”, „Trasy” i „Tankowania” kierowcy, które dotarły do floty.\n\nKarta kierowcy, który odszedł, pokazuje „Opuścił flotę” z godziną. Nowy kod od Ciebie przywraca kierowcę.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fleet-company",
+   "title": "Flota dla firmy transportowej",
+   "intro": "Przewodnik dla właściciela firmy: jak utworzyć flotę, dodać ciężarówki i kierowców, połączyć telefony kierowców oraz co potem widzisz w aplikacji i na my.vecturabook.com/fleet.html. Kierowcy pracują bezpłatnie; płaci tylko właściciel floty, pierwsze 30 dni — bezpłatnie.",
+   "steps": [
+    {
+     "id": "start",
+     "title": "Co jest potrzebne",
+     "text": "Właścicielowi — konto VecturaBook (adres e-mail) i aplikacja VecturaBook w telefonie lub przeglądarka. Flota jest ta sama w aplikacji i na my.vecturabook.com/fleet.html: ciężarówki, kierowców i kody można dodawać i tu, i tam. Kupić subskrypcję i wysłać kod przez komunikator — tylko w aplikacji.\n\nKierowcy — tylko aplikacja VecturaBook w telefonie i kod od Ciebie. Własne konto nie jest kierowcy do floty potrzebne.\n\nJedno konto — jedna flota. Płaci tylko właściciel; kierowcy nie płacą nigdy, a subskrypcja nie zatrzymuje ich pracy.",
+     "image": ""
+    },
+    {
+     "id": "create",
+     "title": "Utwórz flotę",
+     "text": "W aplikacji: Ustawienia → „Profil kierowcy” → włącz „Właściciel / Najemny”. Poniżej pojawi się wiersz „Flota” — dotknij go. (Ten sam przełącznik dodaje w trasie pole „Cena”).\n\nJeśli telefon nie jest zalogowany, ekran pokazuje „Najpierw zaloguj się na swoje konto:” — dotknij „Połącz z VecturaBook” i zaloguj się adresem e-mail swojego konta.\n\nEkran „Utwórz flotę”: wpisz „Nazwa floty” i dotknij „Utwórz flotę”. Wiersz nad przyciskiem informuje, co nastąpi: „Bezpłatny okres próbny: 30 dni.” lub „To konto miało już bezpłatny okres próbny: nowa flota wymaga subskrypcji od pierwszego dnia.”\n\nW przeglądarce: zaloguj się na my.vecturabook.com, otwórz „Ustawienia” i dotknij „Utwórz flotę” — otworzy się ten sam formularz na my.vecturabook.com/fleet.html. Gdy flota jest utworzona, wiersz ten nazywa się „Flota” i prowadzi do jej strony.",
+     "image": ""
+    },
+    {
+     "id": "garage",
+     "title": "Ciężarówki i naczepy",
+     "text": "„Mój park” floty — ciężarówki i naczepy, którymi jeżdżą Twoi kierowcy.\n\n„+ Dodaj ciężarówkę”: „Numer rejestracyjny”, „Typ pojazdu” — „Ciągnik siodłowy” lub „Solo”, a dla solo również „Typ nadwozia”. „+ Dodaj naczepę”: „Numer rejestracyjny”, zgodność — „Naczepa” lub „Przyczepa” — oraz „Typ nadwozia”.\n\nSubskrypcja jest naliczana według liczby ciężarówek w parku floty; naczepy nie są liczone. Ciężarówki nie można usunąć z parku floty, dlatego dodawaj tylko te ciężarówki, które rzeczywiście pracują.",
+     "image": ""
+    },
+    {
+     "id": "drivers",
+     "title": "Kierowcy",
+     "text": "Na dole ekranu „Flota”: wpisz „Imię kierowcy” i dotknij „Dodaj kierowcę” — otworzy się karta kierowcy.\n\nW karcie wybierz „Ciężarówka” i „Naczepa” z parku floty i dotknij „Zapisz”. Oferowane są tylko naczepy pasujące do wybranej ciężarówki. Na my.vecturabook.com/fleet.html ciężarówka i naczepa są wybierane bezpośrednio w wierszu kierowcy i zapisywane od razu.\n\nCiężarówkę i naczepę można zmienić w dowolnym momencie: telefon kierowcy sam pobierze zmianę, a w trakcie trasy — po zakończeniu trasy.",
+     "image": ""
+    },
+    {
+     "id": "link",
+     "title": "Połącz telefon kierowcy",
+     "text": "W karcie kierowcy dotknij „Pobierz kod”. Kod z 8 znaków jest ważny przez 72 godziny i tylko raz; wyświetla się tylko raz. „Wyślij kod kierowcy” wysyła kod i link przez komunikator. Na my.vecturabook.com/fleet.html przycisk „Pobierz kod” znajduje się w wierszu kierowcy, a kod i link wyświetlają się pod listą.\n\nKierowca instaluje VecturaBook i przy pierwszym uruchomieniu dotyka „Jeżdżę dla floty — wpisz kod” (później: Ustawienia → „Profil kierowcy” → „Dołącz do floty za pomocą kodu”), wpisuje kod i dotyka „Dołącz do floty”. Można też po prostu otworzyć link w telefonie — kod wstawi się sam. W telefonie pojawia się dziennik floty z ciężarówką i naczepą, które przypisałeś; „Mój dziennik” kierowcy pozostaje jego własnym i nie trafia do floty.\n\nNa liście przy kierowcy widnieje „Połączony” lub „Jeszcze niepołączony”. Jeśli kod wygasł lub się zgubił — dotknij „Pobierz kod” ponownie: nowy kod unieważnia poprzedni. Nowy telefon kierowcy — również nowym kodem; stary telefon opuszcza wtedy flotę.",
+     "image": ""
+    },
+    {
+     "id": "watch",
+     "title": "Co widzi właściciel",
+     "text": "Lista „Kierowcy”: przy każdym „Połączony”, „Jeszcze niepołączony” lub „Opuścił flotę” i czas, jego ciężarówka i naczepa oraz ile „Zmiany”, „Trasy” i „Tankowania” dotarło do floty. Dotknij kierowcy — w karcie widoczne są jego zmiany, trasy i tankowania.\n\nNa my.vecturabook.com/fleet.html — to samo w postaci tabel: zmiany (początek i koniec), trasy (skąd, dokąd, początek, przyjazd, oczekiwanie, ładunek, ciężarówka i naczepa), tankowania (czas, litry, paliwo — olej napędowy, AdBlue lub agregat naczepy, licznik, ciężarówka).\n\nWpisy docierają, gdy telefon kierowcy ma internet: aplikacja wysyła je sama, a „Wyślij do floty teraz” w „Profil kierowcy” — od razu. Kierowca, który opuścił flotę, pozostaje na liście z oznaczeniem „Opuścił flotę”; wszystko, co przesłał, zostaje we flocie. Nowy kod od Ciebie go przywraca.",
+     "image": ""
+    },
+    {
+     "id": "subscription",
+     "title": "Okres próbny i subskrypcja",
+     "text": "Nowa flota działa bezpłatnie przez 30 dni; w okresie próbnym ciężarówek może być dowolnie dużo. U góry ekranu „Flota” i strony floty widoczny jest stan: „Bezpłatny okres próbny do … · pozostało dni: …”, po opłaceniu — „Aktywna do … · pozostało dni: …”.\n\nAby kupić: na ekranie „Flota” dotknij „Subskrypcja dla Floty” → „Wybierz plan”: „Do 3 ciężarówek”, „Do 5 ciężarówek” lub „Do 10 ciężarówek” na „1 miesiąc”, „6 miesięcy” lub „1 rok”. Plany mniejsze niż liczba ciężarówek w parku floty nie są oferowane. Cena znajduje się w wierszu planu, pokazuje ją sklep; ceny w euro są na vecturabook.com. Płacisz w aplikacji z Google Play na Androidzie lub z App Store na iPhonie. W wersji z RuStore: „Subskrypcję dla Floty kupisz w wersji z Google Play lub App Store.” Na my.vecturabook.com subskrypcję widać, ale nie można jej tam kupić.\n\nWięcej niż 10 ciężarówek — napisz na support@vecturabook.com. Subskrypcja została kupiona, a telefon jest nowy — „Przywróć zakupy”. Anulowanie subskrypcji — w Google Play lub App Store, tam, gdzie została kupiona.",
+     "image": ""
+    },
+    {
+     "id": "unpaid",
+     "title": "Jeśli subskrypcja wygasła",
+     "text": "Bez subskrypcji ekran pokazuje „Ekrany floty wymagają subskrypcji. Kierowcy nigdy nie są blokowani: pracują dalej.” lub „Subskrypcja wygasła · ostatni dzień …”. Widoczne są tylko „Subskrypcja dla Floty” oraz „Kierowcy” z „Pobierz kod” — aby nowy telefon kierowcy mógł dołączyć do floty także bez opłaty.\n\nKierowcy pracują dalej jak zwykle, a ich zmiany, trasy i tankowania nadal docierają do floty. Po opłaceniu ekrany floty są ponownie otwarte.\n\nWięcej ciężarówek, niż obejmuje plan: „Flota liczy … ciężarówek, plan obejmuje do …. Wybierz wyższy plan.”",
      "image": ""
     }
    ]

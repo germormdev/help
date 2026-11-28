@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "sl",
- "revision": "2026-11-15",
+ "revision": "2026-11-28",
  "sections": [
   {
    "slug": "getting-started",
@@ -537,6 +537,61 @@
      "id": "owner-driver",
      "title": "Voznik",
      "text": "Tapnite voznika, da odprete kartico. »Vozilo« in »Polpriklopnik«: izberite iz garaže voznega parka in tapnite »Shrani«. Na voljo so le polpriklopniki, ki ustrezajo izbranemu vozilu. Voznikov telefon spremembo prevzame sam; med vožnjo — po končani vožnji.\n\n»Pridobi kodo« izda enkratno kodo s časom, do kdaj je veljavna. »Pošlji kodo vozniku« pošlje kodo in povezavo prek sporočilnika. Koda je prikazana le enkrat. Nova koda voznika prestavi na nov telefon: stari telefon zapusti vozni park podjetja.\n\nSpodaj so voznikove »Izmene«, »Vožnje« in »Točenja«, ki so prispele v vozni park podjetja.\n\nKartica voznika, ki je odšel, kaže »Zapustil vozni park podjetja« s časom. Nova koda od vas voznika vrne.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fleet-company",
+   "title": "Vozni park za prevozniško podjetje",
+   "intro": "Vodnik za lastnika podjetja: kako ustvariti vozni park, dodati vozila in voznike, povezati telefone voznikov ter kaj potem vidite v aplikaciji in na my.vecturabook.com/fleet.html. Vozniki delajo brezplačno; plača le lastnik voznega parka, prvih 30 dni je brezplačnih.",
+   "steps": [
+    {
+     "id": "start",
+     "title": "Kaj potrebujete",
+     "text": "Lastnik potrebuje račun VecturaBook (e-poštni naslov) in aplikacijo VecturaBook na telefonu ali brskalnik. Vozni park je enak v aplikaciji in na my.vecturabook.com/fleet.html: vozila, voznike in kode je mogoče dodajati na obeh mestih. Nakup naročnine in pošiljanje kode prek sporočilnika sta na voljo le v aplikaciji.\n\nVoznik potrebuje le aplikacijo VecturaBook na telefonu in kodo od vas. Lastnega računa voznik za vozni park ne potrebuje.\n\nEn račun — en vozni park. Plača le lastnik; vozniki ne plačajo nikoli in naročnina ne ustavlja njihovega dela.",
+     "image": ""
+    },
+    {
+     "id": "create",
+     "title": "Ustvari vozni park podjetja",
+     "text": "V aplikaciji: Nastavitve → »Profil voznika« → vklopite »Lastnik / Zaposlen«. Spodaj se prikaže vrstica »Vozni park podjetja« — tapnite jo. (Isto stikalo doda v vožnjo polje »Cena«.)\n\nČe telefon ni prijavljen, na zaslonu piše »Najprej se prijavite v svoj račun:« — tapnite »Poveži z VecturaBook« in se prijavite z e-poštnim naslovom svojega računa.\n\nZaslon »Ustvari vozni park podjetja«: vnesite »Ime voznega parka podjetja« in tapnite »Ustvari vozni park podjetja«. Vrstica nad gumbom pove, kaj bo: »Brezplačni preizkus: 30 dni.« ali »Ta račun je že imel brezplačni preizkus: novi vozni park podjetja zahteva naročnino od prvega dne.«\n\nV brskalniku: prijavite se na my.vecturabook.com, odprite »Nastavitve« in tapnite »Ustvari vozni park podjetja« — odpre se isti obrazec na my.vecturabook.com/fleet.html. Ko je vozni park ustvarjen, se ta vrstica imenuje »Vozni park podjetja« in vodi na njegovo stran.",
+     "image": ""
+    },
+    {
+     "id": "garage",
+     "title": "Vozila in priklopniki",
+     "text": "»Moj vozni park« voznega parka podjetja hrani vozila in priklopnike, ki jih vozijo vaši vozniki.\n\n»+ Dodaj vozilo«: »Registrska«, »Vrsta vozila« — »Vlačilec« ali »Solo«, pri solo vozilu še »Vrsta nadgradnje«. »+ Dodaj polpriklopnik«: »Registrska«, združljivost — »Polpriklopnik« ali »Priklopnik« — in »Vrsta nadgradnje«.\n\nNaročnina se obračunava po številu vozil v garaži voznega parka; priklopniki se ne štejejo. Vozila iz garaže voznega parka ni mogoče izbrisati, zato dodajte le tista vozila, ki dejansko delajo.",
+     "image": ""
+    },
+    {
+     "id": "drivers",
+     "title": "Vozniki",
+     "text": "Na dnu zaslona »Vozni park podjetja«: vnesite »Ime voznika« in tapnite »Dodaj voznika« — odpre se kartica voznika.\n\nV kartici izberite »Vozilo« in »Polpriklopnik« iz garaže voznega parka ter tapnite »Shrani«. Ponujeni so le polpriklopniki, ki ustrezajo izbranemu vozilu. Na my.vecturabook.com/fleet.html se vozilo in polpriklopnik izbereta neposredno v vrstici voznika in se takoj shranita.\n\nVozilo in polpriklopnik lahko zamenjate kadar koli: voznikov telefon spremembo prevzame sam, med vožnjo pa — po končani vožnji.",
+     "image": ""
+    },
+    {
+     "id": "link",
+     "title": "Poveži telefon voznika",
+     "text": "V kartici voznika tapnite »Pridobi kodo«. Koda iz 8 znakov velja 72 ur in samo enkrat; prikazana je le enkrat. »Pošlji kodo vozniku« pošlje kodo in povezavo prek sporočilnika. Na my.vecturabook.com/fleet.html je gumb »Pridobi kodo« v vrstici voznika, koda in povezava pa se prikažeta pod seznamom.\n\nVoznik namesti VecturaBook in ob prvem zagonu tapne »Vozim za vozni park podjetja — vnesi kodo« (pozneje: Nastavitve → »Profil voznika« → »Pridruži se voznemu parku podjetja s kodo«), vnese kodo in tapne »Pridruži se voznemu parku podjetja«. Lahko preprosto odpre povezavo v telefonu — koda se bo vnesla sama. Na telefonu se pojavi dnevnik voznega parka z vozilom in polpriklopnikom, ki ste ju določili; voznikov »Moj dnevnik« ostane njegov lastni in ne gre v vozni park.\n\nV seznamu je pri vozniku »Povezan« ali »Še ni povezan«. Koda je potekla ali se je izgubila — ponovno tapnite »Pridobi kodo«: nova koda razveljavi prejšnjo. Nov telefon voznika prav tako zahteva novo kodo; stari telefon pri tem zapusti vozni park.",
+     "image": ""
+    },
+    {
+     "id": "watch",
+     "title": "Kaj vidi lastnik",
+     "text": "Seznam »Vozniki«: pri vsakem »Povezan«, »Še ni povezan« ali »Zapustil vozni park podjetja« in čas, njegovo vozilo in polpriklopnik ter koliko postavk »Izmene«, »Vožnje« in »Točenja« je prispelo v vozni park. Tapnite voznika — v kartici so njegove izmene, vožnje in točenja.\n\nNa my.vecturabook.com/fleet.html — enako, v tabelah: izmene (začetek in konec), vožnje (od kod, kam, začetek, prihod, čakanje, tovor, vozilo in polpriklopnik), točenja (čas, litri, gorivo — dizel, AdBlue ali agregat priklopnika, števec, vozilo).\n\nZapisi prispejo, ko ima voznikov telefon internet: aplikacija jih pošlje sama, »Pošlji v vozni park podjetja zdaj« v »Profil voznika« pa takoj. Voznik, ki je zapustil vozni park, ostane na seznamu z oznako »Zapustil vozni park podjetja«; vse, kar je poslal, ostane v voznem parku. Nova koda od vas ga vrne.",
+     "image": ""
+    },
+    {
+     "id": "subscription",
+     "title": "Brezplačni preizkus in naročnina",
+     "text": "Novi vozni park deluje 30 dni brezplačno; v preizkusnem obdobju je lahko poljubno število vozil. Na vrhu zaslona »Vozni park podjetja« in spletne strani voznega parka je prikazano stanje: »Brezplačni preizkus do … · preostalo dni: …«, po plačilu pa — »Aktivno do … · preostalo dni: …«.\n\nZa nakup: na zaslonu »Vozni park podjetja« tapnite »Naročnina za vozni park podjetja« → »Izberite paket«: »Do 3 vozil«, »Do 5 vozil« ali »Do 10 vozil« za »1 mesec«, »6 mesecev« ali »1 leto«. Paketi, manjši od števila vozil v garaži voznega parka, niso ponujeni. Cena je navedena v vrstici paketa, prikazuje jo trgovina; cene v evrih so na vecturabook.com. Plačate v aplikaciji prek Google Play v sistemu Android ali prek App Store v iPhonu. V različici iz RuStore: »Naročnino za vozni park podjetja lahko kupite v različici iz Google Play ali App Store.« Na my.vecturabook.com je naročnina vidna, vendar je tam ni mogoče kupiti.\n\nVeč kot 10 vozil — pišite na support@vecturabook.com. Naročnina je kupljena, telefon pa nov — »Obnovi nakupe«. Preklic naročnine — v Google Play ali App Store, tam, kjer je bila kupljena.",
+     "image": ""
+    },
+    {
+     "id": "unpaid",
+     "title": "Če je naročnina potekla",
+     "text": "Brez naročnine zaslon prikazuje »Zasloni voznega parka podjetja zahtevajo naročnino. Vozniki niso nikoli blokirani: nemoteno delajo naprej.« ali »Naročnina je potekla · zadnji dan …«. Vidna sta le »Naročnina za vozni park podjetja« in »Vozniki« z gumbom »Pridobi kodo« — da se lahko nov telefon voznika pridruži voznemu parku tudi brez plačila.\n\nVozniki delajo naprej kot običajno, njihove izmene, vožnje in točenja pa še naprej prihajajo v vozni park. Po plačilu so zasloni voznega parka znova odprti.\n\nVozil je več, kot jih krije paket: »Vozni park podjetja ima … vozil, paket pa krije do …. Izberite večji paket.«",
      "image": ""
     }
    ]

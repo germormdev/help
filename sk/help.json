@@ -1,7 +1,7 @@
 {
  "format": 1,
  "language": "sk",
- "revision": "2026-11-15",
+ "revision": "2026-11-28",
  "sections": [
   {
    "slug": "getting-started",
@@ -537,6 +537,61 @@
      "id": "owner-driver",
      "title": "Vodič",
      "text": "Klepnutím na vodiča otvoríte kartu. „Vozidlo“ a „Náves“: vyberte z garáže vozového parku a klepnite na „Uložiť“. Ponúkajú sa iba návesy, ktoré sa hodia k vybranému vozidlu. Telefón vodiča prevezme zmenu sám; počas jazdy — po skončení jazdy.\n\n„Získať kód“ vygeneruje jednorazový kód s časom, do kedy platí. „Poslať kód vodičovi“ odošle kód a odkaz cez messenger. Kód sa zobrazí iba raz. Nový kód presunie vodiča na nový telefón: starý telefón vozový park opustí.\n\nNižšie sú „Zmeny“, „Jazdy“ a „Tankovania“ vodiča, ktoré dorazili do vozového parku.\n\nKarta vodiča, ktorý odišiel, ukazuje „Opustil vozový park“ s časom. Nový kód od vás vodiča vráti.",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "slug": "fleet-company",
+   "title": "Vozový park pre dopravnú spoločnosť",
+   "intro": "Príručka pre majiteľa firmy: ako založiť vozový park, pridať vozidlá a vodičov, prepojiť telefóny vodičov a čo potom uvidíte v aplikácii a na my.vecturabook.com/fleet.html. Vodiči pracujú zadarmo; platí iba majiteľ vozového parku, prvých 30 dní je zadarmo.",
+   "steps": [
+    {
+     "id": "start",
+     "title": "Čo potrebujete",
+     "text": "Majiteľovi — účet VecturaBook (e-mailová adresa) a aplikácia VecturaBook v telefóne alebo prehliadač. Vozový park je ten istý v aplikácii aj na my.vecturabook.com/fleet.html: vozidlá, vodičov a kódy možno zadávať tam aj tam. Kúpiť predplatné a poslať kód cez messenger — iba v aplikácii.\n\nVodičovi — iba aplikácia VecturaBook v telefóne a kód od vás. Vlastný účet vodič pre vozový park nepotrebuje.\n\nJeden účet — jeden vozový park. Platí iba majiteľ; vodiči neplatia nikdy a predplatné ich prácu nezastaví.",
+     "image": ""
+    },
+    {
+     "id": "create",
+     "title": "Založiť vozový park",
+     "text": "V aplikácii: Nastavenia → „Profil vodiča“ → zapnite „Majiteľ / Zamestnanec“. Nižšie sa zobrazí riadok „Vozový park“ — klepnite naň. (Ten istý prepínač pridá v jazde pole „Cena“.)\n\nAk v telefóne nie ste prihlásení, na obrazovke sa zobrazí „Najprv sa prihláste do svojho účtu:“ — klepnite na „Pripojiť k VecturaBook“ a prihláste sa e-mailovou adresou svojho účtu.\n\nObrazovka „Založiť vozový park“: zadajte „Názov vozového parku“ a klepnite na „Založiť vozový park“. Riadok nad tlačidlom hovorí, čo bude: „Bezplatná skúšobná verzia: 30 dní.“ alebo „Tento účet už bezplatnú skúšobnú verziu mal: nový vozový park vyžaduje predplatné od prvého dňa.“\n\nV prehliadači: prihláste sa na my.vecturabook.com, otvorte „Nastavenia“ a klepnite na „Založiť vozový park“ — otvorí sa rovnaký formulár na my.vecturabook.com/fleet.html. Keď je vozový park založený, tento riadok sa nazýva „Vozový park“ a vedie na jeho stránku.",
+     "image": ""
+    },
+    {
+     "id": "garage",
+     "title": "Vozidlá a návesy",
+     "text": "„Môj park“ vozového parku — vozidlá a návesy, na ktorých jazdia vaši vodiči.\n\n„+ Pridať vozidlo“: „ŠPZ“, „Typ vozidla“ — „Ťahač“ alebo „Sólo“, pri sólo vozidle ešte „Typ nadstavby“. „+ Pridať náves“: „ŠPZ“, kompatibilita — „Náves“ alebo „Príves“ — a „Typ nadstavby“.\n\nPredplatné sa počíta podľa počtu vozidiel v garáži vozového parku; návesy sa nepočítajú. Odstrániť vozidlo z garáže vozového parku nemožno, preto zadávajte iba tie vozidlá, ktoré pracujú.",
+     "image": ""
+    },
+    {
+     "id": "drivers",
+     "title": "Vodiči",
+     "text": "V spodnej časti obrazovky „Vozový park“: zadajte „Meno vodiča“ a klepnite na „Pridať vodiča“ — otvorí sa karta vodiča.\n\nV karte vyberte „Vozidlo“ a „Náves“ z garáže vozového parku a klepnite na „Uložiť“. Ponúkajú sa iba návesy, ktoré sa hodia k vybranému vozidlu. Na my.vecturabook.com/fleet.html sa vozidlo a náves vyberajú priamo v riadku vodiča a ukladajú sa hneď.\n\nVozidlo a náves možno kedykoľvek zmeniť: telefón vodiča prevezme zmenu sám a počas jazdy — po skončení jazdy.",
+     "image": ""
+    },
+    {
+     "id": "link",
+     "title": "Prepojiť telefón vodiča",
+     "text": "V karte vodiča klepnite na „Získať kód“. Kód z 8 znakov platí 72 hodín a iba jedenkrát; zobrazí sa iba raz. „Poslať kód vodičovi“ odošle kód a odkaz cez messenger. Na my.vecturabook.com/fleet.html je tlačidlo „Získať kód“ v riadku vodiča, kód a odkaz sa zobrazujú pod zoznamom.\n\nVodič si nainštaluje VecturaBook a pri prvom spustení klepne na „Jazdím pre vozový park — zadať kód“ (neskôr: Nastavenia → „Profil vodiča“ → „Pripojiť sa k vozovému parku kódom“), zadá kód a klepne na „Pripojiť sa k vozovému parku“. Odkaz stačí aj jednoducho otvoriť v telefóne — kód sa vyplní sám. V telefóne sa objaví denník vozového parku s vozidlom a návesom, ktoré ste priradili; „Môj denník“ vodiča zostáva jeho vlastný a do vozového parku neodchádza.\n\nV zozname má vodič „Prepojený“ alebo „Zatiaľ neprepojený“. Ak kód vypršal alebo sa stratil — klepnite na „Získať kód“ znova: nový kód zruší ten predchádzajúci. Nový telefón vodiča — tiež novým kódom; starý telefón pritom vozový park opustí.",
+     "image": ""
+    },
+    {
+     "id": "watch",
+     "title": "Čo vidí majiteľ",
+     "text": "Zoznam „Vodiči“: pri každom „Prepojený“, „Zatiaľ neprepojený“ alebo „Opustil vozový park“ a čas, jeho vozidlo a náves a koľko „Zmeny“, „Jazdy“ a „Tankovania“ dorazilo do vozového parku. Klepnite na vodiča — v karte uvidíte jeho zmeny, jazdy a tankovania.\n\nNa my.vecturabook.com/fleet.html — to isté formou tabuliek: zmeny (začiatok a koniec), jazdy (odkiaľ, kam, začiatok, príjazd, čakanie, náklad, vozidlo a náves), tankovania (čas, litre, palivo — nafta, AdBlue alebo agregát návesu, tachometer, vozidlo).\n\nZáznamy prichádzajú, keď má telefón vodiča internet: aplikácia ich odosiela sama a „Odoslať do vozového parku teraz“ v „Profil vodiča“ — hneď. Vodič, ktorý opustil vozový park, zostáva v zozname s označením „Opustil vozový park“; všetko, čo odoslal, zostáva vo vozovom parku. Nový kód od vás ho vráti.",
+     "image": ""
+    },
+    {
+     "id": "subscription",
+     "title": "Skúšobné obdobie a predplatné",
+     "text": "Nový vozový park funguje 30 dní zadarmo; v skúšobnom období môže byť vozidiel ľubovoľný počet. V hornej časti obrazovky „Vozový park“ a stránky vozového parku je stav: „Bezplatná skúšobná verzia do … · zostáva dní: …“, po zaplatení — „Aktívne do … · zostáva dní: …“.\n\nKúpa: na obrazovke „Vozový park“ klepnite na „Predplatné pre Vozový park“ → „Vyberte si plán“: „Až 3 vozidiel“, „Až 5 vozidiel“ alebo „Až 10 vozidiel“ na „1 mesiac“, „6 mesiacov“ alebo „1 rok“. Plány pre menej vozidiel, než je počet vozidiel v garáži vozového parku, sa neponúkajú. Cena je v riadku plánu, zobrazuje ju obchod; ceny v eurách sú na vecturabook.com. Platíte v aplikácii cez Google Play na Androide alebo cez App Store na iPhone. Vo verzii z RuStore: „Predplatné pre Vozový park si môžete kúpiť vo verzii z Google Play alebo App Store.“ Na my.vecturabook.com predplatné vidno, ale kúpiť sa tam nedá.\n\nViac ako 10 vozidiel — napíšte na support@vecturabook.com. Ak je predplatné kúpené, no telefón je nový — „Obnoviť nákupy“. Zrušenie predplatného — v Google Play alebo App Store, tam, kde bolo kúpené.",
+     "image": ""
+    },
+    {
+     "id": "unpaid",
+     "title": "Ak sa predplatné skončilo",
+     "text": "Bez predplatného obrazovka zobrazuje „Funkcie vozového parku vyžadujú predplatné. Vodiči nie sú nikdy blokovaní: pokračujú v práci.“ alebo „Predplatné vypršalo · posledný deň …“. Viditeľné sú iba „Predplatné pre Vozový park“ a „Vodiči“ s „Získať kód“ — aby sa nový telefón vodiča mohol pripojiť k vozovému parku aj bez platby.\n\nVodiči pracujú ďalej ako zvyčajne, ich zmeny, jazdy a tankovania naďalej prichádzajú do vozového parku. Po zaplatení sú obrazovky vozového parku opäť prístupné.\n\nVozidiel je viac, než pokrýva plán: „Vozový park má … vozidiel, plán pokrýva najviac …. Vyberte si vyšší plán.“",
      "image": ""
     }
    ]
